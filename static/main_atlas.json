@@ -4,7 +4,7 @@
 		, "label": "A node"
 		, "x": 0
 		, "y": 0
-		, "size": 10
+		, "size": 1
 		, "type": "circle_border"
 		, "image":
 			{ "url": "images/nodes/green.png"
@@ -14,8 +14,8 @@
 		{ "id": "n1"
 		, "label": "Another node"
 		, "x": 0
-		, "y": 1
-		, "size": 10
+		, "y": 0.1
+		, "size": 1
 		, "type": "circle_border"
 		, "image":
 			{ "url": "images/nodes/green.png"
@@ -24,9 +24,9 @@
 	,
 		{ "id": "n2"
 		, "label": "And a last one"
-		, "x": 1
+		, "x": 0.1
 		, "y": 0
-		, "size": 10
+		, "size": 1
 		, "type": "circle_border"
 		, "image":
 			{ "url": "images/nodes/green.png"
