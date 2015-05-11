@@ -1,15 +1,33 @@
-sigma.parsers.json(
-	'static/main_atlas.json',
-	{ renderer:
-		{ container: document.getElementById('sigma-container')
-		, type: 'canvas'
+var images_url;
+var loaded = 0;
+
+images_url =
+	[ "images/node/green.png"
+	];
+
+function init_graph() {
+	sigma.parsers.json(
+		'static/main_atlas.json',
+		{ renderer:
+			{ container: document.getElementById('sigma-container')
+			, type: 'canvas'
+			}
+		, settings:
+			{ defaultNodeColor: '#ffffff'
+			}
+		},
+		function(s) {
+			CustomShapes.init(s);
+			s.refresh();
 		}
-	, settings:
-		{ defaultNodeColor: '#ffffff'
+	);
+}
+
+for (var i = images.length; i--; ) {
+	sigma.canvas.nodes.image.cache(images_url[i],
+		funtion() {
+			if (++loaded === images.length) {
+				init_graph();
+			}
 		}
-	},
-	function(s) {
-		CustomShapes.init(s);
-		s.refresh();
-	}
-);
+}
