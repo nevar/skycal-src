@@ -23,11 +23,11 @@ function init_graph() {
 	);
 }
 
-for (var i = images.length; i--; ) {
+for (var i = images_url.length; i--; ) {
 	sigma.canvas.nodes.image.cache(
 		images_url[i],
 		function() {
-			if (++loaded === images.length) {
+			if (++loaded === images_url.length) {
 				init_graph();
 			}
 		});
