@@ -6,7 +6,7 @@
 		, "y": 0
 		, "size": 2
 		, "type": "circle"
-		, "img": "images/node/green.png"
+		, "image": "images/node/green.png"
 		}
 	,
 		{ "id": "n1"
@@ -15,7 +15,7 @@
 		, "y": 1
 		, "size": 2
 		, "type": "circle"
-		, "img": "images/node/green.png"
+		, "image": "images/node/green.png"
 		}
 	,
 		{ "id": "n2"
@@ -24,7 +24,7 @@
 		, "y": 3
 		, "size": 1
 		, "type": "circle"
-		, "img": "images/node/green.png"
+		, "image": "images/node/green.png"
 		}
 	]
 , "edges":
