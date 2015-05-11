@@ -15,7 +15,6 @@ sigma.parsers.json(
 		}
 	, settings:
 		{ defaultNodeColor: '#ffffff'
-		, drawNodes: false
 		}
 	},
 	function(s) {
