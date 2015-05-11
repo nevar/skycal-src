@@ -1,7 +1,7 @@
 sigma.parsers.json(
 	'static/main_atlas.json',
 	{ renderer:
-		{ container: 'sigma-container'
+		{ container: document.getElementById('sigma-container')
 		, type: 'canvas'
 		}
 	, settings:
