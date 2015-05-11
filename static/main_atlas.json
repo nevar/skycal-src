@@ -5,7 +5,7 @@
 		, "x": 0
 		, "y": 0
 		, "size": 10
-		, "type": "circle"
+		, "type": "circle_border"
 		, "image":
 			{ "url": "images/nodes/green.png"
 			}
@@ -16,7 +16,7 @@
 		, "x": 0
 		, "y": 1
 		, "size": 10
-		, "type": "circle"
+		, "type": "circle_border"
 		, "image":
 			{ "url": "images/nodes/green.png"
 			}
@@ -27,7 +27,7 @@
 		, "x": 1
 		, "y": 0
 		, "size": 10
-		, "type": "circle"
+		, "type": "circle_border"
 		, "image":
 			{ "url": "images/nodes/green.png"
 			}
