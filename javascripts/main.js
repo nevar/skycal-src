@@ -1,6 +1,7 @@
 sigma.parsers.json(
 	'static/main_atlas.json',
 	{ container: 'sigma-container'
+	, type: 'canvas'
 	, settings:
 		{ defaultNodeColor: '#ffffff'
 		}
