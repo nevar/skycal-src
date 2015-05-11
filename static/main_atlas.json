@@ -7,7 +7,7 @@
 		, "size": 2
 		, "type": "circle"
 		, "image":
-			{ "url": "images/node/green.png"
+			{ "url": "images/nodes/green.png"
 			}
 		}
 	,
@@ -18,7 +18,7 @@
 		, "size": 2
 		, "type": "circle"
 		, "image":
-			{ "url": "images/node/green.png"
+			{ "url": "images/nodes/green.png"
 			}
 		}
 	,
@@ -29,7 +29,7 @@
 		, "size": 1
 		, "type": "circle"
 		, "image":
-			{ "url": "images/node/green.png"
+			{ "url": "images/nodes/green.png"
 			}
 		}
 	]
