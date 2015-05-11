@@ -1,8 +1,9 @@
-sigma.renderers.def = 'canvas';
-
 sigma.parsers.json(
 	'static/main_atlas.json',
-	{ container: 'sigma-container'
+	{ renderer:
+		{ container: 'sigma-container'
+		, type: 'canvas'
+		}
 	, settings:
 		{ defaultNodeColor: '#ffffff'
 		}
