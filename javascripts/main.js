@@ -26,7 +26,7 @@ function init_graph() {
 for (var i = images.length; i--; ) {
 	sigma.canvas.nodes.image.cache(
 		images_url[i],
-		funtion() {
+		function() {
 			if (++loaded === images.length) {
 				init_graph();
 			}
