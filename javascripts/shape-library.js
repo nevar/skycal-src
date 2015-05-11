@@ -60,6 +60,7 @@
     context.arc(x,y,size,0,Math.PI*2,true);
   }
   register("circle",genericDrawShape(drawCircle),genericDrawBorder(drawCircle));
+  register("circle_border",null,genericDrawBorder(drawCircle));
 
   var drawDiamond = function(node,x,y,size,context) {
     context.moveTo(x-size, y);
