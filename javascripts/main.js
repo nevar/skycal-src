@@ -8,5 +8,7 @@ sigma.parsers.json(
       }
     },
   function(s) {
+    CustomShapes.init(s);
+	s.refresh();
   }
 );
