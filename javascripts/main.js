@@ -154,7 +154,18 @@ function renderTitle(node) {
 	}
 	if (node.hasClass('vit')) {
 		title = '<img width="25" src="images/nodes/vit.png"></img> Бонус: Выносливость';
-
+	}
+	if (node.hasClass('power')) {
+		title = '<img width="25" src="images/nodes/power.png"></img> Бонус: Могущество';
+	}
+	if (node.hasClass('spirit')) {
+		title = '<img width="25" src="images/nodes/spirit.png"></img> Бонус: Дух';
+	}
+	if (node.hasClass('strength')) {
+		title = '<img width="25" src="images/nodes/str.png"></img> Бонус: Сила';
+	}
+	if (node.hasClass('luck')) {
+		title = '<img width="25" src="images/nodes/luck.png"></img> Бонус: Удача';
 	}
 	return '<div class="tooltip-title">' + title + '</div>';
 }
@@ -178,6 +189,21 @@ function renderText(node) {
 			'<div class="stat">Могущество<span>' + node.data('power') +'</span></div><br/>' +
 			'<div class="stat">Сноровка<span>' + node.data('dex') +'</span></div>' +
 			'<p>Увеличивает базовый урон.</p>';
+	}
+	if (node.hasClass('spirit')) {
+		text +=
+			'<div class="stat">Дух<span>' + node.data('spirit') +'</span></div><br/>' +
+			'<p>Увеличивает импульсный урон.</p>';
+	}
+	if (node.hasClass('strength')) {
+		text +=
+			'<div class="stat">Сила<span>' + node.data('str') +'</span></div><br/>' +
+			'<p>Увеличивает максимальную границу базового урона.</p>';
+	}
+	if (node.hasClass('luck')) {
+		text +=
+			'<div class="stat">Удача<span>' + node.data('luck') +'</span></div><br/>' +
+			'<p>Увеличивает критический урон.</p>';
 	}
 	return text;
 }
