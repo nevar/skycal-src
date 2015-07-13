@@ -220,7 +220,7 @@ cy.on('tapdragover', 'node', function(evt) {
 			, text: renderText(target)
 			}
 		, show:
-			{ delay: 0
+			{ delay: 300
 			, event: false
 			, ready: true
 			, effect: false
