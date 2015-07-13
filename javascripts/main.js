@@ -161,6 +161,7 @@ function renderTitle(node) {
 
 function renderText(node) {
 	var text = '';
+
 	if (node.data('prestige')) {
 		text +=
 			'<div class="stat"><img width="25" src="images/prestige.png"></img> +' +
@@ -171,6 +172,12 @@ function renderText(node) {
 			'<div class="stat">Выносливость<span>' + node.data('vit') +'</span></div><br/>' +
 			'<div class="stat">Сноровка<span>' + node.data('dex') +'</span></div>' +
 			'<p>Увеличивает максимальный запас здоровья.</p>';
+	}
+	if (node.hasClass('power')) {
+		text +=
+			'<div class="stat">Могущество<span>' + node.data('power') +'</span></div><br/>' +
+			'<div class="stat">Сноровка<span>' + node.data('dex') +'</span></div>' +
+			'<p>Увеличивает базовый урон.</p>';
 	}
 	return text;
 }
