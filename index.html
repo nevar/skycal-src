@@ -5,34 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.css" media="screen">
 
     <title>Skycal by nevar</title>
   </head>
 
   <body>
-
-    <header>
-      <div class="header-container">
-        <h1>Skycal</h1>
-        <h2>Skyforge calculator</h2>
-      </div>
-    </header>
-
     <div class="container">
-      <section id="main_content">
-        <div id="sigma-container"></div>
-        <script src="http://sigmajs.org/assets/js/sigma.min.js"></script>
-        <script src="javascripts/sigma.parsers.json.js"></script>
-
-        <script src="javascripts/sigma.pluggins.animate.js"></script>
-
-        <script src="javascripts/shape-library.js"></script>
-        <script src="javascripts/sigma.renderers.customShapes.js"></script>
-
+        <div id="atlas"></div>
+		<div id="total-stat">
+			<p>Выносливость: 32324</p>
+		</div>
+		<div id='need'>
+			<table>
+			<tbody>
+				<tr>
+					<td>Надо:</td>
+					<td><div id='need_red'>0</div></td>
+					<td rowspan="2">!</td>
+					<td><div id='need_green'>0</div></td>
+					<td rowspan="2">@</td>
+					<td><div id='need_blue'>0</div></td>
+					<td rowspan="2">#</td>
+				</tr>
+				<tr>
+					<td>Использовано:</td>
+					<td><div id='used_red'>0</div></td>
+					<td><div id='used_green'>0</div></td>
+					<td><div id='used_blue'>0</div></td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+		<div id='box'></div>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>
+        <script src="javascripts/cytoscape.min.js"></script>
+        <script src="javascripts/main_atlas.js"></script>
         <script src="javascripts/main.js"></script>
-      </section>
     </div>
-
   </body>
 </html>
