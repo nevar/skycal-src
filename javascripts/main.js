@@ -163,7 +163,7 @@ function renderText(node) {
 	var text = '';
 	if (node.data('prestige')) {
 		text +=
-			'<div class="stat"><img width="25" src="images/nodes/prestige.png"></img> +' +
+			'<div class="stat"><img width="25" src="images/prestige.png"></img> +' +
 			node.data('prestige') + '</div><br/>';
 	}
 	if (node.hasClass('vit')) {
