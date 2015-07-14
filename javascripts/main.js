@@ -63,7 +63,7 @@ cy.on('tap', function(evt) {
 		}
 	}
 	if (near) {
-		resource = node.data('need');
+		resource = node.data('need') || {};
 		node.addClass('open');
 		if (node.hasClass('foundPath')) {
 			node.removeClass('foundPath');
@@ -118,8 +118,10 @@ cy.on('cxttap', function(evt) {
 			, heuristic: function (node) {
 				var position = node.position(),
 					dx = position.x - targetX,
-					dy = position.y - targetY;
-				return (node.data('weight') * 10000 || 0) + dx * dx + dy * dy;
+					dy = position.y - targetY,
+					need = node.data('need') || {},
+					weight = need.blue || 0 + need.red || 0 + need.green || 0;
+				return (weight * 10000 || 0) + dx * dx + dy * dy;
 			}
 		});
 		if (aStar.found && foundPath.distance > aStar.distance) {
@@ -131,7 +133,7 @@ cy.on('cxttap', function(evt) {
 		foundPath.addClass('foundPath');
 		for (var i = foundPath.length; i--; ) {
 			if (foundPath[i].isNode()) {
-				need = foundPath[i].data('need');
+				need = foundPath[i].data('need') || {};
 				blue += need.blue || 0;
 				red += need.red || 0;
 				green += need.green || 0;
@@ -171,7 +173,7 @@ function renderTitle(node) {
 }
 
 function renderText(node) {
-	var text = '';
+	var text = '', need = node.data('need') || {};
 
 	if (node.data('prestige')) {
 		text +=
