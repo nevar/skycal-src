@@ -33,7 +33,7 @@ function init() {
 			'.strength {background-image:images/nodes/str.png;}' +
 			'.luck {background-image:images/nodes/luck.png;}' +
 			'.spirit {background-image:images/nodes/spirit.png;}' +
-			'.valor {background-image:images/nodes/val.png;}'
+			'.valor {background-image:images/nodes/valor.png;}'
 		, autolock: true
 		, autoungrabify: true
 		});
@@ -169,6 +169,9 @@ function renderTitle(node) {
 	if (node.hasClass('luck')) {
 		title = '<img width="25" src="images/nodes/luck.png"></img> Бонус: Удача';
 	}
+	if (node.hasClass('valor')) {
+		title = '<img width="25" src="images/nodes/valor.png"></img> Бонус: Отвага';
+	}
 	return '<div class="tooltip-title">' + title + '</div>';
 }
 
@@ -206,6 +209,11 @@ function renderText(node) {
 		text +=
 			'<div class="stat">Удача<span>' + node.data('luck') +'</span></div><br/>' +
 			'<p>Увеличивает критический урон.</p>';
+	}
+	if (node.hasClass('valor')) {
+		text +=
+			'<div class="stat">Отвага<span>' + node.data('valor') +'</span></div><br/>' +
+			'<p>Увеличивает дополнительный урон.</p>';
 	}
 	return text;
 }
