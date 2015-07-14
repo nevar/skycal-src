@@ -520,10 +520,10 @@ var nodesData =
 	,
 		{ data:
 			{ id: 'n50'
-			, prestige: 12
-			, vit: 12
-			, dex: 5
-			, need: {green: 125}
+			, prestige: 16
+			, vit: 16
+			, dex: 6
+			, need: {green: 155}
 			}
 		, position: {x: 365, y: -60}
 		, classes: 'stat image vit'
@@ -531,31 +531,31 @@ var nodesData =
 	,
 		{ data:
 			{ id: 'n51'
-			, prestige: 6
-			, power: 6
-			, dex: 4
-			, need: {red: 95}
+			, prestige: 10
+			, luck: 10
+			, need: {blue: 125}
 			}
 		, position: {x: 400, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat image luck'
 		}
 	,
 		{ data:
 			{ id: 'n52'
-			, prestige: 7
-			, spirit: 7
-			, need: {blue: 95}
-			}
-		, position: {x: 460, y: -110}
-		, classes: 'stat image spirit'
-		}
-	,
-		{ data:
-			{ id: 'n53'
 			, prestige: 9
 			, power: 9
 			, dex: 5
 			, need: {red: 125}
+			}
+		, position: {x: 460, y: -110}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n53'
+			, prestige: 6
+			, power: 6
+			, dex: 4
+			, need: {red: 95}
 			}
 		, position: {x: 520, y: -110}
 		, classes: 'stat image power'
@@ -563,20 +563,19 @@ var nodesData =
 	,
 		{ data:
 			{ id: 'n54'
-			, prestige: 6
-			, power: 6
-			, dex: 4
-			, need: {red: 95}
+			, prestige: 7
+			, str: 7
+			, need: {blue: 95}
 			}
 		, position: {x: 325, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat image strength'
 		}
 	,
 		{ data:
 			{ id: 'n55'
-			, prestige: 12
-			, vit: 12
-			, dex: 5
+			, prestige: 8
+			, vit: 8
+			, dex: 4
 			, need: {green: 125}
 			}
 		, position: {x: 364, y: 60}
