@@ -17,16 +17,23 @@ function init() {
 			}
 		, layout: {name: 'preset'}
 		, style:
-			'edge[target = "n3"],edge[target = "n4"] {curve-style:unbundled-bezier;control-point-distance:25;control-point-weight:0.5;}' +
+			'edge[target = "n3"],edge[target = "n4"],edge[target = "n35"],' +
+			'edge[target = "n36"]{' +
+				'curve-style:unbundled-bezier;' +
+				'control-point-distance: 30;' +
+				'control-point-weight:0.5;' +
+				'}' +
+			'edge[target = "n20"],edge[target = "n19"] {curve-style:unbundled-bezier;control-point-distance:-30;control-point-weight:0.5;}' +
 			'.class {width:50;height:50;}' +
 			'.stat {width:30;height:30;}' +
-			'.skill {width:20;height:20;}' +
+			'.skill {width:50;height:50;}' +
 			'.open {border-width:1;border-color:yellow;line-color:yellow;}' +
 			'.foundPath {border-width:1;border-color:blue;border-style:dashed;line-style:dashed;line-color:blue;}' +
 			'.image {background-fit:cover;background-opacity:0;}' +
 
 			'.krio {background-image:images/nodes/krio.png;}' +
 			'.paladin {background-image:images/nodes/paladin.png;}' +
+			'.light_keeper {background-image:images/nodes/LK.png;}' +
 
 			'.power {background-image:images/nodes/power.png;}' +
 			'.vit {background-image:images/nodes/vit.png;}' +
