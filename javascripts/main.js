@@ -18,12 +18,15 @@ function init() {
 		, layout: {name: 'preset'}
 		, style:
 			'edge[target = "n3"],edge[target = "n4"],edge[target = "n35"],' +
-			'edge[target = "n36"]{' +
+			'edge[target = "n36"],edge[target = "n67"]' +
+			'{' +
 				'curve-style:unbundled-bezier;' +
 				'control-point-distance: 30;' +
 				'control-point-weight:0.5;' +
 				'}' +
-			'edge[target = "n20"],edge[target = "n19"] {curve-style:unbundled-bezier;control-point-distance:-30;control-point-weight:0.5;}' +
+			'edge[target = "n20"],edge[target = "n19"],edge[target = "n94"],' +
+			'edge[target = "n101"],edge[target = "n98"]'+
+			'{curve-style:unbundled-bezier;control-point-distance:-30;control-point-weight:0.5;}' +
 			'.class {width:50;height:50;}' +
 			'.stat {width:30;height:30;}' +
 			'.skill {width:50;height:50;}' +
@@ -40,7 +43,8 @@ function init() {
 			'.strength {background-image:images/nodes/str.png;}' +
 			'.luck {background-image:images/nodes/luck.png;}' +
 			'.spirit {background-image:images/nodes/spirit.png;}' +
-			'.valor {background-image:images/nodes/valor.png;}'
+			'.valor {background-image:images/nodes/valor.png;}' +
+			'.majesty {background-image:images/nodes/majesty.png;}'
 		, autolock: true
 		, autoungrabify: true
 		});
@@ -179,6 +183,9 @@ function renderTitle(node) {
 	if (node.hasClass('valor')) {
 		title = '<img width="25" src="images/nodes/valor.png"></img> Бонус: Отвага';
 	}
+	if (node.hasClass('majesty')) {
+		title = '<img width="25" src="images/nodes/majesty.png"></img> Бонус: Величие';
+	}
 	return '<div class="tooltip-title">' + title + '</div>';
 }
 
@@ -222,6 +229,12 @@ function renderText(node) {
 			'<div class="stat">Отвага<span>' + node.data('valor') +'</span></div><br/>' +
 			'<p>Увеличивает дополнительный урон.</p>';
 	}
+	if (node.hasClass('majesty')) {
+		text +=
+			'<div class="stat">Величие<span>' + node.data('majesty') +'</span></div><br/>' +
+			'<p>Позволяет возводить величественные храмы в провинциях Элиона, ' +
+			'в которых распространено влияние культа.</p>';
+	}
 	text += '<div class="cost">Стоймость<span>';
 	if (need.green) {
 		text += '<img width="20" src="images/spark/green.png"></img> ' + need.green;
@@ -233,6 +246,8 @@ function renderText(node) {
 		text += '<img width="20" src="images/spark/red.png"></img> ' + need.red;
 	}
 	text += '</span></div>';
+	text += node.data('id') + '<br/>';
+	text += node.position().x + ' ' + node.position().y;
 	return text;
 }
 
