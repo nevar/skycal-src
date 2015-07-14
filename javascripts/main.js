@@ -187,7 +187,7 @@ function renderText(node) {
 
 	if (node.data('prestige')) {
 		text +=
-			'<div class="stat"><img width="25" src="images/prestige.png"></img> +' +
+			'<div class="stat"><img width="25" src="images/prestige.png"></img> + ' +
 			node.data('prestige') + '</div><br/>';
 	}
 	if (node.hasClass('vit')) {
@@ -222,6 +222,17 @@ function renderText(node) {
 			'<div class="stat">Отвага<span>' + node.data('valor') +'</span></div><br/>' +
 			'<p>Увеличивает дополнительный урон.</p>';
 	}
+	text += '<div class="cost">Стоймость<span>';
+	if (need.green) {
+		text += '<img width="20" src="images/spark/green.png"></img> ' + need.green;
+	}
+	if (need.blue) {
+		text += '<img width="20" src="images/spark/blue.png"></img> ' + need.blue;
+	}
+	if (need.red) {
+		text += '<img width="20" src="images/spark/red.png"></img> ' + need.red;
+	}
+	text += '</span></div>';
 	return text;
 }
 

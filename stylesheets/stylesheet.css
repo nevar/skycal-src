@@ -271,6 +271,15 @@ html, body {
 	margin-left: 10px;
 }
 
+.cost img {
+	vertical-align: middle;
+}
+
+.cost span {
+	float: right;
+	margin-left: 10px;
+}
+
 .stat {
 	background-color: grey;
 	padding: 5px;
