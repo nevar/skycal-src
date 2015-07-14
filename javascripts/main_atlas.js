@@ -363,7 +363,7 @@ var nodesData =
 			, prestige: 12
 			, vit: 12
 			, dex: 5
-			, need: {blue: 125}
+			, need: {green: 125}
 			}
 		, position: {x: 282, y: 300}
 		, classes: 'stat image vit'
