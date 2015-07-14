@@ -128,7 +128,7 @@ cy.on('cxttap', function(evt) {
 					dy = position.y - targetY,
 					need = node.data('need') || {},
 					weight = need.blue || 0 + need.red || 0 + need.green || 0;
-				return (weight * 10000 || 0) + dx * dx + dy * dy;
+				return (weight * 10000 || 0) + (dx * dx + dy * dy) / 1000;
 			}
 		});
 		if (aStar.found && foundPath.distance > aStar.distance) {
