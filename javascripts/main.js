@@ -4,7 +4,8 @@ var cy,
 	red = 0,
 	used_blue = 0,
 	used_green = 0,
-	used_red = 0;
+	used_red = 0,
+	tempPath;
 
 function init() {
 	var container = document.getElementById('atlas');
@@ -99,6 +100,48 @@ function updateNeed() {
 	document.getElementById('need_total').innerHTML = red + blue + green;
 }
 
+function foundPath(to, excludeNode, useNode) {
+	var graphWithouOpen, position, from, aStar;
+	var start;
+	var helpSearch =
+		[
+			{ group: 'nodes'
+			, data: {id: 'startSearch'}
+			, position: {x: 0, y: 0}
+			}
+		];
+
+	position = to.position();
+	targetX = position.x;
+	targetY = position.y;
+	from = cy.elements('node' + excludeNode).neighborhood('node' + useNode);
+	for (var i = 0, l = from.length; i < l; i++) {
+		helpSearch.push(
+			{ group: 'edges'
+			, data:
+				{ source: 'startSearch'
+				, target: from[i].id()
+				}
+			}
+		);
+	}
+	helpSearch = cy.add(helpSearch);
+	aStar = cy.elements(useNode).aStar({root: '#startSearch', goal: to
+		, weight: function (edge) {
+			var sourceNeed = edge.source().data('need') || {};
+			var targetNeed = edge.target().data('need') || {};
+			var weight;
+			weight =
+				sourceNeed.blue || 0 + sourceNeed.red || 0 +
+				sourceNeed.green || 0 + targetNeed.blue || 0 +
+				targetNeed.red || 0 + targetNeed.green || 0;
+			return weight;
+		}
+	});
+	cy.remove(helpSearch);
+	return aStar;
+}
+
 cy.on('cxttap', function(evt) {
 	var goal,
 		position,
@@ -114,7 +157,7 @@ cy.on('cxttap', function(evt) {
 	if (evt.cy === goal) {
 		return;
 	}
-	if (goal.hasClass('open')) {
+	if (goal.data('open')) {
 		return;
 	}
 	oldPath = cy.elements('.foundPath');
@@ -159,6 +202,9 @@ cy.on('cxttap', function(evt) {
 
 cy.on('tapdragout', 'node', function(evt) {
 	$("#box").qtip('destroy');
+	if (tempPath && tempPath.path) {
+		tempPath.path.removeClass('want');
+	}
 });
 
 function renderTitle(node) {
@@ -259,6 +305,9 @@ cy.on('tapdragover', 'node', function(evt) {
 	var x = renderedPosition.x;
 	var y = renderedPosition.y;
 
+	if (evt.cy === evt.cyTarget && targer.isNode()) {
+		return;
+	}
 	$("#box").qtip(
 		{ content:
 			{ title: renderTitle(target)
@@ -281,4 +330,11 @@ cy.on('tapdragover', 'node', function(evt) {
 			, tip: {corner: false}
 			}
 		});
+	if (target.hasClass('open')) {
+		return;
+	}
+	tempPath = foundPath(target, '[?open]', '[!open]');
+	if (tempPath.found) {
+		tempPath.path.addClass('want');
+	}
 });
