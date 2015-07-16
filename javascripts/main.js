@@ -56,6 +56,7 @@ function updateUsed() {
 	document.getElementById('used_red').innerHTML = used_red;
 	document.getElementById('used_blue').innerHTML = used_blue;
 	document.getElementById('used_green').innerHTML = used_green;
+	document.getElementById('used_total').innerHTML = used_red + used_blue + used_green;
 }
 
 cy.on('tap', function(evt) {
@@ -95,6 +96,7 @@ function updateNeed() {
 	document.getElementById('need_red').innerHTML = red;
 	document.getElementById('need_blue').innerHTML = blue;
 	document.getElementById('need_green').innerHTML = green;
+	document.getElementById('need_total').innerHTML = red + blue + green;
 }
 
 cy.on('cxttap', function(evt) {
