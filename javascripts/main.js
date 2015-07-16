@@ -19,20 +19,34 @@ function init() {
 		, layout: {name: 'preset'}
 		, style:
 			'edge[target = "n3"],edge[target = "n4"],edge[target = "n35"],' +
-			'edge[target = "n36"],edge[target = "n67"]' +
-			'{' +
+			'edge[target = "n36"],edge[target = "n67"],edge[target = "n114"],' +
+			'edge[target = "n136"],edge[target = "n137"],' +
+			'edge[target = "n159"],edge[target = "n169"],' +
+			'edge[target = "n170"],edge[target = "n175"],' +
+			'edge[target = "n171"],edge[target = "n172"]'+
+				'{' +
 				'curve-style:unbundled-bezier;' +
 				'control-point-distance: 30;' +
 				'control-point-weight:0.5;' +
 				'}' +
 			'edge[target = "n20"],edge[target = "n19"],edge[target = "n94"],' +
-			'edge[target = "n101"],edge[target = "n98"]'+
-			'{curve-style:unbundled-bezier;control-point-distance:-30;control-point-weight:0.5;}' +
+			'edge[target = "n101"],edge[target = "n98"],' +
+			'edge[target = "n160"],edge[target = "n155"],'+
+			'edge[target = "n173"]'+
+				'{' +
+				'curve-style:unbundled-bezier;' +
+				'control-point-distance:-30;' +
+				'control-point-weight:0.5;' +
+				'}' +
 			'.class {width:50;height:50;}' +
 			'.stat {width:30;height:30;}' +
 			'.skill {width:50;height:50;}' +
-			'.open {border-width:1;border-color:yellow;line-color:yellow;}' +
-			'.foundPath {border-width:1;border-color:blue;border-style:dashed;line-style:dashed;line-color:blue;}' +
+			'.want {border-width:3;border-color:yellow;}' +
+			'edge.want {width:3;line-color:yellow;line-style:dashed;}' +
+			'.open {border-width:1;border-color:yellow;}' +
+			'edge.open {width:1;line-color:yellow;}' +
+			'.foundPath {border-width:3;border-color:#0066CC;border-style:dashed;}' +
+			'edge.foundPath {width:3;line-style:dashed;line-color:#0066CC;}' +
 			'.image {background-fit:cover;background-opacity:0;}' +
 
 			'.krio {background-image:images/nodes/krio.png;}' +
