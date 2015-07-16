@@ -61,36 +61,42 @@ function updateUsed() {
 }
 
 cy.on('tap', function(evt) {
-	var node, neighborhood, near = false, resource;
+	var node, resource, openPath;
 
 	if (evt.cy === evt.cyTarget) {
 		return;
 	}
 	node = evt.cyTarget;
-	cy.startBatch();
-	neighborhood = node.neighborhood();
-	for (var i = neighborhood.length - 1; i > 0; i -= 2) {
-		if (neighborhood[i - 1].hasClass('open')) {
-			neighborhood[i].addClass('open').removeClass('foundPath');
-			near = true;
-		}
-	}
-	if (near) {
-		resource = node.data('need') || {};
-		node.addClass('open');
-		if (node.hasClass('foundPath')) {
-			node.removeClass('foundPath');
-			blue -= resource.blue || 0;
-			red -= resource.red || 0;
-			green -= resource.green || 0;
+
+	if (node.hasClass('open')) {
+		// TODO: unopen
+		return;
+	} else {
+		openPath = foundPath(node, '[?open]', '[!open]');
+		cy.startBatch();
+		if (openPath.found) {
+			openPath = openPath.path;
+			openPath.removeClass('foundPath want').addClass('open');
+			openPath[2].connectedEdges().filter(function(i, ele) {
+				return ele.source().data('open') || ele.target().data('open');
+			}).removeClass('foundPath want').addClass('open');
+			for (var i = 0, l = openPath.length; i < l; i++) {
+				openPath[i].data('open', true);
+				resource = openPath[i].data('need') || {};
+				if (openPath[i].hasClass('foundPath')) {
+					blue -= resource.blue || 0;
+					red -= resource.red || 0;
+					green -= resource.green || 0;
+				}
+				used_blue += resource.blue || 0;
+				used_red += resource.red || 0;
+				used_green += resource.green || 0;
+			}
 			updateNeed();
+			updateUsed();
 		}
-		used_blue += resource.blue || 0;
-		used_red += resource.red || 0;
-		used_green += resource.green || 0;
-		updateUsed();
+		cy.endBatch();
 	}
-	cy.endBatch();
 });
 
 function updateNeed() {
