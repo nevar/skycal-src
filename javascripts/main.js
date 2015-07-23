@@ -40,7 +40,8 @@ function init() {
 			'edge[target = "n409"],edge[target = "n410"],'+
 			'edge[target = "n428"],edge[target = "n425"],'+
 			'edge[target = "n426"],edge[target = "n430"],'+
-			'edge[target = "n431"],edge[target = "n442"]'+
+			'edge[target = "n431"],edge[target = "n442"],'+
+			'edge[target = "n489"],edge[target = "n491"]'+
 				'{' +
 				'curve-style:unbundled-bezier;' +
 				'control-point-distance: 30;' +
