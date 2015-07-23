@@ -568,7 +568,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 460, y: 0}
-		, classes: 'skill'
+		, classes: 'skill image maneuver'
 		}
 	,
 		{ data:
@@ -765,7 +765,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 920, y: 0}
-		, classes: 'skill'
+		, classes: 'skill image balance'
 		}
 	,
 		{ data:
@@ -950,7 +950,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 920, y: 400}
-		, classes: 'skill'
+		, classes: 'skill image impuls'
 		}
 	,
 		{ data:
@@ -1122,7 +1122,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 920, y: -450}
-		, classes: 'skill'
+		, classes: 'skill image max_return'
 		}
 	,
 		{ data:
@@ -1292,7 +1292,7 @@ var nodesData =
 			, need: {god_spark: 1}
 			}
 		, position: {x: 1380, y: 0}
-		, classes: 'skill'
+		, classes: 'skill image god'
 		}
 	,
 		{ data:
@@ -1550,7 +1550,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 690, y: -760}
-		, classes: 'skill'
+		, classes: 'skill image surprise'
 		}
 	,
 		{ data:
@@ -1735,7 +1735,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 230, y: -760}
-		, classes: 'skill'
+		, classes: 'skill image rush'
 		}
 	,
 		{ data:
@@ -1919,7 +1919,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 690, y: 710}
-		, classes: 'skill'
+		, classes: 'skill image inertia'
 		}
 	,
 		{ data:
@@ -2107,7 +2107,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 230, y: 710}
-		, classes: 'skill'
+		, classes: 'skill image luck_hit'
 		}
 	,
 		{ data:
@@ -2303,7 +2303,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: -230, y: -760}
-		, classes: 'skill'
+		, classes: 'skill image destroy'
 		}
 	,
 		{ data:
@@ -2499,7 +2499,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: -230, y: -1140}
-		, classes: 'skill'
+		, classes: 'skill image shock'
 		}
 	,
 		{ data:
@@ -2685,7 +2685,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 350, y: -1200}
-		, classes: 'skill'
+		, classes: 'skill image triumph'
 		}
 	,
 		{ data:
@@ -2884,7 +2884,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 1380, y: -600}
-		, classes: 'skill'
+		, classes: 'skill image destroy'
 		}
 	,
 		{ data:
@@ -3069,7 +3069,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 1380, y: -980}
-		, classes: 'skill'
+		, classes: 'skill image max_return'
 		}
 	,
 		{ data:
@@ -4892,7 +4892,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 1380, y: 980}
-		, classes: 'skill'
+		, classes: 'skill image max_str'
 		}
 	,
 		{ data:
@@ -5260,7 +5260,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 820, y: 1360}
-		, classes: 'skill'
+		, classes: 'skill image destroy'
 		}
 	,
 		{ data:

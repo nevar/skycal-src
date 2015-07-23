@@ -70,16 +70,32 @@ function init() {
 			'edge.big.foundPath {width:15;line-style:dashed;line-color:#0066CC;}' +
 
 			'.image {background-fit:cover;background-opacity:0;}' +
-			'.krio {background-image:images/nodes/krio.png;}' +
-			'.paladin {background-image:images/nodes/paladin.png;}' +
-			'.light_keeper {background-image:images/nodes/LK.png;}' +
 			'.power {background-image:images/nodes/power.png;}' +
 			'.vit {background-image:images/nodes/vit.png;}' +
 			'.strength {background-image:images/nodes/str.png;}' +
 			'.luck {background-image:images/nodes/luck.png;}' +
 			'.spirit {background-image:images/nodes/spirit.png;}' +
 			'.valor {background-image:images/nodes/valor.png;}' +
-			'.majesty {background-image:images/nodes/majesty.png;}'
+			'.majesty {background-image:images/nodes/majesty.png;}'+
+			'.revelation {background-image:images/nodes/revelation.png;}'+
+			// class
+			'.krio {background-image:images/nodes/krio.png;}' +
+			'.paladin {background-image:images/nodes/paladin.png;}' +
+			'.light_keeper {background-image:images/nodes/LK.png;}' +
+			// skill
+			'.maneuver {background-image:images/nodes/maneuver.png;}'+
+			'.balance {background-image:images/nodes/balance.png;}'+
+			'.max_return {background-image:images/nodes/luck.png;}'+
+			'.surprise {background-image:images/nodes/surprise.png;}'+
+			'.rush {background-image:images/nodes/rush.png;}' +
+			'.destroy {background-image:images/nodes/destroy.png;}' +
+			'.shock {background-image:images/nodes/shock.png;}' +
+			'.triumph {background-image:images/nodes/triumph.png;}'+
+			'.impuls {background-image:images/nodes/spirit.png;}'+
+			'.inertia {background-image:images/nodes/inertia.png;}'+
+			'.luck_hit {background-image:images/nodes/luck_hit.png;}'+
+			'.god {background-image:images/nodes/god.png;}'+
+			'.max_str {background-image:images/nodes/str.png;}'
 		, autolock: true
 		, autoungrabify: true
 		, zoom: 1
@@ -354,6 +370,9 @@ function renderText(node) {
 		}
 		if (nodeData.need.red) {
 			text += '<img width="20" src="images/spark/red.png"></img> ' + nodeData.need.red;
+		}
+		if (nodeData.need.revelation) {
+			text += '<img width="20" src="images/spark/revelation.png"></img> ' + nodeData.need.revelation;
 		}
 		text += '</span></div>';
 	}
