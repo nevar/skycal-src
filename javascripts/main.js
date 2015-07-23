@@ -16,7 +16,10 @@ function init() {
 			{ nodes: nodesData
 			, edges: edgesData
 			}
-		, layout: {name: 'preset'}
+		, layout:
+			{ name: 'preset'
+			, fit: false
+			}
 		, style:
 			'edge[target = "n3"],edge[target = "n4"],edge[target = "n35"],' +
 			'edge[target = "n36"],edge[target = "n67"],edge[target = "n114"],' +
@@ -62,7 +65,11 @@ function init() {
 			'.majesty {background-image:images/nodes/majesty.png;}'
 		, autolock: true
 		, autoungrabify: true
+		, zoom: 1
+		, maxZoom: 1
+		, minZoom: 0.05
 		});
+	cy.center(cy.nodes('#n17'));
 };
 
 init();
