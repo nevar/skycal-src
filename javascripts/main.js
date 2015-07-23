@@ -5,7 +5,8 @@ var cy,
 	used_blue = 0,
 	used_green = 0,
 	used_red = 0,
-	tempPath;
+	tempPath,
+	showBig = false;
 
 function init() {
 	var container = document.getElementById('atlas');
@@ -45,30 +46,32 @@ function init() {
 				'control-point-distance: 30;' +
 				'control-point-weight:0.5;' +
 				'}' +
-			'edge[target = "n20"],edge[target = "n19"],edge[target = "n94"],' +
-			'edge[target = "n101"],edge[target = "n98"],' +
-			'edge[target = "n160"],edge[target = "n155"],'+
-			'edge[target = "n173"]'+
-				'{' +
-				'curve-style:unbundled-bezier;' +
-				'control-point-distance:-30;' +
-				'control-point-weight:0.5;' +
-				'}' +
 			'.class {width:50;height:50;}' +
 			'.stat {width:30;height:30;}' +
 			'.skill {width:50;height:50;}' +
-			'.want {border-width:3;border-color:yellow;}' +
-			'edge.want {width:3;line-color:yellow;line-style:dashed;}' +
-			'.open {border-width:1;border-color:yellow;}' +
-			'edge.open {width:1;line-color:yellow;}' +
-			'.foundPath {border-width:3;border-color:#0066CC;border-style:dashed;}' +
-			'edge.foundPath {width:3;line-style:dashed;line-color:#0066CC;}' +
-			'.image {background-fit:cover;background-opacity:0;}' +
+			'.big.class {width:250;height:250;}' +
+			'.big.skill {width:250;height:250;}' +
+			'.hidden {opacity: 0;}' +
 
+			'.want {border-width:3;border-color:yellow;border-style:dashed;}' +
+			'.open {border-width:1;border-color:yellow;}' +
+			'.foundPath {border-width:3;border-color:#0066CC;border-style:dashed;}' +
+			'edge.want {width:3;line-color:yellow;line-style:dashed;}' +
+			'edge.open {width:1;line-color:yellow;}' +
+			'edge.foundPath {width:3;line-style:dashed;line-color:#0066CC;}' +
+
+			'.big.want {border-width:15;border-color:yellow;border-style:dashed;}' +
+			'.big.open {border-width:10;border-color:yellow;}' +
+			'.big.foundPath {border-width:15;border-color:#0066CC;border-style:dashed;}' +
+			'edge.big {width:15;}' +
+			'edge.big.want {width:15;line-color:yellow;line-style:dashed;}' +
+			'edge.big.open {width:10;line-color:yellow;}' +
+			'edge.big.foundPath {width:15;line-style:dashed;line-color:#0066CC;}' +
+
+			'.image {background-fit:cover;background-opacity:0;}' +
 			'.krio {background-image:images/nodes/krio.png;}' +
 			'.paladin {background-image:images/nodes/paladin.png;}' +
 			'.light_keeper {background-image:images/nodes/LK.png;}' +
-
 			'.power {background-image:images/nodes/power.png;}' +
 			'.vit {background-image:images/nodes/vit.png;}' +
 			'.strength {background-image:images/nodes/str.png;}' +
@@ -393,5 +396,20 @@ cy.on('tapdragover', 'node', function(evt) {
 	tempPath = foundPath(target, '[?open]', '[!open]');
 	if (tempPath.found) {
 		tempPath.path.addClass('want');
+	}
+});
+
+cy.on('zoom', function(evt) {
+	var zoomLevel = cy.zoom();
+
+	if (!showBig && zoomLevel < 0.20) {
+		showBig = true;
+		cy.elements().addClass('big');
+		cy.elements('.stat,edge').addClass('hidden');
+		cy.elements('edge.between').removeClass('hidden');
+	}
+	if (showBig && zoomLevel > 0.20) {
+		showBig = false;
+		cy.elements().removeClass('big hidden');
 	}
 });
