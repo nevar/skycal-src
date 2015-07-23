@@ -235,94 +235,111 @@ cy.on('tapdragout', 'node', function(evt) {
 });
 
 function renderTitle(node) {
-	var title = 'sdlkfj';
+	var title = 'sdlkfj',
+		nodeData = node.data(),
+		imageName;
 
 	if (node.hasClass('krio')) {
 		title = '<img width="25" src="images/nodes/krio.png"></img> Класс: Криомант';
 	}
-	if (node.hasClass('vit')) {
-		title = '<img width="25" src="images/nodes/vit.png"></img> Бонус: Выносливость';
+	if (nodeData.vit) {
+		imageName = "vit";
+		title = 'Бонус: Выносливость';
 	}
-	if (node.hasClass('power')) {
-		title = '<img width="25" src="images/nodes/power.png"></img> Бонус: Могущество';
+	if (nodeData.power) {
+		imageName = "power";
+		title = 'Бонус: Могущество';
 	}
-	if (node.hasClass('spirit')) {
-		title = '<img width="25" src="images/nodes/spirit.png"></img> Бонус: Дух';
+	if (nodeData.spirit) {
+		imageName = "spirit";
+		title = 'Бонус: Дух';
 	}
-	if (node.hasClass('strength')) {
-		title = '<img width="25" src="images/nodes/str.png"></img> Бонус: Сила';
+	if (nodeData.str) {
+		imageName = "str";
+		title = 'Бонус: Сила';
 	}
-	if (node.hasClass('luck')) {
-		title = '<img width="25" src="images/nodes/luck.png"></img> Бонус: Удача';
+	if (nodeData.luck) {
+		imageName = "luck";
+		title = 'Бонус: Удача';
 	}
-	if (node.hasClass('valor')) {
-		title = '<img width="25" src="images/nodes/valor.png"></img> Бонус: Отвага';
+	if (nodeData.valor) {
+		imageName = "valor";
+		title = 'Бонус: Отвага';
 	}
-	if (node.hasClass('majesty')) {
-		title = '<img width="25" src="images/nodes/majesty.png"></img> Бонус: Величие';
+	if (nodeData.majesty) {
+		imageName = "majesty";
+		title = 'Бонус: Величие';
 	}
-	return '<div class="tooltip-title">' + title + '</div>';
+	if (nodeData.need.revelation) {
+		imageName = "revelation";
+	}
+	return '<div class="tooltip-title">' +
+		'<img width="25" src="images/nodes/' + imageName + '.png"></img> ' +
+			title +
+		'</div>';
 }
 
 function renderText(node) {
-	var text = '', need = node.data('need') || {};
+	var text = '',
+		need = node.data('need') || {},
+		nodeData = node.data();
 
 	if (node.data('prestige')) {
 		text +=
 			'<div class="stat"><img width="25" src="images/prestige.png"></img> + ' +
 			node.data('prestige') + '</div><br/>';
 	}
-	if (node.hasClass('vit')) {
+	if (nodeData.vit) {
 		text +=
-			'<div class="stat">Выносливость<span>' + node.data('vit') +'</span></div><br/>' +
-			'<div class="stat">Сноровка<span>' + node.data('dex') +'</span></div>' +
+			'<div class="stat">Выносливость<span>' + nodeData.vit +'</span></div><br/>' +
+			'<div class="stat">Сноровка<span>' + nodeData.dex +'</span></div>' +
 			'<p>Увеличивает максимальный запас здоровья.</p>';
 	}
-	if (node.hasClass('power')) {
+	if (nodeData.power) {
 		text +=
-			'<div class="stat">Могущество<span>' + node.data('power') +'</span></div><br/>' +
-			'<div class="stat">Сноровка<span>' + node.data('dex') +'</span></div>' +
+			'<div class="stat">Могущество<span>' + nodeData.power +'</span></div><br/>' +
+			'<div class="stat">Сноровка<span>' + nodeData.dex +'</span></div>' +
 			'<p>Увеличивает базовый урон.</p>';
 	}
-	if (node.hasClass('spirit')) {
+	if (nodeData.spirit) {
 		text +=
-			'<div class="stat">Дух<span>' + node.data('spirit') +'</span></div><br/>' +
+			'<div class="stat">Дух<span>' + nodeData.spirit +'</span></div><br/>' +
 			'<p>Увеличивает импульсный урон.</p>';
 	}
-	if (node.hasClass('strength')) {
+	if (nodeData.str) {
 		text +=
-			'<div class="stat">Сила<span>' + node.data('str') +'</span></div><br/>' +
+			'<div class="stat">Сила<span>' + nodeData.str +'</span></div><br/>' +
 			'<p>Увеличивает максимальную границу базового урона.</p>';
 	}
-	if (node.hasClass('luck')) {
+	if (nodeData.luck) {
 		text +=
-			'<div class="stat">Удача<span>' + node.data('luck') +'</span></div><br/>' +
+			'<div class="stat">Удача<span>' + nodeData.luck +'</span></div><br/>' +
 			'<p>Увеличивает критический урон.</p>';
 	}
-	if (node.hasClass('valor')) {
+	if (nodeData.valor) {
 		text +=
-			'<div class="stat">Отвага<span>' + node.data('valor') +'</span></div><br/>' +
+			'<div class="stat">Отвага<span>' + nodeData.valor +'</span></div><br/>' +
 			'<p>Увеличивает дополнительный урон.</p>';
 	}
-	if (node.hasClass('majesty')) {
+	if (nodeData.majesty) {
 		text +=
-			'<div class="stat">Величие<span>' + node.data('majesty') +'</span></div><br/>' +
+			'<div class="stat">Величие<span>' + nodeData.majesty +'</span></div><br/>' +
 			'<p>Позволяет возводить величественные храмы в провинциях Элиона, ' +
 			'в которых распространено влияние культа.</p>';
 	}
-	text += '<div class="cost">Стоймость<span>';
-	if (need.green) {
-		text += '<img width="20" src="images/spark/green.png"></img> ' + need.green;
+	if (nodeData.need) {
+		text += '<div class="cost">Стоймость<span>';
+		if (nodeData.need.green) {
+			text += '<img width="20" src="images/spark/green.png"></img> ' + nodeData.need.green;
+		}
+		if (nodeData.need.blue) {
+			text += '<img width="20" src="images/spark/blue.png"></img> ' + nodeData.need.blue;
+		}
+		if (nodeData.need.red) {
+			text += '<img width="20" src="images/spark/red.png"></img> ' + nodeData.need.red;
+		}
+		text += '</span></div>';
 	}
-	if (need.blue) {
-		text += '<img width="20" src="images/spark/blue.png"></img> ' + need.blue;
-	}
-	if (need.red) {
-		text += '<img width="20" src="images/spark/red.png"></img> ' + need.red;
-	}
-	text += '</span></div>';
-	text += node.data('id') + '<br/>';
-	text += node.position().x + ' ' + node.position().y;
 	return text;
 }
 
