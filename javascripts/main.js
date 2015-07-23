@@ -21,12 +21,25 @@ function init() {
 			, fit: false
 			}
 		, style:
-			'edge[target = "n3"],edge[target = "n4"],edge[target = "n35"],' +
-			'edge[target = "n36"],edge[target = "n67"],edge[target = "n114"],' +
-			'edge[target = "n136"],edge[target = "n137"],' +
-			'edge[target = "n159"],edge[target = "n169"],' +
-			'edge[target = "n170"],edge[target = "n175"],' +
-			'edge[target = "n171"],edge[target = "n172"]'+
+			'edge[target = "n3"],edge[target = "n4"],edge[target = "n18"],'+
+			'edge[target = "n20"],edge[target = "n35"],edge[target = "n36"],'+
+			'edge[target = "n67"],edge[target = "n93"],edge[target = "n114"],'+
+			'edge[target = "n99"],edge[target = "n105"],'+
+			'edge[target = "n136"],edge[target = "n137"],'+
+			'edge[target = "n156"],edge[target = "n157"],'+
+			'edge[target = "n159"],edge[target = "n169"],'+
+			'edge[target = "n170"],edge[target = "n175"],'+
+			'edge[target = "n171"],edge[target = "n172"],'+
+			'edge[target = "n174"],edge[target = "n220"],'+
+			'edge[target = "n221"],edge[target = "n222"],'+
+			'edge[target = "n224"],edge[target = "n223"],'+
+			'edge[target = "n286"],edge[target = "n284"],'+
+			'edge[target = "n301"],edge[target = "n302"],'+
+			'edge[target = "n320"],edge[target = "n322"],'+
+			'edge[target = "n409"],edge[target = "n410"],'+
+			'edge[target = "n428"],edge[target = "n425"],'+
+			'edge[target = "n426"],edge[target = "n430"],'+
+			'edge[target = "n431"],edge[target = "n442"]'+
 				'{' +
 				'curve-style:unbundled-bezier;' +
 				'control-point-distance: 30;' +
