@@ -1,12 +1,12 @@
 var nodesData =
 	[
-
-	// Для Крио
+	// Крио
 		{ data:
 			{ id: 'n1'
 			, open: true
+			, need: {}
 			}
-		, position: {x: 230, y: -330}
+		, position: {x: 230, y: -380}
 		, classes: 'class image krio open'
 		}
 	,
@@ -18,7 +18,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 125}
 			}
-		, position: {x: 230, y: -270}
+		, position: {x: 230, y: -320}
 		, classes: 'stat image vit'
 		}
 	,
@@ -30,7 +30,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 125}
 			}
-		, position: {x: 282, y: -360}
+		, position: {x: 282, y: -410}
 		, classes: 'stat image power'
 		}
 	,
@@ -42,7 +42,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 155}
 			}
-		, position: {x: 178, y: -360}
+		, position: {x: 178, y: -410}
 		, classes: 'stat image vit'
 		}
 	,
@@ -54,7 +54,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 125}
 			}
-		, position: {x: 133, y: -390}
+		, position: {x: 133, y: -440}
 		, classes: 'stat image vit'
 		}
 	,
@@ -66,7 +66,7 @@ var nodesData =
 			, dex: 4
 			, need: {red: 95}
 			}
-		, position: {x: 169, y: -440}
+		, position: {x: 169, y: -490}
 		, classes: 'stat image power'
 		}
 	,
@@ -77,7 +77,7 @@ var nodesData =
 			, spirit: 7
 			, need: {blue: 95}
 			}
-		, position: {x: 229, y: -440}
+		, position: {x: 229, y: -490}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -89,7 +89,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 125}
 			}
-		, position: {x: 289, y: -440}
+		, position: {x: 289, y: -490}
 		, classes: 'stat image power'
 		}
 	,
@@ -101,7 +101,7 @@ var nodesData =
 			, dex: 4
 			, need: {red: 95}
 			}
-		, position: {x: 95, y: -330}
+		, position: {x: 95, y: -380}
 		, classes: 'stat image power'
 		}
 	,
@@ -113,7 +113,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 125}
 			}
-		, position: {x: 133, y: -270}
+		, position: {x: 133, y: -320}
 		, classes: 'stat image vit'
 		}
 	,
@@ -125,7 +125,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 125}
 			}
-		, position: {x: 169, y: -220}
+		, position: {x: 169, y: -270}
 		, classes: 'stat image power'
 		}
 	,
@@ -137,7 +137,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 155}
 			}
-		, position: {x: 229, y: -220}
+		, position: {x: 229, y: -270}
 		, classes: 'stat image vit'
 		}
 	,
@@ -149,7 +149,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 125}
 			}
-		, position: {x: 289, y: -220}
+		, position: {x: 289, y: -270}
 		, classes: 'stat image power'
 		}
 	,
@@ -160,7 +160,7 @@ var nodesData =
 			, str: 7
 			, need: {blue: 95}
 			}
-		, position: {x: 325, y: -390}
+		, position: {x: 325, y: -440}
 		, classes: 'stat image strength'
 		}
 	,
@@ -172,7 +172,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 155}
 			}
-		, position: {x: 363, y: -330}
+		, position: {x: 363, y: -380}
 		, classes: 'stat image vit'
 		}
 	,
@@ -183,14 +183,15 @@ var nodesData =
 			, luck: 10
 			, need: {blue: 125}
 			}
-		, position: {x: 325, y: -270}
+		, position: {x: 325, y: -320}
 		, classes: 'stat image luck'
 		}
-	// Для Паладина
+	// Паладин
 	,
 		{ data:
 			{ id: 'n17'
 			, open: true
+			, need: {}
 			}
 		, position: {x: 0, y: 0}
 		, classes: 'class image paladin open'
@@ -372,13 +373,14 @@ var nodesData =
 		, position: {x: 95, y: 60}
 		, classes: 'stat image power'
 		}
-	// Для ХСа
+	// ХС
 	,
 		{ data:
 			{ id: 'n33'
 			, open: true
+			, need: {}
 			}
-		, position: {x: 230, y: 330}
+		, position: {x: 230, y: 380}
 		, classes: 'class image light_keeper open'
 		}
 	,
@@ -389,7 +391,7 @@ var nodesData =
 			, str: 7
 			, need: {blue: 95}
 			}
-		, position: {x: 230, y: 390}
+		, position: {x: 230, y: 440}
 		, classes: 'stat image strength'
 		}
 	,
@@ -401,7 +403,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 125}
 			}
-		, position: {x: 282, y: 300}
+		, position: {x: 282, y: 350}
 		, classes: 'stat image vit'
 		}
 	,
@@ -413,7 +415,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 155}
 			}
-		, position: {x: 178, y: 300}
+		, position: {x: 178, y: 350}
 		, classes: 'stat image vit'
 		}
 	,
@@ -425,7 +427,7 @@ var nodesData =
 			, dex: 5
 			, need: {power: 125}
 			}
-		, position: {x: 133, y: 270}
+		, position: {x: 133, y: 320}
 		, classes: 'stat image power'
 		}
 	,
@@ -437,7 +439,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 125}
 			}
-		, position: {x: 169, y: 220}
+		, position: {x: 169, y: 270}
 		, classes: 'stat image vit'
 		}
 	,
@@ -449,7 +451,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 125}
 			}
-		, position: {x: 229, y: 220}
+		, position: {x: 229, y: 270}
 		, classes: 'stat image power'
 		}
 	,
@@ -461,7 +463,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 125}
 			}
-		, position: {x: 289, y: 220}
+		, position: {x: 289, y: 270}
 		, classes: 'stat image vit'
 		}
 	,
@@ -472,7 +474,7 @@ var nodesData =
 			, spirit: 7
 			, need: {blue: 95}
 			}
-		, position: {x: 95, y: 330}
+		, position: {x: 95, y: 380}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -484,7 +486,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 125}
 			}
-		, position: {x: 133, y: 390}
+		, position: {x: 133, y: 440}
 		, classes: 'stat image vit'
 		}
 	,
@@ -496,7 +498,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 155}
 			}
-		, position: {x: 169, y: 440}
+		, position: {x: 169, y: 490}
 		, classes: 'stat image vit'
 		}
 	,
@@ -508,7 +510,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 155}
 			}
-		, position: {x: 229, y: 440}
+		, position: {x: 229, y: 490}
 		, classes: 'stat image power'
 		}
 	,
@@ -520,7 +522,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 125}
 			}
-		, position: {x: 289, y: 440}
+		, position: {x: 289, y: 490}
 		, classes: 'stat image power'
 		}
 	,
@@ -531,7 +533,7 @@ var nodesData =
 			, valor: 10
 			, need: {blue: 125}
 			}
-		, position: {x: 325, y: 270}
+		, position: {x: 325, y: 320}
 		, classes: 'stat image valor'
 		}
 	,
@@ -543,7 +545,7 @@ var nodesData =
 			, dex: 4
 			, need: {red: 95}
 			}
-		, position: {x: 363, y: 330}
+		, position: {x: 363, y: 380}
 		, classes: 'stat image power'
 		}
 	,
@@ -555,7 +557,7 @@ var nodesData =
 			, dex: 4
 			, need: {red: 95}
 			}
-		, position: {x: 325, y: 390}
+		, position: {x: 325, y: 440}
 		, classes: 'stat image power'
 		}
 	// Искусный манёвр
@@ -563,6 +565,7 @@ var nodesData =
 		{ data:
 			{ id: 'n49'
 			, open: false
+			, need: {blue: 200}
 			}
 		, position: {x: 460, y: 0}
 		, classes: 'skill'
@@ -759,6 +762,7 @@ var nodesData =
 		{ data:
 			{ id: 'n66'
 			, open: false
+			, need: {}
 			}
 		, position: {x: 920, y: 0}
 		, classes: 'skill'
@@ -938,12 +942,12 @@ var nodesData =
 		, position: {x: 920, y: -157}
 		, classes: 'stat image vit'
 		}
-
 	// Интенсивность импульса
 	,
 		{ data:
 			{ id: 'n82'
 			, open: false
+			, need: {blue: 200}
 			}
 		, position: {x: 920, y: 400}
 		, classes: 'skill'
@@ -1110,15 +1114,14 @@ var nodesData =
 		, position: {x: 920, y: 243}
 		, classes: 'stat image vit'
 		}
-
-
 	// Максимальная отдача
 	,
 		{ data:
 			{ id: 'n97'
 			, open: false
+			, need: {blue: 200}
 			}
-		, position: {x: 920, y: -400}
+		, position: {x: 920, y: -450}
 		, classes: 'skill'
 		}
 	,
@@ -1129,7 +1132,7 @@ var nodesData =
 			, luck: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 920, y: -340}
+		, position: {x: 920, y: -390}
 		, classes: 'stat image luck'
 		}
 	,
@@ -1141,7 +1144,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 972, y: -430}
+		, position: {x: 972, y: -480}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1152,7 +1155,7 @@ var nodesData =
 			, luck: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 868, y: -430}
+		, position: {x: 868, y: -480}
 		, classes: 'stat image luck'
 		}
 	,
@@ -1164,7 +1167,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 823, y: -460}
+		, position: {x: 823, y: -510}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1175,7 +1178,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 859, y: -510}
+		, position: {x: 859, y: -560}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -1187,7 +1190,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 919, y: -510}
+		, position: {x: 919, y: -560}
 		, classes: 'stat image power'
 		}
 	,
@@ -1198,7 +1201,7 @@ var nodesData =
 			, luck: 10
 			, need: {blue: 115}
 			}
-		, position: {x: 979, y: -510}
+		, position: {x: 979, y: -560}
 		, classes: 'stat image luck'
 		}
 	,
@@ -1210,7 +1213,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 823, y: -340}
+		, position: {x: 823, y: -390}
 		, classes: 'stat image power'
 		}
 	,
@@ -1222,7 +1225,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 859, y: -290}
+		, position: {x: 859, y: -340}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1233,7 +1236,7 @@ var nodesData =
 			, luck: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 979, y: -290}
+		, position: {x: 979, y: -340}
 		, classes: 'stat image luck'
 		}
 	,
@@ -1244,7 +1247,7 @@ var nodesData =
 			, luck: 10
 			, need: {blue: 115}
 			}
-		, position: {x: 1015, y: -460}
+		, position: {x: 1015, y: -510}
 		, classes: 'stat image luck'
 		}
 	,
@@ -1255,7 +1258,7 @@ var nodesData =
 			, luck: 10
 			, need: {blue: 115}
 			}
-		, position: {x: 1015, y: -340}
+		, position: {x: 1015, y: -390}
 		, classes: 'stat image luck'
 		}
 	,
@@ -1266,7 +1269,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 920, y: -243}
+		, position: {x: 920, y: -293}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -1278,7 +1281,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 920, y: -557}
+		, position: {x: 920, y: -607}
 		, classes: 'stat image power'
 		}
 	// Форма бога
@@ -1286,6 +1289,7 @@ var nodesData =
 		{ data:
 			{ id: 'n112'
 			, open: false
+			, need: {god_spark: 1}
 			}
 		, position: {x: 1380, y: 0}
 		, classes: 'skill'
@@ -1543,8 +1547,9 @@ var nodesData =
 		{ data:
 			{ id: 'n134'
 			, open: false
+			, need: {blue: 200}
 			}
-		, position: {x: 690, y: -660}
+		, position: {x: 690, y: -760}
 		, classes: 'skill'
 		}
 	,
@@ -1556,7 +1561,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 690,  y: -600}
+		, position: {x: 690,  y: -700}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1568,7 +1573,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 742, y: -690}
+		, position: {x: 742, y: -790}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1578,9 +1583,9 @@ var nodesData =
 			, prestige: 8
 			, power: 8
 			, dex: 5
-			, need: {blue: 115}
+			, need: {red: 115}
 			}
-		, position: {x: 638, y: -690}
+		, position: {x: 638, y: -790}
 		, classes: 'stat image power'
 		}
 	,
@@ -1592,7 +1597,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 629, y: -770}
+		, position: {x: 629, y: -870}
 		, classes: 'stat image power'
 		}
 	,
@@ -1604,7 +1609,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 751, y: -770}
+		, position: {x: 751, y: -870}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1615,7 +1620,7 @@ var nodesData =
 			, valor: 20
 			, need: {green: 185}
 			}
-		, position: {x: 629, y: -550}
+		, position: {x: 629, y: -650}
 		, classes: 'stat image valor'
 		}
 	,
@@ -1627,7 +1632,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 751, y: -550}
+		, position: {x: 751, y: -650}
 		, classes: 'stat image power'
 		}
 	,
@@ -1639,7 +1644,7 @@ var nodesData =
 			, dex: 27
 			, need: {green: 185}
 			}
-		, position: {x: 690, y: -817}
+		, position: {x: 690, y: -917}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1650,7 +1655,7 @@ var nodesData =
 			, valor: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 690, y: -503}
+		, position: {x: 690, y: -603}
 		, classes: 'stat image valor'
 		}
 	,
@@ -1661,7 +1666,7 @@ var nodesData =
 			, spirit: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 557, y: -744}
+		, position: {x: 557, y: -844}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -1672,7 +1677,7 @@ var nodesData =
 			, luck: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 557, y: -576}
+		, position: {x: 557, y: -676}
 		, classes: 'stat image luck'
 		}
 	,
@@ -1684,7 +1689,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 823, y: -576}
+		, position: {x: 823, y: -676}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1695,7 +1700,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 823, y: -744}
+		, position: {x: 823, y: -844}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -1707,7 +1712,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 555, y: -660}
+		, position: {x: 555, y: -760}
 		, classes: 'stat image power'
 		}
 	,
@@ -1719,7 +1724,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 825, y: -660}
+		, position: {x: 825, y: -760}
 		, classes: 'stat image power'
 		}
 	// Стремительная атака
@@ -1727,8 +1732,9 @@ var nodesData =
 		{ data:
 			{ id: 'n151'
 			, open: false
+			, need: {blue: 200}
 			}
-		, position: {x: 230, y: -660}
+		, position: {x: 230, y: -760}
 		, classes: 'skill'
 		}
 	,
@@ -1739,7 +1745,7 @@ var nodesData =
 			, valor: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 230,  y: -600}
+		, position: {x: 230,  y: -700}
 		, classes: 'stat image valor'
 		}
 	,
@@ -1750,7 +1756,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 282, y: -690}
+		, position: {x: 282, y: -790}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -1762,7 +1768,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 178, y: -690}
+		, position: {x: 178, y: -790}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1774,7 +1780,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 135, y: -720}
+		, position: {x: 135, y: -820}
 		, classes: 'stat image power'
 		}
 	,
@@ -1785,7 +1791,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 135, y: -600}
+		, position: {x: 135, y: -700}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -1797,7 +1803,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 325, y: -600}
+		, position: {x: 325, y: -700}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1809,7 +1815,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 325, y: -720}
+		, position: {x: 325, y: -820}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1821,7 +1827,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 230, y: -770}
+		, position: {x: 230, y: -870}
 		, classes: 'stat image power'
 		}
 	,
@@ -1833,7 +1839,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 230, y: -550}
+		, position: {x: 230, y: -650}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1844,7 +1850,7 @@ var nodesData =
 			, valor: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 230, y: -817}
+		, position: {x: 230, y: -917}
 		, classes: 'stat image valor'
 		}
 	,
@@ -1856,7 +1862,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 230, y: -503}
+		, position: {x: 230, y: -603}
 		, classes: 'stat image power'
 		}
 	,
@@ -1868,7 +1874,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 97, y: -744}
+		, position: {x: 97, y: -844}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1879,7 +1885,7 @@ var nodesData =
 			, valor: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 97, y: -576}
+		, position: {x: 97, y: -676}
 		, classes: 'stat image valor'
 		}
 	,
@@ -1890,7 +1896,7 @@ var nodesData =
 			, str: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 363, y: -576}
+		, position: {x: 363, y: -676}
 		, classes: 'stat image strength'
 		}
 	,
@@ -1902,7 +1908,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 363, y: -744}
+		, position: {x: 363, y: -844}
 		, classes: 'stat image power'
 		}
 	// Инерция
@@ -1910,8 +1916,9 @@ var nodesData =
 		{ data:
 			{ id: 'n167'
 			, open: false
+			, need: {blue: 200}
 			}
-		, position: {x: 690, y: 660}
+		, position: {x: 690, y: 710}
 		, classes: 'skill'
 		}
 	,
@@ -1923,7 +1930,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 690,  y: 720}
+		, position: {x: 690,  y: 770}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1935,7 +1942,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 742, y: 630}
+		, position: {x: 742, y: 680}
 		, classes: 'stat image power'
 		}
 	,
@@ -1947,7 +1954,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 115}
 			}
-		, position: {x: 638, y: 630}
+		, position: {x: 638, y: 680}
 		, classes: 'stat image power'
 		}
 	,
@@ -1959,7 +1966,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 595, y: 600}
+		, position: {x: 595, y: 650}
 		, classes: 'stat image power'
 		}
 	,
@@ -1970,7 +1977,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 595, y: 720}
+		, position: {x: 595, y: 770}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -1982,7 +1989,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 115}
 			}
-		, position: {x: 785, y: 720}
+		, position: {x: 785, y: 770}
 		, classes: 'stat image power'
 		}
 	,
@@ -1994,7 +2001,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 785, y: 600}
+		, position: {x: 785, y: 650}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2006,7 +2013,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 690, y: 550}
+		, position: {x: 690, y: 600}
 		, classes: 'stat image power'
 		}
 	,
@@ -2018,7 +2025,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 115}
 			}
-		, position: {x: 690, y: 770}
+		, position: {x: 690, y: 820}
 		, classes: 'stat image power'
 		}
 	,
@@ -2030,7 +2037,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 690, y: 503}
+		, position: {x: 690, y: 553}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2042,7 +2049,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 690, y: 817}
+		, position: {x: 690, y: 867}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2054,7 +2061,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 557, y: 576}
+		, position: {x: 557, y: 626}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2066,7 +2073,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 557, y: 744}
+		, position: {x: 557, y: 794}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2078,7 +2085,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 823, y: 744}
+		, position: {x: 823, y: 794}
 		, classes: 'stat image power'
 		}
 	,
@@ -2089,7 +2096,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 823, y: 576}
+		, position: {x: 823, y: 626}
 		, classes: 'stat image majesty'
 		}
 	// Удачное попадание
@@ -2097,8 +2104,9 @@ var nodesData =
 		{ data:
 			{ id: 'n183'
 			, open: false
+			, need: {blue: 200}
 			}
-		, position: {x: 230, y: 660}
+		, position: {x: 230, y: 710}
 		, classes: 'skill'
 		}
 	,
@@ -2110,7 +2118,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 135, y: 600}
+		, position: {x: 135, y: 650}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2122,7 +2130,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 135, y: 720}
+		, position: {x: 135, y: 770}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2133,7 +2141,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 325, y: 720}
+		, position: {x: 325, y: 770}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -2145,7 +2153,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 325, y: 600}
+		, position: {x: 325, y: 650}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2156,7 +2164,7 @@ var nodesData =
 			, str: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 169, y: 550}
+		, position: {x: 169, y: 600}
 		, classes: 'stat image strength'
 		}
 	,
@@ -2167,7 +2175,7 @@ var nodesData =
 			, str: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 291, y: 550}
+		, position: {x: 291, y: 600}
 		, classes: 'stat image strength'
 		}
 	,
@@ -2179,7 +2187,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 115}
 			}
-		, position: {x: 169, y: 770}
+		, position: {x: 169, y: 820}
 		, classes: 'stat image power'
 		}
 	,
@@ -2191,7 +2199,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 291, y: 770}
+		, position: {x: 291, y: 820}
 		, classes: 'stat image power'
 		}
 	,
@@ -2203,7 +2211,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 230, y: 550}
+		, position: {x: 230, y: 600}
 		, classes: 'stat image power'
 		}
 	,
@@ -2215,7 +2223,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 230, y: 770}
+		, position: {x: 230, y: 820}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2226,7 +2234,7 @@ var nodesData =
 			, luck: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 97, y: 576}
+		, position: {x: 97, y: 626}
 		, classes: 'stat image luck'
 		}
 	,
@@ -2238,7 +2246,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 97, y: 744}
+		, position: {x: 97, y: 794}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2250,7 +2258,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 363, y: 744}
+		, position: {x: 363, y: 794}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2261,7 +2269,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 363, y: 576}
+		, position: {x: 363, y: 626}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -2273,7 +2281,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 95, y: 660}
+		, position: {x: 95, y: 710}
 		, classes: 'stat image power'
 		}
 	,
@@ -2284,7 +2292,7 @@ var nodesData =
 			, spirit: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 365, y: 660}
+		, position: {x: 365, y: 710}
 		, classes: 'stat image spirit'
 		}
 
