@@ -1,4 +1,5 @@
 var cy,
+	revelationWeight = 1,
 	total, used, need,
 	sparksName = [],
 	tempPath,
@@ -89,10 +90,7 @@ function init() {
 
 	cy = cytoscape(
 		{ container: container
-		, elements:
-			{ nodes: nodesData
-			, edges: edgesData
-			}
+		, elements: []
 		, layout:
 			{ name: 'preset'
 			, fit: false
@@ -110,14 +108,34 @@ function init() {
 			'edge[target = "n174"],edge[target = "n220"],'+
 			'edge[target = "n221"],edge[target = "n222"],'+
 			'edge[target = "n224"],edge[target = "n223"],'+
+			'edge[target = "n256"],edge[target = "n259"],'+
 			'edge[target = "n286"],edge[target = "n284"],'+
 			'edge[target = "n301"],edge[target = "n302"],'+
 			'edge[target = "n320"],edge[target = "n322"],'+
+			'edge[target = "n332"],edge[target = "n347"],'+
+			'edge[target = "n349"],'+
+			'edge[target = "n364"],edge[target = "n394"],'+
+			'edge[target = "n395"],'+
 			'edge[target = "n409"],edge[target = "n410"],'+
 			'edge[target = "n428"],edge[target = "n425"],'+
 			'edge[target = "n426"],edge[target = "n430"],'+
 			'edge[target = "n431"],edge[target = "n442"],'+
-			'edge[target = "n489"],edge[target = "n491"]'+
+			'edge[target = "n489"],edge[target = "n491"],'+
+			'edge[target = "n522"],edge[target = "n524"],'+
+			'edge[target = "n539"],edge[target = "n540"],'+
+			'edge[target = "n2022"],edge[target = "n2020"],'+
+			'edge[target = "n2052"],edge[target = "n2054"],'+
+			'edge[target = "n2055"],edge[target = "n2056"],'+
+			'edge[target = "n2058"],edge[target = "n2059"],'+
+			'edge[target = "n2072"],edge[target = "n2074"],'+
+			'edge[target = "n2075"],'+
+			'edge[target = "n2084"],edge[target = "n2085"],'+
+			'edge[target = "n2104"],edge[target = "n2106"],'+
+			'edge[target = "n2116"],'+
+			'edge[target = "n2164"],edge[target = "n2165"],'+
+			'edge[target = "n2197"],edge[target = "n2198"],'+
+			'edge[target = "n2214"],edge[target = "n2218"],'+
+			'edge[target = "n2229"],edge[target = "n2262"]'+
 				'{' +
 				'curve-style:unbundled-bezier;' +
 				'control-point-distance: 30;' +
@@ -145,7 +163,7 @@ function init() {
 			'edge.big.open {width:10;line-color:yellow;}' +
 			'edge.big.foundPath {width:15;line-style:dashed;line-color:#0066CC;}' +
 
-			'.image {background-fit:cover;background-opacity:0;}' +
+			'.image {background-repeat:no-repeat;background-clip:none;background-fit:cover;background-opacity:0;}' +
 			'.power {background-image:images/nodes/power.png;}' +
 			'.vit {background-image:images/nodes/vit.png;}' +
 			'.strength {background-image:images/nodes/str.png;}' +
@@ -158,6 +176,10 @@ function init() {
 			'.krio {background-image:images/nodes/krio.png;}' +
 			'.paladin {background-image:images/nodes/paladin.png;}' +
 			'.light_keeper {background-image:images/nodes/LK.png;}' +
+			'.archer {background-image:images/nodes/archer.png;}'+
+			'.kinetic {background-image:images/nodes/kinetic.png;}'+
+			'.necromancer {background-image:images/nodes/necromancer.png;}'+
+			'.rouge {background-image:images/nodes/rouge.png;}'+
 			// skill
 			'.maneuver {background-image:images/nodes/maneuver.png;}'+
 			'.balance {background-image:images/nodes/balance.png;}'+
@@ -171,13 +193,37 @@ function init() {
 			'.inertia {background-image:images/nodes/inertia.png;}'+
 			'.luck_hit {background-image:images/nodes/luck_hit.png;}'+
 			'.god {background-image:images/nodes/god.png;}'+
-			'.max_str {background-image:images/nodes/str.png;}'
+			'.max_str {background-image:images/nodes/str.png;}'+
+			'.mobilization {background-image:images/nodes/valor.png;}'+
+			'.create {background-image:images/nodes/create.png;}'+
+			'.defence {background-image:images/nodes/defence.png;}'+
+			'.injury {background-image:images/nodes/injury.png;}'+
+			'.okulat {background-image:images/nodes/okulat.png;}'+
+			'.reflex {background-image:images/nodes/reflex.png;}'+
+			'.resist {background-image:images/nodes/resistance.png;}'+
+			'.slow {background-image:images/nodes/slow.png;}'+
+			'.sphere {background-image:images/nodes/sphere.png;}'+
+			'.regeneration {background-image:images/nodes/regeneration.png;}'+
+			'.mutation {background-image:images/nodes/mutation.png;}'+
+			'.root {background-image:images/nodes/root.png;}'+
+			'.cultivation {background-image:images/nodes/cultivation.png;}'+
+			'.poison {background-image:images/nodes/poison.png;}'
 		, autolock: true
 		, autoungrabify: true
 		, zoom: 1
 		, maxZoom: 1
 		, minZoom: 0.05
 		});
+	main = cy.add(
+		{ nodes: nodesData
+		, edges: edgesData
+		});
+	fitonidy = cy.add(
+		{ nodes: fitonidyNodesData
+		, edges: fitonidyEdgesData
+		});
+	cy.remove(fitonidy);
+	selected = main;
 	cy.center(cy.nodes('#n17'));
 	// TODO: load saved data
 	sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
@@ -265,9 +311,11 @@ function foundPath(to, excludeNode, useNode) {
 			var targetNeed = edge.target().data('need') || {};
 			var weight;
 			weight =
-				sourceNeed.blue || 0 + sourceNeed.red || 0 +
-				sourceNeed.green || 0 + targetNeed.blue || 0 +
-				targetNeed.red || 0 + targetNeed.green || 0;
+				(sourceNeed.blue || 0) + (sourceNeed.red || 0) +
+				(sourceNeed.green || 0) + (targetNeed.blue || 0) +
+				(targetNeed.red || 0) + (targetNeed.green || 0) +
+				(targetNeed.revelation || 0) * revelationWeight +
+				(targetNeed.god || 0) + (targetNeed.fitonidy || 0);
 			return weight;
 		}
 	});
@@ -318,38 +366,35 @@ cy.on('tapdragout', 'node', function(evt) {
 });
 
 function renderTitle(node) {
-	var title = 'sdlkfj',
+	var title = 'Не сделано =(',
 		nodeData = node.data(),
 		imageName;
 
-	if (node.hasClass('krio')) {
-		title = '<img width="25" src="images/nodes/krio.png"></img> Класс: Криомант';
-	}
-	if (nodeData.vit) {
+	if (node.hasClass('skill')) {
+		imageName = nodeData.nodeImage;
+		title = nodeData.title;
+	} else if (node.hasClass('krio')) {
+		imageName = 'krio';
+		title = 'Класс: Криомант';
+	} else if (nodeData.vit) {
 		imageName = "vit";
 		title = 'Бонус: Выносливость';
-	}
-	if (nodeData.power) {
+	} else if (nodeData.power) {
 		imageName = "power";
 		title = 'Бонус: Могущество';
-	}
-	if (nodeData.spirit) {
+	} else if (nodeData.spirit) {
 		imageName = "spirit";
 		title = 'Бонус: Дух';
-	}
-	if (nodeData.str) {
+	} else if (nodeData.str) {
 		imageName = "str";
 		title = 'Бонус: Сила';
-	}
-	if (nodeData.luck) {
+	} else if (nodeData.luck) {
 		imageName = "luck";
 		title = 'Бонус: Удача';
-	}
-	if (nodeData.valor) {
+	} else if (nodeData.valor) {
 		imageName = "valor";
 		title = 'Бонус: Отвага';
-	}
-	if (nodeData.majesty) {
+	} else if (nodeData.majesty) {
 		imageName = "majesty";
 		title = 'Бонус: Величие';
 	}
@@ -367,46 +412,51 @@ function renderText(node) {
 		need = node.data('need') || {},
 		nodeData = node.data();
 
+	if (node.hasClass('skill')) {
+		text = '<p>' + nodeData.description + '</p>';
+	}
 	if (node.data('prestige')) {
 		text +=
 			'<div class="stat"><img width="25" src="images/prestige.png"></img> + ' +
 			node.data('prestige') + '</div><br/>';
 	}
 	if (nodeData.vit) {
-		text +=
-			'<div class="stat">Выносливость<span>' + nodeData.vit +'</span></div><br/>' +
-			'<div class="stat">Сноровка<span>' + nodeData.dex +'</span></div>' +
-			'<p>Увеличивает максимальный запас здоровья.</p>';
+		text += '<div class="stat">Выносливость<span>' + nodeData.vit +'</span></div>';
+		if (nodeData.dex) {
+			text += '<br/><div class="stat">Сноровка<span>' + nodeData.dex +'</span></div>';
+		}
+		text += '<p>Увеличивает максимальный запас здоровья.</p>';
 	}
 	if (nodeData.power) {
-		text +=
-			'<div class="stat">Могущество<span>' + nodeData.power +'</span></div><br/>' +
-			'<div class="stat">Сноровка<span>' + nodeData.dex +'</span></div>' +
-			'<p>Увеличивает базовый урон.</p>';
+		text += '<div class="stat">Могущество<span>' + nodeData.power +'</span></div>';
+		if (nodeData.dex) {
+			text += '<br/><div class="stat">Сноровка<span>' + nodeData.dex +'</span></div>';
+		}
+		text += '<p>Увеличивает базовый урон.</p>';
 	}
 	if (nodeData.spirit) {
 		text +=
-			'<div class="stat">Дух<span>' + nodeData.spirit +'</span></div><br/>' +
+			'<div class="stat">Дух<span>' + nodeData.spirit +'</span></div>' +
 			'<p>Увеличивает импульсный урон.</p>';
 	}
 	if (nodeData.str) {
 		text +=
-			'<div class="stat">Сила<span>' + nodeData.str +'</span></div><br/>' +
+			'<div class="stat">Сила<span>' + nodeData.str +'</span></div>' +
 			'<p>Увеличивает максимальную границу базового урона.</p>';
 	}
 	if (nodeData.luck) {
 		text +=
-			'<div class="stat">Удача<span>' + nodeData.luck +'</span></div><br/>' +
+			'<div class="stat">Удача<span>' + nodeData.luck +'</span></div>' +
 			'<p>Увеличивает критический урон.</p>';
 	}
 	if (nodeData.valor) {
 		text +=
-			'<div class="stat">Отвага<span>' + nodeData.valor +'</span></div><br/>' +
+			'<div class="stat">Отвага<span>' + nodeData.valor +'</span></div>' +
 			'<p>Увеличивает дополнительный урон.</p>';
 	}
 	if (nodeData.majesty) {
 		text +=
-			'<div class="stat">Величие<span>' + nodeData.majesty +'</span></div><br/>' +
+			'<div class="stat">Величие<span>' + nodeData.majesty +'</span></div>' +
 			'<p>Позволяет возводить величественные храмы в провинциях Элиона, ' +
 			'в которых распространено влияние культа.</p>';
 	}
@@ -423,6 +473,9 @@ function renderText(node) {
 		}
 		if (nodeData.need.revelation) {
 			text += '<img width="20" src="images/spark/revelation.png"></img> ' + nodeData.need.revelation;
+		}
+		if (nodeData.need.fitonidy) {
+			text += '<img width="20" src="images/spark/fitonidy.png"></img> ' + nodeData.need.fitonidy;
 		}
 		text += '</span></div>';
 	}
@@ -490,4 +543,19 @@ cy.on('zoom', function(evt) {
 		showBig = false;
 		setNodeSize(showBig);
 	}
+});
+
+$('#select_atlas select').on('change', function(ev) {
+	selected.remove();
+	if (this.value == "0") {
+		selected = main;
+		sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
+	}
+	if (this.value == "1") {
+		selected = fitonidy;
+		sparksName = ['fitonidy'];
+	}
+	selected.restore();
+	initSpark();
+	setNodeSize(showBig);
 });

@@ -949,7 +949,7 @@ var nodesData =
 			, open: false
 			, need: {blue: 200}
 			}
-		, position: {x: 920, y: 400}
+		, position: {x: 920, y: 450}
 		, classes: 'skill image impuls'
 		}
 	,
@@ -960,7 +960,7 @@ var nodesData =
 			, spirit: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 920, y: 460}
+		, position: {x: 920, y: 510}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -971,7 +971,7 @@ var nodesData =
 			, spirit: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 972, y: 370}
+		, position: {x: 972, y: 420}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -982,7 +982,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 868, y: 370}
+		, position: {x: 868, y: 420}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -994,7 +994,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 823, y: 340}
+		, position: {x: 823, y: 390}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1006,7 +1006,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 859, y: 290}
+		, position: {x: 859, y: 340}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1017,7 +1017,7 @@ var nodesData =
 			, spirit: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 919, y: 290}
+		, position: {x: 919, y: 340}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -1029,7 +1029,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 115}
 			}
-		, position: {x: 979, y: 290}
+		, position: {x: 979, y: 340}
 		, classes: 'stat image power'
 		}
 	,
@@ -1041,7 +1041,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 823, y: 460}
+		, position: {x: 823, y: 510}
 		, classes: 'stat image power'
 		}
 	,
@@ -1053,7 +1053,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 859, y: 510}
+		, position: {x: 859, y: 560}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1065,7 +1065,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 979, y: 510}
+		, position: {x: 979, y: 560}
 		, classes: 'stat image power'
 		}
 	,
@@ -1076,7 +1076,7 @@ var nodesData =
 			, spirit: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 1015, y: 340}
+		, position: {x: 1015, y: 390}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -1087,7 +1087,7 @@ var nodesData =
 			, spirit: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 1015, y: 460}
+		, position: {x: 1015, y: 510}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -1099,7 +1099,7 @@ var nodesData =
 			, dex: 8
 			, need: {green: 150}
 			}
-		, position: {x: 920, y: 557}
+		, position: {x: 920, y: 607}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1111,7 +1111,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 125}
 			}
-		, position: {x: 920, y: 243}
+		, position: {x: 920, y: 293}
 		, classes: 'stat image vit'
 		}
 	// Максимальная отдача
@@ -1289,7 +1289,7 @@ var nodesData =
 		{ data:
 			{ id: 'n112'
 			, open: false
-			, need: {god_spark: 1}
+			, need: {god: 1}
 			}
 		, position: {x: 1380, y: 0}
 		, classes: 'skill image god'
@@ -1918,7 +1918,7 @@ var nodesData =
 			, open: false
 			, need: {blue: 200}
 			}
-		, position: {x: 690, y: 710}
+		, position: {x: 690, y: 760}
 		, classes: 'skill image inertia'
 		}
 	,
@@ -1930,7 +1930,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 690,  y: 770}
+		, position: {x: 690,  y: 820}
 		, classes: 'stat image vit'
 		}
 	,
@@ -1942,7 +1942,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 742, y: 680}
+		, position: {x: 742, y: 730}
 		, classes: 'stat image power'
 		}
 	,
@@ -1954,7 +1954,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 115}
 			}
-		, position: {x: 638, y: 680}
+		, position: {x: 638, y: 730}
 		, classes: 'stat image power'
 		}
 	,
@@ -1966,7 +1966,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 595, y: 650}
+		, position: {x: 595, y: 700}
 		, classes: 'stat image power'
 		}
 	,
@@ -1977,7 +1977,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 595, y: 770}
+		, position: {x: 595, y: 820}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -1989,7 +1989,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 115}
 			}
-		, position: {x: 785, y: 770}
+		, position: {x: 785, y: 820}
 		, classes: 'stat image power'
 		}
 	,
@@ -2001,7 +2001,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 785, y: 650}
+		, position: {x: 785, y: 700}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2013,7 +2013,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 690, y: 600}
+		, position: {x: 690, y: 650}
 		, classes: 'stat image power'
 		}
 	,
@@ -2025,7 +2025,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 115}
 			}
-		, position: {x: 690, y: 820}
+		, position: {x: 690, y: 870}
 		, classes: 'stat image power'
 		}
 	,
@@ -2037,7 +2037,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 690, y: 553}
+		, position: {x: 690, y: 603}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2049,7 +2049,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 690, y: 867}
+		, position: {x: 690, y: 917}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2061,7 +2061,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 557, y: 626}
+		, position: {x: 557, y: 676}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2073,7 +2073,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 557, y: 794}
+		, position: {x: 557, y: 844}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2085,7 +2085,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 823, y: 794}
+		, position: {x: 823, y: 844}
 		, classes: 'stat image power'
 		}
 	,
@@ -2096,7 +2096,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 823, y: 626}
+		, position: {x: 823, y: 676}
 		, classes: 'stat image majesty'
 		}
 	// Удачное попадание
@@ -2106,7 +2106,7 @@ var nodesData =
 			, open: false
 			, need: {blue: 200}
 			}
-		, position: {x: 230, y: 710}
+		, position: {x: 230, y: 760}
 		, classes: 'skill image luck_hit'
 		}
 	,
@@ -2118,7 +2118,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 135, y: 650}
+		, position: {x: 135, y: 700}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2130,7 +2130,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 135, y: 770}
+		, position: {x: 135, y: 820}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2141,7 +2141,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 325, y: 770}
+		, position: {x: 325, y: 820}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -2153,7 +2153,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 325, y: 650}
+		, position: {x: 325, y: 700}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2164,7 +2164,7 @@ var nodesData =
 			, str: 20
 			, need: {blue: 185}
 			}
-		, position: {x: 169, y: 600}
+		, position: {x: 169, y: 650}
 		, classes: 'stat image strength'
 		}
 	,
@@ -2175,7 +2175,7 @@ var nodesData =
 			, str: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 291, y: 600}
+		, position: {x: 291, y: 650}
 		, classes: 'stat image strength'
 		}
 	,
@@ -2187,7 +2187,7 @@ var nodesData =
 			, dex: 5
 			, need: {red: 115}
 			}
-		, position: {x: 169, y: 820}
+		, position: {x: 169, y: 870}
 		, classes: 'stat image power'
 		}
 	,
@@ -2199,7 +2199,7 @@ var nodesData =
 			, dex: 6
 			, need: {red: 150}
 			}
-		, position: {x: 291, y: 820}
+		, position: {x: 291, y: 870}
 		, classes: 'stat image power'
 		}
 	,
@@ -2211,7 +2211,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 230, y: 600}
+		, position: {x: 230, y: 650}
 		, classes: 'stat image power'
 		}
 	,
@@ -2223,7 +2223,7 @@ var nodesData =
 			, dex: 7
 			, need: {green: 185}
 			}
-		, position: {x: 230, y: 820}
+		, position: {x: 230, y: 870}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2234,7 +2234,7 @@ var nodesData =
 			, luck: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 97, y: 626}
+		, position: {x: 97, y: 676}
 		, classes: 'stat image luck'
 		}
 	,
@@ -2246,7 +2246,7 @@ var nodesData =
 			, dex: 5
 			, need: {green: 115}
 			}
-		, position: {x: 97, y: 794}
+		, position: {x: 97, y: 844}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2258,7 +2258,7 @@ var nodesData =
 			, dex: 6
 			, need: {green: 150}
 			}
-		, position: {x: 363, y: 794}
+		, position: {x: 363, y: 844}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2269,7 +2269,7 @@ var nodesData =
 			, majesty: 200
 			, need: {blue: 150}
 			}
-		, position: {x: 363, y: 626}
+		, position: {x: 363, y: 676}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -2281,7 +2281,7 @@ var nodesData =
 			, dex: 7
 			, need: {red: 185}
 			}
-		, position: {x: 95, y: 710}
+		, position: {x: 95, y: 760}
 		, classes: 'stat image power'
 		}
 	,
@@ -2292,7 +2292,7 @@ var nodesData =
 			, spirit: 15
 			, need: {blue: 150}
 			}
-		, position: {x: 365, y: 710}
+		, position: {x: 365, y: 760}
 		, classes: 'stat image spirit'
 		}
 	// Вершина разрушения
@@ -3263,7 +3263,7 @@ var nodesData =
 			, need: {transformation: 300}
 			}
 		, position: {x: 1380, y: -1360}
-		, classes: 'skill'
+		, classes: 'skill image kinetic'
 		}
 	,
 		{ data:
@@ -3449,7 +3449,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 960, y: -980}
-		, classes: 'skill'
+		, classes: 'skill image reflex'
 		}
 	,
 		{ data:
@@ -3637,7 +3637,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 820, y: -1360}
-		, classes: 'skill'
+		, classes: 'skill image create'
 		}
 	,
 		{ data:
@@ -3803,9 +3803,6 @@ var nodesData =
 		, position: {x: 820, y: -1203}
 		, classes: 'stat image power'
 		}
-
-
-
 	// Отчаянное сопротивление
 	,
 		{ data:
@@ -3814,72 +3811,76 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 1800, y: -980}
-		, classes: 'skill'
+		, classes: 'skill image resist'
 		}
 	,
 		{ data:
 			{ id: 'n331'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 1800,  y: -920}
-		, classes: 'stat image'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n332'
 			, open: false
-			, prestige: 24
-			, vit: 24
-			, dex: 7
-			, need: {green: 185}
+			, prestige: 25
+			, power: 25
+			, dex: 112
+			, need: {red: 325}
 			}
 		, position: {x: 1852, y: -1010}
-		, classes: 'stat image'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n333'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
 			}
 		, position: {x: 1748, y: -1010}
-		, classes: 'stat image'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n334'
 			, open: false
-			, prestige: 30
-			, majesty: 200
-			, need: {blue: 150}
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
 			}
 		, position: {x: 1739, y: -1090}
-		, classes: 'stat image majesty'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n335'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 1861, y: -1090}
-		, classes: 'stat image luck'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n336'
 			, open: false
-			, prestige: 12
-			, vit: 12
-			, dex: 5
-			, need: {green: 115}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 1739, y: -870}
 		, classes: 'stat image vit'
@@ -3888,12 +3889,13 @@ var nodesData =
 		{ data:
 			{ id: 'n337'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 27
+			, vit: 27
+			, dex:9
+			, need: {green: 240}
 			}
 		, position: {x: 1861, y: -870}
-		, classes: 'stat image luck'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
@@ -3901,7 +3903,7 @@ var nodesData =
 			, open: false
 			, prestige: 30
 			, majesty: 200
-			, need: {blue: 150}
+			, need: {blue: 325}
 			}
 		, position: {x: 1800, y: -1137}
 		, classes: 'stat image majesty'
@@ -3910,33 +3912,33 @@ var nodesData =
 		{ data:
 			{ id: 'n339'
 			, open: false
-			, prestige: 16
-			, power: 16
-			, dex: 7
-			, need: {red: 185}
+			, prestige: 47
+			, valor: 47
+			, need: {blue: 400}
 			}
 		, position: {x: 1800, y: -823}
-		, classes: 'stat image power'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n340'
 			, open: false
-			, prestige: 10
-			, str: 10
-			, need: {blue: 125}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 1667, y: -1064}
-		, classes: 'stat image strength'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n341'
 			, open: false
-			, prestige: 9
-			, power: 9
-			, dex: 5
-			, need: {red: 125}
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
 			}
 		, position: {x: 1667, y: -896}
 		, classes: 'stat image power'
@@ -3945,21 +3947,22 @@ var nodesData =
 		{ data:
 			{ id: 'n342'
 			, open: false
-			, prestige: 13
-			, spirit: 13
-			, need: {blue: 155}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 1933, y: -896}
-		, classes: 'stat image spirit'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n343'
 			, open: false
-			, prestige: 12
-			, power: 12
-			, dex: 6
-			, need: {red: 150}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 1933, y: -1064}
 		, classes: 'stat image power'
@@ -3968,169 +3971,172 @@ var nodesData =
 		{ data:
 			{ id: 'n344'
 			, open: false
-			, prestige: 7
-			, str: 7
-			, need: {blue: 95}
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
 			}
 		, position: {x: 1665, y: -980}
-		, classes: 'stat image strength'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n345'
 			, open: false
-			, prestige: 9
-			, power: 9
-			, dex: 5
-			, need: {red: 125}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 1935, y: -980}
 		, classes: 'stat image power'
 		}
-
 	// Тактическая защита
 	,
 		{ data:
 			{ id: 'n346'
 			, open: false
-			, need: {}
+			, need: {blue: 350}
 			}
 		, position: {x: 1940, y: -1360}
-		, classes: 'skill'
+		, classes: 'skill image defence'
 		}
 	,
 		{ data:
 			{ id: 'n347'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 53
+			, power: 53
+			, dex: 30
+			, need: {red: 810}
 			}
 		, position: {x: 1940,  y: -1300}
-		, classes: 'stat image'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n348'
 			, open: false
-			, prestige: 24
-			, vit: 24
-			, dex: 7
-			, need: {green: 185}
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
 			}
 		, position: {x: 1992, y: -1390}
-		, classes: 'stat image'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n349'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 56
+			, valor: 56
+			, need: {blue: 650}
 			}
 		, position: {x: 1888, y: -1390}
-		, classes: 'stat image'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n350'
 			, open: false
-			, prestige: 18
-			, vit: 18
-			, dex: 6
-			, need: {green: 150}
+			, prestige: 56
+			, str: 56
+			, need: {blue: 650}
 			}
 		, position: {x: 1845, y: -1420}
-		, classes: 'stat image vit'
+		, classes: 'stat image strength'
 		}
 	,
 		{ data:
 			{ id: 'n351'
 			, open: false
-			, prestige: 12
-			, power: 12
-			, dex: 6
-			, need: {red: 150}
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
 			}
 		, position: {x: 1845, y: -1300}
-		, classes: 'stat image power'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n352'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 27
+			, power: 27
+			, dex: 18
+			, need: {red: 490}
 			}
 		, position: {x: 2035, y: -1300}
-		, classes: 'stat image luck'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n353'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
 			}
 		, position: {x: 2035, y: -1420}
-		, classes: 'stat image luck'
+		, classes: 'stat image majesty'
 		}
 	,
 		{ data:
 			{ id: 'n354'
 			, open: false
-			, prestige: 30
-			, majesty: 200
-			, need: {blue: 150}
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
 			}
 		, position: {x: 1879, y: -1470}
-		, classes: 'stat image majesty'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n355'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 27
+			, power: 27
+			, dex: 18
+			, need: {red: 490}
 			}
 		, position: {x: 2001, y: -1470}
-		, classes: 'stat image luck'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n356'
 			, open: false
-			, prestige: 12
-			, vit: 12
-			, dex: 5
-			, need: {green: 115}
+			, prestige: 56
+			, str: 56
+			, need: {blue: 650}
 			}
 		, position: {x: 1879, y: -1250}
-		, classes: 'stat image vit'
+		, classes: 'stat image strength'
 		}
 	,
 		{ data:
 			{ id: 'n357'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 100
+			, vit: 100
+			, dex: 30
+			, need: {green: 810}
 			}
 		, position: {x: 2001, y: -1250}
-		, classes: 'stat image luck'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n358'
 			, open: false
-			, prestige: 12
-			, power: 12
-			, dex: 6
-			, need: {red: 150}
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
 			}
 		, position: {x: 1940, y: -1470}
 		, classes: 'stat image power'
@@ -4139,26 +4145,26 @@ var nodesData =
 		{ data:
 			{ id: 'n359'
 			, open: false
-			, prestige: 30
-			, majesty: 200
-			, need: {blue: 150}
+			, prestige: 100
+			, vit: 100
+			, dex: 30
+			, need: {green: 810}
 			}
 		, position: {x: 1940, y: -1517}
-		, classes: 'stat image majesty'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n360'
 			, open: false
-			, prestige: 16
-			, power: 16
-			, dex: 7
-			, need: {red: 185}
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
 			}
 		, position: {x: 1940, y: -1203}
-		, classes: 'stat image power'
+		, classes: 'stat image vit'
 		}
-
 	// Мобилизация
 	,
 		{ data:
@@ -4167,300 +4173,301 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 1840, y: -450}
-		, classes: 'skill'
+		, classes: 'skill image mobilization'
 		}
 	,
 		{ data:
 			{ id: 'n362'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 1840,  y: -390}
-		, classes: 'stat image'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n363'
 			, open: false
-			, prestige: 24
-			, vit: 24
-			, dex: 7
-			, need: {green: 185}
+			, prestige: 35
+			, valor: 35
+			, need: {blue: 325}
 			}
 		, position: {x: 1892, y: -480}
-		, classes: 'stat image'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n364'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
 			}
 		, position: {x: 1788, y: -480}
-		, classes: 'stat image'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n365'
 			, open: false
-			, prestige: 18
-			, vit: 18
-			, dex: 6
-			, need: {green: 150}
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
 			}
 		, position: {x: 1745, y: -510}
-		, classes: 'stat image vit'
+		, classes: 'stat image majesty'
 		}
 	,
 		{ data:
 			{ id: 'n366'
 			, open: false
-			, prestige: 12
-			, power: 12
-			, dex: 6
-			, need: {red: 150}
+			, prestige: 23
+			, valor: 23
+			, need: {blue: 240}
 			}
 		, position: {x: 1745, y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n367'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 1935, y: -390}
-		, classes: 'stat image luck'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n368'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
 			}
 		, position: {x: 1935, y: -510}
-		, classes: 'stat image luck'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n369'
 			, open: false
-			, prestige: 30
-			, majesty: 200
-			, need: {blue: 150}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 1779, y: -560}
-		, classes: 'stat image majesty'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n370'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 1901, y: -560}
-		, classes: 'stat image luck'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n371'
 			, open: false
-			, prestige: 12
-			, vit: 12
-			, dex: 5
-			, need: {green: 115}
+			, prestige: 47
+			, valor: 47
+			, need: {blue: 400}
 			}
 		, position: {x: 1779, y: -340}
-		, classes: 'stat image vit'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n372'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 47
+			, valor: 47
+			, need: {blue: 400}
 			}
 		, position: {x: 1901, y: -340}
-		, classes: 'stat image luck'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n373'
 			, open: false
-			, prestige: 12
-			, power: 12
-			, dex: 6
-			, need: {red: 150}
+			, prestige: 35
+			, valor: 6
+			, need: {blue: 325}
 			}
 		, position: {x: 1840, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n374'
 			, open: false
-			, prestige: 30
-			, majesty: 200
-			, need: {blue: 150}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 1840, y: -340}
-		, classes: 'stat image majesty'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n375'
 			, open: false
-			, prestige: 7
-			, str: 7
-			, need: {blue: 95}
+			, prestige: 35
+			, valor: 35
+			, need: {blue: 325}
 			}
 		, position: {x: 1705, y: -450}
-		, classes: 'stat image strength'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n376'
 			, open: false
-			, prestige: 9
-			, power: 9
-			, dex: 5
-			, need: {red: 125}
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
 			}
 		, position: {x: 1975, y: -450}
-		, classes: 'stat image power'
+		, classes: 'stat image majesty'
 		}
-
 	// Призыв окулата
 	,
 		{ data:
 			{ id: 'n377'
 			, open: false
-			, need: {blue: 200}
+			, need: {blue: 350}
 			}
 		, position: {x: 1840, y: 0}
-		, classes: 'skill'
+		, classes: 'skill image okulat'
 		}
 	,
 		{ data:
 			{ id: 'n378'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
 			}
 		, position: {x: 1840,  y: 60}
-		, classes: 'stat image'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n379'
 			, open: false
-			, prestige: 24
-			, vit: 24
-			, dex: 7
-			, need: {green: 185}
+			, prestige: 23
+			, valor: 23
+			, need: {blue: 240}
 			}
 		, position: {x: 1892, y: -30}
-		, classes: 'stat image'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n380'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 23
+			, spirit: 23
+			, need: {blue: 240}
 			}
 		, position: {x: 1788, y: -30}
-		, classes: 'stat image'
+		, classes: 'stat image spirit'
 		}
 	,
 		{ data:
 			{ id: 'n381'
 			, open: false
-			, prestige: 18
-			, vit: 18
-			, dex: 6
-			, need: {green: 150}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 1745, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n382'
 			, open: false
-			, prestige: 12
-			, power: 12
-			, dex: 6
-			, need: {red: 150}
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
 			}
 		, position: {x: 1745, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat image majesty'
 		}
 	,
 		{ data:
 			{ id: 'n383'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 1935, y: 60}
-		, classes: 'stat image luck'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n384'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
 			}
 		, position: {x: 1935, y: -60}
-		, classes: 'stat image luck'
+		, classes: 'stat image majesty'
 		}
 	,
 		{ data:
 			{ id: 'n385'
 			, open: false
-			, prestige: 30
-			, majesty: 200
-			, need: {blue: 150}
+			, prestige: 35
+			, valor: 35
+			, need: {blue: 325}
 			}
 		, position: {x: 1779, y: -110}
-		, classes: 'stat image majesty'
+		, classes: 'stat image valor'
 		}
 	,
 		{ data:
 			{ id: 'n386'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
 			}
 		, position: {x: 1901, y: -110}
-		, classes: 'stat image luck'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n387'
 			, open: false
-			, prestige: 12
-			, vit: 12
-			, dex: 5
-			, need: {green: 115}
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
 			}
 		, position: {x: 1779, y: 110}
 		, classes: 'stat image vit'
@@ -4469,169 +4476,172 @@ var nodesData =
 		{ data:
 			{ id: 'n388'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 1901, y: 110}
-		, classes: 'stat image luck'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n389'
 			, open: false
-			, prestige: 12
-			, power: 12
-			, dex: 6
-			, need: {red: 150}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 1840, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n390'
 			, open: false
-			, prestige: 30
-			, majesty: 200
-			, need: {blue: 150}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 1840, y: -157}
-		, classes: 'stat image majesty'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n391'
 			, open: false
-			, prestige: 16
-			, power: 16
-			, dex: 7
-			, need: {red: 185}
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
 			}
 		, position: {x: 1840, y: 157}
 		, classes: 'stat image power'
 		}
-
 	// Мастер теней
 	,
 		{ data:
 			{ id: 'n392'
 			, open: false
-			, need: {blue: 200}
+			, need: {transformation: 300}
 			}
 		, position: {x: 2070, y: -760}
-		, classes: 'class'
+		, classes: 'class image rouge'
 		}
 	,
 		{ data:
 			{ id: 'n393'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
 			}
 		, position: {x: 2070,  y: -700}
-		, classes: 'stat image'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n394'
 			, open: false
-			, prestige: 24
-			, vit: 24
-			, dex: 7
-			, need: {green: 185}
+			, prestige: 23
+			, str: 23
+			, need: {blue: 240}
 			}
 		, position: {x: 2122, y: -790}
-		, classes: 'stat image'
+		, classes: 'stat image strength'
 		}
 	,
 		{ data:
 			{ id: 'n395'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 2018, y: -790}
-		, classes: 'stat image'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n396'
 			, open: false
-			, prestige: 18
-			, vit: 18
-			, dex: 6
-			, need: {green: 150}
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
 			}
 		, position: {x: 1975, y: -820}
-		, classes: 'stat image vit'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n397'
 			, open: false
-			, prestige: 12
-			, power: 12
-			, dex: 6
-			, need: {red: 150}
+			, prestige: 23
+			, luck: 23
+			, need: {blue: 240}
 			}
 		, position: {x: 1975, y: -700}
-		, classes: 'stat image power'
+		, classes: 'stat image luck'
 		}
 	,
 		{ data:
 			{ id: 'n398'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
 			}
 		, position: {x: 2165, y: -700}
-		, classes: 'stat image luck'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n399'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
 			}
 		, position: {x: 2165, y: -820}
-		, classes: 'stat image luck'
+		, classes: 'stat image power'
 		}
 	,
 		{ data:
 			{ id: 'n400'
 			, open: false
-			, prestige: 30
-			, majesty: 200
-			, need: {blue: 150}
+			, prestige: 47
+			, spirit: 47
+			, need: {blue: 400}
 			}
 		, position: {x: 2009, y: -870}
-		, classes: 'stat image majesty'
+		, classes: 'stat image spirit'
 		}
 	,
 		{ data:
 			{ id: 'n401'
 			, open: false
-			, prestige: 10
-			, luck: 10
-			, need: {blue: 115}
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
 			}
 		, position: {x: 2131, y: -870}
-		, classes: 'stat image luck'
+		, classes: 'stat image majesty'
 		}
 	,
 		{ data:
 			{ id: 'n402'
 			, open: false
-			, prestige: 12
-			, vit: 12
-			, dex: 5
-			, need: {green: 115}
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
 			}
 		, position: {x: 2009, y: -650}
 		, classes: 'stat image vit'
@@ -4640,21 +4650,22 @@ var nodesData =
 		{ data:
 			{ id: 'n403'
 			, open: false
-			, prestige: 20
-			, luck: 20
-			, need: {blue: 185}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 2131, y: -650}
-		, classes: 'stat image luck'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n404'
 			, open: false
-			, prestige: 12
-			, power: 12
-			, dex: 6
-			, need: {red: 150}
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
 			}
 		, position: {x: 2070, y: -870}
 		, classes: 'stat image power'
@@ -4665,7 +4676,7 @@ var nodesData =
 			, open: false
 			, prestige: 30
 			, majesty: 200
-			, need: {blue: 150}
+			, need: {blue: 325}
 			}
 		, position: {x: 2070, y: -650}
 		, classes: 'stat image majesty'
@@ -4674,28 +4685,26 @@ var nodesData =
 		{ data:
 			{ id: 'n406'
 			, open: false
-			, prestige: 7
-			, str: 7
-			, need: {blue: 95}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 1935, y: -760}
-		, classes: 'stat image strength'
+		, classes: 'stat image vit'
 		}
 	,
 		{ data:
 			{ id: 'n407'
 			, open: false
-			, prestige: 9
-			, power: 9
-			, dex: 5
-			, need: {red: 125}
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
 			}
 		, position: {x: 2205, y: -760}
-		, classes: 'stat image power'
+		, classes: 'stat image vit'
 		}
-
-
-
 	// Вершина созидания
 	,
 		{ data:
@@ -4704,7 +4713,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 1380, y: 600}
-		, classes: 'skill'
+		, classes: 'skill image create'
 		}
 	,
 		{ data:
@@ -5074,7 +5083,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 960, y: 980}
-		, classes: 'skill'
+		, classes: 'skill image defence'
 		}
 	,
 		{ data:
@@ -5433,7 +5442,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1150, y: 1740}
-		, classes: 'skill'
+		, classes: 'skill image slow'
 		}
 	,
 		{ data:
@@ -5630,7 +5639,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 690, y: 1740}
-		, classes: 'skill'
+		, classes: 'skill image injury'
 		}
 	,
 		{ data:
@@ -5806,6 +5815,953 @@ var nodesData =
 			}
 		, position: {x: 823, y: 1656}
 		, classes: 'stat image power'
+		}
+	// Предельная сила
+	,
+		{ data:
+			{ id: 'n504'
+			, open: false
+			, need: {blue: 350}
+			}
+		, position: {x: 1840, y: 450}
+		, classes: 'skill image max_str'
+		}
+	,
+		{ data:
+			{ id: 'n505'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 1745, y: 390}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n506'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 1745, y: 510}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n507'
+			, open: false
+			, prestige: 35
+			, luck: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 1935, y: 510}
+		, classes: 'stat image luck'
+		}
+	,
+		{ data:
+			{ id: 'n508'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 1935, y: 390}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n509'
+			, open: false
+			, prestige: 35
+			, str: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 1779, y: 340}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n510'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 1901, y: 340}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n511'
+			, open: false
+			, prestige: 35
+			, str: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 1779, y: 560}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n512'
+			, open: false
+			, prestige: 23
+			, str: 23
+			, need: {blue: 240}
+			}
+		, position: {x: 1901, y: 560}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n513'
+			, open: false
+			, prestige: 35
+			, str: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 1840, y: 340}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n514'
+			, open: false
+			, prestige: 47
+			, strength: 47
+			, need: {blue: 400}
+			}
+		, position: {x: 1840, y: 560}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n515'
+			, open: false
+			, prestige: 47
+			, str: 47
+			, need: {blue: 400}
+			}
+		, position: {x: 1707, y: 366}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n516'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 1707, y: 534}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n517'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 1973, y: 534}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n518'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 1973, y: 366}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n519'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 1705, y: 450}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n520'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 1975, y: 450}
+		, classes: 'stat image majesty'
+		}
+	// Лучник/Лучница
+	,
+		{ data:
+			{ id: 'n521'
+			, open: false
+			, need: {transformation: 300}
+			}
+		, position: {x: 2070, y: 760}
+		, classes: 'class image archer'
+		}
+	,
+		{ data:
+			{ id: 'n522'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 2070,  y: 820}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n523'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 2122, y: 730}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n524'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 2018, y: 730}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n525'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 1975, y: 700}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n526'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 1975, y: 820}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n527'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 2165, y: 820}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n528'
+			, open: false
+			, prestige: 47
+			, luck: 47
+			, need: {blue: 400}
+			}
+		, position: {x: 2165, y: 700}
+		, classes: 'stat image luck'
+		}
+	,
+		{ data:
+			{ id: 'n529'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 2009, y: 650}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n530'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 2131, y: 650}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n531'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 2009, y: 870}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n532'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 2131, y: 870}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n533'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 2070, y: 650}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n534'
+			, open: false
+			, prestige: 35
+			, str: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 2070, y: 870}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n535'
+			, open: false
+			, prestige: 47
+			, str: 47
+			, need: {blue: 400}
+			}
+		, position: {x: 1935, y: 760}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n536'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 2205, y: 760}
+		, classes: 'stat image power'
+		}
+	// Кинетик
+	,
+		{ data:
+			{ id: 'n537'
+			, open: false
+			, need: {transformation: 300}
+			}
+		, position: {x: 1380, y: 1360}
+		, classes: 'skill image necromancer'
+		}
+	,
+		{ data:
+			{ id: 'n538'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, luck: 12
+			, need: {red: 325}
+			}
+		, position: {x: 1380,  y: 1420}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n539'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 1432, y: 1330}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n540'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 1328, y: 1330}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n541'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 1285, y: 1300}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n542'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 1285, y: 1420}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n543'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 1475, y: 1420}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n544'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 1475, y: 1300}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n545'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 1319, y: 1250}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n546'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 1441, y: 1250}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n547'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 1319, y: 1470}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n548'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 1441, y: 1470}
+		, classes: 'stat image luck'
+		}
+	,
+		{ data:
+			{ id: 'n549'
+			, open: false
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
+			}
+		, position: {x: 1380, y: 1250}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n550'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 1380, y: 1470}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n551'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 1245, y: 1360}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n552'
+			, open: false
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
+			}
+		, position: {x: 1515, y: 1360}
+		, classes: 'stat image vit'
+		}
+	// Вынужденная передышка
+	,
+		{ data:
+			{ id: 'n553'
+			, open: false
+			, need: {blue: 350}
+			}
+		, position: {x: 1150, y: -1740}
+		, classes: 'skill image timeout'
+		}
+	,
+		{ data:
+			{ id: 'n554'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 1055, y: -1800}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n555'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 1055, y: -1680}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n556'
+			, open: false
+			, prestige: 27
+			, power: 27
+			, dex: 18
+			, need: {red: 490}
+			}
+		, position: {x: 1245, y: -1680}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n557'
+			, open: false
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
+			}
+		, position: {x: 1245, y: -1800}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n558'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 1089, y: -1850}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n559'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 1211, y: -1850}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n560'
+			, open: false
+			, prestige: 75
+			, str: 75
+			, need: {blue: 810}
+			}
+		, position: {x: 1089, y: -1630}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n561'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 1211, y: -1630}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n562'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 1150, y: -1850}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n563'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 1150, y: -1630}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n564'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 1017, y: -1824}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n565'
+			, open: false
+			, prestige:120
+			, vit: 120
+			, need: {revelation: 300}
+			}
+		, position: {x: 1017, y: -1656}
+		, classes: 'stat image revelation'
+		}
+	,
+		{ data:
+			{ id: 'n566'
+			, open: false
+			, prestige: 56
+			, luck: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 1283, y: -1656}
+		, classes: 'stat image luck'
+		}
+	,
+		{ data:
+			{ id: 'n567'
+			, open: false
+			, prestige: 53
+			, power: 53
+			, dex: 30
+			, need: {red: 810}
+			}
+		, position: {x: 1283, y: -1824}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n568'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 1015, y: -1740}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n569'
+			, open: false
+			, prestige: 56
+			, str: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 1285, y: -1740}
+		, classes: 'stat image strength'
+		}
+	// Замедляющие атаки
+	,
+		{ data:
+			{ id: 'n570'
+			, open: false
+			, need: {blue: 350}
+			}
+		, position: {x: 1610, y: -1740}
+		, classes: 'skill image slow'
+		}
+	,
+		{ data:
+			{ id: 'n571'
+			, open: false
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
+			}
+		, position: {x: 1610,  y: -1680}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n572'
+			, open: false
+			, prestige: 27
+			, power: 27
+			, dex: 18
+			, need: {red: 490}
+			}
+		, position: {x: 1662, y: -1770}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n573'
+			, open: false
+			, prestige: 53
+			, power: 53
+			, dex: 30
+			, need: {red: 810}
+			}
+		, position: {x: 1558, y: -1770}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n574'
+			, open: false
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
+			}
+		, position: {x: 1515, y: -1800}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n575'
+			, open: false
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
+			}
+		, position: {x: 1515, y: -1680}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n576'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 1705, y: -1680}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n577'
+			, open: false
+			, prestige: 56
+			, spirit: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 1705, y: -1800}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n578'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 1610, y: -1850}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n579'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 1610, y: -1630}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n580'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 1610, y: -1897}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n581'
+			, open: false
+			, prestige: 53
+			, power: 53
+			, dex: 30
+			, need: {red: 810}
+			}
+		, position: {x: 1610, y: -1583}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n582'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 1477, y: -1824}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n583'
+			, open: false
+			, prestige: 56
+			, valor: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 1477, y: -1656}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n584'
+			, open: false
+			, prestige: 80
+			, power: 80
+			, need: {revelation: 300}
+			}
+		, position: {x: 1743, y: -1656}
+		, classes: 'stat image revelation'
+		}
+	,
+		{ data:
+			{ id: 'n585'
+			, open: false
+			, prestige: 75
+			, valor: 6
+			, need: {blue: 810}
+			}
+		, position: {x: 1743, y: -1824}
+		, classes: 'stat image valor'
 		}
 	];
 
@@ -6022,7 +6978,7 @@ var edgesData =
 	, {classes: '', data: {open: false, source: 'n252', target: 'n258'}}
 	, {classes: '', data: {open: false, source: 'n258', target: 'n257'}}
 	, {classes: '', data: {open: false, source: 'n257', target: 'n265'}}
-	, {classes: '', data: {open: false, source: 'n252', target: 'n256'}}
+	, {classes: '', data: {open: false, source: 'n256', target: 'n252'}}
 	, {classes: '', data: {open: false, source: 'n256', target: 'n264'}}
 	, {classes: '', data: {open: false, source: 'n255', target: 'n259'}}
 	, {classes: '', data: {open: false, source: 'n259', target: 'n261'}}
@@ -6244,4 +7200,137 @@ var edgesData =
 	, {classes: '', data: {open: false, source: 'n496', target: 'n498'}}
 	, {classes: '', data: {open: false, source: 'n496', target: 'n492'}}
 	, {classes: '', data: {open: false, source: 'n492', target: 'n500'}}
+	, {classes: 'between', data: {open: false, source: 'n421', target: 'n516'}}
+	, {classes: '', data: {open: false, source: 'n516', target: 'n519'}}
+	, {classes: '', data: {open: false, source: 'n519', target: 'n505'}}
+	, {classes: '', data: {open: false, source: 'n505', target: 'n509'}}
+	, {classes: '', data: {open: false, source: 'n509', target: 'n515'}}
+	, {classes: '', data: {open: false, source: 'n505', target: 'n504'}}
+	, {classes: '', data: {open: false, source: 'n506', target: 'n504'}}
+	, {classes: '', data: {open: false, source: 'n504', target: 'n508'}}
+	, {classes: '', data: {open: false, source: 'n508', target: 'n510'}}
+	, {classes: '', data: {open: false, source: 'n510', target: 'n513'}}
+	, {classes: '', data: {open: false, source: 'n504', target: 'n507'}}
+	, {classes: '', data: {open: false, source: 'n507', target: 'n520'}}
+	, {classes: '', data: {open: false, source: 'n520', target: 'n518'}}
+	, {classes: '', data: {open: false, source: 'n520', target: 'n517'}}
+	, {classes: '', data: {open: false, source: 'n517', target: 'n512'}}
+	, {classes: '', data: {open: false, source: 'n512', target: 'n514'}}
+	, {classes: '', data: {open: false, source: 'n516', target: 'n511'}}
+	, {classes: '', data: {open: false, source: 'n511', target: 'n506'}}
+	, {classes: 'between', data: {open: false, source: 'n513', target: 'n391'}}
+	, {classes: '', data: {open: false, source: 'n391', target: 'n387'}}
+	, {classes: '', data: {open: false, source: 'n387', target: 'n382'}}
+	, {classes: '', data: {open: false, source: 'n382', target: 'n380'}}
+	, {classes: '', data: {open: false, source: 'n380', target: 'n377'}}
+	, {classes: '', data: {open: false, source: 'n380', target: 'n381'}}
+	, {classes: '', data: {open: false, source: 'n381', target: 'n385'}}
+	, {classes: '', data: {open: false, source: 'n380', target: 'n389'}}
+	, {classes: '', data: {open: false, source: 'n389', target: 'n379'}}
+	, {classes: '', data: {open: false, source: 'n379', target: 'n383'}}
+	, {classes: '', data: {open: false, source: 'n383', target: 'n378'}}
+	, {classes: '', data: {open: false, source: 'n378', target: 'n377'}}
+	, {classes: '', data: {open: false, source: 'n379', target: 'n384'}}
+	, {classes: '', data: {open: false, source: 'n384', target: 'n386'}}
+	, {classes: '', data: {open: false, source: 'n386', target: 'n390'}}
+	, {classes: '', data: {open: false, source: 'n391', target: 'n388'}}
+	, {classes: '', data: {open: false, source: 'n388', target: 'n383'}}
+	, {classes: 'between', data: {open: false, source: 'n264', target: 'n365'}}
+	, {classes: 'between', data: {open: false, source: 'n374', target: 'n390'}}
+	, {classes: '', data: {open: false, source: 'n374', target: 'n371'}}
+	, {classes: '', data: {open: false, source: 'n374', target: 'n362'}}
+	, {classes: '', data: {open: false, source: 'n362', target: 'n366'}}
+	, {classes: '', data: {open: false, source: 'n366', target: 'n375'}}
+	, {classes: '', data: {open: false, source: 'n362', target: 'n361'}}
+	, {classes: '', data: {open: false, source: 'n361', target: 'n363'}}
+	, {classes: '', data: {open: false, source: 'n363', target: 'n364'}}
+	, {classes: '', data: {open: false, source: 'n364', target: 'n373'}}
+	, {classes: '', data: {open: false, source: 'n373', target: 'n369'}}
+	, {classes: '', data: {open: false, source: 'n369', target: 'n365'}}
+	, {classes: '', data: {open: false, source: 'n373', target: 'n370'}}
+	, {classes: '', data: {open: false, source: 'n370', target: 'n368'}}
+	, {classes: '', data: {open: false, source: 'n368', target: 'n376'}}
+	, {classes: '', data: {open: false, source: 'n376', target: 'n367'}}
+	, {classes: '', data: {open: false, source: 'n367', target: 'n372'}}
+	, {classes: '', data: {open: false, source: 'n367', target: 'n362'}}
+	, {classes: 'between', data: {open: false, source: 'n368', target: 'n397'}}
+	, {classes: '', data: {open: false, source: 'n397', target: 'n402'}}
+	, {classes: '', data: {open: false, source: 'n402', target: 'n405'}}
+	, {classes: '', data: {open: false, source: 'n405', target: 'n403'}}
+	, {classes: '', data: {open: false, source: 'n403', target: 'n398'}}
+	, {classes: '', data: {open: false, source: 'n398', target: 'n407'}}
+	, {classes: '', data: {open: false, source: 'n407', target: 'n399'}}
+	, {classes: '', data: {open: false, source: 'n399', target: 'n401'}}
+	, {classes: '', data: {open: false, source: 'n404', target: 'n401'}}
+	, {classes: '', data: {open: false, source: 'n404', target: 'n400'}}
+	, {classes: '', data: {open: false, source: 'n400', target: 'n396'}}
+	, {classes: '', data: {open: false, source: 'n396', target: 'n406'}}
+	, {classes: '', data: {open: false, source: 'n406', target: 'n397'}}
+	, {classes: '', data: {open: false, source: 'n395', target: 'n404'}}
+	, {classes: '', data: {open: false, source: 'n393', target: 'n394'}}
+	, {classes: '', data: {open: false, source: 'n394', target: 'n395'}}
+	, {classes: '', data: {open: false, source: 'n392', target: 'n393'}}
+	, {classes: 'between', data: {open: false, source: 'n517', target: 'n525'}}
+	, {classes: '', data: {open: false, source: 'n525', target: 'n535'}}
+	, {classes: '', data: {open: false, source: 'n535', target: 'n526'}}
+	, {classes: '', data: {open: false, source: 'n525', target: 'n529'}}
+	, {classes: '', data: {open: false, source: 'n529', target: 'n533'}}
+	, {classes: '', data: {open: false, source: 'n533', target: 'n530'}}
+	, {classes: '', data: {open: false, source: 'n530', target: 'n528'}}
+	, {classes: '', data: {open: false, source: 'n528', target: 'n536'}}
+	, {classes: '', data: {open: false, source: 'n536', target: 'n527'}}
+	, {classes: '', data: {open: false, source: 'n527', target: 'n532'}}
+	, {classes: '', data: {open: false, source: 'n532', target: 'n534'}}
+	, {classes: '', data: {open: false, source: 'n534', target: 'n531'}}
+	, {classes: '', data: {open: false, source: 'n527', target: 'n523'}}
+	, {classes: '', data: {open: false, source: 'n523', target: 'n524'}}
+	, {classes: '', data: {open: false, source: 'n524', target: 'n522'}}
+	, {classes: '', data: {open: false, source: 'n522', target: 'n521'}}
+	, {classes: 'between', data: {open: false, source: 'n435', target: 'n549'}}
+	, {classes: '', data: {open: false, source: 'n549', target: 'n546'}}
+	, {classes: '', data: {open: false, source: 'n546', target: 'n544'}}
+	, {classes: '', data: {open: false, source: 'n544', target: 'n552'}}
+	, {classes: '', data: {open: false, source: 'n549', target: 'n545'}}
+	, {classes: '', data: {open: false, source: 'n545', target: 'n541'}}
+	, {classes: '', data: {open: false, source: 'n541', target: 'n551'}}
+	, {classes: '', data: {open: false, source: 'n551', target: 'n542'}}
+	, {classes: '', data: {open: false, source: 'n542', target: 'n547'}}
+	, {classes: '', data: {open: false, source: 'n547', target: 'n550'}}
+	, {classes: '', data: {open: false, source: 'n550', target: 'n548'}}
+	, {classes: '', data: {open: false, source: 'n548', target: 'n543'}}
+	, {classes: '', data: {open: false, source: 'n537', target: 'n538'}}
+	, {classes: '', data: {open: false, source: 'n538', target: 'n539'}}
+	, {classes: '', data: {open: false, source: 'n539', target: 'n540'}}
+	, {classes: '', data: {open: false, source: 'n540', target: 'n542'}}
+	, {classes: 'between', data: {open: false, source: 'n282', target: 'n344'}}
+	, {classes: '', data: {open: false, source: 'n344', target: 'n340'}}
+	, {classes: '', data: {open: false, source: 'n340', target: 'n333'}}
+	, {classes: '', data: {open: false, source: 'n333', target: 'n330'}}
+	, {classes: '', data: {open: false, source: 'n330', target: 'n331'}}
+	, {classes: '', data: {open: false, source: 'n331', target: 'n332'}}
+	, {classes: '', data: {open: false, source: 'n332', target: 'n343'}}
+	, {classes: '', data: {open: false, source: 'n343', target: 'n345'}}
+	, {classes: '', data: {open: false, source: 'n345', target: 'n342'}}
+	, {classes: '', data: {open: false, source: 'n342', target: 'n337'}}
+	, {classes: '', data: {open: false, source: 'n344', target: 'n341'}}
+	, {classes: '', data: {open: false, source: 'n341', target: 'n336'}}
+	, {classes: '', data: {open: false, source: 'n336', target: 'n339'}}
+	, {classes: '', data: {open: false, source: 'n343', target: 'n335'}}
+	, {classes: '', data: {open: false, source: 'n335', target: 'n338'}}
+	, {classes: '', data: {open: false, source: 'n338', target: 'n334'}}
+	, {classes: 'between', data: {open: false, source: 'n335', target: 'n360'}}
+	, {classes: '', data: {open: false, source: 'n360', target: 'n357'}}
+	, {classes: '', data: {open: false, source: 'n360', target: 'n356'}}
+	, {classes: '', data: {open: false, source: 'n356', target: 'n351'}}
+	, {classes: '', data: {open: false, source: 'n351', target: 'n350'}}
+	, {classes: '', data: {open: false, source: 'n350', target: 'n354'}}
+	, {classes: '', data: {open: false, source: 'n347', target: 'n351'}}
+	, {classes: '', data: {open: false, source: 'n347', target: 'n346'}}
+	, {classes: '', data: {open: false, source: 'n348', target: 'n349'}}
+	, {classes: '', data: {open: false, source: 'n349', target: 'n347'}}
+	, {classes: '', data: {open: false, source: 'n348', target: 'n358'}}
+	, {classes: '', data: {open: false, source: 'n358', target: 'n359'}}
+	, {classes: '', data: {open: false, source: 'n359', target: 'n355'}}
+	, {classes: '', data: {open: false, source: 'n355', target: 'n353'}}
+	, {classes: '', data: {open: false, source: 'n353', target: 'n352'}}
 	];
