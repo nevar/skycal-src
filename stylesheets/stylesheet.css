@@ -281,11 +281,35 @@ html, body {
 	padding: 5px;
 }
 
-#atlas {
-	height: 85%;
+.qtip {
+	max-width: 25%;
+	min-width: 300px;
+	opacity: 0.80;
+}
+
+#left {
 	width: 79%;
+	height: 100%;
+	float: left;
+}
+
+#select_atlas {
+	height: 5%;
+	float: top;
+}
+
+#atlas {
+	height: 79%;
+	width: 100%;
 	border: 1px solid gray;
 	float: left;
+}
+
+#need {
+	height: 15%;
+	margin: 0 0;
+	text-align: right;
+	clear: both
 }
 
 #total-stat {
@@ -296,15 +320,40 @@ html, body {
 	overflow-y: auto;
 }
 
-#need {
-	height: 15%;
-	width: 80%;
-	margin: 0 0;
-	text-align: right;
+table div {
+	display: inline-block;
 }
 
-.qtip {
-	max-width: 500px;
-	min-width: 300px;
-	opacity: 0.80;
+img.red {
+	background-image: url("../images/spark/red.png");
+	width: 26px;
+	height: 31px;
+}
+
+img.green {
+	background-image: url("../images/spark/green.png");
+	width: 27px;
+	height: 31px;
+}
+
+img.blue {
+	background-image: url("../images/spark/blue.png");
+	width: 27px;
+	height: 31px;
+}
+
+img.revelation {
+	background-image: url("../images/spark/revelation.png");
+	width: 26px;
+	height: 32px;
+}
+
+img.fitonidy {
+	background-image: url("../images/spark/fitonidy.png");
+	width: 28px;
+	height: 32px;
+}
+
+.hidden {
+	display: none;
 }

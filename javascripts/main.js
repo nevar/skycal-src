@@ -1,12 +1,88 @@
 var cy,
-	blue = 0,
-	green = 0,
-	red = 0,
-	used_blue = 0,
-	used_green = 0,
-	used_red = 0,
+	total, used, need,
+	sparksName = [],
 	tempPath,
-	showBig = false;
+	showBig = false,
+	main, fitonidy, selected;
+
+function calcSpark() {
+	var elements = cy.elements('node'),
+		nodeData,
+		ll = sparksName.length,
+		name;
+
+	total =
+		{ red: 0, green: 0, blue: 0, all: 0
+		, transformation: 0
+		, revelation: 0
+		, god: 0
+		, fitonidy: 0
+		};
+	used =
+		{ red: 0, green: 0, blue: 0, all: 0
+		, transformation: 0
+		, revelation: 0
+		, god: 0
+		, fitonidy: 0
+		};
+	need =
+		{ red: 0, green: 0, blue: 0, all: 0
+		, transformation: 0
+		, revelation: 0
+		, god: 0
+		, fitonidy: 0
+		};
+	for (var i = 0, l = elements.length; i < l; i++) {
+		isOpen = elements[i].hasClass('open');
+		nodeData = elements[i].data();
+		for (var j = 0; j < ll; j++) {
+			name = sparksName[j];
+			total[name] += nodeData.need[name] || 0;
+			if (isOpen) {
+				used[name] += nodeData.need[name] || 0;
+			}
+		}
+	}
+	if (sparksName.indexOf('all') !== -1) {
+		total['all'] = total.red + total.green + total.blue;
+		used['all'] = used.red + used.green + used.blue;
+	}
+}
+
+function initSpark() {
+	var image, stat;
+
+	calcSpark();
+	for (var i = 0, l = sparksName.length; i < l; i++) {
+		element = document.getElementById('image' + i);
+		element.className = '';
+		image = element.childNodes[0].className = sparksName[i];
+		element = document.getElementById('stat' + i);
+		element.className = '';
+		stat = element.childNodes;
+		stat[0].innerHTML = 0;
+		stat[2].innerHTML = used[sparksName[i]];
+		stat[4].innerHTML = total[sparksName[i]];
+	}
+	for (var i = sparksName.length; i < 7; i++) {
+		document.getElementById('image' + i).className = 'hidden';
+		document.getElementById('stat' + i).className = 'hidden';
+	}
+}
+
+function updateUsedSparks() {
+	for (var i = 0, l = sparksName.length; i < l; i++) {
+		stat = document.getElementById('stat' + i).childNodes;
+		stat[2].innerHTML = used[sparksName[i]];
+	}
+}
+
+function updateNeedSparks() {
+	for (var i = 0, l = sparksName.length; i < l; i++) {
+		stat = document.getElementById('stat' + i).childNodes;
+		stat[0].innerHTML = need[sparksName[i]];
+	}
+}
 
 function init() {
 	var container = document.getElementById('atlas');
@@ -103,19 +179,16 @@ function init() {
 		, minZoom: 0.05
 		});
 	cy.center(cy.nodes('#n17'));
+	// TODO: load saved data
+	sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
+	initSpark();
 };
 
 init();
 
-function updateUsed() {
-	document.getElementById('used_red').innerHTML = used_red;
-	document.getElementById('used_blue').innerHTML = used_blue;
-	document.getElementById('used_green').innerHTML = used_green;
-	document.getElementById('used_total').innerHTML = used_red + used_blue + used_green;
-}
-
 cy.on('tap', function(evt) {
-	var node, resource, openPath;
+	var node, openPath,
+		ll = sparksName.length;
 
 	if (evt.cy === evt.cyTarget) {
 		return;
@@ -130,35 +203,35 @@ cy.on('tap', function(evt) {
 		cy.startBatch();
 		if (openPath.found) {
 			openPath = openPath.path;
+			for (var i = 0, l = openPath.length; i < l; i++) {
+				openPath[i].data('open', true);
+				if (!openPath[i].isNode()) {
+					continue;
+				}
+				isFound = openPath[i].hasClass('foundPath');
+				nodeData = openPath[i].data();
+				for (var j = 0; j < ll; j++) {
+					name = sparksName[j];
+					if (isFound) {
+						need[name] -= nodeData.need[name] || 0;
+					}
+					used[name] += nodeData.need[name] || 0;
+				}
+			}
+			if (sparksName.indexOf('all') !== -1) {
+				need['all'] = need.red + need.green + need.blue;
+				used['all'] = used.red + used.green + used.blue;
+			}
+			updateNeedSparks();
+			updateUsedSparks();
 			openPath.removeClass('foundPath want').addClass('open');
 			openPath[2].connectedEdges().filter(function(i, ele) {
 				return ele.source().data('open') || ele.target().data('open');
 			}).removeClass('foundPath want').addClass('open');
-			for (var i = 0, l = openPath.length; i < l; i++) {
-				openPath[i].data('open', true);
-				resource = openPath[i].data('need') || {};
-				if (openPath[i].hasClass('foundPath')) {
-					blue -= resource.blue || 0;
-					red -= resource.red || 0;
-					green -= resource.green || 0;
-				}
-				used_blue += resource.blue || 0;
-				used_red += resource.red || 0;
-				used_green += resource.green || 0;
-			}
-			updateNeed();
-			updateUsed();
 		}
 		cy.endBatch();
 	}
 });
-
-function updateNeed() {
-	document.getElementById('need_red').innerHTML = red;
-	document.getElementById('need_blue').innerHTML = blue;
-	document.getElementById('need_green').innerHTML = green;
-	document.getElementById('need_total').innerHTML = red + blue + green;
-}
 
 function foundPath(to, excludeNode, useNode) {
 	var graphWithouOpen, position, from, aStar;
@@ -166,7 +239,7 @@ function foundPath(to, excludeNode, useNode) {
 	var helpSearch =
 		[
 			{ group: 'nodes'
-			, data: {id: 'startSearch'}
+			, data: {id: 'startSearch', need: {}}
 			, position: {x: 0, y: 0}
 			}
 		];
@@ -204,14 +277,8 @@ function foundPath(to, excludeNode, useNode) {
 
 cy.on('cxttap', function(evt) {
 	var goal,
-		position,
-		oldPath,
-		foundPath,
-		root,
-		aStar,
-		targetX,
-		targetY,
-		need;
+		needPath,
+		ll = sparksName.length;
 
 	goal = evt.cyTarget;
 	if (evt.cy === goal) {
@@ -220,42 +287,25 @@ cy.on('cxttap', function(evt) {
 	if (goal.data('open')) {
 		return;
 	}
-	oldPath = cy.elements('.foundPath');
-	foundPath = {distance: 9999999999999};
-	blue = green = red = 0;
-	position = goal.position();
-	targetX = position.x;
-	targetY = position.y;
+	needPath = foundPath(goal, '[?open]', '[!open]');
 	cy.startBatch();
-	oldPath.removeClass('foundPath');
-	root = cy.elements('node.open').neighborhood('node').difference('.open');
-	for (var i = root.length; i--; ) {
-		aStar = cy.elements().aStar({root: root[i], goal: goal
-			, heuristic: function (node) {
-				var position = node.position(),
-					dx = position.x - targetX,
-					dy = position.y - targetY,
-					need = node.data('need') || {},
-					weight = need.blue || 0 + need.red || 0 + need.green || 0;
-				return (weight * 10000 || 0) + (dx * dx + dy * dy) / 1000;
-			}
-		});
-		if (aStar.found && foundPath.distance > aStar.distance) {
-			foundPath = aStar;
-		}
-	}
-	if (foundPath.found) {
-		foundPath = foundPath.path;
-		foundPath.addClass('foundPath');
-		for (var i = foundPath.length; i--; ) {
-			if (foundPath[i].isNode()) {
-				need = foundPath[i].data('need') || {};
-				blue += need.blue || 0;
-				red += need.red || 0;
-				green += need.green || 0;
+	cy.elements('.foundPath').removeClass('foundPath');
+	if (needPath.found) {
+		needPath = needPath.path;
+		needPath.addClass('foundPath');
+		for (var i = needPath.length; i--; ) {
+			if (needPath[i].isNode()) {
+				nodeData = needPath[i].data();
+				for (var j = 0; j < ll; j++) {
+					name = sparksName[j];
+					need[name] += nodeData.need[name] || 0;
+				}
 			}
 		}
-		updateNeed();
+		if (sparksName.indexOf('all') !== -1) {
+			need['all'] = need.red + need.green + need.blue;
+		}
+		updateNeedSparks();
 	}
 	cy.endBatch();
 });

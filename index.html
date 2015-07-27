@@ -2,53 +2,61 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv='X-UA-Compatible' content='chrome=1'>
 
-    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel='stylesheet' type='text/css' href='http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.css' media='screen'>
+    <link rel='stylesheet' type='text/css' href='stylesheets/stylesheet.css' media='screen'>
 
     <title>Skycal by nevar</title>
   </head>
 
   <body>
-    <div class="container">
-        <div id="atlas"></div>
-		<div id="total-stat">
+    <div class='container'>
+		<div id='left'>
+			<div id='select_atlas'>
+				<select>
+					<option value='0'>Атлас Развития</option>
+					<optgroup label='Вторжения'>
+						<option value='1'>Фитониды</option>
+					</optgroup>
+				</select>
+			</div>
+			<div id='atlas'></div>
+			<div id='box'></div>
+			<div id='need'>
+				<table>
+				<tbody>
+					<tr>
+						<td id='image0'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
+						<td id='image1'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
+						<td id='image2'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
+						<td id='image3'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
+						<td id='image4'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
+						<td id='image5'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
+						<td id='image6'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
+					</tr>
+					<tr>
+						<td id='stat0'><div>0</div>/<div>0</div>/<div>0</div></td>
+						<td id='stat1'><div>0</div>/<div>0</div>/<div>0</div></td>
+						<td id='stat2'><div>0</div>/<div>0</div>/<div>0</div></td>
+						<td id='stat3'><div>0</div>/<div>0</div>/<div>0</div></td>
+						<td id='stat4'><div>0</div>/<div>0</div>/<div>0</div></td>
+						<td id='stat5'><div>0</div>/<div>0</div>/<div>0</div></td>
+						<td id='stat6'><div>0</div>/<div>0</div>/<div>0</div></td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+		</div>
+		<div id='total-stat'>
 			<p>Выносливость: 32324</p>
 		</div>
-		<div id='need'>
-			<table>
-			<tbody>
-				<tr>
-					<td></td>
-					<td><img src="images/spark/red.png"></img></td>
-					<td><img src="images/spark/green.png"></img></td>
-					<td><img src="images/spark/blue.png"></img></td>
-					<td>Всего</td>
-				</tr>
-				<tr>
-					<td>Надо:</td>
-					<td><div id='need_red'>0</div></td>
-					<td><div id='need_green'>0</div></td>
-					<td><div id='need_blue'>0</div></td>
-					<td><div id='need_total'>0</div></td>
-				</tr>
-				<tr>
-					<td>Использовано:</td>
-					<td><div id='used_red'>0</div></td>
-					<td><div id='used_green'>0</div></td>
-					<td><div id='used_blue'>0</div></td>
-					<td><div id='used_total'>0</div></td>
-				</tr>
-			</tbody>
-			</table>
-		</div>
-		<div id='box'></div>
-		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>
-        <script src="javascripts/cytoscape.min.js"></script>
-        <script src="javascripts/main_atlas.js"></script>
-        <script src="javascripts/main.js"></script>
+		<script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
+		<script src='http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js'></script>
+        <script src='javascripts/cytoscape.min.js'></script>
+        <script src='javascripts/main_atlas.js'></script>
+        <script src='javascripts/fitonidy_atlas.js'></script>
+        <script src='javascripts/main.js'></script>
     </div>
   </body>
 </html>
