@@ -336,6 +336,13 @@ cy.on('cxttap', function(evt) {
 		return;
 	}
 	needPath = foundPath(goal, '[?open]', '[!open]');
+	need =
+		{ red: 0, green: 0, blue: 0, all: 0
+		, transformation: 0
+		, revelation: 0
+		, god: 0
+		, fitonidy: 0
+		};
 	cy.startBatch();
 	cy.elements('.foundPath').removeClass('foundPath');
 	if (needPath.found) {
