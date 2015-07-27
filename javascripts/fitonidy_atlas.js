@@ -12,7 +12,7 @@ var fitonidyNodesData =
 		{ data:
 			{ id: 'n2001'
 			, open: false
-			, need: {fitonidy: 50}
+			, need: {fitonidy: 75}
 			, title:
 				'Уязвимость фитонидов'
 			, description:
@@ -30,7 +30,7 @@ var fitonidyNodesData =
 			, open: false
 			, prestige: 23
 			, str: 23
-			, need: {fitonidy: 50}
+			, need: {fitonidy: 75}
 			}
 		, position: {x: 205, y: -60}
 		, classes: 'stat image strength'
@@ -384,8 +384,7 @@ var fitonidyNodesData =
 		{ data:
 			{ id: 'n2035'
 			, open: false
-			, need: {fitonidy: 50}
-
+			, need: {fitonidy: 75}
 			, title: 'Талант: Регенеративный механизм'
 			, description:
 				'Увеличивает вашу характеристику "Заживление" на 3% за каждый '+
