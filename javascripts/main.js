@@ -419,17 +419,25 @@ cy.on('tapdragover', 'node', function(evt) {
 	}
 });
 
+function setNodeSize(isBig) {
+	if (isBig) {
+		cy.elements().addClass('big');
+		cy.elements('.stat,edge').addClass('hidden');
+		cy.elements('edge.between').removeClass('hidden');
+	} else {
+		cy.elements().removeClass('big hidden');
+	}
+}
+
 cy.on('zoom', function(evt) {
 	var zoomLevel = cy.zoom();
 
 	if (!showBig && zoomLevel < 0.20) {
 		showBig = true;
-		cy.elements().addClass('big');
-		cy.elements('.stat,edge').addClass('hidden');
-		cy.elements('edge.between').removeClass('hidden');
+		setNodeSize(showBig);
 	}
 	if (showBig && zoomLevel > 0.20) {
 		showBig = false;
-		cy.elements().removeClass('big hidden');
+		setNodeSize(showBig);
 	}
 });
