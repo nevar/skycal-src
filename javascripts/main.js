@@ -158,6 +158,9 @@ function init() {
 			'edge[target = "n489"],edge[target = "n491"],'+
 			'edge[target = "n522"],edge[target = "n524"],'+
 			'edge[target = "n539"],edge[target = "n540"],'+
+			'edge[target = "n576"],edge[target = "n577"],'+
+			'edge[target = "n578"],edge[target = "n574"],'+
+			'edge[target = "n572"],'+
 			'edge[target = "n2022"],edge[target = "n2020"],'+
 			'edge[target = "n2052"],edge[target = "n2054"],'+
 			'edge[target = "n2055"],edge[target = "n2056"],'+
