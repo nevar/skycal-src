@@ -1,87 +1,122 @@
 var cy,
 	revelationWeight = 1,
 	total, used, need,
+	statTotal, stat, statgive,
 	sparksName = [],
 	tempPath,
 	showBig = false,
-	main, fitonidy, selected;
-
-function calcSpark() {
-	var elements = cy.elements('node'),
-		nodeData,
-		ll = sparksName.length,
-		name;
-
-	total =
-		{ red: 0, green: 0, blue: 0, all: 0
-		, transformation: 0
-		, revelation: 0
-		, god: 0
-		, fitonidy: 0
-		};
-	used =
-		{ red: 0, green: 0, blue: 0, all: 0
-		, transformation: 0
-		, revelation: 0
-		, god: 0
-		, fitonidy: 0
-		};
+	graphsStat = [], selected = 0,
 	need =
 		{ red: 0, green: 0, blue: 0, all: 0
 		, transformation: 0
 		, revelation: 0
 		, god: 0
 		, fitonidy: 0
-		};
-	for (var i = 0, l = elements.length; i < l; i++) {
-		isOpen = elements[i].hasClass('open');
-		nodeData = elements[i].data();
-		for (var j = 0; j < ll; j++) {
-			name = sparksName[j];
-			total[name] += nodeData.need[name] || 0;
-			if (isOpen) {
-				used[name] += nodeData.need[name] || 0;
+		},
+	giveStat =
+		{ power: 0, vit: 0
+		, str: 0, valor: 0, luck: 0, spirit: 0
+		, majesty: 0, dex: 0
+		},
+	statsName =
+		['power', 'vit', 'str', 'valor', 'luck', 'spirit', 'dex', 'majesty'],
+	sl = statsName.length;
+
+function calcSpark(elements) {
+	var curElements,
+		nodeData,
+		sparksName =
+			['red', 'green', 'blue', 'all'
+			, 'transformation', 'revelation'
+			, 'god'
+			, 'fitonidy'],
+		ll = sparksName.length,
+		name;
+
+	for (var i = 0, gl = elements.length; i < gl; i++) {
+		total =
+			{ red: 0, green: 0, blue: 0, all: 0
+			, transformation: 0
+			, revelation: 0
+			, god: 0
+			, fitonidy: 0
+			};
+		used =
+			{ red: 0, green: 0, blue: 0, all: 0
+			, transformation: 0
+			, revelation: 0
+			, god: 0
+			, fitonidy: 0
+			};
+		statTotal =
+			{ power: 0, vit: 0
+			, str: 0, valor: 0, luck: 0, spirit: 0
+			, majesty: 0, dex: 0
+			};
+		stat =
+			{ power: 0, vit: 0
+			, str: 0, valor: 0, luck: 0, spirit: 0
+			, majesty: 0, dex: 0
+			};
+		curElements = elements[i].filter('node');
+		for (var j = 0, l = curElements.length; j < l; j++) {
+			isOpen = curElements[j].data('open');
+			nodeData = curElements[j].data();
+			for (var e = 0; e < ll; e++) {
+				name = sparksName[e];
+				total[name] += nodeData.need[name] || 0;
+			}
+			for (var e = 0; e < sl; e++) {
+				name = statsName[e];
+				statTotal[name] += nodeData[name] || 0;
 			}
 		}
-	}
-	if (sparksName.indexOf('all') !== -1) {
 		total['all'] = total.red + total.green + total.blue;
-		used['all'] = used.red + used.green + used.blue;
+		graphsStat.push(
+			{ elements: elements[i]
+			, total: total
+			, used: used
+			, statTotal: statTotal
+			, stat: stat
+			});
 	}
 }
 
 function initSpark() {
-	var image, stat;
+	var element, image, spark, statName;
 
-	calcSpark();
 	for (var i = 0, l = sparksName.length; i < l; i++) {
 		element = document.getElementById('image' + i);
 		element.className = '';
 		image = element.childNodes[0].className = sparksName[i];
-		element = document.getElementById('stat' + i);
+		element = document.getElementById('spark' + i);
 		element.className = '';
-		stat = element.childNodes;
-		stat[0].innerHTML = 0;
-		stat[2].innerHTML = used[sparksName[i]];
-		stat[4].innerHTML = total[sparksName[i]];
+		spark = element.children;
+		spark[0].innerHTML = 0;
+		spark[1].innerHTML = graphsStat[selected].used[sparksName[i]];
+		spark[2].innerHTML = graphsStat[selected].total[sparksName[i]];
 	}
 	for (var i = sparksName.length; i < 7; i++) {
 		document.getElementById('image' + i).className = 'hidden';
-		document.getElementById('stat' + i).className = 'hidden';
+		document.getElementById('spark' + i).className = 'hidden';
+	}
+	updateStat(1, graphsStat[selected].stat);
+	updateStat(2, graphsStat[selected].statTotal);
+}
+
+function updateSparks(num, data) {
+	var spark;
+
+	for (var i = 0, l = sparksName.length; i < l; i++) {
+		spark = document.getElementById('spark' + i).children;
+		spark[num].innerHTML = data[sparksName[i]];
 	}
 }
 
-function updateUsedSparks() {
-	for (var i = 0, l = sparksName.length; i < l; i++) {
-		stat = document.getElementById('stat' + i).childNodes;
-		stat[2].innerHTML = used[sparksName[i]];
-	}
-}
-
-function updateNeedSparks() {
-	for (var i = 0, l = sparksName.length; i < l; i++) {
-		stat = document.getElementById('stat' + i).childNodes;
-		stat[0].innerHTML = need[sparksName[i]];
+function updateStat(num, data) {
+	for (var i = 0; i < sl; i++) {
+		statName = statsName[i];
+		document.getElementById(statName).children[num].innerHTML = data[statName];
 	}
 }
 
@@ -149,18 +184,18 @@ function init() {
 			'.hidden {opacity: 0;}' +
 
 			'.want {border-width:3;border-color:yellow;border-style:dashed;}' +
-			'.open {border-width:1;border-color:yellow;}' +
+			'[?open] {border-width:1;border-color:yellow;}' +
 			'.foundPath {border-width:3;border-color:#0066CC;border-style:dashed;}' +
 			'edge.want {width:3;line-color:yellow;line-style:dashed;}' +
-			'edge.open {width:1;line-color:yellow;}' +
+			'edge[?open] {width:1;line-color:yellow;}' +
 			'edge.foundPath {width:3;line-style:dashed;line-color:#0066CC;}' +
 
 			'.big.want {border-width:15;border-color:yellow;border-style:dashed;}' +
-			'.big.open {border-width:10;border-color:yellow;}' +
+			'.big[?open] {border-width:10;border-color:yellow;}' +
 			'.big.foundPath {border-width:15;border-color:#0066CC;border-style:dashed;}' +
 			'edge.big {width:15;}' +
 			'edge.big.want {width:15;line-color:yellow;line-style:dashed;}' +
-			'edge.big.open {width:10;line-color:yellow;}' +
+			'edge.big[?open] {width:10;line-color:yellow;}' +
 			'edge.big.foundPath {width:15;line-style:dashed;line-color:#0066CC;}' +
 
 			'.image {background-repeat:no-repeat;background-clip:none;background-fit:cover;background-opacity:0;}' +
@@ -223,10 +258,11 @@ function init() {
 		, edges: fitonidyEdgesData
 		});
 	cy.remove(fitonidy);
-	selected = main;
+	selected = 0;
 	cy.center(cy.nodes('#n17'));
 	// TODO: load saved data
 	sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
+	calcSpark([main, fitonidy]);
 	initSpark();
 };
 
@@ -234,14 +270,16 @@ init();
 
 cy.on('tap', function(evt) {
 	var node, openPath,
-		ll = sparksName.length;
+		ll = sparksName.length,
+		used = graphsStat[selected].used,
+		stat = graphsStat[selected].stat;
 
 	if (evt.cy === evt.cyTarget) {
 		return;
 	}
 	node = evt.cyTarget;
 
-	if (node.hasClass('open')) {
+	if (node.data('open')) {
 		// TODO: unopen
 		return;
 	} else {
@@ -263,17 +301,26 @@ cy.on('tap', function(evt) {
 					}
 					used[name] += nodeData.need[name] || 0;
 				}
+				for (var e = 0; e < sl; e++) {
+					name = statsName[e];
+					if (isFound) {
+						giveStat[name] -= nodeData[name] || 0;
+					}
+					stat[name] += nodeData[name] || 0;
+				}
 			}
 			if (sparksName.indexOf('all') !== -1) {
 				need['all'] = need.red + need.green + need.blue;
 				used['all'] = used.red + used.green + used.blue;
 			}
-			updateNeedSparks();
-			updateUsedSparks();
-			openPath.removeClass('foundPath want').addClass('open');
+			updateSparks(0, need);
+			updateSparks(1, graphsStat[selected].used);
+			updateStat(0, giveStat);
+			updateStat(1, stat);
+			openPath.removeClass('foundPath want');
 			openPath[2].connectedEdges().filter(function(i, ele) {
-				return ele.source().data('open') || ele.target().data('open');
-			}).removeClass('foundPath want').addClass('open');
+				return ele.source().data('open') && ele.target().data('open');
+			}).removeClass('foundPath want').data('open', true);
 		}
 		cy.endBatch();
 	}
@@ -343,6 +390,11 @@ cy.on('cxttap', function(evt) {
 		, god: 0
 		, fitonidy: 0
 		};
+	giveStat =
+		{ power: 0, vit: 0
+		, str: 0, valor: 0, luck: 0, spirit: 0
+		, majesty: 0, dex: 0
+		};
 	cy.startBatch();
 	cy.elements('.foundPath').removeClass('foundPath');
 	if (needPath.found) {
@@ -355,12 +407,17 @@ cy.on('cxttap', function(evt) {
 					name = sparksName[j];
 					need[name] += nodeData.need[name] || 0;
 				}
+				for (var e = 0; e < sl; e++) {
+					name = statsName[e];
+					giveStat[name] += nodeData[name] || 0;
+				}
 			}
 		}
 		if (sparksName.indexOf('all') !== -1) {
 			need['all'] = need.red + need.green + need.blue;
 		}
-		updateNeedSparks();
+		updateSparks(0, need);
+		updateStat(0, giveStat);
 	}
 	cy.endBatch();
 });
@@ -520,7 +577,7 @@ cy.on('tapdragover', 'node', function(evt) {
 			, tip: {corner: false}
 			}
 		});
-	if (target.hasClass('open')) {
+	if (target.data('open')) {
 		return;
 	}
 	tempPath = foundPath(target, '[?open]', '[!open]');
@@ -553,16 +610,31 @@ cy.on('zoom', function(evt) {
 });
 
 $('#select_atlas select').on('change', function(ev) {
-	selected.remove();
-	if (this.value == "0") {
-		selected = main;
-		sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
+	var newSelected = parseInt(this.value, 10);
+	if (newSelected === selected) {
+		return;
 	}
-	if (this.value == "1") {
-		selected = fitonidy;
+	graphsStat[selected].elements.remove();
+	selected = newSelected;
+	if (selected == 0) {
+		sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
+	} else if (selected == 1) {
 		sparksName = ['fitonidy'];
 	}
-	selected.restore();
+	graphsStat[selected].elements.restore();
+	need =
+		{ red: 0, green: 0, blue: 0, all: 0
+		, transformation: 0
+		, revelation: 0
+		, god: 0
+		, fitonidy: 0
+		};
+	giveStat =
+		{ power: 0, vit: 0
+		, str: 0, valor: 0, luck: 0, spirit: 0
+		, majesty: 0, dex: 0
+		};
+	cy.elements('.foundPath').removeClass('foundPath');
 	initSpark();
 	setNodeSize(showBig);
 });
