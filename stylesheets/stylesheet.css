@@ -324,34 +324,41 @@ table div {
 	display: inline-block;
 }
 
+#need img {
+	width: 32px;
+	height: 32px;
+}
+
 img.red {
 	background-image: url("../images/spark/red.png");
-	width: 26px;
-	height: 31px;
 }
 
 img.green {
 	background-image: url("../images/spark/green.png");
-	width: 27px;
-	height: 31px;
 }
 
 img.blue {
 	background-image: url("../images/spark/blue.png");
-	width: 27px;
-	height: 31px;
+}
+
+img.all {
+	background-image: url("../images/spark/all.png");
 }
 
 img.revelation {
 	background-image: url("../images/spark/revelation.png");
-	width: 26px;
-	height: 32px;
 }
 
 img.fitonidy {
 	background-image: url("../images/spark/fitonidy.png");
-	width: 28px;
-	height: 32px;
+}
+
+img.god {
+	background-image: url("../images/spark/god.png");
+}
+
+img.book {
+	background-image: url("../images/spark/book.png");
 }
 
 .hidden {

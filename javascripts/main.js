@@ -11,6 +11,7 @@ var cy,
 		, transformation: 0
 		, revelation: 0
 		, god: 0
+		, book: 0
 		, fitonidy: 0
 		},
 	giveStat =
@@ -29,6 +30,7 @@ function calcSpark(elements) {
 			['red', 'green', 'blue', 'all'
 			, 'transformation', 'revelation'
 			, 'god'
+			, 'book'
 			, 'fitonidy'],
 		ll = sparksName.length,
 		name;
@@ -39,6 +41,7 @@ function calcSpark(elements) {
 			, transformation: 0
 			, revelation: 0
 			, god: 0
+			, book: 0
 			, fitonidy: 0
 			};
 		used =
@@ -46,6 +49,7 @@ function calcSpark(elements) {
 			, transformation: 0
 			, revelation: 0
 			, god: 0
+			, book: 0
 			, fitonidy: 0
 			};
 		statTotal =
@@ -121,7 +125,8 @@ function updateStat(num, data) {
 }
 
 function init() {
-	var container = document.getElementById('atlas');
+	var container = document.getElementById('atlas'),
+		main, fitonidy, god;
 
 	cy = cytoscape(
 		{ container: container
@@ -173,7 +178,29 @@ function init() {
 			'edge[target = "n2164"],edge[target = "n2165"],'+
 			'edge[target = "n2197"],edge[target = "n2198"],'+
 			'edge[target = "n2214"],edge[target = "n2218"],'+
-			'edge[target = "n2229"],edge[target = "n2262"]'+
+			'edge[target = "n2229"],edge[target = "n2262"],'+
+			'edge[target = "n3006"],edge[target = "n3007"],'+
+			'edge[target = "n3054"],edge[target = "n3058"],'+
+			'edge[target = "n3059"],'+
+			'edge[target = "n3067"],edge[target = "n3077"],'+
+			'edge[target = "n3069"],'+
+			'edge[target = "n3084"],edge[target = "n3085"],'+
+			'edge[target = "n3087"],edge[target = "n3088"],'+
+			'edge[target = "n3099"],edge[target = "n3100"],'+
+			'edge[target = "n3120"],edge[target = "n3121"],'+
+			'edge[target = "n3122"],'+
+			'edge[target = "n3134"],edge[target = "n3136"],'+
+			'edge[target = "n3138"],'+
+			'edge[target = "n3182"],edge[target = "n3185"],'+
+			'edge[target = "n3187"],'+
+			'edge[target = "n3218"],edge[target = "n3219"],'+
+			'edge[target = "n3220"],edge[target = "n3221"],'+
+			'edge[target = "n3249"],edge[target = "n3250"],'+
+			'edge[target = "n3251"],edge[target = "n3252"],'+
+			'edge[target = "n3265"],'+
+			'edge[target = "n3280"],edge[target = "n3284"],'+
+			'edge[target = "n3287"],edge[target = "n3296"]'+
+
 				'{' +
 				'curve-style:unbundled-bezier;' +
 				'control-point-distance: 30;' +
@@ -245,7 +272,14 @@ function init() {
 			'.mutation {background-image:images/nodes/mutation.png;}'+
 			'.root {background-image:images/nodes/root.png;}'+
 			'.cultivation {background-image:images/nodes/cultivation.png;}'+
-			'.poison {background-image:images/nodes/poison.png;}'
+			'.poison {background-image:images/nodes/poison.png;}'+
+			// god
+			'.knowledge {background-image:images/nodes/knowledge.png;}'+
+			'.warrior {background-image:images/nodes/warrior.png;}'+
+			'.hunter {background-image:images/nodes/hunter.png;}'+
+			'.wanderer {background-image:images/nodes/wanderer.png;}'+
+			'.defend {background-image:images/nodes/defend.png;}'+
+			'.rule {background-image:images/nodes/rule.png;}'
 		, autolock: true
 		, autoungrabify: true
 		, zoom: 1
@@ -260,12 +294,17 @@ function init() {
 		{ nodes: fitonidyNodesData
 		, edges: fitonidyEdgesData
 		});
+	god = cy.add(
+		{ nodes: godNodesData
+		, edges: godEdgesData
+		});
 	cy.remove(fitonidy);
+	cy.remove(god);
 	selected = 0;
 	cy.center(cy.nodes('#n17'));
 	// TODO: load saved data
 	sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
-	calcSpark([main, fitonidy]);
+	calcSpark([main, fitonidy, god]);
 	initSpark();
 };
 
@@ -391,6 +430,7 @@ cy.on('cxttap', function(evt) {
 		, transformation: 0
 		, revelation: 0
 		, god: 0
+		, book: 0
 		, fitonidy: 0
 		};
 	giveStat =
@@ -476,16 +516,16 @@ function renderTitle(node) {
 
 function renderText(node) {
 	var text = '',
-		need = node.data('need') || {},
-		nodeData = node.data();
+		nodeData = node.data(),
+		need = nodeData.need || {};
 
-	if (node.hasClass('skill')) {
-		text = '<p>' + nodeData.description + '</p>';
-	}
-	if (node.data('prestige')) {
+	if (nodeData.prestige) {
 		text +=
 			'<div class="stat"><img width="25" src="images/prestige.png"></img> + ' +
-			node.data('prestige') + '</div><br/>';
+			nodeData.prestige + '</div><br/>';
+	}
+	if (node.hasClass('skill')) {
+		text += '<p>' + nodeData.description + '</p>';
 	}
 	if (nodeData.vit) {
 		text += '<div class="stat">Выносливость<span>' + nodeData.vit +'</span></div>';
@@ -540,6 +580,12 @@ function renderText(node) {
 		}
 		if (nodeData.need.revelation) {
 			text += '<img width="20" src="images/spark/revelation.png"></img> ' + nodeData.need.revelation;
+		}
+		if (nodeData.need.god) {
+			text += '<img width="20" src="images/spark/god.png"></img> ' + nodeData.need.god;
+		}
+		if (nodeData.need.book) {
+			text += '<img width="20" src="images/spark/book.png"></img> ' + nodeData.need.book;
 		}
 		if (nodeData.need.fitonidy) {
 			text += '<img width="20" src="images/spark/fitonidy.png"></img> ' + nodeData.need.fitonidy;
@@ -623,6 +669,8 @@ $('#select_atlas select').on('change', function(ev) {
 		sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
 	} else if (selected == 1) {
 		sparksName = ['fitonidy'];
+	} else if (selected == 2) {
+		sparksName = ['red', 'green', 'blue', 'all', 'god', 'book'];
 	}
 	graphsStat[selected].elements.restore();
 	need =
@@ -630,6 +678,7 @@ $('#select_atlas select').on('change', function(ev) {
 		, transformation: 0
 		, revelation: 0
 		, god: 0
+		, book: 0
 		, fitonidy: 0
 		};
 	giveStat =
@@ -640,4 +689,6 @@ $('#select_atlas select').on('change', function(ev) {
 	cy.elements('.foundPath').removeClass('foundPath');
 	initSpark();
 	setNodeSize(showBig);
+	updateSparks(0, need);
+	updateStat(0, giveStat);
 });
