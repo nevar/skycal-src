@@ -204,7 +204,7 @@ var fitonidyNodesData =
 		{ data:
 			{ id: 'n2019'
 			, open: false
-			, need: {fitonidy: 50}
+			, need: {fitonidy: 75}
 			, title: 'Опасность фитонидов'
 			, description:
 				'Вы знаете, чего следует опасаться в битве с фитонидами и '+
@@ -243,7 +243,7 @@ var fitonidyNodesData =
 			, open: false
 			, prestige: 32
 			, vit: 32
-			, need: {fitonidy: 185}
+			, need: {fitonidy: 50}
 			}
 		, position: {x: 708, y: -30}
 		, classes: 'stat image vit'
@@ -309,7 +309,7 @@ var fitonidyNodesData =
 			, open: false
 			, prestige: 32
 			, vit: 32
-			, need: {fitonidy: 185}
+			, need: {fitonidy: 50}
 			}
 		, position: {x: 760, y: 157}
 		, classes: 'stat image vit'
