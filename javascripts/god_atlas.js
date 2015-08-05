@@ -2204,7 +2204,7 @@ var godNodesData =
 			, prestige: 40
 			, power: 40
 			, dex: 24
-			, need: {green: 650}
+			, need: {red: 650}
 			}
 		, position: {x: -1432, y: -330}
 		, classes: 'stat image power'
