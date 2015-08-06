@@ -361,6 +361,10 @@ img.book {
 	background-image: url("../images/spark/book.png");
 }
 
+img.transformation {
+	background-image: url("../images/spark/transformation.png");
+}
+
 .hidden {
 	display: none;
 }
