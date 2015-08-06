@@ -2509,7 +2509,7 @@ var nodesData =
 			, open: false
 			, need: {blue: 350}
 			}
-		, position: {x: -230, y: -1140}
+		, position: {x: -230, y: -1200}
 		, classes: 'skill image shock'
 		}
 	,
@@ -2521,7 +2521,7 @@ var nodesData =
 			, dex: 24
 			, need: {green: 650}
 			}
-		, position: {x: -230,  y: -1080}
+		, position: {x: -230,  y: -1140}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2533,7 +2533,7 @@ var nodesData =
 			, dex: 24
 			, need: {green: 650}
 			}
-		, position: {x: -178, y: -1170}
+		, position: {x: -178, y: -1230}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2545,7 +2545,7 @@ var nodesData =
 			, dex: 24
 			, need: {red: 650}
 			}
-		, position: {x: -282, y: -1170}
+		, position: {x: -282, y: -1230}
 		, classes: 'stat image power'
 		}
 	,
@@ -2557,7 +2557,7 @@ var nodesData =
 			, dex: 30
 			, need: {green: 810}
 			}
-		, position: {x: -325, y: -1200}
+		, position: {x: -325, y: -1260}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2569,7 +2569,7 @@ var nodesData =
 			, dex: 18
 			, need: {red: 490}
 			}
-		, position: {x: -325, y: -1080}
+		, position: {x: -325, y: -1140}
 		, classes: 'stat image power'
 		}
 	,
@@ -2580,7 +2580,7 @@ var nodesData =
 			, spirit: 38
 			, need: {blue: 490}
 			}
-		, position: {x: -135, y: -1080}
+		, position: {x: -135, y: -1140}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -2592,7 +2592,7 @@ var nodesData =
 			, dex: 24
 			, need: {green: 650}
 			}
-		, position: {x: -135, y: -1200}
+		, position: {x: -135, y: -1260}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2603,7 +2603,7 @@ var nodesData =
 			, majesty: 250
 			, need: {blue: 575}
 			}
-		, position: {x: -230, y: -1250}
+		, position: {x: -230, y: -1310}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -2614,7 +2614,7 @@ var nodesData =
 			, majesty: 250
 			, need: {blue: 575}
 			}
-		, position: {x: -230, y: -1030}
+		, position: {x: -230, y: -1090}
 		, classes: 'stat image majesty'
 		}
 	,
@@ -2626,7 +2626,7 @@ var nodesData =
 			, dex: 24
 			, need: {red: 650}
 			}
-		, position: {x: -230, y: -1297}
+		, position: {x: -230, y: -1357}
 		, classes: 'stat image power'
 		}
 	,
@@ -2637,7 +2637,7 @@ var nodesData =
 			, valor: 80
 			, need: {revelation: 300}
 			}
-		, position: {x: -230, y: -983}
+		, position: {x: -230, y: -1043}
 		, classes: 'stat image revelation'
 		}
 	,
@@ -2649,7 +2649,7 @@ var nodesData =
 			, dex: 24
 			, need: {red: 650}
 			}
-		, position: {x: -363, y: -1224}
+		, position: {x: -363, y: -1284}
 		, classes: 'stat image power'
 		}
 	,
@@ -2661,7 +2661,7 @@ var nodesData =
 			, dex: 24
 			, need: {red: 650}
 			}
-		, position: {x: -363, y: -1056}
+		, position: {x: -363, y: -1116}
 		, classes: 'stat image power'
 		}
 	,
@@ -2673,7 +2673,7 @@ var nodesData =
 			, dex: 24
 			, need: {red: 650}
 			}
-		, position: {x: -97, y: -1056}
+		, position: {x: -97, y: -1116}
 		, classes: 'stat image power'
 		}
 	,
@@ -2685,7 +2685,7 @@ var nodesData =
 			, dex: 30
 			, need: {green: 810}
 			}
-		, position: {x: -97, y: -1224}
+		, position: {x: -97, y: -1284}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2700,7 +2700,7 @@ var nodesData =
 			, nodeImage: 'triumph'
 			, need: {blue: 275}
 			}
-		, position: {x: 350, y: -1200}
+		, position: {x: 350, y: -1260}
 		, classes: 'skill image triumph'
 		}
 	,
@@ -2712,7 +2712,7 @@ var nodesData =
 			, dex: 24
 			, need: {green: 650}
 			}
-		, position: {x: 255, y: -1260}
+		, position: {x: 255, y: -1320}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2724,7 +2724,7 @@ var nodesData =
 			, dex: 30
 			, need: {red: 810}
 			}
-		, position: {x: 255, y: -1140}
+		, position: {x: 255, y: -1200}
 		, classes: 'stat image power'
 		}
 	,
@@ -2736,7 +2736,7 @@ var nodesData =
 			, dex: 24
 			, need: {red: 650}
 			}
-		, position: {x: 445, y: -1140}
+		, position: {x: 445, y: -1200}
 		, classes: 'stat image power'
 		}
 	,
@@ -2747,7 +2747,7 @@ var nodesData =
 			, str: 56
 			, need: {blue: 650}
 			}
-		, position: {x: 445, y: -1260}
+		, position: {x: 445, y: -1320}
 		, classes: 'stat image strength'
 		}
 	,
@@ -2759,7 +2759,7 @@ var nodesData =
 			, dex: 24
 			, need: {green: 650}
 			}
-		, position: {x: 289, y: -1310}
+		, position: {x: 289, y: -1370}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2771,7 +2771,7 @@ var nodesData =
 			, dex: 24
 			, need: {green: 650}
 			}
-		, position: {x: 411, y: -1310}
+		, position: {x: 411, y: -1370}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2783,7 +2783,7 @@ var nodesData =
 			, dex: 24
 			, need: {green: 650}
 			}
-		, position: {x: 289, y: -1090}
+		, position: {x: 289, y: -1150}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2794,7 +2794,7 @@ var nodesData =
 			, str: 56
 			, need: {blue: 650}
 			}
-		, position: {x: 411, y: -1090}
+		, position: {x: 411, y: -1150}
 		, classes: 'stat image strength'
 		}
 	,
@@ -2806,7 +2806,7 @@ var nodesData =
 			, dex: 30
 			, need: {red: 810}
 			}
-		, position: {x: 350, y: -1310}
+		, position: {x: 350, y: -1370}
 		, classes: 'stat image power'
 		}
 	,
@@ -2818,7 +2818,7 @@ var nodesData =
 			, dex: 18
 			, need: {red: 490}
 			}
-		, position: {x: 350, y: -1090}
+		, position: {x: 350, y: -1150}
 		, classes: 'stat image power'
 		}
 	,
@@ -2830,7 +2830,7 @@ var nodesData =
 			, dex: 18
 			, need: {red: 490}
 			}
-		, position: {x: 217, y: -1284}
+		, position: {x: 217, y: -1344}
 		, classes: 'stat image power'
 		}
 	,
@@ -2842,7 +2842,7 @@ var nodesData =
 			, dex: 30
 			, need: {red:810}
 			}
-		, position: {x: 217, y: -1116}
+		, position: {x: 217, y: -1176}
 		, classes: 'stat image power'
 		}
 	,
@@ -2854,7 +2854,7 @@ var nodesData =
 			, dex: 18
 			, need: {red: 490}
 			}
-		, position: {x: 483, y: -1116}
+		, position: {x: 483, y: -1176}
 		, classes: 'stat image power'
 		}
 	,
@@ -2866,7 +2866,7 @@ var nodesData =
 			, dex: 18
 			, need: {green: 490}
 			}
-		, position: {x: 483, y: -1284}
+		, position: {x: 483, y: -1344}
 		, classes: 'stat image vit'
 		}
 	,
@@ -2877,7 +2877,7 @@ var nodesData =
 			, spirit: 56
 			, need: {blue: 650}
 			}
-		, position: {x: 215, y: -1200}
+		, position: {x: 215, y: -1260}
 		, classes: 'stat image spirit'
 		}
 	,
@@ -2889,7 +2889,7 @@ var nodesData =
 			, dex: 24
 			, need: {green: 650}
 			}
-		, position: {x: 485, y: -1200}
+		, position: {x: 485, y: -1260}
 		, classes: 'stat image vit'
 		}
 	,
