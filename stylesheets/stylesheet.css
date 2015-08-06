@@ -365,6 +365,10 @@ img.transformation {
 	background-image: url("../images/spark/transformation.png");
 }
 
+img.mehanoydy {
+	background-image: url("../images/spark/mehanoydy.png");
+}
+
 .hidden {
 	display: none;
 }
