@@ -3124,8 +3124,8 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2028', target: 'n2026'}}
 	, {classes: '', data: {open: false, source: 'n2026', target: 'n2031'}}
 	, {classes: '', data: {open: false, source: 'n2020', target: 'n2028'}}
-	, {classes: '', data: {open: false, source: 'n2021', target: 'n2022'}}
-	, {classes: '', data: {open: false, source: 'n2022', target: 'n2020'}}
+	, {classes: 'curve', data: {open: false, source: 'n2021', target: 'n2022'}}
+	, {classes: 'curve', data: {open: false, source: 'n2022', target: 'n2020'}}
 	, {classes: '', data: {open: false, source: 'n2021', target: 'n2019'}}
 	, {classes: '', data: {open: false, source: 'n2022', target: 'n2029'}}
 	, {classes: '', data: {open: false, source: 'n2029', target: 'n2023'}}
@@ -3151,13 +3151,13 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2042', target: 'n2044'}}
 	, {classes: 'between', data: {open: false, source: 'n2044', target: 'n2064'}}
 	, {classes: '', data: {open: false, source: 'n2056', target: 'n2064'}}
-	, {classes: '', data: {open: false, source: 'n2055', target: 'n2056'}}
+	, {classes: 'curve', data: {open: false, source: 'n2055', target: 'n2056'}}
 	, {classes: '', data: {open: false, source: 'n2055', target: 'n2063'}}
-	, {classes: '', data: {open: false, source: 'n2057', target: 'n2058'}}
-	, {classes: '', data: {open: false, source: 'n2058', target: 'n2059'}}
-	, {classes: '', data: {open: false, source: 'n2059', target: 'n2055'}}
-	, {classes: '', data: {open: false, source: 'n2053', target: 'n2054'}}
-	, {classes: '', data: {open: false, source: 'n2054', target: 'n2052'}}
+	, {classes: 'curve', data: {open: false, source: 'n2057', target: 'n2058'}}
+	, {classes: 'curve', data: {open: false, source: 'n2058', target: 'n2059'}}
+	, {classes: 'curve', data: {open: false, source: 'n2059', target: 'n2055'}}
+	, {classes: 'curve', data: {open: false, source: 'n2053', target: 'n2054'}}
+	, {classes: 'curve', data: {open: false, source: 'n2054', target: 'n2052'}}
 	, {classes: '', data: {open: false, source: 'n2059', target: 'n2061'}}
 	, {classes: '', data: {open: false, source: 'n2058', target: 'n2066'}}
 	, {classes: '', data: {open: false, source: 'n2057', target: 'n2065'}}
@@ -3166,9 +3166,9 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2060', target: 'n2062'}}
 	, {classes: '', data: {open: false, source: 'n2053', target: 'n2051'}}
 	, {classes: 'between', data: {open: false, source: 'n2046', target: 'n2079'}}
-	, {classes: '', data: {open: false, source: 'n2071', target: 'n2072'}}
-	, {classes: '', data: {open: false, source: 'n2073', target: 'n2074'}}
-	, {classes: '', data: {open: false, source: 'n2074', target: 'n2075'}}
+	, {classes: 'curve', data: {open: false, source: 'n2071', target: 'n2072'}}
+	, {classes: 'curve', data: {open: false, source: 'n2073', target: 'n2074'}}
+	, {classes: 'curve', data: {open: false, source: 'n2074', target: 'n2075'}}
 	, {classes: '', data: {open: false, source: 'n2079', target: 'n2071'}}
 	, {classes: '', data: {open: false, source: 'n2072', target: 'n2080'}}
 	, {classes: '', data: {open: false, source: 'n2071', target: 'n2070'}}
@@ -3183,8 +3183,8 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2073', target: 'n2081'}}
 	, {classes: 'between', data: {open: false, source: 'n2065', target: 'n2091'}}
 	, {classes: 'between', data: {open: false, source: 'n2082', target: 'n2092'}}
-	, {classes: '', data: {open: false, source: 'n2084', target: 'n2085'}}
-	, {classes: '', data: {open: false, source: 'n2086', target: 'n2084'}}
+	, {classes: 'curve', data: {open: false, source: 'n2084', target: 'n2085'}}
+	, {classes: 'curve', data: {open: false, source: 'n2086', target: 'n2084'}}
 	, {classes: '', data: {open: false, source: 'n2091', target: 'n2087'}}
 	, {classes: '', data: {open: false, source: 'n2087', target: 'n2093'}}
 	, {classes: '', data: {open: false, source: 'n2092', target: 'n2089'}}
@@ -3199,8 +3199,8 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2098', target: 'n2095'}}
 	, {classes: '', data: {open: false, source: 'n2092', target: 'n2090'}}
 	, {classes: 'between', data: {open: false, source: 'n2104', target: 'n2095'}}
-	, {classes: '', data: {open: false, source: 'n2103', target: 'n2104'}}
-	, {classes: '', data: {open: false, source: 'n2105', target: 'n2106'}}
+	, {classes: 'curve', data: {open: false, source: 'n2103', target: 'n2104'}}
+	, {classes: 'curve', data: {open: false, source: 'n2105', target: 'n2106'}}
 	, {classes: '', data: {open: false, source: 'n2104', target: 'n2109'}}
 	, {classes: '', data: {open: false, source: 'n2103', target: 'n2107'}}
 	, {classes: '', data: {open: false, source: 'n2107', target: 'n2112'}}
@@ -3221,7 +3221,7 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2126', target: 'n2129'}}
 	, {classes: '', data: {open: false, source: 'n2129', target: 'n2127'}}
 	, {classes: '', data: {open: false, source: 'n2116', target: 'n2127'}}
-	, {classes: '', data: {open: false, source: 'n2115', target: 'n2116'}}
+	, {classes: 'curve', data: {open: false, source: 'n2115', target: 'n2116'}}
 	, {classes: '', data: {open: false, source: 'n2114', target: 'n2115'}}
 	, {classes: '', data: {open: false, source: 'n2114', target: 'n2117'}}
 	, {classes: '', data: {open: false, source: 'n2117', target: 'n2124'}}
@@ -3262,8 +3262,8 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2157', target: 'n2161'}}
 	, {classes: '', data: {open: false, source: 'n2161', target: 'n2158'}}
 	, {classes: 'between', data: {open: false, source: 'n2157', target: 'n2169'}}
-	, {classes: '', data: {open: false, source: 'n2163', target: 'n2164'}}
-	, {classes: '', data: {open: false, source: 'n2164', target: 'n2165'}}
+	, {classes: 'curve', data: {open: false, source: 'n2163', target: 'n2164'}}
+	, {classes: 'curve', data: {open: false, source: 'n2164', target: 'n2165'}}
 	, {classes: '', data: {open: false, source: 'n2165', target: 'n2166'}}
 	, {classes: '', data: {open: false, source: 'n2164', target: 'n2162'}}
 	, {classes: '', data: {open: false, source: 'n2169', target: 'n2171'}}
@@ -3304,8 +3304,8 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2208', target: 'n2200'}}
 	, {classes: '', data: {open: false, source: 'n2200', target: 'n2203'}}
 	, {classes: '', data: {open: false, source: 'n2203', target: 'n2199'}}
-	, {classes: '', data: {open: false, source: 'n2196', target: 'n2197'}}
-	, {classes: '', data: {open: false, source: 'n2197', target: 'n2198'}}
+	, {classes: 'curve', data: {open: false, source: 'n2196', target: 'n2197'}}
+	, {classes: 'curve', data: {open: false, source: 'n2197', target: 'n2198'}}
 	, {classes: '', data: {open: false, source: 'n2197', target: 'n2208'}}
 	, {classes: '', data: {open: false, source: 'n2198', target: 'n2205'}}
 	, {classes: '', data: {open: false, source: 'n2205', target: 'n2209'}}
@@ -3317,10 +3317,10 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2212', target: 'n2217'}}
 	, {classes: '', data: {open: false, source: 'n2217', target: 'n2222'}}
 	, {classes: '', data: {open: false, source: 'n2212', target: 'n2211'}}
-	, {classes: '', data: {open: false, source: 'n2217', target: 'n2218'}}
+	, {classes: 'curve', data: {open: false, source: 'n2217', target: 'n2218'}}
 	, {classes: '', data: {open: false, source: 'n2218', target: 'n2220'}}
 	, {classes: '', data: {open: false, source: 'n2220', target: 'n2224'}}
-	, {classes: '', data: {open: false, source: 'n2213', target: 'n2214'}}
+	, {classes: 'curve', data: {open: false, source: 'n2213', target: 'n2214'}}
 	, {classes: '', data: {open: false, source: 'n2214', target: 'n2216'}}
 	, {classes: '', data: {open: false, source: 'n2213', target: 'n2223'}}
 	, {classes: '', data: {open: false, source: 'n2214', target: 'n2215'}}
@@ -3339,7 +3339,7 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2235', target: 'n2233'}}
 	, {classes: '', data: {open: false, source: 'n2233', target: 'n2241'}}
 	, {classes: '', data: {open: false, source: 'n2238', target: 'n2228'}}
-	, {classes: '', data: {open: false, source: 'n2228', target: 'n2229'}}
+	, {classes: 'curve', data: {open: false, source: 'n2228', target: 'n2229'}}
 	, {classes: '', data: {open: false, source: 'n2229', target: 'n2226'}}
 	, {classes: 'between', data: {open: false, source: 'n2218', target: 'n2254'}}
 	, {classes: '', data: {open: false, source: 'n2254', target: 'n2249'}}
@@ -3365,7 +3365,7 @@ var fitonidyEdgesData =
 	, {classes: '', data: {open: false, source: 'n2269', target: 'n2273'}}
 	, {classes: '', data: {open: false, source: 'n2273', target: 'n2270'}}
 	, {classes: '', data: {open: false, source: 'n2270', target: 'n2265'}}
-	, {classes: '', data: {open: false, source: 'n2261', target: 'n2262'}}
+	, {classes: 'curve', data: {open: false, source: 'n2261', target: 'n2262'}}
 	, {classes: '', data: {open: false, source: 'n2262', target: 'n2269'}}
 	, {classes: '', data: {open: false, source: 'n2261', target: 'n2272'}}
 	, {classes: '', data: {open: false, source: 'n2272', target: 'n2274'}}

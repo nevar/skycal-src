@@ -4168,7 +4168,7 @@ var godNodesData =
 var godEdgesData =
 	[ {classes: 'between', data: {open: false, source: 'n3000', target: 'n3012'}}
 	, {classes: '', data: {open: false, source: 'n3012', target: 'n3010'}}
-	, {classes: '', data: {open: false, source: 'n3010', target: 'n3007'}}
+	, {classes: 'curve', data: {open: false, source: 'n3010', target: 'n3007'}}
 	, {classes: '', data: {open: false, source: 'n3007', target: 'n3015'}}
 	, {classes: '', data: {open: false, source: 'n3007', target: 'n3002'}}
 	, {classes: '', data: {open: false, source: 'n3002', target: 'n3001'}}
@@ -4177,7 +4177,7 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3008', target: 'n3016'}}
 	, {classes: '', data: {open: false, source: 'n3001', target: 'n3004'}}
 	, {classes: '', data: {open: false, source: 'n3004', target: 'n3005'}}
-	, {classes: '', data: {open: false, source: 'n3005', target: 'n3006'}}
+	, {classes: 'curve', data: {open: false, source: 'n3005', target: 'n3006'}}
 	, {classes: '', data: {open: false, source: 'n3006', target: 'n3014'}}
 	, {classes: '', data: {open: false, source: 'n3005', target: 'n3013'}}
 	, {classes: '', data: {open: false, source: 'n3004', target: 'n3009'}}
@@ -4217,7 +4217,7 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3043', target: 'n3041'}}
 	, {classes: 'between', data: {open: false, source: 'n3033', target: 'n3063'}}
 	, {classes: '', data: {open: false, source: 'n3055', target: 'n3063'}}
-	, {classes: '', data: {open: false, source: 'n3055', target: 'n3059'}}
+	, {classes: 'curve', data: {open: false, source: 'n3055', target: 'n3059'}}
 	, {classes: '', data: {open: false, source: 'n3059', target: 'n3061'}}
 	, {classes: '', data: {open: false, source: 'n3055', target: 'n3051'}}
 	, {classes: '', data: {open: false, source: 'n3051', target: 'n3050'}}
@@ -4226,23 +4226,23 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3056', target: 'n3064'}}
 	, {classes: '', data: {open: false, source: 'n3052', target: 'n3057'}}
 	, {classes: '', data: {open: false, source: 'n3057', target: 'n3065'}}
-	, {classes: '', data: {open: false, source: 'n3057', target: 'n3058'}}
-	, {classes: '', data: {open: false, source: 'n3058', target: 'n3054'}}
+	, {classes: 'curve', data: {open: false, source: 'n3057', target: 'n3058'}}
+	, {classes: 'curve', data: {open: false, source: 'n3058', target: 'n3054'}}
 	, {classes: '', data: {open: false, source: 'n3054', target: 'n3053'}}
 	, {classes: '', data: {open: false, source: 'n3054', target: 'n3062'}}
 	, {classes: '', data: {open: false, source: 'n3058', target: 'n3060'}}
 	, {classes: 'between', data: {open: false, source: 'n3043', target: 'n3075'}}
 	, {classes: 'between', data: {open: false, source: 'n3062', target: 'n3076'}}
 	, {classes: '', data: {open: false, source: 'n3076', target: 'n3079'}}
-	, {classes: '', data: {open: false, source: 'n3068', target: 'n3067'}}
+	, {classes: 'curve', data: {open: false, source: 'n3068', target: 'n3067'}}
 	, {classes: '', data: {open: false, source: 'n3068', target: 'n3066'}}
 	, {classes: '', data: {open: false, source: 'n3075', target: 'n3070'}}
 	, {classes: '', data: {open: false, source: 'n3075', target: 'n3068'}}
 	, {classes: '', data: {open: false, source: 'n3067', target: 'n3071'}}
 	, {classes: '', data: {open: false, source: 'n3071', target: 'n3076'}}
 	, {classes: '', data: {open: false, source: 'n3077', target: 'n3066'}}
-	, {classes: '', data: {open: false, source: 'n3072', target: 'n3077'}}
-	, {classes: '', data: {open: false, source: 'n3077', target: 'n3069'}}
+	, {classes: 'curve', data: {open: false, source: 'n3072', target: 'n3077'}}
+	, {classes: 'curve', data: {open: false, source: 'n3077', target: 'n3069'}}
 	, {classes: '', data: {open: false, source: 'n3072', target: 'n3074'}}
 	, {classes: '', data: {open: false, source: 'n3074', target: 'n3078'}}
 	, {classes: '', data: {open: false, source: 'n3078', target: 'n3073'}}
@@ -4250,17 +4250,17 @@ var godEdgesData =
 	, {classes: 'between', data: {open: false, source: 'n3015', target: 'n3094'}}
 	, {classes: '', data: {open: false, source: 'n3094', target: 'n3086'}}
 	, {classes: '', data: {open: false, source: 'n3081', target: 'n3083'}}
-	, {classes: '', data: {open: false, source: 'n3083', target: 'n3084'}}
+	, {classes: 'curve', data: {open: false, source: 'n3083', target: 'n3084'}}
 	, {classes: '', data: {open: false, source: 'n3084', target: 'n3086'}}
 	, {classes: '', data: {open: false, source: 'n3083', target: 'n3089'}}
-	, {classes: '', data: {open: false, source: 'n3089', target: 'n3085'}}
+	, {classes: 'curve', data: {open: false, source: 'n3089', target: 'n3085'}}
 	, {classes: '', data: {open: false, source: 'n3085', target: 'n3093'}}
 	, {classes: '', data: {open: false, source: 'n3089', target: 'n3091'}}
 	, {classes: '', data: {open: false, source: 'n3081', target: 'n3082'}}
 	, {classes: '', data: {open: false, source: 'n3082', target: 'n3090'}}
 	, {classes: '', data: {open: false, source: 'n3090', target: 'n3092'}}
-	, {classes: '', data: {open: false, source: 'n3090', target: 'n3087'}}
-	, {classes: '', data: {open: false, source: 'n3087', target: 'n3088'}}
+	, {classes: 'curve', data: {open: false, source: 'n3090', target: 'n3087'}}
+	, {classes: 'curve', data: {open: false, source: 'n3087', target: 'n3088'}}
 	, {classes: '', data: {open: false, source: 'n3088', target: 'n3096'}}
 	, {classes: '', data: {open: false, source: 'n3087', target: 'n3095'}}
 	, {classes: 'between', data: {open: false, source: 'n3095', target: 'n3111'}}
@@ -4276,22 +4276,22 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3110', target: 'n3107'}}
 	, {classes: '', data: {open: false, source: 'n3107', target: 'n3102'}}
 	, {classes: '', data: {open: false, source: 'n3103', target: 'n3098'}}
-	, {classes: '', data: {open: false, source: 'n3098', target: 'n3099'}}
-	, {classes: '', data: {open: false, source: 'n3099', target: 'n3100'}}
+	, {classes: 'curve', data: {open: false, source: 'n3098', target: 'n3099'}}
+	, {classes: 'curve', data: {open: false, source: 'n3099', target: 'n3100'}}
 	, {classes: '', data: {open: false, source: 'n3100', target: 'n3097'}}
 	, {classes: 'between', data: {open: false, source: 'n3112', target: 'n3125'}}
 	, {classes: '', data: {open: false, source: 'n3125', target: 'n3117'}}
 	, {classes: '', data: {open: false, source: 'n3117', target: 'n3116'}}
 	, {classes: '', data: {open: false, source: 'n3116', target: 'n3113'}}
 	, {classes: '', data: {open: false, source: 'n3113', target: 'n3115'}}
-	, {classes: '', data: {open: false, source: 'n3119', target: 'n3120'}}
-	, {classes: '', data: {open: false, source: 'n3120', target: 'n3121'}}
+	, {classes: 'curve', data: {open: false, source: 'n3119', target: 'n3120'}}
+	, {classes: 'curve', data: {open: false, source: 'n3120', target: 'n3121'}}
 	, {classes: '', data: {open: false, source: 'n3121', target: 'n3123'}}
 	, {classes: '', data: {open: false, source: 'n3120', target: 'n3128'}}
 	, {classes: '', data: {open: false, source: 'n3119', target: 'n3127'}}
 	, {classes: '', data: {open: false, source: 'n3113', target: 'n3114'}}
 	, {classes: '', data: {open: false, source: 'n3126', target: 'n3118'}}
-	, {classes: '', data: {open: false, source: 'n3118', target: 'n3122'}}
+	, {classes: 'curve', data: {open: false, source: 'n3118', target: 'n3122'}}
 	, {classes: '', data: {open: false, source: 'n3122', target: 'n3114'}}
 	, {classes: '', data: {open: false, source: 'n3122', target: 'n3124'}}
 	, {classes: '', data: {open: false, source: 'n3120', target: 'n3115'}}
@@ -4299,8 +4299,8 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3134', target: 'n3142'}}
 	, {classes: '', data: {open: false, source: 'n3141', target: 'n3133'}}
 	, {classes: '', data: {open: false, source: 'n3133', target: 'n3132'}}
-	, {classes: '', data: {open: false, source: 'n3133', target: 'n3134'}}
-	, {classes: '', data: {open: false, source: 'n3134', target: 'n3138'}}
+	, {classes: 'curve', data: {open: false, source: 'n3133', target: 'n3134'}}
+	, {classes: 'curve', data: {open: false, source: 'n3134', target: 'n3138'}}
 	, {classes: '', data: {open: false, source: 'n3138', target: 'n3140'}}
 	, {classes: '', data: {open: false, source: 'n3134', target: 'n3130'}}
 	, {classes: '', data: {open: false, source: 'n3130', target: 'n3129'}}
@@ -4309,7 +4309,7 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3137', target: 'n3139'}}
 	, {classes: '', data: {open: false, source: 'n3131', target: 'n3135'}}
 	, {classes: '', data: {open: false, source: 'n3135', target: 'n3143'}}
-	, {classes: '', data: {open: false, source: 'n3135', target: 'n3136'}}
+	, {classes: 'curve', data: {open: false, source: 'n3135', target: 'n3136'}}
 	, {classes: '', data: {open: false, source: 'n3136', target: 'n3144'}}
 	, {classes: 'between', data: {open: false, source: 'n3143', target: 'n3145'}}
 	, {classes: 'between', data: {open: false, source: 'n3013', target: 'n3161'}}
@@ -4348,19 +4348,19 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3174', target: 'n3178'}}
 	, {classes: 'between', data: {open: false, source: 'n3187', target: 'n3174'}}
 	, {classes: '', data: {open: false, source: 'n3187', target: 'n3189'}}
-	, {classes: '', data: {open: false, source: 'n3186', target: 'n3187'}}
+	, {classes: 'curve', data: {open: false, source: 'n3186', target: 'n3187'}}
 	, {classes: '', data: {open: false, source: 'n3186', target: 'n3191'}}
 	, {classes: '', data: {open: false, source: 'n3191', target: 'n3194'}}
 	, {classes: '', data: {open: false, source: 'n3194', target: 'n3190'}}
 	, {classes: '', data: {open: false, source: 'n3186', target: 'n3181'}}
-	, {classes: '', data: {open: false, source: 'n3181', target: 'n3182'}}
+	, {classes: 'curve', data: {open: false, source: 'n3181', target: 'n3182'}}
 	, {classes: '', data: {open: false, source: 'n3181', target: 'n3180'}}
 	, {classes: '', data: {open: false, source: 'n3180', target: 'n3183'}}
 	, {classes: '', data: {open: false, source: 'n3183', target: 'n3192'}}
 	, {classes: '', data: {open: false, source: 'n3183', target: 'n3184'}}
 	, {classes: '', data: {open: false, source: 'n3184', target: 'n3188'}}
 	, {classes: '', data: {open: false, source: 'n3188', target: 'n3193'}}
-	, {classes: '', data: {open: false, source: 'n3184', target: 'n3185'}}
+	, {classes: 'curve', data: {open: false, source: 'n3184', target: 'n3185'}}
 	, {classes: 'between', data: {open: false, source: 'n3185', target: 'n3208'}}
 	, {classes: '', data: {open: false, source: 'n3208', target: 'n3211'}}
 	, {classes: '', data: {open: false, source: 'n3211', target: 'n3199'}}
@@ -4381,18 +4381,18 @@ var godEdgesData =
 	, {classes: 'between', data: {open: false, source: 'n3207', target: 'n3212'}}
 	, {classes: 'between', data: {open: false, source: 'n3000', target: 'n3225'}}
 	, {classes: '', data: {open: false, source: 'n3225', target: 'n3217'}}
-	, {classes: '', data: {open: false, source: 'n3217', target: 'n3218'}}
+	, {classes: 'curve', data: {open: false, source: 'n3217', target: 'n3218'}}
 	, {classes: '', data: {open: false, source: 'n3218', target: 'n3226'}}
 	, {classes: '', data: {open: false, source: 'n3218', target: 'n3216'}}
 	, {classes: '', data: {open: false, source: 'n3216', target: 'n3213'}}
 	, {classes: '', data: {open: false, source: 'n3213', target: 'n3215'}}
-	, {classes: '', data: {open: false, source: 'n3222', target: 'n3219'}}
-	, {classes: '', data: {open: false, source: 'n3219', target: 'n3220'}}
+	, {classes: 'curve', data: {open: false, source: 'n3222', target: 'n3219'}}
+	, {classes: 'curve', data: {open: false, source: 'n3219', target: 'n3220'}}
 	, {classes: '', data: {open: false, source: 'n3219', target: 'n3214'}}
 	, {classes: '', data: {open: false, source: 'n3222', target: 'n3224'}}
 	, {classes: '', data: {open: false, source: 'n3219', target: 'n3227'}}
 	, {classes: '', data: {open: false, source: 'n3220', target: 'n3228'}}
-	, {classes: '', data: {open: false, source: 'n3220', target: 'n3221'}}
+	, {classes: 'curve', data: {open: false, source: 'n3220', target: 'n3221'}}
 	, {classes: '', data: {open: false, source: 'n3221', target: 'n3223'}}
 	, {classes: '', data: {open: false, source: 'n3219', target: 'n3215'}}
 	, {classes: 'between', data: {open: false, source: 'n3227', target: 'n3234'}}
@@ -4412,10 +4412,10 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3238', target: 'n3236'}}
 	, {classes: '', data: {open: false, source: 'n3236', target: 'n3244'}}
 	, {classes: 'between', data: {open: false, source: 'n3244', target: 'n3258'}}
-	, {classes: '', data: {open: false, source: 'n3253', target: 'n3249'}}
-	, {classes: '', data: {open: false, source: 'n3249', target: 'n3250'}}
-	, {classes: '', data: {open: false, source: 'n3254', target: 'n3251'}}
-	, {classes: '', data: {open: false, source: 'n3251', target: 'n3252'}}
+	, {classes: 'curve', data: {open: false, source: 'n3253', target: 'n3249'}}
+	, {classes: 'curve', data: {open: false, source: 'n3249', target: 'n3250'}}
+	, {classes: 'curve', data: {open: false, source: 'n3254', target: 'n3251'}}
+	, {classes: 'curve', data: {open: false, source: 'n3251', target: 'n3252'}}
 	, {classes: '', data: {open: false, source: 'n3253', target: 'n3255'}}
 	, {classes: '', data: {open: false, source: 'n3249', target: 'n3257'}}
 	, {classes: '', data: {open: false, source: 'n3250', target: 'n3258'}}
@@ -4432,7 +4432,7 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3275', target: 'n3264'}}
 	, {classes: '', data: {open: false, source: 'n3275', target: 'n3277'}}
 	, {classes: '', data: {open: false, source: 'n3275', target: 'n3267'}}
-	, {classes: '', data: {open: false, source: 'n3264', target: 'n3265'}}
+	, {classes: 'curve', data: {open: false, source: 'n3264', target: 'n3265'}}
 	, {classes: '', data: {open: false, source: 'n3265', target: 'n3272'}}
 	, {classes: '', data: {open: false, source: 'n3272', target: 'n3276'}}
 	, {classes: '', data: {open: false, source: 'n3272', target: 'n3266'}}
@@ -4445,9 +4445,9 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3271', target: 'n3268'}}
 	, {classes: '', data: {open: false, source: 'n3268', target: 'n3273'}}
 	, {classes: 'between', data: {open: false, source: 'n3273', target: 'n3292'}}
-	, {classes: '', data: {open: false, source: 'n3283', target: 'n3287'}}
-	, {classes: '', data: {open: false, source: 'n3287', target: 'n3284'}}
-	, {classes: '', data: {open: false, source: 'n3279', target: 'n3280'}}
+	, {classes: 'curve', data: {open: false, source: 'n3283', target: 'n3287'}}
+	, {classes: 'curve', data: {open: false, source: 'n3287', target: 'n3284'}}
+	, {classes: 'curve', data: {open: false, source: 'n3279', target: 'n3280'}}
 	, {classes: '', data: {open: false, source: 'n3283', target: 'n3291'}}
 	, {classes: '', data: {open: false, source: 'n3287', target: 'n3289'}}
 	, {classes: '', data: {open: false, source: 'n3284', target: 'n3292'}}
@@ -4468,7 +4468,7 @@ var godEdgesData =
 	, {classes: '', data: {open: false, source: 'n3305', target: 'n3307'}}
 	, {classes: '', data: {open: false, source: 'n3307', target: 'n3304'}}
 	, {classes: '', data: {open: false, source: 'n3300', target: 'n3295'}}
-	, {classes: '', data: {open: false, source: 'n3295', target: 'n3296'}}
+	, {classes: 'curve', data: {open: false, source: 'n3295', target: 'n3296'}}
 	, {classes: '', data: {open: false, source: 'n3296', target: 'n3294'}}
 	, {classes: '', data: {open: false, source: 'n3294', target: 'n3297'}}
 	, {classes: '', data: {open: false, source: 'n3297', target: 'n3299'}}
