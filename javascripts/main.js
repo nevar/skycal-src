@@ -199,8 +199,8 @@ function init() {
 			'edge[target = "n3251"],edge[target = "n3252"],'+
 			'edge[target = "n3265"],'+
 			'edge[target = "n3280"],edge[target = "n3284"],'+
-			'edge[target = "n3287"],edge[target = "n3296"]'+
-
+			'edge[target = "n3287"],edge[target = "n3296"],'+
+			'edge.curve'+
 				'{' +
 				'curve-style:unbundled-bezier;' +
 				'control-point-distance: 30;' +
@@ -245,6 +245,10 @@ function init() {
 			'.kinetic {background-image:images/nodes/kinetic.png;}'+
 			'.necromancer {background-image:images/nodes/necromancer.png;}'+
 			'.rouge {background-image:images/nodes/rouge.png;}'+
+			'.hedgehopper {background-image:images/nodes/hedgehopper.png;}'+
+			'.monk {background-image:images/nodes/monk.png;}'+
+			'.alchemist {background-image:images/nodes/alchemist.png;}'+
+			'.hero {background-image:images/nodes/hero.png;}'+
 			// skill
 			'.maneuver {background-image:images/nodes/maneuver.png;}'+
 			'.balance {background-image:images/nodes/balance.png;}'+
@@ -273,6 +277,17 @@ function init() {
 			'.root {background-image:images/nodes/root.png;}'+
 			'.cultivation {background-image:images/nodes/cultivation.png;}'+
 			'.poison {background-image:images/nodes/poison.png;}'+
+			'.alert {background-image:images/nodes/alert.png;}'+
+			'.equilibrium {background-image:images/nodes/equilibrium.png;}'+
+			'.wave {background-image:images/nodes/wave.png;}'+
+			'.spasm {background-image:images/nodes/spasm.png;}'+
+			'.barrier {background-image:images/nodes/barrier.png;}'+
+			'.ruthlessness {background-image:images/nodes/ruthlessness.png;}'+
+			'.adrenaline {background-image:images/nodes/adrenaline.png;}'+
+			'.timeout {background-image:images/nodes/timeout.png;}'+
+			'.laceration {background-image:images/nodes/laceration.png;}'+
+			'.credo_defend {background-image:images/nodes/credo_defend.png;}'+
+			'.double {background-image:images/nodes/double.png;}'+
 			// god
 			'.knowledge {background-image:images/nodes/knowledge.png;}'+
 			'.warrior {background-image:images/nodes/warrior.png;}'+
@@ -477,12 +492,9 @@ function renderTitle(node) {
 		nodeData = node.data(),
 		imageName;
 
-	if (node.hasClass('skill')) {
+	if (node.hasClass('skill') || node.hasClass('class')) {
 		imageName = nodeData.nodeImage;
 		title = nodeData.title;
-	} else if (node.hasClass('krio')) {
-		imageName = 'krio';
-		title = 'Класс: Криомант';
 	} else if (nodeData.vit) {
 		imageName = "vit";
 		title = 'Бонус: Выносливость';
@@ -524,7 +536,7 @@ function renderText(node) {
 			'<div class="stat"><img width="25" src="images/prestige.png"></img> + ' +
 			nodeData.prestige + '</div><br/>';
 	}
-	if (node.hasClass('skill')) {
+	if (node.hasClass('skill') || node.hasClass('class')) {
 		text += '<p>' + nodeData.description + '</p>';
 	}
 	if (nodeData.vit) {
@@ -567,30 +579,11 @@ function renderText(node) {
 			'<p>Позволяет возводить величественные храмы в провинциях Элиона, ' +
 			'в которых распространено влияние культа.</p>';
 	}
-	if (nodeData.need) {
-		text += '<div class="cost">Стоймость<span>';
-		if (nodeData.need.green) {
-			text += '<img width="20" src="images/spark/green.png"></img> ' + nodeData.need.green;
-		}
-		if (nodeData.need.blue) {
-			text += '<img width="20" src="images/spark/blue.png"></img> ' + nodeData.need.blue;
-		}
-		if (nodeData.need.red) {
-			text += '<img width="20" src="images/spark/red.png"></img> ' + nodeData.need.red;
-		}
-		if (nodeData.need.revelation) {
-			text += '<img width="20" src="images/spark/revelation.png"></img> ' + nodeData.need.revelation;
-		}
-		if (nodeData.need.god) {
-			text += '<img width="20" src="images/spark/god.png"></img> ' + nodeData.need.god;
-		}
-		if (nodeData.need.book) {
-			text += '<img width="20" src="images/spark/book.png"></img> ' + nodeData.need.book;
-		}
-		if (nodeData.need.fitonidy) {
-			text += '<img width="20" src="images/spark/fitonidy.png"></img> ' + nodeData.need.fitonidy;
-		}
-		text += '</span></div>';
+
+	for (var key in nodeData.need) {
+		text += '<div class="cost">Стоймость<span>' +
+			'<img width="20" src="images/spark/' + key + '.png"></img> ' +
+			need[key] + '</span></div>';
 	}
 	return text;
 }
