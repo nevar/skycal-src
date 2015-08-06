@@ -15,12 +15,14 @@ var cy,
 		, fitonidy: 0, mehanoydy: 0
 		},
 	giveStat =
-		{ power: 0, vit: 0
+		{ prestige: 0
+		, power: 0, vit: 0
 		, str: 0, valor: 0, luck: 0, spirit: 0
 		, majesty: 0, dex: 0
 		},
 	statsName =
-		['power', 'vit', 'str', 'valor', 'luck', 'spirit', 'dex', 'majesty'],
+		[ 'prestige', 'power', 'vit', 'str', 'valor', 'luck', 'spirit', 'dex'
+		, 'majesty'],
 	sl = statsName.length;
 
 function calcSpark(elements) {
@@ -53,12 +55,14 @@ function calcSpark(elements) {
 			, fitonidy: 0, mehanoydy: 0
 			};
 		statTotal =
-			{ power: 0, vit: 0
+			{ prestige: 0
+			, power: 0, vit: 0
 			, str: 0, valor: 0, luck: 0, spirit: 0
 			, majesty: 0, dex: 0
 			};
 		stat =
-			{ power: 0, vit: 0
+			{ prestige: 0
+			, power: 0, vit: 0
 			, str: 0, valor: 0, luck: 0, spirit: 0
 			, majesty: 0, dex: 0
 			};
@@ -397,7 +401,8 @@ cy.on('cxttap', function(evt) {
 		, fitonidy: 0, mehanoydy: 0
 		};
 	giveStat =
-		{ power: 0, vit: 0
+		{ prestige:0
+		, power: 0, vit: 0
 		, str: 0, valor: 0, luck: 0, spirit: 0
 		, majesty: 0, dex: 0
 		};
@@ -625,7 +630,8 @@ $('#select_atlas select').on('change', function(ev) {
 		, fitonidy: 0, mehanoydy: 0
 		};
 	giveStat =
-		{ power: 0, vit: 0
+		{ prestige:0
+		, power: 0, vit: 0
 		, str: 0, valor: 0, luck: 0, spirit: 0
 		, majesty: 0, dex: 0
 		};
