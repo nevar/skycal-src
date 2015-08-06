@@ -225,7 +225,7 @@ function init() {
 			'.ruthlessness {background-image:images/nodes/ruthlessness.png;}'+
 			'.adrenaline {background-image:images/nodes/adrenaline.png;}'+
 			'.timeout {background-image:images/nodes/timeout.png;}'+
-			'.laceration {background-image:images/nodes/laceration.png;}'+
+			'.concussion {background-image:images/nodes/concussion.png;}'+
 			'.credo_defend {background-image:images/nodes/credo_defend.png;}'+
 			'.double {background-image:images/nodes/double.png;}'+
 			// god
