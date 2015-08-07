@@ -1159,7 +1159,7 @@ var nodesData =
 			, description:
 				'Критический урон увеличен на 10% за каждый уровень этого '+
 				'символа.'
-			, nodeImage: 'max_return'
+			, nodeImage: 'luck'
 			, prestige: 40
 			, need: {blue: 200}
 			}
@@ -3163,7 +3163,7 @@ var nodesData =
 			, description:
 				'Критический урон увеличен на 10% за каждый уровень этого '+
 				'символа.'
-			, nodeImage: 'max_return'
+			, nodeImage: 'luck'
 			, prestige: 40
 			, need: {blue: 275}
 			}
@@ -5050,7 +5050,7 @@ var nodesData =
 			{ id: 'n424'
 			, open: false
 			, title: 'Талант: Предельная сила'
-			, description: 
+			, description:
 				'Влияние показателя силы на базовый урон увеличено на 10% за '+
 				'каждый уровень этого символа.'
 			, nodeImage: 'str'
@@ -5997,7 +5997,7 @@ var nodesData =
 			{ id: 'n504'
 			, open: false
 			, title: 'Талант: Предельная сила'
-			, description: 
+			, description:
 				'Влияние показателя силы на базовый урон увеличено на 10% за '+
 				'каждый уровень этого символа.'
 			, nodeImage: 'str'
