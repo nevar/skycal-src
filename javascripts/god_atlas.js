@@ -6,7 +6,7 @@ var godNodesData =
 			, need: {}
 			}
 		, position: {x: 0, y: 0}
-		, classes: 'open image god'
+		, classes: 'image god start'
 		}
 	,
 		{ data:

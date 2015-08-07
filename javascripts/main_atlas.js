@@ -16,7 +16,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 230, y: -380}
-		, classes: 'class image krio'
+		, classes: 'class image krio start'
 		}
 	,
 		{ data:
@@ -212,7 +212,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 0, y: 0}
-		, classes: 'class image paladin'
+		, classes: 'class image paladin start'
 		}
 	,
 		{ data:
@@ -406,7 +406,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 230, y: 380}
-		, classes: 'class image light_keeper open'
+		, classes: 'class image light_keeper start'
 		}
 	,
 		{ data:

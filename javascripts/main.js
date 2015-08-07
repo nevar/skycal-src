@@ -155,17 +155,21 @@ function init() {
 
 			'.want {border-width:3;border-color:yellow;border-style:dashed;}' +
 			'[?open] {border-width:1;border-color:yellow;}' +
+			'.remove {border-width:3;border-color:red;border-style:dashed;}' +
 			'.foundPath {border-width:3;border-color:#0066CC;border-style:dashed;}' +
 			'edge.want {width:3;line-color:yellow;line-style:dashed;}' +
 			'edge[?open] {width:1;line-color:yellow;}' +
+			'edge.remove {width:3;line-color:red;line-style:dashed;}' +
 			'edge.foundPath {width:3;line-style:dashed;line-color:#0066CC;}' +
 
 			'.big.want {border-width:15;border-color:yellow;border-style:dashed;}' +
 			'.big[?open] {border-width:10;border-color:yellow;}' +
+			'.big.remove {border-width:15;border-color:red;border-style:dashed;}' +
 			'.big.foundPath {border-width:15;border-color:#0066CC;border-style:dashed;}' +
 			'edge.big {width:15;}' +
-			'edge.big.want {width:15;line-color:yellow;line-style:dashed;}' +
+			'edge.big.want {line-color:yellow;line-style:dashed;}' +
 			'edge.big[?open] {width:10;line-color:yellow;}' +
+			'edge.big.remove {line-color:red;line-style:dashed;}' +
 			'edge.big.foundPath {width:15;line-style:dashed;line-color:#0066CC;}' +
 
 			'.image {background-repeat:no-repeat;background-clip:none;background-fit:cover;background-opacity:0;}' +
@@ -288,50 +292,69 @@ cy.on('tap', function(evt) {
 	node = evt.cyTarget;
 
 	if (node.data('open')) {
-		// TODO: unopen
-		return;
+		openPath = getUnopen(node);
+		if (openPath.length == 0) {
+			return;
+		}
+		cy.startBatch();
+		for (var i = 0, l = openPath.length; i < l; i++) {
+			if (!openPath[i].isNode()) {
+				continue;
+			}
+			nodeData = openPath[i].data();
+			for (var j = 0; j < ll; j++) {
+				name = sparksName[j];
+				used[name] -= nodeData.need[name] || 0;
+			}
+			for (var e = 0; e < sl; e++) {
+				name = statsName[e];
+				stat[name] -= nodeData[name] || 0;
+			}
+		}
+		openPath.data('open', false).removeClass('remove');
+		cy.endBatch();
 	} else {
 		openPath = foundPath(node, '[?open]', '[!open]');
-		cy.startBatch();
-		if (openPath.found) {
-			openPath = openPath.path;
-			for (var i = 0, l = openPath.length; i < l; i++) {
-				openPath[i].data('open', true);
-				if (!openPath[i].isNode()) {
-					continue;
-				}
-				isFound = openPath[i].hasClass('foundPath');
-				nodeData = openPath[i].data();
-				for (var j = 0; j < ll; j++) {
-					name = sparksName[j];
-					if (isFound) {
-						need[name] -= nodeData.need[name] || 0;
-					}
-					used[name] += nodeData.need[name] || 0;
-				}
-				for (var e = 0; e < sl; e++) {
-					name = statsName[e];
-					if (isFound) {
-						giveStat[name] -= nodeData[name] || 0;
-					}
-					stat[name] += nodeData[name] || 0;
-				}
-			}
-			if (sparksName.indexOf('all') !== -1) {
-				need['all'] = need.red + need.green + need.blue;
-				used['all'] = used.red + used.green + used.blue;
-			}
-			updateSparks(0, need);
-			updateSparks(1, graphsStat[selected].used);
-			updateStat(0, giveStat);
-			updateStat(1, stat);
-			openPath.removeClass('foundPath want');
-			openPath[2].connectedEdges().filter(function(i, ele) {
-				return ele.source().data('open') && ele.target().data('open');
-			}).removeClass('foundPath want').data('open', true);
+		if (!openPath.found) {
+			return;
 		}
+		cy.startBatch();
+		openPath = openPath.path;
+		for (var i = 0, l = openPath.length; i < l; i++) {
+			if (!openPath[i].isNode()) {
+				continue;
+			}
+			isFound = openPath[i].hasClass('foundPath');
+			nodeData = openPath[i].data();
+			for (var j = 0; j < ll; j++) {
+				name = sparksName[j];
+				if (isFound) {
+					need[name] -= nodeData.need[name] || 0;
+				}
+				used[name] += nodeData.need[name] || 0;
+			}
+			for (var e = 0; e < sl; e++) {
+				name = statsName[e];
+				if (isFound) {
+					giveStat[name] -= nodeData[name] || 0;
+				}
+				stat[name] += nodeData[name] || 0;
+			}
+		}
+		openPath.data('open', true).removeClass('foundPath want');
+		openPath[2].connectedEdges().filter(function(i, ele) {
+			return ele.source().data('open') && ele.target().data('open');
+		}).removeClass('foundPath want').data('open', true);
 		cy.endBatch();
 	}
+	if (sparksName.indexOf('all') !== -1) {
+		need['all'] = need.red + need.green + need.blue;
+		used['all'] = used.red + used.green + used.blue;
+	}
+	updateSparks(0, need);
+	updateSparks(1, graphsStat[selected].used);
+	updateStat(0, giveStat);
+	updateStat(1, stat);
 });
 
 function foundPath(to, excludeNode, useNode) {
@@ -435,8 +458,9 @@ cy.on('cxttap', function(evt) {
 
 cy.on('tapdragout', 'node', function(evt) {
 	$("#box").qtip('destroy');
-	if (tempPath && tempPath.path) {
-		tempPath.path.removeClass('want');
+	if (tempPath) {
+		tempPath.removeClass('want remove');
+		tempPath = undefined;
 	}
 });
 
@@ -541,6 +565,32 @@ function renderText(node) {
 	return text;
 }
 
+function getUnopen(node) {
+	var nearNode = node.neighborhood('node'),
+		nextNode = cy.elements('.start').toArray(),
+		connectedEdges, edge, otherNode,
+		elements = cy.elements('.start');
+
+	do {
+		curNode = nextNode.pop();
+        connectedEdges = curNode.connectedEdges('[?open]');
+        for (var j = 0, l = connectedEdges.length; j < l; j++) {
+			edge = connectedEdges[j];
+			otherNode = edge.connectedNodes().not(node).not(curNode);
+			if (otherNode.length == 0 || otherNode.same(node)) {
+				continue;
+			}
+			if (elements.anySame(otherNode)) {
+				elements = elements.union(edge);
+			} else {
+				elements = elements.union([otherNode[0], edge]);
+				nextNode.push(otherNode[0]);
+			}
+		}
+	} while (nextNode.length != 0);
+	return cy.elements('[?open]').difference(elements);
+}
+
 cy.on('tapdragover', 'node', function(evt) {
 	var target = evt.cyTarget;
 	var renderedPosition = target.renderedPosition();
@@ -573,11 +623,16 @@ cy.on('tapdragover', 'node', function(evt) {
 			}
 		});
 	if (target.data('open')) {
-		return;
-	}
-	tempPath = foundPath(target, '[?open]', '[!open]');
-	if (tempPath.found) {
-		tempPath.path.addClass('want');
+		tempPath = getUnopen(target);
+		if (tempPath.length > 0) {
+			tempPath.addClass('remove');
+		}
+	} else {
+		tempPath = foundPath(target, '[?open]', '[!open]');
+		if (tempPath.found) {
+			tempPath = tempPath.path;
+			tempPath.addClass('want');
+		}
 	}
 });
 

@@ -6,7 +6,7 @@ var mehanoydyNodesData =
 			, need: {}
 			}
 		, position: {x: 0, y: 0}
-		, classes: 'open'
+		, classes: 'start'
 		}
 	,
 		{ data:
