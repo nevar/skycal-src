@@ -3929,6 +3929,7 @@ var nodesData =
 			, description:
 				'Получаемые эффекты замедления ослаблены на 15% за каждый '+
 				'уровень этого символа.'
+			, nodeImage: 'resistance'
 			, prestige: 40
 			, need: {blue: 275}
 			}
@@ -12116,6 +12117,7 @@ var edgesData =
 	, {classes: '', data: {open: false, source: 'n745', target: 'n742'}}
 	, {classes: '', data: {open: false, source: 'n742', target: 'n737'}}
 	, {classes: '', data: {open: false, source: 'n737', target: 'n732'}}
+	, {classes: '', data: {open: false, source: 'n733', target: 'n731'}}
 	, {classes: 'curve', data: {open: false, source: 'n737', target: 'n738'}}
 	, {classes: '', data: {open: false, source: 'n737', target: 'n733'}}
 	, {classes: 'curve', data: {open: false, source: 'n733', target: 'n734'}}
