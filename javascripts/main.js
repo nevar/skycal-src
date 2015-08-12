@@ -696,3 +696,7 @@ $('#select_atlas select').on('change', function(ev) {
 	updateSparks(0, need);
 	updateStat(0, giveStat);
 });
+
+$(function() {
+	$('#select_atlas select')[0].value = "0";
+});
