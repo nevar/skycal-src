@@ -11378,6 +11378,1904 @@ var nodesData =
 		, position: {x: 3120, y: -293}
 		, classes: 'stat image vit'
 		}
+	,
+		{ data:
+			{ id: 'n956'
+			, open: false
+			, title: 'Талант: Импульсный барьер'
+			, description:
+				'При активации импульсного разряда персонаж на 3 секунды '+
+				'получает щит, который поглощает входящий урон.</p><p>'+
+				'Каждый уровень этого символа увеличивает количество '+
+				'поглощаемого урона на 3% от максимального здоровья персонажа.'
+			, nodeImage: 'barrier'
+			, prestige: 40
+			, need: {blue: 275}
+			}
+		, position: {x: 1800, y: 980}
+		, classes: 'skill image barrier'
+		}
+	,
+		{ data:
+			{ id: 'n957'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 1705, y: 920}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n958'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 1705, y: 1040}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n959'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 1895, y: 1040}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n960'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 0
+			, need: {green: 240}
+			}
+		, position: {x: 1895, y: 920}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n962'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 1739, y: 870}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n963'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 1861, y: 870}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n964'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 1739, y: 1090}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n965'
+			, open: false
+			, prestige: 23
+			, valor: 23
+			, need: {blue: 240}
+			}
+		, position: {x: 1861, y: 1090}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n966'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 1800, y: 870}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n967'
+			, open: false
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
+			}
+		, position: {x: 1800, y: 1090}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n968'
+			, open: false
+			, prestige: 35
+			, valor: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 1667, y: 896}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n969'
+			, open: false
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
+			}
+		, position: {x: 1667, y: 1064}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n970'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 1933, y: 1064}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n971'
+			, open: false
+			, prestige: 35
+			, valor: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 1933, y: 896}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n972'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 1665, y: 980}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n973'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 1935, y: 980}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n974'
+			, open: false
+			, title: 'Талант: Отчаянное сопротивление'
+			, description:
+				'Получаемые эффекты замедления ослаблены на 15% за каждый '+
+				'уровень этого символа.'
+			, nodeImage: 'resistance'
+			, prestige: 40
+			, need: {blue: 350}
+			}
+		, position: {x: 1940, y: 1360}
+		, classes: 'skill image resist'
+		}
+	,
+		{ data:
+			{ id: 'n975'
+			, open: false
+			, prestige: 27
+			, power: 27
+			, dex: 18
+			, need: {red: 490}
+			}
+		, position: {x: 1940,  y: 1420}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n976'
+			, open: false
+			, prestige: 53
+			, power: 53
+			, dex: 30
+			, need: {red: 810}
+			}
+		, position: {x: 1992, y: 1330}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n977'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 1888, y: 1330}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n978'
+			, open: false
+			, prestige: 53
+			, power: 53
+			, dex: 30
+			, need: {red: 810}
+			}
+		, position: {x: 1845, y: 1300}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n979'
+			, open: false
+			, prestige: 38
+			, str: 38
+			, need: {blue: 490}
+			}
+		, position: {x: 1845, y: 1420}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n980'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 2035, y: 1420}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n981'
+			, open: false
+			, prestige: 56
+			, spirit: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 2035, y: 1300}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n982'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 1879, y: 1250}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n983'
+			, open: false
+			, prestige: 100
+			, vit: 100
+			, dex: 30
+			, need: {green: 810}
+			}
+		, position: {x: 2001, y: 1250}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n984'
+			, open: false
+			, prestige: 27
+			, power: 27
+			, dex: 18
+			, need: {red: 490}
+			}
+		, position: {x: 1879, y: 1470}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n985'
+			, open: false
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
+			}
+		, position: {x: 2001, y: 1470}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n986'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 1940, y: 1250}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n987'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 1940, y: 1203}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n988'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 1940, y: 1517}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n989'
+			, open: false
+			, title: 'Талант: Рваная рана'
+			, description:
+				'Критический урон накладывает на противника эффект, наносящий '+
+				'периодический урон.</p>'+
+				'<p>Суммарный урон равен 100% от показателя удачи персонажа.'
+			, nodeImage: 'laceration'
+			, prestige: 40
+			, need: {blue: 275}
+			}
+		, position: {x: 2410, y: 1260}
+		, classes: 'skill image laceration'
+		}
+	,
+		{ data:
+			{ id: 'n990'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 2410,  y: 1320}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n991'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 2462, y: 1230}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n992'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 2358, y: 1230}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n993'
+			, open: false
+			, prestige: 35
+			, spirit: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 2315, y: 1200}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n994'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 6
+			, need: {red: 240}
+			}
+		, position: {x: 2315, y: 1320}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n995'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 2505, y: 1320}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n996'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 2505, y: 1200}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n997'
+			, open: false
+			, prestige: 35
+			, luck: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 2410, y: 1150}
+		, classes: 'stat image luck'
+		}
+	,
+		{ data:
+			{ id: 'n998'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 2410, y: 1370}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n999'
+			, open: false
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
+			}
+		, position: {x: 2410, y: 1103}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1000'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 2410, y: 1417}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1001'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 2277, y: 1176}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1002'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 2277, y: 1344}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1003'
+			, open: false
+			, prestige: 47
+			, spirit: 47
+			, need: {blue: 400}
+			}
+		, position: {x: 2543, y: 1344}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n1004'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 2543, y: 1176}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1005'
+			, open: false
+			, title: 'Вершина созидания'
+			, description: 'Может быть усилена с помощью эфирных ядер.'
+			, nodeImage: 'create'
+			, need: {}
+			}
+		, position: {x: 2870, y: 1360}
+		, classes: 'skill image create'
+		}
+	,
+		{ data:
+			{ id: 'n1006'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 2870,  y: 1420}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1007'
+			, open: false
+			, prestige: 35
+			, str: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 2922, y: 1330}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n1008'
+			, open: false
+			, prestige: 47
+			, str: 47
+			, need: {blue: 400}
+			}
+		, position: {x: 2818, y: 1330}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n1009'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 2809, y: 1250}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1010'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 2931, y: 1250}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1011'
+			, open: false
+			, prestige: 35
+			, spirit: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 2809, y: 1470}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n1012'
+			, open: false
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
+			}
+		, position: {x: 2931, y: 1470}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1013'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 2870, y: 1203}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1014'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 2870, y: 1517}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1015'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 2737, y: 1276}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1016'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 2737, y: 1444}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1017'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 3003, y: 1444}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1018'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 3003, y: 1276}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1019'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 2735, y: 1360}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1020'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 3005, y: 1360}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1021'
+			, open: false
+			, title: 'Талант: Мобилизация'
+			, description:
+				'Дополнительный урон увеличен на 10% за каждый уровень этого '+
+				'символа.'
+			, nodeImage: 'valor'
+			, prestige: 40
+			, need: {blue: 350}
+			}
+		, position: {x: 3330, y: 1360}
+		, classes: 'skill image mobilization'
+		}
+	,
+		{ data:
+			{ id: 'n1022'
+			, open: false
+			, prestige: 38
+			, valor: 38
+			, need: {blue: 490}
+			}
+		, position: {x: 3330,  y: 1420}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n1023'
+			, open: false
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
+			}
+		, position: {x: 3382, y: 1330}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1024'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 3278, y: 1330}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1025'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3235, y: 1300}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1026'
+			, open: false
+			, prestige: 56
+			, valor: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3235, y: 1420}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n1027'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3425, y: 1420}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1028'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 3425, y: 1300}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1029'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 3330, y: 1250}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1030'
+			, open: false
+			, prestige: 56
+			, valor: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3330, y: 1470}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n1031'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3330, y: 1203}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1032'
+			, open: false
+			, prestige: 38
+			, valor: 38
+			, need: {blue: 490}
+			}
+		, position: {x: 3330, y: 1517}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n1033'
+			, open: false
+			, prestige: 56
+			, valor: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3197, y: 1276}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n1034'
+			, open: false
+			, prestige: 56
+			, valor: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3197, y: 1444}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n1035'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 3463, y: 1444}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1036'
+			, open: false
+			, prestige: 53
+			, power: 53
+			, dex: 30
+			, need: {red: 810}
+			}
+		, position: {x: 3463, y: 1276}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1037'
+			, open: false
+			, title: 'Класс: Колдун/Ведьма'
+			, description:
+				'В распоряжении ведьмы весь арсенал темных силЖ страшные '+
+				'заклятья, таинственные зелья и, конечно же, верная спутница -'+
+				'метла, которая исполнить роль как грозного оружия, так и '+
+				'личного транспорта, позволив разорвать дистанцию с противником. '+
+				'Душа ведьмы - потёмки. С уверенностью можно сказать лишь одно: '+
+				'она всегда действует исключительно в своих интересах.'
+			, nodeImage: 'witch'
+			, need: {transformation: 600}
+			}
+		, position: {x: 3470, y: 980}
+		, classes: 'class image witch'
+		}
+	,
+		{ data:
+			{ id: 'n1038'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 3470,  y: 1040}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1039'
+			, open: false
+			, prestige: 27
+			, power: 27
+			, dex: 18
+			, need: {red: 490}
+			}
+		, position: {x: 3522, y: 950}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1040'
+			, open: false
+			, prestige: 27
+			, power: 27
+			, dex: 18
+			, need: {red: 490}
+			}
+		, position: {x: 3418, y: 950}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1041'
+			, open: false
+			, prestige: 56
+			, spirit: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3375, y: 920}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n1042'
+			, open: false
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
+			}
+		, position: {x: 3375, y: 1040}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1043'
+			, open: false
+			, prestige: 50
+			, vit: 50
+			, dex: 18
+			, need: {green: 490}
+			}
+		, position: {x: 3565, y: 1040}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1044'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3565, y: 920}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1045'
+			, open: false
+			, prestige: 80
+			, power: 80
+			, need: {revelation: 300}
+			}
+		, position: {x: 3409, y: 870}
+		, classes: 'stat image revelation'
+		}
+	,
+		{ data:
+			{ id: 'n1046'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3531, y: 870}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1047'
+			, open: false
+			, prestige: 75
+			, spirit: 75
+			, need: {blue: 810}
+			}
+		, position: {x: 3409, y: 1090}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n1048'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 3531, y: 1090}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1049'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 3470, y: 870}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1050'
+			, open: false
+			, prestige: 56
+			, luck: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3470, y: 1090}
+		, classes: 'stat image luck'
+		}
+	,
+		{ data:
+			{ id: 'n1051'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3335, y: 980}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1052'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3605, y: 980}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1053'
+			, open: false
+			, title: 'Талант: Болевой шок'
+			, description:
+				'Использование атакующих способностей позволяет применить '+
+				'умение "Шок".</p><p>'+
+				'"Болевой шок" наносит урон выбраннному противнику. Время '+
+				'перезарядки - 25 секунд.</p><p>'+
+				'При совместном использовании с символом "Парализующий шок" оба '+
+				'эффекта наступают одновременно, а время перезарядкм уменьшено '+
+				'на 5 секунд.'
+			, nodeImage: 'shock'
+			, prestige: 40
+			, need: {blue: 275}
+			}
+		, position: {x: 2870, y: 980}
+		, classes: 'skill image shock'
+		}
+	,
+		{ data:
+			{ id: 'n1054'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 2775, y: 920}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1055'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 2775, y: 1040}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1056'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 2965, y: 1040}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1057'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 2965, y: 920}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1058'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 2809, y: 870}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1059'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 2931, y: 870}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1060'
+			, open: false
+			, prestige: 35
+			, ste: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 2809, y: 1090}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n1061'
+			, open: false
+			, prestige: 35
+			, spirit: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 2931, y: 1090}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n1062'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 2870, y: 870}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1063'
+			, open: false
+			, prestige: 80
+			, power: 80
+			, need: {revelation: 300}
+			}
+		, position: {x: 2870, y: 1090}
+		, classes: 'stat image revelation'
+		}
+	,
+		{ data:
+			{ id: 'n1064'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 2737, y: 896}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1065'
+			, open: false
+			, prestige: 47
+			, luck: 47
+			, need: {blue: 400}
+			}
+		, position: {x: 2737, y: 1064}
+		, classes: 'stat image luck'
+		}
+	,
+		{ data:
+			{ id: 'n1066'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 3003, y: 1064}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1067'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 3003, y: 896}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1068'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 2735, y: 980}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1114'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 3005, y: 980}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1069'
+			, open: false
+			, title: 'Талант: Кредо война'
+			, description:
+				'Исходящий урон увеличен на 5% за каждый ранг этого символа.</p>'+
+				'<p>Входящий урон увеличен на 5%.'
+			, nodeImage: 'credo_warrior'
+			, prestige: 40
+			, need: {blue: 275}
+			}
+		, position: {x: 3120, y: 450}
+		, classes: 'skill image credo_warrior'
+		}
+	,
+		{ data:
+			{ id: 'n1070'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 3120,  y: 510}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1071'
+			, open: false
+			, prestige: 35
+			, spirit: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 3172, y: 420}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n1115'
+			, open: false
+			, prestige: 27
+			, vit: 27
+			, dex: 9
+			, need: {green: 240}
+			}
+		, position: {x: 3068, y: 420}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1072'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 3025, y: 390}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1073'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 3025, y: 510}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1074'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 325}
+			}
+		, position: {x: 3215, y: 510}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1075'
+			, open: false
+			, prestige: 17
+			, power: 17
+			, dex: 9
+			, need: {red: 240}
+			}
+		, position: {x: 3215, y: 390}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1076'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 3059, y: 340}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1077'
+			, open: false
+			, prestige: 53
+			, vit: 53
+			, dex: 15
+			, need: {green: 400}
+			}
+		, position: {x: 3181, y: 340}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1078'
+			, open: false
+			, prestige: 23
+			, luck: 23
+			, need: {blue: 240}
+			}
+		, position: {x: 3059, y: 560}
+		, classes: 'stat image luck'
+		}
+	,
+		{ data:
+			{ id: 'n1079'
+			, open: false
+			, prestige: 40
+			, vit: 40
+			, dex: 12
+			, need: {green: 325}
+			}
+		, position: {x: 3181, y: 560}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1080'
+			, open: false
+			, prestige: 33
+			, power: 33
+			, dex: 15
+			, need: {red: 400}
+			}
+		, position: {x: 3120, y: 340}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1081'
+			, open: false
+			, prestige: 35
+			, valor: 35
+			, need: {blue: 325}
+			}
+		, position: {x: 3120, y: 293}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n1082'
+			, open: false
+			, prestige: 25
+			, power: 25
+			, dex: 12
+			, need: {red: 325}
+			}
+		, position: {x: 3120, y: 607}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1083'
+			, open: false
+			, title: 'Талант: Элемент неожиданности'
+			, description:
+				'В течение первых 8 секунд боя исходящий урон увеличен на 12% '+
+				'за каждый уровень этого символа.'
+			, nodeImage: 'surprise'
+			, prestige: 40
+			, need: {blue: 275}
+			}
+		, position: {x: 3530, y: 0}
+		, classes: 'class image surprise'
+		}
+	,
+		{ data:
+			{ id: 'n1084'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 150}
+			}
+		, position: {x: 3530,  y: 60}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1085'
+			, open: false
+			, prestige: 53
+			, power: 53
+			, dex: 30
+			, need: {red: 810}
+			}
+		, position: {x: 3582, y: -30}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1086'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3478, y: -30}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1087'
+			, open: false
+			, prestige: 100
+			, vit: 100
+			, dex: 30
+			, need: {green: 810}
+			}
+		, position: {x: 3435, y: -60}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1088'
+			, open: false
+			, prestige: 56
+			, valor: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3435, y: 60}
+		, classes: 'stat image valor'
+		}
+	,
+		{ data:
+			{ id: 'n1089'
+			, open: false
+			, prestige: 27
+			, power: 27
+			, dex: 18
+			, need: {red: 490}
+			}
+		, position: {x: 3625, y: 60}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1090'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3625, y: -60}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1091'
+			, open: false
+			, prestige: 56
+			, spirit: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3469, y: -110}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n1092'
+			, open: false
+			, prestige: 30
+			, majesty: 200
+			, need: {blue: 150}
+			}
+		, position: {x: 3591, y: -110}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1093'
+			, open: false
+			, prestige: 53
+			, power: 53
+			, dex: 30
+			, need: {red: 810}
+			}
+		, position: {x: 3469, y: 110}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1094'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3591, y: 110}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1095'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 3530, y: -110}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1096'
+			, open: false
+			, prestige: 80
+			, power: 80
+			, need: {revelation: 300}
+			}
+		, position: {x: 3530, y: -157}
+		, classes: 'stat image revelation'
+		}
+	,
+		{ data:
+			{ id: 'n1097'
+			, open: false
+			, prestige: 80
+			, valor: 80
+			, need: {revelation: 300}
+			}
+		, position: {x: 3530, y: 157}
+		, classes: 'stat image revelation'
+		}
+	,
+		{ data:
+			{ id: 'n1098'
+			, open: false
+			, title: 'Класс: Берсерк'
+			, description:
+				'Безжалостный дикарь, он не мыслит ни дня без хорошей драки. '+
+				'Ему не знаком страх. Охваченный безумной яростью, берсерк '+
+				'может смести на своём пути орды врагов. В таком состоянии он '+
+				'не чувствует боли, а его раны затягиваются сами собой. Боевой '+
+				'клич берсерка способен вселить ужас в сердца неприятелей и '+
+				'воодушевить союзников.'
+			, nodeImage: 'berserker'
+			, prestige: 40
+			, need: {transformation: 300}
+			}
+		, position: {x: 3990, y: 0}
+		, classes: 'class image berserker'
+		}
+	,
+		{ data:
+			{ id: 'n1099'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 3990,  y: 60}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1100'
+			, open: false
+			, prestige: 56
+			, spirit: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 4042, y: -30}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n1101'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 3938, y: -30}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1102'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3895, y: -60}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1103'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 3895, y: 60}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1104'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 4085, y: 60}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1105'
+			, open: false
+			, prestige: 40
+			, power: 40
+			, dex: 24
+			, need: {red: 650}
+			}
+		, position: {x: 4085, y: -60}
+		, classes: 'stat image power'
+		}
+	,
+		{ data:
+			{ id: 'n1106'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 3929, y: -110}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1107'
+			, open: false
+			, prestige: 100
+			, vit: 100
+			, dex: 30
+			, need: {green: 810}
+			}
+		, position: {x: 4051, y: -110}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1108'
+			, open: false
+			, prestige: 56
+			, spirit: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3929, y: 110}
+		, classes: 'stat image spirit'
+		}
+	,
+		{ data:
+			{ id: 'n1109'
+			, open: false
+			, prestige: 30
+			, majesty: 250
+			, need: {blue: 575}
+			}
+		, position: {x: 4051, y: 110}
+		, classes: 'stat image majesty'
+		}
+	,
+		{ data:
+			{ id: 'n1110'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3990, y: -110}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1111'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 3990, y: 110}
+		, classes: 'stat image vit'
+		}
+	,
+		{ data:
+			{ id: 'n1112'
+			, open: false
+			, prestige: 56
+			, str: 56
+			, need: {blue: 650}
+			}
+		, position: {x: 3855, y: 0}
+		, classes: 'stat image strength'
+		}
+	,
+		{ data:
+			{ id: 'n1113'
+			, open: false
+			, prestige: 75
+			, vit: 75
+			, dex: 24
+			, need: {green: 650}
+			}
+		, position: {x: 4125, y: 0}
+		, classes: 'stat image vit'
+		}
 	];
 
 var edgesData =
@@ -12357,4 +14255,154 @@ var edgesData =
 	, {classes: 'between', data: {open: false, source: 'n874', target: 'n384'}}
 	, {classes: '', data: {open: false, source: 'n870', target: 'n864'}}
 	, {classes: '', data: {open: false, source: 'n864', target: 'n868'}}
+	, {classes: 'between', data: {open: false, source: 'n438', target: 'n972'}}
+	, {classes: '', data: {open: false, source: 'n972', target: 'n969'}}
+	, {classes: '', data: {open: false, source: 'n969', target: 'n958'}}
+	, {classes: '', data: {open: false, source: 'n958', target: 'n956'}}
+	, {classes: '', data: {open: false, source: 'n972', target: 'n968'}}
+	, {classes: '', data: {open: false, source: 'n968', target: 'n957'}}
+	, {classes: '', data: {open: false, source: 'n957', target: 'n956'}}
+	, {classes: '', data: {open: false, source: 'n958', target: 'n964'}}
+	, {classes: '', data: {open: false, source: 'n964', target: 'n967'}}
+	, {classes: '', data: {open: false, source: 'n957', target: 'n962'}}
+	, {classes: '', data: {open: false, source: 'n962', target: 'n966'}}
+	, {classes: '', data: {open: false, source: 'n966', target: 'n963'}}
+	, {classes: '', data: {open: false, source: 'n956', target: 'n959'}}
+	, {classes: '', data: {open: false, source: 'n959', target: 'n973'}}
+	, {classes: '', data: {open: false, source: 'n973', target: 'n960'}}
+	, {classes: '', data: {open: false, source: 'n960', target: 'n971'}}
+	, {classes: '', data: {open: false, source: 'n973', target: 'n970'}}
+	, {classes: '', data: {open: false, source: 'n970', target: 'n965'}}
+	, {classes: 'between', data: {open: false, source: 'n965', target: 'n987'}}
+	, {classes: '', data: {open: false, source: 'n987', target: 'n982'}}
+	, {classes: '', data: {open: false, source: 'n982', target: 'n978'}}
+	, {classes: '', data: {open: false, source: 'n978', target: 'n977'}}
+	, {classes: '', data: {open: false, source: 'n977', target: 'n986'}}
+	, {classes: 'curve', data: {open: false, source: 'n977', target: 'n975'}}
+	, {classes: '', data: {open: false, source: 'n975', target: 'n974'}}
+	, {classes: '', data: {open: false, source: 'n975', target: 'n980'}}
+	, {classes: '', data: {open: false, source: 'n980', target: 'n976'}}
+	, {classes: '', data: {open: false, source: 'n976', target: 'n981'}}
+	, {classes: '', data: {open: false, source: 'n981', target: 'n983'}}
+	, {classes: '', data: {open: false, source: 'n980', target: 'n985'}}
+	, {classes: '', data: {open: false, source: 'n985', target: 'n988'}}
+	, {classes: '', data: {open: false, source: 'n975', target: 'n979'}}
+	, {classes: '', data: {open: false, source: 'n979', target: 'n984'}}
+	, {classes: 'between', data: {open: false, source: 'n981', target: 'n1002'}}
+	, {classes: '', data: {open: false, source: 'n1002', target: 'n994'}}
+	, {classes: 'curve', data: {open: false, source: 'n994', target: 'n998'}}
+	, {classes: '', data: {open: false, source: 'n998', target: 'n1000'}}
+	, {classes: 'curve', data: {open: false, source: 'n998', target: 'n995'}}
+	, {classes: '', data: {open: false, source: 'n995', target: 'n1003'}}
+	, {classes: 'curve', data: {open: false, source: 'n995', target: 'n996'}}
+	, {classes: '', data: {open: false, source: 'n996', target: 'n1004'}}
+	, {classes: '', data: {open: false, source: 'n996', target: 'n991'}}
+	, {classes: '', data: {open: false, source: 'n991', target: 'n989'}}
+	, {classes: '', data: {open: false, source: 'n989', target: 'n990'}}
+	, {classes: '', data: {open: false, source: 'n990', target: 'n998'}}
+	, {classes: '', data: {open: false, source: 'n994', target: 'n992'}}
+	, {classes: '', data: {open: false, source: 'n992', target: 'n993'}}
+	, {classes: '', data: {open: false, source: 'n993', target: 'n1001'}}
+	, {classes: 'curve', data: {open: false, source: 'n997', target: 'n993'}}
+	, {classes: '', data: {open: false, source: 'n997', target: 'n999'}}
+	, {classes: '', data: {open: false, source: 'n997', target: 'n991'}}
+	, {classes: 'between', data: {open: false, source: 'n1004', target: 'n1019'}}
+	, {classes: '', data: {open: false, source: 'n1019', target: 'n1016'}}
+	, {classes: '', data: {open: false, source: 'n1016', target: 'n1011'}}
+	, {classes: '', data: {open: false, source: 'n1011', target: 'n1014'}}
+	, {classes: '', data: {open: false, source: 'n1014', target: 'n1006'}}
+	, {classes: '', data: {open: false, source: 'n1006', target: 'n1005'}}
+	, {classes: '', data: {open: false, source: 'n1005', target: 'n1008'}}
+	, {classes: '', data: {open: false, source: 'n1008', target: 'n1015'}}
+	, {classes: '', data: {open: false, source: 'n1015', target: 'n1009'}}
+	, {classes: '', data: {open: false, source: 'n1009', target: 'n1013'}}
+	, {classes: '', data: {open: false, source: 'n1013', target: 'n1010'}}
+	, {classes: '', data: {open: false, source: 'n1010', target: 'n1018'}}
+	, {classes: '', data: {open: false, source: 'n1018', target: 'n1007'}}
+	, {classes: '', data: {open: false, source: 'n1007', target: 'n1005'}}
+	, {classes: '', data: {open: false, source: 'n1018', target: 'n1020'}}
+	, {classes: '', data: {open: false, source: 'n1020', target: 'n1017'}}
+	, {classes: '', data: {open: false, source: 'n1017', target: 'n1012'}}
+	, {classes: 'between', data: {open: false, source: 'n1017', target: 'n1033'}}
+	, {classes: '', data: {open: false, source: 'n1033', target: 'n1025'}}
+	, {classes: '', data: {open: false, source: 'n1025', target: 'n1024'}}
+	, {classes: '', data: {open: false, source: 'n1024', target: 'n1026'}}
+	, {classes: '', data: {open: false, source: 'n1026', target: 'n1034'}}
+	, {classes: 'curve', data: {open: false, source: 'n1023', target: 'n1024'}}
+	, {classes: '', data: {open: false, source: 'n1023', target: 'n1028'}}
+	, {classes: '', data: {open: false, source: 'n1028', target: 'n1036'}}
+	, {classes: '', data: {open: false, source: 'n1023', target: 'n1029'}}
+	, {classes: '', data: {open: false, source: 'n1029', target: 'n1031'}}
+	, {classes: '', data: {open: false, source: 'n1023', target: 'n1027'}}
+	, {classes: '', data: {open: false, source: 'n1027', target: 'n1035'}}
+	, {classes: '', data: {open: false, source: 'n1027', target: 'n1022'}}
+	, {classes: '', data: {open: false, source: 'n1022', target: 'n1021'}}
+	, {classes: '', data: {open: false, source: 'n1022', target: 'n1030'}}
+	, {classes: '', data: {open: false, source: 'n1030', target: 'n1032'}}
+	, {classes: 'between', data: {open: false, source: 'n1031', target: 'n1047'}}
+	, {classes: '', data: {open: false, source: 'n1047', target: 'n1042'}}
+	, {classes: '', data: {open: false, source: 'n1042', target: 'n1051'}}
+	, {classes: '', data: {open: false, source: 'n1051', target: 'n1041'}}
+	, {classes: '', data: {open: false, source: 'n1041', target: 'n1040'}}
+	, {classes: '', data: {open: false, source: 'n1037', target: 'n1038'}}
+	, {classes: 'curve', data: {open: false, source: 'n1038', target: 'n1039'}}
+	, {classes: 'curve', data: {open: false, source: 'n1039', target: 'n1040'}}
+	, {classes: '', data: {open: false, source: 'n1041', target: 'n1045'}}
+	, {classes: '', data: {open: false, source: 'n1045', target: 'n1049'}}
+	, {classes: '', data: {open: false, source: 'n1049', target: 'n1046'}}
+	, {classes: '', data: {open: false, source: 'n1046', target: 'n1044'}}
+	, {classes: '', data: {open: false, source: 'n1044', target: 'n1052'}}
+	, {classes: '', data: {open: false, source: 'n1052', target: 'n1043'}}
+	, {classes: '', data: {open: false, source: 'n1043', target: 'n1048'}}
+	, {classes: '', data: {open: false, source: 'n1048', target: 'n1050'}}
+	, {classes: 'between', data: {open: false, source: 'n1013', target: 'n1063'}}
+	, {classes: '', data: {open: false, source: 'n1063', target: 'n1060'}}
+	, {classes: '', data: {open: false, source: 'n1060', target: 'n1055'}}
+	, {classes: '', data: {open: false, source: 'n1055', target: 'n1065'}}
+	, {classes: '', data: {open: false, source: 'n1063', target: 'n1061'}}
+	, {classes: '', data: {open: false, source: 'n1061', target: 'n1066'}}
+	, {classes: '', data: {open: false, source: 'n1066', target: 'n1114'}}
+	, {classes: '', data: {open: false, source: 'n1114', target: 'n1056'}}
+	, {classes: '', data: {open: false, source: 'n1063', target: 'n1053'}}
+	, {classes: '', data: {open: false, source: 'n1053', target: 'n1054'}}
+	, {classes: '', data: {open: false, source: 'n1054', target: 'n1068'}}
+	, {classes: '', data: {open: false, source: 'n1068', target: 'n1064'}}
+	, {classes: '', data: {open: false, source: 'n1064', target: 'n1058'}}
+	, {classes: '', data: {open: false, source: 'n1053', target: 'n1057'}}
+	, {classes: '', data: {open: false, source: 'n1057', target: 'n1067'}}
+	, {classes: '', data: {open: false, source: 'n1067', target: 'n1059'}}
+	, {classes: '', data: {open: false, source: 'n1059', target: 'n1062'}}
+	, {classes: 'between', data: {open: false, source: 'n1067', target: 'n1078'}}
+	, {classes: '', data: {open: false, source: 'n1078', target: 'n1082'}}
+	, {classes: '', data: {open: false, source: 'n1082', target: 'n1079'}}
+	, {classes: '', data: {open: false, source: 'n1079', target: 'n1074'}}
+	, {classes: '', data: {open: false, source: 'n1074', target: 'n1070'}}
+	, {classes: 'curve', data: {open: false, source: 'n1115', target: 'n1070'}}
+	, {classes: '', data: {open: false, source: 'n1070', target: 'n1069'}}
+	, {classes: '', data: {open: false, source: 'n1074', target: 'n1071'}}
+	, {classes: '', data: {open: false, source: 'n1071', target: 'n1080'}}
+	, {classes: '', data: {open: false, source: 'n1080', target: 'n1115'}}
+	, {classes: '', data: {open: false, source: 'n1071', target: 'n1075'}}
+	, {classes: '', data: {open: false, source: 'n1075', target: 'n1077'}}
+	, {classes: '', data: {open: false, source: 'n1115', target: 'n1072'}}
+	, {classes: 'curve', data: {open: false, source: 'n1072', target: 'n1073'}}
+	, {classes: '', data: {open: false, source: 'n1072', target: 'n1076'}}
+	, {classes: '', data: {open: false, source: 'n1076', target: 'n1081'}}
+	, {classes: 'between', data: {open: false, source: 'n1081', target: 'n904'}}
+	, {classes: 'between', data: {open: false, source: 'n908', target: 'n1088'}}
+	, {classes: '', data: {open: false, source: 'n1088', target: 'n1084'}}
+	, {classes: '', data: {open: false, source: 'n1084', target: 'n1083'}}
+	, {classes: '', data: {open: false, source: 'n1084', target: 'n1089'}}
+	, {classes: 'curve', data: {open: false, source: 'n1089', target: 'n1090'}}
+	, {classes: '', data: {open: false, source: 'n1090', target: 'n1085'}}
+	, {classes: 'curve', data: {open: false, source: 'n1085', target: 'n1086'}}
+	, {classes: '', data: {open: false, source: 'n1086', target: 'n1088'}}
+	, {classes: '', data: {open: false, source: 'n1086', target: 'n1095'}}
+	, {classes: '', data: {open: false, source: 'n1095', target: 'n1091'}}
+	, {classes: '', data: {open: false, source: 'n1091', target: 'n1087'}}
+	, {classes: '', data: {open: false, source: 'n1090', target: 'n1092'}}
+	, {classes: '', data: {open: false, source: 'n1092', target: 'n1096'}}
+	, {classes: '', data: {open: false, source: 'n1089', target: 'n1094'}}
+	, {classes: '', data: {open: false, source: 'n1094', target: 'n1097'}}
+	, {classes: '', data: {open: false, source: 'n1097', target: 'n1093'}}
 	];

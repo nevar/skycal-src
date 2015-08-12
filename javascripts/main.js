@@ -193,6 +193,8 @@ function init() {
 			'.monk {background-image:images/nodes/monk.png;}'+
 			'.alchemist {background-image:images/nodes/alchemist.png;}'+
 			'.hero {background-image:images/nodes/hero.png;}'+
+			'.witch {background-image:images/nodes/witch.png;}'+
+			'.berserker {background-image:images/nodes/berserker.png;}'+
 			// skill
 			'.maneuver {background-image:images/nodes/maneuver.png;}'+
 			'.balance {background-image:images/nodes/balance.png;}'+
@@ -231,6 +233,7 @@ function init() {
 			'.timeout {background-image:images/nodes/timeout.png;}'+
 			'.concussion {background-image:images/nodes/concussion.png;}'+
 			'.credo_defend {background-image:images/nodes/credo_defend.png;}'+
+			'.credo_warrior {background-image:images/nodes/credo_warrior.png;}'+
 			'.double {background-image:images/nodes/double.png;}'+
 			// god
 			'.knowledge {background-image:images/nodes/knowledge.png;}'+
@@ -239,6 +242,7 @@ function init() {
 			'.wanderer {background-image:images/nodes/wanderer.png;}'+
 			'.defend {background-image:images/nodes/defend.png;}'+
 			'.rule {background-image:images/nodes/rule.png;}'+
+			'.laceration {background-image:images/nodes/laceration.png;}'+
 			// mehanoydy
 			'.capacity {background-image:images/nodes/capacity.png;}'+
 			'.eattack {background-image:images/nodes/eattack.png;}'+
