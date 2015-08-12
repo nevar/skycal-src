@@ -630,12 +630,16 @@ cy.on('tapdragover', 'node', function(evt) {
 		tempPath = getUnopen(target);
 		if (tempPath.length > 0) {
 			tempPath.addClass('remove');
+		} else {
+			tempPath = undefined;
 		}
 	} else {
 		tempPath = foundPath(target, '[?open]', '[!open]');
 		if (tempPath.found) {
 			tempPath = tempPath.path;
 			tempPath.addClass('want');
+		} else {
+			tempPath = undefined;
 		}
 	}
 });
