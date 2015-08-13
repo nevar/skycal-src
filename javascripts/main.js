@@ -35,6 +35,7 @@ function calcSpark(elements) {
 			, 'book'
 			, 'fitonidy', 'mehanoydy'],
 		ll = sparksName.length,
+		x = cy.width() / 2, y = cy.height() / 2,
 		name;
 
 	for (var i = 0, gl = elements.length; i < gl; i++) {
@@ -86,6 +87,7 @@ function calcSpark(elements) {
 			, used: used
 			, statTotal: statTotal
 			, stat: stat
+			, position: {x: x, y: y}
 			});
 	}
 }
@@ -737,10 +739,13 @@ cy.on('zoom', function(evt) {
 
 $('#select_atlas select').on('change', function(ev) {
 	var newSelected = parseInt(this.value, 10);
+	var position = cy.pan();
 	if (newSelected === selected) {
 		return;
 	}
 	graphsStat[selected].elements.remove();
+	graphsStat[selected].position = {x: position.x, y: position.y};
+	$('#group' + selected).addClass('hidden');
 	selected = newSelected;
 	if (selected == 0) {
 		sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
@@ -752,6 +757,8 @@ $('#select_atlas select').on('change', function(ev) {
 		sparksName = ['mehanoydy'];
 	}
 	graphsStat[selected].elements.restore();
+	cy.pan(graphsStat[selected].position);
+	displayGroup();
 	need =
 		{ red: 0, green: 0, blue: 0, all: 0
 		, transformation: 0
