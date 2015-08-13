@@ -1654,7 +1654,7 @@ var fitonidyNodesData =
 				'увеличиваеться с каждым уровнем этого символа. Это малый '+
 				'символ вторжения, количество одновременно активнях символов '+
 				'вторжения ограничено.'
-			, nodeImage: 'cultivation'
+			, nodeImage: 'poison'
 			}
 		, position: {x: 2830, y: 450}
 		, classes: 'skill image poison'
@@ -2927,7 +2927,7 @@ var fitonidyNodesData =
 				'увеличиваеться с каждым уровнем этого символа. Это малый '+
 				'символ вторжения, количество одновременно активнях символов '+
 				'вторжения ограничено.'
-			, nodeImage: 'cultivation'
+			, nodeImage: 'poison'
 			}
 		, position: {x: 3865, y: -330}
 		, classes: 'skill image poison'
