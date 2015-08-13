@@ -312,10 +312,20 @@ html, body {
 	clear: both
 }
 
-#total-stat {
+#right {
 	float: right;
 	height: 100%;
 	width: 20%;
+}
+
+#total-stat {
+	height: 50%;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+#group {
+	height: 50%;
 	overflow-x: auto;
 	overflow-y: auto;
 }

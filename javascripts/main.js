@@ -128,6 +128,69 @@ function updateStat(num, data) {
 	}
 }
 
+function groupSkill(atlas) {
+	var group;
+
+	for (var i = atlas.length; i--; ) {
+		group = {};
+		skillForGroup = graphsStat[i].elements.filter('.skill,.class');
+		for (var j = skillForGroup.length; j--; ) {
+			title = skillForGroup[j].data('title');
+			if (!group[title]) {
+				group[title] = [];
+			}
+			group[title].push(skillForGroup[j]);
+		}
+		graphsStat[i].group = group;
+	}
+}
+
+function displayGroup() {
+	$('#group' + selected).removeClass('hidden');
+}
+
+function renderGroup() {
+	var groupElement = $('#group');
+	var group, node, imageName, element;
+
+	for (var i = graphsStat.length; i--; ) {
+		groupElement.append('<div class="hidden" id="group' + i +'"></div>');
+		addToElement = $('#group' + i);
+		for (var title in graphsStat[i].group) {
+			group = graphsStat[i].group[title];
+			node = group[0];
+			imageName = node.data('nodeImage');
+			element = $(
+				'<span>'+
+					'<img width="30" src="images/nodes/' + imageName + '.png"></img>'+
+				'</span>');
+			addToElement.append(element);
+			element.qtip(
+				{ content:
+					{ title: renderTitle(node)
+					, text: renderText(node, false)
+					}
+				, position:
+					{ my: 'left top'
+					, at: 'top right'
+					, viewport: $(window)
+					}
+				, style:
+					{ classes: 'qtip qtip-dark qtip-round'
+					, tip: {corner: false}
+					}
+				});
+			element.data('group', group);
+		}
+	}
+	$('#group').on('click', 'span', function() {
+		var group = $(this).data('group');
+		var node = group.shift();
+		cy.center(node);
+		group.push(node);
+	});
+}
+
 function init() {
 	var container = document.getElementById('atlas'),
 		main, fitonidy, god, mehanoydy;
@@ -278,8 +341,12 @@ function init() {
 	cy.center(cy.nodes('#n17'));
 	// TODO: load saved data
 	sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
-	calcSpark([main, god, fitonidy, mehanoydy]);
+	allAtlas = [main, god, fitonidy, mehanoydy];
+	calcSpark(allAtlas);
+	groupSkill(allAtlas);
 	initSpark();
+	renderGroup();
+	displayGroup();
 };
 
 init();
@@ -507,7 +574,7 @@ function renderTitle(node) {
 		'</div>';
 }
 
-function renderText(node) {
+function renderText(node, isNeedCost) {
 	var text = '',
 		nodeData = node.data(),
 		need = nodeData.need || {};
@@ -560,11 +627,12 @@ function renderText(node) {
 			'<p>Позволяет возводить величественные храмы в провинциях Элиона, ' +
 			'в которых распространено влияние культа.</p>';
 	}
-
-	for (var key in nodeData.need) {
-		text += '<div class="cost">Стоймость<span>' +
-			'<img width="20" src="images/spark/' + key + '.png"></img> ' +
-			need[key] + '</span></div>';
+	if (isNeedCost) {
+		for (var key in nodeData.need) {
+			text += '<div class="cost">Стоймость<span>' +
+				'<img width="20" src="images/spark/' + key + '.png"></img> ' +
+				need[key] + '</span></div>';
+		}
 	}
 	return text;
 }
@@ -607,7 +675,7 @@ cy.on('tapdragover', 'node', function(evt) {
 	$("#box").qtip(
 		{ content:
 			{ title: renderTitle(target)
-			, text: renderText(target)
+			, text: renderText(target, true)
 			}
 		, show:
 			{ delay: 300
