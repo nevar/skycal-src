@@ -300,6 +300,9 @@ function init() {
 			'.credo_defend {background-image:images/nodes/credo_defend.png;}'+
 			'.credo_warrior {background-image:images/nodes/credo_warrior.png;}'+
 			'.double {background-image:images/nodes/double.png;}'+
+			'.break {background-image:images/nodes/break.png;}'+
+			'.death {background-image:images/nodes/death.png;}'+
+			'.dissection {background-image:images/nodes/dissection.png;}'+
 			// god
 			'.knowledge {background-image:images/nodes/knowledge.png;}'+
 			'.warrior {background-image:images/nodes/warrior.png;}'+
