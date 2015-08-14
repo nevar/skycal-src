@@ -12622,7 +12622,7 @@ var nodesData =
 			{ id: 'n1060'
 			, open: false
 			, prestige: 35
-			, ste: 35
+			, str: 35
 			, need: {blue: 325}
 			}
 		, position: {x: 2809, y: 1090}
