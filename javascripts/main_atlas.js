@@ -6121,7 +6121,7 @@ var nodesData =
 			{ id: 'n514'
 			, open: false
 			, prestige: 47
-			, strength: 47
+			, str: 47
 			, need: {blue: 400}
 			}
 		, position: {x: 1840, y: 560}
