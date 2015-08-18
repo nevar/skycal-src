@@ -22,7 +22,7 @@ var fitonidyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 300, y: 0}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -33,7 +33,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 205, y: -60}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -44,7 +44,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 205, y: 60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -55,7 +55,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 395, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -66,7 +66,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 395, y: -60}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -77,7 +77,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 239, y: -110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -88,7 +88,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 361, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -99,7 +99,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 239, y: 110}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -110,7 +110,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 361, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -121,7 +121,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 300, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -132,7 +132,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 300, y: 110}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -143,7 +143,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 167, y: -84}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -154,7 +154,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 167, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -165,7 +165,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 433, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -176,7 +176,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 433, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -187,7 +187,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 165, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -198,7 +198,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 435, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -213,7 +213,7 @@ var fitonidyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 760, y: 0}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -224,7 +224,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 760,  y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -235,7 +235,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 812, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -246,7 +246,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 708, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -257,7 +257,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 699, y: -110}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -268,7 +268,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 821, y: -110}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -279,7 +279,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 699, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -290,7 +290,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 821, y: 110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -301,7 +301,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 760, y: -157}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -312,7 +312,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 760, y: 157}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -323,7 +323,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 627, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -334,7 +334,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 627, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -345,7 +345,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 893, y: 84}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -356,7 +356,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 893, y: -84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -367,7 +367,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 625, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -378,7 +378,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 895, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -392,7 +392,7 @@ var fitonidyNodesData =
 			, nodeImage: 'regeneration'
 			}
 		, position: {x: 1220, y: 0}
-		, classes: 'skill image regeneration'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -403,7 +403,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1220,  y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -414,7 +414,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1272, y: -30}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -425,7 +425,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1168, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -436,7 +436,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1125, y: -60}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -447,7 +447,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1125, y: 60}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -458,7 +458,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1315, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -469,7 +469,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1315, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -480,7 +480,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1159, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -491,7 +491,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1281, y: -110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -502,7 +502,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1159, y: 110}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -513,7 +513,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1281, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -524,7 +524,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1220, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -535,7 +535,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1220, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -546,7 +546,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1085, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -557,7 +557,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 1355, y: 0}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -573,7 +573,7 @@ var fitonidyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 1565, y: -330}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -584,7 +584,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565,  y: -270}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -595,7 +595,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1617, y: -360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -606,7 +606,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1513, y: -360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -617,7 +617,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1470, y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -628,7 +628,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1470, y: -270}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -639,7 +639,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1660, y: -270}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -650,7 +650,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1660, y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -661,7 +661,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565, y: -440}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -672,7 +672,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565, y: -220}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -683,7 +683,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565, y: -487}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -694,7 +694,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565, y: -173}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -705,7 +705,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1432, y: -414}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -716,7 +716,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1432, y: -246}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -727,7 +727,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1698, y: -246}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -738,7 +738,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1698, y: -414}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -753,7 +753,7 @@ var fitonidyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 1565, y: 330}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -764,7 +764,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565,  y: 390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -775,7 +775,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1617, y: 300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -786,7 +786,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1513, y: 300}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -797,7 +797,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1470, y: 270}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -808,7 +808,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1470, y: 390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -819,7 +819,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1660, y: 390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -830,7 +830,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1660, y: 270}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -841,7 +841,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565, y: 220}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -852,7 +852,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565, y: 440}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -863,7 +863,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565, y: 173}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -874,7 +874,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565, y: 487}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -885,7 +885,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1432, y: 246}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -896,7 +896,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1432, y: 414}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -907,7 +907,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1698, y: 414}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -918,7 +918,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1698, y: 246}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -932,7 +932,7 @@ var fitonidyNodesData =
 			, nodeImage: 'mutation'
 			}
 		, position: {x: 1910, y: 0}
-		, classes: 'skill image mutation'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -943,7 +943,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1910,  y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -954,7 +954,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1962, y: -30}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -965,7 +965,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1858, y: -30}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -976,7 +976,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1849, y: -110}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -987,7 +987,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1971, y: -110}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -998,7 +998,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1849, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1009,7 +1009,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1971, y: 110}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1020,7 +1020,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1910, y: -157}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1031,7 +1031,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1910, y: 157}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1042,7 +1042,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1777, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1053,7 +1053,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1777, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1064,7 +1064,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2043, y: 84}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1075,7 +1075,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2043, y: -84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1086,7 +1086,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1775, y: 0}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1097,7 +1097,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2045, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1111,7 +1111,7 @@ var fitonidyNodesData =
 			, nodeImage: 'power'
 			}
 		, position: {x: 2370, y: 0}
-		, classes: 'skill image power'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1122,7 +1122,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2370,  y: 60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1133,7 +1133,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2422, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1144,7 +1144,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2318, y: -30}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1155,7 +1155,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2275, y: -60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1166,7 +1166,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2275, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1177,7 +1177,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2465, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1188,7 +1188,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2465, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1199,7 +1199,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2309, y: -110}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1210,7 +1210,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2431, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1221,7 +1221,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2309, y: 110}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1232,7 +1232,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2431, y: 110}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1243,7 +1243,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2370, y: -110}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1254,7 +1254,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2370, y: -157}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1265,7 +1265,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 2370, y: 157}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1280,7 +1280,7 @@ var fitonidyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 2830, y: 0}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1291,7 +1291,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830,  y: 60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1302,7 +1302,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2882, y: -30}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1313,7 +1313,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2778, y: -30}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1324,7 +1324,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2769, y: -110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1335,7 +1335,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2891, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1346,7 +1346,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2769, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1357,7 +1357,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2891, y: 110}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1368,7 +1368,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830, y: -157}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1379,7 +1379,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830, y: 157}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1390,7 +1390,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2697, y: -84}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1401,7 +1401,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2697, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1412,7 +1412,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 155}
 			}
 		, position: {x: 2963, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1423,7 +1423,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2963, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1434,7 +1434,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2695, y: 0}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1445,7 +1445,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2965, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1463,7 +1463,7 @@ var fitonidyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 3520, y: 0}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1474,7 +1474,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3425, y: -60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1485,7 +1485,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3425, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1496,7 +1496,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3615, y: 60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1507,7 +1507,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3615, y: -60}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1518,7 +1518,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3459, y: -110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1529,7 +1529,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3581, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1540,7 +1540,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3459, y: 110}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1551,7 +1551,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3581, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1562,7 +1562,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3520, y: -110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1573,7 +1573,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3520, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1584,7 +1584,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3387, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1595,7 +1595,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3387, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1606,7 +1606,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3653, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1617,7 +1617,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3653, y: -84}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1628,7 +1628,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3385, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1639,7 +1639,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3655, y: 0}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1657,7 +1657,7 @@ var fitonidyNodesData =
 			, nodeImage: 'poison'
 			}
 		, position: {x: 2830, y: 450}
-		, classes: 'skill image poison'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1668,7 +1668,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830,  y: 510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1679,7 +1679,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2882, y: 420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1690,7 +1690,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2778, y: 420}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1701,7 +1701,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2735, y: 390}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1712,7 +1712,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2735, y: 510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1723,7 +1723,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2925, y: 510}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1734,7 +1734,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2925, y: 390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1745,7 +1745,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2769, y: 340}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1756,7 +1756,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2891, y: 340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1767,7 +1767,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2769, y: 560}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1778,7 +1778,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2891, y: 560}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1789,7 +1789,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830, y: 340}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1800,7 +1800,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830, y: 293}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1811,7 +1811,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830, y: 607}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1827,7 +1827,7 @@ var fitonidyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 2485, y: 780}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1838,7 +1838,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2485,  y: 840}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1849,7 +1849,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2537, y: 750}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1860,7 +1860,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2433, y: 750}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1871,7 +1871,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2390, y: 720}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1882,7 +1882,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2390, y: 840}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1893,7 +1893,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2580, y: 840}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1904,7 +1904,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2580, y: 720}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1915,7 +1915,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2424, y: 670}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1926,7 +1926,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2546, y: 670}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1937,7 +1937,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2424, y: 890}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1948,7 +1948,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2546, y: 890}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1959,7 +1959,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2485, y: 670}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1970,7 +1970,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2485, y: 890}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1981,7 +1981,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2350, y: 780}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1992,7 +1992,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2620, y: 780}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2009,7 +2009,7 @@ var fitonidyNodesData =
 			, nodeImage: 'cultivation'
 			}
 		, position: {x: 3290, y: 600}
-		, classes: 'skill image cultivation'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2020,7 +2020,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3195, y: 540}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2031,7 +2031,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3195, y: 660}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2042,7 +2042,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3385, y: 660}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2053,7 +2053,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3385, y: 540}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2064,7 +2064,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3229, y: 490}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2075,7 +2075,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3351, y: 490}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2086,7 +2086,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3229, y: 710}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2097,7 +2097,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3351, y: 710}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2108,7 +2108,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3290, y: 490}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2119,7 +2119,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3290, y: 710}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2130,7 +2130,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3157, y: 516}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2141,7 +2141,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3157, y: 684}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2152,7 +2152,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3423, y: 684}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2163,7 +2163,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3423, y: 516}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2174,7 +2174,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3155, y: 600}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2185,7 +2185,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3425, y: 600}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2202,7 +2202,7 @@ var fitonidyNodesData =
 			, nodeImage: 'root'
 			}
 		, position: {x: 3865, y: 330}
-		, classes: 'skill image root'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2213,7 +2213,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3865,  y: 390}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2224,7 +2224,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3917, y: 300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2235,7 +2235,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3813, y: 300}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2246,7 +2246,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3804, y: 220}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2257,7 +2257,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3926, y: 220}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2268,7 +2268,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3804, y: 440}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2279,7 +2279,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3926, y: 440}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2290,7 +2290,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3865, y: 173}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2301,7 +2301,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3865, y: 487}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2312,7 +2312,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3732, y: 246}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2323,7 +2323,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3732, y: 414}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2334,7 +2334,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3998, y: 414}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2345,7 +2345,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3998, y: 246}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2356,7 +2356,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3730, y: 330}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2367,7 +2367,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 4000, y: 330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2384,7 +2384,7 @@ var fitonidyNodesData =
 			, nodeImage: 'root'
 			}
 		, position: {x: 2830, y: -450}
-		, classes: 'skill image root'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2395,7 +2395,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830,  y: -390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2406,7 +2406,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2882, y: -480}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2417,7 +2417,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2778, y: -480}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2428,7 +2428,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2735, y: -510}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2439,7 +2439,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2735, y: -390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2450,7 +2450,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2925, y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2461,7 +2461,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2925, y: -510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2472,7 +2472,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2769, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2483,7 +2483,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2891, y: -560}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2494,7 +2494,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2769, y: -340}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2505,7 +2505,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2891, y: -340}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2516,7 +2516,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2527,7 +2527,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830, y: -607}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2538,7 +2538,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 100}
 			}
 		, position: {x: 2830, y: -293}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2554,7 +2554,7 @@ var fitonidyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 2485, y: -780}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2565,7 +2565,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2485,  y: -720}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2576,7 +2576,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2537, y: -810}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2587,7 +2587,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2433, y: -810}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2598,7 +2598,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2390, y: -840}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2609,7 +2609,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2390, y: -720}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2620,7 +2620,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2580, y: -720}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2631,7 +2631,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2580, y: -840}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2642,7 +2642,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2424, y: -890}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2653,7 +2653,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2546, y: -890}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2664,7 +2664,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2424, y: -670}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2675,7 +2675,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2546, y: -670}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2686,7 +2686,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2485, y: -890}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2697,7 +2697,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2485, y: -670}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2708,7 +2708,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2350, y: -780}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2719,7 +2719,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 2620, y: -780}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2736,7 +2736,7 @@ var fitonidyNodesData =
 			, nodeImage: 'cultivation'
 			}
 		, position: {x: 3290, y: -600}
-		, classes: 'skill image cultivation'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2747,7 +2747,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3195, y: -660}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2758,7 +2758,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3195, y: -540}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2769,7 +2769,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3385, y: -540}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2780,7 +2780,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3385, y: -660}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2791,7 +2791,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3229, y: -710}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2802,7 +2802,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3351, y: -710}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2813,7 +2813,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3229, y: -490}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2824,7 +2824,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3351, y: -490}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2835,7 +2835,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3290, y: -710}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2846,7 +2846,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3290, y: -490}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2857,7 +2857,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3157, y: -684}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2868,7 +2868,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3157, y: -516}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2879,7 +2879,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3423, y: -516}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2890,7 +2890,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3423, y: -684}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2901,7 +2901,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3155, y: -600}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2912,7 +2912,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 150}
 			}
 		, position: {x: 3425, y: -600}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2930,7 +2930,7 @@ var fitonidyNodesData =
 			, nodeImage: 'poison'
 			}
 		, position: {x: 3865, y: -330}
-		, classes: 'skill image poison'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2941,7 +2941,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3865,  y: -270}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2952,7 +2952,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3917, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2963,7 +2963,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3813, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2974,7 +2974,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3804, y: -440}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2985,7 +2985,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3926, y: -440}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2996,7 +2996,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3804, y: -220}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3007,7 +3007,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3926, y: -220}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3018,7 +3018,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3865, y: -487}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3029,7 +3029,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3865, y: -173}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3040,7 +3040,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3732, y: -414}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3051,7 +3051,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3732, y: -246}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3062,7 +3062,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3998, y: -246}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3073,7 +3073,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3998, y: -414}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3084,7 +3084,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 3730, y: -330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3095,7 +3095,7 @@ var fitonidyNodesData =
 			, need: {fitonidy: 225}
 			}
 		, position: {x: 4000, y: -330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	];
 

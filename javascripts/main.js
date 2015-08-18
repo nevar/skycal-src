@@ -216,107 +216,112 @@ function init() {
 			'.skill {width:50;height:50;}' +
 			'.big.class {width:250;height:250;}' +
 			'.big.skill {width:250;height:250;}' +
+			'.big.empty {width:250;height:250;}' +
 			'.hidden {opacity: 0;}' +
 
-			'.want {border-width:3;border-color:yellow;border-style:dashed;}' +
 			'[?open] {border-width:1;border-color:yellow;}' +
 			'.remove {border-width:3;border-color:red;border-style:dashed;}' +
 			'.foundPath {border-width:3;border-color:#0066CC;border-style:dashed;}' +
-			'edge.want {width:3;line-color:yellow;line-style:dashed;}' +
+			'.want {border-width:3;border-color:yellow;border-style:dashed;}' +
+			'.empty {border-width:1;border-color:gray;background-opacity:0;}' +
 			'edge[?open] {width:1;line-color:yellow;}' +
 			'edge.remove {width:3;line-color:red;line-style:dashed;}' +
 			'edge.foundPath {width:3;line-style:dashed;line-color:#0066CC;}' +
+			'edge.want {width:3;line-color:yellow;line-style:dashed;}' +
 
-			'.big.want {border-width:15;border-color:yellow;border-style:dashed;}' +
 			'.big[?open] {border-width:10;border-color:yellow;}' +
 			'.big.remove {border-width:15;border-color:red;border-style:dashed;}' +
 			'.big.foundPath {border-width:15;border-color:#0066CC;border-style:dashed;}' +
+			'.big.want {border-width:15;border-color:yellow;border-style:dashed;}' +
+			'.big.empty {border-width:15;border-color:gray;background-opacity:0;}' +
 			'edge.big {width:15;}' +
-			'edge.big.want {line-color:yellow;line-style:dashed;}' +
 			'edge.big[?open] {width:10;line-color:yellow;}' +
 			'edge.big.remove {line-color:red;line-style:dashed;}' +
 			'edge.big.foundPath {width:15;line-style:dashed;line-color:#0066CC;}' +
+			'edge.big.want {line-color:yellow;line-style:dashed;}' +
 
-			'.image {background-repeat:no-repeat;background-clip:none;background-fit:cover;background-opacity:0;}' +
-			'.power {background-image:images/nodes/power.png;}' +
-			'.vit {background-image:images/nodes/vit.png;}' +
-			'.strength {background-image:images/nodes/str.png;}' +
-			'.luck {background-image:images/nodes/luck.png;}' +
-			'.spirit {background-image:images/nodes/spirit.png;}' +
-			'.valor {background-image:images/nodes/valor.png;}' +
-			'.majesty {background-image:images/nodes/majesty.png;}'+
-			'.revelation {background-image:images/nodes/revelation.png;}'+
+			'node {background-repeat:no-repeat;background-clip:none;background-fit:cover;background-opacity:0;}' +
+			'[power] {background-image:images/nodes/power.png;}' +
+			'[vit] {background-image:images/nodes/vit.png;}' +
+			'[str] {background-image:images/nodes/str.png;}' +
+			'[luck] {background-image:images/nodes/luck.png;}' +
+			'[spirit] {background-image:images/nodes/spirit.png;}' +
+			'[valor] {background-image:images/nodes/valor.png;}' +
+			'[majesty] {background-image:images/nodes/majesty.png;}'+
+			'.revelation {background-image:images/nodes/revelation.png;border-width:5;border-color:#FF1493;}'+
 			// class
-			'.krio {background-image:images/nodes/krio.png;}' +
-			'.paladin {background-image:images/nodes/paladin.png;}' +
-			'.light_keeper {background-image:images/nodes/LK.png;}' +
-			'.archer {background-image:images/nodes/archer.png;}'+
-			'.kinetic {background-image:images/nodes/kinetic.png;}'+
-			'.necromancer {background-image:images/nodes/necromancer.png;}'+
-			'.rouge {background-image:images/nodes/rouge.png;}'+
-			'.hedgehopper {background-image:images/nodes/hedgehopper.png;}'+
-			'.monk {background-image:images/nodes/monk.png;}'+
-			'.alchemist {background-image:images/nodes/alchemist.png;}'+
-			'.hero {background-image:images/nodes/hero.png;}'+
-			'.witch {background-image:images/nodes/witch.png;}'+
-			'.berserker {background-image:images/nodes/berserker.png;}'+
+			'[nodeImage="krio"] {background-image:images/nodes/krio.png;}' +
+			'[nodeImage="paladin"] {background-image:images/nodes/paladin.png;}' +
+			'[nodeImage="LK"] {background-image:images/nodes/LK.png;}' +
+			'[nodeImage="archer"] {background-image:images/nodes/archer.png;}'+
+			'[nodeImage="kinetic"] {background-image:images/nodes/kinetic.png;}'+
+			'[nodeImage="necromancer"] {background-image:images/nodes/necromancer.png;}'+
+			'[nodeImage="rouge"] {background-image:images/nodes/rouge.png;}'+
+			'[nodeImage="hedgehopper"] {background-image:images/nodes/hedgehopper.png;}'+
+			'[nodeImage="monk"] {background-image:images/nodes/monk.png;}'+
+			'[nodeImage="alchemist"] {background-image:images/nodes/alchemist.png;}'+
+			'[nodeImage="hero"] {background-image:images/nodes/hero.png;}'+
+			'[nodeImage="witch"] {background-image:images/nodes/witch.png;}'+
+			'[nodeImage="berserker"] {background-image:images/nodes/berserker.png;}'+
 			// skill
-			'.maneuver {background-image:images/nodes/maneuver.png;}'+
-			'.balance {background-image:images/nodes/balance.png;}'+
-			'.max_return {background-image:images/nodes/luck.png;}'+
-			'.surprise {background-image:images/nodes/surprise.png;}'+
-			'.rush {background-image:images/nodes/rush.png;}' +
-			'.destroy {background-image:images/nodes/destroy.png;}' +
-			'.shock {background-image:images/nodes/shock.png;}' +
-			'.triumph {background-image:images/nodes/triumph.png;}'+
-			'.impuls {background-image:images/nodes/spirit.png;}'+
-			'.inertia {background-image:images/nodes/inertia.png;}'+
-			'.luck_hit {background-image:images/nodes/luck_hit.png;}'+
-			'.god {background-image:images/nodes/god.png;}'+
-			'.max_str {background-image:images/nodes/str.png;}'+
-			'.mobilization {background-image:images/nodes/valor.png;}'+
-			'.create {background-image:images/nodes/create.png;}'+
-			'.defence {background-image:images/nodes/defence.png;}'+
-			'.injury {background-image:images/nodes/injury.png;}'+
-			'.okulat {background-image:images/nodes/okulat.png;}'+
-			'.reflex {background-image:images/nodes/reflex.png;}'+
-			'.resist {background-image:images/nodes/resistance.png;}'+
-			'.slow {background-image:images/nodes/slow.png;}'+
-			'.sphere {background-image:images/nodes/sphere.png;}'+
-			'.regeneration {background-image:images/nodes/regeneration.png;}'+
-			'.mutation {background-image:images/nodes/mutation.png;}'+
-			'.root {background-image:images/nodes/root.png;}'+
-			'.cultivation {background-image:images/nodes/cultivation.png;}'+
-			'.poison {background-image:images/nodes/poison.png;}'+
-			'.alert {background-image:images/nodes/alert.png;}'+
-			'.equilibrium {background-image:images/nodes/equilibrium.png;}'+
-			'.wave {background-image:images/nodes/wave.png;}'+
-			'.spasm {background-image:images/nodes/spasm.png;}'+
-			'.barrier {background-image:images/nodes/barrier.png;}'+
-			'.ruthlessness {background-image:images/nodes/ruthlessness.png;}'+
-			'.adrenaline {background-image:images/nodes/adrenaline.png;}'+
-			'.timeout {background-image:images/nodes/timeout.png;}'+
-			'.concussion {background-image:images/nodes/concussion.png;}'+
-			'.credo_defend {background-image:images/nodes/credo_defend.png;}'+
-			'.credo_warrior {background-image:images/nodes/credo_warrior.png;}'+
-			'.double {background-image:images/nodes/double.png;}'+
-			'.break {background-image:images/nodes/break.png;}'+
-			'.death {background-image:images/nodes/death.png;}'+
-			'.dissection {background-image:images/nodes/dissection.png;}'+
+			'[nodeImage="maneuver"] {background-image:images/nodes/maneuver.png;}'+
+			'[nodeImage="balance"] {background-image:images/nodes/balance.png;}'+
+			'[nodeImage="max_return"] {background-image:images/nodes/luck.png;}'+
+			'[nodeImage="surprise"] {background-image:images/nodes/surprise.png;}'+
+			'[nodeImage="rush"] {background-image:images/nodes/rush.png;}' +
+			'[nodeImage="destroy"] {background-image:images/nodes/destroy.png;}' +
+			'[nodeImage="shock"] {background-image:images/nodes/shock.png;}' +
+			'[nodeImage="triumph"] {background-image:images/nodes/triumph.png;}'+
+			'[nodeImage="spirit"] {background-image:images/nodes/spirit.png;}'+
+			'[nodeImage="inertia"] {background-image:images/nodes/inertia.png;}'+
+			'[nodeImage="luck_hit"] {background-image:images/nodes/luck_hit.png;}'+
+			'[nodeImage="luck"] {background-image:images/nodes/luck.png;}'+
+			'[nodeImage="god"] {background-image:images/nodes/god.png;}'+
+			'[nodeImage="str"] {background-image:images/nodes/str.png;}'+
+			'[nodeImage="valor"] {background-image:images/nodes/valor.png;}'+
+			'[nodeImage="create"] {background-image:images/nodes/create.png;}'+
+			'[nodeImage="defence"] {background-image:images/nodes/defence.png;}'+
+			'[nodeImage="injury"] {background-image:images/nodes/injury.png;}'+
+			'[nodeImage="okulat"] {background-image:images/nodes/okulat.png;}'+
+			'[nodeImage="reflex"] {background-image:images/nodes/reflex.png;}'+
+			'[nodeImage="resistance"] {background-image:images/nodes/resistance.png;}'+
+			'[nodeImage="slow"] {background-image:images/nodes/slow.png;}'+
+			'[nodeImage="sphere"] {background-image:images/nodes/sphere.png;}'+
+			'[nodeImage="regeneration"] {background-image:images/nodes/regeneration.png;}'+
+			'[nodeImage="mutation"] {background-image:images/nodes/mutation.png;}'+
+			'[nodeImage="root"] {background-image:images/nodes/root.png;}'+
+			'[nodeImage="cultivation"] {background-image:images/nodes/cultivation.png;}'+
+			'[nodeImage="poison"] {background-image:images/nodes/poison.png;}'+
+			'[nodeImage="alert"] {background-image:images/nodes/alert.png;}'+
+			'[nodeImage="equilibrium"] {background-image:images/nodes/equilibrium.png;}'+
+			'[nodeImage="wave"] {background-image:images/nodes/wave.png;}'+
+			'[nodeImage="spasm"] {background-image:images/nodes/spasm.png;}'+
+			'[nodeImage="barrier"] {background-image:images/nodes/barrier.png;}'+
+			'[nodeImage="ruthlessness"] {background-image:images/nodes/ruthlessness.png;}'+
+			'[nodeImage="adrenaline"] {background-image:images/nodes/adrenaline.png;}'+
+			'[nodeImage="timeout"] {background-image:images/nodes/timeout.png;}'+
+			'[nodeImage="concussion"] {background-image:images/nodes/concussion.png;}'+
+			'[nodeImage="credo_defend"] {background-image:images/nodes/credo_defend.png;}'+
+			'[nodeImage="credo_warrior"] {background-image:images/nodes/credo_warrior.png;}'+
+			'[nodeImage="double"] {background-image:images/nodes/double.png;}'+
+			'[nodeImage="break"] {background-image:images/nodes/break.png;}'+
+			'[nodeImage="death"] {background-image:images/nodes/death.png;}'+
+			'[nodeImage="dissection"] {background-image:images/nodes/dissection.png;}'+
+			'[nodeImage="life"] {background-image:images/nodes/life.png;}'+
 			// god
-			'.knowledge {background-image:images/nodes/knowledge.png;}'+
-			'.warrior {background-image:images/nodes/warrior.png;}'+
-			'.hunter {background-image:images/nodes/hunter.png;}'+
-			'.wanderer {background-image:images/nodes/wanderer.png;}'+
-			'.defend {background-image:images/nodes/defend.png;}'+
-			'.rule {background-image:images/nodes/rule.png;}'+
-			'.laceration {background-image:images/nodes/laceration.png;}'+
+			'[nodeImage="knowledge"] {background-image:images/nodes/knowledge.png;}'+
+			'[nodeImage="warrior"] {background-image:images/nodes/warrior.png;}'+
+			'[nodeImage="hunter"] {background-image:images/nodes/hunter.png;}'+
+			'[nodeImage="wanderer"] {background-image:images/nodes/wanderer.png;}'+
+			'[nodeImage="defend"] {background-image:images/nodes/defend.png;}'+
+			'[nodeImage="rule"] {background-image:images/nodes/rule.png;}'+
+			'[nodeImage="laceration"] {background-image:images/nodes/laceration.png;}'+
 			// mehanoydy
-			'.capacity {background-image:images/nodes/capacity.png;}'+
-			'.eattack {background-image:images/nodes/eattack.png;}'+
-			'.eimpuls {background-image:images/nodes/eimpuls.png;}'+
-			'.flash {background-image:images/nodes/flash.png;}'+
-			'.shield {background-image:images/nodes/shield.png;}'
+			'[nodeImage="capacity"] {background-image:images/nodes/capacity.png;}'+
+			'[nodeImage="eattack"] {background-image:images/nodes/eattack.png;}'+
+			'[nodeImage="eimpuls"] {background-image:images/nodes/eimpuls.png;}'+
+			'[nodeImage="flash"] {background-image:images/nodes/flash.png;}'+
+			'[nodeImage="shield"] {background-image:images/nodes/shield.png;}'
 		, autolock: true
 		, autoungrabify: true
 		, zoom: 1

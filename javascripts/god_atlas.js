@@ -20,7 +20,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 0, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -32,7 +32,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 0,  y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -43,7 +43,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 52, y: -330}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -55,7 +55,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -52, y: -330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -67,7 +67,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -95, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -78,7 +78,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -95, y: -240}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -90,7 +90,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 95, y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -102,7 +102,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 95, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -114,7 +114,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 0, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -126,7 +126,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 0, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -137,7 +137,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 0, y: -457}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -149,7 +149,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 0, y: -143}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -160,7 +160,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -133, y: -384}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -172,7 +172,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -133, y: -216}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -184,7 +184,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 133, y: -216}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -196,7 +196,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 133, y: -384}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -211,7 +211,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 0, y: -750}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -222,7 +222,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -95, y: -810}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -234,7 +234,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -95, y: -690}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -246,7 +246,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 95, y: -690}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -258,7 +258,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 95, y: -810}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -270,7 +270,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -61, y: -860}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -282,7 +282,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 61, y: -860}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -294,7 +294,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -61, y: -640}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -306,7 +306,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 61, y: -640}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -318,7 +318,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 0, y: -860}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -330,7 +330,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 0, y: -640}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -341,7 +341,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -133, y: -834}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -353,7 +353,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -133, y: -666}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -364,7 +364,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 133, y: -666}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -376,7 +376,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 133, y: -834}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -388,7 +388,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -135, y: -750}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -399,7 +399,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 135, y: -750}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -413,7 +413,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: -400, y: -850}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -425,7 +425,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -400,  y: -790}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -437,7 +437,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -348, y: -880}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -449,7 +449,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -452, y: -880}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -461,7 +461,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -495, y: -910}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -473,7 +473,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -495, y: -790}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -485,7 +485,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -305, y: -790}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -497,7 +497,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -305, y: -910}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -508,7 +508,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -461, y: -960}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -520,7 +520,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -339, y: -960}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -531,7 +531,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -461, y: -740}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -543,7 +543,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -339, y: -740}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -555,7 +555,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -400, y: -960}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -567,7 +567,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -400, y: -740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -579,7 +579,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -535, y: -850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -590,7 +590,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -265, y: -850}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -605,7 +605,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 400, y: -850}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -617,7 +617,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 400,  y: -790}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -629,7 +629,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 452, y: -880}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -640,7 +640,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 348, y: -880}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -652,7 +652,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 305, y: -910}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -664,7 +664,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 305, y: -790}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -676,7 +676,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 495, y: -790}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -688,7 +688,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 495, y: -910}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -700,7 +700,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 400, y: -960}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -712,7 +712,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 400, y: -740}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -723,7 +723,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 400, y: -1007}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -735,7 +735,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 400, y: -693}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -747,7 +747,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 267, y: -934}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -759,7 +759,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 267, y: -766}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -770,7 +770,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 533, y: -766}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -781,7 +781,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 533, y: -934}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -795,7 +795,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 0, y: -1200}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -807,7 +807,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 0,  y: -1140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -819,7 +819,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -52, y: -1230}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -830,7 +830,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -95, y: -1260}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -842,7 +842,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -95, y: -1140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -854,7 +854,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 95, y: -1140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -866,7 +866,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 95, y: -1260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -878,7 +878,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -61, y: -1310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -890,7 +890,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 61, y: -1310}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -902,7 +902,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -61, y: -1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -913,7 +913,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 61, y: -1090}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -924,7 +924,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 0, y: -1310}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -936,7 +936,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 0, y: -1357}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -948,7 +948,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 0, y: -1043}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -971,7 +971,7 @@ var godNodesData =
 			, nodeImage: 'knowledge'
 			}
 		, position: {x: 0, y: -1550}
-		, classes: 'skill image knowledge'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -986,7 +986,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 460, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -998,7 +998,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 460,  y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1010,7 +1010,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 512, y: -330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1021,7 +1021,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 408, y: -330}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1033,7 +1033,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 365, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1045,7 +1045,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 365, y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1057,7 +1057,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 555, y: -240}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1069,7 +1069,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 555, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1081,7 +1081,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 460, y: -410}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1093,7 +1093,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 460, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1105,7 +1105,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 460, y: -457}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1116,7 +1116,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 460, y: -143}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1128,7 +1128,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 327, y: -384}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1139,7 +1139,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 327, y: -216}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1151,7 +1151,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 593, y: -216}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1162,7 +1162,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 593, y: -384}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1180,7 +1180,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 920, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1192,7 +1192,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 920,  y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1204,7 +1204,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 972, y: -330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1216,7 +1216,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 868, y: -330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1228,7 +1228,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 825, y: -360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1240,7 +1240,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 825, y: -240}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1251,7 +1251,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1015, y: -240}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1263,7 +1263,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1015, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1275,7 +1275,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 859, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1286,7 +1286,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 981, y: -410}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1298,7 +1298,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 859, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1310,7 +1310,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 981, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1322,7 +1322,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 920, y: -410}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1334,7 +1334,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 920, y: -190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1345,7 +1345,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 785, y: -300}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1357,7 +1357,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1055, y: -300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1371,7 +1371,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 1380, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1383,7 +1383,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1380,  y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1395,7 +1395,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1432, y: -330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1406,7 +1406,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 1328, y: -330}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1417,7 +1417,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1285, y: -360}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1429,7 +1429,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1285, y: -240}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1440,7 +1440,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1475, y: -240}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1452,7 +1452,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 1475, y: -360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1464,7 +1464,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1380, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1476,7 +1476,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 1380, y: -190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1488,7 +1488,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1380, y: -457}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1500,7 +1500,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1380, y: -143}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1512,7 +1512,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1247, y: -384}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1524,7 +1524,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1247, y: -216}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1535,7 +1535,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 1513, y: -216}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1547,7 +1547,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 1513, y: -384}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1562,7 +1562,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 1840, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1573,7 +1573,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 1840,  y: -240}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1585,7 +1585,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1892, y: -330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1597,7 +1597,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 1788, y: -330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1609,7 +1609,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1745, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1621,7 +1621,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1745, y: -240}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1633,7 +1633,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1935, y: -240}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1644,7 +1644,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1935, y: -360}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1655,7 +1655,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 1840, y: -410}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1667,7 +1667,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1840, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1678,7 +1678,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 1840, y: -457}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1690,7 +1690,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1840, y: -143}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1702,7 +1702,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1707, y: -384}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1714,7 +1714,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1707, y: -216}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1726,7 +1726,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1973, y: -216}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1738,7 +1738,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1973, y: -384}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1760,7 +1760,7 @@ var godNodesData =
 			, nodeImage: 'warrior'
 			}
 		, position: {x: 2140, y: -300}
-		, classes: 'skill image warrior'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1775,7 +1775,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: -460, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1787,7 +1787,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -555, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1799,7 +1799,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -555, y: -240}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1811,7 +1811,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -365, y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1823,7 +1823,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -365, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1835,7 +1835,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -521, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1847,7 +1847,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -399, y: -410}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1859,7 +1859,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -521, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1871,7 +1871,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -399, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1882,7 +1882,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -460, y: -410}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1894,7 +1894,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -460, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1906,7 +1906,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -593, y: -384}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1917,7 +1917,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -593, y: -216}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1929,7 +1929,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -327, y: -216}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1941,7 +1941,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -327, y: -384}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1952,7 +1952,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -595, y: -300}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1963,7 +1963,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -325, y: -300}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1981,7 +1981,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: -920, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1993,7 +1993,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -920,  y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2005,7 +2005,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -868, y: -330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2017,7 +2017,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -972, y: -330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2029,7 +2029,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -981, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2041,7 +2041,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -859, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2053,7 +2053,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -981, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2065,7 +2065,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -859, y: -190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2077,7 +2077,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -920, y: -457}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2088,7 +2088,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -920, y: -143}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2100,7 +2100,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1053, y: -384}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2111,7 +2111,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1053, y: -216}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2123,7 +2123,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -787, y: -216}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2135,7 +2135,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -787, y: -384}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2147,7 +2147,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -1055, y: -300}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2158,7 +2158,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -785, y: -300}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2172,7 +2172,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: -1380, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2183,7 +2183,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -1380,  y: -240}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2195,7 +2195,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1328, y: -330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2207,7 +2207,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1432, y: -330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2219,7 +2219,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -1475, y: -360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2231,7 +2231,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -1475, y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2243,7 +2243,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -1285, y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2255,7 +2255,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -1285, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2267,7 +2267,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1441, y: -410}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2278,7 +2278,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1319, y: -410}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2289,7 +2289,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1441, y: -190}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2301,7 +2301,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1319, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2312,7 +2312,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1380, y: -410}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2324,7 +2324,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1380, y: -457}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2336,7 +2336,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1380, y: -143}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2351,7 +2351,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: -1840, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2363,7 +2363,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1935, y: -360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2375,7 +2375,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1935, y: -240}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2387,7 +2387,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1745, y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2399,7 +2399,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1745, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2411,7 +2411,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -1901, y: -410}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2423,7 +2423,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1779, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2434,7 +2434,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1901, y: -190}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2446,7 +2446,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1779, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2458,7 +2458,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1840, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2470,7 +2470,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1840, y: -190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2481,7 +2481,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -1973, y: -384}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2493,7 +2493,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1973, y: -216}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2505,7 +2505,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1707, y: -216}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2517,7 +2517,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1707, y: -384}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2528,7 +2528,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1975, y: -300}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2539,7 +2539,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -1705, y: -300}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2560,7 +2560,7 @@ var godNodesData =
 			, nodeImage: 'hunter'
 			}
 		, position: {x: -2140, y: -300}
-		, classes: 'skill image hunter'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2574,7 +2574,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 460, y: 150}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2586,7 +2586,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 460,  y: 210}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2598,7 +2598,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 512, y: 120}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2610,7 +2610,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 408, y: 120}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2622,7 +2622,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 365, y: 90}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2634,7 +2634,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 365, y: 210}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2646,7 +2646,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 555, y: 210}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2657,7 +2657,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 555, y: 90}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2669,7 +2669,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 460, y: 40}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2680,7 +2680,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 460, y: 260}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2692,7 +2692,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 460, y: -7}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2704,7 +2704,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 460, y: 307}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2715,7 +2715,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 327, y: 66}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2727,7 +2727,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 327, y: 234}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2738,7 +2738,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 593, y: 234}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2750,7 +2750,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 593, y: 66}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2764,7 +2764,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 920, y: 150}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2775,7 +2775,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 920,  y: 210}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2787,7 +2787,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 972, y: 120}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2798,7 +2798,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 868, y: 120}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2810,7 +2810,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 825, y: 90}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2822,7 +2822,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 825, y: 210}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2833,7 +2833,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 1015, y: 210}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2845,7 +2845,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1015, y: 90}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2857,7 +2857,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 859, y: 40}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2869,7 +2869,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 981, y: 40}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2880,7 +2880,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 859, y: 260}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2892,7 +2892,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 981, y: 260}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2904,7 +2904,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 920, y: 40}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2916,7 +2916,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 920, y: 260}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2928,7 +2928,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 785, y: 150}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2940,7 +2940,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1055, y: 150}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2955,7 +2955,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 1380, y: 150}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2967,7 +2967,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1380,  y: 210}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2979,7 +2979,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1432, y: 120}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2991,7 +2991,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1328, y: 120}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3003,7 +3003,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 1285, y: 90}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3015,7 +3015,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1285, y: 210}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3026,7 +3026,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1475, y: 210}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3037,7 +3037,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 1475, y: 90}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3049,7 +3049,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1380, y: 40}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3060,7 +3060,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 1380, y: 260}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3072,7 +3072,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1380, y: -7}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3084,7 +3084,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1380, y: 307}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3095,7 +3095,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 1247, y: 66}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3107,7 +3107,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1247, y: 234}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3119,7 +3119,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1513, y: 234}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3131,7 +3131,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 1513, y: 66}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3152,7 +3152,7 @@ var godNodesData =
 			, nodeImage: 'wanderer'
 			}
 		, position: {x: 1680, y: 150}
-		, classes: 'skill image wanderer'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3167,7 +3167,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: -460, y: 150}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3179,7 +3179,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -460,  y: 210}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3191,7 +3191,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -408, y: 120}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3202,7 +3202,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -512, y: 120}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3213,7 +3213,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -521, y: 40}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3225,7 +3225,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -399, y: 40}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3237,7 +3237,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -521, y: 260}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3249,7 +3249,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -399, y: 260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3261,7 +3261,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -460, y: -7}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3272,7 +3272,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -460, y: 307}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3284,7 +3284,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -593, y: 66}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3296,7 +3296,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -593, y: 234}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3308,7 +3308,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -327, y: 234}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3320,7 +3320,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -327, y: 66}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3332,7 +3332,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -595, y: 150}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3344,7 +3344,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -325, y: 150}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3358,7 +3358,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: -920, y: 150}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3369,7 +3369,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -920,  y: 210}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3381,7 +3381,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -868, y: 120}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3392,7 +3392,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -972, y: 120}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3404,7 +3404,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -1015, y: 90}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3416,7 +3416,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1015, y: 210}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3428,7 +3428,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -825, y: 210}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3440,7 +3440,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -825, y: 90}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3452,7 +3452,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -920, y: 40}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3464,7 +3464,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -920, y: 260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3476,7 +3476,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -920, y: -7}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3487,7 +3487,7 @@ var godNodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -920, y: 307}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3499,7 +3499,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1053, y: 66}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3511,7 +3511,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1053, y: 234}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3522,7 +3522,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -787, y: 234}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3534,7 +3534,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -787, y: 66}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3549,7 +3549,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: -1380, y: 150}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3560,7 +3560,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -1380,  y: 210}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3572,7 +3572,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -1328, y: 120}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3584,7 +3584,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1432, y: 120}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3596,7 +3596,7 @@ var godNodesData =
 			, need: {power: 490}
 			}
 		, position: {x: -1475, y: 90}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3608,7 +3608,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1475, y: 210}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3619,7 +3619,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -1285, y: 210}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3631,7 +3631,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1285, y: 90}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3643,7 +3643,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1441, y: 40}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3655,7 +3655,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1319, y: 40}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3667,7 +3667,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1441, y: 260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3678,7 +3678,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1319, y: 260}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3690,7 +3690,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -1380, y: 40}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3701,7 +3701,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1380, y: 260}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3713,7 +3713,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -1515, y: 150}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3725,7 +3725,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -1245, y: 150}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3747,7 +3747,7 @@ var godNodesData =
 			, nodeImage: 'defend'
 			}
 		, position: {x: -1680, y: 150}
-		, classes: 'skill image defend'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3761,7 +3761,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 0, y: 250}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3773,7 +3773,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 0,  y: 310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3785,7 +3785,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 52, y: 220}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3797,7 +3797,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -52, y: 220}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3809,7 +3809,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -95, y: 190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3821,7 +3821,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -95, y: 310}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3832,7 +3832,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 95, y: 310}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3844,7 +3844,7 @@ var godNodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 95, y: 190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3855,7 +3855,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -61, y: 140}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3866,7 +3866,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 61, y: 140}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3878,7 +3878,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -61, y: 360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3890,7 +3890,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 61, y: 360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3902,7 +3902,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 0, y: 140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3914,7 +3914,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 0, y: 360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3925,7 +3925,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -135, y: 250}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3937,7 +3937,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 135, y: 250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3952,7 +3952,7 @@ var godNodesData =
 			, prestige: 40
 			}
 		, position: {x: 0, y: 700}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3964,7 +3964,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -95, y: 640}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3976,7 +3976,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -95, y: 760}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3988,7 +3988,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 95, y: 760}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3999,7 +3999,7 @@ var godNodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 95, y: 640}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4011,7 +4011,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -61, y: 590}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4023,7 +4023,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 61, y: 590}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4035,7 +4035,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -61, y: 810}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4047,7 +4047,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 61, y: 810}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4059,7 +4059,7 @@ var godNodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 0, y: 590}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4071,7 +4071,7 @@ var godNodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 0, y: 810}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4083,7 +4083,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -133, y: 616}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4094,7 +4094,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -133, y: 784}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4106,7 +4106,7 @@ var godNodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 133, y: 784}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4117,7 +4117,7 @@ var godNodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 133, y: 616}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4129,7 +4129,7 @@ var godNodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -135, y: 700}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4141,7 +4141,7 @@ var godNodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 135, y: 700}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4161,7 +4161,7 @@ var godNodesData =
 			, nodeImage: 'rule'
 			}
 		, position: {x: 0, y: 1000}
-		, classes: 'skill image rule'
+		, classes: 'skill'
 		}
 	];
 

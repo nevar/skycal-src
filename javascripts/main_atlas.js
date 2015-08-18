@@ -16,7 +16,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 230, y: -380}
-		, classes: 'class image krio start'
+		, classes: 'class start'
 		}
 	,
 		{ data:
@@ -28,7 +28,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 230, y: -320}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -40,7 +40,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 282, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -52,7 +52,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: 178, y: -410}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -64,7 +64,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 133, y: -440}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -76,7 +76,7 @@ var nodesData =
 			, need: {red: 95}
 			}
 		, position: {x: 169, y: -490}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -87,7 +87,7 @@ var nodesData =
 			, need: {blue: 95}
 			}
 		, position: {x: 229, y: -490}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -99,7 +99,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 289, y: -490}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -111,7 +111,7 @@ var nodesData =
 			, need: {red: 95}
 			}
 		, position: {x: 95, y: -380}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -123,7 +123,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 133, y: -320}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -135,7 +135,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 169, y: -270}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -147,7 +147,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: 229, y: -270}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -159,7 +159,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 289, y: -270}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -170,7 +170,7 @@ var nodesData =
 			, need: {blue: 95}
 			}
 		, position: {x: 325, y: -440}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -182,7 +182,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: 363, y: -380}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -193,7 +193,7 @@ var nodesData =
 			, need: {blue: 125}
 			}
 		, position: {x: 325, y: -320}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -212,7 +212,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 0, y: 0}
-		, classes: 'class image paladin start'
+		, classes: 'class start'
 		}
 	,
 		{ data:
@@ -224,7 +224,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 0, y: 60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -235,7 +235,7 @@ var nodesData =
 			, need: {blue: 125}
 			}
 		, position: {x: 52, y: -30}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -247,7 +247,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: -52, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -259,7 +259,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: -95, y: -60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -271,7 +271,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: -60, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -282,7 +282,7 @@ var nodesData =
 			, need: {blue: 125}
 			}
 		, position: {x: 0, y: -110}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -293,7 +293,7 @@ var nodesData =
 			, need: {blue: 95}
 			}
 		, position: {x: 60, y: -110}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -305,7 +305,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: -135, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -317,7 +317,7 @@ var nodesData =
 			, need: {red: 155}
 			}
 		, position: {x: -96, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -329,7 +329,7 @@ var nodesData =
 			, need: {red: 155}
 			}
 		, position: {x: -60, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -341,7 +341,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 0, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -353,7 +353,7 @@ var nodesData =
 			, need: {red: 155}
 			}
 		, position: {x: 60, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -365,7 +365,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 95, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -377,7 +377,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 134, y: 0}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -389,7 +389,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 95, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -406,7 +406,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 230, y: 380}
-		, classes: 'class image light_keeper start'
+		, classes: 'class start'
 		}
 	,
 		{ data:
@@ -417,7 +417,7 @@ var nodesData =
 			, need: {blue: 95}
 			}
 		, position: {x: 230, y: 440}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -429,7 +429,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 282, y: 350}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -441,7 +441,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: 178, y: 350}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -453,7 +453,7 @@ var nodesData =
 			, need: {power: 125}
 			}
 		, position: {x: 133, y: 320}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -465,7 +465,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 169, y: 270}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -477,7 +477,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 229, y: 270}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -489,7 +489,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 289, y: 270}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -500,7 +500,7 @@ var nodesData =
 			, need: {blue: 95}
 			}
 		, position: {x: 95, y: 380}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -512,7 +512,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 133, y: 440}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -524,7 +524,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: 169, y: 490}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -536,7 +536,7 @@ var nodesData =
 			, need: {red: 155}
 			}
 		, position: {x: 229, y: 490}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -548,7 +548,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 289, y: 490}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -559,7 +559,7 @@ var nodesData =
 			, need: {blue: 125}
 			}
 		, position: {x: 325, y: 320}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -571,7 +571,7 @@ var nodesData =
 			, need: {red: 95}
 			}
 		, position: {x: 363, y: 380}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -583,7 +583,7 @@ var nodesData =
 			, need: {red: 95}
 			}
 		, position: {x: 325, y: 440}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -599,7 +599,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 460, y: 0}
-		, classes: 'skill image maneuver'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -611,7 +611,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: 365, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -622,7 +622,7 @@ var nodesData =
 			, need: {blue: 125}
 			}
 		, position: {x: 400, y: -110}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -634,7 +634,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 460, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -646,7 +646,7 @@ var nodesData =
 			, need: {red: 95}
 			}
 		, position: {x: 520, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -657,7 +657,7 @@ var nodesData =
 			, need: {blue: 95}
 			}
 		, position: {x: 325, y: 0}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -669,7 +669,7 @@ var nodesData =
 			, need: {green: 95}
 			}
 		, position: {x: 364, y: 60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -681,7 +681,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 400, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -693,7 +693,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 460, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -704,7 +704,7 @@ var nodesData =
 			, need: {blue: 125}
 			}
 		, position: {x: 520, y: 110}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -716,7 +716,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 555, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -728,7 +728,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 594, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -740,7 +740,7 @@ var nodesData =
 			, need: {green: 95}
 			}
 		, position: {x: 555, y: 60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -751,7 +751,7 @@ var nodesData =
 			, need: {blue: 125}
 			}
 		, position: {x: 327, y: -84}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -763,7 +763,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 327, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -774,7 +774,7 @@ var nodesData =
 			, need: {blue: 155}
 			}
 		, position: {x: 593, y: 84}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -786,7 +786,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 593, y: -84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -798,7 +798,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 920, y: 0}
-		, classes: 'skill image balance'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -810,7 +810,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 920, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -822,7 +822,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: 972, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -833,7 +833,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 868, y: -30}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -845,7 +845,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 860, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -856,7 +856,7 @@ var nodesData =
 			, need: {blue: 125}
 			}
 		, position: {x: 980, y: -110}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -868,7 +868,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 785, y: 0}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -880,7 +880,7 @@ var nodesData =
 			, need: {green: 95}
 			}
 		, position: {x: 860, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -891,7 +891,7 @@ var nodesData =
 			, need: {blue: 95}
 			}
 		, position: {x: 980, y: 110}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -903,7 +903,7 @@ var nodesData =
 			, need: {red: 155}
 			}
 		, position: {x: 1054, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -915,7 +915,7 @@ var nodesData =
 			, need: {red: 125}
 			}
 		, position: {x: 787, y: -84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -927,7 +927,7 @@ var nodesData =
 			, need: {red: 95}
 			}
 		, position: {x: 787, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -939,7 +939,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: 1053, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -950,7 +950,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 1053, y: -84}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -961,7 +961,7 @@ var nodesData =
 			, need: {blue: 125}
 			}
 		, position: {x: 920, y: 157}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -973,7 +973,7 @@ var nodesData =
 			, need: {green: 155}
 			}
 		, position: {x: 920, y: -157}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -987,7 +987,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 920, y: 450}
-		, classes: 'skill image impuls'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -998,7 +998,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 920, y: 510}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1009,7 +1009,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 972, y: 420}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1020,7 +1020,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 868, y: 420}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1032,7 +1032,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 823, y: 390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1044,7 +1044,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 859, y: 340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1055,7 +1055,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 919, y: 340}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1067,7 +1067,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 979, y: 340}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1079,7 +1079,7 @@ var nodesData =
 			, need: {red: 185}
 			}
 		, position: {x: 823, y: 510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1091,7 +1091,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 859, y: 560}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1103,7 +1103,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 979, y: 560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1114,7 +1114,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 1015, y: 390}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1125,7 +1125,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 1015, y: 510}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1137,7 +1137,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 920, y: 607}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1149,7 +1149,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 920, y: 293}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1164,7 +1164,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 920, y: -450}
-		, classes: 'skill image max_return'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1175,7 +1175,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 920, y: -390}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1187,7 +1187,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 972, y: -480}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1198,7 +1198,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 868, y: -480}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1210,7 +1210,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 823, y: -510}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1221,7 +1221,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 859, y: -560}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1233,7 +1233,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 919, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1244,7 +1244,7 @@ var nodesData =
 			, need: {blue: 115}
 			}
 		, position: {x: 979, y: -560}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1256,7 +1256,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 823, y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1268,7 +1268,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 859, y: -340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1279,7 +1279,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 979, y: -340}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1290,7 +1290,7 @@ var nodesData =
 			, need: {blue: 115}
 			}
 		, position: {x: 1015, y: -510}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1301,7 +1301,7 @@ var nodesData =
 			, need: {blue: 115}
 			}
 		, position: {x: 1015, y: -390}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1312,7 +1312,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 920, y: -293}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1324,7 +1324,7 @@ var nodesData =
 			, need: {red: 185}
 			}
 		, position: {x: 920, y: -607}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1346,7 +1346,7 @@ var nodesData =
 			, need: {god: 1}
 			}
 		, position: {x: 1380, y: 0}
-		, classes: 'skill image god'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1358,7 +1358,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1380,  y: 60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1370,7 +1370,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1432, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1382,7 +1382,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1328, y: -30}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1393,7 +1393,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1285, y: -60}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1405,7 +1405,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1285, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1416,7 +1416,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1475, y: 60}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1428,7 +1428,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1475, y: -60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1440,7 +1440,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1319, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1452,7 +1452,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1441, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1464,7 +1464,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1319, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1476,7 +1476,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1441, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1487,7 +1487,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1380, y: -110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1499,7 +1499,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 1380, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1511,7 +1511,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1380, y: -157}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1522,7 +1522,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1380, y: 157}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1534,7 +1534,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1247, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1546,7 +1546,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1247, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1558,7 +1558,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1513, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1570,7 +1570,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1513, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1582,7 +1582,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1245, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1594,7 +1594,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1515, y: 0}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1609,7 +1609,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 690, y: -760}
-		, classes: 'skill image surprise'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1621,7 +1621,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 690,  y: -700}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1633,7 +1633,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 742, y: -790}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1645,7 +1645,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 638, y: -790}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1657,7 +1657,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 629, y: -870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1669,7 +1669,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 751, y: -870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1680,7 +1680,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 629, y: -650}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1692,7 +1692,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 751, y: -650}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1704,7 +1704,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 690, y: -917}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1715,7 +1715,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 690, y: -603}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1726,7 +1726,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 557, y: -844}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1737,7 +1737,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 557, y: -676}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1749,7 +1749,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 823, y: -676}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1760,7 +1760,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 823, y: -844}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1772,7 +1772,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 555, y: -760}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1784,7 +1784,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 825, y: -760}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1799,7 +1799,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 230, y: -760}
-		, classes: 'skill image rush'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1810,7 +1810,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 230,  y: -700}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1821,7 +1821,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 282, y: -790}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1833,7 +1833,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 178, y: -790}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1845,7 +1845,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 135, y: -820}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1856,7 +1856,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 135, y: -700}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1868,7 +1868,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 325, y: -700}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1880,7 +1880,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 325, y: -820}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1892,7 +1892,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 230, y: -870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1904,7 +1904,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 230, y: -650}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1915,7 +1915,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 230, y: -917}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1927,7 +1927,7 @@ var nodesData =
 			, need: {red: 185}
 			}
 		, position: {x: 230, y: -603}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1939,7 +1939,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 97, y: -844}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1950,7 +1950,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 97, y: -676}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1961,7 +1961,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 363, y: -676}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1973,7 +1973,7 @@ var nodesData =
 			, need: {red: 185}
 			}
 		, position: {x: 363, y: -844}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1988,7 +1988,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 690, y: 760}
-		, classes: 'skill image inertia'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2000,7 +2000,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 690,  y: 820}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2012,7 +2012,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 742, y: 730}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2024,7 +2024,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 638, y: 730}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2036,7 +2036,7 @@ var nodesData =
 			, need: {red: 185}
 			}
 		, position: {x: 595, y: 700}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2047,7 +2047,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 595, y: 820}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2059,7 +2059,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 785, y: 820}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2071,7 +2071,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 785, y: 700}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2083,7 +2083,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 690, y: 650}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2095,7 +2095,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 690, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2107,7 +2107,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 690, y: 603}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2119,7 +2119,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 690, y: 917}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2131,7 +2131,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 557, y: 676}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2143,7 +2143,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 557, y: 844}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2155,7 +2155,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 823, y: 844}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2166,7 +2166,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 823, y: 676}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2183,7 +2183,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 230, y: 760}
-		, classes: 'skill image luck_hit'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2195,7 +2195,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 135, y: 700}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2207,7 +2207,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 135, y: 820}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2218,7 +2218,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 325, y: 820}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2230,7 +2230,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 325, y: 700}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2241,7 +2241,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 169, y: 650}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2252,7 +2252,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 291, y: 650}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2264,7 +2264,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 169, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2276,7 +2276,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 291, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2288,7 +2288,7 @@ var nodesData =
 			, need: {red: 185}
 			}
 		, position: {x: 230, y: 650}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2300,7 +2300,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 230, y: 870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2311,7 +2311,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 97, y: 676}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2323,7 +2323,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 97, y: 844}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2335,7 +2335,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 363, y: 844}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2346,7 +2346,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 363, y: 676}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2358,7 +2358,7 @@ var nodesData =
 			, need: {red: 185}
 			}
 		, position: {x: 95, y: 760}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2369,7 +2369,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 365, y: 760}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2381,7 +2381,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: -230, y: -760}
-		, classes: 'skill image destroy'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2393,7 +2393,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -325, y: -820}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2405,7 +2405,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -325, y: -700}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2417,7 +2417,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: -135, y: -700}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2429,7 +2429,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: -135, y: -820}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2440,7 +2440,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -291, y: -870}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2452,7 +2452,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -169, y: -870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2464,7 +2464,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: -291, y: -650}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2475,7 +2475,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: -169, y: -650}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2487,7 +2487,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: -230, y: -870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2499,7 +2499,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: -230, y: -650}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2510,7 +2510,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -363, y: -844}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2521,7 +2521,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -363, y: -676}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2532,7 +2532,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -97, y: -676}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2543,7 +2543,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: -97, y: -844}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2555,7 +2555,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: -365, y: -760}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2567,7 +2567,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: -95, y: -760}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2587,7 +2587,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: -230, y: -1200}
-		, classes: 'skill image shock'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2599,7 +2599,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -230,  y: -1140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2611,7 +2611,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -178, y: -1230}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2623,7 +2623,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -282, y: -1230}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2635,7 +2635,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -325, y: -1260}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2647,7 +2647,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -325, y: -1140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2658,7 +2658,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -135, y: -1140}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2670,7 +2670,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -135, y: -1260}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2681,7 +2681,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -230, y: -1310}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2692,7 +2692,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -230, y: -1090}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2704,7 +2704,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -230, y: -1357}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2715,7 +2715,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: -230, y: -1043}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -2727,7 +2727,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -363, y: -1284}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2739,7 +2739,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -363, y: -1116}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2751,7 +2751,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -97, y: -1116}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2763,7 +2763,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -97, y: -1284}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2779,7 +2779,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 350, y: -1260}
-		, classes: 'skill image triumph'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2791,7 +2791,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 255, y: -1320}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2803,7 +2803,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 255, y: -1200}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2815,7 +2815,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 445, y: -1200}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2826,7 +2826,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 445, y: -1320}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2838,7 +2838,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 289, y: -1370}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2850,7 +2850,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 411, y: -1370}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2862,7 +2862,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 289, y: -1150}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2873,7 +2873,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 411, y: -1150}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2885,7 +2885,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 350, y: -1370}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2897,7 +2897,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 350, y: -1150}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2909,7 +2909,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 217, y: -1344}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2921,7 +2921,7 @@ var nodesData =
 			, need: {red:810}
 			}
 		, position: {x: 217, y: -1176}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2933,7 +2933,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 483, y: -1176}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2945,7 +2945,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 483, y: -1344}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2956,7 +2956,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 215, y: -1260}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2968,7 +2968,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 485, y: -1260}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2980,7 +2980,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 1380, y: -600}
-		, classes: 'skill image destroy'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2992,7 +2992,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 1380,  y: -540}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3004,7 +3004,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 1432, y: -630}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3016,7 +3016,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 1328, y: -630}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3028,7 +3028,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 1285, y: -660}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3039,7 +3039,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 1285, y: -540}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3051,7 +3051,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 1475, y: -540}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3062,7 +3062,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 1475, y: -660}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3074,7 +3074,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 1380, y: -710}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3086,7 +3086,7 @@ var nodesData =
 			, need: {green: 115}
 			}
 		, position: {x: 1380, y: -490}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3097,7 +3097,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 1380, y: -757}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3109,7 +3109,7 @@ var nodesData =
 			, need: {red: 185}
 			}
 		, position: {x: 1380, y: -443}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3120,7 +3120,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 1247, y: -684}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3132,7 +3132,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 1247, y: -516}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3144,7 +3144,7 @@ var nodesData =
 			, need: {blue: 185}
 			}
 		, position: {x: 1513, y: -516}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3155,7 +3155,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 1513, y: -684}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3170,7 +3170,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 1380, y: -980}
-		, classes: 'skill image max_return'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3181,7 +3181,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1285, y: -1040}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3193,7 +3193,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1285, y: -920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3204,7 +3204,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1475, y: -920}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3215,7 +3215,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1475, y: -1040}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3226,7 +3226,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1319, y: -1090}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3238,7 +3238,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1441, y: -1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3249,7 +3249,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1319, y: -870}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3261,7 +3261,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1441, y: -870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3273,7 +3273,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1380, y: -1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3285,7 +3285,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1380, y: -870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3297,7 +3297,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1247, y: -1064}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3309,7 +3309,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1247, y: -896}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3320,7 +3320,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1513, y: -896}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3331,7 +3331,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1513, y: -1064}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3342,7 +3342,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1245, y: -980}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3354,7 +3354,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1515, y: -980}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3373,7 +3373,7 @@ var nodesData =
 			, need: {transformation: 300}
 			}
 		, position: {x: 1380, y: -1360}
-		, classes: 'skill image kinetic'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3385,7 +3385,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1380,  y: -1300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3397,7 +3397,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1432, y: -1390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3409,7 +3409,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1328, y: -1390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3420,7 +3420,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1285, y: -1420}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3431,7 +3431,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1285, y: -1300}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3442,7 +3442,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1475, y: -1300}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3454,7 +3454,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1475, y: -1420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3466,7 +3466,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1319, y: -1470}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3477,7 +3477,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1441, y: -1470}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3489,7 +3489,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1319, y: -1250}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3501,7 +3501,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1441, y: -1250}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3513,7 +3513,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1380, y: -1470}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3525,7 +3525,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1380, y: -1250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3537,7 +3537,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1245, y: -1360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3549,7 +3549,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1515, y: -1360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3567,7 +3567,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 960, y: -980}
-		, classes: 'skill image reflex'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3579,7 +3579,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 960,  y: -920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3591,7 +3591,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1012, y: -1010}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3603,7 +3603,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 908, y: -1010}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3615,7 +3615,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 865, y: -1040}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3627,7 +3627,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 865, y: -920}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3639,7 +3639,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1055, y: -920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3651,7 +3651,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1055, y: -1040}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3663,7 +3663,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 899, y: -1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3675,7 +3675,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1021, y: -1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3686,7 +3686,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 899, y: -870}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3698,7 +3698,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1021, y: -870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3709,7 +3709,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 960, y: -1090}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3721,7 +3721,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 960, y: -870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3733,7 +3733,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 825, y: -980}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3745,7 +3745,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1095, y: -980}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3757,7 +3757,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 820, y: -1360}
-		, classes: 'skill image create'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3769,7 +3769,7 @@ var nodesData =
 			, need: {geen: 490}
 			}
 		, position: {x: 820,  y: -1300}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3781,7 +3781,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 872, y: -1390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3793,7 +3793,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 768, y: -1390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3805,7 +3805,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 725, y: -1420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3816,7 +3816,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 725, y: -1300}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3828,7 +3828,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 915, y: -1300}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3840,7 +3840,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 915, y: -1420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3851,7 +3851,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 759, y: -1470}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3862,7 +3862,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 881, y: -1470}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3874,7 +3874,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 759, y: -1250}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3885,7 +3885,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 881, y: -1250}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3897,7 +3897,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 820, y: -1470}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3909,7 +3909,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 820, y: -1517}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3921,7 +3921,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 820, y: -1203}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3936,7 +3936,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 1800, y: -980}
-		, classes: 'skill image resist'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -3948,7 +3948,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1800,  y: -920}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3960,7 +3960,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1852, y: -1010}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3972,7 +3972,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1748, y: -1010}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3984,7 +3984,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1739, y: -1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3996,7 +3996,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1861, y: -1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4008,7 +4008,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1739, y: -870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4020,7 +4020,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1861, y: -870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4031,7 +4031,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1800, y: -1137}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4042,7 +4042,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1800, y: -823}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4054,7 +4054,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1667, y: -1064}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4066,7 +4066,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1667, y: -896}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4078,7 +4078,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1933, y: -896}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4090,7 +4090,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1933, y: -1064}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4102,7 +4102,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1665, y: -980}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4114,7 +4114,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1935, y: -980}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4131,7 +4131,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1940, y: -1360}
-		, classes: 'skill image defence'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -4143,7 +4143,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1940,  y: -1300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4155,7 +4155,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1992, y: -1390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4166,7 +4166,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1888, y: -1390}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4177,7 +4177,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1845, y: -1420}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4189,7 +4189,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1845, y: -1300}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4201,7 +4201,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 2035, y: -1300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4212,7 +4212,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 2035, y: -1420}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4224,7 +4224,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1879, y: -1470}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4236,7 +4236,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 2001, y: -1470}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4247,7 +4247,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1879, y: -1250}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4259,7 +4259,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 2001, y: -1250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4271,7 +4271,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1940, y: -1470}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4283,7 +4283,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 1940, y: -1517}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4295,7 +4295,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1940, y: -1203}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4310,7 +4310,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 1840, y: -450}
-		, classes: 'skill image mobilization'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -4322,7 +4322,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1840,  y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4333,7 +4333,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1892, y: -480}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4345,7 +4345,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1788, y: -480}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4356,7 +4356,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1745, y: -510}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4367,7 +4367,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1745, y: -390}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4379,7 +4379,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1935, y: -390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4391,7 +4391,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1935, y: -510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4403,7 +4403,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1779, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4415,7 +4415,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1901, y: -560}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4426,7 +4426,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1779, y: -340}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4437,7 +4437,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1901, y: -340}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4448,7 +4448,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1840, y: -560}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4460,7 +4460,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1840, y: -340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4471,7 +4471,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1705, y: -450}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4482,7 +4482,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1975, y: -450}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4498,7 +4498,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1840, y: 0}
-		, classes: 'skill image okulat'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -4510,7 +4510,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1840,  y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4521,7 +4521,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1892, y: -30}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4532,7 +4532,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1788, y: -30}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4544,7 +4544,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1745, y: -60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4555,7 +4555,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1745, y: 60}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4567,7 +4567,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1935, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4578,7 +4578,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1935, y: -60}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4589,7 +4589,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1779, y: -110}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4601,7 +4601,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1901, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4613,7 +4613,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1779, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4625,7 +4625,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1901, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4637,7 +4637,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1840, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4649,7 +4649,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1840, y: -157}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4661,7 +4661,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1840, y: 157}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4682,7 +4682,7 @@ var nodesData =
 			, need: {transformation: 300}
 			}
 		, position: {x: 2070, y: -760}
-		, classes: 'class image rouge'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -4694,7 +4694,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2070,  y: -700}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4705,7 +4705,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 2122, y: -790}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4717,7 +4717,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2018, y: -790}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4729,7 +4729,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1975, y: -820}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4740,7 +4740,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1975, y: -700}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4752,7 +4752,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2165, y: -700}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4764,7 +4764,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2165, y: -820}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4775,7 +4775,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 2009, y: -870}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4786,7 +4786,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2131, y: -870}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4798,7 +4798,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2009, y: -650}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4810,7 +4810,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2131, y: -650}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4822,7 +4822,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2070, y: -870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4833,7 +4833,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2070, y: -650}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4845,7 +4845,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1935, y: -760}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4857,7 +4857,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2205, y: -760}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4869,7 +4869,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 1380, y: 600}
-		, classes: 'skill image create'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -4881,7 +4881,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 1380,  y: 660}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4893,7 +4893,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 1432, y: 570}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4905,7 +4905,7 @@ var nodesData =
 			, need: {green: 125}
 			}
 		, position: {x: 1328, y: 570}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4917,7 +4917,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 1319, y: 490}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4929,7 +4929,7 @@ var nodesData =
 			, need: {red: 150}
 			}
 		, position: {x: 1441, y: 490}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4941,7 +4941,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 1319, y: 710}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4953,7 +4953,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 1441, y: 710}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4965,7 +4965,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 1380, y: 443}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4976,7 +4976,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 1380, y: 757}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -4988,7 +4988,7 @@ var nodesData =
 			, need: {red: 155}
 			}
 		, position: {x: 1247, y: 516}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5000,7 +5000,7 @@ var nodesData =
 			, need: {red: 185}
 			}
 		, position: {x: 1247, y: 684}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5012,7 +5012,7 @@ var nodesData =
 			, need: {red: 115}
 			}
 		, position: {x: 1513, y: 684}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5024,7 +5024,7 @@ var nodesData =
 			, need: {green: 150}
 			}
 		, position: {x: 1513, y: 516}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5035,7 +5035,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 1245, y: 600}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5047,7 +5047,7 @@ var nodesData =
 			, need: {green: 185}
 			}
 		, position: {x: 1515, y: 600}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5062,7 +5062,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 1380, y: 980}
-		, classes: 'skill image max_str'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -5074,7 +5074,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1380,  y: 1040}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5086,7 +5086,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1432, y: 950}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5097,7 +5097,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1328, y: 950}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5109,7 +5109,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1285, y: 920}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5120,7 +5120,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1285, y: 1040}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5132,7 +5132,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1475, y: 1040}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5143,7 +5143,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1475, y: 920}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5154,7 +5154,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1380, y: 870}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5166,7 +5166,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1380, y: 1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5178,7 +5178,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1380, y: 823}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5189,7 +5189,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1380, y: 1137}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5200,7 +5200,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1247, y: 896}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5212,7 +5212,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1247, y: 1064}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5223,7 +5223,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1513, y: 1064}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5234,7 +5234,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1513, y: 896}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5251,7 +5251,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 960, y: 980}
-		, classes: 'skill image defence'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -5263,7 +5263,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 960,  y: 1040}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5275,7 +5275,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1012, y: 950}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5286,7 +5286,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 908, y: 950}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5298,7 +5298,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 865, y: 920}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5310,7 +5310,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 865, y: 1040}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5322,7 +5322,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1055, y: 1040}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5333,7 +5333,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1055, y: 920}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5345,7 +5345,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 899, y: 870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5357,7 +5357,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1021, y: 870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5368,7 +5368,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 899, y: 1090}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5380,7 +5380,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1021, y: 1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5392,7 +5392,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 960, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5404,7 +5404,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 960, y: 1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5415,7 +5415,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 825, y: 980}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5427,7 +5427,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1095, y: 980}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5439,7 +5439,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 820, y: 1360}
-		, classes: 'skill image destroy'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -5450,7 +5450,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 820,  y: 1420}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5461,7 +5461,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 872, y: 1330}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5473,7 +5473,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 768, y: 1330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5484,7 +5484,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 725, y: 1300}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5496,7 +5496,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 725, y: 1420}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5508,7 +5508,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 915, y: 1420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5520,7 +5520,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 915, y: 1300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5531,7 +5531,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 759, y: 1250}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5543,7 +5543,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 881, y: 1250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5555,7 +5555,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 759, y: 1470}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5567,7 +5567,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 881, y: 1470}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5579,7 +5579,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 820, y: 1250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5591,7 +5591,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 820, y: 1203}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5602,7 +5602,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 820, y: 1517}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5618,7 +5618,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1150, y: 1740}
-		, classes: 'skill image slow'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -5630,7 +5630,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 1055, y: 1680}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5642,7 +5642,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1055, y: 1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5654,7 +5654,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1245, y: 1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5666,7 +5666,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1245, y: 1680}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5678,7 +5678,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1089, y: 1630}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5690,7 +5690,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1211, y: 1630}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5702,7 +5702,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1089, y: 1850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5714,7 +5714,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1211, y: 1850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5725,7 +5725,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 1150, y: 1630}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5737,7 +5737,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 1150, y: 1850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5748,7 +5748,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 1017, y: 1656}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -5760,7 +5760,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1017, y: 1824}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5771,7 +5771,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1283, y: 1824}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5782,7 +5782,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 1283, y: 1656}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5793,7 +5793,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 1015, y: 1740}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5805,7 +5805,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 1285, y: 1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5821,7 +5821,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 690, y: 1740}
-		, classes: 'skill image injury'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -5833,7 +5833,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 690,  y: 1800}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5844,7 +5844,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 742, y: 1710}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5855,7 +5855,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 638, y: 1710}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5867,7 +5867,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 595, y: 1680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5879,7 +5879,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 595, y: 1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5890,7 +5890,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 785, y: 1800}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5902,7 +5902,7 @@ var nodesData =
 			, need: {gree: 650}
 			}
 		, position: {x: 785, y: 1680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5914,7 +5914,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 690, y: 1630}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5925,7 +5925,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 690, y: 1850}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5936,7 +5936,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 690, y: 1583}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5948,7 +5948,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 690, y: 1897}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5960,7 +5960,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 557, y: 1656}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5972,7 +5972,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 557, y: 1824}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5984,7 +5984,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 823, y: 1824}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -5996,7 +5996,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 823, y: 1656}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6011,7 +6011,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1840, y: 450}
-		, classes: 'skill image max_str'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -6023,7 +6023,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1745, y: 390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6035,7 +6035,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1745, y: 510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6046,7 +6046,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1935, y: 510}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6058,7 +6058,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1935, y: 390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6069,7 +6069,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1779, y: 340}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6081,7 +6081,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1901, y: 340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6092,7 +6092,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1779, y: 560}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6103,7 +6103,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1901, y: 560}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6114,7 +6114,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1840, y: 340}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6125,7 +6125,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1840, y: 560}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6136,7 +6136,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1707, y: 366}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6148,7 +6148,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1707, y: 534}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6160,7 +6160,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1973, y: 534}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6172,7 +6172,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1973, y: 366}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6183,7 +6183,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1705, y: 450}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6194,7 +6194,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1975, y: 450}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6213,7 +6213,7 @@ var nodesData =
 			, need: {transformation: 300}
 			}
 		, position: {x: 2070, y: 760}
-		, classes: 'class image archer'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -6225,7 +6225,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2070,  y: 820}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6237,7 +6237,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2122, y: 730}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6249,7 +6249,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2018, y: 730}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6261,7 +6261,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1975, y: 700}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6273,7 +6273,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1975, y: 820}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6284,7 +6284,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2165, y: 820}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6295,7 +6295,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 2165, y: 700}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6306,7 +6306,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2009, y: 650}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6318,7 +6318,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2131, y: 650}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6330,7 +6330,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2009, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6342,7 +6342,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2131, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6354,7 +6354,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2070, y: 650}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6365,7 +6365,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2070, y: 870}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6376,7 +6376,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 1935, y: 760}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6388,7 +6388,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2205, y: 760}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6406,7 +6406,7 @@ var nodesData =
 			, need: {transformation: 300}
 			}
 		, position: {x: 1380, y: 1360}
-		, classes: 'skill image necromancer'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -6418,7 +6418,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1380,  y: 1420}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6430,7 +6430,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1432, y: 1330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6442,7 +6442,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1328, y: 1330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6454,7 +6454,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1285, y: 1300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6466,7 +6466,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1285, y: 1420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6478,7 +6478,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1475, y: 1420}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6490,7 +6490,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1475, y: 1300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6501,7 +6501,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1319, y: 1250}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6513,7 +6513,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1441, y: 1250}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6525,7 +6525,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1319, y: 1470}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6536,7 +6536,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1441, y: 1470}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6548,7 +6548,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1380, y: 1250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6560,7 +6560,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1380, y: 1470}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6572,7 +6572,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1245, y: 1360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6584,7 +6584,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1515, y: 1360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6599,7 +6599,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1150, y: -1740}
-		, classes: 'skill image timeout'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -6611,7 +6611,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1055, y: -1800}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6622,7 +6622,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 1055, y: -1680}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6634,7 +6634,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 1245, y: -1680}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6646,7 +6646,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1245, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6658,7 +6658,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1089, y: -1850}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6669,7 +6669,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 1211, y: -1850}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6680,7 +6680,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 1089, y: -1630}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6692,7 +6692,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1211, y: -1630}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6704,7 +6704,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1150, y: -1850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6716,7 +6716,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1150, y: -1630}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6728,7 +6728,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1017, y: -1824}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6739,7 +6739,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 1017, y: -1656}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -6750,7 +6750,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1283, y: -1656}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6762,7 +6762,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1283, y: -1824}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6774,7 +6774,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1015, y: -1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6785,7 +6785,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1285, y: -1740}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6801,7 +6801,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1610, y: -1740}
-		, classes: 'skill image slow'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -6813,7 +6813,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1610,  y: -1680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6825,7 +6825,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 1662, y: -1770}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6837,7 +6837,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1558, y: -1770}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6849,7 +6849,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1515, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6861,7 +6861,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1515, y: -1680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6873,7 +6873,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1705, y: -1680}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6884,7 +6884,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1705, y: -1800}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6896,7 +6896,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1610, y: -1850}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6908,7 +6908,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1610, y: -1630}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6920,7 +6920,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1610, y: -1897}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6932,7 +6932,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1610, y: -1583}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6943,7 +6943,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 1477, y: -1824}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6954,7 +6954,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1477, y: -1656}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6965,7 +6965,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 1743, y: -1656}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -6976,7 +6976,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 1743, y: -1824}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -6988,7 +6988,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: -230, y: 760}
-		, classes: 'skill image balance'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -7000,7 +7000,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: -230,  y: 820}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7012,7 +7012,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: -178, y: 730}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7024,7 +7024,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: -282, y: 730}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7035,7 +7035,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: -325, y: 700}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7047,7 +7047,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -325, y: 820}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7059,7 +7059,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: -135, y: 820}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7071,7 +7071,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: -135, y: 700}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7083,7 +7083,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: -230, y: 650}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7094,7 +7094,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -230, y: 870}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7105,7 +7105,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -230, y: 603}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7117,7 +7117,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: -230, y: 917}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7129,7 +7129,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: -363, y: 676}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7140,7 +7140,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -363, y: 844}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7151,7 +7151,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -97, y: 844}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7163,7 +7163,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -97, y: 676}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7181,7 +7181,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: -360, y: 320}
-		, classes: 'skill image ruthlessness'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -7193,7 +7193,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: -360,  y: 380}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7205,7 +7205,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: -308, y: 290}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7216,7 +7216,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -412, y: 290}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7228,7 +7228,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: -455, y: 260}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7240,7 +7240,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: -455, y: 380}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7251,7 +7251,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -265, y: 380}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7263,7 +7263,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: -265, y: 260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7275,7 +7275,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: -421, y: 210}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7286,7 +7286,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -299, y: 210}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7298,7 +7298,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -421, y: 430}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7310,7 +7310,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: -299, y: 430}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7321,7 +7321,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: -360, y: 210}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7332,7 +7332,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: -360, y: 430}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7344,7 +7344,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: -495, y: 320}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7356,7 +7356,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -225, y: 320}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7375,7 +7375,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: -360, y: -320}
-		, classes: 'skill image adrenaline'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -7387,7 +7387,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: -360,  y: -260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7399,7 +7399,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: -308, y: -350}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7411,7 +7411,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: -412, y: -350}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7422,7 +7422,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: -455, y: -380}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7434,7 +7434,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: -455, y: -260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7445,7 +7445,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -265, y: -260}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7457,7 +7457,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: -265, y: -380}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7469,7 +7469,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -421, y: -430}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7480,7 +7480,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: -299, y: -430}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7491,7 +7491,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -421, y: -210}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7503,7 +7503,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -299, y: -210}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7514,7 +7514,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: -360, y: -430}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7526,7 +7526,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: -360, y: -210}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7538,7 +7538,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -495, y: -320}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7550,7 +7550,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: -225, y: -320}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7568,7 +7568,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 350, y: 1200}
-		, classes: 'skill image reflex'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -7580,7 +7580,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 350,  y: 1260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7592,7 +7592,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 402, y: 1170}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7603,7 +7603,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 298, y: 1170}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7614,7 +7614,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 289, y: 1090}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7626,7 +7626,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 411, y: 1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7637,7 +7637,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 289, y: 1310}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7649,7 +7649,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 411, y: 1310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7661,7 +7661,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 350, y: 1043}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7672,7 +7672,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 350, y: 1357}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7684,7 +7684,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 217, y: 1116}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7696,7 +7696,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 217, y: 1284}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7708,7 +7708,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 483, y: 1284}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7720,7 +7720,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 483, y: 1116}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7732,7 +7732,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 215, y: 1200}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7744,7 +7744,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 485, y: 1200}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7765,7 +7765,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: -230, y: 1200}
-		, classes: 'skill image wave'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -7777,7 +7777,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -230,  y: 1260}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7789,7 +7789,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -178, y: 1170}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7801,7 +7801,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -282, y: 1170}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7813,7 +7813,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -325, y: 1140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7825,7 +7825,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -325, y: 1260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7837,7 +7837,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -135, y: 1260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7848,7 +7848,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -135, y: 1140}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7860,7 +7860,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -291, y: 1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7872,7 +7872,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -169, y: 1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7883,7 +7883,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -291, y: 1310}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7895,7 +7895,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -169, y: 1310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7906,7 +7906,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -230, y: 1090}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7917,7 +7917,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: -230, y: 1043}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -7929,7 +7929,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -230, y: 1357}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7944,7 +7944,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: -690, y: 1200}
-		, classes: 'skill image equilibrium'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -7956,7 +7956,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -785, y: 1140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7968,7 +7968,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -785, y: 1260}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7980,7 +7980,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -595, y: 1260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -7992,7 +7992,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -595, y: 1140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8003,7 +8003,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -751, y: 1090}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8014,7 +8014,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -629, y: 1090}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8025,7 +8025,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -751, y: 1310}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8037,7 +8037,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -629, y: 1310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8049,7 +8049,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -690, y: 1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8060,7 +8060,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -690, y: 1310}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8072,7 +8072,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -823, y: 1116}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8084,7 +8084,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -823, y: 1284}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8096,7 +8096,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -557, y: 1284}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8108,7 +8108,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -557, y: 1116}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8120,7 +8120,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -825, y: 1200}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8131,7 +8131,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -555, y: 1200}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8149,7 +8149,7 @@ var nodesData =
 			, need: {transformation: 600}
 			}
 		, position: {x: -1120, y: 1200}
-		, classes: 'class image monk'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -8161,7 +8161,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -1120,  y: 1260}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8173,7 +8173,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1068, y: 1170}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8185,7 +8185,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1172, y: 1170}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8197,7 +8197,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -1215, y: 1140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8208,7 +8208,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -1215, y: 1260}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8220,7 +8220,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1025, y: 1260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8231,7 +8231,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -1025, y: 1140}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8243,7 +8243,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1181, y: 1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8255,7 +8255,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1059, y: 1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8267,7 +8267,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -1181, y: 1310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8278,7 +8278,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1059, y: 1310}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8289,7 +8289,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1120, y: 1090}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8300,7 +8300,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: -1120, y: 1310}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -8312,7 +8312,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -1255, y: 1200}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8323,7 +8323,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -985, y: 1200}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8337,7 +8337,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: -690, y: -1200}
-		, classes: 'skill image alert'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -8349,7 +8349,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -690,  y: -1140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8361,7 +8361,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -638, y: -1230}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8373,7 +8373,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -742, y: -1230}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8385,7 +8385,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -751, y: -1310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8396,7 +8396,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -629, y: -1310}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8407,7 +8407,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -751, y: -1090}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8419,7 +8419,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -629, y: -1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8431,7 +8431,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -690, y: -1357}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8443,7 +8443,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -690, y: -1043}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8454,7 +8454,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -823, y: -1284}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8466,7 +8466,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -823, y: -1116}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8478,7 +8478,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -557, y: -1116}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8490,7 +8490,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -557, y: -1284}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8502,7 +8502,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -825, y: -1200}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8513,7 +8513,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -555, y: -1200}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8534,7 +8534,7 @@ var nodesData =
 			, need: {transformation: 600}
 			}
 		, position: {x: -1120, y: -1200}
-		, classes: 'class image alchemist'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -8546,7 +8546,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -1120,  y: -1140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8558,7 +8558,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1068, y: -1230}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8570,7 +8570,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -1172, y: -1230}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8582,7 +8582,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1215, y: -1260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8593,7 +8593,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -1215, y: -1140}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8605,7 +8605,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1025, y: -1140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8616,7 +8616,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -1025, y: -1260}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8628,7 +8628,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -1181, y: -1310}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8639,7 +8639,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -1059, y: -1310}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8651,7 +8651,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1181, y: -1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8662,7 +8662,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: -1059, y: -1090}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -8674,7 +8674,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1120, y: -1310}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8686,7 +8686,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1120, y: -1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8697,7 +8697,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1255, y: -1200}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8709,7 +8709,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -985, y: -1200}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8721,7 +8721,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: -790, y: 0}
-		, classes: 'skill image balance'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -8733,7 +8733,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -790,  y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8745,7 +8745,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -738, y: -30}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8757,7 +8757,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -842, y: -30}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8768,7 +8768,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -885, y: -60}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8780,7 +8780,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -885, y: 60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8791,7 +8791,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -695, y: 60}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8802,7 +8802,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -695, y: -60}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8814,7 +8814,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -851, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8826,7 +8826,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -729, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8837,7 +8837,7 @@ var nodesData =
 			, need: {vit: 810}
 			}
 		, position: {x: -851, y: 110}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8849,7 +8849,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -729, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8861,7 +8861,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -790, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8872,7 +8872,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -790, y: -157}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8883,7 +8883,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -790, y: 157}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8898,7 +8898,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: -1220, y: 0}
-		, classes: 'skill image surprise'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -8910,7 +8910,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -1315, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8922,7 +8922,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -1315, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8934,7 +8934,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1125, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8946,7 +8946,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1125, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8957,7 +8957,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -1281, y: -110}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8969,7 +8969,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1159, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8981,7 +8981,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1281, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -8993,7 +8993,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1159, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9005,7 +9005,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1220, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9017,7 +9017,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -1220, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9028,7 +9028,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -1353, y: -84}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9040,7 +9040,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1353, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9052,7 +9052,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1087, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9064,7 +9064,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1087, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9075,7 +9075,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -1355, y: 0}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9086,7 +9086,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -1085, y: 0}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9104,7 +9104,7 @@ var nodesData =
 			, need: {transformation: 600}
 			}
 		, position: {x: -1650, y: 0}
-		, classes: 'class image hedgehopper'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -9116,7 +9116,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1650,  y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9128,7 +9128,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1598, y: -30}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9140,7 +9140,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1702, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9152,7 +9152,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -1745, y: -60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9163,7 +9163,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: -1745, y: 60}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9174,7 +9174,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1555, y: 60}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9185,7 +9185,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: -1555, y: -60}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -9197,7 +9197,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1711, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9209,7 +9209,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1589, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9221,7 +9221,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -1711, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9233,7 +9233,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -1589, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9245,7 +9245,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -1650, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9257,7 +9257,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -1650, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9268,7 +9268,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -1785, y: 0}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9279,7 +9279,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -1515, y: 0}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9296,7 +9296,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: -850, y: -650}
-		, classes: 'skill image barrier'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -9308,7 +9308,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -850,  y: -590}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9320,7 +9320,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -798, y: -680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9332,7 +9332,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -902, y: -680}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9343,7 +9343,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -945, y: -710}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9355,7 +9355,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -945, y: -590}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9367,7 +9367,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -755, y: -590}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9378,7 +9378,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -755, y: -710}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9390,7 +9390,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -850, y: -760}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9401,7 +9401,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: -850, y: -540}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9412,7 +9412,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -850, y: -807}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9424,7 +9424,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: -850, y: -493}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9435,7 +9435,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: -983, y: -734}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -9447,7 +9447,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -983, y: -566}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9459,7 +9459,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -717, y: -566}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9471,7 +9471,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: -717, y: -734}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9487,7 +9487,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: -850, y: 650}
-		, classes: 'skill image spasm'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -9498,7 +9498,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -850,  y: 710}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9510,7 +9510,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -798, y: 620}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9522,7 +9522,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -902, y: 620}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9533,7 +9533,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: -911, y: 540}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9544,7 +9544,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -789, y: 540}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9555,7 +9555,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: -911, y: 760}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9567,7 +9567,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: -789, y: 760}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9579,7 +9579,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -850, y: 493}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9591,7 +9591,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: -850, y: 807}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9602,7 +9602,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: -983, y: 566}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -9614,7 +9614,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -983, y: 734}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9626,7 +9626,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: -717, y: 734}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9637,7 +9637,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: -717, y: 566}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9649,7 +9649,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -985, y: 650}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9661,7 +9661,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: -715, y: 650}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9677,7 +9677,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 2410, y: -1260}
-		, classes: 'skill image concussion'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -9688,7 +9688,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 2410,  y: -1200}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -9700,7 +9700,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 2462, y: -1290}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9712,7 +9712,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 2358, y: -1290}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9724,7 +9724,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 2349, y: -1370}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9735,7 +9735,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 2471, y: -1370}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9746,7 +9746,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 2349, y: -1150}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9758,7 +9758,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 2471, y: -1150}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9770,7 +9770,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 2410, y: -1417}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9782,7 +9782,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 2410, y: -1103}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9794,7 +9794,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 2277, y: -1344}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9806,7 +9806,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 2277, y: -1176}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9818,7 +9818,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 2543, y: -1176}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9829,7 +9829,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 2543, y: -1344}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9841,7 +9841,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 2275, y: -1260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9853,7 +9853,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 2545, y: -1260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9865,7 +9865,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 2870, y: -1360}
-		, classes: 'skill image create'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -9877,7 +9877,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2775, y: -1420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9889,7 +9889,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2775, y: -1300}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9901,7 +9901,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2965, y: -1300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9913,7 +9913,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2965, y: -1420}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9924,7 +9924,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2809, y: -1470}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9936,7 +9936,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2931, y: -1470}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9948,7 +9948,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2809, y: -1250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9960,7 +9960,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2931, y: -1250}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9972,7 +9972,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2870, y: -1470}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9983,7 +9983,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2870, y: -1250}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -9995,7 +9995,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2737, y: -1444}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10006,7 +10006,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2737, y: -1276}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10017,7 +10017,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3003, y: -1276}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10029,7 +10029,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3003, y: -1444}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10041,7 +10041,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2735, y: -1360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10052,7 +10052,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3005, y: -1360}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10072,7 +10072,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 2870, y: -980}
-		, classes: 'skill image wave'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -10084,7 +10084,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2870,  y: -920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10096,7 +10096,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2922, y: -1010}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10107,7 +10107,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 2818, y: -1010}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10119,7 +10119,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2809, y: -1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10131,7 +10131,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2931, y: -1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10143,7 +10143,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2809, y: -870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10155,7 +10155,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2931, y: -870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10166,7 +10166,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 2870, y: -1137}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -10177,7 +10177,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 2870, y: -823}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10189,7 +10189,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2737, y: -1064}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10201,7 +10201,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2737, y: -896}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10213,7 +10213,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 3003, y: -896}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10224,7 +10224,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3003, y: -1064}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10236,7 +10236,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2735, y: -980}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10248,7 +10248,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 3005, y: -980}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10264,7 +10264,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 2200, y: 0}
-		, classes: 'skill image double'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -10276,7 +10276,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2200,  y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10287,7 +10287,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2252, y: -30}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10298,7 +10298,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 2148, y: -30}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10310,7 +10310,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2139, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10322,7 +10322,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2261, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10334,7 +10334,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2139, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10345,7 +10345,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2261, y: 110}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10357,7 +10357,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2200, y: -157}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10369,7 +10369,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2200, y: 157}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10380,7 +10380,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2067, y: -84}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10392,7 +10392,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2067, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10404,7 +10404,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2333, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10416,7 +10416,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2333, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10427,7 +10427,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 2065, y: 0}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10439,7 +10439,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2335, y: 0}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10451,7 +10451,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 2660, y: 0}
-		, classes: 'skill image destroy'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -10462,7 +10462,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 2565, y: -60}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10473,7 +10473,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2565, y: 60}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10485,7 +10485,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2755, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10497,7 +10497,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2755, y: -60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10508,7 +10508,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 2599, y: -110}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10520,7 +10520,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2721, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10532,7 +10532,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2599, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10544,7 +10544,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2721, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10556,7 +10556,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2660, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10568,7 +10568,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2660, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10580,7 +10580,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2527, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10592,7 +10592,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2527, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10604,7 +10604,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2793, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10615,7 +10615,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 2793, y: -84}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10627,7 +10627,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2525, y: 0}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10638,7 +10638,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2795, y: 0}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10650,7 +10650,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 3120, y: 0}
-		, classes: 'skill image balance'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -10662,7 +10662,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 3120,  y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10674,7 +10674,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 3172, y: -30}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10686,7 +10686,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3068, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10697,7 +10697,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 3025, y: -60}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10708,7 +10708,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3025, y: 60}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10719,7 +10719,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3215, y: 60}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10730,7 +10730,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3215, y: -60}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10741,7 +10741,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3120, y: -110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10753,7 +10753,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3120, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10765,7 +10765,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 3120, y: -157}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10777,7 +10777,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3120, y: 157}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10789,7 +10789,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2987, y: -84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10801,7 +10801,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2987, y: 84}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10813,7 +10813,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 3253, y: 84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10825,7 +10825,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 3253, y: -84}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10839,7 +10839,7 @@ var nodesData =
 			, need: {blue: 200}
 			}
 		, position: {x: 3330, y: -1360}
-		, classes: 'skill image impuls'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -10850,7 +10850,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3330,  y: -1300}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10862,7 +10862,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3382, y: -1390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10873,7 +10873,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3278, y: -1390}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10884,7 +10884,7 @@ var nodesData =
 			, need: {green: 575}
 			}
 		, position: {x: 3235, y: -1420}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10895,7 +10895,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3235, y: -1300}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10906,7 +10906,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3425, y: -1300}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10917,7 +10917,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3425, y: -1420}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10929,7 +10929,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3330, y: -1470}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10941,7 +10941,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3330, y: -1250}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10953,7 +10953,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3330, y: -1517}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10965,7 +10965,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3330, y: -1203}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10976,7 +10976,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3197, y: -1444}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10987,7 +10987,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3197, y: -1276}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -10999,7 +10999,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3463, y: -1276}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11010,7 +11010,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 3463, y: -1444}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -11028,7 +11028,7 @@ var nodesData =
 			, need: {transformation: 600}
 			}
 		, position: {x: 3470, y: -980}
-		, classes: 'class image hero'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -11040,7 +11040,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3470,  y: -920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11052,7 +11052,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3522, y: -1010}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11064,7 +11064,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3418, y: -1010}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11076,7 +11076,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 3375, y: -1040}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11088,7 +11088,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3375, y: -920}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11100,7 +11100,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3565, y: -920}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11111,7 +11111,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3565, y: -1040}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11122,7 +11122,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3409, y: -1090}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11133,7 +11133,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 3531, y: -1090}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -11145,7 +11145,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 3409, y: -870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11157,7 +11157,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3531, y: -870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11169,7 +11169,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3470, y: -1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11180,7 +11180,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3470, y: -870}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11191,7 +11191,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 3335, y: -980}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11203,7 +11203,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 3605, y: -980}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11218,7 +11218,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 3120, y: -450}
-		, classes: 'skill image credo_defend'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -11229,7 +11229,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3120,  y: -390}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11241,7 +11241,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3172, y: -480}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11252,7 +11252,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 3068, y: -480}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11264,7 +11264,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3025, y: -510}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11275,7 +11275,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3025, y: -390}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11287,7 +11287,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 3215, y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11298,7 +11298,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 3215, y: -510}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11310,7 +11310,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 3059, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11322,7 +11322,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 3181, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11334,7 +11334,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 3059, y: -340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11346,7 +11346,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 3181, y: -340}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11358,7 +11358,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 3120, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11370,7 +11370,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 3120, y: -607}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11382,7 +11382,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3120, y: -293}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11399,7 +11399,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 1800, y: 980}
-		, classes: 'skill image barrier'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -11411,7 +11411,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1705, y: 920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11422,7 +11422,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1705, y: 1040}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11434,7 +11434,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1895, y: 1040}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11446,7 +11446,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 1895, y: 920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11458,7 +11458,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1739, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11470,7 +11470,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 1861, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11482,7 +11482,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 1739, y: 1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11493,7 +11493,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 1861, y: 1090}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11505,7 +11505,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1800, y: 870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11517,7 +11517,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1800, y: 1090}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11528,7 +11528,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1667, y: 896}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11540,7 +11540,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 1667, y: 1064}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11552,7 +11552,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 1933, y: 1064}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11563,7 +11563,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1933, y: 896}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11575,7 +11575,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 1665, y: 980}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11586,7 +11586,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 1935, y: 980}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11601,7 +11601,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1940, y: 1360}
-		, classes: 'skill image resist'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -11613,7 +11613,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 1940,  y: 1420}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11625,7 +11625,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1992, y: 1330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11637,7 +11637,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1888, y: 1330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11649,7 +11649,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1845, y: 1300}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11660,7 +11660,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 1845, y: 1420}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11672,7 +11672,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 2035, y: 1420}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11683,7 +11683,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 2035, y: 1300}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11695,7 +11695,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1879, y: 1250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11707,7 +11707,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 2001, y: 1250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11719,7 +11719,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 1879, y: 1470}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11731,7 +11731,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 2001, y: 1470}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11742,7 +11742,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 1940, y: 1250}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11754,7 +11754,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1940, y: 1203}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11765,7 +11765,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 1940, y: 1517}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11781,7 +11781,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 2410, y: 1260}
-		, classes: 'skill image laceration'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -11793,7 +11793,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2410,  y: 1320}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11804,7 +11804,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2462, y: 1230}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11816,7 +11816,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2358, y: 1230}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11827,7 +11827,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2315, y: 1200}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11839,7 +11839,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2315, y: 1320}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11851,7 +11851,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2505, y: 1320}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11863,7 +11863,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2505, y: 1200}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11874,7 +11874,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2410, y: 1150}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11886,7 +11886,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2410, y: 1370}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11898,7 +11898,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2410, y: 1103}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11910,7 +11910,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2410, y: 1417}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11922,7 +11922,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2277, y: 1176}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11934,7 +11934,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 2277, y: 1344}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11945,7 +11945,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 2543, y: 1344}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11957,7 +11957,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2543, y: 1176}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11969,7 +11969,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 2870, y: 1360}
-		, classes: 'skill image create'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -11981,7 +11981,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2870,  y: 1420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -11992,7 +11992,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2922, y: 1330}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12003,7 +12003,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 2818, y: 1330}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12015,7 +12015,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2809, y: 1250}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12027,7 +12027,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2931, y: 1250}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12038,7 +12038,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2809, y: 1470}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12050,7 +12050,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 2931, y: 1470}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12061,7 +12061,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2870, y: 1203}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12073,7 +12073,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2870, y: 1517}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12085,7 +12085,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2737, y: 1276}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12097,7 +12097,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2737, y: 1444}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12108,7 +12108,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3003, y: 1444}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12120,7 +12120,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3003, y: 1276}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12132,7 +12132,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2735, y: 1360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12144,7 +12144,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 3005, y: 1360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12159,7 +12159,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 3330, y: 1360}
-		, classes: 'skill image mobilization'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -12170,7 +12170,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 3330,  y: 1420}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12182,7 +12182,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3382, y: 1330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12194,7 +12194,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3278, y: 1330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12206,7 +12206,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3235, y: 1300}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12217,7 +12217,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3235, y: 1420}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12229,7 +12229,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3425, y: 1420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12240,7 +12240,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3425, y: 1300}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12251,7 +12251,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3330, y: 1250}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12262,7 +12262,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3330, y: 1470}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12274,7 +12274,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3330, y: 1203}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12285,7 +12285,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 3330, y: 1517}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12296,7 +12296,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3197, y: 1276}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12307,7 +12307,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3197, y: 1444}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12319,7 +12319,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3463, y: 1444}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12331,7 +12331,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 3463, y: 1276}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12349,7 +12349,7 @@ var nodesData =
 			, need: {transformation: 600}
 			}
 		, position: {x: 3470, y: 980}
-		, classes: 'class image witch'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -12361,7 +12361,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3470,  y: 1040}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12373,7 +12373,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 3522, y: 950}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12385,7 +12385,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 3418, y: 950}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12396,7 +12396,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3375, y: 920}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12408,7 +12408,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3375, y: 1040}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12420,7 +12420,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3565, y: 1040}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12432,7 +12432,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3565, y: 920}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12443,7 +12443,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 3409, y: 870}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -12455,7 +12455,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3531, y: 870}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12466,7 +12466,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 3409, y: 1090}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12478,7 +12478,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3531, y: 1090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12489,7 +12489,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3470, y: 870}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12500,7 +12500,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3470, y: 1090}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12512,7 +12512,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3335, y: 980}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12524,7 +12524,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3605, y: 980}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12544,7 +12544,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 2870, y: 980}
-		, classes: 'skill image shock'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -12556,7 +12556,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 2775, y: 920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12568,7 +12568,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2775, y: 1040}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12580,7 +12580,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2965, y: 1040}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12592,7 +12592,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2965, y: 920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12604,7 +12604,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 2809, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12615,7 +12615,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2931, y: 870}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12626,7 +12626,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2809, y: 1090}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12637,7 +12637,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 2931, y: 1090}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12649,7 +12649,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2870, y: 870}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12660,7 +12660,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 2870, y: 1090}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -12672,7 +12672,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 2737, y: 896}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12683,7 +12683,7 @@ var nodesData =
 			, need: {blue: 400}
 			}
 		, position: {x: 2737, y: 1064}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12695,7 +12695,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 3003, y: 1064}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12707,7 +12707,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 3003, y: 896}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12719,7 +12719,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 2735, y: 980}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12731,7 +12731,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3005, y: 980}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12746,7 +12746,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 3120, y: 450}
-		, classes: 'skill image credo_warrior'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -12758,7 +12758,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 3120,  y: 510}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12769,7 +12769,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3172, y: 420}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12781,7 +12781,7 @@ var nodesData =
 			, need: {green: 240}
 			}
 		, position: {x: 3068, y: 420}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12792,7 +12792,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3025, y: 390}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12804,7 +12804,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 3025, y: 510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12815,7 +12815,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3215, y: 510}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12827,7 +12827,7 @@ var nodesData =
 			, need: {red: 240}
 			}
 		, position: {x: 3215, y: 390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12839,7 +12839,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 3059, y: 340}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12851,7 +12851,7 @@ var nodesData =
 			, need: {green: 400}
 			}
 		, position: {x: 3181, y: 340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12862,7 +12862,7 @@ var nodesData =
 			, need: {blue: 240}
 			}
 		, position: {x: 3059, y: 560}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12874,7 +12874,7 @@ var nodesData =
 			, need: {green: 325}
 			}
 		, position: {x: 3181, y: 560}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12886,7 +12886,7 @@ var nodesData =
 			, need: {red: 400}
 			}
 		, position: {x: 3120, y: 340}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12897,7 +12897,7 @@ var nodesData =
 			, need: {blue: 325}
 			}
 		, position: {x: 3120, y: 293}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12909,7 +12909,7 @@ var nodesData =
 			, need: {red: 325}
 			}
 		, position: {x: 3120, y: 607}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12924,7 +12924,7 @@ var nodesData =
 			, need: {blue: 275}
 			}
 		, position: {x: 3530, y: 0}
-		, classes: 'class image surprise'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -12935,7 +12935,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 3530,  y: 60}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12947,7 +12947,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 3582, y: -30}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12959,7 +12959,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3478, y: -30}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12971,7 +12971,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 3435, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12982,7 +12982,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3435, y: 60}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -12994,7 +12994,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 3625, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13006,7 +13006,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3625, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13017,7 +13017,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3469, y: -110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13028,7 +13028,7 @@ var nodesData =
 			, need: {blue: 150}
 			}
 		, position: {x: 3591, y: -110}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13040,7 +13040,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 3469, y: 110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13052,7 +13052,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3591, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13064,7 +13064,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3530, y: -110}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13075,7 +13075,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 3530, y: -157}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -13086,7 +13086,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 3530, y: 157}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -13105,7 +13105,7 @@ var nodesData =
 			, need: {transformation: 300}
 			}
 		, position: {x: 3990, y: 0}
-		, classes: 'class image berserker'
+		, classes: 'class'
 		}
 	,
 		{ data:
@@ -13117,7 +13117,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3990,  y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13128,7 +13128,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 4042, y: -30}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13140,7 +13140,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3938, y: -30}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13152,7 +13152,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3895, y: -60}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13164,7 +13164,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3895, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13176,7 +13176,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 4085, y: 60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13188,7 +13188,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 4085, y: -60}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13199,7 +13199,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3929, y: -110}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13211,7 +13211,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 4051, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13222,7 +13222,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3929, y: 110}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13233,7 +13233,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 4051, y: 110}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13245,7 +13245,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3990, y: -110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13257,7 +13257,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3990, y: 110}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13268,7 +13268,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3855, y: 0}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13280,7 +13280,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 4125, y: 0}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13295,7 +13295,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 690, y: -1740}
-		, classes: 'skill image mobilization'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -13306,7 +13306,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 690,  y: -1680}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13317,7 +13317,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 742, y: -1770}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13329,7 +13329,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 638, y: -1770}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13341,7 +13341,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 595, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13353,7 +13353,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 595, y: -1680}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13365,7 +13365,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 785, y: -1680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13376,7 +13376,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 785, y: -1800}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13388,7 +13388,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 690, y: -1850}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13399,7 +13399,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 690, y: -1630}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13410,7 +13410,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 690, y: -1897}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13422,7 +13422,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 690, y: -1583}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13434,7 +13434,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 557, y: -1824}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13445,7 +13445,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 557, y: -1656}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -13457,7 +13457,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 823, y: -1656}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13469,7 +13469,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 823, y: -1824}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13484,7 +13484,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 780, y: -2200}
-		, classes: 'skill image credo_defend'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -13496,7 +13496,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 780,  y: -2140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13508,7 +13508,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 832, y: -2230}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13519,7 +13519,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 728, y: -2230}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13531,7 +13531,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 685, y: -2260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13543,7 +13543,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 685, y: -2140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13555,7 +13555,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 875, y: -2140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13566,7 +13566,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 875, y: -2260}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13578,7 +13578,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 719, y: -2310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13590,7 +13590,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 841, y: -2310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13602,7 +13602,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 719, y: -2090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13613,7 +13613,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 841, y: -2090}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13625,7 +13625,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 780, y: -2310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13636,7 +13636,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 780, y: -2357}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13647,7 +13647,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 780, y: -2043}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -13663,7 +13663,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1150, y: -2400}
-		, classes: 'skill image break'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -13675,7 +13675,7 @@ var nodesData =
 			, need: {green: 775}
 			}
 		, position: {x: 1150,  y: -2340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13687,7 +13687,7 @@ var nodesData =
 			, need: {red: 775}
 			}
 		, position: {x: 1202, y: -2430}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13699,7 +13699,7 @@ var nodesData =
 			, need: {red: 585}
 			}
 		, position: {x: 1098, y: -2430}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13711,7 +13711,7 @@ var nodesData =
 			, need: {red: 775}
 			}
 		, position: {x: 1089, y: -2510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13722,7 +13722,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 1211, y: -2510}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13734,7 +13734,7 @@ var nodesData =
 			, need: {red: 965}
 			}
 		, position: {x: 1089, y: -2290}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13746,7 +13746,7 @@ var nodesData =
 			, need: {green: 775}
 			}
 		, position: {x: 1211, y: -2290}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13758,7 +13758,7 @@ var nodesData =
 			, need: {green: 775}
 			}
 		, position: {x: 1150, y: -2557}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13770,7 +13770,7 @@ var nodesData =
 			, need: {red: 585}
 			}
 		, position: {x: 1150, y: -2243}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13781,7 +13781,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 1017, y: -2484}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -13793,7 +13793,7 @@ var nodesData =
 			, need: {green: 775}
 			}
 		, position: {x: 1017, y: -2316}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13805,7 +13805,7 @@ var nodesData =
 			, need: {green: 965}
 			}
 		, position: {x: 1283, y: -2316}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13816,7 +13816,7 @@ var nodesData =
 			, need: {blue: 585}
 			}
 		, position: {x: 1283, y: -2484}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13827,7 +13827,7 @@ var nodesData =
 			, need: {blue: 585}
 			}
 		, position: {x: 1015, y: -2400}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13839,7 +13839,7 @@ var nodesData =
 			, need: {red: 965}
 			}
 		, position: {x: 1285, y: -2400}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13854,7 +13854,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1610, y: -2400}
-		, classes: 'skill image max_str'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -13865,7 +13865,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 1610,  y: -2340}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13877,7 +13877,7 @@ var nodesData =
 			, need: {green: 585}
 			}
 		, position: {x: 1662, y: -2430}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13889,7 +13889,7 @@ var nodesData =
 			, need: {green: 585}
 			}
 		, position: {x: 1558, y: -2430}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13901,7 +13901,7 @@ var nodesData =
 			, need: {red: 775}
 			}
 		, position: {x: 1515, y: -2460}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13913,7 +13913,7 @@ var nodesData =
 			, need: {red: 775}
 			}
 		, position: {x: 1515, y: -2340}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13925,7 +13925,7 @@ var nodesData =
 			, need: {green: 775}
 			}
 		, position: {x: 1705, y: -2340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13937,7 +13937,7 @@ var nodesData =
 			, need: {red: 775}
 			}
 		, position: {x: 1705, y: -2460}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13949,7 +13949,7 @@ var nodesData =
 			, need: {red: 585}
 			}
 		, position: {x: 1549, y: -2510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13960,7 +13960,7 @@ var nodesData =
 			, need: {blue: 965}
 			}
 		, position: {x: 1671, y: -2510}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13972,7 +13972,7 @@ var nodesData =
 			, need: {red: 965}
 			}
 		, position: {x: 1549, y: -2290}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13983,7 +13983,7 @@ var nodesData =
 			, need: {blue: 775}
 			}
 		, position: {x: 1671, y: -2290}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -13995,7 +13995,7 @@ var nodesData =
 			, need: {red: 775}
 			}
 		, position: {x: 1610, y: -2510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14007,7 +14007,7 @@ var nodesData =
 			, need: {green: 775}
 			}
 		, position: {x: 1610, y: -2290}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14018,7 +14018,7 @@ var nodesData =
 			, need: {blue: 775}
 			}
 		, position: {x: 1475, y: -2400}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14029,7 +14029,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 1745, y: -2400}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -14044,7 +14044,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 1980, y: -2200}
-		, classes: 'skill image credo_warrior'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -14056,7 +14056,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 1980,  y: -2140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14067,7 +14067,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 2032, y: -2230}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14079,7 +14079,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1928, y: -2230}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14091,7 +14091,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1885, y: -2260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14103,7 +14103,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1885, y: -2140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14115,7 +14115,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 2075, y: -2140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14127,7 +14127,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 2075, y: -2260}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14139,7 +14139,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 1919, y: -2310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14151,7 +14151,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 2041, y: -2310}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14162,7 +14162,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 1919, y: -2090}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14174,7 +14174,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 2041, y: -2090}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14185,7 +14185,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 1980, y: -2310}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14197,7 +14197,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1980, y: -2357}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14208,7 +14208,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 1980, y: -2043}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -14222,7 +14222,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 2070, y: -1740}
-		, classes: 'skill image impuls'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -14233,7 +14233,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 2070,  y: -1680}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14245,7 +14245,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 2122, y: -1770}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14257,7 +14257,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 2018, y: -1770}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14269,7 +14269,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 1975, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14281,7 +14281,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 1975, y: -1680}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14292,7 +14292,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 2165, y: -1680}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -14304,7 +14304,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 2165, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14315,7 +14315,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 2009, y: -1850}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14327,7 +14327,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 2131, y: -1850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14339,7 +14339,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 2009, y: -1630}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14351,7 +14351,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 2131, y: -1630}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14362,7 +14362,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 2070, y: -1850}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14373,7 +14373,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 2070, y: -1630}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14384,7 +14384,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 1935, y: -1740}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14396,7 +14396,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 2205, y: -1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14413,7 +14413,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 2870, y: -1740}
-		, classes: 'skill image luck_hit'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -14424,7 +14424,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 2775, y: -1800}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14436,7 +14436,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 2775, y: -1680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14448,7 +14448,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 2965, y: -1680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14460,7 +14460,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 2965, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14472,7 +14472,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 2809, y: -1850}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14484,7 +14484,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 2931, y: -1850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14495,7 +14495,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 2809, y: -1630}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14507,7 +14507,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 2931, y: -1630}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14519,7 +14519,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 2870, y: -1850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14531,7 +14531,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 2870, y: -1630}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14542,7 +14542,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 2737, y: -1824}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14553,7 +14553,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 2737, y: -1656}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14565,7 +14565,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3003, y: -1656}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14577,7 +14577,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3003, y: -1824}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14589,7 +14589,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 2735, y: -1740}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14600,7 +14600,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3005, y: -1740}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14617,7 +14617,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 3500, y: -1740}
-		, classes: 'skill image death'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -14629,7 +14629,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3405, y: -1800}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14641,7 +14641,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3405, y: -1680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14653,7 +14653,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 3595, y: -1680}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14665,7 +14665,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3595, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14677,7 +14677,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3439, y: -1850}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14689,7 +14689,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3561, y: -1850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14701,7 +14701,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3439, y: -1630}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14713,7 +14713,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3561, y: -1630}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14724,7 +14724,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 3500, y: -1850}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14735,7 +14735,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 3500, y: -1630}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14746,7 +14746,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 3367, y: -1824}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -14757,7 +14757,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3367, y: -1656}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14769,7 +14769,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3633, y: -1656}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14780,7 +14780,7 @@ var nodesData =
 			, need: {blue: 810}
 			}
 		, position: {x: 3633, y: -1824}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14792,7 +14792,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3365, y: -1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14804,7 +14804,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3635, y: -1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14816,7 +14816,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3865, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14828,7 +14828,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 3865, y: -1680}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14840,7 +14840,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 4055, y: -1680}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14852,7 +14852,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 4055, y: -1800}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14863,7 +14863,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3899, y: -1850}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14875,7 +14875,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 4021, y: -1850}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14886,7 +14886,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 3899, y: -1630}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -14897,7 +14897,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 4021, y: -1630}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14909,7 +14909,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 3960, y: -1850}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14921,7 +14921,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3960, y: -1630}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14933,7 +14933,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3827, y: -1824}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14944,7 +14944,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3827, y: -1656}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14956,7 +14956,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 4093, y: -1656}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14968,7 +14968,16 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 4093, y: -1824}
-		, classes: 'stat image vit'
+		, classes: 'stat'
+		}
+	,
+		{ data:
+			{ id: 'n1309'
+			, open: false
+			, need: {}
+			}
+		, position: {x: 3960, y: -1740}
+		, classes: 'empty'
 		}
 	,
 		{ data:
@@ -14980,7 +14989,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3825, y: -1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -14992,7 +15001,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 4095, y: -1740}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15008,7 +15017,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 3960, y: -1270}
-		, classes: 'skill image dissection'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -15019,7 +15028,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3960,  y: -1210}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15031,7 +15040,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 4012, y: -1300}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15042,7 +15051,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 3908, y: -1300}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15054,7 +15063,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3899, y: -1380}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15066,7 +15075,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 4021, y: -1380}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15078,7 +15087,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 3899, y: -1160}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15090,7 +15099,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 4021, y: -1160}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15102,7 +15111,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3960, y: -1427}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15113,7 +15122,7 @@ var nodesData =
 			, need: {revelation: 300}
 			}
 		, position: {x: 3960, y: -1113}
-		, classes: 'stat image revelation'
+		, classes: 'stat revelation'
 		}
 	,
 		{ data:
@@ -15125,7 +15134,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3827, y: -1354}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15136,7 +15145,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 3827, y: -1186}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15148,7 +15157,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 4093, y: -1186}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15160,7 +15169,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 4093, y: -1354}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15172,7 +15181,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3825, y: -1270}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15184,7 +15193,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 4095, y: -1270}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15199,7 +15208,7 @@ var nodesData =
 			, need: {blue: 350}
 			}
 		, position: {x: 3900, y: -450}
-		, classes: 'skill image max_str'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -15210,7 +15219,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 3805, y: -510}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15222,7 +15231,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 3805, y: -390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15233,7 +15242,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 3995, y: -390}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15245,7 +15254,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 3995, y: -510}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15257,7 +15266,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3839, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15268,7 +15277,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 3961, y: -560}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15280,7 +15289,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3839, y: -340}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15292,7 +15301,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3961, y: -340}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15304,7 +15313,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 3900, y: -560}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15316,7 +15325,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3900, y: -340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15328,7 +15337,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 3767, y: -534}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15340,7 +15349,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 3767, y: -366}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15352,7 +15361,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 4033, y: -366}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15363,7 +15372,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 4033, y: -534}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15375,7 +15384,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 3765, y: -450}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15387,7 +15396,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 4035, y: -450}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15399,7 +15408,7 @@ var nodesData =
 			, need: {}
 			}
 		, position: {x: 4270, y: -850}
-		, classes: 'skill image create'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -15411,7 +15420,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 4270,  y: -790}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15423,7 +15432,7 @@ var nodesData =
 			, need: {green: 490}
 			}
 		, position: {x: 4322, y: -880}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15434,7 +15443,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 4218, y: -880}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15446,7 +15455,7 @@ var nodesData =
 			, need: {red: 490}
 			}
 		, position: {x: 4175, y: -910}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15457,7 +15466,7 @@ var nodesData =
 			, need: {blue: 650}
 			}
 		, position: {x: 4175, y: -790}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15469,7 +15478,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 4365, y: -790}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15481,7 +15490,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 4365, y: -910}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15493,7 +15502,7 @@ var nodesData =
 			, need: {red: 810}
 			}
 		, position: {x: 4270, y: -960}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15505,7 +15514,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 4270, y: -740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15516,7 +15525,7 @@ var nodesData =
 			, need: {blue: 490}
 			}
 		, position: {x: 4270, y: -1007}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15528,7 +15537,7 @@ var nodesData =
 			, need: {red: 650}
 			}
 		, position: {x: 4270, y: -693}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15540,7 +15549,7 @@ var nodesData =
 			, need: {green: 810}
 			}
 		, position: {x: 4137, y: -934}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15552,7 +15561,7 @@ var nodesData =
 			, need: {green: 650}
 			}
 		, position: {x: 4137, y: -766}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15563,7 +15572,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 4403, y: -766}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -15574,7 +15583,7 @@ var nodesData =
 			, need: {blue: 575}
 			}
 		, position: {x: 4403, y: -934}
-		, classes: 'stat image majesty'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -20437,5 +20446,4 @@ var edgesData =
 	, {classes: '', data: {open: false, source: 'n1460', target: 'n1465'}}
 	, {classes: '', data: {open: false, source: 'n1465', target: 'n1468'}}
 	, {classes: 'between', data: {open: false, source: 'n1465', target: 'n1374'}}
-
 	];

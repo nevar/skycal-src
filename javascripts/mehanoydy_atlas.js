@@ -21,7 +21,7 @@ var mehanoydyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 0, y: -300}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -32,7 +32,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 0,  y: -240}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -43,7 +43,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 52, y: -330}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -54,7 +54,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -52, y: -330}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -65,7 +65,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -95, y: -360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -76,7 +76,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -95, y: -240}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -87,7 +87,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 95, y: -240}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -98,7 +98,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 95, y: -360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -109,7 +109,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -61, y: -410}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -120,7 +120,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 61, y: -410}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -131,7 +131,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -61, y: -190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -142,7 +142,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 61, y: -190}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -153,7 +153,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 0, y: -410}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -164,7 +164,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 0, y: -457}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -175,7 +175,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 0, y: -143}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -190,7 +190,7 @@ var mehanoydyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: -460, y: -450}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -201,7 +201,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -460,  y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -212,7 +212,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -408, y: -480}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -223,7 +223,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -512, y: -480}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -234,7 +234,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -555, y: -510}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -245,7 +245,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -555, y: -390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -256,7 +256,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -365, y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -267,7 +267,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -365, y: -510}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -278,7 +278,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -460, y: -560}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -289,7 +289,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -460, y: -340}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -300,7 +300,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -460, y: -607}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -311,7 +311,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -460, y: -293}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -322,7 +322,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -593, y: -534}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -333,7 +333,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -593, y: -366}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -344,7 +344,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -327, y: -366}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -355,7 +355,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: -327, y: -534}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -369,7 +369,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: -460, y: -900}
-		, classes: 'skill image capacity'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -380,7 +380,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -460,  y: -840}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -391,7 +391,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -408, y: -930}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -402,7 +402,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -512, y: -930}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -413,7 +413,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -521, y: -1010}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -424,7 +424,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -399, y: -1010}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -435,7 +435,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -521, y: -790}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -446,7 +446,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -399, y: -790}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -457,7 +457,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -460, y: -1057}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -468,7 +468,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -460, y: -743}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -479,7 +479,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -593, y: -984}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -490,7 +490,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -593, y: -816}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -501,7 +501,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -327, y: -816}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -512,7 +512,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -327, y: -984}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -523,7 +523,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -595, y: -900}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -534,7 +534,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: -325, y: -900}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -549,7 +549,7 @@ var mehanoydyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 460, y: -450}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -560,7 +560,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 460,  y: -390}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -571,7 +571,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 512, y: -480}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -582,7 +582,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 408, y: -480}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -593,7 +593,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 365, y: -510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -604,7 +604,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 365, y: -390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -615,7 +615,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 555, y: -390}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -626,7 +626,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 555, y: -510}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -637,7 +637,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 460, y: -560}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -648,7 +648,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 460, y: -340}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -659,7 +659,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 460, y: -607}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -670,7 +670,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 460, y: -293}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -681,7 +681,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 327, y: -534}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -692,7 +692,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 327, y: -366}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -703,7 +703,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 593, y: -366}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -714,7 +714,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 593, y: -534}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -729,7 +729,7 @@ var mehanoydyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 460, y: -900}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -740,7 +740,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 460,  y: -840}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -751,7 +751,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 512, y: -930}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -762,7 +762,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 408, y: -930}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -773,7 +773,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 365, y: -960}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -784,7 +784,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 365, y: -840}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -795,7 +795,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 555, y: -840}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -806,7 +806,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 555, y: -960}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -817,7 +817,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 399, y: -1010}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -828,7 +828,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 521, y: -1010}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -839,7 +839,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 399, y: -790}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -850,7 +850,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 521, y: -790}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -861,7 +861,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 460, y: -1010}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -872,7 +872,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 460, y: -1057}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -883,7 +883,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 460, y: -743}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -897,7 +897,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 460, y: -1350}
-		, classes: 'skill image shield'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -908,7 +908,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 365, y: -1410}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -919,7 +919,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 365, y: -1290}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -930,7 +930,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 555, y: -1290}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -941,7 +941,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 555, y: -1410}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -952,7 +952,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 399, y: -1460}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -963,7 +963,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 521, y: -1460}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -974,7 +974,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 399, y: -1240}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -985,7 +985,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 521, y: -1240}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -996,7 +996,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 460, y: -1460}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1007,7 +1007,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 460, y: -1240}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1018,7 +1018,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 327, y: -1434}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1029,7 +1029,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 327, y: -1266}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1040,7 +1040,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 593, y: -1266}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1051,7 +1051,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 593, y: -1434}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1062,7 +1062,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 325, y: -1350}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1073,7 +1073,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 595, y: -1350}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1087,7 +1087,7 @@ var mehanoydyNodesData =
 			, nodeImage: 'power'
 			}
 		, position: {x: 920, y: -1350}
-		, classes: 'skill image power'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1098,7 +1098,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 920,  y: -1290}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1109,7 +1109,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 972, y: -1380}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1120,7 +1120,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 868, y: -1380}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1131,7 +1131,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 859, y: -1460}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1142,7 +1142,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 981, y: -1460}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1153,7 +1153,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 859, y: -1240}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1164,7 +1164,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 981, y: -1240}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1175,7 +1175,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 920, y: -1507}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1186,7 +1186,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 920, y: -1193}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1197,7 +1197,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 787, y: -1434}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1208,7 +1208,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 787, y: -1266}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1219,7 +1219,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 1053, y: -1266}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1230,7 +1230,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 1053, y: -1434}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1241,7 +1241,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 785, y: -1350}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1252,7 +1252,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 1055, y: -1350}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1267,7 +1267,7 @@ var mehanoydyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 920, y: -1800}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1278,7 +1278,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 920,  y: -1740}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1289,7 +1289,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 972, y: -1830}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1300,7 +1300,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 868, y: -1830}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1311,7 +1311,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 825, y: -1860}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1322,7 +1322,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 825, y: -1740}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1333,7 +1333,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1015, y: -1740}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1344,7 +1344,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1015, y: -1860}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1355,7 +1355,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 859, y: -1910}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1366,7 +1366,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 981, y: -1910}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1377,7 +1377,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 859, y: -1690}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1388,7 +1388,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 981, y: -1690}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1399,7 +1399,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 920, y: -1910}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1410,7 +1410,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 920, y: -1957}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1421,7 +1421,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 920, y: -1643}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1439,7 +1439,7 @@ var mehanoydyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 920, y: -2250}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1450,7 +1450,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 920,  y: -2190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1461,7 +1461,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 972, y: -2280}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1472,7 +1472,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 868, y: -2280}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1483,7 +1483,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 859, y: -2360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1494,7 +1494,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 981, y: -2360}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1505,7 +1505,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 859, y: -2140}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1516,7 +1516,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 981, y: -2140}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1527,7 +1527,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 920, y: -2407}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1538,7 +1538,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 920, y: -2093}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1549,7 +1549,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 787, y: -2334}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1560,7 +1560,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 787, y: -2166}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1571,7 +1571,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 1053, y: -2166}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1582,7 +1582,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 1053, y: -2334}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1593,7 +1593,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 785, y: -2250}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1604,7 +1604,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 1055, y: -2250}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1621,7 +1621,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 460, y: -1800}
-		, classes: 'skill image flash'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1632,7 +1632,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 365, y: -1860}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1643,7 +1643,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 365, y: -1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1654,7 +1654,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 555, y: -1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1665,7 +1665,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 555, y: -1860}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1676,7 +1676,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 399, y: -1910}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1687,7 +1687,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 521, y: -1910}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1698,7 +1698,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 399, y: -1690}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1709,7 +1709,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 521, y: -1690}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1720,7 +1720,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 460, y: -1910}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1731,7 +1731,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 460, y: -1690}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1742,7 +1742,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 327, y: -1884}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1753,7 +1753,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 327, y: -1716}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1764,7 +1764,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 593, y: -1716}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1775,7 +1775,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 593, y: -1884}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1786,7 +1786,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 325, y: -1800}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1797,7 +1797,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 595, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1814,7 +1814,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 0, y: -1860}
-		, classes: 'skill image eattack'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -1825,7 +1825,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 0,  y: -1800}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1836,7 +1836,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 52, y: -1890}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1847,7 +1847,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: -52, y: -1890}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1858,7 +1858,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: -95, y: -1920}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1869,7 +1869,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: -95, y: -1800}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1880,7 +1880,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 95, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1891,7 +1891,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 95, y: -1920}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1902,7 +1902,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: -61, y: -1970}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1913,7 +1913,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 61, y: -1970}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1924,7 +1924,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: -61, y: -1750}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1935,7 +1935,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 61, y: -1750}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1946,7 +1946,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 0, y: -1970}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1957,7 +1957,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 0, y: -1750}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1968,7 +1968,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: -135, y: -1860}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1979,7 +1979,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 135, y: -1860}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -1995,7 +1995,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 325}
 			}
 		, position: {x: -460, y: -2120}
-		, classes: 'skill image eimpuls'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2006,7 +2006,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -460,  y: -2060}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2017,7 +2017,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -408, y: -2150}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2028,7 +2028,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -512, y: -2150}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2039,7 +2039,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -521, y: -2230}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2050,7 +2050,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -399, y: -2230}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2061,7 +2061,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -521, y: -2010}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2072,7 +2072,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -399, y: -2010}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2083,7 +2083,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -460, y: -2277}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2094,7 +2094,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -460, y: -1963}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2105,7 +2105,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -593, y: -2204}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2116,7 +2116,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -593, y: -2036}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2127,7 +2127,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -327, y: -2036}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2138,7 +2138,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -327, y: -2204}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2149,7 +2149,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -595, y: -2120}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2160,7 +2160,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: -325, y: -2120}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2175,7 +2175,7 @@ var mehanoydyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 330, y: -2250}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2186,7 +2186,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 330,  y: -2190}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2197,7 +2197,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 382, y: -2280}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2208,7 +2208,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 278, y: -2280}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2219,7 +2219,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 235, y: -2310}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2230,7 +2230,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 235, y: -2190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2241,7 +2241,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 425, y: -2190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2252,7 +2252,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 425, y: -2310}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2263,7 +2263,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 330, y: -2360}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2274,7 +2274,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 330, y: -2140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2285,7 +2285,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 330, y: -2407}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2296,7 +2296,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 330, y: -2093}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2307,7 +2307,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 197, y: -2334}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2318,7 +2318,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 197, y: -2166}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2329,7 +2329,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 463, y: -2166}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2340,7 +2340,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 463, y: -2334}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2356,7 +2356,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1380, y: -1800}
-		, classes: 'skill image eimpuls'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2367,7 +2367,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1285, y: -1860}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2378,7 +2378,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1285, y: -1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2389,7 +2389,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1475, y: -1740}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2400,7 +2400,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1475, y: -1860}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2411,7 +2411,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1319, y: -1910}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2422,7 +2422,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1441, y: -1910}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2433,7 +2433,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1319, y: -1690}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2444,7 +2444,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1441, y: -1690}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2455,7 +2455,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1380, y: -1910}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2466,7 +2466,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1380, y: -1690}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2477,7 +2477,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1247, y: -1884}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2488,7 +2488,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1247, y: -1716}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2499,7 +2499,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1513, y: -1716}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2510,7 +2510,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1513, y: -1884}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2521,7 +2521,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1245, y: -1800}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2532,7 +2532,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 100}
 			}
 		, position: {x: 1515, y: -1800}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2549,7 +2549,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 1840, y: -1860}
-		, classes: 'skill image eattack'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2560,7 +2560,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1840,  y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2571,7 +2571,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1892, y: -1890}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2582,7 +2582,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1788, y: -1890}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2593,7 +2593,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1745, y: -1920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2604,7 +2604,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1745, y: -1800}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2615,7 +2615,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1935, y: -1800}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2626,7 +2626,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1935, y: -1920}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2637,7 +2637,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1779, y: -1970}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2648,7 +2648,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1901, y: -1970}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2659,7 +2659,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1779, y: -1750}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2670,7 +2670,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1901, y: -1750}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2681,7 +2681,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1840, y: -1970}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2692,7 +2692,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1840, y: -1750}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2703,7 +2703,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1705, y: -1860}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2714,7 +2714,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1975, y: -1860}
-		, classes: 'stat image luck'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2731,7 +2731,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 325}
 			}
 		, position: {x: 2300, y: -2120}
-		, classes: 'skill image flash'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2742,7 +2742,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2300,  y: -2060}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2753,7 +2753,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2352, y: -2150}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2764,7 +2764,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2248, y: -2150}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2775,7 +2775,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2239, y: -2230}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2786,7 +2786,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2361, y: -2230}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2797,7 +2797,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2239, y: -2010}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2808,7 +2808,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2361, y: -2010}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2819,7 +2819,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2300, y: -2277}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2830,7 +2830,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2300, y: -1963}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2841,7 +2841,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2167, y: -2204}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2852,7 +2852,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2167, y: -2036}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2863,7 +2863,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2433, y: -2036}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2874,7 +2874,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2433, y: -2204}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2885,7 +2885,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2165, y: -2120}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2896,7 +2896,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 225}
 			}
 		, position: {x: 2435, y: -2120}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2911,7 +2911,7 @@ var mehanoydyNodesData =
 			, nodeImage: 'sphere'
 			}
 		, position: {x: 1510, y: -2250}
-		, classes: 'skill image sphere'
+		, classes: 'skill'
 		}
 	,
 		{ data:
@@ -2922,7 +2922,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1510,  y: -2190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2933,7 +2933,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1562, y: -2280}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2944,7 +2944,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1458, y: -2280}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2955,7 +2955,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1415, y: -2310}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2966,7 +2966,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1415, y: -2190}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2977,7 +2977,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1605, y: -2190}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2988,7 +2988,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1605, y: -2310}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -2999,7 +2999,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1510, y: -2360}
-		, classes: 'stat image power'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3010,7 +3010,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1510, y: -2140}
-		, classes: 'stat image vit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3021,7 +3021,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1510, y: -2407}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3032,7 +3032,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1510, y: -2093}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3043,7 +3043,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1377, y: -2334}
-		, classes: 'stat image spirit'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3054,7 +3054,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1377, y: -2166}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3065,7 +3065,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1643, y: -2166}
-		, classes: 'stat image strength'
+		, classes: 'stat'
 		}
 	,
 		{ data:
@@ -3076,7 +3076,7 @@ var mehanoydyNodesData =
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 1643, y: -2334}
-		, classes: 'stat image valor'
+		, classes: 'stat'
 		}
 	]
 
