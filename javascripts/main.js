@@ -135,7 +135,10 @@ function groupSkill(atlas) {
 
 	for (var i = atlas.length; i--; ) {
 		group = {};
-		skillForGroup = graphsStat[i].elements.filter('.skill,.class');
+		skillForGroup = graphsStat[i].elements.filter('.skill,.class').sort(
+			function(node1, node2) {
+				return node1.data('title').localeCompare(node2.data('title'));
+			});
 		for (var j = skillForGroup.length; j--; ) {
 			title = skillForGroup[j].data('title');
 			if (!group[title]) {
