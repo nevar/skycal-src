@@ -578,7 +578,7 @@ var mehanoydyNodesData =
 			{ id: 'n4050'
 			, open: false
 			, prestige: 32
-			, power: 32
+			, vit: 32
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 408, y: -480}
@@ -588,8 +588,8 @@ var mehanoydyNodesData =
 		{ data:
 			{ id: 'n4051'
 			, open: false
-			, prestige: 32
-			, power: 32
+			, prestige: 23
+			, power: 23
 			, need: {mehanoydy: 50}
 			}
 		, position: {x: 365, y: -510}
@@ -1068,8 +1068,8 @@ var mehanoydyNodesData =
 		{ data:
 			{ id: 'n4094'
 			, open: false
-			, prestige: 32
-			, power: 32
+			, prestige: 23
+			, power: 23
 			, need: {mehanoydy: 75}
 			}
 		, position: {x: 595, y: -1350}
@@ -1876,7 +1876,7 @@ var mehanoydyNodesData =
 			{ id: 'n4165'
 			, open: false
 			, prestige: 32
-			, luck: 32
+			, vit: 32
 			, need: {mehanoydy: 150}
 			}
 		, position: {x: 95, y: -1800}
