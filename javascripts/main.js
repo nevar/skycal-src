@@ -12,7 +12,7 @@ var cy,
 		, revelation: 0
 		, god: 0
 		, book: 0
-		, fitonidy: 0, mehanoydy: 0
+		, fitonidy: 0, mehanoydy: 0, gorgonidy: 0
 		},
 	giveStat =
 		{ prestige: 0
@@ -33,7 +33,7 @@ function calcSpark(elements) {
 			, 'transformation', 'revelation'
 			, 'god'
 			, 'book'
-			, 'fitonidy', 'mehanoydy'],
+			, 'fitonidy', 'mehanoydy', 'gorgonidy'],
 		ll = sparksName.length,
 		x = cy.width() / 2, y = cy.height() / 2,
 		name;
@@ -45,7 +45,7 @@ function calcSpark(elements) {
 			, revelation: 0
 			, god: 0
 			, book: 0
-			, fitonidy: 0, mehanoydy: 0
+			, fitonidy: 0, mehanoydy: 0, gorgonidy: 0
 			};
 		used =
 			{ red: 0, green: 0, blue: 0, all: 0
@@ -53,7 +53,7 @@ function calcSpark(elements) {
 			, revelation: 0
 			, god: 0
 			, book: 0
-			, fitonidy: 0, mehanoydy: 0
+			, fitonidy: 0, mehanoydy: 0, gorgonidy: 0
 			};
 		statTotal =
 			{ prestige: 0
@@ -198,7 +198,7 @@ function renderGroup() {
 
 function init() {
 	var container = document.getElementById('atlas'),
-		main, fitonidy, god, mehanoydy;
+		main, fitonidy, god, mehanoydy, gorgonidy;
 
 	cy = cytoscape(
 		{ container: container
@@ -320,11 +320,15 @@ function init() {
 			'[nodeImage="rule"] {background-image:images/nodes/rule.png;}'+
 			'[nodeImage="laceration"] {background-image:images/nodes/laceration.png;}'+
 			// mehanoydy
+			'[nodeImage="power"] {background-image:images/nodes/power.png;}'+
 			'[nodeImage="capacity"] {background-image:images/nodes/capacity.png;}'+
 			'[nodeImage="eattack"] {background-image:images/nodes/eattack.png;}'+
 			'[nodeImage="eimpuls"] {background-image:images/nodes/eimpuls.png;}'+
 			'[nodeImage="flash"] {background-image:images/nodes/flash.png;}'+
-			'[nodeImage="shield"] {background-image:images/nodes/shield.png;}'
+			'[nodeImage="shield"] {background-image:images/nodes/shield.png;}'+
+			// gorgonidy
+			'[nodeImage="snakebite"] {background-image:images/nodes/snakebite.png;}'+
+			'[nodeImage="cobra"] {background-image:images/nodes/cobra.png;}'
 		, autolock: true
 		, autoungrabify: true
 		, zoom: 1
@@ -347,14 +351,19 @@ function init() {
 		{ nodes: mehanoydyNodesData
 		, edges: mehanoydyEdgesData
 		});
+	gorgonidy = cy.add(
+		{ nodes: gorgonidyNodesData
+		, edges: gorgonidyEdgesData
+		});
 	cy.remove(god);
 	cy.remove(fitonidy);
 	cy.remove(mehanoydy);
+	cy.remove(gorgonidy);
 	selected = 0;
 	cy.center(cy.nodes('#n17'));
 	// TODO: load saved data
 	sparksName = ['red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'];
-	allAtlas = [main, god, fitonidy, mehanoydy];
+	allAtlas = [main, god, fitonidy, mehanoydy, gorgonidy];
 	calcSpark(allAtlas);
 	groupSkill(allAtlas);
 	initSpark();
@@ -505,7 +514,7 @@ cy.on('cxttap', function(evt) {
 		, revelation: 0
 		, god: 0
 		, book: 0
-		, fitonidy: 0, mehanoydy: 0
+		, fitonidy: 0, mehanoydy: 0, gorgonidy: 0
 		};
 	giveStat =
 		{ prestige:0
@@ -766,6 +775,8 @@ $('#select_atlas select').on('change', function(ev) {
 		sparksName = ['fitonidy'];
 	} else if (selected == 3) {
 		sparksName = ['mehanoydy'];
+	} else if (selected == 4) {
+		sparksName = ['gorgonidy'];
 	}
 	graphsStat[selected].elements.restore();
 	cy.pan(graphsStat[selected].position);
@@ -776,7 +787,7 @@ $('#select_atlas select').on('change', function(ev) {
 		, revelation: 0
 		, god: 0
 		, book: 0
-		, fitonidy: 0, mehanoydy: 0
+		, fitonidy: 0, mehanoydy: 0, gorgonidy: 0
 		};
 	giveStat =
 		{ prestige:0

@@ -379,6 +379,10 @@ img.mehanoydy {
 	background-image: url("../images/spark/mehanoydy.png");
 }
 
+img.gorgonidy {
+	background-image: url("../images/spark/gorgonidy.png");
+}
+
 .hidden {
 	display: none;
 }
