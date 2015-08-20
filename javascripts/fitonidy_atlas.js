@@ -183,7 +183,7 @@ var fitonidyNodesData =
 			{ id: 'n2017'
 			, open: false
 			, prestige: 32
-			, power: 32
+			, vit: 32
 			, need: {fitonidy: 50}
 			}
 		, position: {x: 165, y: 0}
@@ -679,7 +679,7 @@ var fitonidyNodesData =
 			{ id: 'n2061'
 			, open: false
 			, prestige: 23
-			, luck: 32
+			, luck: 23
 			, need: {fitonidy: 75}
 			}
 		, position: {x: 1565, y: -487}
