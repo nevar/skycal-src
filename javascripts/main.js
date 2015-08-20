@@ -691,7 +691,8 @@ cy.on('tapdragover', 'node', function(evt) {
 	var x = renderedPosition.x;
 	var y = renderedPosition.y;
 
-	if (evt.cy === evt.cyTarget && targer.isNode()) {
+	if (evt.cy === evt.cyTarget || !target.isNode() || target.hasClass('empty'))
+	{
 		return;
 	}
 	$("#box").qtip(
@@ -716,7 +717,9 @@ cy.on('tapdragover', 'node', function(evt) {
 			, tip: {corner: false}
 			}
 		});
-	if (target.data('open')) {
+	if (target.hasClass('foundPath')) {
+		return;
+	} else if (target.data('open')) {
 		tempPath = getUnopen(target);
 		if (tempPath.length > 0) {
 			tempPath.addClass('remove');
