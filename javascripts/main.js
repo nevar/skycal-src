@@ -328,7 +328,10 @@ function init() {
 			'[nodeImage="shield"] {background-image:images/nodes/shield.png;}'+
 			// gorgonidy
 			'[nodeImage="snakebite"] {background-image:images/nodes/snakebite.png;}'+
-			'[nodeImage="cobra"] {background-image:images/nodes/cobra.png;}'
+			'[nodeImage="cobra"] {background-image:images/nodes/cobra.png;}'+
+			'[nodeImage="slave"] {background-image:images/nodes/slave.png;}'+
+			'[nodeImage="corrosive"] {background-image:images/nodes/corrosive.png;}'+
+			'[nodeImage="trap"] {background-image:images/nodes/trap.png;}'
 		, autolock: true
 		, autoungrabify: true
 		, zoom: 1
