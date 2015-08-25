@@ -266,7 +266,7 @@ var nodesData =
 			{ id: 'n22'
 			, open: false
 			, prestige: 16
-			, power: 16
+			, vit: 16
 			, dex: 6
 			, need: {green: 155}
 			}
@@ -326,7 +326,7 @@ var nodesData =
 			, prestige: 16
 			, vit: 16
 			, dex: 6
-			, need: {red: 155}
+			, need: {green: 155}
 			}
 		, position: {x: -60, y: 110}
 		, classes: 'stat'
@@ -531,7 +531,7 @@ var nodesData =
 			{ id: 'n44'
 			, open: false
 			, prestige: 12
-			, vit: 12
+			, power: 12
 			, dex: 6
 			, need: {red: 155}
 			}
@@ -1027,7 +1027,7 @@ var nodesData =
 			{ id: 'n86'
 			, open: false
 			, prestige: 24
-			, power: 24
+			, vit: 24
 			, dex: 7
 			, need: {green: 185}
 			}
@@ -1875,7 +1875,7 @@ var nodesData =
 			{ id: 'n158'
 			, open: false
 			, prestige: 12
-			, power: 12
+			, vit: 12
 			, dex: 5
 			, need: {green: 115}
 			}
@@ -2400,7 +2400,7 @@ var nodesData =
 			{ id: 'n202'
 			, open: false
 			, prestige: 40
-			, power: 40
+			, vit: 40
 			, dex: 12
 			, need: {green: 325}
 			}
@@ -3520,7 +3520,7 @@ var nodesData =
 			{ id: 'n296'
 			, open: false
 			, prestige: 40
-			, power: 40
+			, vit: 40
 			, dex: 12
 			, need: {green: 325}
 			}
@@ -7739,7 +7739,7 @@ var nodesData =
 			{ id: 'n649'
 			, open: false
 			, prestige: 40
-			, power: 40
+			, vit: 40
 			, dex: 12
 			, need: {green: 325}
 			}
@@ -8192,7 +8192,7 @@ var nodesData =
 			{ id: 'n686'
 			, open: false
 			, prestige: 53
-			, vit: 53
+			, power: 53
 			, dex: 30
 			, need: {red: 810}
 			}
@@ -12429,7 +12429,7 @@ var nodesData =
 			, prestige: 40
 			, power: 40
 			, dex: 24
-			, need: {green: 650}
+			, need: {red: 650}
 			}
 		, position: {x: 3565, y: 920}
 		, classes: 'stat'
@@ -16428,7 +16428,7 @@ var nodesData =
 			{ id: 'n1381'
 			, open: false
 			, prestige: 100
-			, power: 100
+			, vit: 100
 			, dex: 30
 			, need: {green: 810}
 			}
@@ -17832,7 +17832,7 @@ var nodesData =
 			{ id: 'n1500'
 			, open: false
 			, prestige: 100
-			, power: 100
+			, vit: 100
 			, dex: 30
 			, need: {green: 810}
 			}
