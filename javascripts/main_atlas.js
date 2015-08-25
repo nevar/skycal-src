@@ -8612,7 +8612,7 @@ var nodesData =
 			{ id: 'n722'
 			, open: false
 			, prestige: 38
-			, ste: 38
+			, str: 38
 			, need: {blue: 490}
 			}
 		, position: {x: -1025, y: -1260}
