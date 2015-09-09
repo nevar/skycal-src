@@ -311,6 +311,7 @@ function init() {
 			'[nodeImage="death"] {background-image:images/nodes/death.png;}'+
 			'[nodeImage="dissection"] {background-image:images/nodes/dissection.png;}'+
 			'[nodeImage="life"] {background-image:images/nodes/life.png;}'+
+			'[nodeImage="dash"] {background-image:images/nodes/dash.png;}'+
 			// god
 			'[nodeImage="knowledge"] {background-image:images/nodes/knowledge.png;}'+
 			'[nodeImage="warrior"] {background-image:images/nodes/warrior.png;}'+
