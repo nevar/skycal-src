@@ -1,0 +1,67 @@
+circle {
+	stroke: grey;
+	stroke-width: 2;
+}
+
+circle.open {
+	stroke: yellow;
+	stroke-width: 3;
+}
+
+circle.big {
+	stroke-width: 10;
+}
+
+circle.open.big {
+	stroke-width: 12;
+}
+
+circle.want {
+	stroke: #0066CC
+}
+
+circle.hover {
+	stroke: yellow;
+	stroke-dasharray: 10, 5
+}
+
+circle.big.hover {
+	stroke-dasharray: 50, 30
+}
+
+circle.open.hover {
+	stroke: red;
+}
+
+line, path {
+	stroke: grey;
+	stroke-width: 2;
+	fill: none
+}
+
+path.open, line.open {
+	stroke: yellow;
+}
+
+line.between {
+	stroke-width: 10;
+}
+
+path.want, line.want {
+	stroke: #0066CC;
+}
+
+path.hover, line.hover {
+	stroke: yellow;
+	stroke-dasharray: 10, 5
+}
+
+line.hover.between {
+	stroke-dasharray: 50, 30
+}
+
+path.open.hover, line.open.hover {
+	stroke: red;
+}
+
+

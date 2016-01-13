@@ -1,80 +1,161 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='chrome=1'>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='chrome=1'>
 
-    <link rel='stylesheet' type='text/css' href='http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.css' media='screen'>
-    <link rel='stylesheet' type='text/css' href='stylesheets/stylesheet.css' media='screen'>
+		<title>Skycal by nevar</title>
 
-    <title>Skycal by nevar</title>
-  </head>
+		<script type='text/x-template' id='skill-template'>
+			<img class='skill' @click='findSkill(skill)' :src='"images/nodes/" + skill.nodeImage + ".png"'></img>
+		</script>
+		<script type='text/x-template' id='stat-template'>
+			<img class='stat' @click='findStat(stat)' :src='"images/nodes/" + stat.image +".png"'></img>
+		</script>
+		<script type='text/x-template' id='node-template'>
+			<circle
+				:class='
+					{ "open": node.data.open
+					, "hover": node.data.hover
+					, "want": node.data.want
+					, "big": $parent.isBig
+					}'
+				:cx='node.position.x' :cy='node.position.y'
+				:r='radius(node)' :fill='image(node)'
+				@mouseover='hoverNode(node)'
+				@mouseout='unHoverNode(node)'
+				@click='getNode(node)'
+				@contextmenu.stop.prevent='findPath(node)'
+				/>
+		</script>
+		<script type='text/x-template' id='edge-template'>
+			<path v-if='edge.classes == "curve"'
+				:class='
+					{ "open": edge.data.open
+					, "hover": edge.data.hover
+					, "want": edge.data.want
+					}'
+				:d='"M " + nodePos[edge.data.source].x + " " + nodePos[edge.data.source].y +
+					"Q " + ((nodePos[edge.data.target].x + nodePos[edge.data.source].x) / 2 - (nodePos[edge.data.target].y - nodePos[edge.data.source].y) / 4) +
+					" " + ((nodePos[edge.data.target].y + nodePos[edge.data.source].y) / 2 + (nodePos[edge.data.target].x - nodePos[edge.data.source].x) / 4) +
+					" " + nodePos[edge.data.target].x + " " + nodePos[edge.data.target].y'
+				/>
+			<line v-else
+				:class='
+					{ "open": edge.data.open
+					, "hover": edge.data.hover
+					, "want": edge.data.want
+					, "between": edge.classes == "between" && $parent.isBig
+					}'
+				:x1='nodePos[edge.data.source].x' :y1='nodePos[edge.data.source].y'
+				:x2='nodePos[edge.data.target].x' :y2='nodePos[edge.data.target].y'
+				/>
+		</script>
+		<script type='text/x-template' id='graph-template'>
+			<g :transform='"translate(" + graph.mX + "," + graph.mY + ") scale(" + graph.scale + ")"'>
+				<edge v-for='edge in graph.edges' :edge.once='edge'></edge>
+				<node v-for='node in graph.nodes' :node.once='node'></node>
+			</g>
+		</script>
 
-  <body>
-    <div class='container'>
+		<link rel='stylesheet' type='text/css' href='http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.css' media='screen'>
+		<link rel='stylesheet' type='text/css' href='stylesheets/stylesheet.css' media='screen'>
+		<link rel='stylesheet' type='text/css' href='stylesheets/svg.css' media='screen'>
+	</head>
+<body>
+	<div id='container' @mousemove='atlasMove' @mouseup='mouseUp'>
 		<div id='left'>
 			<div id='select_atlas'>
-				<select>
-					<option value='0'>Атлас Развития</option>
+				<select v-model='selected'>
+					<option selected value='0'>Атлас Развития</option>
 					<option value='1'>Божественный атлас</option>
+					<optgroup label='Специализации'>
+						<option value='2'>Бог власти</option>
+						<option value='3'>Бог войны</option>
+						<option value='4'>Бог знаний</option>
+						<option value='5'>Бог обороны</option>
+						<option value='6'>Бог охоты</option>
+						<option value='7'>Бог странствий</option>
+					</optgroup>
 					<optgroup label='Вторжения'>
-						<option value='2'>Фитониды</option>
-						<option value='3'>Механоиды</option>
-						<option value='4'>Горгониды</option>
+						<option value='8'>Фитониды</option>
+						<option value='9'>Механоиды</option>
+						<option value='10'>Горгониды</option>
+						<option value='11'>Жнецы смерти</option>
+						<option value='12'>Океаниды</option>
+						<option value='13'>Демоны</option>
 					</optgroup>
 				</select>
 			</div>
-			<div id='atlas'></div>
+			<div id='atlas'>
+				<svg
+					@mousedown.stop.prevent='mouseDown'
+					@wheel.stop.prevent='atlasScale'>
+					<defs>
+						<pattern v-for='image in images'
+							id='{{* image }}'
+							x='5%' y='5%' height='90%' width='90%'
+							viewBox='0 0 50 50'>
+							<image x='0%' y='0%' width='50' height='50'
+								v-bind='{"xlink:href": "images/nodes/" + image + ".png"}'>
+							</image>
+						</pattern>
+						<pattern v-for='spark in sparks'
+							id='{{* spark }}'
+							x='5%' y='5%' height='90%' width='90%'
+							viewBox='0 0 50 50'>
+							<image x='0%' y='0%' width='50' height='50'
+								v-bind='{"xlink:href": "images/spark/" + spark + ".png"}'>
+							</image>
+						</pattern>
+					</defs>
+					<graph
+						v-for='graph in graphs' v-show='selected == $index'
+						:graph='graph'>
+					</graph>
+				</svg>
+			</div>
 			<div id='box'></div>
 			<div id='need'>
-				<table>
+				<table v-for='graph in graphs' v-show='selected == $index'>
 				<tbody>
 					<tr>
-						<td id='image0'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
-						<td id='image1'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
-						<td id='image2'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
-						<td id='image3'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
-						<td id='image4'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
-						<td id='image5'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
-						<td id='image6'><img src='data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='></img></td>
+						<td v-for='spark in graph.sparks'>
+							<span class='{{* $key }}'></span>
+						</td>
 					</tr>
 					<tr>
-						<td id='spark0'><div>0</div>/<div>0</div>/<div>0</div></td>
-						<td id='spark1'><div>0</div>/<div>0</div>/<div>0</div></td>
-						<td id='spark2'><div>0</div>/<div>0</div>/<div>0</div></td>
-						<td id='spark3'><div>0</div>/<div>0</div>/<div>0</div></td>
-						<td id='spark4'><div>0</div>/<div>0</div>/<div>0</div></td>
-						<td id='spark5'><div>0</div>/<div>0</div>/<div>0</div></td>
-						<td id='spark6'><div>0</div>/<div>0</div>/<div>0</div></td>
+						<td v-for='(name, spark) in graph.sparks'>
+							<div>{{ need[name] }}</div>/<div>{{ spark[0] }}</div>/<div>{{ spark[1] }}</div>
+						</td>
 					</tr>
 				</tbody>
 				</table>
 			</div>
 		</div>
 		<div id='right'>
-			<div id='total-stat'>
-				<div id='prestige'>Престиж: <span>0</span>/<span>0</span>/<span>0</span></div>
-				<div id='power'>Могущество: <span>0</span>/<span>0</span>/<span>0</span></div>
-				<div id='vit'>Выносливость: <span>0</span>/<span>0</span>/<span>0</span></div>
-				<div id='str'>Сила: <span>0</span>/<span>0</span>/<span>0</span></div>
-				<div id='valor'>Отвага: <span>0</span>/<span>0</span>/<span>0</span></div>
-				<div id='luck'>Удача: <span>0</span>/<span>0</span>/<span>0</span></div>
-				<div id='spirit'>Дух: <span>0</span>/<span>0</span>/<span>0</span></div>
-				<div id='dex'>Сноровка: <span>0</span>/<span>0</span>/<span>0</span></div>
-				<div id='majesty'>Величие: <span>0</span>/<span>0</span>/<span>0</span></div>
-			</div>
-			<div id='group'>
-			</div>
+				<div v-for='graph in graphs' v-show='selected == $index'>
+					<div v-for='(name, stat) in graph.stat'>
+						<stat v-if='graph.group.stat[name]' :stat.once='graph.group.stat[name]' :graph.once='graph'></stat>
+						{{* statName[name] }}: <span>{{ recive[name] }}</span>/<span>{{ stat[0] }}</span>/<span>{{* stat[1] }}</span>
+					</div>
+					<hr>
+					<span v-for='skill in graph.group.skill | orderBy "title"'>
+						<skill :skill.once='skill' :graph.once='graph'></skill>
+					</span>
+				</div>
 		</div>
 		<script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
 		<script src='http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js'></script>
-        <script src='javascripts/cytoscape.min.js'></script>
-        <script src='javascripts/main_atlas.js'></script>
-        <script src='javascripts/god_atlas.js'></script>
-        <script src='javascripts/fitonidy_atlas.js'></script>
-        <script src='javascripts/mehanoydy_atlas.js'></script>
-        <script src='javascripts/gorgonidy_atlas.js'></script>
-        <script src='javascripts/main.js'></script>
-    </div>
-  </body>
+		<script src='javascripts/vue.js'></script>
+		<script src='javascripts/cytoscape.min.js'></script>
+		<script src='javascripts/main_atlas.js'></script>
+		<script src='javascripts/god_atlas.js'></script>
+		<script src='javascripts/fitonidy_atlas.js'></script>
+		<script src='javascripts/mehanoydy_atlas.js'></script>
+		<script src='javascripts/gorgonidy_atlas.js'></script>
+		<script src='javascripts/hunter_god_atlas.js'></script>
+		<script src='javascripts/main.js'></script>
+	</div>
+</body>
 </html>
