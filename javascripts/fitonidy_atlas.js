@@ -2,10 +2,7 @@ var fitonidyNodesData =
 	[
 		{ data:
 			{ _id: 'n2000'
-			, open: true
-			, hover: false
-			, want: false
-			, start: true
+			, open: true, hover: false, want: false, start: true
 			, _title: 'Фитониды'
 			, _description:
 				'Навыки, прлучаемые за противостояние вторжению фитонидов.'
@@ -18,10 +15,168 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
+			{ _id: 'n2003'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, str: 23}
+			}
+		, _position: {x: 205, y: -60}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2004'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 32, vit: 32}
+			}
+		, _position: {x: 205, y: 60}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2005'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, power: 23}
+			}
+		, _position: {x: 395, y: 60}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2006'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, str: 23}
+			}
+		, _position: {x: 395, y: -60}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2007'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, spirit: 23}
+			}
+		, _position: {x: 239, y: -110}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2008'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 32, vit: 32}
+			}
+		, _position: {x: 361, y: -110}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2009'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, valor: 23}
+			}
+		, _position: {x: 239, y: 110}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2010'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 32, vit: 32}
+			}
+		, _position: {x: 361, y: 110}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2011'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, power: 23}
+			}
+		, _position: {x: 300, y: -110}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2012'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, luck: 23}
+			}
+		, _position: {x: 300, y: 110}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2013'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, str: 23}
+			}
+		, _position: {x: 167, y: -84}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2014'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, power: 23}
+			}
+		, _position: {x: 167, y: 84}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2015'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, power: 23}
+			}
+		, _position: {x: 433, y: 84}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2016'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 32, vit: 32}
+			}
+		, _position: {x: 433, y: -84}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2017'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 32, vit: 32}
+			}
+		, _position: {x: 165, y: 0}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2018'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, power: 23}
+			}
+		, _position: {x: 435, y: 0}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
 			{ _id: 'n2001'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Уязвимость фитонидов'
 			, _description:
 				'Ваше знание о слабых местах фитонидов увеличивает урон по '+
@@ -36,250 +191,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2003'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2020'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 50}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 205, y: -60}
+		, _position: {x: 760,  y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2004'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2021'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 205, y: 60}
+		, _position: {x: 812, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2005'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2022'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 395, y: 60}
+		, _position: {x: 708, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2006'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2023'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 395, y: -60}
+		, _position: {x: 699, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2007'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2024'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 32, str: 32}
 			}
-		, _position: {x: 239, y: -110}
+		, _position: {x: 821, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2008'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2025'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 361, y: -110}
+		, _position: {x: 699, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2009'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2026'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 239, y: 110}
+		, _position: {x: 821, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2010'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2027'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 361, y: 110}
+		, _position: {x: 760, y: -157}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2011'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2028'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 300, y: -110}
+		, _position: {x: 760, y: 157}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2012'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2029'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 300, y: 110}
+		, _position: {x: 627, y: -84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2013'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2030'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 167, y: -84}
+		, _position: {x: 627, y: 84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2014'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2031'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 167, y: 84}
+		, _position: {x: 893, y: 84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2015'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2032'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 433, y: 84}
+		, _position: {x: 893, y: -84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2016'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2033'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 433, y: -84}
+		, _position: {x: 625, y: 0}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2017'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2034'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 165, y: 0}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2018'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
-			}
-		, _position: {x: 435, y: 0}
+		, _position: {x: 895, y: 0}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2019'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Опасность фитонидов'
 			, _description:
 				'Вы знаете, чего следует опасаться в битве с фитонидами и '+
@@ -294,235 +357,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2020'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2036'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 760,  y: 60}
+		, _position: {x: 1220,  y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2021'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2037'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 812, y: -30}
+		, _position: {x: 1272, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2022'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2038'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 708, y: -30}
+		, _position: {x: 1168, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2023'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2039'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 699, y: -110}
+		, _position: {x: 1125, y: -60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2024'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2040'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, str: 32
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 821, y: -110}
+		, _position: {x: 1125, y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2025'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2041'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 699, y: 110}
+		, _position: {x: 1315, y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2026'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2042'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 821, y: 110}
+		, _position: {x: 1315, y: -60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2027'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2043'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 760, y: -157}
+		, _position: {x: 1159, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2028'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2044'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 760, y: 157}
+		, _position: {x: 1281, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2029'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2045'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 627, y: -84}
+		, _position: {x: 1159, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2030'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2046'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 627, y: 84}
+		, _position: {x: 1281, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2031'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2047'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 893, y: 84}
+		, _position: {x: 1220, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2032'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2048'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 893, y: -84}
+		, _position: {x: 1220, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2033'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2049'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 625, y: 0}
+		, _position: {x: 1085, y: 0}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2034'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2050'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 895, y: 0}
+		, _position: {x: 1355, y: 0}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2035'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Регенеративный механизм'
 			, _description:
 				'Увеличивает вашу характеристику "Заживление" на 3% за каждый '+
@@ -536,235 +522,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2036'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2052'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1220,  y: 60}
+		, _position: {x: 1565,  y: -270}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2037'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2053'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1272, y: -30}
+		, _position: {x: 1617, y: -360}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2038'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2054'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1168, y: -30}
+		, _position: {x: 1513, y: -360}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2039'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2055'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1125, y: -60}
+		, _position: {x: 1470, y: -390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2040'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2056'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1125, y: 60}
+		, _position: {x: 1470, y: -270}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2041'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2057'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1315, y: 60}
+		, _position: {x: 1660, y: -270}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2042'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2058'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1315, y: -60}
+		, _position: {x: 1660, y: -390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2043'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2059'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1159, y: -110}
+		, _position: {x: 1565, y: -440}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2044'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2060'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1281, y: -110}
+		, _position: {x: 1565, y: -220}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2045'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2061'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 1159, y: 110}
+		, _position: {x: 1565, y: -487}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2046'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2062'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 1281, y: 110}
+		, _position: {x: 1565, y: -173}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2047'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2063'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 1220, y: -110}
+		, _position: {x: 1432, y: -414}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2048'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2064'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 1220, y: 110}
+		, _position: {x: 1432, y: -246}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2049'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2065'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 1085, y: 0}
+		, _position: {x: 1698, y: -246}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2050'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 50}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2066'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 75}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 1355, y: 0}
+		, _position: {x: 1698, y: -414}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2051'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Уязвимость фитонидов'
 			, _description:
 				'Ваше знание о слабых местах фитонидов увеличивает урон по '+
@@ -779,235 +688,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2052'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2068'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1565,  y: -270}
+		, _position: {x: 1565,  y: 390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2053'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2069'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1617, y: -360}
+		, _position: {x: 1617, y: 300}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2054'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2070'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1513, y: -360}
+		, _position: {x: 1513, y: 300}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2055'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2071'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1470, y: -390}
+		, _position: {x: 1470, y: 270}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2056'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2072'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1470, y: -270}
+		, _position: {x: 1470, y: 390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2057'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2073'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1660, y: -270}
+		, _position: {x: 1660, y: 390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2058'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2074'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1660, y: -390}
+		, _position: {x: 1660, y: 270}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2059'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2075'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1565, y: -440}
+		, _position: {x: 1565, y: 220}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2060'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2076'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1565, y: -220}
+		, _position: {x: 1565, y: 440}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2061'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2077'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 1565, y: -487}
+		, _position: {x: 1565, y: 173}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2062'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2078'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 1565, y: -173}
+		, _position: {x: 1565, y: 487}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2063'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2079'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 1432, y: -414}
+		, _position: {x: 1432, y: 246}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2064'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2080'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 1432, y: -246}
+		, _position: {x: 1432, y: 414}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2065'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2081'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 1698, y: -246}
+		, _position: {x: 1698, y: 414}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2066'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2082'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 1698, y: -414}
+		, _position: {x: 1698, y: 246}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2067'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Опасность фитонидов'
 			, _description:
 				'Вы знаете, чего следует опасаться в битве с фитонидами и '+
@@ -1022,235 +854,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2068'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2084'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1565,  y: 390}
+		, _position: {x: 1910,  y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2069'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2085'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 1617, y: 300}
+		, _position: {x: 1962, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2070'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2086'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 1513, y: 300}
+		, _position: {x: 1858, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2071'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2087'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 1470, y: 270}
+		, _position: {x: 1849, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2072'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2088'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 1470, y: 390}
+		, _position: {x: 1971, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2073'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2089'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1660, y: 390}
+		, _position: {x: 1849, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2074'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2090'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 1660, y: 270}
+		, _position: {x: 1971, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2075'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2091'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1565, y: 220}
+		, _position: {x: 1910, y: -157}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2076'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2092'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1565, y: 440}
+		, _position: {x: 1910, y: 157}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2077'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2093'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1565, y: 173}
+		, _position: {x: 1777, y: -84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2078'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2094'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1565, y: 487}
+		, _position: {x: 1777, y: 84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2079'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2095'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 1432, y: 246}
+		, _position: {x: 2043, y: 84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2080'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2096'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1432, y: 414}
+		, _position: {x: 2043, y: -84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2081'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2097'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1698, y: 414}
+		, _position: {x: 1775, y: 0}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2082'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2098'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1698, y: 246}
+		, _position: {x: 2045, y: 0}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2083'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Адаптивная мутация'
 			, _description:
 				'Увеличивает вашу характеристику "Адаптация" на 3% за каждый '+
@@ -1264,235 +1019,148 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2084'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2100'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1910,  y: 60}
+		, _position: {x: 2370,  y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2085'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2101'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1962, y: -30}
+		, _position: {x: 2422, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2086'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2102'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 1858, y: -30}
+		, _position: {x: 2318, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2087'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2103'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1849, y: -110}
+		, _position: {x: 2275, y: -60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2088'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2104'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1971, y: -110}
+		, _position: {x: 2275, y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2089'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2105'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1849, y: 110}
+		, _position: {x: 2465, y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2090'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2106'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 1971, y: 110}
+		, _position: {x: 2465, y: -60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2091'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2107'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 1910, y: -157}
+		, _position: {x: 2309, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2092'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2108'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1910, y: 157}
+		, _position: {x: 2431, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2093'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2109'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 1777, y: -84}
+		, _position: {x: 2309, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2094'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2110'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 1777, y: 84}
+		, _position: {x: 2431, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2095'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2111'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 2043, y: 84}
+		, _position: {x: 2370, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2096'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2112'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2043, y: -84}
+		, _position: {x: 2370, y: -157}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2097'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2113'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 1775, y: 0}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2098'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
-			}
-		, _position: {x: 2045, y: 0}
+		, _position: {x: 2370, y: 157}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2099'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Мощь иных миров'
 			, _description:
 				'Увеличивает вашу характеристику "Эффективность Могущества" '+
@@ -1506,220 +1174,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2100'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2115'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2370,  y: 60}
+		, _position: {x: 2830,  y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2101'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2116'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2422, y: -30}
+		, _position: {x: 2882, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2102'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2117'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 2318, y: -30}
+		, _position: {x: 2778, y: -30}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2103'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2118'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 2275, y: -60}
+		, _position: {x: 2769, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2104'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2119'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2275, y: 60}
+		, _position: {x: 2891, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2105'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2120'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2465, y: 60}
+		, _position: {x: 2769, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2106'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2121'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 2465, y: -60}
+		, _position: {x: 2891, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2107'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2122'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2309, y: -110}
+		, _position: {x: 2830, y: -157}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2108'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2123'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2431, y: -110}
+		, _position: {x: 2830, y: 157}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2109'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2124'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2309, y: 110}
+		, _position: {x: 2697, y: -84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2110'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2125'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2431, y: 110}
+		, _position: {x: 2697, y: 84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2111'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2126'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 155}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2370, y: -110}
+		, _position: {x: 2963, y: 84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2112'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2127'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2370, y: -157}
+		, _position: {x: 2963, y: -84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2113'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 75}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2128'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2370, y: 157}
+		, _position: {x: 2695, y: 0}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2129'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
+			}
+		, _position: {x: 2965, y: 0}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2114'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Опасность фитонидов'
 			, _description:
 				'Вы знаете, чего следует опасаться в битве с фитонидами и '+
@@ -1734,235 +1340,168 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2115'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2131'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2830,  y: 60}
+		, _position: {x: 3425, y: -60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2116'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2132'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2882, y: -30}
+		, _position: {x: 3425, y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2117'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2133'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2778, y: -30}
+		, _position: {x: 3615, y: 60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2118'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2134'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2769, y: -110}
+		, _position: {x: 3615, y: -60}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2119'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2135'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 2891, y: -110}
+		, _position: {x: 3459, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2120'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2136'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2769, y: 110}
+		, _position: {x: 3581, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2121'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2137'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2891, y: 110}
+		, _position: {x: 3459, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2122'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2138'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2830, y: -157}
+		, _position: {x: 3581, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2123'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2139'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 2830, y: 157}
+		, _position: {x: 3520, y: -110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2124'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2140'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2697, y: -84}
+		, _position: {x: 3520, y: 110}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2125'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2141'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2697, y: 84}
+		, _position: {x: 3387, y: -84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2126'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 155}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2142'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2963, y: 84}
+		, _position: {x: 3387, y: 84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2127'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2143'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2963, y: -84}
+		, _position: {x: 3653, y: 84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2128'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2144'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2695, y: 0}
+		, _position: {x: 3653, y: -84}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2129'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2145'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2965, y: 0}
+		, _position: {x: 3385, y: 0}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2146'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
+			}
+		, _position: {x: 3655, y: 0}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2130'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Биология фитонидов'
 			, _description:
 				'Вы знаете, как легче всего убивать фитонидов и можете '+
@@ -1980,250 +1519,148 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2131'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2148'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3425, y: -60}
+		, _position: {x: 2830,  y: 510}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2132'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2149'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3425, y: 60}
+		, _position: {x: 2882, y: 420}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2133'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2150'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3615, y: 60}
+		, _position: {x: 2778, y: 420}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2134'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2151'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 3615, y: -60}
+		, _position: {x: 2735, y: 390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2135'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2152'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3459, y: -110}
+		, _position: {x: 2735, y: 510}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2136'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2153'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3581, y: -110}
+		, _position: {x: 2925, y: 510}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2137'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2154'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3459, y: 110}
+		, _position: {x: 2925, y: 390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2138'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2155'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 3581, y: 110}
+		, _position: {x: 2769, y: 340}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2139'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2156'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3520, y: -110}
+		, _position: {x: 2891, y: 340}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2140'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2157'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3520, y: 110}
+		, _position: {x: 2769, y: 560}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2141'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2158'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 3387, y: -84}
+		, _position: {x: 2891, y: 560}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2142'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2159'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 3387, y: 84}
+		, _position: {x: 2830, y: 340}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2143'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2160'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3653, y: 84}
+		, _position: {x: 2830, y: 293}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2144'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2161'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 3653, y: -84}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2145'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
-			}
-		, _position: {x: 3385, y: 0}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2146'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
-			}
-		, _position: {x: 3655, y: 0}
+		, _position: {x: 2830, y: 607}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2147'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Растительный яд'
 			, _description:
 				'Атаки по вам могут создать вокруг вас лужу яда, наносящую '+
@@ -2241,220 +1678,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2148'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2163'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2830,  y: 510}
+		, _position: {x: 2485,  y: 840}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2149'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2164'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2882, y: 420}
+		, _position: {x: 2537, y: 750}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2150'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2165'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 2778, y: 420}
+		, _position: {x: 2433, y: 750}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2151'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2166'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 2735, y: 390}
+		, _position: {x: 2390, y: 720}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2152'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2167'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2735, y: 510}
+		, _position: {x: 2390, y: 840}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2153'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2168'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2925, y: 510}
+		, _position: {x: 2580, y: 840}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2154'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2169'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2925, y: 390}
+		, _position: {x: 2580, y: 720}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2155'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2170'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2769, y: 340}
+		, _position: {x: 2424, y: 670}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2156'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2171'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2891, y: 340}
+		, _position: {x: 2546, y: 670}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2157'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2172'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2769, y: 560}
+		, _position: {x: 2424, y: 890}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2158'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2173'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2891, y: 560}
+		, _position: {x: 2546, y: 890}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2159'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2174'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2830, y: 340}
+		, _position: {x: 2485, y: 670}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2160'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2175'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2830, y: 293}
+		, _position: {x: 2485, y: 890}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2161'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2176'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 2830, y: 607}
+		, _position: {x: 2350, y: 780}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2177'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
+			}
+		, _position: {x: 2620, y: 780}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2162'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Уязвимость фитонидов'
 			, _description:
 				'Ваше знание о слабых местах фитонидов увеличивает урон по '+
@@ -2469,235 +1844,168 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2163'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2179'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2485,  y: 840}
+		, _position: {x: 3195, y: 540}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2164'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2180'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2537, y: 750}
+		, _position: {x: 3195, y: 660}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2165'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2181'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2433, y: 750}
+		, _position: {x: 3385, y: 660}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2166'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2182'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2390, y: 720}
+		, _position: {x: 3385, y: 540}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2167'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2183'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2390, y: 840}
+		, _position: {x: 3229, y: 490}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2168'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2184'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 2580, y: 840}
+		, _position: {x: 3351, y: 490}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2169'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2185'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2580, y: 720}
+		, _position: {x: 3229, y: 710}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2170'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2186'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2424, y: 670}
+		, _position: {x: 3351, y: 710}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2171'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2187'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2546, y: 670}
+		, _position: {x: 3290, y: 490}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2172'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2188'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2424, y: 890}
+		, _position: {x: 3290, y: 710}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2173'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2189'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2546, y: 890}
+		, _position: {x: 3157, y: 516}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2174'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2190'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 2485, y: 670}
+		, _position: {x: 3157, y: 684}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2175'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2191'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2485, y: 890}
+		, _position: {x: 3423, y: 684}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2176'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2192'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2350, y: 780}
+		, _position: {x: 3423, y: 516}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2177'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2193'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2620, y: 780}
+		, _position: {x: 3155, y: 600}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2194'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
+			}
+		, _position: {x: 3425, y: 600}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2178'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Культивация'
 			, _description:
 				'Ваши способности, увеличивающие характеристики цели, могут '+
@@ -2714,250 +2022,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2179'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2196'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 3195, y: 540}
+		, _position: {x: 3865,  y: 390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2180'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2197'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3195, y: 660}
+		, _position: {x: 3917, y: 300}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2181'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2198'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 3385, y: 660}
+		, _position: {x: 3813, y: 300}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2182'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2199'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 3385, y: 540}
+		, _position: {x: 3804, y: 220}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2183'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2200'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3229, y: 490}
+		, _position: {x: 3926, y: 220}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2184'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2201'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3351, y: 490}
+		, _position: {x: 3804, y: 440}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2185'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2202'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3229, y: 710}
+		, _position: {x: 3926, y: 440}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2186'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2203'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 3351, y: 710}
+		, _position: {x: 3865, y: 173}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2187'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2204'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3290, y: 490}
+		, _position: {x: 3865, y: 487}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2188'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2205'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 3290, y: 710}
+		, _position: {x: 3732, y: 246}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2189'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2206'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3157, y: 516}
+		, _position: {x: 3732, y: 414}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2190'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2207'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3157, y: 684}
+		, _position: {x: 3998, y: 414}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2191'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2208'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3423, y: 684}
+		, _position: {x: 3998, y: 246}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2192'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2209'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 3423, y: 516}
+		, _position: {x: 3730, y: 330}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2193'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2210'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3155, y: 600}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2194'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
-			}
-		, _position: {x: 3425, y: 600}
+		, _position: {x: 4000, y: 330}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2195'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Смертельные корни'
 			, _description:
 				'Ваши атаки могут вызвать под противником корни, которые будут'+
@@ -2974,235 +2190,148 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2196'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2212'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3865,  y: 390}
+		, _position: {x: 2830,  y: -390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2197'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2213'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3917, y: 300}
+		, _position: {x: 2882, y: -480}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2198'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2214'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 3813, y: 300}
+		, _position: {x: 2778, y: -480}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2199'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2215'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 3804, y: 220}
+		, _position: {x: 2735, y: -510}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2200'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2216'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3926, y: 220}
+		, _position: {x: 2735, y: -390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2201'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2217'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3804, y: 440}
+		, _position: {x: 2925, y: -390}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2202'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2218'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3926, y: 440}
+		, _position: {x: 2925, y: -510}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2203'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2219'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3865, y: 173}
+		, _position: {x: 2769, y: -560}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2204'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2220'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 3865, y: 487}
+		, _position: {x: 2891, y: -560}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2205'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2221'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3732, y: 246}
+		, _position: {x: 2769, y: -340}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2206'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2222'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 3732, y: 414}
+		, _position: {x: 2891, y: -340}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2207'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2223'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3998, y: 414}
+		, _position: {x: 2830, y: -560}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2208'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2224'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3998, y: 246}
+		, _position: {x: 2830, y: -607}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2209'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2225'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 100}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 3730, y: 330}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2210'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
-			}
-		, _position: {x: 4000, y: 330}
+		, _position: {x: 2830, y: -293}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2211'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Смертельные корни'
 			, _description:
 				'Ваши атаки могут вызвать под противником корни, которые будут'+
@@ -3219,220 +2348,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2212'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2227'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2830,  y: -390}
+		, _position: {x: 2485,  y: -720}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2213'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2228'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2882, y: -480}
+		, _position: {x: 2537, y: -810}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2214'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2229'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2778, y: -480}
+		, _position: {x: 2433, y: -810}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2215'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			{ _id: 'n2230'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2735, y: -510}
+		, _position: {x: 2390, y: -840}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2216'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2231'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2735, y: -390}
+		, _position: {x: 2390, y: -720}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2217'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2232'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2925, y: -390}
+		, _position: {x: 2580, y: -720}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2218'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2233'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 2925, y: -510}
+		, _position: {x: 2580, y: -840}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2219'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2234'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2769, y: -560}
+		, _position: {x: 2424, y: -890}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2220'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2235'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2891, y: -560}
+		, _position: {x: 2546, y: -890}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2221'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2236'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 2769, y: -340}
+		, _position: {x: 2424, y: -670}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2222'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2237'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2891, y: -340}
+		, _position: {x: 2546, y: -670}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2223'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2238'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2830, y: -560}
+		, _position: {x: 2485, y: -890}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2224'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2239'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 2830, y: -607}
+		, _position: {x: 2485, y: -670}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2225'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 100}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2240'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 2830, y: -293}
+		, _position: {x: 2350, y: -780}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2241'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 23, spirit: 23}
+			}
+		, _position: {x: 2620, y: -780}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2226'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Уязвимость фитонидов'
 			, _description:
 				'Ваше знание о слабых местах фитонидов увеличивает урон по '+
@@ -3447,235 +2514,168 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2227'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2243'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2485,  y: -720}
+		, _position: {x: 3195, y: -660}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2228'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2244'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2537, y: -810}
+		, _position: {x: 3195, y: -540}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2229'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2245'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2433, y: -810}
+		, _position: {x: 3385, y: -540}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2230'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2246'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2390, y: -840}
+		, _position: {x: 3385, y: -660}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2231'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2247'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2390, y: -720}
+		, _position: {x: 3229, y: -710}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2232'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2248'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2580, y: -720}
+		, _position: {x: 3351, y: -710}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2233'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2249'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 2580, y: -840}
+		, _position: {x: 3229, y: -490}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2234'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2250'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2424, y: -890}
+		, _position: {x: 3351, y: -490}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2235'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2251'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2546, y: -890}
+		, _position: {x: 3290, y: -710}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2236'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2252'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 2424, y: -670}
+		, _position: {x: 3290, y: -490}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2237'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2253'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 2546, y: -670}
+		, _position: {x: 3157, y: -684}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2238'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2254'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 2485, y: -890}
+		, _position: {x: 3157, y: -516}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2239'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2255'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2485, y: -670}
+		, _position: {x: 3423, y: -516}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2240'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2256'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 2350, y: -780}
+		, _position: {x: 3423, y: -684}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2241'
-			, open: false
-			, hover: false
-			, want: false
+			{ _id: 'n2257'
+			, open: false, hover: false, want: false
 			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 2620, y: -780}
+		, _position: {x: 3155, y: -600}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2258'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 150}
+			, _give: {prestige: 32, vit: 32}
+			}
+		, _position: {x: 3425, y: -600}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2242'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Культивация'
 			, _description:
 				'Ваши способности, увеличивающие характеристики цели, могут '+
@@ -3692,250 +2692,158 @@ var fitonidyNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2243'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2260'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 3195, y: -660}
+		, _position: {x: 3865,  y: -270}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2244'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2261'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3195, y: -540}
+		, _position: {x: 3917, y: -360}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2245'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2262'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3385, y: -540}
+		, _position: {x: 3813, y: -360}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2246'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2263'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 3385, y: -660}
+		, _position: {x: 3804, y: -440}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2247'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2264'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 3229, y: -710}
+		, _position: {x: 3926, y: -440}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2248'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2265'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 3351, y: -710}
+		, _position: {x: 3804, y: -220}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2249'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
+			{ _id: 'n2266'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3229, y: -490}
+		, _position: {x: 3926, y: -220}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2250'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2267'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3351, y: -490}
+		, _position: {x: 3865, y: -487}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2251'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2268'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, luck: 23}
 			}
-		, _position: {x: 3290, y: -710}
+		, _position: {x: 3865, y: -173}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2252'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2269'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3290, y: -490}
+		, _position: {x: 3732, y: -414}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2253'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			{ _id: 'n2270'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, power: 23}
 			}
-		, _position: {x: 3157, y: -684}
+		, _position: {x: 3732, y: -246}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2254'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			{ _id: 'n2271'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3157, y: -516}
+		, _position: {x: 3998, y: -246}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2255'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2272'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 3423, y: -516}
+		, _position: {x: 3998, y: -414}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2256'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			{ _id: 'n2273'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3423, y: -684}
+		, _position: {x: 3730, y: -330}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
-			{ _id: 'n2257'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			{ _id: 'n2274'
+			, open: false, hover: false, want: false
+			, _need: {fitonidy: 225}
+			, _give: {prestige: 32, vit: 32}
 			}
-		, _position: {x: 3155, y: -600}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2258'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 150}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
-			}
-		, _position: {x: 3425, y: -600}
+		, _position: {x: 4000, y: -330}
 		, _classes: 'stat'
 		}
 	,
 		{ data:
 			{ _id: 'n2259'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Растительный яд'
 			, _description:
 				'Атаки по вам могут создать вокруг вас лужу яда, наносящую '+
@@ -3950,231 +2858,6 @@ var fitonidyNodesData =
 			}
 		, _position: {x: 3865, y: -330}
 		, _classes: 'skill'
-		}
-	,
-		{ data:
-			{ _id: 'n2260'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
-			}
-		, _position: {x: 3865,  y: -270}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2261'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
-			}
-		, _position: {x: 3917, y: -360}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2262'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
-			}
-		, _position: {x: 3813, y: -360}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2263'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
-			}
-		, _position: {x: 3804, y: -440}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2264'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
-			}
-		, _position: {x: 3926, y: -440}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2265'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
-			}
-		, _position: {x: 3804, y: -220}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2266'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
-			}
-		, _position: {x: 3926, y: -220}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2267'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
-			}
-		, _position: {x: 3865, y: -487}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2268'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
-			}
-		, _position: {x: 3865, y: -173}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2269'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
-			}
-		, _position: {x: 3732, y: -414}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2270'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, power: 23
-				}
-			}
-		, _position: {x: 3732, y: -246}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2271'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
-			}
-		, _position: {x: 3998, y: -246}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2272'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
-			}
-		, _position: {x: 3998, y: -414}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2273'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
-			}
-		, _position: {x: 3730, y: -330}
-		, _classes: 'stat'
-		}
-	,
-		{ data:
-			{ _id: 'n2274'
-			, open: false
-			, hover: false
-			, want: false
-			, _need: {fitonidy: 225}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
-			}
-		, _position: {x: 4000, y: -330}
-		, _classes: 'stat'
 		}
 	];
 
@@ -4469,4 +3152,3 @@ var fitonidyAtlas =
 		}
 	, group: {skill: {}, stat: {}}
 	};
-

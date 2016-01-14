@@ -1,15 +1,9 @@
 var nodesData =
 	[ { data:
 			{ _id: 'n2'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 230, y: -320}
 		, _classes: 'stat'
@@ -17,15 +11,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n3'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 282, y: -410}
 		, _classes: 'stat'
@@ -33,15 +21,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n4'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: 178, y: -410}
 		, _classes: 'stat'
@@ -49,15 +31,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n5'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 133, y: -440}
 		, _classes: 'stat'
@@ -65,15 +41,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n6'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 95}
-			, _give:
-				{ prestige: 6
-				, power: 6
-				, dex: 4
-				}
+			, _give: {prestige: 6, power: 6, dex: 4}
 			}
 		, _position: {x: 169, y: -490}
 		, _classes: 'stat'
@@ -81,14 +51,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n7'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 95}
-			, _give:
-				{ prestige: 7
-				, spirit: 7
-				}
+			, _give: {prestige: 7, spirit: 7}
 			}
 		, _position: {x: 229, y: -490}
 		, _classes: 'stat'
@@ -96,15 +61,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n8'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 289, y: -490}
 		, _classes: 'stat'
@@ -112,15 +71,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n9'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 95}
-			, _give:
-				{ prestige: 6
-				, power: 6
-				, dex: 4
-				}
+			, _give: {prestige: 6, power: 6, dex: 4}
 			}
 		, _position: {x: 95, y: -380}
 		, _classes: 'stat'
@@ -128,15 +81,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n10'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 133, y: -320}
 		, _classes: 'stat'
@@ -144,15 +91,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n11'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 169, y: -270}
 		, _classes: 'stat'
@@ -160,15 +101,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n12'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: 229, y: -270}
 		, _classes: 'stat'
@@ -176,15 +111,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n13'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 289, y: -270}
 		, _classes: 'stat'
@@ -192,14 +121,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n14'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 95}
-			, _give:
-				{ prestige: 7
-				, str: 7
-				}
+			, _give: {prestige: 7, str: 7}
 			}
 		, _position: {x: 325, y: -440}
 		, _classes: 'stat'
@@ -207,15 +131,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n15'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: 363, y: -380}
 		, _classes: 'stat'
@@ -223,14 +141,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n16'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 10
-				, luck: 10
-				}
+			, _give: {prestige: 10, luck: 10}
 			}
 		, _position: {x: 325, y: -320}
 		, _classes: 'stat'
@@ -238,9 +151,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1'
-			, open: true
-			, hover: false
-			, want: false
+			, open: true, hover: false, want: false
 			, start: true
 			, _title: 'Класс: криомант'
 			, _description:
@@ -261,15 +172,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n18'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 0, y: 60}
 		, _classes: 'stat'
@@ -277,14 +182,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n19'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 10
-				, valor: 10
-				}
+			, _give: {prestige: 10, valor: 10}
 			}
 		, _position: {x: 52, y: -30}
 		, _classes: 'stat'
@@ -292,15 +192,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n20'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: -52, y: -30}
 		, _classes: 'stat'
@@ -308,15 +202,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n21'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: -95, y: -60}
 		, _classes: 'stat'
@@ -324,15 +212,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n22'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: -60, y: -110}
 		, _classes: 'stat'
@@ -340,14 +222,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n23'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 10
-				, luck: 10
-				}
+			, _give: {prestige: 10, luck: 10}
 			}
 		, _position: {x: 0, y: -110}
 		, _classes: 'stat'
@@ -355,14 +232,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n24'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 95}
-			, _give:
-				{ prestige: 7
-				, str: 7
-				}
+			, _give: {prestige: 7, str: 7}
 			}
 		, _position: {x: 60, y: -110}
 		, _classes: 'stat'
@@ -370,15 +242,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n25'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: -135, y: 0}
 		, _classes: 'stat'
@@ -386,15 +252,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n26'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 155}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: -96, y: 60}
 		, _classes: 'stat'
@@ -402,15 +262,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n27'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: -60, y: 110}
 		, _classes: 'stat'
@@ -418,15 +272,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n28'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 0, y: 110}
 		, _classes: 'stat'
@@ -434,15 +282,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n29'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 155}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 60, y: 110}
 		, _classes: 'stat'
@@ -450,15 +292,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n30'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 95, y: -60}
 		, _classes: 'stat'
@@ -466,15 +302,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n31'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 134, y: 0}
 		, _classes: 'stat'
@@ -482,15 +312,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n32'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 95, y: 60}
 		, _classes: 'stat'
@@ -498,9 +322,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n17'
-			, open: true
-			, hover: false
-			, want: false
+			, open: true, hover: false, want: false
 			, start: true
 			, _title: 'Класс: Паладин'
 			, _description:
@@ -521,14 +343,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n34'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 95}
-			, _give:
-				{ prestige: 7
-				, str: 7
-				}
+			, _give: {prestige: 7, str: 7}
 			}
 		, _position: {x: 230, y: 440}
 		, _classes: 'stat'
@@ -536,15 +353,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n35'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 282, y: 350}
 		, _classes: 'stat'
@@ -552,15 +363,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n36'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: 178, y: 350}
 		, _classes: 'stat'
@@ -568,15 +373,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n37'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 133, y: 320}
 		, _classes: 'stat'
@@ -584,15 +383,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n38'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 169, y: 270}
 		, _classes: 'stat'
@@ -600,15 +393,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n39'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 229, y: 270}
 		, _classes: 'stat'
@@ -616,15 +403,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n40'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 289, y: 270}
 		, _classes: 'stat'
@@ -632,14 +413,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n41'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 95}
-			, _give:
-				{ prestige: 7
-				, spirit: 7
-				}
+			, _give: {prestige: 7, spirit: 7}
 			}
 		, _position: {x: 95, y: 380}
 		, _classes: 'stat'
@@ -647,15 +423,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n42'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 133, y: 440}
 		, _classes: 'stat'
@@ -663,15 +433,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n43'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: 169, y: 490}
 		, _classes: 'stat'
@@ -679,15 +443,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n44'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 155}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 229, y: 490}
 		, _classes: 'stat'
@@ -695,15 +453,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n45'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 289, y: 490}
 		, _classes: 'stat'
@@ -711,14 +463,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n46'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 10
-				, valor: 10
-				}
+			, _give: {prestige: 10, valor: 10}
 			}
 		, _position: {x: 325, y: 320}
 		, _classes: 'stat'
@@ -726,15 +473,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n47'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 95}
-			, _give:
-				{ prestige: 6
-				, power: 6
-				, dex: 4
-				}
+			, _give: {prestige: 6, power: 6, dex: 4}
 			}
 		, _position: {x: 363, y: 380}
 		, _classes: 'stat'
@@ -742,15 +483,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n48'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 95}
-			, _give:
-				{ prestige: 6
-				, power: 6
-				, dex: 4
-				}
+			, _give: {prestige: 6, power: 6, dex: 4}
 			}
 		, _position: {x: 325, y: 440}
 		, _classes: 'stat'
@@ -758,9 +493,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n33'
-			, open: true
-			, hover: false
-			, want: false
+			, open: true, hover: false, want: false
 			, start: true
 			, _title: 'Класс: Хранитель света'
 			, _description:
@@ -779,15 +512,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n50'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: 365, y: -60}
 		, _classes: 'stat'
@@ -795,14 +522,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n51'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 10
-				, luck: 10
-				}
+			, _give: {prestige: 10, luck: 10}
 			}
 		, _position: {x: 400, y: -110}
 		, _classes: 'stat'
@@ -810,15 +532,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n52'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 460, y: -110}
 		, _classes: 'stat'
@@ -826,15 +542,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n53'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 95}
-			, _give:
-				{ prestige: 6
-				, power: 6
-				, dex: 4
-				}
+			, _give: {prestige: 6, power: 6, dex: 4}
 			}
 		, _position: {x: 520, y: -110}
 		, _classes: 'stat'
@@ -842,14 +552,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n54'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 95}
-			, _give:
-				{ prestige: 7
-				, str: 7
-				}
+			, _give: {prestige: 7, str: 7}
 			}
 		, _position: {x: 325, y: 0}
 		, _classes: 'stat'
@@ -857,15 +562,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n55'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 95}
-			, _give:
-				{ prestige: 8
-				, vit: 8
-				, dex: 4
-				}
+			, _give: {prestige: 8, vit: 8, dex: 4}
 			}
 		, _position: {x: 364, y: 60}
 		, _classes: 'stat'
@@ -873,15 +572,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n56'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 400, y: 110}
 		, _classes: 'stat'
@@ -889,15 +582,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n57'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 460, y: 110}
 		, _classes: 'stat'
@@ -905,14 +592,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n58'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 10
-				, luck: 10
-				}
+			, _give: {prestige: 10, luck: 10}
 			}
 		, _position: {x: 520, y: 110}
 		, _classes: 'stat'
@@ -920,15 +602,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n59'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 555, y: -60}
 		, _classes: 'stat'
@@ -936,15 +612,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n60'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 594, y: 0}
 		, _classes: 'stat'
@@ -952,15 +622,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n61'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 95}
-			, _give:
-				{ prestige: 8
-				, vit: 8
-				, dex: 4
-				}
+			, _give: {prestige: 8, vit: 8, dex: 4}
 			}
 		, _position: {x: 555, y: 60}
 		, _classes: 'stat'
@@ -968,14 +632,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n62'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 10
-				, str: 10
-				}
+			, _give: {prestige: 10, str: 10}
 			}
 		, _position: {x: 327, y: -84}
 		, _classes: 'stat'
@@ -983,15 +642,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n63'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 327, y: 84}
 		, _classes: 'stat'
@@ -999,14 +652,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n64'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 155}
-			, _give:
-				{ prestige: 13
-				, spirit: 13
-				}
+			, _give: {prestige: 13, spirit: 13}
 			}
 		, _position: {x: 593, y: 84}
 		, _classes: 'stat'
@@ -1014,15 +662,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n65'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 593, y: -84}
 		, _classes: 'stat'
@@ -1030,9 +672,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n49'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Искусный маневр'
 			, _description:
 				'Применение рывка создаёт защитный барьер, который поглощает '+
@@ -1048,15 +688,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n67'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 920, y: 60}
 		, _classes: 'stat'
@@ -1064,15 +698,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n68'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: 972, y: -30}
 		, _classes: 'stat'
@@ -1080,14 +708,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n69'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 868, y: -30}
 		, _classes: 'stat'
@@ -1095,15 +718,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n70'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 860, y: -110}
 		, _classes: 'stat'
@@ -1111,14 +728,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n71'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 10
-				, luck: 10
-				}
+			, _give: {prestige: 10, luck: 10}
 			}
 		, _position: {x: 980, y: -110}
 		, _classes: 'stat'
@@ -1126,15 +738,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n72'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 785, y: 0}
 		, _classes: 'stat'
@@ -1142,15 +748,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n73'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 95}
-			, _give:
-				{ prestige: 8
-				, vit: 8
-				, dex: 4
-				}
+			, _give: {prestige: 8, vit: 8, dex: 4}
 			}
 		, _position: {x: 860, y: 110}
 		, _classes: 'stat'
@@ -1158,14 +758,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n74'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 95}
-			, _give:
-				{ prestige: 7
-				, valor: 7
-				}
+			, _give: {prestige: 7, valor: 7}
 			}
 		, _position: {x: 980, y: 110}
 		, _classes: 'stat'
@@ -1173,15 +768,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n75'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 155}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 1054, y: 0}
 		, _classes: 'stat'
@@ -1189,15 +778,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n76'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 125}
-			, _give:
-				{ prestige: 9
-				, power: 9
-				, dex: 5
-				}
+			, _give: {prestige: 9, power: 9, dex: 5}
 			}
 		, _position: {x: 787, y: -84}
 		, _classes: 'stat'
@@ -1205,15 +788,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n77'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 95}
-			, _give:
-				{ prestige: 6
-				, power: 6
-				, dex: 4
-				}
+			, _give: {prestige: 6, power: 6, dex: 4}
 			}
 		, _position: {x: 787, y: 84}
 		, _classes: 'stat'
@@ -1221,15 +798,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n78'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: 1053, y: 84}
 		, _classes: 'stat'
@@ -1237,14 +808,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n79'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1053, y: -84}
 		, _classes: 'stat'
@@ -1252,14 +818,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n80'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 10
-				, valor: 10
-				}
+			, _give: {prestige: 10, valor: 10}
 			}
 		, _position: {x: 920, y: 157}
 		, _classes: 'stat'
@@ -1267,15 +828,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n81'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 155}
-			, _give:
-				{ prestige: 16
-				, vit: 16
-				, dex: 6
-				}
+			, _give: {prestige: 16, vit: 16, dex: 6}
 			}
 		, _position: {x: 920, y: -157}
 		, _classes: 'stat'
@@ -1283,9 +838,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n66'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина равновесия'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'balance'
@@ -1298,14 +851,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n83'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, spirit: 20
-				}
+			, _give: {prestige: 20, spirit: 20}
 			}
 		, _position: {x: 920, y: 510}
 		, _classes: 'stat'
@@ -1313,14 +861,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n84'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, spirit: 15
-				}
+			, _give: {prestige: 15, spirit: 15}
 			}
 		, _position: {x: 972, y: 420}
 		, _classes: 'stat'
@@ -1328,14 +871,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n85'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 868, y: 420}
 		, _classes: 'stat'
@@ -1343,15 +881,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n86'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 823, y: 390}
 		, _classes: 'stat'
@@ -1359,15 +891,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n87'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 859, y: 340}
 		, _classes: 'stat'
@@ -1375,14 +901,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n88'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, spirit: 20
-				}
+			, _give: {prestige: 20, spirit: 20}
 			}
 		, _position: {x: 919, y: 340}
 		, _classes: 'stat'
@@ -1390,15 +911,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n89'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 10
-				, power: 10
-				, dex: 5
-				}
+			, _give: {prestige: 10, power: 10, dex: 5}
 			}
 		, _position: {x: 979, y: 340}
 		, _classes: 'stat'
@@ -1406,15 +921,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n90'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 185}
-			, _give:
-				{ prestige: 16
-				, power: 16
-				, dex: 7
-				}
+			, _give: {prestige: 16, power: 16, dex: 7}
 			}
 		, _position: {x: 823, y: 510}
 		, _classes: 'stat'
@@ -1422,15 +931,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n91'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 859, y: 560}
 		, _classes: 'stat'
@@ -1438,15 +941,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n92'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 979, y: 560}
 		, _classes: 'stat'
@@ -1454,14 +951,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n93'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, spirit: 20
-				}
+			, _give: {prestige: 20, spirit: 20}
 			}
 		, _position: {x: 1015, y: 390}
 		, _classes: 'stat'
@@ -1469,14 +961,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n94'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, spirit: 15
-				}
+			, _give: {prestige: 15, spirit: 15}
 			}
 		, _position: {x: 1015, y: 510}
 		, _classes: 'stat'
@@ -1484,15 +971,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n95'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 8
-				}
+			, _give: {prestige: 18, vit: 18, dex: 8}
 			}
 		, _position: {x: 920, y: 607}
 		, _classes: 'stat'
@@ -1500,15 +981,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n96'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 920, y: 293}
 		, _classes: 'stat'
@@ -1516,9 +991,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n82'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Интенсивность импульса'
 			, _description:
 				'Импульсный урон увеличен на 10% за каждый уровень этого символа.'
@@ -1532,14 +1005,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n98'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, luck: 20
-				}
+			, _give: {prestige: 20, luck: 20}
 			}
 		, _position: {x: 920, y: -390}
 		, _classes: 'stat'
@@ -1547,15 +1015,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n99'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 972, y: -480}
 		, _classes: 'stat'
@@ -1563,14 +1025,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n100'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, luck: 20
-				}
+			, _give: {prestige: 20, luck: 20}
 			}
 		, _position: {x: 868, y: -480}
 		, _classes: 'stat'
@@ -1578,15 +1035,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n101'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 823, y: -510}
 		, _classes: 'stat'
@@ -1594,14 +1045,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n102'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 859, y: -560}
 		, _classes: 'stat'
@@ -1609,15 +1055,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n103'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 919, y: -560}
 		, _classes: 'stat'
@@ -1625,14 +1065,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n104'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 115}
-			, _give:
-				{ prestige: 10
-				, luck: 10
-				}
+			, _give: {prestige: 10, luck: 10}
 			}
 		, _position: {x: 979, y: -560}
 		, _classes: 'stat'
@@ -1640,15 +1075,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n105'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 823, y: -390}
 		, _classes: 'stat'
@@ -1656,15 +1085,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n106'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 859, y: -340}
 		, _classes: 'stat'
@@ -1672,14 +1095,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n107'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, luck: 20
-				}
+			, _give: {prestige: 20, luck: 20}
 			}
 		, _position: {x: 979, y: -340}
 		, _classes: 'stat'
@@ -1687,14 +1105,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n108'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 115}
-			, _give:
-				{ prestige: 10
-				, luck: 10
-				}
+			, _give: {prestige: 10, luck: 10}
 			}
 		, _position: {x: 1015, y: -510}
 		, _classes: 'stat'
@@ -1702,14 +1115,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n109'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 115}
-			, _give:
-				{ prestige: 10
-				, luck: 10
-				}
+			, _give: {prestige: 10, luck: 10}
 			}
 		, _position: {x: 1015, y: -390}
 		, _classes: 'stat'
@@ -1717,14 +1125,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n110'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 920, y: -293}
 		, _classes: 'stat'
@@ -1732,15 +1135,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n111'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 185}
-			, _give:
-				{ prestige: 16
-				, power: 16
-				, dex: 7
-				}
+			, _give: {prestige: 16, power: 16, dex: 7}
 			}
 		, _position: {x: 920, y: -607}
 		, _classes: 'stat'
@@ -1748,9 +1145,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n97'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Максимальная отдача'
 			, _description:
 				'Критический урон увеличен на 10% за каждый уровень этого '+
@@ -1765,15 +1160,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n113'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1380, y: 60}
 		, _classes: 'stat'
@@ -1781,15 +1170,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n114'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1432, y: -30}
 		, _classes: 'stat'
@@ -1797,15 +1180,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n115'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1328, y: -30}
 		, _classes: 'stat'
@@ -1813,14 +1190,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n116'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 1285, y: -60}
 		, _classes: 'stat'
@@ -1828,15 +1200,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n117'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1285, y: 60}
 		, _classes: 'stat'
@@ -1844,14 +1210,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n118'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, spirit: 35
-				}
+			, _give: {prestige: 35, spirit: 35}
 			}
 		, _position: {x: 1475, y: 60}
 		, _classes: 'stat'
@@ -1859,15 +1220,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n119'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1475, y: -60}
 		, _classes: 'stat'
@@ -1875,15 +1230,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n120'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1319, y: -110}
 		, _classes: 'stat'
@@ -1891,15 +1240,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n121'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1441, y: -110}
 		, _classes: 'stat'
@@ -1907,15 +1250,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n122'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1319, y: 110}
 		, _classes: 'stat'
@@ -1923,15 +1260,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n123'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1441, y: 110}
 		, _classes: 'stat'
@@ -1939,14 +1270,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n124'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 1380, y: -110}
 		, _classes: 'stat'
@@ -1954,15 +1280,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n125'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1380, y: 110}
 		, _classes: 'stat'
@@ -1970,15 +1290,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n126'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1380, y: -157}
 		, _classes: 'stat'
@@ -1986,14 +1300,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n127'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 1380, y: 157}
 		, _classes: 'stat'
@@ -2001,15 +1310,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n128'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1247, y: -84}
 		, _classes: 'stat'
@@ -2017,15 +1320,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n129'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1247, y: 84}
 		, _classes: 'stat'
@@ -2033,15 +1330,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n130'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1513, y: 84}
 		, _classes: 'stat'
@@ -2049,15 +1340,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n131'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1513, y: -84}
 		, _classes: 'stat'
@@ -2065,15 +1350,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n132'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1245, y: 0}
 		, _classes: 'stat'
@@ -2081,15 +1360,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n133'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1515, y: 0}
 		, _classes: 'stat'
@@ -2097,9 +1370,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n112'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Форма бога'
 			, _description:
 				'В божественной форме бессмертный приобретает дополнительные '+
@@ -2122,15 +1393,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n135'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 690, y: -700}
 		, _classes: 'stat'
@@ -2138,15 +1403,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n136'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 742, y: -790}
 		, _classes: 'stat'
@@ -2154,15 +1413,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n137'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 638, y: -790}
 		, _classes: 'stat'
@@ -2170,15 +1423,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n138'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 629, y: -870}
 		, _classes: 'stat'
@@ -2186,15 +1433,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n139'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 751, y: -870}
 		, _classes: 'stat'
@@ -2202,14 +1443,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n141'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 20
-				, valor: 20
-				}
+			, _give: {prestige: 20, valor: 20}
 			}
 		, _position: {x: 629, y: -650}
 		, _classes: 'stat'
@@ -2217,15 +1453,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n142'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 751, y: -650}
 		, _classes: 'stat'
@@ -2233,15 +1463,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n143'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 27
-				}
+			, _give: {prestige: 24, vit: 24, dex: 27}
 			}
 		, _position: {x: 690, y: -917}
 		, _classes: 'stat'
@@ -2249,14 +1473,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n144'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, valor: 15
-				}
+			, _give: {prestige: 15, valor: 15}
 			}
 		, _position: {x: 690, y: -603}
 		, _classes: 'stat'
@@ -2264,14 +1483,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n145'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, spirit: 15
-				}
+			, _give: {prestige: 15, spirit: 15}
 			}
 		, _position: {x: 557, y: -844}
 		, _classes: 'stat'
@@ -2279,14 +1493,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n146'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, luck: 15
-				}
+			, _give: {prestige: 15, luck: 15}
 			}
 		, _position: {x: 557, y: -676}
 		, _classes: 'stat'
@@ -2294,15 +1503,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n147'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 823, y: -676}
 		, _classes: 'stat'
@@ -2310,14 +1513,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n148'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 823, y: -844}
 		, _classes: 'stat'
@@ -2325,15 +1523,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n149'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 555, y: -760}
 		, _classes: 'stat'
@@ -2341,15 +1533,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n150'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 825, y: -760}
 		, _classes: 'stat'
@@ -2357,9 +1543,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n134'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Элемент неожиданности'
 			, _description:
 				'В течение первых 8 секунд боя исходящий урон увеличен на 12% '+
@@ -2374,14 +1558,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n152'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, valor: 20
-				}
+			, _give: {prestige: 20, valor: 20}
 			}
 		, _position: {x: 230, y: -700}
 		, _classes: 'stat'
@@ -2389,14 +1568,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n153'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 282, y: -790}
 		, _classes: 'stat'
@@ -2404,15 +1578,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n154'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 178, y: -790}
 		, _classes: 'stat'
@@ -2420,15 +1588,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n155'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 135, y: -820}
 		, _classes: 'stat'
@@ -2436,14 +1598,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n156'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 135, y: -700}
 		, _classes: 'stat'
@@ -2451,15 +1608,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n157'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 325, y: -700}
 		, _classes: 'stat'
@@ -2467,15 +1618,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n158'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 325, y: -820}
 		, _classes: 'stat'
@@ -2483,15 +1628,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n159'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 230, y: -870}
 		, _classes: 'stat'
@@ -2499,15 +1638,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n160'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 230, y: -650}
 		, _classes: 'stat'
@@ -2515,14 +1648,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n161'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, valor: 20
-				}
+			, _give: {prestige: 20, valor: 20}
 			}
 		, _position: {x: 230, y: -917}
 		, _classes: 'stat'
@@ -2530,15 +1658,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n162'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 185}
-			, _give:
-				{ prestige: 16
-				, power: 16
-				, dex: 7
-				}
+			, _give: {prestige: 16, power: 16, dex: 7}
 			}
 		, _position: {x: 230, y: -603}
 		, _classes: 'stat'
@@ -2546,15 +1668,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n163'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 97, y: -844}
 		, _classes: 'stat'
@@ -2562,14 +1678,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n164'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, valor: 15
-				}
+			, _give: {prestige: 15, valor: 15}
 			}
 		, _position: {x: 97, y: -676}
 		, _classes: 'stat'
@@ -2577,14 +1688,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n165'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, str: 15
-				}
+			, _give: {prestige: 15, str: 15}
 			}
 		, _position: {x: 363, y: -676}
 		, _classes: 'stat'
@@ -2592,15 +1698,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n166'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 185}
-			, _give:
-				{ prestige: 16
-				, power: 16
-				, dex: 7
-				}
+			, _give: {prestige: 16, power: 16, dex: 7}
 			}
 		, _position: {x: 363, y: -844}
 		, _classes: 'stat'
@@ -2608,9 +1708,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n151'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Стремительная атака'
 			, _description:
 				'В тесение 3 секунд после применения рывка наносимый урон '+
@@ -2625,15 +1723,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n168'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 690, y: 820}
 		, _classes: 'stat'
@@ -2641,15 +1733,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n169'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 742, y: 730}
 		, _classes: 'stat'
@@ -2657,15 +1743,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n170'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 638, y: 730}
 		, _classes: 'stat'
@@ -2673,15 +1753,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n171'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 185}
-			, _give:
-				{ prestige: 16
-				, power: 16
-				, dex: 7
-				}
+			, _give: {prestige: 16, power: 16, dex: 7}
 			}
 		, _position: {x: 595, y: 700}
 		, _classes: 'stat'
@@ -2689,14 +1763,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n172'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 595, y: 820}
 		, _classes: 'stat'
@@ -2704,15 +1773,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n173'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 785, y: 820}
 		, _classes: 'stat'
@@ -2720,15 +1783,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n174'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 785, y: 700}
 		, _classes: 'stat'
@@ -2736,15 +1793,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n175'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 690, y: 650}
 		, _classes: 'stat'
@@ -2752,15 +1803,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n176'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 690, y: 870}
 		, _classes: 'stat'
@@ -2768,15 +1813,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n177'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 690, y: 603}
 		, _classes: 'stat'
@@ -2784,15 +1823,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n178'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 690, y: 917}
 		, _classes: 'stat'
@@ -2800,15 +1833,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n179'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 557, y: 676}
 		, _classes: 'stat'
@@ -2816,15 +1843,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n180'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 557, y: 844}
 		, _classes: 'stat'
@@ -2832,15 +1853,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n181'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 823, y: 844}
 		, _classes: 'stat'
@@ -2848,14 +1863,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n182'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 823, y: 676}
 		, _classes: 'stat'
@@ -2863,9 +1873,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n167'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Инерция'
 			, _description:
 				'В течение 3 секунд после применения рывка скорость передвижения '+
@@ -2880,15 +1888,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n184'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 135, y: 700}
 		, _classes: 'stat'
@@ -2896,15 +1898,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n185'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 135, y: 820}
 		, _classes: 'stat'
@@ -2912,14 +1908,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n186'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 325, y: 820}
 		, _classes: 'stat'
@@ -2927,15 +1918,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n187'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 325, y: 700}
 		, _classes: 'stat'
@@ -2943,14 +1928,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n188'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, str: 20
-				}
+			, _give: {prestige: 20, str: 20}
 			}
 		, _position: {x: 169, y: 650}
 		, _classes: 'stat'
@@ -2958,14 +1938,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n189'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, str: 15
-				}
+			, _give: {prestige: 15, str: 15}
 			}
 		, _position: {x: 291, y: 650}
 		, _classes: 'stat'
@@ -2973,15 +1948,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n190'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 169, y: 870}
 		, _classes: 'stat'
@@ -2989,15 +1958,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n191'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 291, y: 870}
 		, _classes: 'stat'
@@ -3005,15 +1968,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n192'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 185}
-			, _give:
-				{ prestige: 16
-				, power: 16
-				, dex: 7
-				}
+			, _give: {prestige: 16, power: 16, dex: 7}
 			}
 		, _position: {x: 230, y: 650}
 		, _classes: 'stat'
@@ -3021,15 +1978,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n193'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 230, y: 870}
 		, _classes: 'stat'
@@ -3037,14 +1988,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n194'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, luck: 15
-				}
+			, _give: {prestige: 15, luck: 15}
 			}
 		, _position: {x: 97, y: 676}
 		, _classes: 'stat'
@@ -3052,15 +1998,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n195'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 97, y: 844}
 		, _classes: 'stat'
@@ -3068,15 +2008,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n196'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 363, y: 844}
 		, _classes: 'stat'
@@ -3084,14 +2018,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n197'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 363, y: 676}
 		, _classes: 'stat'
@@ -3099,15 +2028,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n198'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 185}
-			, _give:
-				{ prestige: 16
-				, power: 16
-				, dex: 7
-				}
+			, _give: {prestige: 16, power: 16, dex: 7}
 			}
 		, _position: {x: 95, y: 760}
 		, _classes: 'stat'
@@ -3115,14 +2038,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n199'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, spirit: 15
-				}
+			, _give: {prestige: 15, spirit: 15}
 			}
 		, _position: {x: 365, y: 760}
 		, _classes: 'stat'
@@ -3130,9 +2048,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n183'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Удачное попадание'
 			, _description:
 				'Раз в 2 секунды вероятность критической атаки увеличивается на '+
@@ -3149,15 +2065,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n201'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -325, y: -820}
 		, _classes: 'stat'
@@ -3165,15 +2075,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n202'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -325, y: -700}
 		, _classes: 'stat'
@@ -3181,15 +2085,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n203'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, str: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, str: 17, dex: 9}
 			}
 		, _position: {x: -135, y: -700}
 		, _classes: 'stat'
@@ -3197,15 +2095,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n204'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: -135, y: -820}
 		, _classes: 'stat'
@@ -3213,14 +2105,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n205'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: -291, y: -870}
 		, _classes: 'stat'
@@ -3228,15 +2115,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n206'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -169, y: -870}
 		, _classes: 'stat'
@@ -3244,15 +2125,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n207'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: -291, y: -650}
 		, _classes: 'stat'
@@ -3260,14 +2135,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n208'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, valor: 47
-				}
+			, _give: {prestige: 47, valor: 47}
 			}
 		, _position: {x: -169, y: -650}
 		, _classes: 'stat'
@@ -3275,15 +2145,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n209'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: -230, y: -870}
 		, _classes: 'stat'
@@ -3291,15 +2155,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n210'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: -230, y: -650}
 		, _classes: 'stat'
@@ -3307,14 +2165,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n211'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: -363, y: -844}
 		, _classes: 'stat'
@@ -3322,14 +2175,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n212'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: -363, y: -676}
 		, _classes: 'stat'
@@ -3337,14 +2185,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n213'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: -97, y: -676}
 		, _classes: 'stat'
@@ -3352,14 +2195,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n214'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, luck: 47
-				}
+			, _give: {prestige: 47, luck: 47}
 			}
 		, _position: {x: -97, y: -844}
 		, _classes: 'stat'
@@ -3367,15 +2205,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n215'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: -365, y: -760}
 		, _classes: 'stat'
@@ -3383,15 +2215,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n216'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: -95, y: -760}
 		, _classes: 'stat'
@@ -3399,9 +2225,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n200'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина разрушения'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'destroy'
@@ -3414,15 +2238,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n218'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -230, y: -1140}
 		, _classes: 'stat'
@@ -3430,15 +2248,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n219'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -178, y: -1230}
 		, _classes: 'stat'
@@ -3446,15 +2258,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n220'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -282, y: -1230}
 		, _classes: 'stat'
@@ -3462,15 +2268,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n221'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -325, y: -1260}
 		, _classes: 'stat'
@@ -3478,15 +2278,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n222'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -325, y: -1140}
 		, _classes: 'stat'
@@ -3494,14 +2288,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n223'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: -135, y: -1140}
 		, _classes: 'stat'
@@ -3509,15 +2298,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n224'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -135, y: -1260}
 		, _classes: 'stat'
@@ -3525,14 +2308,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n225'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -230, y: -1310}
 		, _classes: 'stat'
@@ -3540,14 +2318,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n226'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -230, y: -1090}
 		, _classes: 'stat'
@@ -3555,15 +2328,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n227'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -230, y: -1357}
 		, _classes: 'stat'
@@ -3571,14 +2338,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n228'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, valor: 80
-				}
+			, _give: {prestige: 80, valor: 80}
 			}
 		, _position: {x: -230, y: -1043}
 		, _classes: 'stat'
@@ -3586,15 +2348,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n229'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -363, y: -1284}
 		, _classes: 'stat'
@@ -3602,15 +2358,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n230'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -363, y: -1116}
 		, _classes: 'stat'
@@ -3618,15 +2368,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n231'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -97, y: -1116}
 		, _classes: 'stat'
@@ -3634,15 +2378,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n232'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -97, y: -1284}
 		, _classes: 'stat'
@@ -3650,9 +2388,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n217'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Парализующий шок'
 			, _description:
 				'Использование атакующих способностей позволяет применить '+
@@ -3672,15 +2408,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n234'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 255, y: -1320}
 		, _classes: 'stat'
@@ -3688,15 +2418,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n235'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 255, y: -1200}
 		, _classes: 'stat'
@@ -3704,15 +2428,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n236'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 445, y: -1200}
 		, _classes: 'stat'
@@ -3720,14 +2438,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n237'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 445, y: -1320}
 		, _classes: 'stat'
@@ -3735,15 +2448,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n238'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 289, y: -1370}
 		, _classes: 'stat'
@@ -3751,15 +2458,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n239'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 411, y: -1370}
 		, _classes: 'stat'
@@ -3767,15 +2468,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n240'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 289, y: -1150}
 		, _classes: 'stat'
@@ -3783,14 +2478,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n241'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 411, y: -1150}
 		, _classes: 'stat'
@@ -3798,15 +2488,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n242'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 350, y: -1370}
 		, _classes: 'stat'
@@ -3814,15 +2498,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n243'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 350, y: -1150}
 		, _classes: 'stat'
@@ -3830,15 +2508,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n244'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 217, y: -1344}
 		, _classes: 'stat'
@@ -3846,15 +2518,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n245'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red:810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 217, y: -1176}
 		, _classes: 'stat'
@@ -3862,15 +2528,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n246'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 483, y: -1176}
 		, _classes: 'stat'
@@ -3878,15 +2538,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n247'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 483, y: -1344}
 		, _classes: 'stat'
@@ -3894,14 +2548,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n248'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 215, y: -1260}
 		, _classes: 'stat'
@@ -3909,15 +2558,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n249'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 485, y: -1260}
 		, _classes: 'stat'
@@ -3925,9 +2568,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n233'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Блистательный триумф'
 			, _description:
 				'Применение добивающего удара увеличивает исходящий урон на 15% '+
@@ -3943,15 +2584,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n251'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 8
-				}
+			, _give: {prestige: 18, vit: 18, dex: 8}
 			}
 		, _position: {x: 1380, y: -540}
 		, _classes: 'stat'
@@ -3959,15 +2594,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n252'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 1432, y: -630}
 		, _classes: 'stat'
@@ -3975,15 +2604,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n253'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 1328, y: -630}
 		, _classes: 'stat'
@@ -3991,15 +2614,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n254'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 1285, y: -660}
 		, _classes: 'stat'
@@ -4007,14 +2624,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n255'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1285, y: -540}
 		, _classes: 'stat'
@@ -4022,15 +2634,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n256'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 1475, y: -540}
 		, _classes: 'stat'
@@ -4038,14 +2644,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n257'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, valor: 15
-				}
+			, _give: {prestige: 15, valor: 15}
 			}
 		, _position: {x: 1475, y: -660}
 		, _classes: 'stat'
@@ -4053,15 +2654,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n258'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 1380, y: -710}
 		, _classes: 'stat'
@@ -4069,15 +2664,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n259'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 115}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 1380, y: -490}
 		, _classes: 'stat'
@@ -4085,14 +2674,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n260'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1380, y: -757}
 		, _classes: 'stat'
@@ -4100,15 +2684,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n261'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 185}
-			, _give:
-				{ prestige: 16
-				, power: 16
-				, dex: 7
-				}
+			, _give: {prestige: 16, power: 16, dex: 7}
 			}
 		, _position: {x: 1380, y: -443}
 		, _classes: 'stat'
@@ -4116,14 +2694,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n262'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 20
-				, str: 20
-				}
+			, _give: {prestige: 20, str: 20}
 			}
 		, _position: {x: 1247, y: -684}
 		, _classes: 'stat'
@@ -4131,15 +2704,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n263'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 1247, y: -516}
 		, _classes: 'stat'
@@ -4147,15 +2714,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n264'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 1513, y: -516}
 		, _classes: 'stat'
@@ -4163,14 +2724,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n265'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 15
-				, luck: 15
-				}
+			, _give: {prestige: 15, luck: 15}
 			}
 		, _position: {x: 1513, y: -684}
 		, _classes: 'stat'
@@ -4178,9 +2734,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n250'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина разрушения'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'destroy'
@@ -4193,14 +2747,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n267'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: 1285, y: -1420}
 		, _classes: 'stat'
@@ -4208,15 +2757,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n268'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1285, y: -1300}
 		, _classes: 'stat'
@@ -4224,14 +2767,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n269'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
 		, _position: {x: 1475, y: -1300}
 		, _classes: 'stat'
@@ -4239,14 +2777,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n270'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: -180
-				}
+			, _give: {prestige: 30, majesty: -180}
 			}
 		, _position: {x: 1475, y: -1420}
 		, _classes: 'stat'
@@ -4254,14 +2787,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n271'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, luck: 47
-				}
+			, _give: {prestige: 47, luck: 47}
 			}
 		, _position: {x: 1319, y: -1470}
 		, _classes: 'stat'
@@ -4269,15 +2797,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n272'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1441, y: -1470}
 		, _classes: 'stat'
@@ -4285,14 +2807,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n273'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: 1319, y: -1250}
 		, _classes: 'stat'
@@ -4300,15 +2817,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n274'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1441, y: -1250}
 		, _classes: 'stat'
@@ -4316,15 +2827,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n275'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1380, y: -1470}
 		, _classes: 'stat'
@@ -4332,15 +2837,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n276'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1380, y: -1250}
 		, _classes: 'stat'
@@ -4348,15 +2847,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n277'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1247, y: -1444}
 		, _classes: 'stat'
@@ -4364,15 +2857,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n278'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1247, y: -1276}
 		, _classes: 'stat'
@@ -4380,14 +2867,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n279'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: -180
-				}
+			, _give: {prestige: 30, majesty: -180}
 			}
 		, _position: {x: 1513, y: -1276}
 		, _classes: 'stat'
@@ -4395,14 +2877,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n280'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: 1513, y: -1444}
 		, _classes: 'stat'
@@ -4410,14 +2887,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n281'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, luck: 47
-				}
+			, _give: {prestige: 47, luck: 47}
 			}
 		, _position: {x: 1245, y: -1360}
 		, _classes: 'stat'
@@ -4425,15 +2897,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n282'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1515, y: -1360}
 		, _classes: 'stat'
@@ -4441,9 +2907,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n266'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Максимальная отдача'
 			, _description:
 				'Критический урон увеличен на 10% за каждый уровень этого '+
@@ -4458,15 +2922,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n284'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1380, y: -1680}
 		, _classes: 'stat'
@@ -4474,15 +2932,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n285'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1432, y: -1770}
 		, _classes: 'stat'
@@ -4490,15 +2942,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n286'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1328, y: -1770}
 		, _classes: 'stat'
@@ -4506,14 +2952,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n287'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
 		, _position: {x: 1285, y: -1800}
 		, _classes: 'stat'
@@ -4521,14 +2962,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n288'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: -180
-				}
+			, _give: {prestige: 30, majesty: -180}
 			}
 		, _position: {x: 1285, y: -1680}
 		, _classes: 'stat'
@@ -4536,14 +2972,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n289'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, valor: 35
-				}
+			, _give: {prestige: 35, valor: 35}
 			}
 		, _position: {x: 1475, y: -1680}
 		, _classes: 'stat'
@@ -4551,15 +2982,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n290'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1475, y: -1800}
 		, _classes: 'stat'
@@ -4567,15 +2992,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n291'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1319, y: -1850}
 		, _classes: 'stat'
@@ -4583,14 +3002,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n292'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, valor: 47
-				}
+			, _give: {prestige: 47, valor: 47}
 			}
 		, _position: {x: 1441, y: -1850}
 		, _classes: 'stat'
@@ -4598,15 +3012,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n293'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1319, y: -1630}
 		, _classes: 'stat'
@@ -4614,15 +3022,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n294'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1441, y: -1630}
 		, _classes: 'stat'
@@ -4630,15 +3032,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n295'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1380, y: -1850}
 		, _classes: 'stat'
@@ -4646,15 +3042,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n296'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1380, y: -1630}
 		, _classes: 'stat'
@@ -4662,15 +3052,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n297'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1245, y: -1740}
 		, _classes: 'stat'
@@ -4678,15 +3062,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n298'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1515, y: -1740}
 		, _classes: 'stat'
@@ -4694,9 +3072,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n283'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Кинетик'
 			, _description:
 				'Кинетик, оперируя особым типом энергии, способен навести '+
@@ -4716,15 +3092,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n300'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 960, y: -1300}
 		, _classes: 'stat'
@@ -4732,15 +3102,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n301'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1012, y: -1390}
 		, _classes: 'stat'
@@ -4748,15 +3112,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n302'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 908, y: -1390}
 		, _classes: 'stat'
@@ -4764,15 +3122,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n303'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 865, y: -1420}
 		, _classes: 'stat'
@@ -4780,15 +3132,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n304'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 22
-				, power: 22
-				, dex: 12
-				}
+			, _give: {prestige: 22, power: 22, dex: 12}
 			}
 		, _position: {x: 865, y: -1300}
 		, _classes: 'stat'
@@ -4796,15 +3142,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n305'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1055, y: -1300}
 		, _classes: 'stat'
@@ -4812,15 +3152,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n306'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1055, y: -1420}
 		, _classes: 'stat'
@@ -4828,15 +3162,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n307'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 899, y: -1470}
 		, _classes: 'stat'
@@ -4844,15 +3172,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n308'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1021, y: -1470}
 		, _classes: 'stat'
@@ -4860,14 +3182,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n309'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: -240
-				}
+			, _give: {prestige: 30, majesty: -240}
 			}
 		, _position: {x: 899, y: -1250}
 		, _classes: 'stat'
@@ -4875,15 +3192,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n310'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1021, y: -1250}
 		, _classes: 'stat'
@@ -4891,14 +3202,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n311'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: -240
-				}
+			, _give: {prestige: 30, majesty: -240}
 			}
 		, _position: {x: 960, y: -1470}
 		, _classes: 'stat'
@@ -4906,15 +3212,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n312'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 960, y: -1250}
 		, _classes: 'stat'
@@ -4922,15 +3222,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n313'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 825, y: -1360}
 		, _classes: 'stat'
@@ -4938,15 +3232,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n314'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1095, y: -1360}
 		, _classes: 'stat'
@@ -4954,9 +3242,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n299'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Защитный рефлекс'
 			, _description:
 				'Персонаж получает на 10% меньше урона за каждый уровень этого '+
@@ -4974,15 +3260,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n316'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 820, y: -1680}
 		, _classes: 'stat'
@@ -4990,15 +3270,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n317'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 872, y: -1770}
 		, _classes: 'stat'
@@ -5006,15 +3280,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n318'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 768, y: -1770}
 		, _classes: 'stat'
@@ -5022,15 +3290,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n319'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 725, y: -1800}
 		, _classes: 'stat'
@@ -5038,14 +3300,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n320'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 725, y: -1680}
 		, _classes: 'stat'
@@ -5053,15 +3310,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n321'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 915, y: -1680}
 		, _classes: 'stat'
@@ -5069,15 +3320,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n322'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 915, y: -1800}
 		, _classes: 'stat'
@@ -5085,14 +3330,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n323'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 759, y: -1850}
 		, _classes: 'stat'
@@ -5100,14 +3340,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n324'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 881, y: -1850}
 		, _classes: 'stat'
@@ -5115,15 +3350,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n325'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 759, y: -1630}
 		, _classes: 'stat'
@@ -5131,14 +3360,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n326'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 881, y: -1630}
 		, _classes: 'stat'
@@ -5146,15 +3370,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n327'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 820, y: -1850}
 		, _classes: 'stat'
@@ -5162,15 +3380,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n328'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 820, y: -1897}
 		, _classes: 'stat'
@@ -5178,15 +3390,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n329'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 820, y: -1583}
 		, _classes: 'stat'
@@ -5194,9 +3400,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n315'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина созидания'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'create'
@@ -5209,15 +3413,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n331'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1800, y: -1300}
 		, _classes: 'stat'
@@ -5225,15 +3423,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n332'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 112
-				}
+			, _give: {prestige: 25, power: 25, dex: 112}
 			}
 		, _position: {x: 1852, y: -1390}
 		, _classes: 'stat'
@@ -5241,15 +3433,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n333'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1748, y: -1390}
 		, _classes: 'stat'
@@ -5257,15 +3443,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n334'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1739, y: -1470}
 		, _classes: 'stat'
@@ -5273,15 +3453,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n335'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1861, y: -1470}
 		, _classes: 'stat'
@@ -5289,15 +3463,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n336'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1739, y: -1250}
 		, _classes: 'stat'
@@ -5305,15 +3473,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n337'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex:9
-				}
+			, _give: {prestige: 27, vit: 27, dex:9}
 			}
 		, _position: {x: 1861, y: -1250}
 		, _classes: 'stat'
@@ -5321,14 +3483,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n338'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: -180
-				}
+			, _give: {prestige: 30, majesty: -180}
 			}
 		, _position: {x: 1800, y: -1517}
 		, _classes: 'stat'
@@ -5336,14 +3493,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n339'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, valor: 47
-				}
+			, _give: {prestige: 47, valor: 47}
 			}
 		, _position: {x: 1800, y: -1203}
 		, _classes: 'stat'
@@ -5351,15 +3503,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n340'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1667, y: -1444}
 		, _classes: 'stat'
@@ -5367,15 +3513,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n341'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1667, y: -1276}
 		, _classes: 'stat'
@@ -5383,15 +3523,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n342'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1933, y: -1276}
 		, _classes: 'stat'
@@ -5399,15 +3533,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n343'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1933, y: -1444}
 		, _classes: 'stat'
@@ -5415,15 +3543,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n344'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1665, y: -1360}
 		, _classes: 'stat'
@@ -5431,15 +3553,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n345'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1935, y: -1360}
 		, _classes: 'stat'
@@ -5447,9 +3563,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n330'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Отчаянное сопротивление'
 			, _description:
 				'Получаемые эффекты замедления ослаблены на 15% за каждый '+
@@ -5464,15 +3578,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n347'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1940, y: -1680}
 		, _classes: 'stat'
@@ -5480,15 +3588,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n348'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1992, y: -1770}
 		, _classes: 'stat'
@@ -5496,14 +3598,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n349'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 1888, y: -1770}
 		, _classes: 'stat'
@@ -5511,14 +3608,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n350'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 1845, y: -1800}
 		, _classes: 'stat'
@@ -5526,15 +3618,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n351'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1845, y: -1680}
 		, _classes: 'stat'
@@ -5542,15 +3628,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n352'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2035, y: -1680}
 		, _classes: 'stat'
@@ -5558,14 +3638,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n353'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 2035, y: -1800}
 		, _classes: 'stat'
@@ -5573,15 +3648,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n354'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1879, y: -1850}
 		, _classes: 'stat'
@@ -5589,15 +3658,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n355'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2001, y: -1850}
 		, _classes: 'stat'
@@ -5605,14 +3668,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n356'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 1879, y: -1630}
 		, _classes: 'stat'
@@ -5620,15 +3678,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n357'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 2001, y: -1630}
 		, _classes: 'stat'
@@ -5636,15 +3688,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n358'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1940, y: -1850}
 		, _classes: 'stat'
@@ -5652,15 +3698,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n359'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1940, y: -1897}
 		, _classes: 'stat'
@@ -5668,15 +3708,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n360'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1940, y: -1583}
 		, _classes: 'stat'
@@ -5684,9 +3718,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n346'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Тактическая защита'
 			, _description:
 				'Защита в ближнем бою увеличена на 5% за каждый уровень этого '+
@@ -5703,15 +3735,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n362'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1840, y: -390}
 		, _classes: 'stat'
@@ -5719,14 +3745,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n363'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, valor: 35
-				}
+			, _give: {prestige: 35, valor: 35}
 			}
 		, _position: {x: 1892, y: -480}
 		, _classes: 'stat'
@@ -5734,15 +3755,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n364'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1788, y: -480}
 		, _classes: 'stat'
@@ -5750,14 +3765,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n365'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1745, y: -510}
 		, _classes: 'stat'
@@ -5765,14 +3775,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n366'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
 		, _position: {x: 1745, y: -390}
 		, _classes: 'stat'
@@ -5780,15 +3785,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n367'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1935, y: -390}
 		, _classes: 'stat'
@@ -5796,15 +3795,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n368'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1935, y: -510}
 		, _classes: 'stat'
@@ -5812,15 +3805,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n369'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1779, y: -560}
 		, _classes: 'stat'
@@ -5828,15 +3815,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n370'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1901, y: -560}
 		, _classes: 'stat'
@@ -5844,14 +3825,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n371'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, valor: 47
-				}
+			, _give: {prestige: 47, valor: 47}
 			}
 		, _position: {x: 1779, y: -340}
 		, _classes: 'stat'
@@ -5859,14 +3835,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n372'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, valor: 47
-				}
+			, _give: {prestige: 47, valor: 47}
 			}
 		, _position: {x: 1901, y: -340}
 		, _classes: 'stat'
@@ -5874,14 +3845,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n373'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, valor: 6
-				}
+			, _give: {prestige: 35, valor: 6}
 			}
 		, _position: {x: 1840, y: -560}
 		, _classes: 'stat'
@@ -5889,15 +3855,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n374'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1840, y: -340}
 		, _classes: 'stat'
@@ -5905,14 +3865,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n375'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, valor: 35
-				}
+			, _give: {prestige: 35, valor: 35}
 			}
 		, _position: {x: 1705, y: -450}
 		, _classes: 'stat'
@@ -5920,14 +3875,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n376'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1975, y: -450}
 		, _classes: 'stat'
@@ -5935,9 +3885,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n361'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Мобилизация'
 			, _description:
 				'Дополнительный урон увеличен на 10% за каждый уровень этого '+
@@ -5952,15 +3900,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n378'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1840, y: 60}
 		, _classes: 'stat'
@@ -5968,14 +3910,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n379'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
 		, _position: {x: 1892, y: -30}
 		, _classes: 'stat'
@@ -5983,14 +3920,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n380'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
 		, _position: {x: 1788, y: -30}
 		, _classes: 'stat'
@@ -5998,15 +3930,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n381'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1745, y: -60}
 		, _classes: 'stat'
@@ -6014,14 +3940,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n382'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1745, y: 60}
 		, _classes: 'stat'
@@ -6029,15 +3950,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n383'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1935, y: 60}
 		, _classes: 'stat'
@@ -6045,14 +3960,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n384'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1935, y: -60}
 		, _classes: 'stat'
@@ -6060,14 +3970,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n385'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, valor: 35
-				}
+			, _give: {prestige: 35, valor: 35}
 			}
 		, _position: {x: 1779, y: -110}
 		, _classes: 'stat'
@@ -6075,15 +3980,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n386'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1901, y: -110}
 		, _classes: 'stat'
@@ -6091,15 +3990,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n387'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1779, y: 110}
 		, _classes: 'stat'
@@ -6107,15 +4000,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n388'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1901, y: 110}
 		, _classes: 'stat'
@@ -6123,15 +4010,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n389'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1840, y: -110}
 		, _classes: 'stat'
@@ -6139,15 +4020,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n390'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1840, y: -157}
 		, _classes: 'stat'
@@ -6155,15 +4030,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n391'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1840, y: 157}
 		, _classes: 'stat'
@@ -6171,9 +4040,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n377'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Призыв окулата'
 			, _description:
 				'Применение атакующих умений в бою с некоторой вероятностью '+
@@ -6189,15 +4056,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n393'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2070, y: -700}
 		, _classes: 'stat'
@@ -6205,14 +4066,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n394'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
 		, _position: {x: 2122, y: -790}
 		, _classes: 'stat'
@@ -6220,15 +4076,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n395'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2018, y: -790}
 		, _classes: 'stat'
@@ -6236,15 +4086,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n396'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1975, y: -820}
 		, _classes: 'stat'
@@ -6252,14 +4096,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n397'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
 		, _position: {x: 1975, y: -700}
 		, _classes: 'stat'
@@ -6267,15 +4106,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n398'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2165, y: -700}
 		, _classes: 'stat'
@@ -6283,15 +4116,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n399'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 2165, y: -820}
 		, _classes: 'stat'
@@ -6299,14 +4126,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n400'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, spirit: 47
-				}
+			, _give: {prestige: 47, spirit: 47}
 			}
 		, _position: {x: 2009, y: -870}
 		, _classes: 'stat'
@@ -6314,14 +4136,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n401'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2131, y: -870}
 		, _classes: 'stat'
@@ -6329,15 +4146,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n402'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2009, y: -650}
 		, _classes: 'stat'
@@ -6345,15 +4156,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n403'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2131, y: -650}
 		, _classes: 'stat'
@@ -6361,15 +4166,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n404'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 2070, y: -870}
 		, _classes: 'stat'
@@ -6377,14 +4176,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n405'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2070, y: -650}
 		, _classes: 'stat'
@@ -6392,15 +4186,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n406'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1935, y: -760}
 		, _classes: 'stat'
@@ -6408,15 +4196,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n407'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2205, y: -760}
 		, _classes: 'stat'
@@ -6424,9 +4206,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n392'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Мастер теней'
 			, _description:
 				'Этот коварный убийца, появляясь из ниоткуда и исчезая в никуда, '+
@@ -6448,15 +4228,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n409'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 1380, y: 660}
 		, _classes: 'stat'
@@ -6464,15 +4238,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n410'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 1432, y: 570}
 		, _classes: 'stat'
@@ -6480,15 +4248,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n411'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 125}
-			, _give:
-				{ prestige: 12
-				, vit: 12
-				, dex: 5
-				}
+			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
 		, _position: {x: 1328, y: 570}
 		, _classes: 'stat'
@@ -6496,15 +4258,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n412'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 1319, y: 490}
 		, _classes: 'stat'
@@ -6512,15 +4268,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n413'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 150}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 1441, y: 490}
 		, _classes: 'stat'
@@ -6528,15 +4278,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n414'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 1319, y: 710}
 		, _classes: 'stat'
@@ -6544,15 +4288,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n415'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 1441, y: 710}
 		, _classes: 'stat'
@@ -6560,15 +4298,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n416'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 1380, y: 443}
 		, _classes: 'stat'
@@ -6576,14 +4308,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n417'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1380, y: 757}
 		, _classes: 'stat'
@@ -6591,15 +4318,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n418'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 155}
-			, _give:
-				{ prestige: 12
-				, power: 12
-				, dex: 6
-				}
+			, _give: {prestige: 12, power: 12, dex: 6}
 			}
 		, _position: {x: 1247, y: 516}
 		, _classes: 'stat'
@@ -6607,15 +4328,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n419'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 185}
-			, _give:
-				{ prestige: 16
-				, power: 16
-				, dex: 7
-				}
+			, _give: {prestige: 16, power: 16, dex: 7}
 			}
 		, _position: {x: 1247, y: 684}
 		, _classes: 'stat'
@@ -6623,15 +4338,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n420'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 115}
-			, _give:
-				{ prestige: 8
-				, power: 8
-				, dex: 5
-				}
+			, _give: {prestige: 8, power: 8, dex: 5}
 			}
 		, _position: {x: 1513, y: 684}
 		, _classes: 'stat'
@@ -6639,15 +4348,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n421'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 150}
-			, _give:
-				{ prestige: 18
-				, vit: 18
-				, dex: 6
-				}
+			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
 		, _position: {x: 1513, y: 516}
 		, _classes: 'stat'
@@ -6655,14 +4358,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n422'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1245, y: 600}
 		, _classes: 'stat'
@@ -6670,15 +4368,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n423'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 185}
-			, _give:
-				{ prestige: 24
-				, vit: 24
-				, dex: 7
-				}
+			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
 		, _position: {x: 1515, y: 600}
 		, _classes: 'stat'
@@ -6686,9 +4378,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n408'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина созидания'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'create'
@@ -6701,15 +4391,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n425'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1380, y: 1040}
 		, _classes: 'stat'
@@ -6717,15 +4401,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n426'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1432, y: 950}
 		, _classes: 'stat'
@@ -6733,14 +4411,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n427'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1328, y: 950}
 		, _classes: 'stat'
@@ -6748,15 +4421,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n428'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1285, y: 920}
 		, _classes: 'stat'
@@ -6764,14 +4431,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n429'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
 		, _position: {x: 1285, y: 1040}
 		, _classes: 'stat'
@@ -6779,15 +4441,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n430'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1475, y: 1040}
 		, _classes: 'stat'
@@ -6795,14 +4451,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n431'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
 		, _position: {x: 1475, y: 920}
 		, _classes: 'stat'
@@ -6810,14 +4461,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n432'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
 		, _position: {x: 1380, y: 870}
 		, _classes: 'stat'
@@ -6825,15 +4471,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n433'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1380, y: 1090}
 		, _classes: 'stat'
@@ -6841,15 +4481,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n434'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1380, y: 823}
 		, _classes: 'stat'
@@ -6857,14 +4491,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n435'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 1380, y: 1137}
 		, _classes: 'stat'
@@ -6872,14 +4501,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n436'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, str: 47
-				}
+			, _give: {prestige: 47, str: 47}
 			}
 		, _position: {x: 1247, y: 896}
 		, _classes: 'stat'
@@ -6887,15 +4511,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n437'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1247, y: 1064}
 		, _classes: 'stat'
@@ -6903,14 +4521,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n438'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, str: 47
-				}
+			, _give: {prestige: 47, str: 47}
 			}
 		, _position: {x: 1513, y: 1064}
 		, _classes: 'stat'
@@ -6918,14 +4531,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n439'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, str: 47
-				}
+			, _give: {prestige: 47, str: 47}
 			}
 		, _position: {x: 1513, y: 896}
 		, _classes: 'stat'
@@ -6933,9 +4541,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n424'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Предельная сила'
 			, _description:
 				'Влияние показателя силы на базовый урон увеличено на 10% за '+
@@ -6950,15 +4556,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n441'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 960, y: 1040}
 		, _classes: 'stat'
@@ -6966,15 +4566,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n442'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1012, y: 950}
 		, _classes: 'stat'
@@ -6982,14 +4576,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n443'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 908, y: 950}
 		, _classes: 'stat'
@@ -6997,15 +4586,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n444'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 865, y: 920}
 		, _classes: 'stat'
@@ -7013,15 +4596,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n445'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 865, y: 1040}
 		, _classes: 'stat'
@@ -7029,15 +4606,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n446'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1055, y: 1040}
 		, _classes: 'stat'
@@ -7045,14 +4616,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n447'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
 		, _position: {x: 1055, y: 920}
 		, _classes: 'stat'
@@ -7060,15 +4626,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n448'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 899, y: 870}
 		, _classes: 'stat'
@@ -7076,15 +4636,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n449'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1021, y: 870}
 		, _classes: 'stat'
@@ -7092,14 +4646,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n450'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 899, y: 1090}
 		, _classes: 'stat'
@@ -7107,15 +4656,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n451'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1021, y: 1090}
 		, _classes: 'stat'
@@ -7123,15 +4666,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n452'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 960, y: 870}
 		, _classes: 'stat'
@@ -7139,15 +4676,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n453'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 960, y: 1090}
 		, _classes: 'stat'
@@ -7155,14 +4686,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n454'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: 825, y: 980}
 		, _classes: 'stat'
@@ -7170,15 +4696,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n455'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1095, y: 980}
 		, _classes: 'stat'
@@ -7186,9 +4706,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n440'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Тактическая защита'
 			, _description:
 				'Защита в ближнем бою увеличена на 5% за каждый уровень этого '+
@@ -7205,14 +4723,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n457'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 820, y: 1420}
 		, _classes: 'stat'
@@ -7220,14 +4733,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n458'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 872, y: 1330}
 		, _classes: 'stat'
@@ -7235,15 +4743,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n459'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 768, y: 1330}
 		, _classes: 'stat'
@@ -7251,14 +4753,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n460'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 725, y: 1300}
 		, _classes: 'stat'
@@ -7266,15 +4763,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n461'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 725, y: 1420}
 		, _classes: 'stat'
@@ -7282,15 +4773,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n462'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 915, y: 1420}
 		, _classes: 'stat'
@@ -7298,15 +4783,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n463'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 915, y: 1300}
 		, _classes: 'stat'
@@ -7314,14 +4793,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n464'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 759, y: 1250}
 		, _classes: 'stat'
@@ -7329,15 +4803,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n465'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 881, y: 1250}
 		, _classes: 'stat'
@@ -7345,15 +4813,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n466'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 759, y: 1470}
 		, _classes: 'stat'
@@ -7361,15 +4823,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n467'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 881, y: 1470}
 		, _classes: 'stat'
@@ -7377,15 +4833,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n468'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 820, y: 1250}
 		, _classes: 'stat'
@@ -7393,15 +4843,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n469'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 820, y: 1203}
 		, _classes: 'stat'
@@ -7409,14 +4853,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n470'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 820, y: 1517}
 		, _classes: 'stat'
@@ -7424,9 +4863,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n456'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина разрушения'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'destroy'
@@ -7439,15 +4876,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n472'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1055, y: 1680}
 		, _classes: 'stat'
@@ -7455,15 +4886,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n473'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1055, y: 1800}
 		, _classes: 'stat'
@@ -7471,15 +4896,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n474'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1245, y: 1800}
 		, _classes: 'stat'
@@ -7487,15 +4906,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n475'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1245, y: 1680}
 		, _classes: 'stat'
@@ -7503,15 +4916,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n476'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1089, y: 1630}
 		, _classes: 'stat'
@@ -7519,15 +4926,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n477'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1211, y: 1630}
 		, _classes: 'stat'
@@ -7535,15 +4936,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n478'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1089, y: 1850}
 		, _classes: 'stat'
@@ -7551,15 +4946,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n479'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1211, y: 1850}
 		, _classes: 'stat'
@@ -7567,14 +4956,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n480'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 300
-				}
+			, _give: {prestige: 30, majesty: 300}
 			}
 		, _position: {x: 1150, y: 1630}
 		, _classes: 'stat'
@@ -7582,15 +4966,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n481'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1150, y: 1850}
 		, _classes: 'stat'
@@ -7598,14 +4976,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n482'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 1017, y: 1656}
 		, _classes: 'stat'
@@ -7613,15 +4986,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n483'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1017, y: 1824}
 		, _classes: 'stat'
@@ -7629,14 +4996,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n484'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 1283, y: 1824}
 		, _classes: 'stat'
@@ -7644,14 +5006,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n485'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, str: 75
-				}
+			, _give: {prestige: 75, str: 75}
 			}
 		, _position: {x: 1283, y: 1656}
 		, _classes: 'stat'
@@ -7659,14 +5016,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n486'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, luck: 75
-				}
+			, _give: {prestige: 75, luck: 75}
 			}
 		, _position: {x: 1015, y: 1740}
 		, _classes: 'stat'
@@ -7674,15 +5026,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n487'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1285, y: 1740}
 		, _classes: 'stat'
@@ -7690,9 +5036,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n471'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Замедляющие атаки'
 			, _description:
 				'Наносимые удары периодически снижают скорость передвижения '+
@@ -7708,15 +5052,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n489'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 690, y: 1800}
 		, _classes: 'stat'
@@ -7724,14 +5062,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n490'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 300
-				}
+			, _give: {prestige: 30, majesty: 300}
 			}
 		, _position: {x: 742, y: 1710}
 		, _classes: 'stat'
@@ -7739,14 +5072,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n491'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 638, y: 1710}
 		, _classes: 'stat'
@@ -7754,15 +5082,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n492'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 595, y: 1680}
 		, _classes: 'stat'
@@ -7770,15 +5092,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n493'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 595, y: 1800}
 		, _classes: 'stat'
@@ -7786,14 +5102,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n494'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 785, y: 1800}
 		, _classes: 'stat'
@@ -7801,15 +5112,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n495'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 785, y: 1680}
 		, _classes: 'stat'
@@ -7817,15 +5122,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n496'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 690, y: 1630}
 		, _classes: 'stat'
@@ -7833,14 +5132,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n497'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 690, y: 1850}
 		, _classes: 'stat'
@@ -7848,14 +5142,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n498'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 300
-				}
+			, _give: {prestige: 30, majesty: 300}
 			}
 		, _position: {x: 690, y: 1583}
 		, _classes: 'stat'
@@ -7863,15 +5152,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n499'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 690, y: 1897}
 		, _classes: 'stat'
@@ -7879,15 +5162,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n500'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 557, y: 1656}
 		, _classes: 'stat'
@@ -7895,15 +5172,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n501'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 557, y: 1824}
 		, _classes: 'stat'
@@ -7911,15 +5182,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n502'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 823, y: 1824}
 		, _classes: 'stat'
@@ -7927,15 +5192,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n503'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 823, y: 1656}
 		, _classes: 'stat'
@@ -7943,9 +5202,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n488'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Компрессионная травма'
 			, _description:
 				'При нанесении сокрущающего удара на противника накладывается '+
@@ -7961,15 +5218,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n505'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1745, y: 390}
 		, _classes: 'stat'
@@ -7977,15 +5228,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n506'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1745, y: 510}
 		, _classes: 'stat'
@@ -7993,14 +5238,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n507'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: 1935, y: 510}
 		, _classes: 'stat'
@@ -8008,15 +5248,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n508'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 1935, y: 390}
 		, _classes: 'stat'
@@ -8024,14 +5258,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n509'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 1779, y: 340}
 		, _classes: 'stat'
@@ -8039,15 +5268,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n510'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1901, y: 340}
 		, _classes: 'stat'
@@ -8055,14 +5278,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n511'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 1779, y: 560}
 		, _classes: 'stat'
@@ -8070,14 +5288,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n512'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
 		, _position: {x: 1901, y: 560}
 		, _classes: 'stat'
@@ -8085,14 +5298,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n513'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 1840, y: 340}
 		, _classes: 'stat'
@@ -8100,14 +5308,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n514'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, str: 47
-				}
+			, _give: {prestige: 47, str: 47}
 			}
 		, _position: {x: 1840, y: 560}
 		, _classes: 'stat'
@@ -8115,14 +5318,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n515'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, str: 47
-				}
+			, _give: {prestige: 47, str: 47}
 			}
 		, _position: {x: 1707, y: 366}
 		, _classes: 'stat'
@@ -8130,15 +5328,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n516'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1707, y: 534}
 		, _classes: 'stat'
@@ -8146,15 +5338,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n517'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1973, y: 534}
 		, _classes: 'stat'
@@ -8162,15 +5348,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n518'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1973, y: 366}
 		, _classes: 'stat'
@@ -8178,14 +5358,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n519'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1705, y: 450}
 		, _classes: 'stat'
@@ -8193,14 +5368,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n520'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1975, y: 450}
 		, _classes: 'stat'
@@ -8208,9 +5378,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n504'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Предельная сила'
 			, _description:
 				'Влияние показателя силы на базовый урон увеличено на 10% за '+
@@ -8225,15 +5393,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n522'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2070, y: 820}
 		, _classes: 'stat'
@@ -8241,15 +5403,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n523'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2122, y: 730}
 		, _classes: 'stat'
@@ -8257,15 +5413,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n524'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2018, y: 730}
 		, _classes: 'stat'
@@ -8273,15 +5423,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n525'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1975, y: 700}
 		, _classes: 'stat'
@@ -8289,15 +5433,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n526'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1975, y: 820}
 		, _classes: 'stat'
@@ -8305,14 +5443,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n527'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2165, y: 820}
 		, _classes: 'stat'
@@ -8320,14 +5453,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n528'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, luck: 47
-				}
+			, _give: {prestige: 47, luck: 47}
 			}
 		, _position: {x: 2165, y: 700}
 		, _classes: 'stat'
@@ -8335,14 +5463,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n529'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2009, y: 650}
 		, _classes: 'stat'
@@ -8350,15 +5473,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n530'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2131, y: 650}
 		, _classes: 'stat'
@@ -8366,15 +5483,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n531'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2009, y: 870}
 		, _classes: 'stat'
@@ -8382,15 +5493,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n532'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 2131, y: 870}
 		, _classes: 'stat'
@@ -8398,15 +5503,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n533'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2070, y: 650}
 		, _classes: 'stat'
@@ -8414,14 +5513,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n534'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 2070, y: 870}
 		, _classes: 'stat'
@@ -8429,14 +5523,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n535'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, str: 47
-				}
+			, _give: {prestige: 47, str: 47}
 			}
 		, _position: {x: 1935, y: 760}
 		, _classes: 'stat'
@@ -8444,15 +5533,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n536'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2205, y: 760}
 		, _classes: 'stat'
@@ -8460,9 +5543,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n521'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Лучница/Лучник'
 			, _description:
 				'Меткая лучница может поразить цели на огромной дистанции. В '+
@@ -8482,15 +5563,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n538'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, luck: 12
-				}
+			, _give: {prestige: 25, power: 25, luck: 12}
 			}
 		, _position: {x: 1380, y: 1420}
 		, _classes: 'stat'
@@ -8498,15 +5573,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n539'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1432, y: 1330}
 		, _classes: 'stat'
@@ -8514,15 +5583,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n540'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1328, y: 1330}
 		, _classes: 'stat'
@@ -8530,15 +5593,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n541'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1285, y: 1300}
 		, _classes: 'stat'
@@ -8546,15 +5603,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n542'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1285, y: 1420}
 		, _classes: 'stat'
@@ -8562,15 +5613,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n543'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1475, y: 1420}
 		, _classes: 'stat'
@@ -8578,15 +5623,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n544'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1475, y: 1300}
 		, _classes: 'stat'
@@ -8594,14 +5633,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n545'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1319, y: 1250}
 		, _classes: 'stat'
@@ -8609,15 +5643,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n546'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1441, y: 1250}
 		, _classes: 'stat'
@@ -8625,15 +5653,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n547'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1319, y: 1470}
 		, _classes: 'stat'
@@ -8641,14 +5663,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n548'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1441, y: 1470}
 		, _classes: 'stat'
@@ -8656,15 +5673,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n549'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1380, y: 1250}
 		, _classes: 'stat'
@@ -8672,15 +5683,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n550'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1380, y: 1470}
 		, _classes: 'stat'
@@ -8688,15 +5693,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n551'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1245, y: 1360}
 		, _classes: 'stat'
@@ -8704,15 +5703,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n552'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1515, y: 1360}
 		, _classes: 'stat'
@@ -8720,9 +5713,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n537'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Некромант'
 			, _description:
 				'Колдун, которому подвластна сама смерть. Своими зловещими '+
@@ -8741,15 +5732,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n554'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1055, y: -2180}
 		, _classes: 'stat'
@@ -8757,14 +5742,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n555'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 1055, y: -2060}
 		, _classes: 'stat'
@@ -8772,15 +5752,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n556'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1245, y: -2060}
 		, _classes: 'stat'
@@ -8788,15 +5762,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n557'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1245, y: -2180}
 		, _classes: 'stat'
@@ -8804,15 +5772,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n558'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1089, y: -2230}
 		, _classes: 'stat'
@@ -8820,14 +5782,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n559'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 1211, y: -2230}
 		, _classes: 'stat'
@@ -8835,14 +5792,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n560'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, str: 75
-				}
+			, _give: {prestige: 75, str: 75}
 			}
 		, _position: {x: 1089, y: -2010}
 		, _classes: 'stat'
@@ -8850,15 +5802,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n561'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1211, y: -2010}
 		, _classes: 'stat'
@@ -8866,15 +5812,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n562'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1150, y: -2230}
 		, _classes: 'stat'
@@ -8882,15 +5822,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n563'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1150, y: -2010}
 		, _classes: 'stat'
@@ -8898,15 +5832,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n564'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1017, y: -2204}
 		, _classes: 'stat'
@@ -8914,14 +5842,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n565'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 1017, y: -2036}
 		, _classes: 'stat'
@@ -8929,14 +5852,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n566'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 1283, y: -2036}
 		, _classes: 'stat'
@@ -8944,15 +5862,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n567'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1283, y: -2204}
 		, _classes: 'stat'
@@ -8960,15 +5872,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n568'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1015, y: -2120}
 		, _classes: 'stat'
@@ -8976,14 +5882,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n569'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 1285, y: -2120}
 		, _classes: 'stat'
@@ -8991,9 +5892,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n553'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Вынужденная передышка'
 			, _description:
 				'При получении замедляющего эффекта с вероятностью 20% '+
@@ -9008,15 +5907,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n571'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1610, y: -2060}
 		, _classes: 'stat'
@@ -9024,15 +5917,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n572'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1662, y: -2150}
 		, _classes: 'stat'
@@ -9040,15 +5927,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n573'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1558, y: -2150}
 		, _classes: 'stat'
@@ -9056,15 +5937,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n574'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1515, y: -2180}
 		, _classes: 'stat'
@@ -9072,15 +5947,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n575'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1515, y: -2060}
 		, _classes: 'stat'
@@ -9088,15 +5957,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n576'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1705, y: -2060}
 		, _classes: 'stat'
@@ -9104,14 +5967,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n577'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 1705, y: -2180}
 		, _classes: 'stat'
@@ -9119,15 +5977,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n578'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1610, y: -2230}
 		, _classes: 'stat'
@@ -9135,15 +5987,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n579'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1610, y: -2010}
 		, _classes: 'stat'
@@ -9151,15 +5997,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n580'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1610, y: -2277}
 		, _classes: 'stat'
@@ -9167,15 +6007,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n581'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1610, y: -1963}
 		, _classes: 'stat'
@@ -9183,14 +6017,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n582'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 1477, y: -2204}
 		, _classes: 'stat'
@@ -9198,14 +6027,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n583'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 1477, y: -2036}
 		, _classes: 'stat'
@@ -9213,14 +6037,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n584'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 1743, y: -2036}
 		, _classes: 'stat'
@@ -9228,14 +6047,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n585'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, valor: 6
-				}
+			, _give: {prestige: 75, valor: 6}
 			}
 		, _position: {x: 1743, y: -2204}
 		, _classes: 'stat'
@@ -9243,9 +6057,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n570'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Замедляющие атаки'
 			, _description:
 				'Наносимые удары периодически снижают скорость передвижения '+
@@ -9261,15 +6073,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n587'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: -230, y: 820}
 		, _classes: 'stat'
@@ -9277,15 +6083,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n588'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: -178, y: 730}
 		, _classes: 'stat'
@@ -9293,15 +6093,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n589'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: -282, y: 730}
 		, _classes: 'stat'
@@ -9309,14 +6103,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n590'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
 		, _position: {x: -325, y: 700}
 		, _classes: 'stat'
@@ -9324,15 +6113,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n591'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -325, y: 820}
 		, _classes: 'stat'
@@ -9340,15 +6123,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n592'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: -135, y: 820}
 		, _classes: 'stat'
@@ -9356,15 +6133,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n593'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: -135, y: 700}
 		, _classes: 'stat'
@@ -9372,15 +6143,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n594'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: -230, y: 650}
 		, _classes: 'stat'
@@ -9388,14 +6153,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n595'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: -230, y: 870}
 		, _classes: 'stat'
@@ -9403,14 +6163,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n596'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, spirit: 35
-				}
+			, _give: {prestige: 35, spirit: 35}
 			}
 		, _position: {x: -230, y: 603}
 		, _classes: 'stat'
@@ -9418,15 +6173,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n597'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: -230, y: 917}
 		, _classes: 'stat'
@@ -9434,15 +6183,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n598'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: -363, y: 676}
 		, _classes: 'stat'
@@ -9450,14 +6193,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n599'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: -363, y: 844}
 		, _classes: 'stat'
@@ -9465,14 +6203,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n600'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: -97, y: 844}
 		, _classes: 'stat'
@@ -9480,15 +6213,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n601'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -97, y: 676}
 		, _classes: 'stat'
@@ -9496,9 +6223,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n586'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина равновесия'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'balance'
@@ -9511,15 +6236,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n603'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: -360, y: 380}
 		, _classes: 'stat'
@@ -9527,15 +6246,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n604'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: -308, y: 290}
 		, _classes: 'stat'
@@ -9543,14 +6256,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n605'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, valor: 35
-				}
+			, _give: {prestige: 35, valor: 35}
 			}
 		, _position: {x: -412, y: 290}
 		, _classes: 'stat'
@@ -9558,15 +6266,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n606'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: -455, y: 260}
 		, _classes: 'stat'
@@ -9574,15 +6276,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n607'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: -455, y: 380}
 		, _classes: 'stat'
@@ -9590,14 +6286,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n608'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: -265, y: 380}
 		, _classes: 'stat'
@@ -9605,15 +6296,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n609'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: -265, y: 260}
 		, _classes: 'stat'
@@ -9621,15 +6306,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n610'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: -421, y: 210}
 		, _classes: 'stat'
@@ -9637,14 +6316,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n611'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: -299, y: 210}
 		, _classes: 'stat'
@@ -9652,15 +6326,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n612'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -421, y: 430}
 		, _classes: 'stat'
@@ -9668,15 +6336,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n613'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: -299, y: 430}
 		, _classes: 'stat'
@@ -9684,14 +6346,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n614'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
 		, _position: {x: -360, y: 210}
 		, _classes: 'stat'
@@ -9699,14 +6356,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n615'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, spirit: 47
-				}
+			, _give: {prestige: 47, spirit: 47}
 			}
 		, _position: {x: -360, y: 430}
 		, _classes: 'stat'
@@ -9714,15 +6366,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n616'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: -495, y: 320}
 		, _classes: 'stat'
@@ -9730,15 +6376,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n617'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -225, y: 320}
 		, _classes: 'stat'
@@ -9746,9 +6386,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n602'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Беспозадность'
 			, _description:
 				'Противники под эффектом оглущения, обездвиживания, страха или '+
@@ -9766,15 +6404,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n619'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: -360, y: -260}
 		, _classes: 'stat'
@@ -9782,15 +6414,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n620'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: -308, y: -350}
 		, _classes: 'stat'
@@ -9798,15 +6424,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n621'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: -412, y: -350}
 		, _classes: 'stat'
@@ -9814,14 +6434,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n622'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, str: 47
-				}
+			, _give: {prestige: 47, str: 47}
 			}
 		, _position: {x: -455, y: -380}
 		, _classes: 'stat'
@@ -9829,15 +6444,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n623'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: -455, y: -260}
 		, _classes: 'stat'
@@ -9845,14 +6454,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n624'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: -265, y: -260}
 		, _classes: 'stat'
@@ -9860,15 +6464,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n625'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: -265, y: -380}
 		, _classes: 'stat'
@@ -9876,15 +6474,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n626'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -421, y: -430}
 		, _classes: 'stat'
@@ -9892,14 +6484,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n627'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
 		, _position: {x: -299, y: -430}
 		, _classes: 'stat'
@@ -9907,14 +6494,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n628'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: -421, y: -210}
 		, _classes: 'stat'
@@ -9922,15 +6504,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n629'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -299, y: -210}
 		, _classes: 'stat'
@@ -9938,14 +6514,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n630'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: -360, y: -430}
 		, _classes: 'stat'
@@ -9953,15 +6524,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n631'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: -360, y: -210}
 		, _classes: 'stat'
@@ -9969,15 +6534,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n632'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -495, y: -320}
 		, _classes: 'stat'
@@ -9985,15 +6544,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n633'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: -225, y: -320}
 		, _classes: 'stat'
@@ -10001,9 +6554,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n618'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Прилив адренална'
 			, _description:
 				'При получении урона скорость перемещения может увеличиться на '+
@@ -10022,15 +6573,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n635'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 350, y: 1260}
 		, _classes: 'stat'
@@ -10038,15 +6583,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n636'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 402, y: 1170}
 		, _classes: 'stat'
@@ -10054,14 +6593,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n637'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
 		, _position: {x: 298, y: 1170}
 		, _classes: 'stat'
@@ -10069,14 +6603,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n638'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, spirit: 47
-				}
+			, _give: {prestige: 47, spirit: 47}
 			}
 		, _position: {x: 289, y: 1090}
 		, _classes: 'stat'
@@ -10084,15 +6613,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n639'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 411, y: 1090}
 		, _classes: 'stat'
@@ -10100,14 +6623,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n640'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: 289, y: 1310}
 		, _classes: 'stat'
@@ -10115,15 +6633,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n641'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 411, y: 1310}
 		, _classes: 'stat'
@@ -10131,15 +6643,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n642'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 350, y: 1043}
 		, _classes: 'stat'
@@ -10147,14 +6653,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n643'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 350, y: 1357}
 		, _classes: 'stat'
@@ -10162,15 +6663,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n644'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 217, y: 1116}
 		, _classes: 'stat'
@@ -10178,15 +6673,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n645'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 217, y: 1284}
 		, _classes: 'stat'
@@ -10194,15 +6683,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n646'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 483, y: 1284}
 		, _classes: 'stat'
@@ -10210,15 +6693,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n647'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 483, y: 1116}
 		, _classes: 'stat'
@@ -10226,15 +6703,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n648'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 215, y: 1200}
 		, _classes: 'stat'
@@ -10242,15 +6713,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n649'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 485, y: 1200}
 		, _classes: 'stat'
@@ -10258,9 +6723,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n634'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Защитный рефлекс'
 			, _description:
 				'Персонаж получает на 10% меньше урона за каждый уровень этого '+
@@ -10278,15 +6741,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n651'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -230, y: 1260}
 		, _classes: 'stat'
@@ -10294,15 +6751,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n652'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -178, y: 1170}
 		, _classes: 'stat'
@@ -10310,15 +6761,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n653'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -282, y: 1170}
 		, _classes: 'stat'
@@ -10326,15 +6771,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n654'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -325, y: 1140}
 		, _classes: 'stat'
@@ -10342,15 +6781,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n655'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -325, y: 1260}
 		, _classes: 'stat'
@@ -10358,15 +6791,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n656'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, luck: 24
-				}
+			, _give: {prestige: 40, power: 40, luck: 24}
 			}
 		, _position: {x: -135, y: 1260}
 		, _classes: 'stat'
@@ -10374,14 +6801,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n657'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -135, y: 1140}
 		, _classes: 'stat'
@@ -10389,15 +6811,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n658'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -291, y: 1090}
 		, _classes: 'stat'
@@ -10405,15 +6821,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n659'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -169, y: 1090}
 		, _classes: 'stat'
@@ -10421,14 +6831,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n660'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: -291, y: 1310}
 		, _classes: 'stat'
@@ -10436,15 +6841,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n661'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -169, y: 1310}
 		, _classes: 'stat'
@@ -10452,14 +6851,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n662'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: -230, y: 1090}
 		, _classes: 'stat'
@@ -10467,14 +6861,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n663'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, luck: 80
-				}
+			, _give: {prestige: 80, luck: 80}
 			}
 		, _position: {x: -230, y: 1043}
 		, _classes: 'stat'
@@ -10482,15 +6871,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n664'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -230, y: 1357}
 		, _classes: 'stat'
@@ -10498,9 +6881,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n650'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title:
 				'Талант: Волна: замедление'
 			, _description:
@@ -10521,15 +6902,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n666'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -785, y: 1140}
 		, _classes: 'stat'
@@ -10537,15 +6912,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n667'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -785, y: 1260}
 		, _classes: 'stat'
@@ -10553,15 +6922,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n668'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -595, y: 1260}
 		, _classes: 'stat'
@@ -10569,15 +6932,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n669'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -595, y: 1140}
 		, _classes: 'stat'
@@ -10585,14 +6942,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n670'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -751, y: 1090}
 		, _classes: 'stat'
@@ -10600,14 +6952,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n671'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: -629, y: 1090}
 		, _classes: 'stat'
@@ -10615,14 +6962,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n672'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -751, y: 1310}
 		, _classes: 'stat'
@@ -10630,15 +6972,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n673'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -629, y: 1310}
 		, _classes: 'stat'
@@ -10646,15 +6982,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n674'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -690, y: 1090}
 		, _classes: 'stat'
@@ -10662,14 +6992,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n675'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: -690, y: 1310}
 		, _classes: 'stat'
@@ -10677,15 +7002,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n676'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -823, y: 1116}
 		, _classes: 'stat'
@@ -10693,15 +7012,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n677'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -823, y: 1284}
 		, _classes: 'stat'
@@ -10709,15 +7022,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n678'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -557, y: 1284}
 		, _classes: 'stat'
@@ -10725,15 +7032,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n679'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -557, y: 1116}
 		, _classes: 'stat'
@@ -10741,15 +7042,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n680'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -825, y: 1200}
 		, _classes: 'stat'
@@ -10757,14 +7052,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n681'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 5
-				}
+			, _give: {prestige: 30, majesty: 5}
 			}
 		, _position: {x: -555, y: 1200}
 		, _classes: 'stat'
@@ -10772,9 +7062,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n665'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Равновесие'
 			, _description:
 				'Персонаж получает на 6% меньше урона за каждый уровень этого '+
@@ -10789,15 +7077,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n683'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1120, y: 1260}
 		, _classes: 'stat'
@@ -10805,15 +7087,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n684'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1068, y: 1170}
 		, _classes: 'stat'
@@ -10821,15 +7097,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n685'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1172, y: 1170}
 		, _classes: 'stat'
@@ -10837,15 +7107,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n686'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1215, y: 1140}
 		, _classes: 'stat'
@@ -10853,14 +7117,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n687'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1215, y: 1260}
 		, _classes: 'stat'
@@ -10868,15 +7127,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n688'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1025, y: 1260}
 		, _classes: 'stat'
@@ -10884,14 +7137,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n689'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: -1025, y: 1140}
 		, _classes: 'stat'
@@ -10899,15 +7147,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n690'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1181, y: 1090}
 		, _classes: 'stat'
@@ -10915,15 +7157,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n691'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1059, y: 1090}
 		, _classes: 'stat'
@@ -10931,15 +7167,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n692'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1181, y: 1310}
 		, _classes: 'stat'
@@ -10947,14 +7177,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n693'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: -1059, y: 1310}
 		, _classes: 'stat'
@@ -10962,14 +7187,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n694'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: -1120, y: 1090}
 		, _classes: 'stat'
@@ -10977,14 +7197,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n695'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -1120, y: 1310}
 		, _classes: 'stat'
@@ -10992,15 +7207,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n696'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1255, y: 1200}
 		, _classes: 'stat'
@@ -11008,14 +7217,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n697'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -985, y: 1200}
 		, _classes: 'stat'
@@ -11023,9 +7227,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n682'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Монах'
 			, _description:
 				'Монах боевого ордена, он в совершенстве постиг дисциплину '+
@@ -11044,15 +7246,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n699'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -690, y: -1140}
 		, _classes: 'stat'
@@ -11060,15 +7256,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n700'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -638, y: -1230}
 		, _classes: 'stat'
@@ -11076,15 +7266,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n701'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -742, y: -1230}
 		, _classes: 'stat'
@@ -11092,15 +7276,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n702'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -751, y: -1310}
 		, _classes: 'stat'
@@ -11108,14 +7286,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n703'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: -629, y: -1310}
 		, _classes: 'stat'
@@ -11123,14 +7296,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n704'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: -751, y: -1090}
 		, _classes: 'stat'
@@ -11138,15 +7306,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n705'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -629, y: -1090}
 		, _classes: 'stat'
@@ -11154,15 +7316,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n706'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -690, y: -1357}
 		, _classes: 'stat'
@@ -11170,15 +7326,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n707'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -690, y: -1043}
 		, _classes: 'stat'
@@ -11186,14 +7336,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n708'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -823, y: -1284}
 		, _classes: 'stat'
@@ -11201,15 +7346,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n709'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -823, y: -1116}
 		, _classes: 'stat'
@@ -11217,15 +7356,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n710'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -557, y: -1116}
 		, _classes: 'stat'
@@ -11233,15 +7366,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n711'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -557, y: -1284}
 		, _classes: 'stat'
@@ -11249,15 +7376,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n712'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -825, y: -1200}
 		, _classes: 'stat'
@@ -11265,14 +7386,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n713'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -555, y: -1200}
 		, _classes: 'stat'
@@ -11280,9 +7396,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n698'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Повышенная боеготовность'
 			, _description:
 				'Боевые расходники восстанавливаются на 15/30% быстрее.'
@@ -11296,15 +7410,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n715'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1120, y: -1140}
 		, _classes: 'stat'
@@ -11312,15 +7420,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n716'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1068, y: -1230}
 		, _classes: 'stat'
@@ -11328,15 +7430,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n718'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1172, y: -1230}
 		, _classes: 'stat'
@@ -11344,15 +7440,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n719'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1215, y: -1260}
 		, _classes: 'stat'
@@ -11360,14 +7450,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n720'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1215, y: -1140}
 		, _classes: 'stat'
@@ -11375,15 +7460,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n721'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1025, y: -1140}
 		, _classes: 'stat'
@@ -11391,14 +7470,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n722'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: -1025, y: -1260}
 		, _classes: 'stat'
@@ -11406,15 +7480,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n723'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1181, y: -1310}
 		, _classes: 'stat'
@@ -11422,14 +7490,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n724'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1059, y: -1310}
 		, _classes: 'stat'
@@ -11437,15 +7500,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n725'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1181, y: -1090}
 		, _classes: 'stat'
@@ -11453,14 +7510,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n726'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, spirit: 80
-				}
+			, _give: {prestige: 80, spirit: 80}
 			}
 		, _position: {x: -1059, y: -1090}
 		, _classes: 'stat'
@@ -11468,15 +7520,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n727'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1120, y: -1310}
 		, _classes: 'stat'
@@ -11484,15 +7530,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n728'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1120, y: -1090}
 		, _classes: 'stat'
@@ -11500,14 +7540,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n729'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: -1255, y: -1200}
 		, _classes: 'stat'
@@ -11515,15 +7550,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n730'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -985, y: -1200}
 		, _classes: 'stat'
@@ -11531,9 +7560,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n714'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Алхимик'
 			, _description:
 				'Этот неутомимый гений многим может показаться странным, а '+
@@ -11555,15 +7582,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n732'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -790, y: 60}
 		, _classes: 'stat'
@@ -11571,15 +7592,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n733'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -738, y: -30}
 		, _classes: 'stat'
@@ -11587,15 +7602,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n734'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -842, y: -30}
 		, _classes: 'stat'
@@ -11603,14 +7612,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n735'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -885, y: -60}
 		, _classes: 'stat'
@@ -11618,15 +7622,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n736'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -885, y: 60}
 		, _classes: 'stat'
@@ -11634,14 +7632,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n737'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: -695, y: 60}
 		, _classes: 'stat'
@@ -11649,14 +7642,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n738'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: -695, y: -60}
 		, _classes: 'stat'
@@ -11664,15 +7652,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n739'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -851, y: -110}
 		, _classes: 'stat'
@@ -11680,15 +7662,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n740'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -729, y: -110}
 		, _classes: 'stat'
@@ -11696,14 +7672,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n741'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, valor: 75
-				}
+			, _give: {prestige: 75, valor: 75}
 			}
 		, _position: {x: -851, y: 110}
 		, _classes: 'stat'
@@ -11711,15 +7682,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n742'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -729, y: 110}
 		, _classes: 'stat'
@@ -11727,15 +7692,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n743'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -790, y: -110}
 		, _classes: 'stat'
@@ -11743,14 +7702,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n744'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -790, y: -157}
 		, _classes: 'stat'
@@ -11758,14 +7712,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n745'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: -790, y: 157}
 		, _classes: 'stat'
@@ -11773,9 +7722,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n731'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина равновесия'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'balance'
@@ -11788,15 +7735,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n747'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1315, y: -60}
 		, _classes: 'stat'
@@ -11804,15 +7745,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n748'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1315, y: 60}
 		, _classes: 'stat'
@@ -11820,15 +7755,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n749'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1125, y: 60}
 		, _classes: 'stat'
@@ -11836,15 +7765,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n750'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1125, y: -60}
 		, _classes: 'stat'
@@ -11852,14 +7775,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n751'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: -1281, y: -110}
 		, _classes: 'stat'
@@ -11867,15 +7785,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n752'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1159, y: -110}
 		, _classes: 'stat'
@@ -11883,15 +7795,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n753'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1281, y: 110}
 		, _classes: 'stat'
@@ -11899,15 +7805,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n754'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1159, y: 110}
 		, _classes: 'stat'
@@ -11915,15 +7815,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n755'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1220, y: -110}
 		, _classes: 'stat'
@@ -11931,15 +7825,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n756'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1220, y: 110}
 		, _classes: 'stat'
@@ -11947,14 +7835,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n757'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: -1353, y: -84}
 		, _classes: 'stat'
@@ -11962,15 +7845,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n758'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1353, y: 84}
 		, _classes: 'stat'
@@ -11978,15 +7855,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n759'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1087, y: 84}
 		, _classes: 'stat'
@@ -11994,15 +7865,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n760'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1087, y: -84}
 		, _classes: 'stat'
@@ -12010,14 +7875,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n761'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1355, y: 0}
 		, _classes: 'stat'
@@ -12025,14 +7885,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n762'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, luck: 75
-				}
+			, _give: {prestige: 75, luck: 75}
 			}
 		, _position: {x: -1085, y: 0}
 		, _classes: 'stat'
@@ -12040,9 +7895,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n746'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Элемент неожиданности'
 			, _description:
 				'В течение первых 8 секунд боя исходящий урон увеличен на 12% '+
@@ -12057,15 +7910,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n764'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1650, y: 60}
 		, _classes: 'stat'
@@ -12073,15 +7920,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n765'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1598, y: -30}
 		, _classes: 'stat'
@@ -12089,15 +7930,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n766'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1702, y: -30}
 		, _classes: 'stat'
@@ -12105,15 +7940,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n767'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1745, y: -60}
 		, _classes: 'stat'
@@ -12121,14 +7950,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n768'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: -1745, y: 60}
 		, _classes: 'stat'
@@ -12136,14 +7960,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n769'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: -1555, y: 60}
 		, _classes: 'stat'
@@ -12151,14 +7970,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n770'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: -1555, y: -60}
 		, _classes: 'stat'
@@ -12166,15 +7980,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n771'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1711, y: -110}
 		, _classes: 'stat'
@@ -12182,15 +7990,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n772'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1589, y: -110}
 		, _classes: 'stat'
@@ -12198,15 +8000,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n773'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1711, y: 110}
 		, _classes: 'stat'
@@ -12214,15 +8010,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n774'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1589, y: 110}
 		, _classes: 'stat'
@@ -12230,15 +8020,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n775'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1650, y: -110}
 		, _classes: 'stat'
@@ -12246,15 +8030,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n776'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1650, y: 110}
 		, _classes: 'stat'
@@ -12262,14 +8040,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n777'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -1785, y: 0}
 		, _classes: 'stat'
@@ -12277,14 +8050,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n778'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: -1515, y: 0}
 		, _classes: 'stat'
@@ -12292,9 +8060,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n763'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Штурмовик'
 			, _description:
 				'Штурмовик, боец дальней дистанции, доверяет только одному '+
@@ -12313,15 +8079,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n780'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -850, y: -590}
 		, _classes: 'stat'
@@ -12329,15 +8089,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n781'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -798, y: -680}
 		, _classes: 'stat'
@@ -12345,15 +8099,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n782'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -902, y: -680}
 		, _classes: 'stat'
@@ -12361,14 +8109,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n783'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -945, y: -710}
 		, _classes: 'stat'
@@ -12376,15 +8119,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n784'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -945, y: -590}
 		, _classes: 'stat'
@@ -12392,15 +8129,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n785'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -755, y: -590}
 		, _classes: 'stat'
@@ -12408,14 +8139,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n786'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -755, y: -710}
 		, _classes: 'stat'
@@ -12423,15 +8149,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n787'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -850, y: -760}
 		, _classes: 'stat'
@@ -12439,14 +8159,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n788'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: -850, y: -540}
 		, _classes: 'stat'
@@ -12454,14 +8169,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n789'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: -850, y: -807}
 		, _classes: 'stat'
@@ -12469,15 +8179,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n790'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -850, y: -493}
 		, _classes: 'stat'
@@ -12485,14 +8189,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n791'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -983, y: -734}
 		, _classes: 'stat'
@@ -12500,15 +8199,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n792'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -983, y: -566}
 		, _classes: 'stat'
@@ -12516,15 +8209,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n793'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -717, y: -566}
 		, _classes: 'stat'
@@ -12532,15 +8219,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n794'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 37
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 37, power: 27, dex: 18}
 			}
 		, _position: {x: -717, y: -734}
 		, _classes: 'stat'
@@ -12548,9 +8229,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n779'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Импульсный барьер'
 			, _description:
 				'При активации импульсного разряда персонаж на 3 секунды '+
@@ -12567,14 +8246,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n796'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -850, y: 710}
 		, _classes: 'stat'
@@ -12582,15 +8256,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n797'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -798, y: 620}
 		, _classes: 'stat'
@@ -12598,15 +8266,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n798'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -902, y: 620}
 		, _classes: 'stat'
@@ -12614,14 +8276,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n799'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, luck: 75
-				}
+			, _give: {prestige: 75, luck: 75}
 			}
 		, _position: {x: -911, y: 540}
 		, _classes: 'stat'
@@ -12629,14 +8286,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n800'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: -789, y: 540}
 		, _classes: 'stat'
@@ -12644,14 +8296,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n801'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: -911, y: 760}
 		, _classes: 'stat'
@@ -12659,15 +8306,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n802'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -789, y: 760}
 		, _classes: 'stat'
@@ -12675,15 +8316,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n803'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -850, y: 493}
 		, _classes: 'stat'
@@ -12691,15 +8326,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n804'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -850, y: 807}
 		, _classes: 'stat'
@@ -12707,14 +8336,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n805'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: -983, y: 566}
 		, _classes: 'stat'
@@ -12722,15 +8346,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n806'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -983, y: 734}
 		, _classes: 'stat'
@@ -12738,15 +8356,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n807'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -717, y: 734}
 		, _classes: 'stat'
@@ -12754,14 +8366,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n808'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -717, y: 566}
 		, _classes: 'stat'
@@ -12769,15 +8376,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n809'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -985, y: 650}
 		, _classes: 'stat'
@@ -12785,15 +8386,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n810'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -715, y: 650}
 		, _classes: 'stat'
@@ -12801,9 +8396,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n795'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Болезненные спазмы'
 			, _description:
 				'Импульсный урон накладывает на противника эффект, наносящий '+
@@ -12819,14 +8412,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n812'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 2410, y: -1200}
 		, _classes: 'stat'
@@ -12834,15 +8422,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n813'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2462, y: -1290}
 		, _classes: 'stat'
@@ -12850,15 +8432,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n814'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2358, y: -1290}
 		, _classes: 'stat'
@@ -12866,15 +8442,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n815'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2349, y: -1370}
 		, _classes: 'stat'
@@ -12882,14 +8452,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n816'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: 2471, y: -1370}
 		, _classes: 'stat'
@@ -12897,14 +8462,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n817'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 2349, y: -1150}
 		, _classes: 'stat'
@@ -12912,15 +8472,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n818'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 2471, y: -1150}
 		, _classes: 'stat'
@@ -12928,15 +8482,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n819'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2410, y: -1417}
 		, _classes: 'stat'
@@ -12944,15 +8492,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n820'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2410, y: -1103}
 		, _classes: 'stat'
@@ -12960,15 +8502,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n821'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2277, y: -1344}
 		, _classes: 'stat'
@@ -12976,15 +8512,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n822'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2277, y: -1176}
 		, _classes: 'stat'
@@ -12992,15 +8522,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n823'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 2543, y: -1176}
 		, _classes: 'stat'
@@ -13008,14 +8532,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n824'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 2543, y: -1344}
 		, _classes: 'stat'
@@ -13023,15 +8542,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n825'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2275, y: -1260}
 		, _classes: 'stat'
@@ -13039,15 +8552,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n826'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2545, y: -1260}
 		, _classes: 'stat'
@@ -13055,9 +8562,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n811'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Сотрясение'
 			, _description:
 				'Критические попадания оглушают противников на 2 секунды. '+
@@ -13073,15 +8578,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n828'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2775, y: -1420}
 		, _classes: 'stat'
@@ -13089,15 +8588,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n829'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2775, y: -1300}
 		, _classes: 'stat'
@@ -13105,15 +8598,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n830'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2965, y: -1300}
 		, _classes: 'stat'
@@ -13121,15 +8608,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n831'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 2965, y: -1420}
 		, _classes: 'stat'
@@ -13137,14 +8618,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n832'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: 2809, y: -1470}
 		, _classes: 'stat'
@@ -13152,15 +8628,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n833'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2931, y: -1470}
 		, _classes: 'stat'
@@ -13168,15 +8638,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n834'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2809, y: -1250}
 		, _classes: 'stat'
@@ -13184,15 +8648,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n835'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 2931, y: -1250}
 		, _classes: 'stat'
@@ -13200,15 +8658,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n836'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2870, y: -1470}
 		, _classes: 'stat'
@@ -13216,14 +8668,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n837'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2870, y: -1250}
 		, _classes: 'stat'
@@ -13231,15 +8678,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n838'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2737, y: -1444}
 		, _classes: 'stat'
@@ -13247,14 +8688,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n839'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 2737, y: -1276}
 		, _classes: 'stat'
@@ -13262,14 +8698,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n840'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3003, y: -1276}
 		, _classes: 'stat'
@@ -13277,15 +8708,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n841'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3003, y: -1444}
 		, _classes: 'stat'
@@ -13293,15 +8718,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n842'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2735, y: -1360}
 		, _classes: 'stat'
@@ -13309,14 +8728,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n843'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, spirit: 35
-				}
+			, _give: {prestige: 35, spirit: 35}
 			}
 		, _position: {x: 3005, y: -1360}
 		, _classes: 'stat'
@@ -13324,9 +8738,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n827'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина созидания'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'create'
@@ -13339,15 +8751,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n845'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2870, y: -920}
 		, _classes: 'stat'
@@ -13355,15 +8761,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n846'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2922, y: -1010}
 		, _classes: 'stat'
@@ -13371,14 +8771,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n847'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, spirit: 47
-				}
+			, _give: {prestige: 47, spirit: 47}
 			}
 		, _position: {x: 2818, y: -1010}
 		, _classes: 'stat'
@@ -13386,15 +8781,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n848'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2809, y: -1090}
 		, _classes: 'stat'
@@ -13402,15 +8791,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n849'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2931, y: -1090}
 		, _classes: 'stat'
@@ -13418,15 +8801,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n850'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2809, y: -870}
 		, _classes: 'stat'
@@ -13434,15 +8811,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n851'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2931, y: -870}
 		, _classes: 'stat'
@@ -13450,14 +8821,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n852'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, str: 80
-				}
+			, _give: {prestige: 80, str: 80}
 			}
 		, _position: {x: 2870, y: -1137}
 		, _classes: 'stat'
@@ -13465,14 +8831,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n853'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, str: 23
-				}
+			, _give: {prestige: 23, str: 23}
 			}
 		, _position: {x: 2870, y: -823}
 		, _classes: 'stat'
@@ -13480,15 +8841,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n854'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2737, y: -1064}
 		, _classes: 'stat'
@@ -13496,15 +8851,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n855'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2737, y: -896}
 		, _classes: 'stat'
@@ -13512,15 +8861,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n856'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 3003, y: -896}
 		, _classes: 'stat'
@@ -13528,14 +8871,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n857'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3003, y: -1064}
 		, _classes: 'stat'
@@ -13543,15 +8881,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n858'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2735, y: -980}
 		, _classes: 'stat'
@@ -13559,15 +8891,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n859'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 3005, y: -980}
 		, _classes: 'stat'
@@ -13575,9 +8901,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n844'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Волна: урон'
 			, _description:
 				'Использование атакующих способностей позволяет применить '+
@@ -13597,15 +8921,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n861'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2200, y: 60}
 		, _classes: 'stat'
@@ -13613,14 +8931,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n862'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2252, y: -30}
 		, _classes: 'stat'
@@ -13628,14 +8941,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n863'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
 		, _position: {x: 2148, y: -30}
 		, _classes: 'stat'
@@ -13643,15 +8951,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n864'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2139, y: -110}
 		, _classes: 'stat'
@@ -13659,15 +8961,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n865'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2261, y: -110}
 		, _classes: 'stat'
@@ -13675,15 +8971,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n866'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2139, y: 110}
 		, _classes: 'stat'
@@ -13691,14 +8981,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n867'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 2261, y: 110}
 		, _classes: 'stat'
@@ -13706,15 +8991,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n868'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2200, y: -157}
 		, _classes: 'stat'
@@ -13722,15 +9001,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n869'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2200, y: 157}
 		, _classes: 'stat'
@@ -13738,14 +9011,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n870'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: 2067, y: -84}
 		, _classes: 'stat'
@@ -13753,15 +9021,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n871'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2067, y: 84}
 		, _classes: 'stat'
@@ -13769,15 +9031,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n872'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 2333, y: 84}
 		, _classes: 'stat'
@@ -13785,15 +9041,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n873'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2333, y: -84}
 		, _classes: 'stat'
@@ -13801,14 +9051,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n874'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
 		, _position: {x: 2065, y: 0}
 		, _classes: 'stat'
@@ -13816,15 +9061,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n875'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2335, y: 0}
 		, _classes: 'stat'
@@ -13832,9 +9071,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n860'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Двойной разряд'
 			, _description:
 				'"Импульсный разряд" может быть активирован два раза подряд '+
@@ -13850,14 +9087,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n877'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
 		, _position: {x: 2565, y: -60}
 		, _classes: 'stat'
@@ -13865,14 +9097,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n878'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2565, y: 60}
 		, _classes: 'stat'
@@ -13880,15 +9107,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n879'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2755, y: 60}
 		, _classes: 'stat'
@@ -13896,15 +9117,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n880'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2755, y: -60}
 		, _classes: 'stat'
@@ -13912,14 +9127,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n881'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, valor: 47
-				}
+			, _give: {prestige: 47, valor: 47}
 			}
 		, _position: {x: 2599, y: -110}
 		, _classes: 'stat'
@@ -13927,15 +9137,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n882'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2721, y: -110}
 		, _classes: 'stat'
@@ -13943,15 +9147,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n883'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2599, y: 110}
 		, _classes: 'stat'
@@ -13959,15 +9157,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n884'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2721, y: 110}
 		, _classes: 'stat'
@@ -13975,15 +9167,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n885'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2660, y: -110}
 		, _classes: 'stat'
@@ -13991,15 +9177,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n886'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2660, y: 110}
 		, _classes: 'stat'
@@ -14007,15 +9187,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n887'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2527, y: -84}
 		, _classes: 'stat'
@@ -14023,15 +9197,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n888'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2527, y: 84}
 		, _classes: 'stat'
@@ -14039,15 +9207,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n889'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2793, y: 84}
 		, _classes: 'stat'
@@ -14055,14 +9217,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n890'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
 		, _position: {x: 2793, y: -84}
 		, _classes: 'stat'
@@ -14070,15 +9227,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n891'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 2525, y: 0}
 		, _classes: 'stat'
@@ -14086,14 +9237,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n892'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2795, y: 0}
 		, _classes: 'stat'
@@ -14101,9 +9247,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n876'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина разрушения'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'destroy'
@@ -14116,15 +9260,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n894'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 3120, y: 60}
 		, _classes: 'stat'
@@ -14132,15 +9270,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n895'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 3172, y: -30}
 		, _classes: 'stat'
@@ -14148,15 +9280,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n896'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3068, y: -30}
 		, _classes: 'stat'
@@ -14164,14 +9290,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n897'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
 		, _position: {x: 3025, y: -60}
 		, _classes: 'stat'
@@ -14179,14 +9300,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n898'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3025, y: 60}
 		, _classes: 'stat'
@@ -14194,14 +9310,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n899'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, spirit: 35
-				}
+			, _give: {prestige: 35, spirit: 35}
 			}
 		, _position: {x: 3215, y: 60}
 		, _classes: 'stat'
@@ -14209,14 +9320,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n900'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3215, y: -60}
 		, _classes: 'stat'
@@ -14224,14 +9330,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n901'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, spirit: 35
-				}
+			, _give: {prestige: 35, spirit: 35}
 			}
 		, _position: {x: 3120, y: -110}
 		, _classes: 'stat'
@@ -14239,15 +9340,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n902'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3120, y: 110}
 		, _classes: 'stat'
@@ -14255,15 +9350,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n903'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 3120, y: -157}
 		, _classes: 'stat'
@@ -14271,15 +9360,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n904'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3120, y: 157}
 		, _classes: 'stat'
@@ -14287,15 +9370,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n905'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2987, y: -84}
 		, _classes: 'stat'
@@ -14303,15 +9380,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n906'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2987, y: 84}
 		, _classes: 'stat'
@@ -14319,15 +9390,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n907'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 3253, y: 84}
 		, _classes: 'stat'
@@ -14335,15 +9400,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n908'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 3253, y: -84}
 		, _classes: 'stat'
@@ -14351,9 +9410,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n893'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина равновесия'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'balance'
@@ -14366,14 +9423,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n910'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3330, y: -1300}
 		, _classes: 'stat'
@@ -14381,15 +9433,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n911'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3382, y: -1390}
 		, _classes: 'stat'
@@ -14397,14 +9443,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n912'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3278, y: -1390}
 		, _classes: 'stat'
@@ -14412,14 +9453,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n913'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3235, y: -1420}
 		, _classes: 'stat'
@@ -14427,14 +9463,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n914'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3235, y: -1300}
 		, _classes: 'stat'
@@ -14442,14 +9473,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n915'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3425, y: -1300}
 		, _classes: 'stat'
@@ -14457,14 +9483,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n916'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3425, y: -1420}
 		, _classes: 'stat'
@@ -14472,15 +9493,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n917'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3330, y: -1470}
 		, _classes: 'stat'
@@ -14488,15 +9503,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n918'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3330, y: -1250}
 		, _classes: 'stat'
@@ -14504,15 +9513,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n919'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3330, y: -1517}
 		, _classes: 'stat'
@@ -14520,15 +9523,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n920'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3330, y: -1203}
 		, _classes: 'stat'
@@ -14536,14 +9533,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n921'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3197, y: -1444}
 		, _classes: 'stat'
@@ -14551,14 +9543,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n922'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3197, y: -1276}
 		, _classes: 'stat'
@@ -14566,15 +9553,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n923'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3463, y: -1276}
 		, _classes: 'stat'
@@ -14582,14 +9563,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n924'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 3463, y: -1444}
 		, _classes: 'stat'
@@ -14597,9 +9573,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n909'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Интенсивность импульса'
 			, _description:
 				'Импульсный урон увеличен на 10% за каждый уровень этого символа.'
@@ -14613,15 +9587,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n926'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3470, y: -920}
 		, _classes: 'stat'
@@ -14629,15 +9597,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n927'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3522, y: -1010}
 		, _classes: 'stat'
@@ -14645,15 +9607,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n928'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3418, y: -1010}
 		, _classes: 'stat'
@@ -14661,15 +9617,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n929'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3375, y: -1040}
 		, _classes: 'stat'
@@ -14677,15 +9627,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n930'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3375, y: -920}
 		, _classes: 'stat'
@@ -14693,15 +9637,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n931'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3565, y: -920}
 		, _classes: 'stat'
@@ -14709,14 +9647,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n932'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3565, y: -1040}
 		, _classes: 'stat'
@@ -14724,14 +9657,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n933'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 3409, y: -1090}
 		, _classes: 'stat'
@@ -14739,14 +9667,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n934'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 3531, y: -1090}
 		, _classes: 'stat'
@@ -14754,15 +9677,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n935'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3409, y: -870}
 		, _classes: 'stat'
@@ -14770,15 +9687,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n936'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3531, y: -870}
 		, _classes: 'stat'
@@ -14786,15 +9697,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n937'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3470, y: -1090}
 		, _classes: 'stat'
@@ -14802,14 +9707,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n938'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3470, y: -870}
 		, _classes: 'stat'
@@ -14817,14 +9717,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n939'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, valor: 75
-				}
+			, _give: {prestige: 75, valor: 75}
 			}
 		, _position: {x: 3335, y: -980}
 		, _classes: 'stat'
@@ -14832,15 +9727,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n940'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3605, y: -980}
 		, _classes: 'stat'
@@ -14848,9 +9737,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n925'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Богатырь/Воительница'
 			, _description:
 				'Эта могучая воительница находится в гуще сражения, а верный '+
@@ -14869,14 +9756,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n942'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3120, y: -390}
 		, _classes: 'stat'
@@ -14884,15 +9766,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n943'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3172, y: -480}
 		, _classes: 'stat'
@@ -14900,14 +9776,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n944'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, str: 47
-				}
+			, _give: {prestige: 47, str: 47}
 			}
 		, _position: {x: 3068, y: -480}
 		, _classes: 'stat'
@@ -14915,15 +9786,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n945'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3025, y: -510}
 		, _classes: 'stat'
@@ -14931,14 +9796,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n946'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 3025, y: -390}
 		, _classes: 'stat'
@@ -14946,15 +9806,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n947'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 3215, y: -390}
 		, _classes: 'stat'
@@ -14962,14 +9816,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n948'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, spirit: 23
-				}
+			, _give: {prestige: 23, spirit: 23}
 			}
 		, _position: {x: 3215, y: -510}
 		, _classes: 'stat'
@@ -14977,15 +9826,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n949'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 3059, y: -560}
 		, _classes: 'stat'
@@ -14993,15 +9836,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n950'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 3181, y: -560}
 		, _classes: 'stat'
@@ -15009,15 +9846,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n951'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 3059, y: -340}
 		, _classes: 'stat'
@@ -15025,15 +9856,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n952'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 3181, y: -340}
 		, _classes: 'stat'
@@ -15041,15 +9866,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n953'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 3120, y: -560}
 		, _classes: 'stat'
@@ -15057,15 +9876,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n954'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 3120, y: -607}
 		, _classes: 'stat'
@@ -15073,15 +9886,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n955'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3120, y: -293}
 		, _classes: 'stat'
@@ -15089,9 +9896,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n941'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Кредо защитника'
 			, _description:
 				'Входящие урон уменьшен на 5% за каждый ранг этого символа.</p>'+
@@ -15106,15 +9911,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n957'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1705, y: 920}
 		, _classes: 'stat'
@@ -15122,14 +9921,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n958'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1705, y: 1040}
 		, _classes: 'stat'
@@ -15137,15 +9931,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n959'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1895, y: 1040}
 		, _classes: 'stat'
@@ -15153,15 +9941,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n960'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 0
-				}
+			, _give: {prestige: 27, vit: 27, dex: 0}
 			}
 		, _position: {x: 1895, y: 920}
 		, _classes: 'stat'
@@ -15169,15 +9951,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n962'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1739, y: 870}
 		, _classes: 'stat'
@@ -15185,15 +9961,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n963'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 1861, y: 870}
 		, _classes: 'stat'
@@ -15201,15 +9971,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n964'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 1739, y: 1090}
 		, _classes: 'stat'
@@ -15217,14 +9981,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n965'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, valor: 23
-				}
+			, _give: {prestige: 23, valor: 23}
 			}
 		, _position: {x: 1861, y: 1090}
 		, _classes: 'stat'
@@ -15232,15 +9991,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n966'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1800, y: 870}
 		, _classes: 'stat'
@@ -15248,15 +10001,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n967'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1800, y: 1090}
 		, _classes: 'stat'
@@ -15264,14 +10011,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n968'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, valor: 35
-				}
+			, _give: {prestige: 35, valor: 35}
 			}
 		, _position: {x: 1667, y: 896}
 		, _classes: 'stat'
@@ -15279,15 +10021,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n969'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 1667, y: 1064}
 		, _classes: 'stat'
@@ -15295,15 +10031,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n970'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 1933, y: 1064}
 		, _classes: 'stat'
@@ -15311,14 +10041,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n971'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, valor: 35
-				}
+			, _give: {prestige: 35, valor: 35}
 			}
 		, _position: {x: 1933, y: 896}
 		, _classes: 'stat'
@@ -15326,15 +10051,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n972'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 1665, y: 980}
 		, _classes: 'stat'
@@ -15342,14 +10061,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n973'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 1935, y: 980}
 		, _classes: 'stat'
@@ -15357,9 +10071,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n956'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Импульсный барьер'
 			, _description:
 				'При активации импульсного разряда персонаж на 3 секунды '+
@@ -15376,15 +10088,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n975'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1940, y: 1420}
 		, _classes: 'stat'
@@ -15392,15 +10098,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n976'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1992, y: 1330}
 		, _classes: 'stat'
@@ -15408,15 +10108,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n977'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1888, y: 1330}
 		, _classes: 'stat'
@@ -15424,15 +10118,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n978'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1845, y: 1300}
 		, _classes: 'stat'
@@ -15440,14 +10128,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n979'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 1845, y: 1420}
 		, _classes: 'stat'
@@ -15455,15 +10138,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n980'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2035, y: 1420}
 		, _classes: 'stat'
@@ -15471,14 +10148,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n981'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 2035, y: 1300}
 		, _classes: 'stat'
@@ -15486,15 +10158,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n982'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1879, y: 1250}
 		, _classes: 'stat'
@@ -15502,15 +10168,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n983'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 2001, y: 1250}
 		, _classes: 'stat'
@@ -15518,15 +10178,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n984'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1879, y: 1470}
 		, _classes: 'stat'
@@ -15534,15 +10188,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n985'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 2001, y: 1470}
 		, _classes: 'stat'
@@ -15550,14 +10198,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n986'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 1940, y: 1250}
 		, _classes: 'stat'
@@ -15565,15 +10208,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n987'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1940, y: 1203}
 		, _classes: 'stat'
@@ -15581,14 +10218,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n988'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 1940, y: 1517}
 		, _classes: 'stat'
@@ -15596,9 +10228,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n974'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Отчаянное сопротивление'
 			, _description:
 				'Получаемые эффекты замедления ослаблены на 15% за каждый '+
@@ -15613,15 +10243,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n990'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2410, y: 1320}
 		, _classes: 'stat'
@@ -15629,14 +10253,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n991'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2462, y: 1230}
 		, _classes: 'stat'
@@ -15644,15 +10263,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n992'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2358, y: 1230}
 		, _classes: 'stat'
@@ -15660,14 +10273,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n993'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, spirit: 35
-				}
+			, _give: {prestige: 35, spirit: 35}
 			}
 		, _position: {x: 2315, y: 1200}
 		, _classes: 'stat'
@@ -15675,15 +10283,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n994'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 6
-				}
+			, _give: {prestige: 17, power: 17, dex: 6}
 			}
 		, _position: {x: 2315, y: 1320}
 		, _classes: 'stat'
@@ -15691,15 +10293,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n995'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2505, y: 1320}
 		, _classes: 'stat'
@@ -15707,15 +10303,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n996'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2505, y: 1200}
 		, _classes: 'stat'
@@ -15723,14 +10313,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n997'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, luck: 35
-				}
+			, _give: {prestige: 35, luck: 35}
 			}
 		, _position: {x: 2410, y: 1150}
 		, _classes: 'stat'
@@ -15738,15 +10323,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n998'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 2410, y: 1370}
 		, _classes: 'stat'
@@ -15754,15 +10333,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n999'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2410, y: 1103}
 		, _classes: 'stat'
@@ -15770,15 +10343,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1000'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2410, y: 1417}
 		, _classes: 'stat'
@@ -15786,15 +10353,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1001'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2277, y: 1176}
 		, _classes: 'stat'
@@ -15802,15 +10363,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1002'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 2277, y: 1344}
 		, _classes: 'stat'
@@ -15818,14 +10373,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1003'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, spirit: 47
-				}
+			, _give: {prestige: 47, spirit: 47}
 			}
 		, _position: {x: 2543, y: 1344}
 		, _classes: 'stat'
@@ -15833,15 +10383,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1004'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2543, y: 1176}
 		, _classes: 'stat'
@@ -15849,9 +10393,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n989'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Рваная рана'
 			, _description:
 				'Критический урон накладывает на противника эффект, наносящий '+
@@ -15867,15 +10409,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1006'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2870, y: 1420}
 		, _classes: 'stat'
@@ -15883,14 +10419,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1007'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 2922, y: 1330}
 		, _classes: 'stat'
@@ -15898,14 +10429,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1008'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, str: 47
-				}
+			, _give: {prestige: 47, str: 47}
 			}
 		, _position: {x: 2818, y: 1330}
 		, _classes: 'stat'
@@ -15913,15 +10439,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1009'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2809, y: 1250}
 		, _classes: 'stat'
@@ -15929,15 +10449,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1010'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2931, y: 1250}
 		, _classes: 'stat'
@@ -15945,14 +10459,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1011'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, spirit: 35
-				}
+			, _give: {prestige: 35, spirit: 35}
 			}
 		, _position: {x: 2809, y: 1470}
 		, _classes: 'stat'
@@ -15960,15 +10469,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1012'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 2931, y: 1470}
 		, _classes: 'stat'
@@ -15976,14 +10479,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1013'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2870, y: 1203}
 		, _classes: 'stat'
@@ -15991,15 +10489,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1014'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2870, y: 1517}
 		, _classes: 'stat'
@@ -16007,15 +10499,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1015'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2737, y: 1276}
 		, _classes: 'stat'
@@ -16023,15 +10509,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1016'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2737, y: 1444}
 		, _classes: 'stat'
@@ -16039,14 +10519,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1017'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3003, y: 1444}
 		, _classes: 'stat'
@@ -16054,15 +10529,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1018'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3003, y: 1276}
 		, _classes: 'stat'
@@ -16070,15 +10539,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1019'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2735, y: 1360}
 		, _classes: 'stat'
@@ -16086,15 +10549,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1020'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 3005, y: 1360}
 		, _classes: 'stat'
@@ -16102,9 +10559,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1005'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина созидания'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'create'
@@ -16117,14 +10572,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1022'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 3330, y: 1420}
 		, _classes: 'stat'
@@ -16132,15 +10582,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1023'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3382, y: 1330}
 		, _classes: 'stat'
@@ -16148,15 +10592,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1024'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3278, y: 1330}
 		, _classes: 'stat'
@@ -16164,15 +10602,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1025'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3235, y: 1300}
 		, _classes: 'stat'
@@ -16180,14 +10612,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1026'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 3235, y: 1420}
 		, _classes: 'stat'
@@ -16195,15 +10622,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1027'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3425, y: 1420}
 		, _classes: 'stat'
@@ -16211,14 +10632,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1028'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3425, y: 1300}
 		, _classes: 'stat'
@@ -16226,14 +10642,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1029'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3330, y: 1250}
 		, _classes: 'stat'
@@ -16241,14 +10652,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1030'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 3330, y: 1470}
 		, _classes: 'stat'
@@ -16256,15 +10662,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1031'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3330, y: 1203}
 		, _classes: 'stat'
@@ -16272,14 +10672,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1032'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 3330, y: 1517}
 		, _classes: 'stat'
@@ -16287,14 +10682,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1033'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 3197, y: 1276}
 		, _classes: 'stat'
@@ -16302,14 +10692,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1034'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 3197, y: 1444}
 		, _classes: 'stat'
@@ -16317,15 +10702,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1035'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3463, y: 1444}
 		, _classes: 'stat'
@@ -16333,15 +10712,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1036'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 3463, y: 1276}
 		, _classes: 'stat'
@@ -16349,9 +10722,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1021'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Мобилизация'
 			, _description:
 				'Дополнительный урон увеличен на 10% за каждый уровень этого '+
@@ -16366,15 +10737,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1038'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3470, y: 1040}
 		, _classes: 'stat'
@@ -16382,15 +10747,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1039'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3522, y: 950}
 		, _classes: 'stat'
@@ -16398,15 +10757,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1040'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3418, y: 950}
 		, _classes: 'stat'
@@ -16414,14 +10767,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1041'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3375, y: 920}
 		, _classes: 'stat'
@@ -16429,15 +10777,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1042'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3375, y: 1040}
 		, _classes: 'stat'
@@ -16445,15 +10787,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1043'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3565, y: 1040}
 		, _classes: 'stat'
@@ -16461,15 +10797,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1044'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3565, y: 920}
 		, _classes: 'stat'
@@ -16477,14 +10807,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1045'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 3409, y: 870}
 		, _classes: 'stat'
@@ -16492,15 +10817,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1046'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3531, y: 870}
 		, _classes: 'stat'
@@ -16508,14 +10827,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1047'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: 3409, y: 1090}
 		, _classes: 'stat'
@@ -16523,15 +10837,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1048'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3531, y: 1090}
 		, _classes: 'stat'
@@ -16539,14 +10847,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1049'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3470, y: 870}
 		, _classes: 'stat'
@@ -16554,14 +10857,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1050'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 3470, y: 1090}
 		, _classes: 'stat'
@@ -16569,15 +10867,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1051'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3335, y: 980}
 		, _classes: 'stat'
@@ -16585,15 +10877,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1052'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3605, y: 980}
 		, _classes: 'stat'
@@ -16601,9 +10887,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1037'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Колдун/Ведьма'
 			, _description:
 				'В распоряжении ведьмы весь арсенал темных силЖ страшные '+
@@ -16622,15 +10906,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1054'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 2775, y: 920}
 		, _classes: 'stat'
@@ -16638,15 +10916,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1055'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2775, y: 1040}
 		, _classes: 'stat'
@@ -16654,15 +10926,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1056'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2965, y: 1040}
 		, _classes: 'stat'
@@ -16670,15 +10936,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1057'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2965, y: 920}
 		, _classes: 'stat'
@@ -16686,15 +10946,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1058'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 2809, y: 870}
 		, _classes: 'stat'
@@ -16702,14 +10956,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1059'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 2931, y: 870}
 		, _classes: 'stat'
@@ -16717,14 +10966,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1060'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, str: 35
-				}
+			, _give: {prestige: 35, str: 35}
 			}
 		, _position: {x: 2809, y: 1090}
 		, _classes: 'stat'
@@ -16732,14 +10976,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1061'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, spirit: 35
-				}
+			, _give: {prestige: 35, spirit: 35}
 			}
 		, _position: {x: 2931, y: 1090}
 		, _classes: 'stat'
@@ -16747,15 +10986,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1062'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2870, y: 870}
 		, _classes: 'stat'
@@ -16763,14 +10996,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1063'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 2870, y: 1090}
 		, _classes: 'stat'
@@ -16778,15 +11006,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1064'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 2737, y: 896}
 		, _classes: 'stat'
@@ -16794,14 +11016,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1065'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 400}
-			, _give:
-				{ prestige: 47
-				, luck: 47
-				}
+			, _give: {prestige: 47, luck: 47}
 			}
 		, _position: {x: 2737, y: 1064}
 		, _classes: 'stat'
@@ -16809,15 +11026,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1066'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 3003, y: 1064}
 		, _classes: 'stat'
@@ -16825,15 +11036,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1067'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 3003, y: 896}
 		, _classes: 'stat'
@@ -16841,15 +11046,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1068'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 2735, y: 980}
 		, _classes: 'stat'
@@ -16857,15 +11056,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1114'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3005, y: 980}
 		, _classes: 'stat'
@@ -16873,9 +11066,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1053'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Болевой шок'
 			, _description:
 				'Использование атакующих способностей позволяет применить '+
@@ -16895,15 +11086,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1070'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 3120, y: 510}
 		, _classes: 'stat'
@@ -16911,14 +11096,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1071'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, spirit: 35
-				}
+			, _give: {prestige: 35, spirit: 35}
 			}
 		, _position: {x: 3172, y: 420}
 		, _classes: 'stat'
@@ -16926,15 +11106,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1115'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 240}
-			, _give:
-				{ prestige: 27
-				, vit: 27
-				, dex: 9
-				}
+			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
 		, _position: {x: 3068, y: 420}
 		, _classes: 'stat'
@@ -16942,14 +11116,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1072'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3025, y: 390}
 		, _classes: 'stat'
@@ -16957,15 +11126,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1073'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 3025, y: 510}
 		, _classes: 'stat'
@@ -16973,14 +11136,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1074'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3215, y: 510}
 		, _classes: 'stat'
@@ -16988,15 +11146,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1075'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 240}
-			, _give:
-				{ prestige: 17
-				, power: 17
-				, dex: 9
-				}
+			, _give: {prestige: 17, power: 17, dex: 9}
 			}
 		, _position: {x: 3215, y: 390}
 		, _classes: 'stat'
@@ -17004,15 +11156,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1076'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 3059, y: 340}
 		, _classes: 'stat'
@@ -17020,15 +11166,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1077'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 400}
-			, _give:
-				{ prestige: 53
-				, vit: 53
-				, dex: 15
-				}
+			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
 		, _position: {x: 3181, y: 340}
 		, _classes: 'stat'
@@ -17036,14 +11176,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1078'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 240}
-			, _give:
-				{ prestige: 23
-				, luck: 23
-				}
+			, _give: {prestige: 23, luck: 23}
 			}
 		, _position: {x: 3059, y: 560}
 		, _classes: 'stat'
@@ -17051,15 +11186,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1079'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 325}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 12
-				}
+			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
 		, _position: {x: 3181, y: 560}
 		, _classes: 'stat'
@@ -17067,15 +11196,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1080'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 400}
-			, _give:
-				{ prestige: 33
-				, power: 33
-				, dex: 15
-				}
+			, _give: {prestige: 33, power: 33, dex: 15}
 			}
 		, _position: {x: 3120, y: 340}
 		, _classes: 'stat'
@@ -17083,14 +11206,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1081'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 325}
-			, _give:
-				{ prestige: 35
-				, valor: 35
-				}
+			, _give: {prestige: 35, valor: 35}
 			}
 		, _position: {x: 3120, y: 293}
 		, _classes: 'stat'
@@ -17098,15 +11216,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1082'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 325}
-			, _give:
-				{ prestige: 25
-				, power: 25
-				, dex: 12
-				}
+			, _give: {prestige: 25, power: 25, dex: 12}
 			}
 		, _position: {x: 3120, y: 607}
 		, _classes: 'stat'
@@ -17114,9 +11226,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1069'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Кредо война'
 			, _description:
 				'Исходящий урон увеличен на 5% за каждый ранг этого символа.</p>'+
@@ -17131,14 +11241,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1084'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3530, y: 60}
 		, _classes: 'stat'
@@ -17146,15 +11251,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1085'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 3582, y: -30}
 		, _classes: 'stat'
@@ -17162,15 +11261,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1086'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3478, y: -30}
 		, _classes: 'stat'
@@ -17178,15 +11271,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1087'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3435, y: -60}
 		, _classes: 'stat'
@@ -17194,14 +11281,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1088'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 3435, y: 60}
 		, _classes: 'stat'
@@ -17209,15 +11291,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1089'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3625, y: 60}
 		, _classes: 'stat'
@@ -17225,15 +11301,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1090'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3625, y: -60}
 		, _classes: 'stat'
@@ -17241,14 +11311,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1091'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3469, y: -110}
 		, _classes: 'stat'
@@ -17256,14 +11321,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1092'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 150}
-			, _give:
-				{ prestige: 30
-				, majesty: 200
-				}
+			, _give: {prestige: 30, majesty: 200}
 			}
 		, _position: {x: 3591, y: -110}
 		, _classes: 'stat'
@@ -17271,15 +11331,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1093'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 3469, y: 110}
 		, _classes: 'stat'
@@ -17287,15 +11341,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1094'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3591, y: 110}
 		, _classes: 'stat'
@@ -17303,15 +11351,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1095'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3530, y: -110}
 		, _classes: 'stat'
@@ -17319,14 +11361,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1096'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 3530, y: -157}
 		, _classes: 'stat'
@@ -17334,14 +11371,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1097'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, valor: 80
-				}
+			, _give: {prestige: 80, valor: 80}
 			}
 		, _position: {x: 3530, y: 157}
 		, _classes: 'stat'
@@ -17349,18 +11381,14 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1083'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Элемент неожиданности'
 			, _description:
 				'В течение первых 8 секунд боя исходящий урон увеличен на 12% '+
 				'за каждый уровень этого символа.'
 			, _nodeImage: 'surprise'
 			, _need: {blue: 275}
-			, _give:
-				{ prestige: 40
-				}
+			, _give: {prestige: 40}
 			}
 		, _position: {x: 3530, y: 0}
 		, _classes: 'class'
@@ -17368,15 +11396,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1099'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3990, y: 60}
 		, _classes: 'stat'
@@ -17384,14 +11406,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1100'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 4042, y: -30}
 		, _classes: 'stat'
@@ -17399,15 +11416,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1101'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3938, y: -30}
 		, _classes: 'stat'
@@ -17415,15 +11426,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1102'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3895, y: -60}
 		, _classes: 'stat'
@@ -17431,15 +11436,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1103'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3895, y: 60}
 		, _classes: 'stat'
@@ -17447,15 +11446,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1104'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4085, y: 60}
 		, _classes: 'stat'
@@ -17463,15 +11456,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1105'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4085, y: -60}
 		, _classes: 'stat'
@@ -17479,14 +11466,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1106'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3929, y: -110}
 		, _classes: 'stat'
@@ -17494,15 +11476,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1107'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4051, y: -110}
 		, _classes: 'stat'
@@ -17510,14 +11486,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1108'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3929, y: 110}
 		, _classes: 'stat'
@@ -17525,14 +11496,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1109'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4051, y: 110}
 		, _classes: 'stat'
@@ -17540,15 +11506,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1110'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3990, y: -110}
 		, _classes: 'stat'
@@ -17556,15 +11516,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1111'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3990, y: 110}
 		, _classes: 'stat'
@@ -17572,14 +11526,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1112'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 3855, y: 0}
 		, _classes: 'stat'
@@ -17587,15 +11536,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1113'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4125, y: 0}
 		, _classes: 'stat'
@@ -17603,9 +11546,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1098'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Класс: Берсерк'
 			, _description:
 				'Безжалостный дикарь, он не мыслит ни дня без хорошей драки. '+
@@ -17616,9 +11557,7 @@ var nodesData =
 				'воодушевить союзников.'
 			, _nodeImage: 'berserker'
 			, _need: {transformation: 300}
-			, _give:
-				{ prestige: 40
-				}
+			, _give: {prestige: 40}
 			}
 		, _position: {x: 3990, y: 0}
 		, _classes: 'class'
@@ -17626,14 +11565,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1117'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 690, y: -2060}
 		, _classes: 'stat'
@@ -17641,14 +11575,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1118'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: 742, y: -2150}
 		, _classes: 'stat'
@@ -17656,15 +11585,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1119'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 638, y: -2150}
 		, _classes: 'stat'
@@ -17672,15 +11595,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1120'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 595, y: -2180}
 		, _classes: 'stat'
@@ -17688,15 +11605,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1121'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 595, y: -2060}
 		, _classes: 'stat'
@@ -17704,15 +11615,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1122'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 785, y: -2060}
 		, _classes: 'stat'
@@ -17720,14 +11625,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1123'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 785, y: -2180}
 		, _classes: 'stat'
@@ -17735,15 +11635,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1124'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 690, y: -2230}
 		, _classes: 'stat'
@@ -17751,14 +11645,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1125'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 690, y: -2010}
 		, _classes: 'stat'
@@ -17766,14 +11655,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1126'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: 690, y: -2277}
 		, _classes: 'stat'
@@ -17781,15 +11665,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1127'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 690, y: -1963}
 		, _classes: 'stat'
@@ -17797,15 +11675,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1128'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 557, y: -2204}
 		, _classes: 'stat'
@@ -17813,14 +11685,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1129'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 557, y: -2036}
 		, _classes: 'stat'
@@ -17828,15 +11695,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1130'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 823, y: -2036}
 		, _classes: 'stat'
@@ -17844,15 +11705,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1131'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 823, y: -2204}
 		, _classes: 'stat'
@@ -17860,9 +11715,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1116'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Мобилизация'
 			, _description:
 				'Дополнительный урон увеличен на 10% за каждый уровень этого '+
@@ -17877,15 +11730,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1133'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 780, y: -2520}
 		, _classes: 'stat'
@@ -17893,15 +11740,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1134'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 832, y: -2610}
 		, _classes: 'stat'
@@ -17909,14 +11750,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1135'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 728, y: -2610}
 		, _classes: 'stat'
@@ -17924,15 +11760,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1136'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 685, y: -2640}
 		, _classes: 'stat'
@@ -17940,15 +11770,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1137'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 685, y: -2520}
 		, _classes: 'stat'
@@ -17956,15 +11780,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1138'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 875, y: -2520}
 		, _classes: 'stat'
@@ -17972,14 +11790,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1139'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 875, y: -2640}
 		, _classes: 'stat'
@@ -17987,15 +11800,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1140'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 719, y: -2690}
 		, _classes: 'stat'
@@ -18003,15 +11810,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1141'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 841, y: -2690}
 		, _classes: 'stat'
@@ -18019,15 +11820,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1142'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 719, y: -2470}
 		, _classes: 'stat'
@@ -18035,14 +11830,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1143'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 841, y: -2470}
 		, _classes: 'stat'
@@ -18050,15 +11840,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1144'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 780, y: -2690}
 		, _classes: 'stat'
@@ -18066,14 +11850,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1145'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: 780, y: -2737}
 		, _classes: 'stat'
@@ -18081,14 +11860,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1146'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 780, y: -2423}
 		, _classes: 'stat'
@@ -18096,9 +11870,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1132'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Кредо защитника'
 			, _description:
 				'Входящие урон уменьшен на 5% за каждый ранг этого символа.</p>'+
@@ -18113,15 +11885,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1148'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 775}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1150, y: -2720}
 		, _classes: 'stat'
@@ -18129,15 +11895,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1149'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 775}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1202, y: -2810}
 		, _classes: 'stat'
@@ -18145,15 +11905,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1150'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 585}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1098, y: -2810}
 		, _classes: 'stat'
@@ -18161,15 +11915,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1151'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 775}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1089, y: -2890}
 		, _classes: 'stat'
@@ -18177,14 +11925,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1152'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 1211, y: -2890}
 		, _classes: 'stat'
@@ -18192,15 +11935,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1153'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 965}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1089, y: -2670}
 		, _classes: 'stat'
@@ -18208,15 +11945,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1154'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 775}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1211, y: -2670}
 		, _classes: 'stat'
@@ -18224,15 +11955,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1155'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 775}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1150, y: -2937}
 		, _classes: 'stat'
@@ -18240,15 +11965,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1156'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 585}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1150, y: -2623}
 		, _classes: 'stat'
@@ -18256,14 +11975,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1157'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 1017, y: -2864}
 		, _classes: 'stat'
@@ -18271,15 +11985,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1158'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 775}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1017, y: -2696}
 		, _classes: 'stat'
@@ -18287,15 +11995,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1159'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 965}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1283, y: -2696}
 		, _classes: 'stat'
@@ -18303,14 +12005,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1160'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 585}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 1283, y: -2864}
 		, _classes: 'stat'
@@ -18318,14 +12015,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1161'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 585}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 1015, y: -2780}
 		, _classes: 'stat'
@@ -18333,15 +12025,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1162'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 965}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1285, y: -2780}
 		, _classes: 'stat'
@@ -18349,9 +12035,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1147'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Прорыв'
 			, _description:
 				'Применение рывка оглушает противников вокруг конечной позиции '+
@@ -18367,14 +12051,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1164'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 1610, y: -2720}
 		, _classes: 'stat'
@@ -18382,15 +12061,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1165'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 585}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1662, y: -2810}
 		, _classes: 'stat'
@@ -18398,15 +12071,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1166'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 585}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1558, y: -2810}
 		, _classes: 'stat'
@@ -18414,15 +12081,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1167'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 775}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1515, y: -2840}
 		, _classes: 'stat'
@@ -18430,15 +12091,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1168'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 775}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1515, y: -2720}
 		, _classes: 'stat'
@@ -18446,15 +12101,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1169'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 775}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1705, y: -2720}
 		, _classes: 'stat'
@@ -18462,15 +12111,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1170'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 775}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1705, y: -2840}
 		, _classes: 'stat'
@@ -18478,15 +12121,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1171'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 585}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1549, y: -2890}
 		, _classes: 'stat'
@@ -18494,14 +12131,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1172'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 965}
-			, _give:
-				{ prestige: 75
-				, str: 75
-				}
+			, _give: {prestige: 75, str: 75}
 			}
 		, _position: {x: 1671, y: -2890}
 		, _classes: 'stat'
@@ -18509,15 +12141,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1173'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 965}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1549, y: -2670}
 		, _classes: 'stat'
@@ -18525,14 +12151,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1174'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 775}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 1671, y: -2670}
 		, _classes: 'stat'
@@ -18540,15 +12161,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1175'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 775}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1610, y: -2890}
 		, _classes: 'stat'
@@ -18556,15 +12171,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1176'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 775}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1610, y: -2670}
 		, _classes: 'stat'
@@ -18572,14 +12181,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1177'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 775}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 1475, y: -2780}
 		, _classes: 'stat'
@@ -18587,14 +12191,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1178'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 1745, y: -2780}
 		, _classes: 'stat'
@@ -18602,9 +12201,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1163'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Предельная сила'
 			, _description:
 				'Влияние показателя силы на базовый урон увеличено на 10% за '+
@@ -18619,15 +12216,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1180'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1980, y: -2520}
 		, _classes: 'stat'
@@ -18635,14 +12226,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1181'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 2032, y: -2610}
 		, _classes: 'stat'
@@ -18650,15 +12236,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1182'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1928, y: -2610}
 		, _classes: 'stat'
@@ -18666,15 +12246,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1183'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1885, y: -2640}
 		, _classes: 'stat'
@@ -18682,15 +12256,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1184'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1885, y: -2520}
 		, _classes: 'stat'
@@ -18698,15 +12266,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1185'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 2075, y: -2520}
 		, _classes: 'stat'
@@ -18714,15 +12276,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1186'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2075, y: -2640}
 		, _classes: 'stat'
@@ -18730,15 +12286,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1187'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1919, y: -2690}
 		, _classes: 'stat'
@@ -18746,15 +12296,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1188'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2041, y: -2690}
 		, _classes: 'stat'
@@ -18762,14 +12306,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1189'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 1919, y: -2470}
 		, _classes: 'stat'
@@ -18777,15 +12316,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1190'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2041, y: -2470}
 		, _classes: 'stat'
@@ -18793,14 +12326,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1191'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: 1980, y: -2690}
 		, _classes: 'stat'
@@ -18808,15 +12336,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1192'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1980, y: -2737}
 		, _classes: 'stat'
@@ -18824,14 +12346,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1193'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 1980, y: -2423}
 		, _classes: 'stat'
@@ -18839,9 +12356,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1179'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Кредо война'
 			, _description:
 				'Исходящий урон увеличен на 5% за каждый ранг этого символа.</p>'+
@@ -18856,14 +12371,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1195'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 2070, y: -2060}
 		, _classes: 'stat'
@@ -18871,15 +12381,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1196'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2122, y: -2150}
 		, _classes: 'stat'
@@ -18887,15 +12391,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1197'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2018, y: -2150}
 		, _classes: 'stat'
@@ -18903,15 +12401,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1198'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1975, y: -2180}
 		, _classes: 'stat'
@@ -18919,15 +12411,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1199'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1975, y: -2060}
 		, _classes: 'stat'
@@ -18935,14 +12421,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1200'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 2165, y: -2060}
 		, _classes: 'stat'
@@ -18950,15 +12431,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1201'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2165, y: -2180}
 		, _classes: 'stat'
@@ -18966,14 +12441,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1202'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: -130
-				}
+			, _give: {prestige: 30, majesty: -130}
 			}
 		, _position: {x: 2009, y: -2230}
 		, _classes: 'stat'
@@ -18981,15 +12451,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1203'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2131, y: -2230}
 		, _classes: 'stat'
@@ -18997,15 +12461,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1204'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 2009, y: -2010}
 		, _classes: 'stat'
@@ -19013,15 +12471,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1205'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2131, y: -2010}
 		, _classes: 'stat'
@@ -19029,14 +12481,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1206'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: 2070, y: -2230}
 		, _classes: 'stat'
@@ -19044,14 +12491,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1207'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 2070, y: -2010}
 		, _classes: 'stat'
@@ -19059,14 +12501,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1208'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 1935, y: -2120}
 		, _classes: 'stat'
@@ -19074,15 +12511,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1209'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2205, y: -2120}
 		, _classes: 'stat'
@@ -19090,9 +12521,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1194'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Интенсивность импульса'
 			, _description:
 				'Импульсный урон увеличен на 10% за каждый уровень этого символа.'
@@ -19106,14 +12535,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1211'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 2775, y: -1800}
 		, _classes: 'stat'
@@ -19121,15 +12545,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1212'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2775, y: -1680}
 		, _classes: 'stat'
@@ -19137,15 +12555,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1213'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 2965, y: -1680}
 		, _classes: 'stat'
@@ -19153,15 +12565,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1214'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 2965, y: -1800}
 		, _classes: 'stat'
@@ -19169,15 +12575,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1215'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 2809, y: -1850}
 		, _classes: 'stat'
@@ -19185,15 +12585,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1216'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2931, y: -1850}
 		, _classes: 'stat'
@@ -19201,14 +12595,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1217'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 2809, y: -1630}
 		, _classes: 'stat'
@@ -19216,15 +12605,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1218'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 2931, y: -1630}
 		, _classes: 'stat'
@@ -19232,15 +12615,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1219'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2870, y: -1850}
 		, _classes: 'stat'
@@ -19248,15 +12625,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1220'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 2870, y: -1630}
 		, _classes: 'stat'
@@ -19264,14 +12635,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1221'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 2737, y: -1824}
 		, _classes: 'stat'
@@ -19279,14 +12645,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1222'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 2737, y: -1656}
 		, _classes: 'stat'
@@ -19294,15 +12655,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1223'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3003, y: -1656}
 		, _classes: 'stat'
@@ -19310,15 +12665,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1224'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3003, y: -1824}
 		, _classes: 'stat'
@@ -19326,15 +12675,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1225'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2735, y: -1740}
 		, _classes: 'stat'
@@ -19342,14 +12685,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1226'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3005, y: -1740}
 		, _classes: 'stat'
@@ -19357,9 +12695,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1210'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Удачное попадание'
 			, _description:
 				'Раз в 2 секунды вероятность критической атаки увеличивается на '+
@@ -19376,15 +12712,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1228'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3405, y: -1800}
 		, _classes: 'stat'
@@ -19392,15 +12722,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1229'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3405, y: -1680}
 		, _classes: 'stat'
@@ -19408,15 +12732,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1230'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 3595, y: -1680}
 		, _classes: 'stat'
@@ -19424,15 +12742,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1231'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3595, y: -1800}
 		, _classes: 'stat'
@@ -19440,15 +12752,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1232'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3439, y: -1850}
 		, _classes: 'stat'
@@ -19456,15 +12762,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1233'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3561, y: -1850}
 		, _classes: 'stat'
@@ -19472,15 +12772,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1234'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3439, y: -1630}
 		, _classes: 'stat'
@@ -19488,15 +12782,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1235'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3561, y: -1630}
 		, _classes: 'stat'
@@ -19504,14 +12792,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1236'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, luck: 75
-				}
+			, _give: {prestige: 75, luck: 75}
 			}
 		, _position: {x: 3500, y: -1850}
 		, _classes: 'stat'
@@ -19519,14 +12802,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1237'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: 3500, y: -1630}
 		, _classes: 'stat'
@@ -19534,14 +12812,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1238'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 3367, y: -1824}
 		, _classes: 'stat'
@@ -19549,14 +12822,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1239'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3367, y: -1656}
 		, _classes: 'stat'
@@ -19564,15 +12832,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1240'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3633, y: -1656}
 		, _classes: 'stat'
@@ -19580,14 +12842,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1241'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, valor: 75
-				}
+			, _give: {prestige: 75, valor: 75}
 			}
 		, _position: {x: 3633, y: -1824}
 		, _classes: 'stat'
@@ -19595,15 +12852,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1242'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3365, y: -1740}
 		, _classes: 'stat'
@@ -19611,15 +12862,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1243'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3635, y: -1740}
 		, _classes: 'stat'
@@ -19627,9 +12872,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1227'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Метка смерти'
 			, _description:
 				'Наносимые атаки могут оставить на противнике метку смерти. '+
@@ -19646,15 +12889,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1244'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3865, y: -1800}
 		, _classes: 'stat'
@@ -19662,15 +12899,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1245'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 3865, y: -1680}
 		, _classes: 'stat'
@@ -19678,15 +12909,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1246'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4055, y: -1680}
 		, _classes: 'stat'
@@ -19694,15 +12919,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1247'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4055, y: -1800}
 		, _classes: 'stat'
@@ -19710,14 +12929,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1248'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3899, y: -1850}
 		, _classes: 'stat'
@@ -19725,15 +12939,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1249'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4021, y: -1850}
 		, _classes: 'stat'
@@ -19741,14 +12949,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1250'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, valor: 80
-				}
+			, _give: {prestige: 80, valor: 80}
 			}
 		, _position: {x: 3899, y: -1630}
 		, _classes: 'stat'
@@ -19756,14 +12959,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1251'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: 4021, y: -1630}
 		, _classes: 'stat'
@@ -19771,15 +12969,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1252'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3960, y: -1850}
 		, _classes: 'stat'
@@ -19787,15 +12979,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1253'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3960, y: -1630}
 		, _classes: 'stat'
@@ -19803,15 +12989,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1254'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3827, y: -1824}
 		, _classes: 'stat'
@@ -19819,14 +12999,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1255'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3827, y: -1656}
 		, _classes: 'stat'
@@ -19834,15 +13009,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1256'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4093, y: -1656}
 		, _classes: 'stat'
@@ -19850,15 +13019,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1257'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4093, y: -1824}
 		, _classes: 'stat'
@@ -19867,15 +13030,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1258'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3825, y: -1740}
 		, _classes: 'stat'
@@ -19883,15 +13040,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1259'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4095, y: -1740}
 		, _classes: 'stat'
@@ -19899,9 +13050,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1309'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _nodeImage: 'empty'
 			, _need: {}
 			, _give: {}
@@ -19912,14 +13061,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1261'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3960, y: -1210}
 		, _classes: 'stat'
@@ -19927,15 +13071,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1262'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4012, y: -1300}
 		, _classes: 'stat'
@@ -19943,14 +13081,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1263'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 3908, y: -1300}
 		, _classes: 'stat'
@@ -19958,15 +13091,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1264'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3899, y: -1380}
 		, _classes: 'stat'
@@ -19974,15 +13101,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1265'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4021, y: -1380}
 		, _classes: 'stat'
@@ -19990,15 +13111,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1266'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3899, y: -1160}
 		, _classes: 'stat'
@@ -20006,15 +13121,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1267'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4021, y: -1160}
 		, _classes: 'stat'
@@ -20022,15 +13131,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1268'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3960, y: -1427}
 		, _classes: 'stat'
@@ -20038,14 +13141,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1269'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 3960, y: -1113}
 		, _classes: 'stat'
@@ -20053,15 +13151,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1270'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3827, y: -1354}
 		, _classes: 'stat'
@@ -20069,14 +13161,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1271'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 3827, y: -1186}
 		, _classes: 'stat'
@@ -20084,15 +13171,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1272'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4093, y: -1186}
 		, _classes: 'stat'
@@ -20100,15 +13181,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1273'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4093, y: -1354}
 		, _classes: 'stat'
@@ -20116,15 +13191,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1274'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3825, y: -1270}
 		, _classes: 'stat'
@@ -20132,15 +13201,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1275'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4095, y: -1270}
 		, _classes: 'stat'
@@ -20148,9 +13211,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1260'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Глубокое рассечение'
 			, _description:
 				'При нанесении максимального дополнительного урона на противника '+
@@ -20166,14 +13227,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1277'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3805, y: -510}
 		, _classes: 'stat'
@@ -20181,15 +13237,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1278'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3805, y: -390}
 		, _classes: 'stat'
@@ -20197,14 +13247,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1279'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: 3995, y: -390}
 		, _classes: 'stat'
@@ -20212,15 +13257,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1280'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3995, y: -510}
 		, _classes: 'stat'
@@ -20228,15 +13267,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1281'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3839, y: -560}
 		, _classes: 'stat'
@@ -20244,14 +13277,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1282'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: 3961, y: -560}
 		, _classes: 'stat'
@@ -20259,15 +13287,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1283'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3839, y: -340}
 		, _classes: 'stat'
@@ -20275,15 +13297,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1284'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3961, y: -340}
 		, _classes: 'stat'
@@ -20291,15 +13307,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1285'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3900, y: -560}
 		, _classes: 'stat'
@@ -20307,15 +13317,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1286'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3900, y: -340}
 		, _classes: 'stat'
@@ -20323,15 +13327,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1287'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3767, y: -534}
 		, _classes: 'stat'
@@ -20339,15 +13337,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1288'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3767, y: -366}
 		, _classes: 'stat'
@@ -20355,15 +13347,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1289'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4033, y: -366}
 		, _classes: 'stat'
@@ -20371,14 +13357,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1290'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 4033, y: -534}
 		, _classes: 'stat'
@@ -20386,15 +13367,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1291'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3765, y: -450}
 		, _classes: 'stat'
@@ -20402,15 +13377,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1292'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 244
-				}
+			, _give: {prestige: 40, power: 40, dex: 244}
 			}
 		, _position: {x: 4035, y: -450}
 		, _classes: 'stat'
@@ -20418,9 +13387,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1276'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Предельная сила'
 			, _description:
 				'Влияние показателя силы на базовый урон увеличено на 10% за '+
@@ -20435,15 +13402,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1294'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4270, y: -790}
 		, _classes: 'stat'
@@ -20451,15 +13412,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1295'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4322, y: -880}
 		, _classes: 'stat'
@@ -20467,14 +13422,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1296'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 4218, y: -880}
 		, _classes: 'stat'
@@ -20482,15 +13432,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1297'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4175, y: -910}
 		, _classes: 'stat'
@@ -20498,14 +13442,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1298'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 4175, y: -790}
 		, _classes: 'stat'
@@ -20513,15 +13452,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1299'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4365, y: -790}
 		, _classes: 'stat'
@@ -20529,15 +13462,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1300'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4365, y: -910}
 		, _classes: 'stat'
@@ -20545,15 +13472,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1301'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4270, y: -960}
 		, _classes: 'stat'
@@ -20561,15 +13482,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1302'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4270, y: -740}
 		, _classes: 'stat'
@@ -20577,14 +13492,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1303'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 4270, y: -1007}
 		, _classes: 'stat'
@@ -20592,15 +13502,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1304'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4270, y: -693}
 		, _classes: 'stat'
@@ -20608,15 +13512,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1305'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4137, y: -934}
 		, _classes: 'stat'
@@ -20624,15 +13522,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1306'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4137, y: -766}
 		, _classes: 'stat'
@@ -20640,14 +13532,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1307'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4403, y: -766}
 		, _classes: 'stat'
@@ -20655,14 +13542,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1308'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4403, y: -934}
 		, _classes: 'stat'
@@ -20670,9 +13552,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1293'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина созидания'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'create'
@@ -20685,14 +13565,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1311'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 4325, y: -1330}
 		, _classes: 'stat'
@@ -20700,15 +13575,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1312'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4325, y: -1210}
 		, _classes: 'stat'
@@ -20716,15 +13585,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1313'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4515, y: -1210}
 		, _classes: 'stat'
@@ -20732,15 +13595,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1314'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4515, y: -1330}
 		, _classes: 'stat'
@@ -20748,15 +13605,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1315'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4359, y: -1380}
 		, _classes: 'stat'
@@ -20764,14 +13615,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1316'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 4481, y: -1380}
 		, _classes: 'stat'
@@ -20779,15 +13625,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1317'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4359, y: -1160}
 		, _classes: 'stat'
@@ -20795,15 +13635,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1318'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4481, y: -1160}
 		, _classes: 'stat'
@@ -20811,15 +13645,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1319'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4420, y: -1380}
 		, _classes: 'stat'
@@ -20827,14 +13655,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1320'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4420, y: -1160}
 		, _classes: 'stat'
@@ -20842,15 +13665,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1321'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4287, y: -1354}
 		, _classes: 'stat'
@@ -20858,15 +13675,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1322'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4287, y: -1186}
 		, _classes: 'stat'
@@ -20874,15 +13685,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1323'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4553, y: -1186}
 		, _classes: 'stat'
@@ -20890,14 +13695,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1324'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 4553, y: -1354}
 		, _classes: 'stat'
@@ -20905,15 +13705,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1325'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4285, y: -1270}
 		, _classes: 'stat'
@@ -20921,15 +13715,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1326'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4555, y: -1270}
 		, _classes: 'stat'
@@ -20937,9 +13725,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1310'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Максимальная отдача'
 			, _description:
 				'Критический урон увеличен на 10% за каждый уровень этого '+
@@ -20954,15 +13740,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1328'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4880, y: -1210}
 		, _classes: 'stat'
@@ -20970,15 +13750,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1329'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4932, y: -1300}
 		, _classes: 'stat'
@@ -20986,15 +13760,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1330'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4828, y: -1300}
 		, _classes: 'stat'
@@ -21002,15 +13770,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1331'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4785, y: -1330}
 		, _classes: 'stat'
@@ -21018,15 +13780,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1332'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4785, y: -1210}
 		, _classes: 'stat'
@@ -21034,15 +13790,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1333'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4975, y: -1210}
 		, _classes: 'stat'
@@ -21050,14 +13800,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1334'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 4975, y: -1330}
 		, _classes: 'stat'
@@ -21065,14 +13810,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1335'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: 4880, y: -1380}
 		, _classes: 'stat'
@@ -21080,14 +13820,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1336'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 4880, y: -1160}
 		, _classes: 'stat'
@@ -21095,14 +13830,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1337'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4880, y: -1427}
 		, _classes: 'stat'
@@ -21110,15 +13840,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1338'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4880, y: -1113}
 		, _classes: 'stat'
@@ -21126,14 +13850,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1339'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 4747, y: -1354}
 		, _classes: 'stat'
@@ -21141,15 +13860,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1340'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4747, y: -1186}
 		, _classes: 'stat'
@@ -21157,14 +13870,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1341'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 5013, y: -1186}
 		, _classes: 'stat'
@@ -21172,15 +13880,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1342'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 5013, y: -1354}
 		, _classes: 'stat'
@@ -21188,9 +13890,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1327'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина разрушения'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'destroy'
@@ -21203,15 +13903,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1344'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3805, y: 390}
 		, _classes: 'stat'
@@ -21219,14 +13913,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1345'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3805, y: 510}
 		, _classes: 'stat'
@@ -21234,15 +13923,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1346'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3995, y: 510}
 		, _classes: 'stat'
@@ -21250,15 +13933,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1347'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3995, y: 390}
 		, _classes: 'stat'
@@ -21266,15 +13943,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1348'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 3839, y: 340}
 		, _classes: 'stat'
@@ -21282,15 +13953,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1349'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3961, y: 340}
 		, _classes: 'stat'
@@ -21298,15 +13963,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1350'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3839, y: 560}
 		, _classes: 'stat'
@@ -21314,15 +13973,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1351'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3961, y: 560}
 		, _classes: 'stat'
@@ -21330,14 +13983,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1352'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3900, y: 340}
 		, _classes: 'stat'
@@ -21345,14 +13993,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1353'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, valor: 75
-				}
+			, _give: {prestige: 75, valor: 75}
 			}
 		, _position: {x: 3900, y: 560}
 		, _classes: 'stat'
@@ -21360,15 +14003,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1354'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3767, y: 366}
 		, _classes: 'stat'
@@ -21376,15 +14013,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1355'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3767, y: 534}
 		, _classes: 'stat'
@@ -21392,15 +14023,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1356'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4033, y: 534}
 		, _classes: 'stat'
@@ -21408,15 +14033,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1357'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4033, y: 366}
 		, _classes: 'stat'
@@ -21424,15 +14043,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1358'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3765, y: 450}
 		, _classes: 'stat'
@@ -21440,14 +14053,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1359'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: 4035, y: 450}
 		, _classes: 'stat'
@@ -21455,9 +14063,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1343'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Максимальная отдача'
 			, _description:
 				'Критический урон увеличен на 10% за каждый уровень этого '+
@@ -21472,14 +14078,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1361'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 4270, y: 910}
 		, _classes: 'stat'
@@ -21487,15 +14088,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1362'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4322, y: 820}
 		, _classes: 'stat'
@@ -21503,15 +14098,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1363'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4218, y: 820}
 		, _classes: 'stat'
@@ -21519,14 +14108,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1364'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 4175, y: 790}
 		, _classes: 'stat'
@@ -21534,15 +14118,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1365'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4175, y: 910}
 		, _classes: 'stat'
@@ -21550,14 +14128,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1366'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4365, y: 910}
 		, _classes: 'stat'
@@ -21565,15 +14138,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1367'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4365, y: 790}
 		, _classes: 'stat'
@@ -21581,14 +14148,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1368'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 4270, y: 740}
 		, _classes: 'stat'
@@ -21596,15 +14158,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1369'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4270, y: 960}
 		, _classes: 'stat'
@@ -21612,15 +14168,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1370'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4270, y: 693}
 		, _classes: 'stat'
@@ -21628,15 +14178,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1371'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4270, y: 1007}
 		, _classes: 'stat'
@@ -21644,15 +14188,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1372'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4137, y: 766}
 		, _classes: 'stat'
@@ -21660,15 +14198,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1373'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4137, y: 934}
 		, _classes: 'stat'
@@ -21676,14 +14208,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1374'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 4403, y: 934}
 		, _classes: 'stat'
@@ -21691,14 +14218,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1375'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4403, y: 766}
 		, _classes: 'stat'
@@ -21706,9 +14228,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1360'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина равновесия'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'balance'
@@ -21721,15 +14241,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1377'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4420, y: -390}
 		, _classes: 'stat'
@@ -21737,14 +14251,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1378'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: 4472, y: -480}
 		, _classes: 'stat'
@@ -21752,14 +14261,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1379'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, luck: 250
-				}
+			, _give: {prestige: 30, luck: 250}
 			}
 		, _position: {x: 4368, y: -480}
 		, _classes: 'stat'
@@ -21767,15 +14271,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1380'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4325, y: -510}
 		, _classes: 'stat'
@@ -21783,15 +14281,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1381'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4325, y: -390}
 		, _classes: 'stat'
@@ -21799,15 +14291,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1382'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4515, y: -390}
 		, _classes: 'stat'
@@ -21815,15 +14301,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1383'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4515, y: -510}
 		, _classes: 'stat'
@@ -21831,15 +14311,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1384'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4359, y: -560}
 		, _classes: 'stat'
@@ -21847,15 +14321,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1385'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4481, y: -560}
 		, _classes: 'stat'
@@ -21863,14 +14331,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1386'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 4359, y: -340}
 		, _classes: 'stat'
@@ -21878,14 +14341,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1387'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 4481, y: -340}
 		, _classes: 'stat'
@@ -21893,15 +14351,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1388'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4420, y: -560}
 		, _classes: 'stat'
@@ -21909,14 +14361,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1389'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 4420, y: -607}
 		, _classes: 'stat'
@@ -21924,15 +14371,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1390'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4420, y: -293}
 		, _classes: 'stat'
@@ -21940,9 +14381,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1376'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Интенсивность импульса'
 			, _description:
 				'Импульсный урон увеличен на 10% за каждый уровень этого символа.'
@@ -21956,14 +14395,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1392'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: 4420, y: 510}
 		, _classes: 'stat'
@@ -21971,14 +14405,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1393'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 4472, y: 420}
 		, _classes: 'stat'
@@ -21986,15 +14415,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1394'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4368, y: 420}
 		, _classes: 'stat'
@@ -22002,15 +14425,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1395'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4325, y: 390}
 		, _classes: 'stat'
@@ -22018,15 +14435,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1396'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4325, y: 510}
 		, _classes: 'stat'
@@ -22034,15 +14445,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1397'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4515, y: 510}
 		, _classes: 'stat'
@@ -22050,15 +14455,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1398'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4515, y: 390}
 		, _classes: 'stat'
@@ -22066,15 +14465,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1399'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4359, y: 340}
 		, _classes: 'stat'
@@ -22082,15 +14475,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1400'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4481, y: 340}
 		, _classes: 'stat'
@@ -22098,15 +14485,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1401'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4359, y: 560}
 		, _classes: 'stat'
@@ -22114,15 +14495,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1402'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4481, y: 560}
 		, _classes: 'stat'
@@ -22130,15 +14505,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1403'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4420, y: 340}
 		, _classes: 'stat'
@@ -22146,14 +14515,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1404'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4420, y: 293}
 		, _classes: 'stat'
@@ -22161,14 +14525,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1405'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 4420, y: 607}
 		, _classes: 'stat'
@@ -22176,9 +14535,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1391'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Мобилизация'
 			, _description:
 				'Дополнительный урон увеличен на 10% за каждый уровень этого '+
@@ -22193,15 +14550,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1407'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4730, y: -790}
 		, _classes: 'stat'
@@ -22209,15 +14560,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1408'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4782, y: -880}
 		, _classes: 'stat'
@@ -22225,14 +14570,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1409'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4678, y: -880}
 		, _classes: 'stat'
@@ -22240,15 +14580,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1410'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4669, y: -960}
 		, _classes: 'stat'
@@ -22256,15 +14590,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1411'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4791, y: -960}
 		, _classes: 'stat'
@@ -22272,15 +14600,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1412'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4669, y: -740}
 		, _classes: 'stat'
@@ -22288,15 +14610,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1413'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4791, y: -740}
 		, _classes: 'stat'
@@ -22304,15 +14620,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1414'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4730, y: -1007}
 		, _classes: 'stat'
@@ -22320,14 +14630,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1415'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: 4730, y: -693}
 		, _classes: 'stat'
@@ -22335,15 +14640,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1416'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4597, y: -934}
 		, _classes: 'stat'
@@ -22351,15 +14650,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1417'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4597, y: -766}
 		, _classes: 'stat'
@@ -22367,15 +14660,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1418'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4863, y: -766}
 		, _classes: 'stat'
@@ -22383,14 +14670,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1419'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 4863, y: -934}
 		, _classes: 'stat'
@@ -22398,14 +14680,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1420'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: 4595, y: -850}
 		, _classes: 'stat'
@@ -22413,14 +14690,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1421'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 4865, y: -850}
 		, _classes: 'stat'
@@ -22428,9 +14700,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1406'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Стремительная атака'
 			, _description:
 				'В тесение 3 секунд после применения рывка наносимый урон '+
@@ -22445,15 +14715,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1423'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 5190, y: -790}
 		, _classes: 'stat'
@@ -22461,15 +14725,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1424'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 5242, y: -880}
 		, _classes: 'stat'
@@ -22477,15 +14735,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1425'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 5138, y: -880}
 		, _classes: 'stat'
@@ -22493,15 +14745,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1426'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 5095, y: -910}
 		, _classes: 'stat'
@@ -22509,15 +14755,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1427'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 5095, y: -790}
 		, _classes: 'stat'
@@ -22525,15 +14765,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1428'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 5285, y: -790}
 		, _classes: 'stat'
@@ -22541,15 +14775,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1429'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 5285, y: -910}
 		, _classes: 'stat'
@@ -22557,15 +14785,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1430'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 5190, y: -960}
 		, _classes: 'stat'
@@ -22573,15 +14795,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1431'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 5190, y: -740}
 		, _classes: 'stat'
@@ -22589,14 +14805,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1432'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 5190, y: -1007}
 		, _classes: 'stat'
@@ -22604,14 +14815,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1433'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 5190, y: -693}
 		, _classes: 'stat'
@@ -22619,14 +14825,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1434'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 5057, y: -934}
 		, _classes: 'stat'
@@ -22634,15 +14835,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1435'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 5057, y: -766}
 		, _classes: 'stat'
@@ -22650,14 +14845,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1436'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, valor: 75
-				}
+			, _give: {prestige: 75, valor: 75}
 			}
 		, _position: {x: 5323, y: -766}
 		, _classes: 'stat'
@@ -22665,15 +14855,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1437'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 5323, y: -934}
 		, _classes: 'stat'
@@ -22681,9 +14865,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1422'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Повышенная боеготовность'
 			, _description:
 				'Боевые расходники восстанавливаются на 15/30% быстрее.'
@@ -22697,14 +14879,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1439'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4870, y: 60}
 		, _classes: 'stat'
@@ -22712,15 +14889,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1440'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4922, y: -30}
 		, _classes: 'stat'
@@ -22728,15 +14899,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1441'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4818, y: -30}
 		, _classes: 'stat'
@@ -22744,14 +14909,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1442'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 4775, y: -60}
 		, _classes: 'stat'
@@ -22759,15 +14919,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1443'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4775, y: 60}
 		, _classes: 'stat'
@@ -22775,15 +14929,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1444'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4965, y: 60}
 		, _classes: 'stat'
@@ -22791,15 +14939,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1445'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4965, y: -60}
 		, _classes: 'stat'
@@ -22807,15 +14949,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1446'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4809, y: -110}
 		, _classes: 'stat'
@@ -22823,14 +14959,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1447'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: 4931, y: -110}
 		, _classes: 'stat'
@@ -22838,15 +14969,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1448'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4809, y: 110}
 		, _classes: 'stat'
@@ -22854,15 +14979,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1449'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4931, y: 110}
 		, _classes: 'stat'
@@ -22870,15 +14989,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1450'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4870, y: -110}
 		, _classes: 'stat'
@@ -22886,14 +14999,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1451'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 4870, y: 110}
 		, _classes: 'stat'
@@ -22901,15 +15009,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1452'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4735, y: 0}
 		, _classes: 'stat'
@@ -22917,15 +15019,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1453'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 5005, y: 0}
 		, _classes: 'stat'
@@ -22933,9 +15029,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1438'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Замедляющие атаки'
 			, _description:
 				'Наносимые удары периодически снижают скорость передвижения '+
@@ -22951,14 +15045,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1455'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 4730, y: 910}
 		, _classes: 'stat'
@@ -22966,15 +15055,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1456'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4782, y: 820}
 		, _classes: 'stat'
@@ -22982,15 +15065,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1457'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4678, y: 820}
 		, _classes: 'stat'
@@ -22998,15 +15075,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1458'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 4669, y: 740}
 		, _classes: 'stat'
@@ -23014,14 +15085,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1459'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: 4791, y: 740}
 		, _classes: 'stat'
@@ -23029,14 +15095,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1460'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 4669, y: 960}
 		, _classes: 'stat'
@@ -23044,15 +15105,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1461'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4791, y: 960}
 		, _classes: 'stat'
@@ -23060,15 +15115,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1462'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4730, y: 693}
 		, _classes: 'stat'
@@ -23076,15 +15125,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1463'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4730, y: 1007}
 		, _classes: 'stat'
@@ -23092,15 +15135,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1464'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4597, y: 766}
 		, _classes: 'stat'
@@ -23108,15 +15145,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1465'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 4597, y: 934}
 		, _classes: 'stat'
@@ -23124,15 +15155,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1466'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 4863, y: 934}
 		, _classes: 'stat'
@@ -23140,15 +15165,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1467'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4863, y: 766}
 		, _classes: 'stat'
@@ -23156,14 +15175,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1468'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, str: 75
-				}
+			, _give: {prestige: 75, str: 75}
 			}
 		, _position: {x: 4595, y: 850}
 		, _classes: 'stat'
@@ -23171,15 +15185,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1469'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 4865, y: 850}
 		, _classes: 'stat'
@@ -23187,9 +15195,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1454'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Инерция'
 			, _description:
 				'В течение 3 секунд после применения рывка скорость передвижения '+
@@ -23204,15 +15210,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1471'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 5330, y: 60}
 		, _classes: 'stat'
@@ -23220,15 +15220,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1472'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 5382, y: -30}
 		, _classes: 'stat'
@@ -23236,15 +15230,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1473'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 5278, y: -30}
 		, _classes: 'stat'
@@ -23252,15 +15240,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1474'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 5235, y: -60}
 		, _classes: 'stat'
@@ -23268,15 +15250,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1475'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 5235, y: 60}
 		, _classes: 'stat'
@@ -23284,15 +15260,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1476'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 5425, y: 60}
 		, _classes: 'stat'
@@ -23300,14 +15270,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1477'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 5425, y: -60}
 		, _classes: 'stat'
@@ -23315,15 +15280,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1478'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 5269, y: -110}
 		, _classes: 'stat'
@@ -23331,15 +15290,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1479'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 5391, y: -110}
 		, _classes: 'stat'
@@ -23347,15 +15300,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1480'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 5269, y: 110}
 		, _classes: 'stat'
@@ -23363,14 +15310,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1481'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: 5391, y: 110}
 		, _classes: 'stat'
@@ -23378,14 +15320,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1482'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 5330, y: -110}
 		, _classes: 'stat'
@@ -23393,14 +15330,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1483'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 5330, y: -157}
 		, _classes: 'stat'
@@ -23408,15 +15340,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1484'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 5330, y: 157}
 		, _classes: 'stat'
@@ -23424,9 +15350,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1470'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _nodeImage: 'empty'
 			, _need: {}
 			, _give: {}
@@ -23437,14 +15361,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1486'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 5190, y: 910}
 		, _classes: 'stat'
@@ -23452,15 +15371,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1487'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 5242, y: 820}
 		, _classes: 'stat'
@@ -23468,15 +15381,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1488'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 5138, y: 820}
 		, _classes: 'stat'
@@ -23484,14 +15391,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1489'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 5095, y: 790}
 		, _classes: 'stat'
@@ -23499,15 +15401,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1490'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 5095, y: 910}
 		, _classes: 'stat'
@@ -23515,15 +15411,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1491'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 5285, y: 910}
 		, _classes: 'stat'
@@ -23531,15 +15421,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1492'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 5285, y: 790}
 		, _classes: 'stat'
@@ -23547,15 +15431,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1493'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 5129, y: 740}
 		, _classes: 'stat'
@@ -23563,14 +15441,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1494'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 5251, y: 740}
 		, _classes: 'stat'
@@ -23578,15 +15451,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1495'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 5129, y: 960}
 		, _classes: 'stat'
@@ -23594,15 +15461,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1496'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 5251, y: 960}
 		, _classes: 'stat'
@@ -23610,14 +15471,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1497'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 5190, y: 740}
 		, _classes: 'stat'
@@ -23625,14 +15481,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1498'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, valor: 75
-				}
+			, _give: {prestige: 75, valor: 75}
 			}
 		, _position: {x: 5190, y: 960}
 		, _classes: 'stat'
@@ -23640,15 +15491,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1499'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 5055, y: 850}
 		, _classes: 'stat'
@@ -23656,15 +15501,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1500'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 5325, y: 850}
 		, _classes: 'stat'
@@ -23672,9 +15511,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1485'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _nodeImage: 'empty'
 			, _need: {}
 			, _give: {}
@@ -23685,15 +15522,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1502'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3960, y: 1330}
 		, _classes: 'stat'
@@ -23701,15 +15532,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1503'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4012, y: 1240}
 		, _classes: 'stat'
@@ -23717,15 +15542,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1504'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3908, y: 1240}
 		, _classes: 'stat'
@@ -23733,15 +15552,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1505'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3899, y: 1160}
 		, _classes: 'stat'
@@ -23749,15 +15562,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1506'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4021, y: 1160}
 		, _classes: 'stat'
@@ -23765,15 +15572,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1507'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3899, y: 1380}
 		, _classes: 'stat'
@@ -23781,15 +15582,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1508'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 4021, y: 1380}
 		, _classes: 'stat'
@@ -23797,14 +15592,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1509'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3960, y: 1113}
 		, _classes: 'stat'
@@ -23812,14 +15602,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1510'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 3960, y: 1427}
 		, _classes: 'stat'
@@ -23827,15 +15612,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1511'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3827, y: 1186}
 		, _classes: 'stat'
@@ -23843,15 +15622,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1512'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3827, y: 1354}
 		, _classes: 'stat'
@@ -23859,15 +15632,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1513'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 4093, y: 1354}
 		, _classes: 'stat'
@@ -23875,14 +15642,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1514'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 4093, y: 1186}
 		, _classes: 'stat'
@@ -23890,14 +15652,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1515'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, luck: 75
-				}
+			, _give: {prestige: 75, luck: 75}
 			}
 		, _position: {x: 3825, y: 1270}
 		, _classes: 'stat'
@@ -23905,14 +15662,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1516'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 4095, y: 1270}
 		, _classes: 'stat'
@@ -23920,9 +15672,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1501'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Жизненная энергия'
 			, _description:
 				'Использование сфер здоровья увеличивает скорость передвижения '+
@@ -23938,15 +15688,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1518'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1610, y: 1800}
 		, _classes: 'stat'
@@ -23954,15 +15698,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1519'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1662, y: 1710}
 		, _classes: 'stat'
@@ -23970,14 +15708,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1520'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 1558, y: 1710}
 		, _classes: 'stat'
@@ -23985,15 +15718,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1521'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1549, y: 1630}
 		, _classes: 'stat'
@@ -24001,15 +15728,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1522'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1671, y: 1630}
 		, _classes: 'stat'
@@ -24017,15 +15738,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1523'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1549, y: 1850}
 		, _classes: 'stat'
@@ -24033,15 +15748,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1524'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1671, y: 1850}
 		, _classes: 'stat'
@@ -24049,14 +15758,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1525'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 1610, y: 1583}
 		, _classes: 'stat'
@@ -24064,14 +15768,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1526'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 1610, y: 1897}
 		, _classes: 'stat'
@@ -24079,15 +15778,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1527'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1477, y: 1656}
 		, _classes: 'stat'
@@ -24095,15 +15788,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1528'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1477, y: 1824}
 		, _classes: 'stat'
@@ -24111,15 +15798,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1529'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1743, y: 1824}
 		, _classes: 'stat'
@@ -24127,14 +15808,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1530'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, str: 80
-				}
+			, _give: {prestige: 80, str: 80}
 			}
 		, _position: {x: 1743, y: 1656}
 		, _classes: 'stat'
@@ -24142,14 +15818,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1531'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 1475, y: 1740}
 		, _classes: 'stat'
@@ -24157,14 +15828,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1532'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: 1745, y: 1740}
 		, _classes: 'stat'
@@ -24172,9 +15838,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1517'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Мобилизация'
 			, _description:
 				'Дополнительный урон увеличен на 10% за каждый уровень этого '+
@@ -24189,14 +15853,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1534'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 2070, y: 1800}
 		, _classes: 'stat'
@@ -24204,15 +15863,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1535'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2122, y: 1710}
 		, _classes: 'stat'
@@ -24220,15 +15873,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1536'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2018, y: 1710}
 		, _classes: 'stat'
@@ -24236,14 +15883,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1537'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 1975, y: 1680}
 		, _classes: 'stat'
@@ -24251,15 +15893,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1538'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1975, y: 1800}
 		, _classes: 'stat'
@@ -24267,14 +15903,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1539'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 2165, y: 1800}
 		, _classes: 'stat'
@@ -24282,15 +15913,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1540'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2165, y: 1680}
 		, _classes: 'stat'
@@ -24298,14 +15923,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1541'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 2070, y: 1630}
 		, _classes: 'stat'
@@ -24313,15 +15933,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1542'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 2070, y: 1850}
 		, _classes: 'stat'
@@ -24329,15 +15943,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1543'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 2070, y: 1583}
 		, _classes: 'stat'
@@ -24345,15 +15953,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1544'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 2070, y: 1897}
 		, _classes: 'stat'
@@ -24361,15 +15963,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1545'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1937, y: 1656}
 		, _classes: 'stat'
@@ -24377,15 +15973,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1546'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1937, y: 1824}
 		, _classes: 'stat'
@@ -24393,15 +15983,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1547'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2203, y: 1824}
 		, _classes: 'stat'
@@ -24409,14 +15993,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1548'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 2203, y: 1656}
 		, _classes: 'stat'
@@ -24424,9 +16003,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1533'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Максимальная отдача'
 			, _description:
 				'Критический урон увеличен на 10% за каждый уровень этого '+
@@ -24441,14 +16018,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1550'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 2775, y: 1680}
 		, _classes: 'stat'
@@ -24456,15 +16028,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1551'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 2775, y: 1800}
 		, _classes: 'stat'
@@ -24472,15 +16038,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1552'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2965, y: 1800}
 		, _classes: 'stat'
@@ -24488,15 +16048,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1553'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2965, y: 1680}
 		, _classes: 'stat'
@@ -24504,14 +16058,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1554'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 2809, y: 1630}
 		, _classes: 'stat'
@@ -24519,15 +16068,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1555'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2931, y: 1630}
 		, _classes: 'stat'
@@ -24535,15 +16078,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1556'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 2809, y: 1850}
 		, _classes: 'stat'
@@ -24551,15 +16088,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1557'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 2931, y: 1850}
 		, _classes: 'stat'
@@ -24567,14 +16098,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1558'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: 2870, y: 1630}
 		, _classes: 'stat'
@@ -24582,15 +16108,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1559'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2870, y: 1850}
 		, _classes: 'stat'
@@ -24598,15 +16118,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1560'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2737, y: 1656}
 		, _classes: 'stat'
@@ -24614,15 +16128,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1561'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2737, y: 1824}
 		, _classes: 'stat'
@@ -24630,14 +16138,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1562'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: 3003, y: 1824}
 		, _classes: 'stat'
@@ -24645,14 +16148,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1563'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 3003, y: 1656}
 		, _classes: 'stat'
@@ -24660,15 +16158,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1564'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2735, y: 1740}
 		, _classes: 'stat'
@@ -24676,14 +16168,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1565'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3005, y: 1740}
 		, _classes: 'stat'
@@ -24691,9 +16178,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1549'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Равновесие'
 			, _description:
 				'Персонаж получает на 6% меньше урона за каждый уровень этого '+
@@ -24708,15 +16193,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1567'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3405, y: 1680}
 		, _classes: 'stat'
@@ -24724,15 +16203,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1568'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3405, y: 1800}
 		, _classes: 'stat'
@@ -24740,14 +16213,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1569'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3595, y: 1800}
 		, _classes: 'stat'
@@ -24755,15 +16223,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1570'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3595, y: 1680}
 		, _classes: 'stat'
@@ -24771,14 +16233,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1571'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 3439, y: 1630}
 		, _classes: 'stat'
@@ -24786,15 +16243,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1572'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3561, y: 1630}
 		, _classes: 'stat'
@@ -24802,15 +16253,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1573'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3439, y: 1850}
 		, _classes: 'stat'
@@ -24818,14 +16263,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1574'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 3561, y: 1850}
 		, _classes: 'stat'
@@ -24833,15 +16273,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1575'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3500, y: 1630}
 		, _classes: 'stat'
@@ -24849,14 +16283,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1576'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 165}
-			, _give:
-				{ prestige: 32
-				, vit: 32
-				}
+			, _give: {prestige: 32, vit: 32}
 			}
 		, _position: {x: 3500, y: 1850}
 		, _classes: 'stat'
@@ -24864,15 +16293,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1577'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3367, y: 1656}
 		, _classes: 'stat'
@@ -24880,14 +16303,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1578'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: 3367, y: 1824}
 		, _classes: 'stat'
@@ -24895,15 +16313,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1579'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3633, y: 1824}
 		, _classes: 'stat'
@@ -24911,14 +16323,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1580'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 3633, y: 1656}
 		, _classes: 'stat'
@@ -24926,15 +16333,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1581'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3365, y: 1740}
 		, _classes: 'stat'
@@ -24942,15 +16343,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1582'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3635, y: 1740}
 		, _classes: 'stat'
@@ -24958,9 +16353,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1566'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Метка смерти'
 			, _description:
 				'Наносимые атаки могут оставить на противнике метку смерти. '+
@@ -24977,15 +16370,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1584'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 135, y: -1800}
 		, _classes: 'stat'
@@ -24993,15 +16380,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1585'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 135, y: -1680}
 		, _classes: 'stat'
@@ -25009,15 +16390,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1586'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 325, y: -1680}
 		, _classes: 'stat'
@@ -25025,14 +16400,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1587'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 325, y: -1800}
 		, _classes: 'stat'
@@ -25040,15 +16410,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1588'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 169, y: -1850}
 		, _classes: 'stat'
@@ -25056,15 +16420,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1589'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 291, y: -1850}
 		, _classes: 'stat'
@@ -25072,15 +16430,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1590'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 169, y: -1630}
 		, _classes: 'stat'
@@ -25088,15 +16440,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1591'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 291, y: -1630}
 		, _classes: 'stat'
@@ -25104,15 +16450,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1592'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 230, y: -1850}
 		, _classes: 'stat'
@@ -25120,15 +16460,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1593'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 230, y: -1630}
 		, _classes: 'stat'
@@ -25136,14 +16470,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1594'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 97, y: -1824}
 		, _classes: 'stat'
@@ -25151,15 +16480,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1595'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 97, y: -1656}
 		, _classes: 'stat'
@@ -25167,14 +16490,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1596'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, str: 75
-				}
+			, _give: {prestige: 75, str: 75}
 			}
 		, _position: {x: 363, y: -1656}
 		, _classes: 'stat'
@@ -25182,15 +16500,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1597'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 363, y: -1824}
 		, _classes: 'stat'
@@ -25198,14 +16510,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1598'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 95, y: -1740}
 		, _classes: 'stat'
@@ -25213,15 +16520,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1599'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 365, y: -1740}
 		, _classes: 'stat'
@@ -25229,9 +16530,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1583'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Прилив адренална'
 			, _description:
 				'При получении урона скорость перемещения может увеличиться на '+
@@ -25250,15 +16549,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1601'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1310, y: -590}
 		, _classes: 'stat'
@@ -25266,15 +16559,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1602'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1258, y: -680}
 		, _classes: 'stat'
@@ -25282,15 +16569,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1603'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1362, y: -680}
 		, _classes: 'stat'
@@ -25298,15 +16579,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1604'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1405, y: -710}
 		, _classes: 'stat'
@@ -25314,14 +16589,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1605'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: -1405, y: -590}
 		, _classes: 'stat'
@@ -25329,15 +16599,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1606'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1215, y: -590}
 		, _classes: 'stat'
@@ -25345,15 +16609,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1607'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1215, y: -710}
 		, _classes: 'stat'
@@ -25361,15 +16619,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1608'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1371, y: -760}
 		, _classes: 'stat'
@@ -25377,14 +16629,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1609'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1249, y: -760}
 		, _classes: 'stat'
@@ -25392,15 +16639,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1610'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex:24
-				}
+			, _give: {prestige: 75, vit: 75, dex:24}
 			}
 		, _position: {x: -1371, y: -540}
 		, _classes: 'stat'
@@ -25408,15 +16649,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1611'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1249, y: -540}
 		, _classes: 'stat'
@@ -25424,15 +16659,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1612'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1310, y: -760}
 		, _classes: 'stat'
@@ -25440,15 +16669,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1613'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1310, y: -540}
 		, _classes: 'stat'
@@ -25456,14 +16679,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1614'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, str: 75
-				}
+			, _give: {prestige: 75, str: 75}
 			}
 		, _position: {x: -1445, y: -650}
 		, _classes: 'stat'
@@ -25471,14 +16689,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1615'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -1175, y: -650}
 		, _classes: 'stat'
@@ -25486,9 +16699,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1600'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Максимальная отдача'
 			, _description:
 				'Критический урон увеличен на 10% за каждый уровень этого '+
@@ -25503,15 +16714,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1617'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1740, y: -590}
 		, _classes: 'stat'
@@ -25519,15 +16724,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1618'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1688, y: -680}
 		, _classes: 'stat'
@@ -25535,14 +16734,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1619'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1792, y: -680}
 		, _classes: 'stat'
@@ -25550,14 +16744,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1620'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: -1835, y: -710}
 		, _classes: 'stat'
@@ -25565,15 +16754,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1621'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1835, y: -590}
 		, _classes: 'stat'
@@ -25581,15 +16764,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1622'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1645, y: -590}
 		, _classes: 'stat'
@@ -25597,14 +16774,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1623'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: -1645, y: -710}
 		, _classes: 'stat'
@@ -25612,15 +16784,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1624'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1801, y: -760}
 		, _classes: 'stat'
@@ -25628,14 +16794,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1625'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: -1679, y: -760}
 		, _classes: 'stat'
@@ -25643,15 +16804,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1626'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1801, y: -540}
 		, _classes: 'stat'
@@ -25659,15 +16814,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1627'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1679, y: -540}
 		, _classes: 'stat'
@@ -25675,15 +16824,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1628'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1740, y: -760}
 		, _classes: 'stat'
@@ -25691,15 +16834,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1629'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1740, y: -807}
 		, _classes: 'stat'
@@ -25707,15 +16844,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1630'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1740, y: -493}
 		, _classes: 'stat'
@@ -25723,9 +16854,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1616'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Интенсивность импульса'
 			, _description:
 				'Импульсный урон увеличен на 10% за каждый уровень этого символа.'
@@ -25739,15 +16868,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1632'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2110, y: 60}
 		, _classes: 'stat'
@@ -25755,15 +16878,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1633'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2058, y: -30}
 		, _classes: 'stat'
@@ -25771,14 +16888,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1634'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, str: 75
-				}
+			, _give: {prestige: 75, str: 75}
 			}
 		, _position: {x: -2162, y: -30}
 		, _classes: 'stat'
@@ -25786,15 +16898,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1635'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -2171, y: -110}
 		, _classes: 'stat'
@@ -25802,15 +16908,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1636'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2049, y: -110}
 		, _classes: 'stat'
@@ -25818,15 +16918,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1637'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2171, y: 110}
 		, _classes: 'stat'
@@ -25834,15 +16928,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1638'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2049, y: 110}
 		, _classes: 'stat'
@@ -25850,14 +16938,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1639'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, luck: 75
-				}
+			, _give: {prestige: 75, luck: 75}
 			}
 		, _position: {x: -2110, y: -157}
 		, _classes: 'stat'
@@ -25865,15 +16948,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1640'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2110, y: 157}
 		, _classes: 'stat'
@@ -25881,14 +16958,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1641'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -2243, y: -84}
 		, _classes: 'stat'
@@ -25896,15 +16968,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1642'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -2243, y: 84}
 		, _classes: 'stat'
@@ -25912,15 +16978,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1643'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1977, y: 84}
 		, _classes: 'stat'
@@ -25928,15 +16988,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1644'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1977, y: -84}
 		, _classes: 'stat'
@@ -25944,15 +16998,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1645'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -2245, y: 0}
 		, _classes: 'stat'
@@ -25960,14 +17008,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1646'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: -1975, y: 0}
 		, _classes: 'stat'
@@ -25975,9 +17018,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1631'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина разрушения'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'destroy'
@@ -25990,15 +17031,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1648'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2570, y: 60}
 		, _classes: 'stat'
@@ -26006,15 +17041,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1649'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -2518, y: -30}
 		, _classes: 'stat'
@@ -26022,15 +17051,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1650'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2622, y: -30}
 		, _classes: 'stat'
@@ -26038,15 +17061,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1651'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2665, y: -60}
 		, _classes: 'stat'
@@ -26054,15 +17071,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1652'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -2665, y: 60}
 		, _classes: 'stat'
@@ -26070,14 +17081,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1653'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: -2475, y: 60}
 		, _classes: 'stat'
@@ -26085,14 +17091,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1654'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: -2475, y: -60}
 		, _classes: 'stat'
@@ -26100,15 +17101,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1655'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2570, y: -110}
 		, _classes: 'stat'
@@ -26116,14 +17111,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1656'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: -2570, y: 110}
 		, _classes: 'stat'
@@ -26131,14 +17121,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1657'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -2570, y: -157}
 		, _classes: 'stat'
@@ -26146,15 +17131,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1658'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -2570, y: 157}
 		, _classes: 'stat'
@@ -26162,14 +17141,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1659'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -2703, y: -84}
 		, _classes: 'stat'
@@ -26177,15 +17151,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1660'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -2703, y: 84}
 		, _classes: 'stat'
@@ -26193,14 +17161,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1661'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -2437, y: 84}
 		, _classes: 'stat'
@@ -26208,15 +17171,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1662'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -2437, y: -84}
 		, _classes: 'stat'
@@ -26224,9 +17181,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1647'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Метка смерти'
 			, _description:
 				'Наносимые атаки могут оставить на противнике метку смерти. '+
@@ -26243,15 +17198,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1664'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2200, y: -590}
 		, _classes: 'stat'
@@ -26259,15 +17208,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1665'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2148, y: -680}
 		, _classes: 'stat'
@@ -26275,14 +17218,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1666'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: -2252, y: -680}
 		, _classes: 'stat'
@@ -26290,15 +17228,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1667'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -2295, y: -710}
 		, _classes: 'stat'
@@ -26306,15 +17238,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1668'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2295, y: -590}
 		, _classes: 'stat'
@@ -26322,15 +17248,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1669'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2105, y: -590}
 		, _classes: 'stat'
@@ -26338,15 +17258,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1670'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -2105, y: -710}
 		, _classes: 'stat'
@@ -26354,15 +17268,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1671'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2261, y: -760}
 		, _classes: 'stat'
@@ -26370,14 +17278,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1672'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -2139, y: -760}
 		, _classes: 'stat'
@@ -26385,14 +17288,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1673'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -2261, y: -540}
 		, _classes: 'stat'
@@ -26400,15 +17298,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1674'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -2139, y: -540}
 		, _classes: 'stat'
@@ -26416,15 +17308,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1675'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -2200, y: -760}
 		, _classes: 'stat'
@@ -26432,15 +17318,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1676'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -2200, y: -540}
 		, _classes: 'stat'
@@ -26448,15 +17328,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1677'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -2335, y: -650}
 		, _classes: 'stat'
@@ -26464,14 +17338,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1678'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, luck: 75
-				}
+			, _give: {prestige: 75, luck: 75}
 			}
 		, _position: {x: -2065, y: -650}
 		, _classes: 'stat'
@@ -26479,9 +17348,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1663'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Двойной разряд'
 			, _description:
 				'"Импульсный разряд" может быть активирован два раза подряд '+
@@ -26497,15 +17364,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1680'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -2200, y: 710}
 		, _classes: 'stat'
@@ -26513,15 +17374,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1681'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -2148, y: 620}
 		, _classes: 'stat'
@@ -26529,15 +17384,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1682'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2252, y: 620}
 		, _classes: 'stat'
@@ -26545,15 +17394,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1683'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2295, y: 590}
 		, _classes: 'stat'
@@ -26561,14 +17404,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1684'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -2295, y: 710}
 		, _classes: 'stat'
@@ -26576,14 +17414,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1685'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, valor: 75
-				}
+			, _give: {prestige: 75, valor: 75}
 			}
 		, _position: {x: -2105, y: 710}
 		, _classes: 'stat'
@@ -26591,14 +17424,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1686'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: -2105, y: 590}
 		, _classes: 'stat'
@@ -26606,14 +17434,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1687'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -2261, y: 540}
 		, _classes: 'stat'
@@ -26621,15 +17444,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1688'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2139, y: 540}
 		, _classes: 'stat'
@@ -26637,15 +17454,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1689'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2261, y: 760}
 		, _classes: 'stat'
@@ -26653,15 +17464,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1690'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -2139, y: 760}
 		, _classes: 'stat'
@@ -26669,15 +17474,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1691'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -2200, y: 540}
 		, _classes: 'stat'
@@ -26685,14 +17484,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1692'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -2200, y: 760}
 		, _classes: 'stat'
@@ -26700,15 +17494,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1693'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -2335, y: 650}
 		, _classes: 'stat'
@@ -26716,15 +17504,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1694'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2065, y: 650}
 		, _classes: 'stat'
@@ -26732,9 +17514,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1679'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Призыв окулата'
 			, _description:
 				'Применение атакующих умений в бою с некоторой вероятностью '+
@@ -26750,15 +17530,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1696'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1740, y: 710}
 		, _classes: 'stat'
@@ -26766,15 +17540,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1697'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1688, y: 620}
 		, _classes: 'stat'
@@ -26782,15 +17550,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1698'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1792, y: 620}
 		, _classes: 'stat'
@@ -26798,15 +17560,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1699'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1835, y: 590}
 		, _classes: 'stat'
@@ -26814,14 +17570,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1700'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1835, y: 710}
 		, _classes: 'stat'
@@ -26829,14 +17580,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1701'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -1645, y: 710}
 		, _classes: 'stat'
@@ -26844,15 +17590,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1702'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1645, y: 590}
 		, _classes: 'stat'
@@ -26860,15 +17600,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1703'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1801, y: 540}
 		, _classes: 'stat'
@@ -26876,14 +17610,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1704'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: -1679, y: 540}
 		, _classes: 'stat'
@@ -26891,15 +17620,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1705'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1801, y: 760}
 		, _classes: 'stat'
@@ -26907,15 +17630,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1706'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1679, y: 760}
 		, _classes: 'stat'
@@ -26923,14 +17640,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1707'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1740, y: 540}
 		, _classes: 'stat'
@@ -26938,14 +17650,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1708'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: -1740, y: 493}
 		, _classes: 'stat'
@@ -26953,15 +17660,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1709'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1740, y: 807}
 		, _classes: 'stat'
@@ -26969,9 +17670,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1695'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Мобилизация'
 			, _description:
 				'Дополнительный урон увеличен на 10% за каждый уровень этого '+
@@ -26986,15 +17685,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1711'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1310, y: 710}
 		, _classes: 'stat'
@@ -27002,15 +17695,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1712'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1258, y: 620}
 		, _classes: 'stat'
@@ -27018,15 +17705,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1713'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1362, y: 620}
 		, _classes: 'stat'
@@ -27034,15 +17715,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1714'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1405, y: 590}
 		, _classes: 'stat'
@@ -27050,15 +17725,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1715'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1405, y: 710}
 		, _classes: 'stat'
@@ -27066,14 +17735,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1716'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1215, y: 710}
 		, _classes: 'stat'
@@ -27081,15 +17745,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1718'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1215, y: 590}
 		, _classes: 'stat'
@@ -27097,14 +17755,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1719'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: -1310, y: 540}
 		, _classes: 'stat'
@@ -27112,15 +17765,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1720'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1310, y: 760}
 		, _classes: 'stat'
@@ -27128,14 +17775,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1721'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: -1310, y: 493}
 		, _classes: 'stat'
@@ -27143,15 +17785,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1722'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1310, y: 807}
 		, _classes: 'stat'
@@ -27159,15 +17795,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1723'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1443, y: 566}
 		, _classes: 'stat'
@@ -27175,15 +17805,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1724'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1443, y: 734}
 		, _classes: 'stat'
@@ -27191,14 +17815,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1725'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -1177, y: 734}
 		, _classes: 'stat'
@@ -27206,15 +17825,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1726'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1177, y: 566}
 		, _classes: 'stat'
@@ -27222,9 +17835,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1710'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Предельная сила'
 			, _description:
 				'Влияние показателя силы на базовый урон увеличено на 10% за '+
@@ -27239,14 +17850,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1728'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -1580, y: -1140}
 		, _classes: 'stat'
@@ -27254,15 +17860,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1729'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1528, y: -1230}
 		, _classes: 'stat'
@@ -27270,15 +17870,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1730'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1632, y: -1230}
 		, _classes: 'stat'
@@ -27286,15 +17880,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1731'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1641, y: -1310}
 		, _classes: 'stat'
@@ -27302,15 +17890,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1732'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1519, y: -1310}
 		, _classes: 'stat'
@@ -27318,15 +17900,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1733'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1641, y: -1090}
 		, _classes: 'stat'
@@ -27334,15 +17910,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1734'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1519, y: -1090}
 		, _classes: 'stat'
@@ -27350,14 +17920,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1735'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1580, y: -1357}
 		, _classes: 'stat'
@@ -27365,14 +17930,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1736'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -1580, y: -1043}
 		, _classes: 'stat'
@@ -27380,15 +17940,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1737'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1713, y: -1284}
 		, _classes: 'stat'
@@ -27396,15 +17950,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1738'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1713, y: -1116}
 		, _classes: 'stat'
@@ -27412,15 +17960,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1739'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1447, y: -1116}
 		, _classes: 'stat'
@@ -27428,14 +17970,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1740'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1447, y: -1284}
 		, _classes: 'stat'
@@ -27443,15 +17980,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1741'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1715, y: -1200}
 		, _classes: 'stat'
@@ -27459,14 +17990,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1742'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: -1445, y: -1200}
 		, _classes: 'stat'
@@ -27474,9 +18000,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1727'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Беспозадность'
 			, _description:
 				'Противники под эффектом оглущения, обездвиживания, страха или '+
@@ -27494,14 +18018,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1744'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: -1705, y: -1800}
 		, _classes: 'stat'
@@ -27509,15 +18028,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1745'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1705, y: -1680}
 		, _classes: 'stat'
@@ -27525,15 +18038,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1746'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1515, y: -1680}
 		, _classes: 'stat'
@@ -27541,15 +18048,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1747'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1515, y: -1800}
 		, _classes: 'stat'
@@ -27557,15 +18058,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1748'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1671, y: -1850}
 		, _classes: 'stat'
@@ -27573,15 +18068,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1749'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1549, y: -1850}
 		, _classes: 'stat'
@@ -27589,15 +18078,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1750'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1671, y: -1630}
 		, _classes: 'stat'
@@ -27605,14 +18088,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1751'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: -1549, y: -1630}
 		, _classes: 'stat'
@@ -27620,15 +18098,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1752'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1610, y: -1850}
 		, _classes: 'stat'
@@ -27636,14 +18108,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1753'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1610, y: -1630}
 		, _classes: 'stat'
@@ -27651,15 +18118,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1754'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1743, y: -1824}
 		, _classes: 'stat'
@@ -27667,15 +18128,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1755'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1743, y: -1656}
 		, _classes: 'stat'
@@ -27683,14 +18138,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1756'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -1477, y: -1656}
 		, _classes: 'stat'
@@ -27698,15 +18148,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1757'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 175
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 175, vit: 75, dex: 24}
 			}
 		, _position: {x: -1477, y: -1824}
 		, _classes: 'stat'
@@ -27714,15 +18158,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1758'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1745, y: -1740}
 		, _classes: 'stat'
@@ -27730,14 +18168,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1759'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -1475, y: -1740}
 		, _classes: 'stat'
@@ -27745,9 +18178,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1743'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина разрушения'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'destroy'
@@ -27760,15 +18191,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1761'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 775}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -3030, y: 60}
 		, _classes: 'stat'
@@ -27776,15 +18201,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1762'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 585}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -2978, y: -30}
 		, _classes: 'stat'
@@ -27792,14 +18211,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1763'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 775}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: -3082, y: -30}
 		, _classes: 'stat'
@@ -27807,14 +18221,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1764'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 775}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -3125, y: -60}
 		, _classes: 'stat'
@@ -27822,15 +18231,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1765'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 585}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -3125, y: 60}
 		, _classes: 'stat'
@@ -27838,14 +18241,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1766'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: -2935, y: 60}
 		, _classes: 'stat'
@@ -27853,14 +18251,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1767'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 150
-				}
+			, _give: {prestige: 30, majesty: 150}
 			}
 		, _position: {x: -2935, y: -60}
 		, _classes: 'stat'
@@ -27868,15 +18261,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1768'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 585}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -3091, y: -110}
 		, _classes: 'stat'
@@ -27884,15 +18271,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1769'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 865}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -2969, y: -110}
 		, _classes: 'stat'
@@ -27900,15 +18281,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1770'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 965}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -3091, y: 110}
 		, _classes: 'stat'
@@ -27916,15 +18291,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1771'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 775}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -2969, y: 110}
 		, _classes: 'stat'
@@ -27932,14 +18301,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1772'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 585}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: -3030, y: -110}
 		, _classes: 'stat'
@@ -27947,15 +18311,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1773'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 775}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -3030, y: -157}
 		, _classes: 'stat'
@@ -27963,15 +18321,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1774'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 965}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -3030, y: 157}
 		, _classes: 'stat'
@@ -27979,9 +18331,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1760'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина равновесия'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'balance'
@@ -27994,15 +18344,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1776'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 780, y: 2260}
 		, _classes: 'stat'
@@ -28010,15 +18354,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1777'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 832, y: 2170}
 		, _classes: 'stat'
@@ -28026,15 +18364,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1778'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 728, y: 2170}
 		, _classes: 'stat'
@@ -28042,15 +18374,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1779'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 685, y: 2140}
 		, _classes: 'stat'
@@ -28058,14 +18384,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1780'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 685, y: 2260}
 		, _classes: 'stat'
@@ -28073,15 +18394,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1781'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 875, y: 2260}
 		, _classes: 'stat'
@@ -28089,15 +18404,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1782'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 875, y: 2140}
 		, _classes: 'stat'
@@ -28105,14 +18414,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1783'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: 719, y: 2090}
 		, _classes: 'stat'
@@ -28120,15 +18424,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1784'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 841, y: 2090}
 		, _classes: 'stat'
@@ -28136,15 +18434,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1785'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 719, y: 2310}
 		, _classes: 'stat'
@@ -28152,15 +18444,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1786'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 841, y: 2310}
 		, _classes: 'stat'
@@ -28168,14 +18454,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1787'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 780, y: 2090}
 		, _classes: 'stat'
@@ -28183,15 +18464,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1788'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 780, y: 2310}
 		, _classes: 'stat'
@@ -28199,14 +18474,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1789'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 50
-				, majesty: 250
-				}
+			, _give: {prestige: 50, majesty: 250}
 			}
 		, _position: {x: 645, y: 2200}
 		, _classes: 'stat'
@@ -28214,14 +18484,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1790'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: 915, y: 2200}
 		, _classes: 'stat'
@@ -28229,9 +18494,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1775'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Интенсивность импульса'
 			, _description:
 				'Импульсный урон увеличен на 10% за каждый уровень этого символа.'
@@ -28245,14 +18508,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1792'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, str: 38
-				}
+			, _give: {prestige: 38, str: 38}
 			}
 		, _position: {x: 1980, y: 2260}
 		, _classes: 'stat'
@@ -28260,15 +18518,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1793'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 2032, y: 2170}
 		, _classes: 'stat'
@@ -28276,15 +18528,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1794'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1928, y: 2170}
 		, _classes: 'stat'
@@ -28292,14 +18538,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1795'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 1885, y: 2140}
 		, _classes: 'stat'
@@ -28307,15 +18548,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1796'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1885, y: 2260}
 		, _classes: 'stat'
@@ -28323,15 +18558,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1797'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2075, y: 2260}
 		, _classes: 'stat'
@@ -28339,15 +18568,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1798'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 2075, y: 2140}
 		, _classes: 'stat'
@@ -28355,15 +18578,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1799'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1919, y: 2090}
 		, _classes: 'stat'
@@ -28371,15 +18588,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1800'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 2041, y: 2090}
 		, _classes: 'stat'
@@ -28387,14 +18598,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1801'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 1919, y: 2310}
 		, _classes: 'stat'
@@ -28402,14 +18608,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1802'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, str: 75
-				}
+			, _give: {prestige: 75, str: 75}
 			}
 		, _position: {x: 2041, y: 2310}
 		, _classes: 'stat'
@@ -28417,14 +18618,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1803'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: 1980, y: 2090}
 		, _classes: 'stat'
@@ -28432,15 +18628,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1804'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1980, y: 2310}
 		, _classes: 'stat'
@@ -28448,14 +18638,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1805'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 1845, y: 2200}
 		, _classes: 'stat'
@@ -28463,15 +18648,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1806'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 2115, y: 2200}
 		, _classes: 'stat'
@@ -28479,9 +18658,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1791'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Прорыв'
 			, _description:
 				'Применение рывка оглушает противников вокруг конечной позиции '+
@@ -28497,15 +18674,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1809'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1380, y: 2160}
 		, _classes: 'stat'
@@ -28513,15 +18684,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1810'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1432, y: 2070}
 		, _classes: 'stat'
@@ -28529,14 +18694,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1811'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 1328, y: 2070}
 		, _classes: 'stat'
@@ -28544,15 +18704,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1812'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1319, y: 1990}
 		, _classes: 'stat'
@@ -28560,15 +18714,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1813'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1441, y: 1990}
 		, _classes: 'stat'
@@ -28576,15 +18724,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1814'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1319, y: 2210}
 		, _classes: 'stat'
@@ -28592,15 +18734,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1815'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1441, y: 2210}
 		, _classes: 'stat'
@@ -28608,15 +18744,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1816'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1380, y: 1943}
 		, _classes: 'stat'
@@ -28624,14 +18754,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1817'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 1380, y: 2257}
 		, _classes: 'stat'
@@ -28639,14 +18764,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1818'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 125}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 1247, y: 2016}
 		, _classes: 'stat'
@@ -28654,15 +18774,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1819'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1247, y: 2184}
 		, _classes: 'stat'
@@ -28670,15 +18784,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1820'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1513, y: 2184}
 		, _classes: 'stat'
@@ -28686,15 +18794,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1821'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1513, y: 2016}
 		, _classes: 'stat'
@@ -28702,15 +18804,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1822'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1245, y: 2100}
 		, _classes: 'stat'
@@ -28718,14 +18814,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1823'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 1515, y: 2100}
 		, _classes: 'stat'
@@ -28733,9 +18824,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1807'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _nodeImage: 'empty'
 			, _need: {}
 			, _give: {}
@@ -28746,15 +18835,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1825'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1285, y: 2490}
 		, _classes: 'stat'
@@ -28762,15 +18845,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1826'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1285, y: 2610}
 		, _classes: 'stat'
@@ -28778,15 +18855,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1827'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1475, y: 2610}
 		, _classes: 'stat'
@@ -28794,15 +18865,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1828'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1475, y: 2490}
 		, _classes: 'stat'
@@ -28810,14 +18875,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1829'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 1319, y: 2440}
 		, _classes: 'stat'
@@ -28825,15 +18885,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1830'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 1441, y: 2440}
 		, _classes: 'stat'
@@ -28841,14 +18895,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1831'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: 1319, y: 2660}
 		, _classes: 'stat'
@@ -28856,15 +18905,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1832'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 1441, y: 2660}
 		, _classes: 'stat'
@@ -28872,15 +18915,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1833'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1380, y: 2440}
 		, _classes: 'stat'
@@ -28888,15 +18925,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1834'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 1380, y: 2660}
 		, _classes: 'stat'
@@ -28904,15 +18935,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1835'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 1247, y: 2466}
 		, _classes: 'stat'
@@ -28920,15 +18945,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1836'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 1247, y: 2634}
 		, _classes: 'stat'
@@ -28936,15 +18955,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1837'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1513, y: 2634}
 		, _classes: 'stat'
@@ -28952,15 +18965,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1838'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 1513, y: 2466}
 		, _classes: 'stat'
@@ -28968,14 +18975,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1839'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 810}
-			, _give:
-				{ prestige: 75
-				, spirit: 75
-				}
+			, _give: {prestige: 75, spirit: 75}
 			}
 		, _position: {x: 1245, y: 2550}
 		, _classes: 'stat'
@@ -28983,14 +18985,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1840'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 1515, y: 2550}
 		, _classes: 'stat'
@@ -28998,9 +18995,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1824'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Блистательный триумф'
 			, _description:
 				'Применение добивающего удара увеличивает исходящий урон на 15% '+
@@ -29016,15 +19011,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1842'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1580, y: 1260}
 		, _classes: 'stat'
@@ -29032,15 +19021,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1843'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1528, y: 1170}
 		, _classes: 'stat'
@@ -29048,14 +19031,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1844'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1632, y: 1170}
 		, _classes: 'stat'
@@ -29063,14 +19041,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1845'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -1675, y: 1140}
 		, _classes: 'stat'
@@ -29078,15 +19051,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1846'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1675, y: 1260}
 		, _classes: 'stat'
@@ -29094,15 +19061,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1847'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1485, y: 1260}
 		, _classes: 'stat'
@@ -29110,14 +19071,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1848'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -1485, y: 1140}
 		, _classes: 'stat'
@@ -29125,15 +19081,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1849'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1641, y: 1090}
 		, _classes: 'stat'
@@ -29141,15 +19091,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1850'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1519, y: 1090}
 		, _classes: 'stat'
@@ -29157,15 +19101,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1851'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1641, y: 1310}
 		, _classes: 'stat'
@@ -29173,15 +19111,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1852'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1519, y: 1310}
 		, _classes: 'stat'
@@ -29189,15 +19121,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1853'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1580, y: 1090}
 		, _classes: 'stat'
@@ -29205,14 +19131,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1854'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: -1580, y: 1043}
 		, _classes: 'stat'
@@ -29220,15 +19141,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1855'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1580, y: 1357}
 		, _classes: 'stat'
@@ -29236,9 +19151,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1841'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Дополнительный рывок'
 			, _description:
 				'Количество зарядов рывка увеличено на 1 за каждый уровень '+
@@ -29253,15 +19166,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1857'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1610, y: 1800}
 		, _classes: 'stat'
@@ -29269,15 +19176,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1858'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, vit: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, vit: 40, dex: 24}
 			}
 		, _position: {x: -1558, y: 1710}
 		, _classes: 'stat'
@@ -29285,14 +19186,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1859'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: -1662, y: 1710}
 		, _classes: 'stat'
@@ -29300,15 +19196,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1860'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1671, y: 1630}
 		, _classes: 'stat'
@@ -29316,14 +19206,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1861'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, luck: 38
-				}
+			, _give: {prestige: 38, luck: 38}
 			}
 		, _position: {x: -1549, y: 1630}
 		, _classes: 'stat'
@@ -29331,15 +19216,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1862'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1671, y: 1850}
 		, _classes: 'stat'
@@ -29347,15 +19226,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1863'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1549, y: 1850}
 		, _classes: 'stat'
@@ -29363,14 +19236,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1864'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: -1610, y: 1583}
 		, _classes: 'stat'
@@ -29378,15 +19246,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1865'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1610, y: 1897}
 		, _classes: 'stat'
@@ -29394,15 +19256,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1866'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1743, y: 1656}
 		, _classes: 'stat'
@@ -29410,14 +19266,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1867'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1743, y: 1824}
 		, _classes: 'stat'
@@ -29425,15 +19276,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1868'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -1477, y: 1824}
 		, _classes: 'stat'
@@ -29441,15 +19286,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1869'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1477, y: 1656}
 		, _classes: 'stat'
@@ -29457,15 +19296,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1870'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1745, y: 1740}
 		, _classes: 'stat'
@@ -29473,14 +19306,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1871'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: -1475, y: 1740}
 		, _classes: 'stat'
@@ -29488,9 +19316,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1856'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Предельная сила'
 			, _description:
 				'Влияние показателя силы на базовый урон увеличено на 10% за '+
@@ -29505,15 +19331,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1873'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1145, y: 1680}
 		, _classes: 'stat'
@@ -29521,15 +19341,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1874'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1145, y: 1800}
 		, _classes: 'stat'
@@ -29537,14 +19351,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1875'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, valor: 38
-				}
+			, _give: {prestige: 38, valor: 38}
 			}
 		, _position: {x: -955, y: 1800}
 		, _classes: 'stat'
@@ -29552,15 +19361,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1876'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -955, y: 1680}
 		, _classes: 'stat'
@@ -29568,14 +19371,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1877'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -1111, y: 1630}
 		, _classes: 'stat'
@@ -29583,15 +19381,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1878'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -989, y: 1630}
 		, _classes: 'stat'
@@ -29599,15 +19391,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1879'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1111, y: 1850}
 		, _classes: 'stat'
@@ -29615,15 +19401,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1890'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -989, y: 1850}
 		, _classes: 'stat'
@@ -29631,15 +19411,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1891'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1050, y: 1630}
 		, _classes: 'stat'
@@ -29647,15 +19421,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1892'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1050, y: 1850}
 		, _classes: 'stat'
@@ -29663,15 +19431,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1893'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -1183, y: 1656}
 		, _classes: 'stat'
@@ -29679,15 +19441,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1894'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1183, y: 1824}
 		, _classes: 'stat'
@@ -29695,14 +19451,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1895'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -917, y: 1824}
 		, _classes: 'stat'
@@ -29710,15 +19461,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1896'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -917, y: 1656}
 		, _classes: 'stat'
@@ -29726,14 +19471,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1897'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1185, y: 1740}
 		, _classes: 'stat'
@@ -29741,14 +19481,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1898'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: -915, y: 1740}
 		, _classes: 'stat'
@@ -29756,9 +19491,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1872'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Вершина созидания'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
 			, _nodeImage: 'create'
@@ -29771,14 +19504,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1900'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, valor: 56
-				}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -500, y: 1800}
 		, _classes: 'stat'
@@ -29786,15 +19514,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1901'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -448, y: 1710}
 		, _classes: 'stat'
@@ -29802,15 +19524,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1902'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -552, y: 1710}
 		, _classes: 'stat'
@@ -29818,15 +19534,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1903'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -595, y: 1680}
 		, _classes: 'stat'
@@ -29834,15 +19544,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1904'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -595, y: 1800}
 		, _classes: 'stat'
@@ -29850,15 +19554,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1905'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -405, y: 1800}
 		, _classes: 'stat'
@@ -29866,14 +19564,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1906'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 490}
-			, _give:
-				{ prestige: 38
-				, spirit: 38
-				}
+			, _give: {prestige: 38, spirit: 38}
 			}
 		, _position: {x: -405, y: 1680}
 		, _classes: 'stat'
@@ -29881,15 +19574,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1907'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -500, y: 1630}
 		, _classes: 'stat'
@@ -29897,15 +19584,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1908'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -500, y: 1850}
 		, _classes: 'stat'
@@ -29913,14 +19594,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1909'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -500, y: 1583}
 		, _classes: 'stat'
@@ -29928,15 +19604,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1910'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -500, y: 1897}
 		, _classes: 'stat'
@@ -29944,15 +19614,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1911'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -633, y: 1656}
 		, _classes: 'stat'
@@ -29960,15 +19624,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1912'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -633, y: 1824}
 		, _classes: 'stat'
@@ -29976,14 +19634,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1913'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -367, y: 1824}
 		, _classes: 'stat'
@@ -29991,14 +19644,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1914'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -367, y: 1656}
 		, _classes: 'stat'
@@ -30006,9 +19654,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1899'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Беспозадность'
 			, _description:
 				'Противники под эффектом оглущения, обездвиживания, страха или '+
@@ -30026,14 +19672,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1916'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: 230, y: 1800}
 		, _classes: 'stat'
@@ -30041,15 +19682,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1917'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 282, y: 1710}
 		, _classes: 'stat'
@@ -30057,15 +19692,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1918'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 178, y: 1710}
 		, _classes: 'stat'
@@ -30073,15 +19702,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1919'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 169, y: 1630}
 		, _classes: 'stat'
@@ -30089,15 +19712,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1920'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 291, y: 1630}
 		, _classes: 'stat'
@@ -30105,15 +19722,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1921'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 169, y: 1850}
 		, _classes: 'stat'
@@ -30121,15 +19732,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1922'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 291, y: 1850}
 		, _classes: 'stat'
@@ -30137,14 +19742,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1923'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: 230, y: 1583}
 		, _classes: 'stat'
@@ -30152,14 +19752,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1924'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: 230, y: 1897}
 		, _classes: 'stat'
@@ -30167,15 +19762,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1925'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 97, y: 1656}
 		, _classes: 'stat'
@@ -30183,15 +19772,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1926'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 97, y: 1824}
 		, _classes: 'stat'
@@ -30199,14 +19782,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1927'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, luck: 56
-				}
+			, _give: {prestige: 56, luck: 56}
 			}
 		, _position: {x: 363, y: 1824}
 		, _classes: 'stat'
@@ -30214,14 +19792,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1928'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 80
-				, power: 80
-				}
+			, _give: {prestige: 80, power: 80}
 			}
 		, _position: {x: 363, y: 1656}
 		, _classes: 'stat'
@@ -30229,15 +19802,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1929'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 95, y: 1740}
 		, _classes: 'stat'
@@ -30245,15 +19812,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1930'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 365, y: 1740}
 		, _classes: 'stat'
@@ -30261,9 +19822,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1915'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Жизненная энергия'
 			, _description:
 				'Использование сфер здоровья увеличивает скорость передвижения '+
@@ -30279,14 +19838,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1932'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: -1050, y: 2260}
 		, _classes: 'stat'
@@ -30294,15 +19848,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1933'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -998, y: 2170}
 		, _classes: 'stat'
@@ -30310,15 +19858,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1934'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -1102, y: 2170}
 		, _classes: 'stat'
@@ -30326,14 +19868,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1935'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give:
-				{ prestige: 30
-				, majesty: 250
-				}
+			, _give: {prestige: 30, majesty: 250}
 			}
 		, _position: {x: -1145, y: 2140}
 		, _classes: 'stat'
@@ -30341,15 +19878,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1936'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 650}
-			, _give:
-				{ prestige: 75
-				, vit: 75
-				, dex: 24
-				}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1145, y: 2260}
 		, _classes: 'stat'
@@ -30357,15 +19888,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1937'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 490}
-			, _give:
-				{ prestige: 50
-				, vit: 50
-				, dex: 18
-				}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: -955, y: 2260}
 		, _classes: 'stat'
@@ -30373,15 +19898,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1938'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {green: 810}
-			, _give:
-				{ prestige: 100
-				, vit: 100
-				, dex: 30
-				}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -955, y: 2140}
 		, _classes: 'stat'
@@ -30389,14 +19908,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1939'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, str: 56
-				}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: -1111, y: 2090}
 		, _classes: 'stat'
@@ -30404,15 +19918,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1940'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 650}
-			, _give:
-				{ prestige: 40
-				, power: 40
-				, dex: 24
-				}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: -989, y: 2090}
 		, _classes: 'stat'
@@ -30420,15 +19928,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1941'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1111, y: 2310}
 		, _classes: 'stat'
@@ -30436,14 +19938,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1942'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give:
-				{ prestige: 56
-				, spirit: 56
-				}
+			, _give: {prestige: 56, spirit: 56}
 			}
 		, _position: {x: -989, y: 2310}
 		, _classes: 'stat'
@@ -30451,15 +19948,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1943'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 490}
-			, _give:
-				{ prestige: 27
-				, power: 27
-				, dex: 18
-				}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: -1050, y: 2090}
 		, _classes: 'stat'
@@ -30467,14 +19958,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1944'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
-			, _give:
-				{ prestige: 120
-				, vit: 120
-				}
+			, _give: {prestige: 120, vit: 120}
 			}
 		, _position: {x: -1050, y: 2043}
 		, _classes: 'stat'
@@ -30482,15 +19968,9 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1945'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _need: {red: 810}
-			, _give:
-				{ prestige: 53
-				, power: 53
-				, dex: 30
-				}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: -1050, y: 2357}
 		, _classes: 'stat'
@@ -30498,9 +19978,7 @@ var nodesData =
 	,
 		{ data:
 			{ _id: 'n1931'
-			, open: false
-			, hover: false
-			, want: false
+			, open: false, hover: false, want: false
 			, _title: 'Талант: Искусный маневр'
 			, _description:
 				'Применение рывка создаёт защитный барьер, который поглощает '+
