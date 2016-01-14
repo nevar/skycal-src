@@ -320,6 +320,15 @@ function getUnopen(cy, nodeID) {
 	return {found: path.length !== 0, path: path};
 }
 
+function clearNeed() {
+	for (var spark in need) {
+		need[spark] = 0;
+	}
+	for (var stat in recive) {
+		recive[stat] = 0;
+	}
+}
+
 $(function() {
 	var atlasMove = false,
 		svg = document.getElementById('atlas'),
@@ -333,7 +342,7 @@ $(function() {
 			, {group: {}, nodes: [], edges: []}
 			, {group: {}, nodes: [], edges: []}
 			, {group: {}, nodes: [], edges: []}
-			, fitonidyAtlas
+			, fitonidyAtlas, mehanoydyAtlas
 			],
 		nodeSize = {big: 20, small: 12};
 
@@ -394,14 +403,14 @@ $(function() {
 		, template: '#stat-template'
 		, methods:
 			{ findStat: function(stat) {
-					var i = stat.pos;
+					var i = stat.pos - 1;
 					var node = stat.node[stat.pos++];
 					var p;
 
 					do {
-						i = i % stat.node.length;
+						i = ++i % stat.node.length;
 						node = stat.node[i];
-					} while (i++ != stat.pos && node.open);
+					} while (i != stat.pos && node.open);
 					p = node.position;
 					this.graph.mX = startX - p.x * this.graph.scale;
 					this.graph.mY = startY - p.y * this.graph.scale;
@@ -558,11 +567,10 @@ $(function() {
 						return;
 					}
 					cy.elements('[?want]').data('want', false);
+
 					needPath = foundPath(cy, '#' + node.data.id, 'node[?open],node[?want]', '[!open]');
 					if (needPath.found) {
-						for (var stat in this.need) {
-							this.need[stat] = 0;
-						}
+						clearNeed();
 						needPath = needPath.path;
 						needPath.data('want', true);
 						for (var i = needPath.length; i--; ) {
@@ -665,12 +673,7 @@ $(function() {
 			}
 		, watch:
 			{ selected: function() {
-					for (var stat in need) {
-						need[stat] = 0;
-					}
-					for (var stat in this.recive) {
-						this.recive[stat] = 0;
-					}
+					clearNeed();
 				}
 			}
 		, methods:
