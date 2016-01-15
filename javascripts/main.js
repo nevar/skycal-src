@@ -128,7 +128,7 @@ function groupSkill(atlases) {
 		atlas.group.stat = stat;
 	}
 }
-	
+
 function initCy(atlases) {
 	var atlas, nodeData, node, nodeData, group, ID, skill, stat, pos;
 
@@ -329,19 +329,24 @@ function clearNeed() {
 	}
 }
 
+function center(graph, point) {
+	var svg = document.getElementById('atlas');
+
+	graph.mX = svg.clientWidth / 2 - point.x * graph.scale;
+	graph.mY = svg.clientHeight / 2 - point.y * graph.scale;
+}
+
 $(function() {
 	var atlasMove = false,
 		svg = document.getElementById('atlas'),
-		startY = svg.clientHeight / 2,
-		startX = svg.clientWidth / 2,
 		graphs =
 			[ mainAtlas, godAtlas
-			, {group: {}, nodes: [], edges: []}
-			, {group: {}, nodes: [], edges: []}
-			, {group: {}, nodes: [], edges: []}
-			, {group: {}, nodes: [], edges: []}
-			, {group: {}, nodes: [], edges: []}
-			, {group: {}, nodes: [], edges: []}
+			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
+			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
+			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
+			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
+			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
+			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
 			, fitonidyAtlas, mehanoydyAtlas
 			],
 		nodeSize = {big: 20, small: 12};
@@ -366,6 +371,9 @@ $(function() {
 	*/
 	calcTotal(graphs);
 	groupSkill(graphs);
+	for (var atlasID in graphs) {
+		center(graphs[atlasID], {x: 0, y: 0});
+	}
 	Vue.config.debug = true;
 	Vue.component('skill',
 		{ props: ['skill', 'graph']
@@ -390,10 +398,7 @@ $(function() {
 			}
 		, methods:
 			{ findSkill: function(skill) {
-					var p = skill.position[skill.pos++];
-
-					this.graph.mX = startX - p.x * this.graph.scale;
-					this.graph.mY = startY - p.y * this.graph.scale;
+					center(this.graph, skill.position[skill.pos++]);
 					skill.pos = skill.pos % skill.position.length;
 				}
 			}
@@ -403,18 +408,8 @@ $(function() {
 		, template: '#stat-template'
 		, methods:
 			{ findStat: function(stat) {
-					var i = stat.pos - 1;
-					var node = stat.node[stat.pos++];
-					var p;
-
-					do {
-						i = ++i % stat.node.length;
-						node = stat.node[i];
-					} while (i != stat.pos && node.open);
-					p = node.position;
-					this.graph.mX = startX - p.x * this.graph.scale;
-					this.graph.mY = startY - p.y * this.graph.scale;
-					stat.pos = i;
+					center(this.graph, stat.node[stat.pos++].position);
+					stat.pos = stat.pos % stat.node.length;
 				}
 			}
 		});
