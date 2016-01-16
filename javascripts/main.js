@@ -42,11 +42,12 @@ function getUrlParameter(sParam) {
 }
 
 function calcTotal(atlases) {
-	var atlas, nodesData, node, nodeData;
+	var atlas, nodesData, node, nodeData, nodePos;
 
 	for (var atlasID in atlases) {
 		atlas = atlases[atlasID];
 		nodesData = atlases[atlasID].nodes;
+		nodePos = {}
 		for (var i in nodesData) {
 			node = nodesData[i];
 			nodeData = node.data;
@@ -69,6 +70,7 @@ function calcTotal(atlases) {
 					atlas.sparks.blue[1];
 			}
 		}
+		atlas._nodePos = nodePos;
 	}
 }
 
@@ -591,8 +593,7 @@ $(function() {
 			}
 		});
 	Vue.component('edge',
-		{ props: ['edge']
-		, data: function() {return {nodePos: nodePos};}
+		{ props: ['edge', 'nodePos']
 		, template: '#edge-template'
 		});
 	Vue.component('graph',

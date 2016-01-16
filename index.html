@@ -53,7 +53,7 @@
 		</script>
 		<script type='text/x-template' id='graph-template'>
 			<g :transform='"translate(" + graph.mX + "," + graph.mY + ") scale(" + graph.scale + ")"'>
-				<edge v-for='edge in graph.edges' :edge.once='edge'></edge>
+				<edge v-for='edge in graph.edges' :edge.once='edge' :node-pos.once='graph.nodePos'></edge>
 				<node v-for='node in graph.nodes' :node.once='node'></node>
 			</g>
 		</script>
