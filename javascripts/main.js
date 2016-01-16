@@ -5,7 +5,7 @@ var vm,
 	need =
 		{ red: 0, green: 0, blue: 0, all: 0
 		, transformation: 0, revelation: 0
-		, god: 0, book: 0
+		, god: 0, book: 0, secretKnowledge: 0
 		, fitonidy: 0, fitonidyInfo: 0
 		, mehanoydy: 0, mehanoydyInfo:0
 		, gorgonidy: 0, gorgonidyInfo: 0

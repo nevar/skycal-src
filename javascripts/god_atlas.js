@@ -860,7 +860,7 @@ var godNodesData =
 				'создавать предметы экипировки, свитки с мощными благословениями '+
 				'и проклятиями.'
 			, _nodeImage: 'knowledge'
-			, _need: {book: 1}
+			, _need: {secretKnowledge: 1400}
 			, _give: {}
 			}
 		, _position: {x: 0, y: -1500}
@@ -2754,7 +2754,7 @@ var godNodesData =
 				'Эта вершина открывает путь к атласу, содержащему техники, '+
 				'наиболее подходящие для странствий в одиночку.'
 			, _nodeImage: 'wanderer'
-			, _need: {book: 1}
+			, _need: {secretKnowledge: 1400}
 			, _give: {}
 			}
 		, _position: {x: 1680, y: 150}
@@ -3637,6 +3637,338 @@ var godNodesData =
 		, _position: {x: 0, y: 1000}
 		, _classes: 'skill'
 		}
+	,
+		{ data:
+			{ _id: 'n3345'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, luck: 38}
+			}
+		, _position: {x: -1380,  y: -690}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3346'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -1328, y: -780}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3347'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -1432, y: -780}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3348'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, valor: 56}
+			}
+		, _position: {x: -1441, y: -860}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3349'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, spirit: 56}
+			}
+		, _position: {x: -1319, y: -860}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3350'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, luck: 56}
+			}
+		, _position: {x: -1441, y: -640}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3351'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -1319, y: -640}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3352'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -1380, y: -907}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3353'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -1380, y: -593}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3354'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -1513, y: -834}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3355'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: -1513, y: -666}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3356'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -1247, y: -666}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3357'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -1247, y: -834}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3358'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -1515, y: -750}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3359'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, luck: 38}
+			}
+		, _position: {x: -1245, y: -750}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3360'
+			, open: false, hover: false, want: false
+			, _title: 'Тайные исследования'
+			, _description:
+				'Позволяет вам отправлять адептов на исследование тайн Элиона, '+
+				'с помощью которых можно открыть в себе Бога Знаний и Бога '+
+				'Странствий.'
+			, _nodeImage: 'secretKnowledge'
+			, _need: {god: 10}
+			, _give: {prestige: 40}
+			}
+		, _position: {x: -1380, y: -750}
+		, _classes: 'skill'
+		}
+	,
+		{ data:
+			{ _id: 'n3361'
+			, open: false, hover: false, want: false
+			, _need: {blue: 810}
+			, _give: {prestige: 75, spirit: 75}
+			}
+		, _position: {x: 1380,  y: -690}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3362'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1432, y: -780}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3363'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1328, y: -780}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3364'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, str: 38}
+			}
+		, _position: {x: 1319, y: -860}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3365'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 1441, y: -860}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3366'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, valor: 56}
+			}
+		, _position: {x: 1319, y: -640}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3367'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 1441, y: -640}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3368'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1380, y: -907}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3369'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1380, y: -593}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3370'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 1247, y: -834}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3371'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, valor: 56}
+			}
+		, _position: {x: 1247, y: -666}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3372'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1513, y: -666}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3373'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, luck: 56}
+			}
+		, _position: {x: 1513, y: -834}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3374'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 1245, y: -750}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3375'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 1515, y: -750}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n3376'
+			, open: false, hover: false, want: false
+			, _title: 'Тайные исследования'
+			, _description:
+				'Позволяет вам отправлять адептов на исследование тайн Элиона, '+
+				'с помощью которых можно открыть в себе Бога Знаний и Бога '+
+				'Странствий.'
+			, _nodeImage: 'secretKnowledge'
+			, _need: {god: 10}
+			, _give: {prestige: 40}
+			}
+		, _position: {x: 1380, y: -750}
+		, _classes: 'skill'
+		}
 	];
 
 var godEdgesData =
@@ -3987,6 +4319,42 @@ var godEdgesData =
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n3340', _target: 'n3335'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n3335', _target: 'n3337'}}
 	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n3337', _target: 'n3344'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n3193', target: 'n3353'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3353', target: 'n3351'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3351', target: 'n3356'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3356', target: 'n3359'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3353', target: 'n3350'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3350', target: 'n3355'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3355', target: 'n3358'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3358', target: 'n3354'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3354', target: 'n3347'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3347', target: 'n3360'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3360', target: 'n3345'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3345', target: 'n3353'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3360', target: 'n3346'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3346', target: 'n3357'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3357', target: 'n3349'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3349', target: 'n3352'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3352', target: 'n3348'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n3123', target: 'n3369'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3369', target: 'n3367'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3367', target: 'n3372'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3372', target: 'n3375'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3375', target: 'n3373'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3373', target: 'n3365'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3365', target: 'n3368'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3368', target: 'n3364'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3364', target: 'n3370'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3370', target: 'n3374'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3374', target: 'n3371'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3371', target: 'n3366'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3369', target: 'n3361'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n3361', target: 'n3362'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n3363', target: 'n3361'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3370', target: 'n3363'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3363', target: 'n3376'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3376', target: 'n3362'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n3362', target: 'n3373'}}
 	];
 
 var godAtlas =
@@ -3996,7 +4364,7 @@ var godAtlas =
 	, scale: 1
 	, sparks:
 		{ red: [0, 0], green: [0, 0], blue: [0, 0], all: [0, 0]
-		, god: [0, 0], book: [0, 0]
+		, god: [0, 0], book: [0, 0], secretKnowledge: [0, 0]
 		}
 	, stat:
 		{ prestige: [0, 0]
