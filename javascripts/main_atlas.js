@@ -6387,7 +6387,7 @@ var nodesData =
 		{ data:
 			{ _id: 'n602'
 			, open: false, hover: false, want: false
-			, _title: 'Талант: Беспозадность'
+			, _title: 'Талант: Беспощадность'
 			, _description:
 				'Противники под эффектом оглущения, обездвиживания, страха или '+
 				'ослепления получают от персонажа на 7% больше урона за каждый '+
@@ -20474,7 +20474,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n'
+			{ _id: 'n1994'
 			, open: false, hover: false, want: false
 			, _nodeImage: 'empty'
 			, _need: {}
@@ -20482,6 +20482,490 @@ var nodesData =
 			}
 		, _position: {x: -2500, y: -1200}
 		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n1995'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -1150,  y: -1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1996'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, spirit: 38}
+			}
+		, _position: {x: -1098, y: -1770}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1997'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -1202, y: -1770}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1998'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -1245, y: -1800}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1999'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: -1245, y: -1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2000'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 120, vit: 120}
+			}
+		, _position: {x: -1055, y: -1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2001'
+			, open: false, hover: false, want: false
+			, _need: {red: 490}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: -1055, y: -1800}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2002'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -1211, y: -1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2003'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -1089, y: -1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2004'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -1211, y: -1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2005'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, luck: 38}
+			}
+		, _position: {x: -1089, y: -1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2006'
+			, open: false, hover: false, want: false
+			, _need: {red: 490}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: -1150, y: -1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2007'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -1150, y: -1897}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2008'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -1150, y: -1583}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2009'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: -1150, y: -1740}
+		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n2010'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -690,  y: -1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2011'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, valor: 56}
+			}
+		, _position: {x: -638, y: -1770}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2012'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, str: 38}
+			}
+		, _position: {x: -742, y: -1770}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2013'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -751, y: -1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2014'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: -629, y: -1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2015'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -751, y: -1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2016'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -629, y: -1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2017'
+			, open: false, hover: false, want: false
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: -690, y: -1897}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2018'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -690, y: -1583}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2019'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -823, y: -1824}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2020'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -823, y: -1656}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2021'
+			, open: false, hover: false, want: false
+			, _need: {red: 490}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: -557, y: -1656}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2022'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -557, y: -1824}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2023'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -825, y: -1740}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2024'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 80, luck: 80}
+			}
+		, _position: {x: -555, y: -1740}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2025'
+			, open: false, hover: false, want: false
+			, _title: 'Талант: Опека'
+			, _description:
+				'Длительность накладываемых на союзников щтов увеличена на '+
+				'25%/50% от вашей характеристики "Эффективность щитов".</p>'+
+				'<p>Этот эффект не действует на щиты накладываемые на себя.'
+			, _nodeImage: 'guardianship'
+			, _need: {blue: 350}
+			, _give: {}
+			}
+		, _position: {x: -690, y: -1740}
+		, _classes: 'skill'
+		}
+	,
+		{ data:
+			{ _id: 'n2026'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -230,  y: -1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2027'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -178, y: -1770}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2028'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -282, y: -1770}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2029'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -325, y: -1800}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2030'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, valor: 38}
+			}
+		, _position: {x: -325, y: -1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2031'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, str: 38}
+			}
+		, _position: {x: -135, y: -1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2032'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -135, y: -1800}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2033'
+			, open: false, hover: false, want: false
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: -230, y: -1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2034'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, valor: 38}
+			}
+		, _position: {x: -230, y: -1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2035'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: -230, y: -1897}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2036'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -230, y: -1583}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2037'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -363, y: -1824}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2038'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -363, y: -1656}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2039'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: -97, y: -1656}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2040'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -97, y: -1824}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2041'
+			, open: false, hover: false, want: false
+			, _title: 'Талант: Эффективные препараты'
+			, _description:
+				'Длительность положтьельных эффектов от расходников, '+
+				'количество восстанавливаемого ими здоровья, а также '+
+				'наносимый расходниками урон увеличиваются на 12% за каждый '+
+				'уровень этого символа.'
+			, _nodeImage: 'medicines'
+			, _need: {blue: 350}
+			, _give: {}
+			}
+		, _position: {x: -230, y: -1740}
+		, _classes: 'skill'
 		}
 	];
 
@@ -22528,6 +23012,53 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1973', target: 'n1976'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1976', target: 'n1972'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n1975', target: 'n1741'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n1757', target: 'n1998'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1998', target: 'n1997'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1998', target: 'n2002'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2002', target: 'n2006'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2006', target: 'n1996'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1996', target: 'n2001'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2001', target: 'n2003'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2003', target: 'n2007'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2000', target: 'n2001'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2000', target: 'n1995'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1995', target: 'n1999'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2000', target: 'n2005'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2005', target: 'n2008'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2008', target: 'n2004'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2000', target: 'n2020'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2020', target: 'n2015'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2015', target: 'n2018'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2018', target: 'n2016'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2016', target: 'n2021'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2021', target: 'n2024'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2024', target: 'n2022'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2022', target: 'n2014'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2014', target: 'n2017'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2017', target: 'n2013'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2022', target: 'n2011'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2010', target: 'n2011'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2011', target: 'n2012'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2010', target: 'n2025'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2012', target: 'n2019'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2019', target: 'n2023'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2024', target: 'n2038'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2038', target: 'n2030'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2030', target: 'n2034'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2034', target: 'n2036'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2034', target: 'n2026'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2026', target: 'n2027'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2027', target: 'n2028'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2028', target: 'n2041'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2028', target: 'n2029'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2029', target: 'n2037'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2026', target: 'n2031'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2031', target: 'n2039'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2031', target: 'n2032'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2032', target: 'n2033'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2033', target: 'n2035'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2032', target: 'n2040'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2040', target: 'n1594'}}
 	];
 
 var mainAtlas =
