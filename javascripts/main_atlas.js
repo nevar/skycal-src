@@ -4395,7 +4395,7 @@ var nodesData =
 			, _need: {red: 325}
 			, _give: {prestige: 25, power: 25, dex: 12}
 			}
-		, _position: {x: 1380, y: 1040}
+		, _position: {x: 1380, y: 1420}
 		, _classes: 'stat'
 		}
 	,
@@ -4405,7 +4405,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 1432, y: 950}
+		, _position: {x: 1432, y: 1330}
 		, _classes: 'stat'
 		}
 	,
@@ -4415,7 +4415,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 1328, y: 950}
+		, _position: {x: 1328, y: 1330}
 		, _classes: 'stat'
 		}
 	,
@@ -4425,7 +4425,7 @@ var nodesData =
 			, _need: {red: 325}
 			, _give: {prestige: 25, power: 25, dex: 12}
 			}
-		, _position: {x: 1285, y: 920}
+		, _position: {x: 1285, y: 1300}
 		, _classes: 'stat'
 		}
 	,
@@ -4435,7 +4435,7 @@ var nodesData =
 			, _need: {blue: 240}
 			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 1285, y: 1040}
+		, _position: {x: 1285, y: 1420}
 		, _classes: 'stat'
 		}
 	,
@@ -4445,7 +4445,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 1475, y: 1040}
+		, _position: {x: 1475, y: 1420}
 		, _classes: 'stat'
 		}
 	,
@@ -4455,7 +4455,7 @@ var nodesData =
 			, _need: {blue: 240}
 			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 1475, y: 920}
+		, _position: {x: 1475, y: 1300}
 		, _classes: 'stat'
 		}
 	,
@@ -4465,7 +4465,7 @@ var nodesData =
 			, _need: {blue: 240}
 			, _give: {prestige: 23, str: 23}
 			}
-		, _position: {x: 1380, y: 870}
+		, _position: {x: 1380, y: 1250}
 		, _classes: 'stat'
 		}
 	,
@@ -4475,7 +4475,7 @@ var nodesData =
 			, _need: {green: 400}
 			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
-		, _position: {x: 1380, y: 1090}
+		, _position: {x: 1380, y: 1470}
 		, _classes: 'stat'
 		}
 	,
@@ -4485,7 +4485,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 1380, y: 823}
+		, _position: {x: 1380, y: 1203}
 		, _classes: 'stat'
 		}
 	,
@@ -4495,7 +4495,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 35, str: 35}
 			}
-		, _position: {x: 1380, y: 1137}
+		, _position: {x: 1380, y: 1517}
 		, _classes: 'stat'
 		}
 	,
@@ -4505,7 +4505,7 @@ var nodesData =
 			, _need: {blue: 400}
 			, _give: {prestige: 47, str: 47}
 			}
-		, _position: {x: 1247, y: 896}
+		, _position: {x: 1247, y: 1276}
 		, _classes: 'stat'
 		}
 	,
@@ -4515,7 +4515,7 @@ var nodesData =
 			, _need: {green: 240}
 			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
-		, _position: {x: 1247, y: 1064}
+		, _position: {x: 1247, y: 1444}
 		, _classes: 'stat'
 		}
 	,
@@ -4525,7 +4525,7 @@ var nodesData =
 			, _need: {blue: 400}
 			, _give: {prestige: 47, str: 47}
 			}
-		, _position: {x: 1513, y: 1064}
+		, _position: {x: 1513, y: 1444}
 		, _classes: 'stat'
 		}
 	,
@@ -4535,7 +4535,7 @@ var nodesData =
 			, _need: {blue: 400}
 			, _give: {prestige: 47, str: 47}
 			}
-		, _position: {x: 1513, y: 896}
+		, _position: {x: 1513, y: 1276}
 		, _classes: 'stat'
 		}
 	,
@@ -4550,7 +4550,7 @@ var nodesData =
 			, _need: {blue: 275}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 1380, y: 980}
+		, _position: {x: 1380, y: 1360}
 		, _classes: 'skill'
 		}
 	,
@@ -4560,7 +4560,7 @@ var nodesData =
 			, _need: {green: 240}
 			, _give: {prestige: 27, vit: 27, dex: 9}
 			}
-		, _position: {x: 960, y: 1040}
+		, _position: {x: 960, y: 1420}
 		, _classes: 'stat'
 		}
 	,
@@ -4570,7 +4570,7 @@ var nodesData =
 			, _need: {red: 240}
 			, _give: {prestige: 17, power: 17, dex: 9}
 			}
-		, _position: {x: 1012, y: 950}
+		, _position: {x: 1012, y: 1330}
 		, _classes: 'stat'
 		}
 	,
@@ -4580,7 +4580,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 908, y: 950}
+		, _position: {x: 908, y: 1330}
 		, _classes: 'stat'
 		}
 	,
@@ -4590,7 +4590,7 @@ var nodesData =
 			, _need: {red: 325}
 			, _give: {prestige: 25, power: 25, dex: 12}
 			}
-		, _position: {x: 865, y: 920}
+		, _position: {x: 865, y: 1300}
 		, _classes: 'stat'
 		}
 	,
@@ -4600,7 +4600,7 @@ var nodesData =
 			, _need: {red: 400}
 			, _give: {prestige: 33, power: 33, dex: 15}
 			}
-		, _position: {x: 865, y: 1040}
+		, _position: {x: 865, y: 1420}
 		, _classes: 'stat'
 		}
 	,
@@ -4610,7 +4610,7 @@ var nodesData =
 			, _need: {red: 240}
 			, _give: {prestige: 17, power: 17, dex: 9}
 			}
-		, _position: {x: 1055, y: 1040}
+		, _position: {x: 1055, y: 1420}
 		, _classes: 'stat'
 		}
 	,
@@ -4620,7 +4620,7 @@ var nodesData =
 			, _need: {blue: 240}
 			, _give: {prestige: 23, spirit: 23}
 			}
-		, _position: {x: 1055, y: 920}
+		, _position: {x: 1055, y: 1300}
 		, _classes: 'stat'
 		}
 	,
@@ -4630,7 +4630,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 899, y: 870}
+		, _position: {x: 899, y: 1250}
 		, _classes: 'stat'
 		}
 	,
@@ -4640,7 +4640,7 @@ var nodesData =
 			, _need: {green: 400}
 			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
-		, _position: {x: 1021, y: 870}
+		, _position: {x: 1021, y: 1250}
 		, _classes: 'stat'
 		}
 	,
@@ -4650,7 +4650,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 899, y: 1090}
+		, _position: {x: 899, y: 1470}
 		, _classes: 'stat'
 		}
 	,
@@ -4660,7 +4660,7 @@ var nodesData =
 			, _need: {red: 325}
 			, _give: {prestige: 25, power: 25, dex: 12}
 			}
-		, _position: {x: 1021, y: 1090}
+		, _position: {x: 1021, y: 1470}
 		, _classes: 'stat'
 		}
 	,
@@ -4670,7 +4670,7 @@ var nodesData =
 			, _need: {red: 325}
 			, _give: {prestige: 25, power: 25, dex: 12}
 			}
-		, _position: {x: 960, y: 870}
+		, _position: {x: 960, y: 1250}
 		, _classes: 'stat'
 		}
 	,
@@ -4680,7 +4680,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 960, y: 1090}
+		, _position: {x: 960, y: 1470}
 		, _classes: 'stat'
 		}
 	,
@@ -4690,7 +4690,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 35, luck: 35}
 			}
-		, _position: {x: 825, y: 980}
+		, _position: {x: 825, y: 1360}
 		, _classes: 'stat'
 		}
 	,
@@ -4700,7 +4700,7 @@ var nodesData =
 			, _need: {green: 400}
 			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
-		, _position: {x: 1095, y: 980}
+		, _position: {x: 1095, y: 1360}
 		, _classes: 'stat'
 		}
 	,
@@ -4717,7 +4717,7 @@ var nodesData =
 			, _need: {blue: 275}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 960, y: 980}
+		, _position: {x: 960, y: 1360}
 		, _classes: 'skill'
 		}
 	,
@@ -4727,7 +4727,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
 			}
-		, _position: {x: 820, y: 1420}
+		, _position: {x: 820, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -4737,7 +4737,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 872, y: 1330}
+		, _position: {x: 872, y: 1710}
 		, _classes: 'stat'
 		}
 	,
@@ -4747,7 +4747,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 768, y: 1330}
+		, _position: {x: 768, y: 1710}
 		, _classes: 'stat'
 		}
 	,
@@ -4757,7 +4757,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
 			}
-		, _position: {x: 725, y: 1300}
+		, _position: {x: 725, y: 1680}
 		, _classes: 'stat'
 		}
 	,
@@ -4767,7 +4767,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 725, y: 1420}
+		, _position: {x: 725, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -4777,7 +4777,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 915, y: 1420}
+		, _position: {x: 915, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -4787,7 +4787,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 915, y: 1300}
+		, _position: {x: 915, y: 1680}
 		, _classes: 'stat'
 		}
 	,
@@ -4797,7 +4797,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
 			}
-		, _position: {x: 759, y: 1250}
+		, _position: {x: 759, y: 1630}
 		, _classes: 'stat'
 		}
 	,
@@ -4807,7 +4807,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 881, y: 1250}
+		, _position: {x: 881, y: 1630}
 		, _classes: 'stat'
 		}
 	,
@@ -4817,7 +4817,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 759, y: 1470}
+		, _position: {x: 759, y: 1850}
 		, _classes: 'stat'
 		}
 	,
@@ -4827,7 +4827,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 881, y: 1470}
+		, _position: {x: 881, y: 1850}
 		, _classes: 'stat'
 		}
 	,
@@ -4837,7 +4837,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 820, y: 1250}
+		, _position: {x: 820, y: 1630}
 		, _classes: 'stat'
 		}
 	,
@@ -4847,7 +4847,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 820, y: 1203}
+		, _position: {x: 820, y: 1583}
 		, _classes: 'stat'
 		}
 	,
@@ -4857,7 +4857,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 820, y: 1517}
+		, _position: {x: 820, y: 1897}
 		, _classes: 'stat'
 		}
 	,
@@ -4870,7 +4870,7 @@ var nodesData =
 			, _need: {}
 			, _give: {}
 			}
-		, _position: {x: 820, y: 1360}
+		, _position: {x: 820, y: 1740}
 		, _classes: 'skill'
 		}
 	,
@@ -4880,7 +4880,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1055, y: 1680}
+		, _position: {x: 1055, y: 2060}
 		, _classes: 'stat'
 		}
 	,
@@ -4890,7 +4890,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 1055, y: 1800}
+		, _position: {x: 1055, y: 2180}
 		, _classes: 'stat'
 		}
 	,
@@ -4900,7 +4900,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 1245, y: 1800}
+		, _position: {x: 1245, y: 2180}
 		, _classes: 'stat'
 		}
 	,
@@ -4910,7 +4910,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1245, y: 1680}
+		, _position: {x: 1245, y: 2060}
 		, _classes: 'stat'
 		}
 	,
@@ -4920,7 +4920,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1089, y: 1630}
+		, _position: {x: 1089, y: 2010}
 		, _classes: 'stat'
 		}
 	,
@@ -4930,7 +4930,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1211, y: 1630}
+		, _position: {x: 1211, y: 2010}
 		, _classes: 'stat'
 		}
 	,
@@ -4940,7 +4940,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1089, y: 1850}
+		, _position: {x: 1089, y: 2230}
 		, _classes: 'stat'
 		}
 	,
@@ -4950,7 +4950,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1211, y: 1850}
+		, _position: {x: 1211, y: 2230}
 		, _classes: 'stat'
 		}
 	,
@@ -4958,9 +4958,9 @@ var nodesData =
 			{ _id: 'n480'
 			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give: {prestige: 30, majesty: 300}
+			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 1150, y: 1630}
+		, _position: {x: 1150, y: 2010}
 		, _classes: 'stat'
 		}
 	,
@@ -4970,7 +4970,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1150, y: 1850}
+		, _position: {x: 1150, y: 2230}
 		, _classes: 'stat'
 		}
 	,
@@ -4980,7 +4980,7 @@ var nodesData =
 			, _need: {revelation: 300}
 			, _give: {prestige: 120, vit: 120}
 			}
-		, _position: {x: 1017, y: 1656}
+		, _position: {x: 1017, y: 2036}
 		, _classes: 'stat'
 		}
 	,
@@ -4990,7 +4990,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1017, y: 1824}
+		, _position: {x: 1017, y: 2204}
 		, _classes: 'stat'
 		}
 	,
@@ -5000,7 +5000,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
 			}
-		, _position: {x: 1283, y: 1824}
+		, _position: {x: 1283, y: 2204}
 		, _classes: 'stat'
 		}
 	,
@@ -5010,7 +5010,7 @@ var nodesData =
 			, _need: {blue: 810}
 			, _give: {prestige: 75, str: 75}
 			}
-		, _position: {x: 1283, y: 1656}
+		, _position: {x: 1283, y: 2036}
 		, _classes: 'stat'
 		}
 	,
@@ -5020,7 +5020,7 @@ var nodesData =
 			, _need: {blue: 810}
 			, _give: {prestige: 75, luck: 75}
 			}
-		, _position: {x: 1015, y: 1740}
+		, _position: {x: 1015, y: 2120}
 		, _classes: 'stat'
 		}
 	,
@@ -5030,7 +5030,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 1285, y: 1740}
+		, _position: {x: 1285, y: 2120}
 		, _classes: 'stat'
 		}
 	,
@@ -5046,7 +5046,7 @@ var nodesData =
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 1150, y: 1740}
+		, _position: {x: 1150, y: 2120}
 		, _classes: 'skill'
 		}
 	,
@@ -5056,7 +5056,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 690, y: 1800}
+		, _position: {x: 690, y: 2180}
 		, _classes: 'stat'
 		}
 	,
@@ -5064,9 +5064,9 @@ var nodesData =
 			{ _id: 'n490'
 			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give: {prestige: 30, majesty: 300}
+			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 742, y: 1710}
+		, _position: {x: 742, y: 2090}
 		, _classes: 'stat'
 		}
 	,
@@ -5076,7 +5076,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, str: 56}
 			}
-		, _position: {x: 638, y: 1710}
+		, _position: {x: 638, y: 2090}
 		, _classes: 'stat'
 		}
 	,
@@ -5086,7 +5086,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 595, y: 1680}
+		, _position: {x: 595, y: 2060}
 		, _classes: 'stat'
 		}
 	,
@@ -5096,7 +5096,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 595, y: 1800}
+		, _position: {x: 595, y: 2180}
 		, _classes: 'stat'
 		}
 	,
@@ -5106,7 +5106,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, valor: 38}
 			}
-		, _position: {x: 785, y: 1800}
+		, _position: {x: 785, y: 2180}
 		, _classes: 'stat'
 		}
 	,
@@ -5116,7 +5116,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 785, y: 1680}
+		, _position: {x: 785, y: 2060}
 		, _classes: 'stat'
 		}
 	,
@@ -5126,7 +5126,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 690, y: 1630}
+		, _position: {x: 690, y: 2010}
 		, _classes: 'stat'
 		}
 	,
@@ -5136,7 +5136,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
 			}
-		, _position: {x: 690, y: 1850}
+		, _position: {x: 690, y: 2230}
 		, _classes: 'stat'
 		}
 	,
@@ -5144,9 +5144,9 @@ var nodesData =
 			{ _id: 'n498'
 			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give: {prestige: 30, majesty: 300}
+			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 690, y: 1583}
+		, _position: {x: 690, y: 1963}
 		, _classes: 'stat'
 		}
 	,
@@ -5156,7 +5156,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 690, y: 1897}
+		, _position: {x: 690, y: 2277}
 		, _classes: 'stat'
 		}
 	,
@@ -5166,7 +5166,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 557, y: 1656}
+		, _position: {x: 557, y: 2036}
 		, _classes: 'stat'
 		}
 	,
@@ -5176,7 +5176,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 557, y: 1824}
+		, _position: {x: 557, y: 2204}
 		, _classes: 'stat'
 		}
 	,
@@ -5186,7 +5186,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 823, y: 1824}
+		, _position: {x: 823, y: 2204}
 		, _classes: 'stat'
 		}
 	,
@@ -5196,7 +5196,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 823, y: 1656}
+		, _position: {x: 823, y: 2036}
 		, _classes: 'stat'
 		}
 	,
@@ -5212,7 +5212,7 @@ var nodesData =
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 690, y: 1740}
+		, _position: {x: 690, y: 2120}
 		, _classes: 'skill'
 		}
 	,
@@ -5577,7 +5577,7 @@ var nodesData =
 			, _need: {red: 400}
 			, _give: {prestige: 33, power: 33, dex: 15}
 			}
-		, _position: {x: 1432, y: 1330}
+		, _position: {x: 1432, y: 1710}
 		, _classes: 'stat'
 		}
 	,
@@ -5587,7 +5587,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 1328, y: 1330}
+		, _position: {x: 1328, y: 1710}
 		, _classes: 'stat'
 		}
 	,
@@ -5597,7 +5597,7 @@ var nodesData =
 			, _need: {red: 240}
 			, _give: {prestige: 17, power: 17, dex: 9}
 			}
-		, _position: {x: 1285, y: 1300}
+		, _position: {x: 1285, y: 1680}
 		, _classes: 'stat'
 		}
 	,
@@ -5607,7 +5607,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 1285, y: 1420}
+		, _position: {x: 1285, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -5617,7 +5617,7 @@ var nodesData =
 			, _need: {red: 400}
 			, _give: {prestige: 33, power: 33, dex: 15}
 			}
-		, _position: {x: 1475, y: 1420}
+		, _position: {x: 1475, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -5627,7 +5627,7 @@ var nodesData =
 			, _need: {red: 325}
 			, _give: {prestige: 25, power: 25, dex: 12}
 			}
-		, _position: {x: 1475, y: 1300}
+		, _position: {x: 1475, y: 1680}
 		, _classes: 'stat'
 		}
 	,
@@ -5637,7 +5637,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 1319, y: 1250}
+		, _position: {x: 1319, y: 1630}
 		, _classes: 'stat'
 		}
 	,
@@ -5647,7 +5647,7 @@ var nodesData =
 			, _need: {red: 240}
 			, _give: {prestige: 17, power: 17, dex: 9}
 			}
-		, _position: {x: 1441, y: 1250}
+		, _position: {x: 1441, y: 1630}
 		, _classes: 'stat'
 		}
 	,
@@ -5657,7 +5657,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 1319, y: 1470}
+		, _position: {x: 1319, y: 1850}
 		, _classes: 'stat'
 		}
 	,
@@ -5667,7 +5667,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 1441, y: 1470}
+		, _position: {x: 1441, y: 1850}
 		, _classes: 'stat'
 		}
 	,
@@ -5677,7 +5677,7 @@ var nodesData =
 			, _need: {green: 400}
 			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
-		, _position: {x: 1380, y: 1250}
+		, _position: {x: 1380, y: 1630}
 		, _classes: 'stat'
 		}
 	,
@@ -5687,7 +5687,7 @@ var nodesData =
 			, _need: {red: 325}
 			, _give: {prestige: 25, power: 25, dex: 12}
 			}
-		, _position: {x: 1380, y: 1470}
+		, _position: {x: 1380, y: 1850}
 		, _classes: 'stat'
 		}
 	,
@@ -5697,7 +5697,7 @@ var nodesData =
 			, _need: {red: 240}
 			, _give: {prestige: 17, power: 17, dex: 9}
 			}
-		, _position: {x: 1245, y: 1360}
+		, _position: {x: 1245, y: 1740}
 		, _classes: 'stat'
 		}
 	,
@@ -5707,7 +5707,7 @@ var nodesData =
 			, _need: {green: 400}
 			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
-		, _position: {x: 1515, y: 1360}
+		, _position: {x: 1515, y: 1740}
 		, _classes: 'stat'
 		}
 	,
@@ -5726,7 +5726,7 @@ var nodesData =
 			, _need: {transformation: 300}
 			, _give: {}
 			}
-		, _position: {x: 1380, y: 1360}
+		, _position: {x: 1380, y: 1740}
 		, _classes: 'class'
 		}
 	,
@@ -9915,7 +9915,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 1705, y: 920}
+		, _position: {x: 1705, y: 1300}
 		, _classes: 'stat'
 		}
 	,
@@ -9925,7 +9925,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 1705, y: 1040}
+		, _position: {x: 1705, y: 1420}
 		, _classes: 'stat'
 		}
 	,
@@ -9935,7 +9935,7 @@ var nodesData =
 			, _need: {red: 325}
 			, _give: {prestige: 25, power: 25, dex: 12}
 			}
-		, _position: {x: 1895, y: 1040}
+		, _position: {x: 1895, y: 1420}
 		, _classes: 'stat'
 		}
 	,
@@ -9945,7 +9945,7 @@ var nodesData =
 			, _need: {green: 240}
 			, _give: {prestige: 27, vit: 27, dex: 0}
 			}
-		, _position: {x: 1895, y: 920}
+		, _position: {x: 1895, y: 1300}
 		, _classes: 'stat'
 		}
 	,
@@ -9955,7 +9955,7 @@ var nodesData =
 			, _need: {red: 240}
 			, _give: {prestige: 17, power: 17, dex: 9}
 			}
-		, _position: {x: 1739, y: 870}
+		, _position: {x: 1739, y: 1250}
 		, _classes: 'stat'
 		}
 	,
@@ -9965,7 +9965,7 @@ var nodesData =
 			, _need: {red: 400}
 			, _give: {prestige: 33, power: 33, dex: 15}
 			}
-		, _position: {x: 1861, y: 870}
+		, _position: {x: 1861, y: 1250}
 		, _classes: 'stat'
 		}
 	,
@@ -9975,7 +9975,7 @@ var nodesData =
 			, _need: {red: 325}
 			, _give: {prestige: 25, power: 25, dex: 12}
 			}
-		, _position: {x: 1739, y: 1090}
+		, _position: {x: 1739, y: 1470}
 		, _classes: 'stat'
 		}
 	,
@@ -9985,7 +9985,7 @@ var nodesData =
 			, _need: {blue: 240}
 			, _give: {prestige: 23, valor: 23}
 			}
-		, _position: {x: 1861, y: 1090}
+		, _position: {x: 1861, y: 1470}
 		, _classes: 'stat'
 		}
 	,
@@ -9995,7 +9995,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 1800, y: 870}
+		, _position: {x: 1800, y: 1250}
 		, _classes: 'stat'
 		}
 	,
@@ -10005,7 +10005,7 @@ var nodesData =
 			, _need: {green: 400}
 			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
-		, _position: {x: 1800, y: 1090}
+		, _position: {x: 1800, y: 1470}
 		, _classes: 'stat'
 		}
 	,
@@ -10015,7 +10015,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 35, valor: 35}
 			}
-		, _position: {x: 1667, y: 896}
+		, _position: {x: 1667, y: 1276}
 		, _classes: 'stat'
 		}
 	,
@@ -10025,7 +10025,7 @@ var nodesData =
 			, _need: {green: 400}
 			, _give: {prestige: 53, vit: 53, dex: 15}
 			}
-		, _position: {x: 1667, y: 1064}
+		, _position: {x: 1667, y: 1444}
 		, _classes: 'stat'
 		}
 	,
@@ -10035,7 +10035,7 @@ var nodesData =
 			, _need: {green: 325}
 			, _give: {prestige: 40, vit: 40, dex: 12}
 			}
-		, _position: {x: 1933, y: 1064}
+		, _position: {x: 1933, y: 1444}
 		, _classes: 'stat'
 		}
 	,
@@ -10045,7 +10045,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 35, valor: 35}
 			}
-		, _position: {x: 1933, y: 896}
+		, _position: {x: 1933, y: 1276}
 		, _classes: 'stat'
 		}
 	,
@@ -10055,7 +10055,7 @@ var nodesData =
 			, _need: {red: 240}
 			, _give: {prestige: 17, power: 17, dex: 9}
 			}
-		, _position: {x: 1665, y: 980}
+		, _position: {x: 1665, y: 1360}
 		, _classes: 'stat'
 		}
 	,
@@ -10065,7 +10065,7 @@ var nodesData =
 			, _need: {blue: 325}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 1935, y: 980}
+		, _position: {x: 1935, y: 1360}
 		, _classes: 'stat'
 		}
 	,
@@ -10082,7 +10082,7 @@ var nodesData =
 			, _need: {blue: 275}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 1800, y: 980}
+		, _position: {x: 1800, y: 1360}
 		, _classes: 'skill'
 		}
 	,
@@ -10092,7 +10092,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1940, y: 1420}
+		, _position: {x: 1940, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -10102,7 +10102,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 1992, y: 1330}
+		, _position: {x: 1992, y: 1710}
 		, _classes: 'stat'
 		}
 	,
@@ -10112,7 +10112,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1888, y: 1330}
+		, _position: {x: 1888, y: 1710}
 		, _classes: 'stat'
 		}
 	,
@@ -10122,7 +10122,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 1845, y: 1300}
+		, _position: {x: 1845, y: 1680}
 		, _classes: 'stat'
 		}
 	,
@@ -10132,7 +10132,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, str: 38}
 			}
-		, _position: {x: 1845, y: 1420}
+		, _position: {x: 1845, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -10142,7 +10142,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 2035, y: 1420}
+		, _position: {x: 2035, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -10152,7 +10152,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
 			}
-		, _position: {x: 2035, y: 1300}
+		, _position: {x: 2035, y: 1680}
 		, _classes: 'stat'
 		}
 	,
@@ -10162,7 +10162,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1879, y: 1250}
+		, _position: {x: 1879, y: 1630}
 		, _classes: 'stat'
 		}
 	,
@@ -10172,7 +10172,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 2001, y: 1250}
+		, _position: {x: 2001, y: 1630}
 		, _classes: 'stat'
 		}
 	,
@@ -10182,7 +10182,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1879, y: 1470}
+		, _position: {x: 1879, y: 1850}
 		, _classes: 'stat'
 		}
 	,
@@ -10192,7 +10192,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 2001, y: 1470}
+		, _position: {x: 2001, y: 1850}
 		, _classes: 'stat'
 		}
 	,
@@ -10202,7 +10202,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 1940, y: 1250}
+		, _position: {x: 1940, y: 1630}
 		, _classes: 'stat'
 		}
 	,
@@ -10212,7 +10212,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1940, y: 1203}
+		, _position: {x: 1940, y: 1583}
 		, _classes: 'stat'
 		}
 	,
@@ -10222,7 +10222,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 1940, y: 1517}
+		, _position: {x: 1940, y: 1897}
 		, _classes: 'stat'
 		}
 	,
@@ -10237,7 +10237,7 @@ var nodesData =
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 1940, y: 1360}
+		, _position: {x: 1940, y: 1740}
 		, _classes: 'skill'
 		}
 	,
@@ -13026,7 +13026,6 @@ var nodesData =
 		, _position: {x: 4093, y: -1824}
 		, _classes: 'stat'
 		}
-
 	,
 		{ data:
 			{ _id: 'n1258'
@@ -15692,7 +15691,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1610, y: 1800}
+		, _position: {x: 1610, y: 2180}
 		, _classes: 'stat'
 		}
 	,
@@ -15702,7 +15701,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1662, y: 1710}
+		, _position: {x: 1662, y: 2090}
 		, _classes: 'stat'
 		}
 	,
@@ -15712,7 +15711,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
 			}
-		, _position: {x: 1558, y: 1710}
+		, _position: {x: 1558, y: 2090}
 		, _classes: 'stat'
 		}
 	,
@@ -15722,7 +15721,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1549, y: 1630}
+		, _position: {x: 1549, y: 2010}
 		, _classes: 'stat'
 		}
 	,
@@ -15732,7 +15731,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 1671, y: 1630}
+		, _position: {x: 1671, y: 2010}
 		, _classes: 'stat'
 		}
 	,
@@ -15742,7 +15741,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1549, y: 1850}
+		, _position: {x: 1549, y: 2230}
 		, _classes: 'stat'
 		}
 	,
@@ -15752,7 +15751,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 1671, y: 1850}
+		, _position: {x: 1671, y: 2230}
 		, _classes: 'stat'
 		}
 	,
@@ -15762,7 +15761,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
 			}
-		, _position: {x: 1610, y: 1583}
+		, _position: {x: 1610, y: 1963}
 		, _classes: 'stat'
 		}
 	,
@@ -15772,7 +15771,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 1610, y: 1897}
+		, _position: {x: 1610, y: 2277}
 		, _classes: 'stat'
 		}
 	,
@@ -15782,7 +15781,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 1477, y: 1656}
+		, _position: {x: 1477, y: 2036}
 		, _classes: 'stat'
 		}
 	,
@@ -15792,7 +15791,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1477, y: 1824}
+		, _position: {x: 1477, y: 2204}
 		, _classes: 'stat'
 		}
 	,
@@ -15802,7 +15801,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1743, y: 1824}
+		, _position: {x: 1743, y: 2204}
 		, _classes: 'stat'
 		}
 	,
@@ -15812,7 +15811,7 @@ var nodesData =
 			, _need: {revelation: 300}
 			, _give: {prestige: 80, str: 80}
 			}
-		, _position: {x: 1743, y: 1656}
+		, _position: {x: 1743, y: 2036}
 		, _classes: 'stat'
 		}
 	,
@@ -15822,7 +15821,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 1475, y: 1740}
+		, _position: {x: 1475, y: 2120}
 		, _classes: 'stat'
 		}
 	,
@@ -15832,7 +15831,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, luck: 38}
 			}
-		, _position: {x: 1745, y: 1740}
+		, _position: {x: 1745, y: 2120}
 		, _classes: 'stat'
 		}
 	,
@@ -15847,7 +15846,7 @@ var nodesData =
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 1610, y: 1740}
+		, _position: {x: 1610, y: 2120}
 		, _classes: 'skill'
 		}
 	,
@@ -15857,7 +15856,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 2070, y: 1800}
+		, _position: {x: 2070, y: 2180}
 		, _classes: 'stat'
 		}
 	,
@@ -15867,7 +15866,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 2122, y: 1710}
+		, _position: {x: 2122, y: 2090}
 		, _classes: 'stat'
 		}
 	,
@@ -15877,7 +15876,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 2018, y: 1710}
+		, _position: {x: 2018, y: 2090}
 		, _classes: 'stat'
 		}
 	,
@@ -15887,7 +15886,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
 			}
-		, _position: {x: 1975, y: 1680}
+		, _position: {x: 1975, y: 2060}
 		, _classes: 'stat'
 		}
 	,
@@ -15897,7 +15896,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1975, y: 1800}
+		, _position: {x: 1975, y: 2180}
 		, _classes: 'stat'
 		}
 	,
@@ -15907,7 +15906,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 2165, y: 1800}
+		, _position: {x: 2165, y: 2180}
 		, _classes: 'stat'
 		}
 	,
@@ -15917,7 +15916,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 2165, y: 1680}
+		, _position: {x: 2165, y: 2060}
 		, _classes: 'stat'
 		}
 	,
@@ -15927,7 +15926,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
 			}
-		, _position: {x: 2070, y: 1630}
+		, _position: {x: 2070, y: 2010}
 		, _classes: 'stat'
 		}
 	,
@@ -15937,7 +15936,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 2070, y: 1850}
+		, _position: {x: 2070, y: 2230}
 		, _classes: 'stat'
 		}
 	,
@@ -15947,7 +15946,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 2070, y: 1583}
+		, _position: {x: 2070, y: 1963}
 		, _classes: 'stat'
 		}
 	,
@@ -15957,7 +15956,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 2070, y: 1897}
+		, _position: {x: 2070, y: 2277}
 		, _classes: 'stat'
 		}
 	,
@@ -15967,7 +15966,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 1937, y: 1656}
+		, _position: {x: 1937, y: 2036}
 		, _classes: 'stat'
 		}
 	,
@@ -15977,7 +15976,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1937, y: 1824}
+		, _position: {x: 1937, y: 2204}
 		, _classes: 'stat'
 		}
 	,
@@ -15987,7 +15986,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 2203, y: 1824}
+		, _position: {x: 2203, y: 2204}
 		, _classes: 'stat'
 		}
 	,
@@ -15997,7 +15996,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
 			}
-		, _position: {x: 2203, y: 1656}
+		, _position: {x: 2203, y: 2036}
 		, _classes: 'stat'
 		}
 	,
@@ -16012,7 +16011,7 @@ var nodesData =
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 2070, y: 1740}
+		, _position: {x: 2070, y: 2120}
 		, _classes: 'skill'
 		}
 	,
@@ -18001,7 +18000,7 @@ var nodesData =
 		{ data:
 			{ _id: 'n1727'
 			, open: false, hover: false, want: false
-			, _title: 'Талант: Беспозадность'
+			, _title: 'Талант: Беспощадность'
 			, _description:
 				'Противники под эффектом оглущения, обездвиживания, страха или '+
 				'ослепления получают от персонажа на 7% больше урона за каждый '+
@@ -18348,7 +18347,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 780, y: 2260}
+		, _position: {x: 780, y: 2640}
 		, _classes: 'stat'
 		}
 	,
@@ -18358,7 +18357,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 832, y: 2170}
+		, _position: {x: 832, y: 2550}
 		, _classes: 'stat'
 		}
 	,
@@ -18368,7 +18367,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 728, y: 2170}
+		, _position: {x: 728, y: 2550}
 		, _classes: 'stat'
 		}
 	,
@@ -18378,7 +18377,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 685, y: 2140}
+		, _position: {x: 685, y: 2520}
 		, _classes: 'stat'
 		}
 	,
@@ -18388,7 +18387,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
 			}
-		, _position: {x: 685, y: 2260}
+		, _position: {x: 685, y: 2640}
 		, _classes: 'stat'
 		}
 	,
@@ -18398,7 +18397,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 875, y: 2260}
+		, _position: {x: 875, y: 2640}
 		, _classes: 'stat'
 		}
 	,
@@ -18408,7 +18407,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 875, y: 2140}
+		, _position: {x: 875, y: 2520}
 		, _classes: 'stat'
 		}
 	,
@@ -18418,7 +18417,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, valor: 38}
 			}
-		, _position: {x: 719, y: 2090}
+		, _position: {x: 719, y: 2470}
 		, _classes: 'stat'
 		}
 	,
@@ -18428,7 +18427,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 841, y: 2090}
+		, _position: {x: 841, y: 2470}
 		, _classes: 'stat'
 		}
 	,
@@ -18438,7 +18437,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 719, y: 2310}
+		, _position: {x: 719, y: 2690}
 		, _classes: 'stat'
 		}
 	,
@@ -18448,7 +18447,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 841, y: 2310}
+		, _position: {x: 841, y: 2690}
 		, _classes: 'stat'
 		}
 	,
@@ -18458,7 +18457,7 @@ var nodesData =
 			, _need: {revelation: 300}
 			, _give: {prestige: 120, vit: 120}
 			}
-		, _position: {x: 780, y: 2090}
+		, _position: {x: 780, y: 2470}
 		, _classes: 'stat'
 		}
 	,
@@ -18468,7 +18467,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 780, y: 2310}
+		, _position: {x: 780, y: 2690}
 		, _classes: 'stat'
 		}
 	,
@@ -18478,7 +18477,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 50, majesty: 250}
 			}
-		, _position: {x: 645, y: 2200}
+		, _position: {x: 645, y: 2580}
 		, _classes: 'stat'
 		}
 	,
@@ -18488,7 +18487,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, spirit: 38}
 			}
-		, _position: {x: 915, y: 2200}
+		, _position: {x: 915, y: 2580}
 		, _classes: 'stat'
 		}
 	,
@@ -18502,7 +18501,7 @@ var nodesData =
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 780, y: 2200}
+		, _position: {x: 780, y: 2580}
 		, _classes: 'skill'
 		}
 	,
@@ -18512,7 +18511,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, str: 38}
 			}
-		, _position: {x: 1980, y: 2260}
+		, _position: {x: 1980, y: 2640}
 		, _classes: 'stat'
 		}
 	,
@@ -18522,7 +18521,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 2032, y: 2170}
+		, _position: {x: 2032, y: 2550}
 		, _classes: 'stat'
 		}
 	,
@@ -18532,7 +18531,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 1928, y: 2170}
+		, _position: {x: 1928, y: 2550}
 		, _classes: 'stat'
 		}
 	,
@@ -18542,7 +18541,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, str: 56}
 			}
-		, _position: {x: 1885, y: 2140}
+		, _position: {x: 1885, y: 2520}
 		, _classes: 'stat'
 		}
 	,
@@ -18552,7 +18551,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1885, y: 2260}
+		, _position: {x: 1885, y: 2640}
 		, _classes: 'stat'
 		}
 	,
@@ -18562,7 +18561,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 2075, y: 2260}
+		, _position: {x: 2075, y: 2640}
 		, _classes: 'stat'
 		}
 	,
@@ -18572,7 +18571,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 2075, y: 2140}
+		, _position: {x: 2075, y: 2520}
 		, _classes: 'stat'
 		}
 	,
@@ -18582,7 +18581,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1919, y: 2090}
+		, _position: {x: 1919, y: 2470}
 		, _classes: 'stat'
 		}
 	,
@@ -18592,7 +18591,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 2041, y: 2090}
+		, _position: {x: 2041, y: 2470}
 		, _classes: 'stat'
 		}
 	,
@@ -18602,7 +18601,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 1919, y: 2310}
+		, _position: {x: 1919, y: 2690}
 		, _classes: 'stat'
 		}
 	,
@@ -18612,7 +18611,7 @@ var nodesData =
 			, _need: {blue: 810}
 			, _give: {prestige: 75, str: 75}
 			}
-		, _position: {x: 2041, y: 2310}
+		, _position: {x: 2041, y: 2690}
 		, _classes: 'stat'
 		}
 	,
@@ -18622,7 +18621,7 @@ var nodesData =
 			, _need: {revelation: 300}
 			, _give: {prestige: 120, vit: 120}
 			}
-		, _position: {x: 1980, y: 2090}
+		, _position: {x: 1980, y: 2470}
 		, _classes: 'stat'
 		}
 	,
@@ -18632,7 +18631,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1980, y: 2310}
+		, _position: {x: 1980, y: 2690}
 		, _classes: 'stat'
 		}
 	,
@@ -18640,9 +18639,9 @@ var nodesData =
 			{ _id: 'n1805'
 			, open: false, hover: false, want: false
 			, _need: {blue: 575}
-			, _give: {prestige: 30, majesty: 250}
+			, _give: {prestige: 30, majesty: 630}
 			}
-		, _position: {x: 1845, y: 2200}
+		, _position: {x: 1845, y: 2580}
 		, _classes: 'stat'
 		}
 	,
@@ -18652,7 +18651,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 2115, y: 2200}
+		, _position: {x: 2115, y: 2580}
 		, _classes: 'stat'
 		}
 	,
@@ -18668,7 +18667,7 @@ var nodesData =
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 1980, y: 2200}
+		, _position: {x: 1980, y: 2580}
 		, _classes: 'skill'
 		}
 	,
@@ -18678,7 +18677,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1380, y: 2160}
+		, _position: {x: 1380, y: 2540}
 		, _classes: 'stat'
 		}
 	,
@@ -18688,7 +18687,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1432, y: 2070}
+		, _position: {x: 1432, y: 2450}
 		, _classes: 'stat'
 		}
 	,
@@ -18698,7 +18697,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
 			}
-		, _position: {x: 1328, y: 2070}
+		, _position: {x: 1328, y: 2450}
 		, _classes: 'stat'
 		}
 	,
@@ -18708,7 +18707,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 1319, y: 1990}
+		, _position: {x: 1319, y: 2370}
 		, _classes: 'stat'
 		}
 	,
@@ -18718,7 +18717,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1441, y: 1990}
+		, _position: {x: 1441, y: 2370}
 		, _classes: 'stat'
 		}
 	,
@@ -18728,7 +18727,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 1319, y: 2210}
+		, _position: {x: 1319, y: 2590}
 		, _classes: 'stat'
 		}
 	,
@@ -18738,7 +18737,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1441, y: 2210}
+		, _position: {x: 1441, y: 2590}
 		, _classes: 'stat'
 		}
 	,
@@ -18748,7 +18747,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1380, y: 1943}
+		, _position: {x: 1380, y: 2323}
 		, _classes: 'stat'
 		}
 	,
@@ -18758,7 +18757,7 @@ var nodesData =
 			, _need: {revelation: 300}
 			, _give: {prestige: 80, power: 80}
 			}
-		, _position: {x: 1380, y: 2257}
+		, _position: {x: 1380, y: 2637}
 		, _classes: 'stat'
 		}
 	,
@@ -18768,7 +18767,7 @@ var nodesData =
 			, _need: {blue: 125}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 1247, y: 2016}
+		, _position: {x: 1247, y: 2396}
 		, _classes: 'stat'
 		}
 	,
@@ -18778,7 +18777,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1247, y: 2184}
+		, _position: {x: 1247, y: 2564}
 		, _classes: 'stat'
 		}
 	,
@@ -18788,7 +18787,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1513, y: 2184}
+		, _position: {x: 1513, y: 2564}
 		, _classes: 'stat'
 		}
 	,
@@ -18798,7 +18797,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 1513, y: 2016}
+		, _position: {x: 1513, y: 2396}
 		, _classes: 'stat'
 		}
 	,
@@ -18808,7 +18807,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1245, y: 2100}
+		, _position: {x: 1245, y: 2480}
 		, _classes: 'stat'
 		}
 	,
@@ -18818,7 +18817,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 1515, y: 2100}
+		, _position: {x: 1515, y: 2480}
 		, _classes: 'stat'
 		}
 	,
@@ -18829,7 +18828,7 @@ var nodesData =
 			, _need: {}
 			, _give: {}
 			}
-		, _position: {x: 1380, y: 2100}
+		, _position: {x: 1380, y: 2480}
 		, _classes: 'empty'
 		}
 	,
@@ -18839,7 +18838,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1285, y: 2490}
+		, _position: {x: 1285, y: 2870}
 		, _classes: 'stat'
 		}
 	,
@@ -18849,7 +18848,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1285, y: 2610}
+		, _position: {x: 1285, y: 2990}
 		, _classes: 'stat'
 		}
 	,
@@ -18859,7 +18858,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1475, y: 2610}
+		, _position: {x: 1475, y: 2990}
 		, _classes: 'stat'
 		}
 	,
@@ -18869,7 +18868,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1475, y: 2490}
+		, _position: {x: 1475, y: 2870}
 		, _classes: 'stat'
 		}
 	,
@@ -18879,7 +18878,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 1319, y: 2440}
+		, _position: {x: 1319, y: 2820}
 		, _classes: 'stat'
 		}
 	,
@@ -18889,7 +18888,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 1441, y: 2440}
+		, _position: {x: 1441, y: 2820}
 		, _classes: 'stat'
 		}
 	,
@@ -18899,7 +18898,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, luck: 38}
 			}
-		, _position: {x: 1319, y: 2660}
+		, _position: {x: 1319, y: 3040}
 		, _classes: 'stat'
 		}
 	,
@@ -18909,7 +18908,7 @@ var nodesData =
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 1441, y: 2660}
+		, _position: {x: 1441, y: 3040}
 		, _classes: 'stat'
 		}
 	,
@@ -18919,7 +18918,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1380, y: 2440}
+		, _position: {x: 1380, y: 2820}
 		, _classes: 'stat'
 		}
 	,
@@ -18929,7 +18928,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 1380, y: 2660}
+		, _position: {x: 1380, y: 3040}
 		, _classes: 'stat'
 		}
 	,
@@ -18939,7 +18938,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 1247, y: 2466}
+		, _position: {x: 1247, y: 2846}
 		, _classes: 'stat'
 		}
 	,
@@ -18949,7 +18948,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 1247, y: 2634}
+		, _position: {x: 1247, y: 3014}
 		, _classes: 'stat'
 		}
 	,
@@ -18959,7 +18958,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 1513, y: 2634}
+		, _position: {x: 1513, y: 3014}
 		, _classes: 'stat'
 		}
 	,
@@ -18969,7 +18968,7 @@ var nodesData =
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
-		, _position: {x: 1513, y: 2466}
+		, _position: {x: 1513, y: 2846}
 		, _classes: 'stat'
 		}
 	,
@@ -18979,7 +18978,7 @@ var nodesData =
 			, _need: {blue: 810}
 			, _give: {prestige: 75, spirit: 75}
 			}
-		, _position: {x: 1245, y: 2550}
+		, _position: {x: 1245, y: 2930}
 		, _classes: 'stat'
 		}
 	,
@@ -18989,7 +18988,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, str: 56}
 			}
-		, _position: {x: 1515, y: 2550}
+		, _position: {x: 1515, y: 2930}
 		, _classes: 'stat'
 		}
 	,
@@ -19005,7 +19004,7 @@ var nodesData =
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
 			}
-		, _position: {x: 1380, y: 2550}
+		, _position: {x: 1380, y: 2930}
 		, _classes: 'skill'
 		}
 	,
@@ -19655,7 +19654,7 @@ var nodesData =
 		{ data:
 			{ _id: 'n1899'
 			, open: false, hover: false, want: false
-			, _title: 'Талант: Беспозадность'
+			, _title: 'Талант: Беспощадность'
 			, _description:
 				'Противники под эффектом оглущения, обездвиживания, страха или '+
 				'ослепления получают от персонажа на 7% больше урона за каждый '+
@@ -19990,6 +19989,499 @@ var nodesData =
 			}
 		, _position: {x: -1050, y: 2200}
 		, _classes: 'skill'
+		}
+	,
+		{ data:
+			{ _id: 'n1946'
+			, open: false, hover: false, want: false
+			, _need: {red: 775}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -2660,  y: -590}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1947'
+			, open: false, hover: false, want: false
+			, _need: {red: 585}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: -2608, y: -680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1948'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -2712, y: -680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1949'
+			, open: false, hover: false, want: false
+			, _need: {red: 965}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: -2721, y: -760}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1950'
+			, open: false, hover: false, want: false
+			, _need: {blue: 775}
+			, _give: {prestige: 56, str: 56}
+			}
+		, _position: {x: -2599, y: -760}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1951'
+			, open: false, hover: false, want: false
+			, _need: {green: 965}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -2721, y: -540}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1952'
+			, open: false, hover: false, want: false
+			, _need: {green: 585}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: -2599, y: -540}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1953'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 120, vit: 120}
+			}
+		, _position: {x: -2660, y: -807}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1954'
+			, open: false, hover: false, want: false
+			, _need: {blue: 30}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -2660, y: -493}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1955'
+			, open: false, hover: false, want: false
+			, _need: {red: 585}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: -2793, y: -734}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1956'
+			, open: false, hover: false, want: false
+			, _need: {green: 775}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -2793, y: -566}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1957'
+			, open: false, hover: false, want: false
+			, _need: {red: 775}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -2527, y: -566}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1958'
+			, open: false, hover: false, want: false
+			, _need: {red: 585}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: -2527, y: -734}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1959'
+			, open: false, hover: false, want: false
+			, _need: {blue: 775}
+			, _give: {prestige: 56, valor: 56}
+			}
+		, _position: {x: -2795, y: -650}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1960'
+			, open: false, hover: false, want: false
+			, _need: {green: 775}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -2525, y: -650}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1961'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: -2660, y: -650}
+		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n1962'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -2135, y: -1260}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1963'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -2135, y: -1140}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1964'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -1945, y: -1140}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1965'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -1945, y: -1260}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1966'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, luck: 38}
+			}
+		, _position: {x: -2101, y: -1310}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1967'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, luck: 56}
+			}
+		, _position: {x: -1979, y: -1310}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1968'
+			, open: false, hover: false, want: false
+			, _need: {red: 490}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: -2101, y: -1090}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1969'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -1979, y: -1090}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1970'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -2040, y: -1310}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1971'
+			, open: false, hover: false, want: false
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: -2040, y: -1090}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1972'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -2173, y: -1284}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1973'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -2173, y: -1116}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1974'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: -1907, y: -1116}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1975'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 80, luck: 80}
+			}
+		, _position: {x: -1907, y: -1284}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1976'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -2175, y: -1200}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1977'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -1905, y: -1200}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1978'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: -2040, y: -1200}
+		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n1979'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -2500,  y: -1140}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1980'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -2448, y: -1230}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1981'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -2552, y: -1230}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1982'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -2595, y: -1260}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1983'
+			, open: false, hover: false, want: false
+			, _need: {blue: 585}
+			, _give: {prestige: 38, valor: 38}
+			}
+		, _position: {x: -2595, y: -1140}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1984'
+			, open: false, hover: false, want: false
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: -2405, y: -1140}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1985'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: -2405, y: -1260}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1986'
+			, open: false, hover: false, want: false
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: -2500, y: -1310}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1987'
+			, open: false, hover: false, want: false
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: -2500, y: -1090}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1988'
+			, open: false, hover: false, want: false
+			, _need: {blue: 810}
+			, _give: {prestige: 75, luck: 75}
+			}
+		, _position: {x: -2500, y: -1357}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1989'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -2500, y: -1043}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1990'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: -2633, y: -1284}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1991'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: -2633, y: -1116}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1992'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 80, power: 80}
+			}
+		, _position: {x: -2367, y: -1116}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n1993'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: -2367, y: -1284}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: -2500, y: -1200}
+		, _classes: 'empty'
 		}
 	];
 
@@ -21986,6 +22478,56 @@ var edgesData =
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n1924', _target: 'n1921'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n1924', _target: 'n1922'}}
 	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n1928', _target: 'n500'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n1773', target: 'n1954'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1954', target: 'n1952'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1952', target: 'n1957'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1957', target: 'n1960'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1954', target: 'n1946'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n1948', target: 'n1946'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n1947', target: 'n1948'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1948', target: 'n1955'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1955', target: 'n1949'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1955', target: 'n1959'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1959', target: 'n1956'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1956', target: 'n1951'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1947', target: 'n1958'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1958', target: 'n1950'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1950', target: 'n1953'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n1953', target: 'n1991'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1991', target: 'n1983'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1983', target: 'n1981'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1981', target: 'n1982'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1982', target: 'n1990'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n1983', target: 'n1987'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1987', target: 'n1989'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n1987', target: 'n1984'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1984', target: 'n1992'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n1984', target: 'n1985'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1985', target: 'n1993'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1985', target: 'n1980'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1980', target: 'n1986'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1986', target: 'n1988'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1979', target: 'n1984'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n1981', target: 'n1979'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n1979', target: 'n1980'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n1992', target: 'n1972'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1972', target: 'n1962'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1962', target: 'n1966'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1966', target: 'n1970'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1970', target: 'n1967'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1967', target: 'n1965'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1965', target: 'n1975'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1965', target: 'n1977'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1977', target: 'n1974'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1974', target: 'n1964'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1964', target: 'n1969'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1969', target: 'n1971'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1971', target: 'n1968'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1968', target: 'n1963'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1963', target: 'n1973'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1973', target: 'n1976'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n1976', target: 'n1972'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n1975', target: 'n1741'}}
 	];
 
 var mainAtlas =
