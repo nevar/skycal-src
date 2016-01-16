@@ -116,7 +116,7 @@
 				</svg>
 			</div>
 			<div id='box'></div>
-			<div id='need'>
+			<div id='need' v-cloak>
 				<table v-for='graph in graphs' v-show='selected == $index'>
 				<tbody>
 					<tr>
@@ -133,7 +133,7 @@
 				</table>
 			</div>
 		</div>
-		<div id='right'>
+		<div id='right' v-cloak>
 				<div v-for='graph in graphs' v-show='selected == $index'>
 					<div v-for='(name, stat) in graph.stat'>
 						<stat v-if='graph.group.stat[name]' :stat.once='graph.group.stat[name]' :graph.once='graph'></stat>

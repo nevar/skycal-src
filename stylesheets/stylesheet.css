@@ -168,6 +168,6 @@ span.gorgonidy {
 	background-image: url("../images/spark/gorgonidy.png");
 }
 
-.hidden {
+[v-cloak] {
 	display: none;
 }
