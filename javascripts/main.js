@@ -650,7 +650,7 @@ $(function() {
 				, 'injury', 'laceration', 'life', 'okulat'
 				, 'reflex', 'resistance', 'ruthlessness', 'slow', 'spasm', 'timeout'
 				, 'triumph', 'wave'
-				, 'god',
+				, 'god', 'secretKnowledge'
 				, 'defend', 'hunter', 'knowledge', 'rule', 'wanderer', 'warrior'
 				, 'vit', 'power', 'str', 'valor', 'spirit', 'luck', 'majesty'
 				, 'revelation'

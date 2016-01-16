@@ -152,6 +152,10 @@ span.book {
 	background-image: url("../images/spark/book.png");
 }
 
+span.secretKnowledge {
+	background-image: url("../images/spark/secretKnowledge.png");
+}
+
 span.transformation {
 	background-image: url("../images/spark/transformation.png");
 }
