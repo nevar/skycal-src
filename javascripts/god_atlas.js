@@ -3692,7 +3692,7 @@ var godNodesData =
 			{ _id: 'n3350'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
-			, _give: {prestige: 56, luck: 56}
+			, _give: {prestige: 56, str: 56}
 			}
 		, _position: {x: -1441, y: -640}
 		, _classes: 'stat'
