@@ -64,11 +64,14 @@ function calcTotal(atlases) {
 					atlas.sparks[spark][0] += nodeData._need[spark];
 				}
 			}
-			if (atlas.sparks.all) {
-				atlas.sparks.all[1] =
-					atlas.sparks.red[1] + atlas.sparks.green[1] +
-					atlas.sparks.blue[1];
-			}
+		}
+		if (atlas.sparks.all) {
+			atlas.sparks.all[0] =
+				atlas.sparks.red[0] + atlas.sparks.green[0] +
+				atlas.sparks.blue[0];
+			atlas.sparks.all[1] =
+				atlas.sparks.red[1] + atlas.sparks.green[1] +
+				atlas.sparks.blue[1];
 		}
 		atlas._nodePos = nodePos;
 	}
@@ -564,8 +567,7 @@ $(function() {
 						return;
 					}
 					cy.elements('[?want]').data('want', false);
-
-					needPath = foundPath(cy, '#' + node.data.id, 'node[?open],node[?want]', '[!open]');
+					needPath = foundPath(cy, '#' + node.data.id, 'node[?open]', '[!open]');
 					if (needPath.found) {
 						clearNeed();
 						needPath = needPath.path;
@@ -585,8 +587,8 @@ $(function() {
 						need.all = need.red + need.green + need.blue;
 						needPath[2].connectedEdges().filter(function(i, ele) {
 							var source = ele.source(), target = ele.target();
-							return (source.data('open') || source.hasClass('foundPath')) &&
-								(target.data('open') || target.hasClass('foundPath'));
+							return (source.data('open') || source.data('want')) &&
+								(target.data('open') || target.data('want'));
 						}).data('want', true);
 					}
 				}
