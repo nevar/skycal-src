@@ -346,13 +346,6 @@ $(function() {
 		svg = document.getElementById('atlas'),
 		graphs =
 			[ mainAtlas, godAtlas
-			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
-			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
-			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
-			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
-			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
-			, {mX: 0, mY: 0, scale: 1, group: {}, nodes: [], edges: []}
-			, fitonidyAtlas, mehanoydyAtlas
 			],
 		nodeSize = {big: 20, small: 12};
 
