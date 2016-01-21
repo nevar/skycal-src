@@ -22,7 +22,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2'
+			{ _id: 'n1'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 100}
@@ -32,7 +32,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n3'
+			{ _id: 'n2'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, str: 56}
@@ -42,7 +42,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n4'
+			{ _id: 'n3'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -52,7 +52,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n5'
+			{ _id: 'n4'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -62,7 +62,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n6'
+			{ _id: 'n5'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, spirit: 75}
@@ -72,7 +72,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n7'
+			{ _id: 'n6'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -82,7 +82,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n8'
+			{ _id: 'n7'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -92,7 +92,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n9'
+			{ _id: 'n8'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -102,7 +102,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n10'
+			{ _id: 'n9'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -112,7 +112,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n11'
+			{ _id: 'n10'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, spirit: 38}
@@ -122,7 +122,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n12'
+			{ _id: 'n11'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -132,7 +132,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n13'
+			{ _id: 'n12'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, spirit: 38}
@@ -142,7 +142,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n14'
+			{ _id: 'n13'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -152,7 +152,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n15'
+			{ _id: 'n14'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -162,7 +162,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n16'
+			{ _id: 'n15'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -172,7 +172,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n1'
+			{ _id: 'n16'
 			, open: false, hover: false, want: false
 			, _title: 'Стойкость Бога'
 			, _description:
@@ -186,7 +186,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n18'
+			{ _id: 'n17'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -196,7 +196,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n19'
+			{ _id: 'n18'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -206,7 +206,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n20'
+			{ _id: 'n19'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -216,7 +216,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n21'
+			{ _id: 'n20'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -226,7 +226,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n22'
+			{ _id: 'n21'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -236,7 +236,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n23'
+			{ _id: 'n22'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -246,7 +246,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n24'
+			{ _id: 'n23'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -256,7 +256,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n25'
+			{ _id: 'n24'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -266,7 +266,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n26'
+			{ _id: 'n25'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -276,7 +276,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n27'
+			{ _id: 'n26'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -286,7 +286,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n28'
+			{ _id: 'n27'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, spirit: 38}
@@ -296,7 +296,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n29'
+			{ _id: 'n28'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -306,7 +306,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n30'
+			{ _id: 'n29'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -316,7 +316,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n31'
+			{ _id: 'n30'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -326,7 +326,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n32'
+			{ _id: 'n31'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -336,7 +336,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n33'
+			{ _id: 'n32'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
@@ -346,7 +346,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n17'
+			{ _id: 'n33'
 			, open: false, hover: false, want: false
 			, _title: 'Ярость Бога'
 			, _description:
@@ -361,7 +361,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n35'
+			{ _id: 'n34'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -371,7 +371,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n36'
+			{ _id: 'n35'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -381,7 +381,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n37'
+			{ _id: 'n36'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -391,7 +391,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n38'
+			{ _id: 'n37'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -401,7 +401,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n39'
+			{ _id: 'n38'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -411,7 +411,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n40'
+			{ _id: 'n39'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -421,7 +421,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n41'
+			{ _id: 'n40'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -431,7 +431,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n42'
+			{ _id: 'n41'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -441,7 +441,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n43'
+			{ _id: 'n42'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -451,7 +451,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n44'
+			{ _id: 'n43'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
@@ -461,7 +461,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n45'
+			{ _id: 'n44'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -471,7 +471,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n46'
+			{ _id: 'n45'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -481,7 +481,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n47'
+			{ _id: 'n46'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -491,7 +491,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n48'
+			{ _id: 'n47'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -501,7 +501,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n49'
+			{ _id: 'n48'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, str: 38}
@@ -511,7 +511,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n34'
+			{ _id: 'n49'
 			, open: false, hover: false, want: false
 			, _title: 'Предусмотрительность Бога'
 			, _description:
@@ -525,7 +525,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n51'
+			{ _id: 'n50'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -535,7 +535,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n52'
+			{ _id: 'n51'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -545,7 +545,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n53'
+			{ _id: 'n52'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -555,7 +555,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n54'
+			{ _id: 'n53'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -565,7 +565,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n55'
+			{ _id: 'n54'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -575,7 +575,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n56'
+			{ _id: 'n55'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -585,7 +585,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n57'
+			{ _id: 'n56'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -595,7 +595,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n58'
+			{ _id: 'n57'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -605,7 +605,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n59'
+			{ _id: 'n58'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -615,7 +615,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n60'
+			{ _id: 'n59'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
@@ -625,7 +625,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n61'
+			{ _id: 'n60'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -635,7 +635,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n62'
+			{ _id: 'n61'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -645,7 +645,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n63'
+			{ _id: 'n62'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -655,7 +655,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n64'
+			{ _id: 'n63'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, str: 56}
@@ -665,7 +665,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n65'
+			{ _id: 'n64'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
@@ -675,7 +675,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n50'
+			{ _id: 'n65'
 			, open: false, hover: false, want: false
 			, _title: 'Решимость Бога'
 			, _description:
@@ -690,7 +690,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n67'
+			{ _id: 'n66'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -700,7 +700,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n445'
+			{ _id: 'n67'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -830,7 +830,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n66'
+			{ _id: 'n80'
 			, open: false, hover: false, want: false
 			, _title: 'Истина Бога'
 			, _description:
@@ -844,7 +844,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n80'
+			{ _id: 'n81'
 			, open: false, hover: false, want: false
 			, _title: 'Бог знаний'
 			, _description:
@@ -1018,7 +1018,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n81'
+			{ _id: 'n97'
 			, open: false, hover: false, want: false
 			, _title: 'Воля Бога'
 			, _description:
@@ -1183,7 +1183,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n97'
+			{ _id: 'n113'
 			, open: false, hover: false, want: false
 			, _title: 'Непреклонность Бога'
 			, _description:
@@ -1351,7 +1351,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n113'
+			{ _id: 'n129'
 			, open: false, hover: false, want: false
 			, _title: 'Пыл Бога'
 			, _description:
@@ -1515,7 +1515,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n129'
+			{ _id: 'n145'
 			, open: false, hover: false, want: false
 			, _title: 'Ярость Бога'
 			, _description:
@@ -1530,7 +1530,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n145'
+			{ _id: 'n146'
 			, open: false, hover: false, want: false
 			, _title: 'Бог войны'
 			, _description:
@@ -1563,7 +1563,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n149'
+			{ _id: 'n148'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -1573,7 +1573,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n150'
+			{ _id: 'n149'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -1583,7 +1583,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n151'
+			{ _id: 'n150'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -1593,7 +1593,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n152'
+			{ _id: 'n151'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -1603,7 +1603,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n153'
+			{ _id: 'n152'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -1613,7 +1613,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n154'
+			{ _id: 'n153'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -1623,7 +1623,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n155'
+			{ _id: 'n154'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -1633,7 +1633,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n156'
+			{ _id: 'n155'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -1643,7 +1643,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n157'
+			{ _id: 'n156'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -1653,7 +1653,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n158'
+			{ _id: 'n157'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -1663,7 +1663,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n159'
+			{ _id: 'n158'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, luck: 38}
@@ -1673,7 +1673,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n160'
+			{ _id: 'n159'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -1683,7 +1683,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n161'
+			{ _id: 'n160'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -1693,7 +1693,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n162'
+			{ _id: 'n161'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, spirit: 38}
@@ -1703,7 +1703,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n163'
+			{ _id: 'n162'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
@@ -1713,7 +1713,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n146'
+			{ _id: 'n163'
 			, open: false, hover: false, want: false
 			, _title: 'Воля Бога'
 			, _description:
@@ -1728,7 +1728,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n165'
+			{ _id: 'n164'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -1738,7 +1738,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n166'
+			{ _id: 'n165'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -1748,7 +1748,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n167'
+			{ _id: 'n166'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -1758,7 +1758,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n168'
+			{ _id: 'n167'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -1768,7 +1768,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n169'
+			{ _id: 'n168'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -1778,7 +1778,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n170'
+			{ _id: 'n169'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -1788,7 +1788,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n171'
+			{ _id: 'n170'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -1798,7 +1798,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n172'
+			{ _id: 'n171'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -1808,7 +1808,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n173'
+			{ _id: 'n172'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -1818,7 +1818,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n174'
+			{ _id: 'n173'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -1828,7 +1828,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n175'
+			{ _id: 'n174'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -1838,7 +1838,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n176'
+			{ _id: 'n175'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -1848,7 +1848,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n177'
+			{ _id: 'n176'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -1858,7 +1858,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n178'
+			{ _id: 'n177'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -1868,7 +1868,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n179'
+			{ _id: 'n178'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -1878,7 +1878,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n164'
+			{ _id: 'n179'
 			, open: false, hover: false, want: false
 			, _title: 'Непреклонность Бога'
 			, _description:
@@ -1896,7 +1896,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n181'
+			{ _id: 'n180'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, luck: 75}
@@ -1906,7 +1906,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n182'
+			{ _id: 'n181'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -1916,7 +1916,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n183'
+			{ _id: 'n182'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -1926,7 +1926,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n184'
+			{ _id: 'n183'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -1936,7 +1936,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n185'
+			{ _id: 'n184'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -1946,7 +1946,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n186'
+			{ _id: 'n185'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -1956,7 +1956,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n187'
+			{ _id: 'n186'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -1966,7 +1966,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n188'
+			{ _id: 'n187'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -1976,7 +1976,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n189'
+			{ _id: 'n188'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
@@ -1986,7 +1986,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n190'
+			{ _id: 'n189'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
@@ -1996,7 +1996,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n191'
+			{ _id: 'n190'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2006,7 +2006,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n192'
+			{ _id: 'n191'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, str: 56}
@@ -2016,7 +2016,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n193'
+			{ _id: 'n192'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2026,7 +2026,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n194'
+			{ _id: 'n193'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2036,7 +2036,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n180'
+			{ _id: 'n194'
 			, open: false, hover: false, want: false
 			, _title: 'Рвение Бога'
 			, _description:
@@ -2050,7 +2050,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n196'
+			{ _id: 'n195'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2060,7 +2060,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n197'
+			{ _id: 'n196'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2070,7 +2070,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n198'
+			{ _id: 'n197'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2080,7 +2080,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n199'
+			{ _id: 'n198'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2090,7 +2090,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n200'
+			{ _id: 'n199'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -2100,7 +2100,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n201'
+			{ _id: 'n200'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2110,7 +2110,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n202'
+			{ _id: 'n201'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
@@ -2120,7 +2120,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n203'
+			{ _id: 'n202'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2130,7 +2130,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n204'
+			{ _id: 'n203'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2140,7 +2140,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n205'
+			{ _id: 'n204'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2150,7 +2150,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n206'
+			{ _id: 'n205'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, valor: 75}
@@ -2160,7 +2160,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n207'
+			{ _id: 'n206'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2170,7 +2170,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n208'
+			{ _id: 'n207'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2180,7 +2180,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n209'
+			{ _id: 'n208'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2190,7 +2190,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n210'
+			{ _id: 'n209'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
@@ -2200,7 +2200,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n211'
+			{ _id: 'n210'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, spirit: 75}
@@ -2210,7 +2210,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n195'
+			{ _id: 'n211'
 			, open: false, hover: false, want: false
 			, _title: 'Ярость Бога'
 			, _description:
@@ -2247,7 +2247,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n214'
+			{ _id: 'n213'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2257,7 +2257,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n215'
+			{ _id: 'n214'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2267,7 +2267,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n216'
+			{ _id: 'n215'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2277,7 +2277,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n217'
+			{ _id: 'n216'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2287,7 +2287,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n218'
+			{ _id: 'n217'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2297,7 +2297,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n219'
+			{ _id: 'n218'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2307,7 +2307,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n220'
+			{ _id: 'n219'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, spirit: 75}
@@ -2317,7 +2317,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n221'
+			{ _id: 'n220'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2327,7 +2327,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n222'
+			{ _id: 'n221'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
@@ -2337,7 +2337,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n223'
+			{ _id: 'n222'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2347,7 +2347,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n224'
+			{ _id: 'n223'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2357,7 +2357,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n225'
+			{ _id: 'n224'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -2367,7 +2367,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n226'
+			{ _id: 'n225'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -2377,7 +2377,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n227'
+			{ _id: 'n226'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, spirit: 75}
@@ -2387,7 +2387,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n228'
+			{ _id: 'n227'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2397,7 +2397,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n213'
+			{ _id: 'n228'
 			, open: false, hover: false, want: false
 			, _title: 'Знания Бога'
 			, _description:
@@ -2411,7 +2411,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n230'
+			{ _id: 'n229'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, luck: 75}
@@ -2421,7 +2421,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n231'
+			{ _id: 'n230'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2431,7 +2431,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n232'
+			{ _id: 'n231'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, luck: 75}
@@ -2441,7 +2441,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n233'
+			{ _id: 'n232'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2451,7 +2451,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n234'
+			{ _id: 'n233'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2461,7 +2461,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n235'
+			{ _id: 'n234'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, luck: 38}
@@ -2471,7 +2471,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n236'
+			{ _id: 'n235'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -2481,7 +2481,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n237'
+			{ _id: 'n236'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2491,7 +2491,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n238'
+			{ _id: 'n237'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2501,7 +2501,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n239'
+			{ _id: 'n238'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -2511,7 +2511,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n240'
+			{ _id: 'n239'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2521,7 +2521,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n241'
+			{ _id: 'n240'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2531,7 +2531,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n242'
+			{ _id: 'n241'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2541,7 +2541,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n243'
+			{ _id: 'n242'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2551,7 +2551,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n244'
+			{ _id: 'n243'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2561,7 +2561,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n229'
+			{ _id: 'n244'
 			, open: false, hover: false, want: false
 			, _title: 'Могущество Бога'
 			, _description:
@@ -2575,7 +2575,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n246'
+			{ _id: 'n245'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2585,7 +2585,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n247'
+			{ _id: 'n246'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 20}
@@ -2595,7 +2595,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n248'
+			{ _id: 'n247'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2605,7 +2605,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n249'
+			{ _id: 'n248'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2615,7 +2615,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n250'
+			{ _id: 'n249'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2625,7 +2625,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n251'
+			{ _id: 'n250'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, str: 56}
@@ -2635,7 +2635,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n252'
+			{ _id: 'n251'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, str: 38}
@@ -2645,7 +2645,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n253'
+			{ _id: 'n252'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2655,7 +2655,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n254'
+			{ _id: 'n253'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, valor: 75}
@@ -2665,7 +2665,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n255'
+			{ _id: 'n254'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2675,7 +2675,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n256'
+			{ _id: 'n255'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2685,7 +2685,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n257'
+			{ _id: 'n256'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, spirit: 38}
@@ -2695,7 +2695,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n258'
+			{ _id: 'n257'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2705,7 +2705,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n259'
+			{ _id: 'n258'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2715,7 +2715,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n260'
+			{ _id: 'n259'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -2725,7 +2725,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n245'
+			{ _id: 'n260'
 			, open: false, hover: false, want: false
 			, _title: 'Ярость Бога'
 			, _description:
@@ -2762,7 +2762,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n263'
+			{ _id: 'n262'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -2772,7 +2772,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n264'
+			{ _id: 'n263'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2782,7 +2782,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n265'
+			{ _id: 'n264'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
@@ -2792,7 +2792,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n266'
+			{ _id: 'n265'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
@@ -2802,7 +2802,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n267'
+			{ _id: 'n266'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2812,7 +2812,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n268'
+			{ _id: 'n267'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -2822,7 +2822,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n269'
+			{ _id: 'n268'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2832,7 +2832,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n270'
+			{ _id: 'n269'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2842,7 +2842,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n271'
+			{ _id: 'n270'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, luck: 38}
@@ -2852,7 +2852,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n272'
+			{ _id: 'n271'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2862,7 +2862,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n273'
+			{ _id: 'n272'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2872,7 +2872,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n274'
+			{ _id: 'n273'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2882,7 +2882,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n275'
+			{ _id: 'n274'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -2892,7 +2892,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n276'
+			{ _id: 'n275'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -2902,7 +2902,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n277'
+			{ _id: 'n276'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -2912,7 +2912,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n262'
+			{ _id: 'n277'
 			, open: false, hover: false, want: false
 			, _title: 'Право Бога'
 			, _description:
@@ -2927,7 +2927,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n279'
+			{ _id: 'n278'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -2937,7 +2937,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n280'
+			{ _id: 'n279'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2947,7 +2947,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n281'
+			{ _id: 'n280'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
@@ -2957,7 +2957,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n282'
+			{ _id: 'n281'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 20}
@@ -2967,7 +2967,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n283'
+			{ _id: 'n282'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -2977,7 +2977,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n284'
+			{ _id: 'n283'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -2987,7 +2987,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n285'
+			{ _id: 'n284'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -2997,7 +2997,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n286'
+			{ _id: 'n285'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3007,7 +3007,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n287'
+			{ _id: 'n286'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3017,7 +3017,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n288'
+			{ _id: 'n287'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3027,7 +3027,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n289'
+			{ _id: 'n288'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, luck: 75}
@@ -3037,7 +3037,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n290'
+			{ _id: 'n289'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3047,7 +3047,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n291'
+			{ _id: 'n290'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3057,7 +3057,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n292'
+			{ _id: 'n291'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -3067,7 +3067,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n293'
+			{ _id: 'n292'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -3077,7 +3077,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n278'
+			{ _id: 'n293'
 			, open: false, hover: false, want: false
 			, _title: 'Мудрость Бога'
 			, _description:
@@ -3091,7 +3091,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n295'
+			{ _id: 'n294'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, spirit: 38}
@@ -3101,7 +3101,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n296'
+			{ _id: 'n295'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -3111,7 +3111,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n297'
+			{ _id: 'n296'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3121,7 +3121,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n298'
+			{ _id: 'n297'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -3131,7 +3131,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n299'
+			{ _id: 'n298'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3141,7 +3141,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n300'
+			{ _id: 'n299'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, valor: 38}
@@ -3151,7 +3151,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n301'
+			{ _id: 'n300'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3161,7 +3161,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n302'
+			{ _id: 'n301'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3171,7 +3171,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n303'
+			{ _id: 'n302'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3181,7 +3181,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n304'
+			{ _id: 'n303'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3191,7 +3191,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n305'
+			{ _id: 'n304'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
@@ -3201,7 +3201,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n306'
+			{ _id: 'n305'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -3211,7 +3211,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n307'
+			{ _id: 'n306'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
@@ -3221,7 +3221,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n308'
+			{ _id: 'n307'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -3231,7 +3231,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n309'
+			{ _id: 'n308'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -3241,7 +3241,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n294'
+			{ _id: 'n309'
 			, open: false, hover: false, want: false
 			, _title: 'Ярость Бога'
 			, _description:
@@ -3279,7 +3279,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n312'
+			{ _id: 'n311'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3289,7 +3289,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n313'
+			{ _id: 'n312'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3299,7 +3299,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n314'
+			{ _id: 'n313'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3309,7 +3309,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n315'
+			{ _id: 'n314'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3319,7 +3319,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n316'
+			{ _id: 'n315'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -3329,7 +3329,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n317'
+			{ _id: 'n316'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, valor: 56}
@@ -3339,7 +3339,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n318'
+			{ _id: 'n317'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -3349,7 +3349,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n319'
+			{ _id: 'n318'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, str: 38}
@@ -3359,7 +3359,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n320'
+			{ _id: 'n319'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, spirit: 38}
@@ -3369,7 +3369,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n321'
+			{ _id: 'n320'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -3379,7 +3379,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n322'
+			{ _id: 'n321'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3389,7 +3389,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n323'
+			{ _id: 'n322'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3399,7 +3399,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n324'
+			{ _id: 'n323'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3409,7 +3409,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n325'
+			{ _id: 'n324'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, luck: 38}
@@ -3419,7 +3419,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n326'
+			{ _id: 'n325'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -3429,7 +3429,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n311'
+			{ _id: 'n326'
 			, open: false, hover: false, want: false
 			, _title: 'Стойкость Бога'
 			, _description:
@@ -3443,7 +3443,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n328'
+			{ _id: 'n327'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -3453,7 +3453,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n329'
+			{ _id: 'n328'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -3463,7 +3463,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n330'
+			{ _id: 'n329'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3473,7 +3473,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n331'
+			{ _id: 'n330'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, spirit: 56}
@@ -3483,7 +3483,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n332'
+			{ _id: 'n331'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3493,7 +3493,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n333'
+			{ _id: 'n332'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3503,7 +3503,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n334'
+			{ _id: 'n333'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3513,7 +3513,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n335'
+			{ _id: 'n334'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3523,7 +3523,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n336'
+			{ _id: 'n335'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -3533,7 +3533,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n337'
+			{ _id: 'n336'
 			, open: false, hover: false, want: false
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -3543,7 +3543,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n338'
+			{ _id: 'n337'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3553,7 +3553,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n339'
+			{ _id: 'n338'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, valor: 38}
@@ -3563,7 +3563,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n340'
+			{ _id: 'n339'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -3573,7 +3573,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n341'
+			{ _id: 'n340'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, luck: 38}
@@ -3583,7 +3583,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n342'
+			{ _id: 'n341'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3593,7 +3593,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n343'
+			{ _id: 'n342'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -3603,7 +3603,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n327'
+			{ _id: 'n343'
 			, open: false, hover: false, want: false
 			, _title: 'Право Бога'
 			, _description:
@@ -3945,7 +3945,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n375'
+			{ _id: 'n376'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3955,7 +3955,7 @@ var godNodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n376'
+			{ _id: 'n375'
 			, open: false, hover: false, want: false
 			, _title: 'Тайные исследования'
 			, _description:
@@ -3972,98 +3972,98 @@ var godNodesData =
 	];
 
 var godEdgesData =
-	[ {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n12'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n12', _target: 'n10'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n10', _target: 'n7'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n7', _target: 'n15'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n7', _target: 'n2'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n2', _target: 'n1'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n1', _target: 'n3'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n3', _target: 'n8'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n8', _target: 'n16'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n1', _target: 'n4'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n4', _target: 'n5'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n5', _target: 'n6'}}
+	[ {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n11'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n11', _target: 'n9'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n9', _target: 'n6'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n6', _target: 'n14'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n6', _target: 'n1'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n1', _target: 'n16'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n16', _target: 'n2'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n2', _target: 'n7'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n7', _target: 'n15'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n16', _target: 'n3'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n3', _target: 'n4'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n4', _target: 'n5'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n5', _target: 'n13'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n4', _target: 'n9'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n9', _target: 'n11'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n11', _target: 'n27'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n27', _target: 'n25'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n25', _target: 'n30'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n25', _target: 'n20'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n20', _target: 'n17'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n17', _target: 'n19'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n19', _target: 'n32'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n32', _target: 'n29'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n29', _target: 'n24'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n17', _target: 'n21'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n21', _target: 'n23'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n23', _target: 'n31'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n31', _target: 'n33'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n17', _target: 'n18'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n18', _target: 'n28'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n28', _target: 'n22'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n22', _target: 'n26'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n28', _target: 'n49'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n49', _target: 'n40'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n40', _target: 'n35'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n35', _target: 'n39'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n39', _target: 'n44'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n44', _target: 'n47'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n47', _target: 'n45'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n39', _target: 'n48'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n48', _target: 'n38'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n38', _target: 'n42'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n35', _target: 'n34'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n34', _target: 'n36'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n36', _target: 'n46'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n46', _target: 'n37'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n46', _target: 'n43'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n43', _target: 'n41'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n33', _target: 'n63'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n55', _target: 'n63'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n55', _target: 'n59'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n59', _target: 'n61'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n55', _target: 'n51'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n51', _target: 'n50'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n50', _target: 'n52'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n52', _target: 'n56'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n56', _target: 'n64'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n52', _target: 'n57'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n57', _target: 'n65'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n57', _target: 'n58'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n58', _target: 'n54'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n54', _target: 'n53'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n4', _target: 'n12'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n3', _target: 'n8'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n8', _target: 'n10'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n10', _target: 'n26'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n26', _target: 'n24'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n24', _target: 'n29'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n24', _target: 'n19'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n19', _target: 'n33'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n33', _target: 'n18'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n18', _target: 'n31'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n31', _target: 'n28'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n28', _target: 'n23'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n33', _target: 'n20'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n20', _target: 'n22'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n22', _target: 'n30'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n30', _target: 'n32'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n33', _target: 'n17'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n17', _target: 'n27'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n27', _target: 'n21'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n21', _target: 'n25'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n27', _target: 'n48'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n48', _target: 'n39'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n39', _target: 'n34'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n34', _target: 'n38'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n38', _target: 'n43'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n43', _target: 'n46'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n46', _target: 'n44'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n38', _target: 'n47'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n47', _target: 'n37'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n37', _target: 'n41'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n34', _target: 'n49'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n49', _target: 'n35'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n35', _target: 'n45'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n45', _target: 'n36'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n45', _target: 'n42'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n42', _target: 'n40'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n32', _target: 'n62'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n54', _target: 'n62'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n54', _target: 'n58'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n58', _target: 'n60'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n43', _target: 'n70'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n54', _target: 'n50'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n50', _target: 'n65'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n65', _target: 'n51'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n51', _target: 'n55'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n55', _target: 'n63'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n51', _target: 'n56'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n56', _target: 'n64'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n56', _target: 'n57'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n57', _target: 'n53'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n53', _target: 'n52'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n53', _target: 'n61'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n57', _target: 'n59'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n42', _target: 'n70'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n70', _target: 'n75'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n70', _target: 'n67'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n67', _target: 'n445'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n445', _target: 'n72'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n70', _target: 'n66'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n66', _target: 'n67'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n67', _target: 'n72'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n71', _target: 'n72'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n71', _target: 'n76'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n76', _target: 'n79'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n71', _target: 'n62'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n67', _target: 'n66'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n66', _target: 'n68'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n71', _target: 'n61'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n66', _target: 'n80'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n80', _target: 'n68'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n68', _target: 'n77'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n68', _target: 'n69'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n69', _target: 'n73'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n73', _target: 'n78'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n78', _target: 'n74'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n78', _target: 'n80'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n15', _target: 'n94'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n78', _target: 'n81'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n14', _target: 'n94'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n94', _target: 'n86'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n81', _target: 'n83'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n97', _target: 'n83'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n83', _target: 'n84'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n84', _target: 'n86'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n83', _target: 'n89'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n89', _target: 'n85'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n85', _target: 'n93'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n89', _target: 'n91'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n81', _target: 'n82'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n97', _target: 'n82'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n82', _target: 'n90'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n90', _target: 'n92'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n90', _target: 'n87'}}
@@ -4085,18 +4085,18 @@ var godEdgesData =
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n103', _target: 'n98'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n98', _target: 'n99'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n99', _target: 'n100'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n100', _target: 'n97'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n100', _target: 'n113'}}
 	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n112', _target: 'n125'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n125', _target: 'n117'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n117', _target: 'n116'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n116', _target: 'n113'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n113', _target: 'n115'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n116', _target: 'n129'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n129', _target: 'n115'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n119', _target: 'n120'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n120', _target: 'n121'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n121', _target: 'n123'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n120', _target: 'n128'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n119', _target: 'n127'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n113', _target: 'n114'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n129', _target: 'n114'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n126', _target: 'n118'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n118', _target: 'n122'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n122', _target: 'n114'}}
@@ -4110,216 +4110,216 @@ var godEdgesData =
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n134', _target: 'n138'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n138', _target: 'n140'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n134', _target: 'n130'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n130', _target: 'n129'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n129', _target: 'n131'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n130', _target: 'n145'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n145', _target: 'n131'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n131', _target: 'n137'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n137', _target: 'n139'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n131', _target: 'n135'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n135', _target: 'n143'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n135', _target: 'n136'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n136', _target: 'n144'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n143', _target: 'n145'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n13', _target: 'n161'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n161', _target: 'n151'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n151', _target: 'n153'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n153', _target: 'n156'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n156', _target: 'n146'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n146', _target: 'n150'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n150', _target: 'n163'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n163', _target: 'n161'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n163', _target: 'n160'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n160', _target: 'n155'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n155', _target: 'n157'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n157', _target: 'n154'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n146', _target: 'n149'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n143', _target: 'n146'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n12', _target: 'n160'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n160', _target: 'n150'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n150', _target: 'n152'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n152', _target: 'n155'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n155', _target: 'n163'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n163', _target: 'n149'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n149', _target: 'n162'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n162', _target: 'n147'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n147', _target: 'n158'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n158', _target: 'n152'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n162', _target: 'n160'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n162', _target: 'n159'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n159', _target: 'n176'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n176', _target: 'n179'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n179', _target: 'n177'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n177', _target: 'n169'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n177', _target: 'n166'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n166', _target: 'n164'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n164', _target: 'n165'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n165', _target: 'n173'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n173', _target: 'n171'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n173', _target: 'n170'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n170', _target: 'n175'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n164', _target: 'n167'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n167', _target: 'n174'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n174', _target: 'n168'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n168', _target: 'n172'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n174', _target: 'n178'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n187', _target: 'n174'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n187', _target: 'n189'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n186', _target: 'n187'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n186', _target: 'n191'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n191', _target: 'n194'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n194', _target: 'n190'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n186', _target: 'n181'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n181', _target: 'n182'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n181', _target: 'n180'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n180', _target: 'n183'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n183', _target: 'n192'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n183', _target: 'n184'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n184', _target: 'n188'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n188', _target: 'n193'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n184', _target: 'n185'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n185', _target: 'n208'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n208', _target: 'n211'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n211', _target: 'n199'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n199', _target: 'n209'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n209', _target: 'n201'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n201', _target: 'n204'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n204', _target: 'n200'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n199', _target: 'n195'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n195', _target: 'n205'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n205', _target: 'n203'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n203', _target: 'n198'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n195', _target: 'n196'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n196', _target: 'n206'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n206', _target: 'n210'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n210', _target: 'n207'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n207', _target: 'n202'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n159', _target: 'n154'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n154', _target: 'n156'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n156', _target: 'n153'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n163', _target: 'n148'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n148', _target: 'n161'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n161', _target: 'n147'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n147', _target: 'n157'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n157', _target: 'n151'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n161', _target: 'n158'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n158', _target: 'n175'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n175', _target: 'n178'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n178', _target: 'n176'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n176', _target: 'n168'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n176', _target: 'n165'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n165', _target: 'n179'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n179', _target: 'n164'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n164', _target: 'n172'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n172', _target: 'n170'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n172', _target: 'n169'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n169', _target: 'n174'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n179', _target: 'n166'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n166', _target: 'n173'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n173', _target: 'n167'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n167', _target: 'n171'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n173', _target: 'n177'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n186', _target: 'n173'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n186', _target: 'n188'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n185', _target: 'n186'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n185', _target: 'n190'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n190', _target: 'n193'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n193', _target: 'n189'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n185', _target: 'n180'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n180', _target: 'n181'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n180', _target: 'n194'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n194', _target: 'n182'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n182', _target: 'n191'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n182', _target: 'n183'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n183', _target: 'n187'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n187', _target: 'n192'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n183', _target: 'n184'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n184', _target: 'n207'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n207', _target: 'n210'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n210', _target: 'n198'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n198', _target: 'n208'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n208', _target: 'n200'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n200', _target: 'n203'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n203', _target: 'n199'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n198', _target: 'n211'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n211', _target: 'n204'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n204', _target: 'n202'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n202', _target: 'n197'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n207', _target: 'n212'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n225'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n225', _target: 'n217'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n217', _target: 'n218'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n226'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n216'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n216', _target: 'n213'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n213', _target: 'n215'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n222', _target: 'n219'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n219', _target: 'n220'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n219', _target: 'n214'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n222', _target: 'n224'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n219', _target: 'n227'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n220', _target: 'n228'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n220', _target: 'n221'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n211', _target: 'n195'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n195', _target: 'n205'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n205', _target: 'n209'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n209', _target: 'n206'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n206', _target: 'n201'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n201', _target: 'n196'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n206', _target: 'n212'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n224'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n224', _target: 'n216'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n216', _target: 'n217'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n217', _target: 'n225'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n217', _target: 'n215'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n215', _target: 'n228'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n228', _target: 'n214'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n221', _target: 'n218'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n219'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n213'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n221', _target: 'n223'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n219', _target: 'n215'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n227', _target: 'n234'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n234', _target: 'n230'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n230', _target: 'n235'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n235', _target: 'n240'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n240', _target: 'n242'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n242', _target: 'n239'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n230', _target: 'n229'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n229', _target: 'n232'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n232', _target: 'n241'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n241', _target: 'n237'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n237', _target: 'n233'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n233', _target: 'n243'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n241', _target: 'n231'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n226'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n219', _target: 'n227'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n219', _target: 'n220'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n220', _target: 'n222'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n214'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n226', _target: 'n233'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n233', _target: 'n229'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n229', _target: 'n234'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n234', _target: 'n239'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n239', _target: 'n241'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n241', _target: 'n238'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n238', _target: 'n236'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n236', _target: 'n244'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n244', _target: 'n258'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n253', _target: 'n249'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n249', _target: 'n250'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n254', _target: 'n251'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n251', _target: 'n252'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n253', _target: 'n255'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n229', _target: 'n244'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n244', _target: 'n231'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n231', _target: 'n240'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n240', _target: 'n236'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n236', _target: 'n232'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n232', _target: 'n242'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n240', _target: 'n230'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n240', _target: 'n237'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n237', _target: 'n235'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n235', _target: 'n243'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n243', _target: 'n257'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n252', _target: 'n248'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n248', _target: 'n249'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n253', _target: 'n250'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n250', _target: 'n251'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n252', _target: 'n254'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n248', _target: 'n256'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n249', _target: 'n257'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n253', _target: 'n255'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n250', _target: 'n258'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n254', _target: 'n256'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n251', _target: 'n259'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n252', _target: 'n260'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n252', _target: 'n247'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n249', _target: 'n248'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n248', _target: 'n245'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n245', _target: 'n246'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n251', _target: 'n246'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n259', _target: 'n261'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n275'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n275', _target: 'n264'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n275', _target: 'n277'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n275', _target: 'n267'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n264', _target: 'n265'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n265', _target: 'n272'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n272', _target: 'n276'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n272', _target: 'n266'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n266', _target: 'n270'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n264', _target: 'n262'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n262', _target: 'n263'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n263', _target: 'n271'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n271', _target: 'n269'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n269', _target: 'n274'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n271', _target: 'n268'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n248', _target: 'n247'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n247', _target: 'n260'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n260', _target: 'n245'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n250', _target: 'n245'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n258', _target: 'n261'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n274'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n274', _target: 'n263'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n274', _target: 'n276'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n274', _target: 'n266'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n263', _target: 'n264'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n264', _target: 'n271'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n271', _target: 'n275'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n271', _target: 'n265'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n265', _target: 'n269'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n263', _target: 'n277'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n277', _target: 'n262'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n262', _target: 'n270'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n270', _target: 'n268'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n268', _target: 'n273'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n273', _target: 'n292'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n283', _target: 'n287'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n287', _target: 'n284'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n279', _target: 'n280'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n283', _target: 'n291'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n287', _target: 'n289'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n284', _target: 'n292'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n284', _target: 'n279'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n279', _target: 'n278'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n280', _target: 'n285'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n285', _target: 'n293'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n278', _target: 'n281'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n281', _target: 'n286'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n286', _target: 'n288'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n281', _target: 'n282'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n270', _target: 'n267'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n267', _target: 'n272'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n272', _target: 'n291'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n282', _target: 'n286'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n286', _target: 'n283'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n278', _target: 'n279'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n282', _target: 'n290'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n290', _target: 'n309'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n309', _target: 'n301'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n301', _target: 'n303'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n309', _target: 'n300'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n300', _target: 'n305'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n305', _target: 'n307'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n307', _target: 'n304'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n300', _target: 'n295'}}
-	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n295', _target: 'n296'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n296', _target: 'n294'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n294', _target: 'n297'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n297', _target: 'n299'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n297', _target: 'n306'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n306', _target: 'n302'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n302', _target: 'n298'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n298', _target: 'n308'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n308', _target: 'n310'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n274', _target: 'n315'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n226', _target: 'n318'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n318', _target: 'n323'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n323', _target: 'n320'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n323', _target: 'n319'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n319', _target: 'n315'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n315', _target: 'n325'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n315', _target: 'n314'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n314', _target: 'n311'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n311', _target: 'n312'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n312', _target: 'n317'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n317', _target: 'n313'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n317', _target: 'n326'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n286', _target: 'n288'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n283', _target: 'n291'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n283', _target: 'n278'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n278', _target: 'n293'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n279', _target: 'n284'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n284', _target: 'n292'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n293', _target: 'n280'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n280', _target: 'n285'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n285', _target: 'n287'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n280', _target: 'n281'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n281', _target: 'n289'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n289', _target: 'n308'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n308', _target: 'n300'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n300', _target: 'n302'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n308', _target: 'n299'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n299', _target: 'n304'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n304', _target: 'n306'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n306', _target: 'n303'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n299', _target: 'n294'}}
+	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n294', _target: 'n295'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n295', _target: 'n309'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n309', _target: 'n296'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n296', _target: 'n298'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n296', _target: 'n305'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n305', _target: 'n301'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n301', _target: 'n297'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n297', _target: 'n307'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n307', _target: 'n310'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n273', _target: 'n314'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n225', _target: 'n317'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n317', _target: 'n322'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n322', _target: 'n324'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n324', _target: 'n321'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n321', _target: 'n316'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n324', _target: 'n336'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n336', _target: 'n332'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n332', _target: 'n328'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n328', _target: 'n338'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n338', _target: 'n342'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n322', _target: 'n319'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n322', _target: 'n318'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n318', _target: 'n314'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n314', _target: 'n324'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n314', _target: 'n313'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n313', _target: 'n326'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n326', _target: 'n311'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n311', _target: 'n316'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n316', _target: 'n312'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n316', _target: 'n325'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n316', _target: 'n321'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n321', _target: 'n323'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n323', _target: 'n320'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n320', _target: 'n315'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n323', _target: 'n335'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n335', _target: 'n331'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n331', _target: 'n327'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n327', _target: 'n337'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n337', _target: 'n341'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n341', _target: 'n338'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n338', _target: 'n333'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n333', _target: 'n328'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n327', _target: 'n343'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n343', _target: 'n329'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n329', _target: 'n342'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n342', _target: 'n330'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n330', _target: 'n332'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n332', _target: 'n340'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n342', _target: 'n339'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n339', _target: 'n334'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n334', _target: 'n329'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n328', _target: 'n327'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n327', _target: 'n330'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n330', _target: 'n343'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n343', _target: 'n331'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n331', _target: 'n333'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n333', _target: 'n341'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n343', _target: 'n340'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n340', _target: 'n335'}}
-	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n335', _target: 'n337'}}
-	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n337', _target: 'n344'}}
-	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n193', target: 'n353'}}
+	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n334', _target: 'n336'}}
+	, {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n336', _target: 'n344'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n192', target: 'n353'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n353', target: 'n351'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n351', target: 'n356'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n356', target: 'n359'}}
@@ -4339,8 +4339,8 @@ var godEdgesData =
 	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n123', target: 'n369'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n369', target: 'n367'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n367', target: 'n372'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n372', target: 'n375'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n375', target: 'n373'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n372', target: 'n376'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n376', target: 'n373'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n373', target: 'n365'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n365', target: 'n368'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n368', target: 'n364'}}
@@ -4352,13 +4352,14 @@ var godEdgesData =
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n361', target: 'n362'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n363', target: 'n361'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n370', target: 'n363'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n363', target: 'n376'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n376', target: 'n362'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n363', target: 'n375'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n375', target: 'n362'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n362', target: 'n373'}}
 	];
 
 var godAtlas =
-	{ nodes: godNodesData
+	{ name: 'god'
+	, nodes: godNodesData
 	, edges: godEdgesData
 	, mX: 0, mY: 0
 	, scale: 1
