@@ -524,8 +524,8 @@ $(function() {
 							if (!openPath[i].isNode()) {
 								continue;
 							}
-							isFound = node.data.want;
 							nodeData = openPath[i].data();
+							isFound = nodeData.want;
 							for (var spark in nodeData.need) {
 								graphSpark[spark].$set(0, graphSpark[spark][0] + nodeData.need[spark]);
 								if (isFound) {
