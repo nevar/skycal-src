@@ -25839,7 +25839,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2506'
+			{ _id: 'n2507'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -25849,7 +25849,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2507'
+			{ _id: 'n2508'
 			, open: false, hover: false, want: false
 			, _need: {blue: 490}
 			, _give: {prestige: 38, valor: 38}
@@ -25859,7 +25859,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2508'
+			{ _id: 'n2509'
 			, open: false, hover: false, want: false
 			, _need: {blue: 810}
 			, _give: {prestige: 75, spirit: 75}
@@ -25869,7 +25869,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2509'
+			{ _id: 'n2510'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -25879,7 +25879,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2510'
+			{ _id: 'n2511'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -25889,7 +25889,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2511'
+			{ _id: 'n2512'
 			, open: false, hover: false, want: false
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
@@ -25899,7 +25899,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2512'
+			{ _id: 'n2513'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -25909,7 +25909,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2513'
+			{ _id: 'n2514'
 			, open: false, hover: false, want: false
 			, _need: {blue: 650}
 			, _give: {prestige: 56, luck: 56}
@@ -25919,7 +25919,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2514'
+			{ _id: 'n2515'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -25929,7 +25929,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2515'
+			{ _id: 'n2516'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -25939,7 +25939,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2516'
+			{ _id: 'n2517'
 			, open: false, hover: false, want: false
 			, _need: {green: 490}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -25949,7 +25949,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2517'
+			{ _id: 'n2518'
 			, open: false, hover: false, want: false
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
@@ -25959,7 +25959,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2518'
+			{ _id: 'n2519'
 			, open: false, hover: false, want: false
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -25969,7 +25969,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2519'
+			{ _id: 'n2520'
 			, open: false, hover: false, want: false
 			, _need: {red: 490}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -25979,7 +25979,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2520'
+			{ _id: 'n2521'
 			, open: false, hover: false, want: false
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
@@ -25989,7 +25989,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2521'
+			{ _id: 'n2522'
 			, open: false, hover: false, want: false
 			, _title: 'Вершина созидания'
 			, _description: 'Может быть усилена с помощью эфирных ядер.'
@@ -26002,7 +26002,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2522'
+			{ _id: 'n2523'
 			, open: false, hover: false, want: false
 			, _need: {green: 775}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -26012,7 +26012,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2523'
+			{ _id: 'n2524'
 			, open: false, hover: false, want: false
 			, _need: {red: 775}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -26022,7 +26022,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2524'
+			{ _id: 'n2525'
 			, open: false, hover: false, want: false
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
@@ -26032,7 +26032,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2525'
+			{ _id: 'n2526'
 			, open: false, hover: false, want: false
 			, _need: {red: 585}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -26042,7 +26042,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2526'
+			{ _id: 'n2527'
 			, open: false, hover: false, want: false
 			, _need: {blue: 775}
 			, _give: {prestige: 56, spirit: 56}
@@ -26052,7 +26052,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2527'
+			{ _id: 'n2528'
 			, open: false, hover: false, want: false
 			, _need: {red: 965}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -26062,7 +26062,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2528'
+			{ _id: 'n2529'
 			, open: false, hover: false, want: false
 			, _need: {green: 775}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -26072,7 +26072,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2529'
+			{ _id: 'n2530'
 			, open: false, hover: false, want: false
 			, _need: {green: 775}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -26082,7 +26082,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2530'
+			{ _id: 'n2531'
 			, open: false, hover: false, want: false
 			, _need: {red: 965}
 			, _give: {prestige: 53, power: 53, dex: 30}
@@ -26092,7 +26092,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2531'
+			{ _id: 'n2532'
 			, open: false, hover: false, want: false
 			, _need: {red: 775}
 			, _give: {prestige: 40, power: 40, dex: 24}
@@ -26102,7 +26102,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2532'
+			{ _id: 'n2533'
 			, open: false, hover: false, want: false
 			, _need: {blue: 965}
 			, _give: {prestige: 75, spirit: 75}
@@ -26112,7 +26112,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2533'
+			{ _id: 'n2534'
 			, open: false, hover: false, want: false
 			, _need: {revelation: 300}
 			, _give: {prestige: 80, power: 80}
@@ -26122,7 +26122,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2534'
+			{ _id: 'n2535'
 			, open: false, hover: false, want: false
 			, _need: {green: 775}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -26132,7 +26132,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2535'
+			{ _id: 'n2536'
 			, open: false, hover: false, want: false
 			, _need: {red: 585}
 			, _give: {prestige: 27, power: 27, dex: 18}
@@ -26142,7 +26142,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2536'
+			{ _id: 'n2537'
 			, open: false, hover: false, want: false
 			, _need: {green: 585}
 			, _give: {prestige: 50, vit: 50, dex: 18}
@@ -26152,13 +26152,989 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n2537'
+			{ _id: 'n2538'
 			, open: false, hover: false, want: false
 			, _nodeImage: 'empty'
 			, _need: {}
 			, _give: {}
 			}
 		, _position: {x: 4420, y: 2200}
+		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n2539'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 4785, y: 1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2540'
+			, open: false, hover: false, want: false
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: 4785, y: 1800}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2541'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 4975, y: 1800}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2542'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 4975, y: 1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2543'
+			, open: false, hover: false, want: false
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: 4819, y: 1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2544'
+			, open: false, hover: false, want: false
+			, _need: {red: 490}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 4941, y: 1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2545'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 4819, y: 1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2546'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 4941, y: 1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2547'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, spirit: 56}
+			}
+		, _position: {x: 4880, y: 1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2548'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: 4880, y: 1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2549'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: 4747, y: 1656}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2550'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 4747, y: 1824}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2551'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, str: 56}
+			}
+		, _position: {x: 5013, y: 1824}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2552'
+			, open: false, hover: false, want: false
+			, _need: {blue: 810}
+			, _give: {prestige: 75, valor: 75}
+			}
+		, _position: {x: 5013, y: 1656}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2553'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 80, power: 80}
+			}
+		, _position: {x: 4745, y: 1740}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2554'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 5015, y: 1740}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2555'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: 4880, y: 1740}
+		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n2556'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: 4880,  y: 2260}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2557'
+			, open: false, hover: false, want: false
+			, _need: {red: 775}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 4932, y: 2170}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2558'
+			, open: false, hover: false, want: false
+			, _need: {blue: 585}
+			, _give: {prestige: 38, luck: 38}
+			}
+		, _position: {x: 4828, y: 2170}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2559'
+			, open: false, hover: false, want: false
+			, _need: {green: 965}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 4785, y: 2140}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2560'
+			, open: false, hover: false, want: false
+			, _need: {green: 775}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 4785, y: 2260}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2561'
+			, open: false, hover: false, want: false
+			, _need: {red: 585}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 4975, y: 2260}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2562'
+			, open: false, hover: false, want: false
+			, _need: {red: 775}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 4975, y: 2140}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2563'
+			, open: false, hover: false, want: false
+			, _need: {red: 585}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 4819, y: 2090}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2564'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: 4941, y: 2090}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2565'
+			, open: false, hover: false, want: false
+			, _need: {green: 965}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 4819, y: 2310}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2566'
+			, open: false, hover: false, want: false
+			, _need: {red: 775}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 4941, y: 2310}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2567'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 120, vit: 120}
+			}
+		, _position: {x: 4880, y: 2090}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2568'
+			, open: false, hover: false, want: false
+			, _need: {blue: 585}
+			, _give: {prestige: 38, valor: 38}
+			}
+		, _position: {x: 4880, y: 2310}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2569'
+			, open: false, hover: false, want: false
+			, _need: {blue: 965}
+			, _give: {prestige: 75, str: 75}
+			}
+		, _position: {x: 4745, y: 2200}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2570'
+			, open: false, hover: false, want: false
+			, _need: {green: 775}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 5015, y: 2200}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2571'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: 4880, y: 2200}
+		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n2572'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: 4420,  y: 1330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2573'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 4472, y: 1240}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2574'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 4368, y: 1240}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2575'
+			, open: false, hover: false, want: false
+			, _need: {red: 490}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 4325, y: 1210}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2576'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, str: 56}
+			}
+		, _position: {x: 4325, y: 1330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2577'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, valor: 38}
+			}
+		, _position: {x: 4515, y: 1330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2578'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 4515, y: 1210}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2579'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, valor: 56}
+			}
+		, _position: {x: 4420, y: 1160}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2580'
+			, open: false, hover: false, want: false
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: 4420, y: 1380}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2581'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 4420, y: 1113}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2582'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 80, power: 80}
+			}
+		, _position: {x: 4420, y: 1427}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2583'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: 4287, y: 1186}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2584'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: 4287, y: 1354}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2585'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 4553, y: 1354}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2586'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 4553, y: 1186}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2587'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: 4420, y: 1270}
+		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n2588'
+			, open: false, hover: false, want: false
+			, _need: {red: 490}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 4785, y: 1210}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2589'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 4785, y: 1330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2590'
+			, open: false, hover: false, want: false
+			, _need: {blue: 490}
+			, _give: {prestige: 38, str: 38}
+			}
+		, _position: {x: 4975, y: 1330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2591'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 4975, y: 1210}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2592'
+			, open: false, hover: false, want: false
+			, _need: {red: 810}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: 4819, y: 1160}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2593'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, spirit: 56}
+			}
+		, _position: {x: 4941, y: 1160}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2594'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, luck: 56}
+			}
+		, _position: {x: 4819, y: 1380}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2595'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 4941, y: 1380}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2596'
+			, open: false, hover: false, want: false
+			, _need: {green: 810}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 4880, y: 1160}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2597'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 4880, y: 1380}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2598'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 4747, y: 1186}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2599'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: 4747, y: 1354}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2600'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: 5013, y: 1354}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2601'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 5013, y: 1186}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2602'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 120, vit: 120}
+			}
+		, _position: {x: 4745, y: 1270}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2603'
+			, open: false, hover: false, want: false
+			, _need: {red: 490}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 5015, y: 1270}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2604'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: 4880, y: 1270}
+		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n2605'
+			, open: false, hover: false, want: false
+			, _need: {red: 585}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 5340,  y: 1330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2606'
+			, open: false, hover: false, want: false
+			, _need: {green: 965}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 5392, y: 1240}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2607'
+			, open: false, hover: false, want: false
+			, _need: {green: 585}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: 5288, y: 1240}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2608'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 80, power: 80}
+			}
+		, _position: {x: 5245, y: 1210}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2609'
+			, open: false, hover: false, want: false
+			, _need: {green: 965}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 5245, y: 1330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2610'
+			, open: false, hover: false, want: false
+			, _need: {red: 585}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 5435, y: 1330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2611'
+			, open: false, hover: false, want: false
+			, _need: {red: 965}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: 5435, y: 1210}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2612'
+			, open: false, hover: false, want: false
+			, _need: {green: 775}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 5279, y: 1160}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2613'
+			, open: false, hover: false, want: false
+			, _need: {blue: 775}
+			, _give: {prestige: 56, spirit: 56}
+			}
+		, _position: {x: 5401, y: 1160}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2614'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: 5279, y: 1380}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2615'
+			, open: false, hover: false, want: false
+			, _need: {green: 775}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 5401, y: 1380}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2616'
+			, open: false, hover: false, want: false
+			, _need: {blue: 775}
+			, _give: {prestige: 56, str: 56}
+			}
+		, _position: {x: 5340, y: 1160}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2617'
+			, open: false, hover: false, want: false
+			, _need: {red: 775}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 5340, y: 1113}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2618'
+			, open: false, hover: false, want: false
+			, _need: {blue: 775}
+			, _give: {prestige: 56, str: 56}
+			}
+		, _position: {x: 5340, y: 1427}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2619'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: 5340, y: 1270}
+		, _classes: 'empty'
+		}
+	,
+		{ data:
+			{ _id: 'n2620'
+			, open: false, hover: false, want: false
+			, _need: {red: 585}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 5340,  y: 1800}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2621'
+			, open: false, hover: false, want: false
+			, _need: {green: 775}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 5392, y: 1710}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2622'
+			, open: false, hover: false, want: false
+			, _need: {blue: 775}
+			, _give: {prestige: 56, str: 56}
+			}
+		, _position: {x: 5288, y: 1710}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2623'
+			, open: false, hover: false, want: false
+			, _need: {red: 585}
+			, _give: {prestige: 27, power: 27, dex: 18}
+			}
+		, _position: {x: 5245, y: 1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2624'
+			, open: false, hover: false, want: false
+			, _need: {red: 965}
+			, _give: {prestige: 53, power: 53, dex: 30}
+			}
+		, _position: {x: 5245, y: 1800}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2625'
+			, open: false, hover: false, want: false
+			, _need: {red: 775}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 5435, y: 1800}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2626'
+			, open: false, hover: false, want: false
+			, _need: {blue: 585}
+			, _give: {prestige: 38, spirit: 38}
+			}
+		, _position: {x: 5435, y: 1680}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2627'
+			, open: false, hover: false, want: false
+			, _need: {blue: 775}
+			, _give: {prestige: 56, spirit: 56}
+			}
+		, _position: {x: 5279, y: 1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2628'
+			, open: false, hover: false, want: false
+			, _need: {revelation: 300}
+			, _give: {prestige: 120, power: 120}
+			}
+		, _position: {x: 5401, y: 1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2629'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: 5279, y: 1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2630'
+			, open: false, hover: false, want: false
+			, _need: {blue: 575}
+			, _give: {prestige: 30, majesty: 250}
+			}
+		, _position: {x: 5401, y: 1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2631'
+			, open: false, hover: false, want: false
+			, _need: {red: 775}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 5340, y: 1630}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2632'
+			, open: false, hover: false, want: false
+			, _need: {green: 585}
+			, _give: {prestige: 50, vit: 50, dex: 18}
+			}
+		, _position: {x: 5340, y: 1850}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2633'
+			, open: false, hover: false, want: false
+			, _need: {green: 965}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 5205, y: 1740}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2634'
+			, open: false, hover: false, want: false
+			, _need: {green: 965}
+			, _give: {prestige: 100, vit: 100, dex: 30}
+			}
+		, _position: {x: 5475, y: 1740}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2635'
+			, open: false, hover: false, want: false
+			, _nodeImage: 'empty'
+			, _need: {}
+			, _give: {}
+			}
+		, _position: {x: 5340, y: 1740}
 		, _classes: 'empty'
 		}
 	];
@@ -28719,37 +29695,128 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2496', target: 'n2491'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2496', target: 'n2501'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2501', target: 'n2503'}}
-	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2481', target: 'n2519'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2519', target: 'n2516'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2516', target: 'n2511'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2519', target: 'n2515'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2515', target: 'n2509'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2509', target: 'n2513'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2515', target: 'n2508'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2508', target: 'n2521'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2521', target: 'n2507'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2507', target: 'n2518'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2518', target: 'n2510'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2518', target: 'n2520'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2521', target: 'n2506'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2506', target: 'n2514'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2514', target: 'n2512'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2512', target: 'n2517'}}
-	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2514', target: 'n2533'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2533', target: 'n2524'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2533', target: 'n2529'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2529', target: 'n2525'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2525', target: 'n2535'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2535', target: 'n2526'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2526', target: 'n2531'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2531', target: 'n2534'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2534', target: 'n2532'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2526', target: 'n2522'}}
-	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2522', target: 'n2523'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2523', target: 'n2528'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2528', target: 'n2530'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2528', target: 'n2536'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2481', target: 'n2520'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2520', target: 'n2517'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2517', target: 'n2512'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2520', target: 'n2516'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2516', target: 'n2510'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2510', target: 'n2514'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2516', target: 'n2509'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2509', target: 'n2522'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2522', target: 'n2508'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2508', target: 'n2519'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2519', target: 'n2511'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2519', target: 'n2521'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2522', target: 'n2507'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2507', target: 'n2515'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2515', target: 'n2513'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2513', target: 'n2518'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2515', target: 'n2534'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2534', target: 'n2525'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2534', target: 'n2530'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2530', target: 'n2526'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2526', target: 'n2536'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2536', target: 'n2527'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2527', target: 'n2532'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2532', target: 'n2535'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2535', target: 'n2533'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2527', target: 'n2523'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2523', target: 'n2524'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2524', target: 'n2529'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2529', target: 'n2531'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2529', target: 'n2537'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2537', target: 'n2528'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2521', target: 'n2553'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2553', target: 'n2539'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2539', target: 'n2549'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2549', target: 'n2543'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2543', target: 'n2547'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2553', target: 'n2540'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2540', target: 'n2550'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2550', target: 'n2545'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2545', target: 'n2548'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2548', target: 'n2546'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2546', target: 'n2551'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2551', target: 'n2541'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2541', target: 'n2554'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2554', target: 'n2542'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2542', target: 'n2544'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2544', target: 'n2552'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2548', target: 'n2567'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2567', target: 'n2563'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2563', target: 'n2559'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2559', target: 'n2569'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2567', target: 'n2557'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2557', target: 'n2561'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2561', target: 'n2570'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2570', target: 'n2562'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2562', target: 'n2564'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2561', target: 'n2556'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2558', target: 'n2556'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2558', target: 'n2560'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2561', target: 'n2566'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2566', target: 'n2568'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2568', target: 'n2565'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2514', target: 'n2582'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2582', target: 'n2580'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2580', target: 'n2572'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2572', target: 'n2576'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2576', target: 'n2584'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2572', target: 'n2573'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2573', target: 'n2574'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2574', target: 'n2575'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2575', target: 'n2583'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2581', target: 'n2579'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2579', target: 'n2575'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2573', target: 'n2578'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2578', target: 'n2586'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2573', target: 'n2577'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2577', target: 'n2585'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2585', target: 'n2602'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2602', target: 'n2599'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2602', target: 'n2598'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2598', target: 'n2588'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2588', target: 'n2592'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2592', target: 'n2596'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2596', target: 'n2593'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2593', target: 'n2601'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2601', target: 'n2591'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2591', target: 'n2603'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2603', target: 'n2600'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2603', target: 'n2590'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2590', target: 'n2595'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2595', target: 'n2597'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2597', target: 'n2594'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2594', target: 'n2589'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2601', target: 'n2608'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2608', target: 'n2612'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2612', target: 'n2617'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2613', target: 'n2611'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2608', target: 'n2607'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2607', target: 'n2616'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2616', target: 'n2606'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2607', target: 'n2605'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2605', target: 'n2609'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2609', target: 'n2614'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2605', target: 'n2610'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2610', target: 'n2615'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2615', target: 'n2618'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, source: 'n2618', target: 'n2628'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2628', target: 'n2626'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2626', target: 'n2634'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2628', target: 'n2631'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2631', target: 'n2627'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2627', target: 'n2623'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2623', target: 'n2633'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2631', target: 'n2622'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2620', target: 'n2621'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2621', target: 'n2622'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2622', target: 'n2631'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2621', target: 'n2625'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2625', target: 'n2630'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2620', target: 'n2632'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2632', target: 'n2629'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2629', target: 'n2624'}}
 	];
 
 var mainAtlas =
