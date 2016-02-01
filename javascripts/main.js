@@ -687,7 +687,7 @@ $(function() {
 			, atlasScale: function(event) {
 					var mouseX = event.clientX - svg.offsetLeft;
 					var mouseY = event.clientY - svg.offsetTop;
-					var wheel = event.wheelDelta / 120;
+					var wheel = event.wheelDelta ? event.wheelDelta / 120 : event.deltaY / -3;
 					var zoom = Math.pow(1 + Math.abs(wheel) / 2 , wheel > 0 ? 1 : -1);
 					var graph = this.graphs[this.selected];
 					var newScale = graph.scale * zoom;
