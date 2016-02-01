@@ -280,8 +280,8 @@ function foundPath(cy, to, excludeNode, useNode) {
 		{ root: '#startSearch'
 		, goal: to
 		, weight: function (edge) {
-				var sourceNeed = edge.source().data('need') || {};
-				var targetNeed = edge.target().data('need') || {};
+				var sourceNeed = edge.source().data('need');
+				var targetNeed = edge.target().data('need');
 				var weight = 0;
 				for (var spark in sourceNeed) {
 					weight += sourceNeed[spark];
@@ -346,8 +346,7 @@ $(function() {
 		svg = document.getElementById('atlas'),
 		graphs =
 			[ mainAtlas, godAtlas
-			],
-		nodeSize = {big: 20, small: 12};
+			];
 
 	atlas = getUrlParameter('atlas') || '';
 	atlas = atob(atlas);
@@ -521,7 +520,7 @@ $(function() {
 						}
 						openPath = openPath.path;
 						for (var i = 0, l = openPath.length; i < l; i++) {
-							if (!openPath[i].isNode()) {
+							if (!openPath[i].isNode() || openPath[i].id() == 'startSearch') {
 								continue;
 							}
 							nodeData = openPath[i].data();
@@ -621,7 +620,6 @@ $(function() {
 		{ el: '#container'
 		, data:
 			{ selected: 0
-			, nodeSize: nodeSize
 			, statName:
 				{ prestige: 'Престиж'
 				, power: 'Могущество'
