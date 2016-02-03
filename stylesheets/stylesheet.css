@@ -113,59 +113,11 @@ table div {
 	display: inline-block;
 }
 
-#need span {
+#need img {
 	display: inline-block;
 	vertical-align: middle;
 	width: 32px;
 	height: 32px;
-}
-
-span.red {
-	background-image: url("../images/spark/red.png");
-}
-
-span.green {
-	background-image: url("../images/spark/green.png");
-}
-
-span.blue {
-	background-image: url("../images/spark/blue.png");
-}
-
-span.all {
-	background-image: url("../images/spark/all.png");
-}
-
-span.revelation {
-	background-image: url("../images/spark/revelation.png");
-}
-
-span.fitonidy {
-	background-image: url("../images/spark/fitonidy.png");
-}
-
-span.god {
-	background-image: url("../images/spark/god.png");
-}
-
-span.book {
-	background-image: url("../images/spark/book.png");
-}
-
-span.secretKnowledge {
-	background-image: url("../images/spark/secretKnowledge.png");
-}
-
-span.transformation {
-	background-image: url("../images/spark/transformation.png");
-}
-
-span.mehanoydy {
-	background-image: url("../images/spark/mehanoydy.png");
-}
-
-span.gorgonidy {
-	background-image: url("../images/spark/gorgonidy.png");
 }
 
 [v-cloak] {
