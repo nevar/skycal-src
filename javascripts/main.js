@@ -1,3 +1,4 @@
+$(function() {
 var vm,
 	nodePos = {},
 	revelationWeight = 1,
@@ -341,7 +342,32 @@ function center(graph, point) {
 	graph.mY = svg.clientHeight / 2 - point.y * graph.scale;
 }
 
-$(function() {
+function nodeImage(node) {
+	if (node.data.need.revelation) {
+		return 'url(#revelation)';
+	} else if (node.data.give.vit) {
+		return 'url(#vit)';
+	} else if (node.data.give.power) {
+		return 'url(#power)';
+	} else if (node.data.give.str) {
+		return 'url(#str)';
+	} else if (node.data.give.valor) {
+		return 'url(#valor)';
+	} else if (node.data.give.spirit) {
+		return 'url(#spirit)';
+	} else if (node.data.give.luck) {
+		return 'url(#luck)';
+	} else if (node.data.give.majesty) {
+		return 'url(#majesty)';
+	} else {
+		if (node.data.nodeImage === 'empty') {
+			return 'none';
+		}
+		return 'url(#' + node.data.nodeImage + ')';
+	}
+	return '';
+}
+
 	var atlasMove = false,
 		svg = document.getElementById('atlas'),
 		graphs =
@@ -404,10 +430,23 @@ $(function() {
 		{ props: ['stat', 'graph']
 		, template: '#stat-template'
 		, methods:
-			{ findStat: function(stat) {
-					center(this.graph, stat.node[stat.pos++].position);
-					stat.pos = stat.pos % stat.node.length;
+			{ findStat: function(stat, isOpen, isRevelation) {
+					var startPos = stat.pos,
+						pos = stat.pos;
+
+					do {
+						if (stat.node[pos].data.open === isOpen &&
+							stat.node[pos].data.need
+								.hasOwnProperty('revelation') === isRevelation)
+						{
+							center(this.graph, stat.node[pos].position);
+							stat.pos = (pos + 1) % stat.node.length;
+							return;
+						}
+						pos = (pos + 1) % stat.node.length;
+					} while (startPos !== pos);
 				}
+			, nodeImage: nodeImage
 			}
 		});
 	Vue.component('node',
@@ -444,31 +483,7 @@ $(function() {
 					}
 					return this.$parent.nodeSize.small;
 				}
-			, image: function(node) {
-					if (node.data.need.revelation) {
-						return 'url(#revelation)';
-					} else if (node.data.give.vit) {
-						return 'url(#vit)';
-					} else if (node.data.give.power) {
-						return 'url(#power)';
-					} else if (node.data.give.str) {
-						return 'url(#str)';
-					} else if (node.data.give.valor) {
-						return 'url(#valor)';
-					} else if (node.data.give.spirit) {
-						return 'url(#spirit)';
-					} else if (node.data.give.luck) {
-						return 'url(#luck)';
-					} else if (node.data.give.majesty) {
-						return 'url(#majesty)';
-					} else {
-						if (node.data.nodeImage === 'empty') {
-							return 'none';
-						}
-						return 'url(#' + node.data.nodeImage + ')';
-					}
-					return '';
-				}
+			, nodeImage: nodeImage
 			, hoverNode: function(node) {
 					var cy = this.$parent.graph.cy;
 
