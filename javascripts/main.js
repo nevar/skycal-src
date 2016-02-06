@@ -1,7 +1,7 @@
+/* jshint jquery: true */
+/* globals Vue */
 $(function() {
 var vm,
-	nodePos = {},
-	revelationWeight = 1,
 	tempPath = {found: false},
 	need =
 		{ red: 0, green: 0, blue: 0, all: 0
@@ -48,18 +48,18 @@ function calcTotal(atlases) {
 	for (var atlasID in atlases) {
 		atlas = atlases[atlasID];
 		nodesData = atlases[atlasID].nodes;
-		nodePos = {}
+		nodePos = {};
 		for (var i in nodesData) {
 			node = nodesData[i];
 			nodeData = node.data;
 			nodePos[nodeData._id] = node._position;
-			for (stat in nodeData._give) {
+			for (var stat in nodeData._give) {
 				atlas.stat[stat][1] += nodeData._give[stat];
 				if (nodeData.open) {
 					atlas.stat[stat][0] += nodeData._give[stat];
 				}
 			}
-			for (spark in nodeData._need) {
+			for (var spark in nodeData._need) {
 				atlas.sparks[spark][1] += nodeData._need[spark];
 				if (nodeData.open) {
 					atlas.sparks[spark][0] += nodeData._need[spark];
@@ -79,7 +79,7 @@ function calcTotal(atlases) {
 }
 
 function groupSkill(atlases) {
-	var atlas, nodeData, node, nodeData, group, ID, skill, stat, pos;
+	var atlas, nodesData, node, nodeData, ID, skill, stat, pos;
 
 	for (var atlasID in atlases) {
 		atlas = atlases[atlasID];
@@ -121,11 +121,7 @@ function groupSkill(atlases) {
 				}
 				if (!pos[ID]) {
 					pos[ID] = [];
-					stat[ID] =
-						{ image: ID
-						, pos: 0
-						, node: pos[ID]
-						};
+					stat[ID] = {image: ID, pos: 0, node: pos[ID]};
 				}
 				pos[ID].push(node);
 			}
@@ -136,7 +132,7 @@ function groupSkill(atlases) {
 }
 
 function initCy(atlases) {
-	var atlas, nodeData, node, nodeData, group, ID, skill, stat, pos;
+	var atlas;
 
 	for (var atlasID in atlases) {
 		atlas = atlases[atlasID];
@@ -155,29 +151,29 @@ function renderTitle(node) {
 	imageName = nodeData.nodeImage;
 	title = nodeData.title;
 	if (nodeData.give.vit) {
-		imageName = "vit";
+		imageName = 'vit';
 		title = 'Бонус: Выносливость';
 	} else if (nodeData.give.power) {
-		imageName = "power";
+		imageName = 'power';
 		title = 'Бонус: Могущество';
 	} else if (nodeData.give.spirit) {
-		imageName = "spirit";
+		imageName = 'spirit';
 		title = 'Бонус: Дух';
 	} else if (nodeData.give.str) {
-		imageName = "str";
+		imageName = 'str';
 		title = 'Бонус: Сила';
 	} else if (nodeData.give.luck) {
-		imageName = "luck";
+		imageName = 'luck';
 		title = 'Бонус: Удача';
 	} else if (nodeData.give.valor) {
-		imageName = "valor";
+		imageName = 'valor';
 		title = 'Бонус: Отвага';
 	} else if (nodeData.give.majesty) {
-		imageName = "majesty";
+		imageName = 'majesty';
 		title = 'Бонус: Величие';
 	}
 	if (nodeData.need.revelation) {
-		imageName = "revelation";
+		imageName = 'revelation';
 	}
 	if (imageName && imageName !== 'empty') {
 		return '<div class="tooltip-title">' +
@@ -196,23 +192,31 @@ function renderText(node, isNeedCost) {
 
 	if (isNeedCost && nodeData.give.prestige) {
 		text +=
-			'<div class="stat"><img width="25" src="images/prestige.png"></img> + ' +
-			give.prestige + '</div><br/>';
+			'<div class="stat">' +
+				'<img width="25" src="images/prestige.png"></img> + ' +
+				give.prestige +
+			'</div><br/>';
 	}
 	if (nodeData.description) {
 		text += '<p>' + nodeData.description + '</p>';
 	}
 	if (give.vit) {
-		text += '<div class="stat">Выносливость<span>' + give.vit +'</span></div>';
+		text +=
+			'<div class="stat">Выносливость<span>' + give.vit +'</span></div>';
 		if (give.dex) {
-			text += '<br/><div class="stat">Сноровка<span>' + give.dex +'</span></div>';
+			text +=
+				'<br/>'+
+				'<div class="stat">Сноровка<span>' + give.dex +'</span></div>';
 		}
 		text += '<p>Увеличивает максимальный запас здоровья.</p>';
 	}
 	if (give.power) {
-		text += '<div class="stat">Могущество<span>' + give.power +'</span></div>';
+		text +=
+			'<div class="stat">Могущество<span>' + give.power +'</span></div>';
 		if (give.dex) {
-			text += '<br/><div class="stat">Сноровка<span>' + give.dex +'</span></div>';
+			text +=
+				'<br/><div class="stat">Сноровка<span>' + give.dex +
+				'</span></div>';
 		}
 		text += '<p>Увеличивает базовый урон.</p>';
 	}
@@ -239,7 +243,7 @@ function renderText(node, isNeedCost) {
 	if (give.majesty) {
 		text +=
 			'<div class="stat">Величие<span>' + give.majesty +'</span></div>' +
-			'<p>Позволяет возводить величественные храмы в провинциях Элиона, ' +
+			'<p>Позволяет возводить величественные храмы в провинциях Элиона, '+
 			'в которых распространено влияние культа.</p>';
 	}
 	if (isNeedCost) {
@@ -255,8 +259,7 @@ function renderText(node, isNeedCost) {
 }
 
 function foundPath(cy, to, excludeNode, useNode) {
-	var graphWithouOpen, from, aStar;
-	var start;
+	var from, aStar;
 	var helpSearch =
 		[
 			{ group: 'nodes'
@@ -284,10 +287,11 @@ function foundPath(cy, to, excludeNode, useNode) {
 				var sourceNeed = edge.source().data('need');
 				var targetNeed = edge.target().data('need');
 				var weight = 0;
-				for (var spark in sourceNeed) {
+				var spark;
+				for (spark in sourceNeed) {
 					weight += sourceNeed[spark];
 				}
-				for (var spark in targetNeed) {
+				for (spark in targetNeed) {
 					weight += targetNeed[spark];
 				}
 				return weight;
@@ -299,7 +303,7 @@ function foundPath(cy, to, excludeNode, useNode) {
 
 function getUnopen(cy, nodeID) {
 	var node = cy.elements(nodeID),
-		nearNode = node.neighborhood('node'),
+		curNode,
 		nextNode = cy.elements('[?start]').toArray(),
 		connectedEdges, edge, otherNode,
 		elements = cy.elements('[?start]'),
@@ -311,7 +315,7 @@ function getUnopen(cy, nodeID) {
         for (var j = 0, l = connectedEdges.length; j < l; j++) {
 			edge = connectedEdges[j];
 			otherNode = edge.connectedNodes().not(node).not(curNode);
-			if (otherNode.length == 0 || otherNode.same(node)) {
+			if (otherNode.length === 0 || otherNode.same(node)) {
 				continue;
 			}
 			if (elements.anySame(otherNode)) {
@@ -321,7 +325,7 @@ function getUnopen(cy, nodeID) {
 				nextNode.push(otherNode[0]);
 			}
 		}
-	} while (nextNode.length != 0);
+	} while (nextNode.length !== 0);
 	path = cy.elements('[?open]').difference(elements);
 	return {found: path.length !== 0, path: path};
 }
@@ -335,11 +339,11 @@ function clearNeed() {
 	}
 }
 
-function center(graph, point) {
+function center(atlas, point) {
 	var svg = document.getElementById('atlas');
 
-	graph.mX = svg.clientWidth / 2 - point.x * graph.scale;
-	graph.mY = svg.clientHeight / 2 - point.y * graph.scale;
+	atlas.mX = svg.clientWidth / 2 - point.x * atlas.scale;
+	atlas.mY = svg.clientHeight / 2 - point.y * atlas.scale;
 }
 
 function nodeImage(node) {
@@ -370,36 +374,18 @@ function nodeImage(node) {
 
 	var atlasMove = false,
 		svg = document.getElementById('atlas'),
-		graphs =
+		atlases =
 			[ mainAtlas, godAtlas
 			];
 
-	atlas = getUrlParameter('atlas') || '';
-	atlas = atob(atlas);
-	for (var i = atlas.length; i--; ) {
-		value = atlas[i];
-		pos = (i + 1) * 8;
-		while (value > 0) {
-			if (value & 1) {
-				cy.element('n' + pos).data('open', true);
-			}
-			pos++;
-			value >>> 1;
-		}
+	for (var atlasID in atlases) {
+		center(atlases[atlasID], {x: 0, y: 0});
 	}
-	/*
-	cy.elements('edge').filter(function(i, ele) {
-		return ele.source().data('open') && ele.target().data('open');
-	}).data('open', true);
-	*/
-	calcTotal(graphs);
-	groupSkill(graphs);
-	for (var atlasID in graphs) {
-		center(graphs[atlasID], {x: 0, y: 0});
-	}
+	groupSkill(atlases);
+	calcTotal(atlases);
 	Vue.config.debug = true;
 	Vue.component('skill',
-		{ props: ['skill', 'graph']
+		{ props: ['skill', 'atlas']
 		, template: '#skill-template'
 		, ready: function() {
 				$(this.$el).qtip(
@@ -421,13 +407,13 @@ function nodeImage(node) {
 			}
 		, methods:
 			{ findSkill: function(skill) {
-					center(this.graph, skill.position[skill.pos++]);
+					center(this.atlas, skill.position[skill.pos++]);
 					skill.pos = skill.pos % skill.position.length;
 				}
 			}
 		});
 	Vue.component('stat',
-		{ props: ['stat', 'graph']
+		{ props: ['stat', 'atlas']
 		, template: '#stat-template'
 		, methods:
 			{ findStat: function(stat, isOpen, isRevelation) {
@@ -439,7 +425,7 @@ function nodeImage(node) {
 							stat.node[pos].data.need
 								.hasOwnProperty('revelation') === isRevelation)
 						{
-							center(this.graph, stat.node[pos].position);
+							center(this.atlas, stat.node[pos].position);
 							stat.pos = (pos + 1) % stat.node.length;
 							return;
 						}
@@ -485,7 +471,7 @@ function nodeImage(node) {
 				}
 			, nodeImage: nodeImage
 			, hoverNode: function(node) {
-					var cy = this.$parent.graph.cy;
+					var cy = this.$parent.atlas.cy;
 
 					if (node.data.open) {
 						tempPath = getUnopen(cy, '#' + node.data.id);
@@ -496,17 +482,19 @@ function nodeImage(node) {
 						tempPath.path.data('hover', true);
 					}
 				}
-			, unHoverNode: function(node) {
+			, unHoverNode: function() {
 					if (tempPath.found) {
 						tempPath.path.data('hover', false);
 						tempPath.found = false;
 					}
 				}
 			, getNode: function(node) {
-					var graphSpark = this.$parent.graph.sparks;
-					var graphStat = this.$parent.graph.stat;
-					var cy = this.$parent.graph.cy;
+					var atlas = this.$parent.atlas;
+					var atlasSpark = atlas.sparks;
+					var atlasStat = atlas.stat;
+					var cy = atlas.cy;
 					var openPath, nodeData;
+					var i, l, spark, stat, isFound;
 
 					if (node.data.open) {
 						openPath = getUnopen(cy, '#' + node.data.id);
@@ -514,18 +502,17 @@ function nodeImage(node) {
 							return;
 						}
 						openPath = openPath.path;
-						for (var i = 0, l = openPath.length; i < l; i++) {
+						for (i = 0, l = openPath.length; i < l; i++) {
 							if (!openPath[i].isNode()) {
 								continue;
 							}
 							nodeData = openPath[i].data();
-							for (var spark in nodeData.need) {
-								graphSpark[spark].$set(0, graphSpark[spark][0] - nodeData.need[spark]);
+							for (spark in nodeData.need) {
+								atlasSpark[spark].$set(0, atlasSpark[spark][0] - nodeData.need[spark]);
 							}
-							for (var stat in nodeData.give) {
-								graphStat[stat].$set(0, graphStat[stat][0] - nodeData.give[stat]);
+							for (stat in nodeData.give) {
+								atlasStat[stat].$set(0, atlasStat[stat][0] - nodeData.give[stat]);
 							}
-							removeNode(openPath[i]);
 						}
 						openPath.data({open: false, want: false, hover: false});
 					} else {
@@ -534,20 +521,22 @@ function nodeImage(node) {
 							return;
 						}
 						openPath = openPath.path;
-						for (var i = 0, l = openPath.length; i < l; i++) {
-							if (!openPath[i].isNode() || openPath[i].id() == 'startSearch') {
+						for (i = 0, l = openPath.length; i < l; i++) {
+							if (!openPath[i].isNode() ||
+								openPath[i].id() === 'startSearch')
+							{
 								continue;
 							}
 							nodeData = openPath[i].data();
 							isFound = nodeData.want;
-							for (var spark in nodeData.need) {
-								graphSpark[spark].$set(0, graphSpark[spark][0] + nodeData.need[spark]);
+							for (spark in nodeData.need) {
+								atlasSpark[spark].$set(0, atlasSpark[spark][0] + nodeData.need[spark]);
 								if (isFound) {
 									need[spark] -= nodeData.need[spark];
 								}
 							}
-							for (var stat in nodeData.give) {
-								graphStat[stat].$set(0, graphStat[stat][0] + nodeData.give[stat]);
+							for (stat in nodeData.give) {
+								atlasStat[stat].$set(0, atlasStat[stat][0] + nodeData.give[stat]);
 								if (isFound) {
 									recive[stat] -= nodeData.give[stat];
 								}
@@ -556,19 +545,20 @@ function nodeImage(node) {
 						}
 						openPath.data({open: true, want: false, hover: false});
 						openPath[2].connectedEdges().filter(function(i, ele) {
-							return ele.source().data('open') && ele.target().data('open');
+							return ele.source().data('open') &&
+									ele.target().data('open');
 						}).data({open: true, want: false, hover: false});
 					}
-					if (graphSpark.all) {
-						graphSpark.all.$set(0,
-							graphSpark.red[0] + graphSpark.green[0] +
-							graphSpark.blue[0]);
+					if (atlasSpark.all) {
+						atlasSpark.all.$set(0,
+							atlasSpark.red[0] + atlasSpark.green[0] +
+							atlasSpark.blue[0]);
 						need.all = need.red + need.green + need.blue;
 					}
 				}
 			, findPath: function(node) {
-					var cy = this.$parent.graph.cy;
-					var needPath;
+					var cy = this.$parent.atlas.cy;
+					var needPath, nodeData;
 
 					if (node.data.open || node.data.want) {
 						return;
@@ -605,15 +595,15 @@ function nodeImage(node) {
 		{ props: ['edge', 'nodePos']
 		, template: '#edge-template'
 		});
-	Vue.component('graph',
-		{ props: ['graph']
+	Vue.component('atlas',
+		{ props: ['atlas']
 		, data: function() {
 				return {isBig: false, nodeSize: {big: 20, small: 12}};
 			}
-		, template: '#graph-template'
+		, template: '#atlas-template'
 		, computed:
 			{ isBig: function() {
-					return this.graph.scale < 0.3;
+					return this.atlas.scale < 0.3;
 				}
 			}
 		, watch:
@@ -645,20 +635,21 @@ function nodeImage(node) {
 				, electricityResist: 'Сопротивление электричеству'
 				, hypnosisResist: 'Сопротивление гипнозу'
 				}
-			, graphs: graphs
+			, atlases: atlases
 			, need: need
 			, recive: recive
 			, images:
 				[ 'krio', 'paladin', 'LK', 'alchemist', 'archer', 'berserker'
 				, 'kinetic', 'monk', 'necromancer', 'rouge', 'witch', 'hero'
 				, 'hedgehopper'
-				, 'maneuver', 'balance', 'surprise', 'rush', 'inertia', 'luck_hit'
-				, 'destroy', 'shock', 'adrenaline', 'alert', 'barrier', 'break'
-				, 'concussion', 'create', 'credo_defend', 'credo_warrior', 'dash'
-				, 'death', 'defence', 'dissection', 'double', 'equilibrium'
-				, 'injury', 'laceration', 'life', 'okulat'
-				, 'reflex', 'resistance', 'ruthlessness', 'slow', 'spasm', 'timeout'
-				, 'triumph', 'wave', 'guardianship', 'medicines'
+				, 'maneuver', 'balance', 'surprise', 'rush', 'inertia'
+				, 'luck_hit', 'destroy', 'shock', 'adrenaline', 'alert'
+				, 'barrier', 'break', 'concussion', 'create', 'credo_defend'
+				, 'credo_warrior', 'dash', 'death', 'defence', 'dissection'
+				, 'double', 'equilibrium', 'injury', 'laceration', 'life'
+				, 'okulat', 'reflex', 'resistance', 'ruthlessness', 'slow'
+				, 'spasm', 'timeout', 'triumph', 'wave', 'guardianship'
+				, 'medicines'
 				, 'god', 'secretKnowledge'
 				, 'defend', 'hunter', 'knowledge', 'rule', 'wanderer', 'warrior'
 				, 'vit', 'power', 'str', 'valor', 'spirit', 'luck', 'majesty'
@@ -682,38 +673,41 @@ function nodeImage(node) {
 			}
 		, methods:
 			{ mouseDown: function(evt) {
-					if(evt.which == 1) {
+					if(evt.which === 1) {
 						atlasMove = true;
 					}
 				}
 			, mouseUp: function(evt) {
-					if(evt.which == 1) {
+					if(evt.which === 1) {
 						atlasMove = false;
 					}
 				}
 			, atlasMove: function(evt) {
 					if (atlasMove) {
-						this.graphs[this.selected].mX += evt.movementX;
-						this.graphs[this.selected].mY += evt.movementY;
+						this.atlases[this.selected].mX += evt.movementX;
+						this.atlases[this.selected].mY += evt.movementY;
 					}
 				}
 			, atlasScale: function(event) {
 					var mouseX = event.clientX - svg.offsetLeft;
 					var mouseY = event.clientY - svg.offsetTop;
-					var wheel = event.wheelDelta ? event.wheelDelta / 120 : event.deltaY / -3;
-					var zoom = Math.pow(1 + Math.abs(wheel) / 2 , wheel > 0 ? 1 : -1);
-					var graph = this.graphs[this.selected];
-					var newScale = graph.scale * zoom;
+					var wheel =
+						event.wheelDelta ?
+							event.wheelDelta / 120 : event.deltaY / -3;
+					var zoom =
+						Math.pow(1 + Math.abs(wheel) / 2 , wheel > 0 ? 1 : -1);
+					var atlas = this.atlases[this.selected];
+					var newScale = atlas.scale * zoom;
 
 					if (newScale > 1.5 || newScale < 0.08) {
 						return;
 					}
-					graph.mX -= (graph.mX - mouseX) * (1 - zoom);
-					graph.mY -= (graph.mY - mouseY) * (1 - zoom);
-					graph.scale = newScale;
+					atlas.mX -= (atlas.mX - mouseX) * (1 - zoom);
+					atlas.mY -= (atlas.mY - mouseY) * (1 - zoom);
+					atlas.scale = newScale;
 				}
 			}
 		}
 	);
-	initCy(graphs);
+	initCy(atlases);
 });

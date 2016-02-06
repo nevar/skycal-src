@@ -16,13 +16,13 @@
 				<circle class='open' cx='14' :cy='14' r='12'
 					:fill='nodeImage(stat.node[0])'
 					@click='findStat(stat, true, false)'/>
-				<circle v-if='graph.sparks.revelation'
+				<circle v-if='atlas.sparks.revelation'
 					class='open' cx='42' :cy='14' r='12'
 					fill='url(#revelation)'
 					@click='findStat(stat, true, true)'/>
 				<circle cx='70' :cy='14' r='12' :fill='nodeImage(stat.node[0])'
 					@click='findStat(stat, false, false)'/>
-				<circle v-if='graph.sparks.revelation'
+				<circle v-if='atlas.sparks.revelation'
 					cx='98' :cy='14' r='12' fill='url(#revelation)'
 					@click='findStat(stat, false, true)'/>
 			</svg><br/>
@@ -66,10 +66,10 @@
 				:x2='nodePos[edge.data.target].x' :y2='nodePos[edge.data.target].y'
 				/>
 		</script>
-		<script type='text/x-template' id='graph-template'>
-			<g :transform='"translate(" + graph.mX + "," + graph.mY + ") scale(" + graph.scale + ")"'>
-				<edge v-for='edge in graph.edges' :edge.once='edge' :node-pos.once='graph.nodePos'></edge>
-				<node v-for='node in graph.nodes' :node.once='node'></node>
+		<script type='text/x-template' id='atlas-template'>
+			<g :transform='"translate(" + atlas.mX + "," + atlas.mY + ") scale(" + atlas.scale + ")"'>
+				<edge v-for='edge in atlas.edges' :edge.once='edge' :node-pos.once='atlas.nodePos'></edge>
+				<node v-for='node in atlas.nodes' :node.once='node'></node>
 			</g>
 		</script>
 
@@ -124,23 +124,23 @@
 							</image>
 						</pattern>
 					</defs>
-					<graph
-						v-for='graph in graphs' v-show='selected == $index'
-						:graph='graph'>
-					</graph>
+					<atlas
+						v-for='atlas in atlases' v-show='selected == $index'
+						:atlas='atlas'>
+					</atlas>
 				</svg>
 			</div>
 			<div id='box'></div>
 			<div id='need' v-cloak>
-				<table v-for='graph in graphs' v-show='selected == $index'>
+				<table v-for='atlas in atlases' v-show='selected == $index'>
 				<tbody>
 					<tr>
-						<td v-for='spark in graph.sparks'>
+						<td v-for='spark in atlas.sparks'>
 							<img :src='"images/spark/" + $key + ".png"'></img>
 						</td>
 					</tr>
 					<tr>
-						<td v-for='(name, spark) in graph.sparks'>
+						<td v-for='(name, spark) in atlas.sparks'>
 							<div>{{ need[name] }}</div>/<div>{{ spark[0] }}</div>/<div>{{ spark[1] }}</div>
 						</td>
 					</tr>
@@ -149,17 +149,17 @@
 			</div>
 		</div>
 		<div id='right' v-cloak>
-				<div v-for='graph in graphs' v-show='selected == $index'>
-					<div v-for='(name, stat) in graph.stat'>
-						<stat v-if='graph.group.stat[name]'
-							:stat.once='graph.group.stat[name]'
-							:graph.once='graph'>
+				<div v-for='atlas in atlases' v-show='selected == $index'>
+					<div v-for='(name, stat) in atlas.stat'>
+						<stat v-if='atlas.group.stat[name]'
+							:stat.once='atlas.group.stat[name]'
+							:atlas.once='atlas'>
 						</stat>
 						{{* statName[name] }}: <span>{{ recive[name] }}</span>/<span>{{ stat[0] }}</span>/<span>{{* stat[1] }}</span>
 					</div>
 					<hr>
-					<span v-for='skill in graph.group.skill | orderBy "title"'>
-						<skill :skill.once='skill' :graph.once='graph'></skill>
+					<span v-for='skill in atlas.group.skill | orderBy "title"'>
+						<skill :skill.once='skill' :atlas.once='atlas'></skill>
 					</span>
 				</div>
 		</div>
