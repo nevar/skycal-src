@@ -25,7 +25,7 @@
 				<circle v-if='atlas.sparks.revelation'
 					cx='98' :cy='14' r='12' fill='url(#revelation)'
 					@click='findStat(stat, false, true)'/>
-			</svg><br/>
+			</svg>
 		</script>
 		<script type='text/x-template' id='node-template'>
 			<circle
@@ -151,11 +151,12 @@
 		<div id='right' v-cloak>
 				<div v-for='atlas in atlases' v-show='selected == $index'>
 					<div v-for='(name, stat) in atlas.stat'>
+						{{* statName[name] }}: <span>{{ recive[name] }}</span>/<span>{{ stat[0] }}</span>/<span>{{* stat[1] }}</span>
+						<br/>
 						<stat v-if='atlas.group.stat[name]'
 							:stat.once='atlas.group.stat[name]'
 							:atlas.once='atlas'>
 						</stat>
-						{{* statName[name] }}: <span>{{ recive[name] }}</span>/<span>{{ stat[0] }}</span>/<span>{{* stat[1] }}</span>
 					</div>
 					<hr>
 					<span v-for='skill in atlas.group.skill | orderBy "title"'>
