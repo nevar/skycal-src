@@ -11648,8 +11648,8 @@ var nodesData =
 		{ data:
 			{ _id: 'n1120'
 			, open: false, hover: false, want: false, polish: 0
-			, _need: {blue: 490}
-			, _give: {prestige: 38, str: 38}
+			, _need: {green: 490}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 690, y: -2010}
 		, _classes: 'stat'
@@ -27896,7 +27896,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n759', _target: 'n752'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n752', _target: 'n749'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n749', _target: 'n754'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n754', _target: 'n744'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n757', _target: 'n744'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n752', _target: 'n750'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n750', _target: 'n755'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n755', _target: 'n758'}}
@@ -29813,7 +29813,6 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2631', target: 'n2622'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2620', target: 'n2621'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, source: 'n2621', target: 'n2622'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2622', target: 'n2631'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2621', target: 'n2625'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2625', target: 'n2630'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n2620', target: 'n2632'}}
