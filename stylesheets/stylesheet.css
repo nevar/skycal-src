@@ -132,3 +132,8 @@ table div {
 	-ms-user-select: none;
 	user-select: none;
 }
+
+div.need_spark {
+	display: inline-block;
+	padding: 0 5px 0 0;
+}

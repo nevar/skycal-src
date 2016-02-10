@@ -1,5 +1,6 @@
 /* jshint jquery: true */
-/* globals Vue */
+/* globals Vue, base64js, cytoscape */
+/* globals mainAtlas, godAtlas */
 $(function() {
 var vm,
 	tempPath = {found: false},
@@ -20,26 +21,57 @@ var vm,
 		, str: 0, valor: 0, luck: 0, spirit: 0
 		, majesty: 0, dex: 0
 		, poisonResist: 0, electricityResist: 0, hypnosisResist: 0
+		},
+	statName =
+		{ prestige: 'Престиж'
+		, power: 'Могущество'
+		, vit: 'Выносливость'
+		, str: 'Сила', valor: 'Отвага', luck: 'Удача', spirit: 'Дух'
+		, majesty: 'Величие', dex: 'Сноровка'
+		, poisonResist: 'Сопротивление яду'
+		, electricityResist: 'Сопротивление электричеству'
+		, hypnosisResist: 'Сопротивление гипнозу'
+		},
+	statDescription =
+		{ vit: 'Увеличивает максимальный запас здоровья.'
+		, power: 'Увеличивает базовый урон.'
+		, spirit: 'Увеличивает импульсный урон.'
+		, str: 'Увеличивает максимальную границу базового урона.'
+		, luck: 'Увеличивает критический урон.'
+		, valor: 'Увеличивает дополнительный урон.'
+		, majesty:
+			'Позволяет возводить величественные храмы в провинциях Элиона, '+
+			'в которых распространено влияние культа.'
 		};
 
-function removeNode(node) {
+function removeNode(atlas, id) {
+	id = Number(id);
+	/* jshint bitwise: false */
+	var pos = id >> 3;
+
+	atlas.plainData[pos] ^= 1 << (7 - id % 8);
+	if (atlas.polish) {
+		pos = id >> 2;
+		atlas.plainData[atlas.polish + pos] &= ~(3 << ((3 - id % 4) * 2));
+	}
+	/* jshint bitwise: true */
 }
 
-function addNode(node) {
-}
+function addNode(atlas, id, polish) {
+	id = Number(id);
+	/* jshint bitwise: false */
+	var pos = id >> 3;
+	var pos_polish;
 
-function getUrlParameter(sParam) {
-    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
-
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] === sParam) {
-            return sParameterName[1] === undefined ? true : sParameterName[1];
-        }
-    }
+	atlas.plainData[pos] |= 1 << (7 - id % 8);
+	if (atlas.polish) {
+		pos = id >> 2;
+		pos_polish = (3 - id % 4) * 2;
+		atlas.plainData[atlas.polish + pos] =
+			atlas.plainData[atlas.polish + pos] &
+				~(3 << pos_polish) | (polish << pos_polish);
+	}
+	/* jshint bitwise: true */
 }
 
 function calcTotal(atlases) {
@@ -131,6 +163,48 @@ function groupSkill(atlases) {
 	}
 }
 
+function loadAtlas(atlas) {
+	var dataString, val, index, l, len, _plainData;
+
+	/* jshint bitwise: false */
+	len = l = (atlas.nodes.length >> 3) + 1;
+	if (atlas._polish) {
+		len += atlas._polish * 2;
+	}
+	dataString = localStorage['atlas_' + atlas.name];
+	if (dataString) {
+		_plainData = base64js.toByteArray(dataString);
+		if (_plainData.length !== atlas._plainData.length) {
+			return;
+		}
+		atlas._plainData = _plainData;
+	}
+	for (var i = 0; i < l; i++) {
+		val = atlas._plainData[i];
+		index = i * 8 + 7;
+		while (val > 0) {
+			atlas.nodes[index].data.open = val & 1;
+			index--;
+			val = val >> 1;
+		}
+	}
+	for (; i < len; i++) {
+		val = atlas._plainData[i];
+		index = (i - l) * 4 + 3;
+		while (val > 0) {
+			atlas.nodes[index].data.polish = val & 3;
+			index--;
+			val = val >> 2;
+		}
+	}
+	/* jshint bitwise: true */
+}
+
+function saveAtlas(atlas) {
+	localStorage['atlas_' + atlas.name] =
+		base64js.fromByteArray(atlas.plainData);
+}
+
 function initCy(atlases) {
 	var atlas;
 
@@ -140,6 +214,10 @@ function initCy(atlases) {
 			{ elements: {nodes: atlas.nodes, edges: atlas.edges}
 			, layout: {name: 'preset', fit: false}
 			});
+		atlas.cy.elements('node[?open]').connectedEdges()
+			.filter(function(i, ele) {
+				return ele.source().data('open') && ele.target().data('open');
+			}).data('open', true);
 	}
 }
 
@@ -190,61 +268,28 @@ function renderText(node, isNeedCost) {
 		give = nodeData.give,
 		need = nodeData.need;
 
-	if (isNeedCost && nodeData.give.prestige) {
+	if (isNeedCost && give.prestige) {
 		text +=
 			'<div class="stat">' +
 				'<img width="25" src="images/prestige.png"></img> + ' +
 				give.prestige +
 			'</div><br/>';
 	}
-	if (nodeData.description) {
-		text += '<p>' + nodeData.description + '</p>';
-	}
-	if (give.vit) {
-		text +=
-			'<div class="stat">Выносливость<span>' + give.vit +'</span></div>';
-		if (give.dex) {
+	for (var stat in give) {
+		if (stat === 'prestige' || stat === 'dex') {
+			continue;
+		}
+		text += '<div class="stat">' + statName[stat] +
+			'<span>' + give[stat] + '</span></div>';
+		if (stat === 'power' || stat === 'vit' && give.dex) {
 			text +=
 				'<br/>'+
 				'<div class="stat">Сноровка<span>' + give.dex +'</span></div>';
 		}
-		text += '<p>Увеличивает максимальный запас здоровья.</p>';
+		text += '<p>' + statDescription[stat] + '</p>';
 	}
-	if (give.power) {
-		text +=
-			'<div class="stat">Могущество<span>' + give.power +'</span></div>';
-		if (give.dex) {
-			text +=
-				'<br/><div class="stat">Сноровка<span>' + give.dex +
-				'</span></div>';
-		}
-		text += '<p>Увеличивает базовый урон.</p>';
-	}
-	if (give.spirit) {
-		text +=
-			'<div class="stat">Дух<span>' + give.spirit +'</span></div>' +
-			'<p>Увеличивает импульсный урон.</p>';
-	}
-	if (give.str) {
-		text +=
-			'<div class="stat">Сила<span>' + give.str +'</span></div>' +
-			'<p>Увеличивает максимальную границу базового урона.</p>';
-	}
-	if (give.luck) {
-		text +=
-			'<div class="stat">Удача<span>' + give.luck +'</span></div>' +
-			'<p>Увеличивает критический урон.</p>';
-	}
-	if (give.valor) {
-		text +=
-			'<div class="stat">Отвага<span>' + give.valor +'</span></div>' +
-			'<p>Увеличивает дополнительный урон.</p>';
-	}
-	if (give.majesty) {
-		text +=
-			'<div class="stat">Величие<span>' + give.majesty +'</span></div>' +
-			'<p>Позволяет возводить величественные храмы в провинциях Элиона, '+
-			'в которых распространено влияние культа.</p>';
+	if (nodeData.description) {
+		text += '<p>' + nodeData.description + '</p>';
 	}
 	if (isNeedCost) {
 		for (var key in need) {
@@ -375,11 +420,12 @@ function nodeImage(node) {
 	var atlasMove = false,
 		svg = document.getElementById('atlas'),
 		atlases =
-			[ mainAtlas, godAtlas
+			[ mainAtlas(), godAtlas()
 			];
 
 	for (var atlasID in atlases) {
 		center(atlases[atlasID], {x: 0, y: 0});
+		loadAtlas(atlases[atlasID]);
 	}
 	groupSkill(atlases);
 	calcTotal(atlases);
@@ -451,6 +497,10 @@ function nodeImage(node) {
 						{ delay: 300
 						, effect: false
 						}
+					, hide:
+						{ fixed: true
+						, delay: 500
+						}
 					, position:
 						{ my: 'top left'
 						, at: 'bottom right'
@@ -473,6 +523,9 @@ function nodeImage(node) {
 			, hoverNode: function(node) {
 					var cy = this.$parent.atlas.cy;
 
+					if (node.data.start || node.data.want || atlasMove) {
+						return;
+					}
 					if (node.data.open) {
 						tempPath = getUnopen(cy, '#' + node.data.id);
 					} else {
@@ -496,6 +549,9 @@ function nodeImage(node) {
 					var openPath, nodeData;
 					var i, l, spark, stat, isFound;
 
+					if (node.data.start || atlasMove) {
+						return;
+					}
 					if (node.data.open) {
 						openPath = getUnopen(cy, '#' + node.data.id);
 						if (!openPath.found) {
@@ -513,6 +569,8 @@ function nodeImage(node) {
 							for (stat in nodeData.give) {
 								atlasStat[stat].$set(0, atlasStat[stat][0] - nodeData.give[stat]);
 							}
+							openPath[i].data('polish', 0);
+							removeNode(atlas, openPath[i].id().slice(1));
 						}
 						openPath.data({open: false, want: false, hover: false});
 					} else {
@@ -541,7 +599,8 @@ function nodeImage(node) {
 									recive[stat] -= nodeData.give[stat];
 								}
 							}
-							addNode(openPath[i]);
+							addNode(atlas,
+								openPath[i].id().slice(1), nodeData.polish);
 						}
 						openPath.data({open: true, want: false, hover: false});
 						openPath[2].connectedEdges().filter(function(i, ele) {
@@ -549,6 +608,7 @@ function nodeImage(node) {
 									ele.target().data('open');
 						}).data({open: true, want: false, hover: false});
 					}
+					saveAtlas(atlas);
 					if (atlasSpark.all) {
 						atlasSpark.all.$set(0,
 							atlasSpark.red[0] + atlasSpark.green[0] +
@@ -625,16 +685,7 @@ function nodeImage(node) {
 		{ el: '#container'
 		, data:
 			{ selected: 0
-			, statName:
-				{ prestige: 'Престиж'
-				, power: 'Могущество'
-				, vit: 'Выносливость'
-				, str: 'Сила', valor: 'Отвага', luck: 'Удача', spirit: 'Дух'
-				, majesty: 'Величие', dex: 'Сноровка'
-				, poisonResist: 'Сопротивление яду'
-				, electricityResist: 'Сопротивление электричеству'
-				, hypnosisResist: 'Сопротивление гипнозу'
-				}
+			, statName: statName
 			, atlases: atlases
 			, need: need
 			, recive: recive

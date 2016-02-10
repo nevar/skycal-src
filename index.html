@@ -50,8 +50,8 @@
 					, "want": edge.data.want
 					}'
 				:d='"M " + nodePos[edge.data.source].x + " " + nodePos[edge.data.source].y +
-					"Q " + ((nodePos[edge.data.target].x + nodePos[edge.data.source].x) / 2 - (nodePos[edge.data.target].y - nodePos[edge.data.source].y) / 4) +
-					" " + ((nodePos[edge.data.target].y + nodePos[edge.data.source].y) / 2 + (nodePos[edge.data.target].x - nodePos[edge.data.source].x) / 4) +
+					"Q " + ((nodePos[edge.data.target].x + nodePos[edge.data.source].x) / 2 - (nodePos[edge.data.target].y - nodePos[edge.data.source].y) / 3) +
+					" " + ((nodePos[edge.data.target].y + nodePos[edge.data.source].y) / 2 + (nodePos[edge.data.target].x - nodePos[edge.data.source].x) / 3) +
 					" " + nodePos[edge.data.target].x + " " + nodePos[edge.data.target].y'
 				/>
 			<line v-else
@@ -72,7 +72,7 @@
 			</g>
 		</script>
 
-		<link rel='stylesheet' type='text/css' href='http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.css' media='screen'>
+		<link rel='stylesheet' type='text/css' href='stylesheets/vendor/jquery.qtip.min.css' media='screen'>
 		<link rel='stylesheet' type='text/css' href='stylesheets/stylesheet.css' media='screen'>
 		<link rel='stylesheet' type='text/css' href='stylesheets/svg.css' media='screen'>
 	</head>
@@ -131,20 +131,13 @@
 			</div>
 			<div id='box'></div>
 			<div id='need' v-cloak>
-				<table v-for='atlas in atlases' v-show='selected == $index'>
-				<tbody>
-					<tr>
-						<td v-for='spark in atlas.sparks'>
-							<img :src='"images/spark/" + $key + ".png"'></img>
-						</td>
-					</tr>
-					<tr>
-						<td v-for='(name, spark) in atlas.sparks'>
-							<div>{{ need[name] }}</div>/<div>{{ spark[0] }}</div>/<div>{{ spark[1] }}</div>
-						</td>
-					</tr>
-				</tbody>
-				</table>
+				<div v-for='atlas in atlases' v-show='selected == $index'>
+					<div class='need_spark'
+						v-for='(name, spark) in atlas.sparks'>
+						<img :src='"images/spark/" + name + ".png"'></img>
+						{{ need[name] }}/{{ spark[0] }}/{{ spark[1] }}
+					</div>
+				</div>
 			</div>
 		</div>
 		<div id='right' v-cloak>
@@ -163,8 +156,9 @@
 					</span>
 				</div>
 		</div>
-		<script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
-		<script src='http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js'></script>
+		<script src='javascripts/vendor/jquery-1.11.3.min.js'></script>
+		<script src='javascripts/vendor/jquery.qtip.min.js'></script>
+		<script src='javascripts/b64.js'></script>
 		<script src='javascripts/vue.js'></script>
 		<script src='javascripts/cytoscape.min.js'></script>
 		<script src='javascripts/main_atlas.js'></script>
@@ -172,7 +166,6 @@
 		<script src='javascripts/fitonidy_atlas.js'></script>
 		<script src='javascripts/mehanoydy_atlas.js'></script>
 		<script src='javascripts/gorgonidy_atlas.js'></script>
-		<script src='javascripts/hunter_god_atlas.js'></script>
 		<script src='javascripts/main.js'></script>
 	</div>
 </body>

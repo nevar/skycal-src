@@ -1,4 +1,5 @@
-var godNodesData =
+function godAtlas() {
+var nodesData =
 	[
 		{ data:
 			{ _id: 'n0'
@@ -3971,7 +3972,7 @@ var godNodesData =
 		}
 	];
 
-var godEdgesData =
+var edgesData =
 	[ {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n11'}}
 	, {_classes: '', data: {open: false, want: false, hover: false, _source: 'n11', _target: 'n9'}}
 	, {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n9', _target: 'n6'}}
@@ -4357,10 +4358,10 @@ var godEdgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, source: 'n362', target: 'n373'}}
 	];
 
-var godAtlas =
+var atlas =
 	{ name: 'god'
-	, nodes: godNodesData
-	, edges: godEdgesData
+	, nodes: nodesData
+	, edges: edgesData
 	, mX: 0, mY: 0
 	, scale: 1
 	, sparks:
@@ -4374,4 +4375,11 @@ var godAtlas =
 		, dex: [0, 0]
 		}
 	, group: {skill: {}, stat: {}}
+	/* jshint bitwise: false */
+	, _plainData: new Array(nodesData.length >> 3)
+	/* jshint bitwise: true */
 	};
+
+	atlas._plainData[0] = 128;
+	return atlas;
+}
