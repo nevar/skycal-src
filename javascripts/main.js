@@ -183,7 +183,7 @@ function loadAtlas(atlas) {
 		val = atlas._plainData[i];
 		index = i * 8 + 7;
 		while (val > 0) {
-			atlas.nodes[index].data.open = val & 1;
+			atlas.nodes[index].data.open = !!(val & 1);
 			index--;
 			val = val >> 1;
 		}
@@ -463,12 +463,12 @@ function nodeImage(node) {
 		, template: '#stat-template'
 		, methods:
 			{ findStat: function(stat, isOpen, isRevelation) {
-					var startPos = stat.pos,
-						pos = stat.pos;
+					var startPos = stat.pos, pos = stat.pos, nodeData;
 
 					do {
-						if (stat.node[pos].data.open === isOpen &&
-							stat.node[pos].data.need
+						nodeData = stat.node[pos].data;
+						if (nodeData.open === isOpen &&
+							nodeData.need
 								.hasOwnProperty('revelation') === isRevelation)
 						{
 							center(this.atlas, stat.node[pos].position);
