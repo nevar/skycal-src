@@ -680,7 +680,6 @@ function getNewPolish(polish, isWant) {
 				}
 			, unHoverNode: function() {
 					$('#tooltip').qtip('api').toggle(false);
-					console.log('hide');
 					if (tempPath.found) {
 						tempPath.path.data('hover', false);
 						tempPath.found = false;
