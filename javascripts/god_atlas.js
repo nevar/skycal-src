@@ -3946,7 +3946,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n376'
+			{ _id: 'n375'
 			, open: false, hover: false, want: false
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
@@ -3956,7 +3956,7 @@ var nodesData =
 		}
 	,
 		{ data:
-			{ _id: 'n375'
+			{ _id: 'n376'
 			, open: false, hover: false, want: false
 			, _title: 'Тайные исследования'
 			, _description:
@@ -4340,8 +4340,8 @@ var edgesData =
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n123', _target: 'n369'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n369', _target: 'n367'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n367', _target: 'n372'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n372', _target: 'n376'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n376', _target: 'n373'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n372', _target: 'n375'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n375', _target: 'n373'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n373', _target: 'n365'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n365', _target: 'n368'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n368', _target: 'n364'}}
@@ -4353,8 +4353,8 @@ var edgesData =
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n361', _target: 'n362'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n363', _target: 'n361'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n370', _target: 'n363'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n363', _target: 'n375'}}
-	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n375', _target: 'n362'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n363', _target: 'n376'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n376', _target: 'n362'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n362', _target: 'n373'}}
 	];
 
@@ -4368,7 +4368,8 @@ var atlas =
 	, stat: {got: {}, total: {}}
 	, group: {skill: {}, stat: {}}
 	/* jshint bitwise: false */
-	, _plainData: new Array(nodesData.length >> 3)
+	, _polish: 0
+	, _plainData: new Array((nodesData.length >> 3) + 1)
 	/* jshint bitwise: true */
 	};
 	var i;

@@ -202,35 +202,36 @@ function groupSkill(atlases) {
 }
 
 function loadAtlas(atlas) {
-	var dataString, val, index, l, len, _plainData;
+	var dataString, val, index, nodeCount, l, len, _plainData;
 
 	/* jshint bitwise: false */
-	len = l = (atlas.nodes.length >> 3) + 1;
-	if (atlas._polish) {
-		len += atlas._polish * 2;
+	nodeCount = atlas.nodes.length;
+	len = l = (nodeCount >> 3) + 1;
+	len += atlas._polish * 2;
+	dataString = localStorage['atlas_' + atlas.name] || '';
+	_plainData = base64js.toByteArray(dataString);
+	if (_plainData.length !== atlas._plainData.length) {
+		return;
 	}
-	dataString = localStorage['atlas_' + atlas.name];
-	if (dataString) {
-		_plainData = base64js.toByteArray(dataString);
-		if (_plainData.length !== atlas._plainData.length) {
-			return;
-		}
-		atlas._plainData = _plainData;
-	}
+	atlas._plainData = _plainData;
 	for (var i = 0; i < l; i++) {
-		val = atlas._plainData[i];
+		val = _plainData[i];
 		index = i * 8 + 7;
 		while (val > 0) {
-			atlas.nodes[index].data.open = !!(val & 1);
+			if (index < nodeCount) {
+				atlas.nodes[index].data.open = !!(val & 1);
+			}
 			index--;
 			val = val >> 1;
 		}
 	}
 	for (; i < len; i++) {
-		val = atlas._plainData[i];
+		val = _plainData[i];
 		index = (i - l) * 4 + 3;
 		while (val > 0) {
-			atlas.nodes[index].data.polish = val & 3;
+			if (index < nodeCount) {
+				atlas.nodes[index].data.polish = val & 3;
+			}
 			index--;
 			val = val >> 2;
 		}
