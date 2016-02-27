@@ -193,9 +193,9 @@
 						v-for='(name, spark) in atlas.sparks.total'>
 						<img :src='"images/spark/" + name + ".png"'></img>
 						<div class='table'>
-							<span class='row'>{{ Math.ceil(need[name]) }}</span>
-							<span class='row'>{{ Math.ceil(atlas.sparks.got[name]) }}</span>
-							<span class='row'>{{ Math.ceil(spark) }}</span></div>
+							<span class='row'>{{ Math.ceil(need[name]).toLocaleString() }}</span>
+							<span class='row'>{{ Math.ceil(atlas.sparks.got[name]).toLocaleString() }}</span>
+							<span class='row'>{{ Math.ceil(spark).toLocaleString() }}</span></div>
 					</div>
 				</div>
 			</div>
