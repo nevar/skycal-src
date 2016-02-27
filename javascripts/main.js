@@ -8,6 +8,7 @@ var vm,
 		{ red: 0, green: 0, blue: 0, all: 0
 		, transformation: 0, revelation: 0
 		, god: 0, book: 0, secretKnowledge: 0
+		, bronze: 0, silver: 0, gold: 0, core: 0
 		, fitonidy: 0, fitonidyInfo: 0
 		, mehanoydy: 0, mehanoydyInfo:0
 		, gorgonidy: 0, gorgonidyInfo: 0
@@ -76,35 +77,72 @@ function addNode(atlas, id, polish) {
 
 function calcTotal(atlases) {
 	var atlas, nodesData, node, nodeData, nodePos;
+	var cost = ['', 'bronze', 'silver', 'gold'];
+	var stat, polishPrestige, polishNode, isPolish;
 
 	for (var atlasID in atlases) {
 		atlas = atlases[atlasID];
 		nodesData = atlases[atlasID].nodes;
 		nodePos = {};
+		isPolish = nodesData[0].data.hasOwnProperty('polish');
+		polishPrestige = 0;
+		polishNode = 0;
 		for (var i in nodesData) {
 			node = nodesData[i];
 			nodeData = node.data;
 			nodePos[nodeData._id] = node._position;
-			for (var stat in nodeData._give) {
-				atlas.stat[stat][1] += nodeData._give[stat];
+			if (isPolish && node._classes === 'stat' && !nodeData._give.majesty)
+			{
+				polishNode++;
+				polishPrestige += nodeData._give.prestige;
+			}
+			for (stat in nodeData._give) {
+				atlas.stat.total[stat] += nodeData._give[stat];
 				if (nodeData.open) {
-					atlas.stat[stat][0] += nodeData._give[stat];
+					atlas.stat.got[stat] += nodeData._give[stat];
+					if (nodeData.polish > 0 && stat !== 'majesty' &&
+						stat !== 'dex')
+					{
+						atlas.stat.got[stat] +=
+							nodeData._give[stat] * 0.5 * nodeData.polish;
+					}
 				}
 			}
 			for (var spark in nodeData._need) {
-				atlas.sparks[spark][1] += nodeData._need[spark];
+				atlas.sparks.total[spark] += nodeData._need[spark];
 				if (nodeData.open) {
-					atlas.sparks[spark][0] += nodeData._need[spark];
+					atlas.sparks.got[spark] += nodeData._need[spark];
+					if (nodeData.polish > 0) {
+						for (var j = 1; j <= nodeData.polish; j++) {
+							atlas.sparks.got[cost[j]] +=
+								nodeData._give.prestige * 5 * j;
+						}
+						atlas.sparks.got.core += nodeData.polish;
+					}
 				}
 			}
 		}
-		if (atlas.sparks.all) {
-			atlas.sparks.all[0] =
-				atlas.sparks.red[0] + atlas.sparks.green[0] +
-				atlas.sparks.blue[0];
-			atlas.sparks.all[1] =
-				atlas.sparks.red[1] + atlas.sparks.green[1] +
-				atlas.sparks.blue[1];
+		if (isPolish) {
+			for (stat in atlas.stat.total) {
+				if (stat === 'dex' || stat === 'majesty' || stat === 'prestige')
+				{
+					continue;
+				}
+				atlas.stat.total[stat] *= 2.5;
+			}
+			atlas.stat.total.prestige += polishPrestige * 1.5;
+			atlas.sparks.total.bronze = polishPrestige * 5;
+			atlas.sparks.total.silver = polishPrestige * 10;
+			atlas.sparks.total.gold = polishPrestige * 15;
+			atlas.sparks.total.core = polishNode * 3;
+		}
+		if (atlas.sparks.total.hasOwnProperty('all')) {
+			atlas.sparks.total.all =
+				atlas.sparks.total.red + atlas.sparks.total.green +
+				atlas.sparks.total.blue;
+			atlas.sparks.got.all =
+				atlas.sparks.got.red + atlas.sparks.got.green +
+				atlas.sparks.got.blue;
 		}
 		atlas._nodePos = nodePos;
 	}
@@ -266,13 +304,17 @@ function renderText(node, isNeedCost) {
 	var text = '',
 		nodeData = node.data,
 		give = nodeData.give,
-		need = nodeData.need;
+		need = nodeData.need,
+		coeff = 0;
 
+	if (node.data.polish) {
+		coeff = 0.5 * (node.data.polish % 10);
+	}
 	if (isNeedCost && give.prestige) {
 		text +=
 			'<div class="stat">' +
 				'<img width="25" src="images/prestige.png"></img> + ' +
-				give.prestige +
+				Math.ceil(give.prestige * (coeff + 1)) +
 			'</div><br/>';
 	}
 	for (var stat in give) {
@@ -280,8 +322,14 @@ function renderText(node, isNeedCost) {
 			continue;
 		}
 		text += '<div class="stat">' + statName[stat] +
-			'<span>' + give[stat] + '</span></div>';
-		if (stat === 'power' || stat === 'vit' && give.dex) {
+			'<span>' + Math.ceil(give[stat] * (coeff + 1));
+		if (coeff !== 0) {
+			text +=
+				' (' + give[stat]  + ' + ' + Math.ceil(give[stat] * coeff) +
+				')';
+		}
+		text += '</span></div>';
+		if ((stat === 'power' || stat === 'vit') && give.dex) {
 			text +=
 				'<br/>'+
 				'<div class="stat">Сноровка<span>' + give.dex +'</span></div>';
@@ -297,9 +345,27 @@ function renderText(node, isNeedCost) {
 				'<img width="20" src="images/spark/' + key + '.png"></img> ' +
 				need[key] + '</span></div>';
 		}
+		if (node.classes === 'stat' && nodeData.hasOwnProperty('polish') &&
+			!nodeData.give.majesty)
+		{
+			text += '<div class="polish">Полировка:<br/>';
+			text += '<div class="polish_cell">+' +
+				Math.ceil(give.prestige / 2) +
+				'<span><img width="20" src="images/spark/core.png"></img>1</span>' +
+				'<span><img width="20" src="images/spark/bronze.png"></img>' + (5 * give.prestige) + '</span>'+
+			'</div>';
+			text += '<div class="polish_cell">+' + give.prestige +
+				'<span><img width="20" src="images/spark/core.png"></img>1</span>' +
+				'<span><img width="20" src="images/spark/silver.png"></img>' + (10 * give.prestige) + '</span>'+
+			'</div>';
+			text += '<div class="polish_cell">+' +
+				Math.ceil(1.5 * give.prestige) +
+				'<span><img width="20" src="images/spark/core.png"></img>1</span>' +
+				'<span><img width="20" src="images/spark/gold.png"></img>' + (15 * give.prestige) + '</span>'+
+			'</div>';
+			text += '</div><br/>';
+		}
 	}
-	text += nodeData.id + '<br/>';
-	text += node.position.x + ' ' + node.position.y;
 	return text;
 }
 
@@ -417,6 +483,27 @@ function nodeImage(node) {
 	return '';
 }
 
+function getNewPolish(polish, isWant) {
+	var wantPolish, realPolish;
+
+	realPolish = polish % 10;
+	wantPolish = Math.floor(polish / 10);
+	if (isWant) {
+		if (wantPolish === 0) {
+			wantPolish = realPolish;
+		}
+		wantPolish++;
+	} else {
+		realPolish++;
+	}
+	realPolish = realPolish % 4;
+	wantPolish = wantPolish % 4;
+	if (realPolish >= wantPolish) {
+		wantPolish = 0;
+	}
+	return wantPolish * 10 + realPolish;
+}
+
 	var atlasMove = false,
 		svg = document.getElementById('atlas'),
 		atlases =
@@ -439,10 +526,10 @@ function nodeImage(node) {
 						{ title: this.skill.title
 						, text: this.skill.description
 						}
-					, show: {delay: 300}
+					, show: {delay: 250}
 					, position:
-						{ my: 'top left'
-						, at: 'bottom right'
+						{ my: 'top center'
+						, at: 'bottom center'
 						, viewport: $(document)
 						}
 					, style:
@@ -462,8 +549,8 @@ function nodeImage(node) {
 		{ props: ['stat', 'atlas']
 		, template: '#stat-template'
 		, methods:
-			{ findStat: function(stat, isOpen, isRevelation) {
-					var startPos = stat.pos, pos = stat.pos, nodeData;
+			{ findStat: function(stat, isOpen, isRevelation, polish) {
+					var startPos = stat.pos, pos = stat.pos, node, nodeData;
 
 					do {
 						nodeData = stat.node[pos].data;
@@ -471,12 +558,29 @@ function nodeImage(node) {
 							nodeData.need
 								.hasOwnProperty('revelation') === isRevelation)
 						{
-							center(this.atlas, stat.node[pos].position);
+							if (polish !== false &&
+								nodeData.polish % 10 !== polish)
+							{
+								pos = (pos + 1) % stat.node.length;
+								continue;
+							}
+							node = stat.node[pos];
+							center(this.atlas, node.position);
+							$('#tooltip').qtip('api')
+								.toggle(true)
+								.set(
+								{ 'content.title': renderTitle(node)
+								, 'content.text': renderText(node, true)
+								, 'position.target': false
+								});
 							stat.pos = (pos + 1) % stat.node.length;
 							return;
 						}
 						pos = (pos + 1) % stat.node.length;
 					} while (startPos !== pos);
+				}
+			, hideTooltip: function() {
+					$('#tooltip').qtip('api').toggle(false);
 				}
 			, nodeImage: nodeImage
 			}
@@ -484,33 +588,72 @@ function nodeImage(node) {
 	Vue.component('node',
 		{ props: ['node']
 		, template: '#node-template'
-		, ready: function() {
-				if (this.node.data.nodeImage === 'empty') {
-					return;
+		, watch:
+			{ 'node.data.polish': function(newValue, oldValue) {
+					var oldWantPolish, oldRealPolish;
+					var newWantPolish, newRealPolish;
+					var atlas = this.$parent.atlas;
+					var atlasSpark = atlas.sparks.got;
+					var atlasStat = atlas.stat.got;
+					var nodeData = this.node.data;
+					var delta = nodeData.give.prestige * 0.5;
+					var i, cost = ['', 'bronze', 'silver', 'gold'], stat;
+					var change;
+
+					oldRealPolish = oldValue % 10;
+					oldWantPolish = Math.floor(oldValue / 10);
+					newRealPolish = newValue % 10;
+					newWantPolish = Math.floor(newValue / 10);
+					if (oldWantPolish !== 0 && newWantPolish === 0) {
+						for (i = oldWantPolish; i > oldRealPolish; i--) {
+							need[cost[i]] -= delta * 10 * i;
+						}
+						change = oldWantPolish - oldRealPolish;
+						need.core -= change;
+						for (stat in nodeData.give) {
+							if (stat === 'dex') { continue; }
+							recive[stat] -= delta * change;
+						}
+					}
+					if (newWantPolish > oldWantPolish) {
+						need[cost[newWantPolish]] +=
+							delta * 10 * newWantPolish;
+						need.core++;
+						for (stat in nodeData.give) {
+							if (stat === 'dex') { continue; }
+							recive[stat] += delta;
+						}
+					}
+					if (oldRealPolish === 3 && newRealPolish === 0) {
+						for (i = 3; i > 0; i--) {
+							atlasSpark[cost[i]] -= delta * 10 * i;
+						}
+						for (stat in nodeData.give) {
+							if (stat === 'dex') { continue; }
+							atlasStat[stat] -= delta * 3;
+						}
+						atlasSpark.core -= 3;
+					}
+					if (newRealPolish - oldRealPolish === 1) {
+						if (newWantPolish !== 0) {
+							need[cost[newRealPolish]] -=
+								delta * 10 * newRealPolish;
+							need.core--;
+						}
+						atlasSpark[cost[newRealPolish]] +=
+							delta * 10 * newRealPolish;
+						for (stat in nodeData.give) {
+							if (stat === 'dex') { continue; }
+							if (newWantPolish !== 0) {
+								recive[stat] -= delta;
+							}
+							atlasStat[stat] += delta;
+						}
+						atlasSpark.core++;
+					}
+					$('#tooltip').qtip('api')
+						.set('content.text', renderText(this.node, true));
 				}
-				$(this.$el).qtip(
-					{ content:
-						{ title: renderTitle(this.node)
-						, text: renderText(this.node, true)
-						}
-					, show:
-						{ delay: 300
-						, effect: false
-						}
-					, hide:
-						{ fixed: true
-						, delay: 500
-						}
-					, position:
-						{ my: 'top left'
-						, at: 'bottom right'
-						, viewport: $(document)
-						}
-					, style:
-						{ classes: 'qtip qtip-dark qtip-round'
-						, tip: {corner: false}
-						}
-					});
 			}
 		, methods:
 			{ radius: function(node) {
@@ -523,6 +666,15 @@ function nodeImage(node) {
 			, hoverNode: function(node) {
 					var cy = this.$parent.atlas.cy;
 
+					if (node.data.nodeImage !== 'empty') {
+						$('#tooltip').qtip('api')
+							.toggle(true)
+							.set(
+							{ 'content.title': renderTitle(node)
+							, 'content.text': renderText(node, true)
+							, 'position.target': $(this.$el.nextElementSibling)
+							});
+					}
 					if (node.data.start || node.data.want || atlasMove) {
 						return;
 					}
@@ -536,20 +688,36 @@ function nodeImage(node) {
 					}
 				}
 			, unHoverNode: function() {
+					$('#tooltip').qtip('api').toggle(false);
+					console.log('hide');
 					if (tempPath.found) {
 						tempPath.path.data('hover', false);
 						tempPath.found = false;
 					}
 				}
-			, getNode: function(node) {
+			, getNode: function(node, ev) {
 					var atlas = this.$parent.atlas;
-					var atlasSpark = atlas.sparks;
-					var atlasStat = atlas.stat;
+					var atlasSpark = atlas.sparks.got;
+					var atlasStat = atlas.stat.got;
 					var cy = atlas.cy;
 					var openPath, nodeData;
 					var i, l, spark, stat, isFound;
 
 					if (node.data.start || atlasMove) {
+						return;
+					}
+					if (ev.altKey) {
+						nodeData = node.data;
+						if (!nodeData.open ||
+							!nodeData.hasOwnProperty('polish') ||
+							node.classes !== 'stat' || nodeData.give.majesty)
+						{
+							return;
+						}
+						nodeData.polish = getNewPolish(nodeData.polish, false);
+						addNode(atlas,
+							nodeData.id.slice(1), nodeData.polish % 4);
+						saveAtlas(atlas);
 						return;
 					}
 					if (node.data.open) {
@@ -564,10 +732,10 @@ function nodeImage(node) {
 							}
 							nodeData = openPath[i].data();
 							for (spark in nodeData.need) {
-								atlasSpark[spark].$set(0, atlasSpark[spark][0] - nodeData.need[spark]);
+								atlasSpark[spark] -= nodeData.need[spark];
 							}
 							for (stat in nodeData.give) {
-								atlasStat[stat].$set(0, atlasStat[stat][0] - nodeData.give[stat]);
+								atlasStat[stat] -= nodeData.give[stat];
 							}
 							openPath[i].data('polish', 0);
 							removeNode(atlas, openPath[i].id().slice(1));
@@ -588,13 +756,13 @@ function nodeImage(node) {
 							nodeData = openPath[i].data();
 							isFound = nodeData.want;
 							for (spark in nodeData.need) {
-								atlasSpark[spark].$set(0, atlasSpark[spark][0] + nodeData.need[spark]);
+								atlasSpark[spark] += nodeData.need[spark];
 								if (isFound) {
 									need[spark] -= nodeData.need[spark];
 								}
 							}
 							for (stat in nodeData.give) {
-								atlasStat[stat].$set(0, atlasStat[stat][0] + nodeData.give[stat]);
+								atlasStat[stat] += nodeData.give[stat];
 								if (isFound) {
 									recive[stat] -= nodeData.give[stat];
 								}
@@ -609,18 +777,29 @@ function nodeImage(node) {
 						}).data({open: true, want: false, hover: false});
 					}
 					saveAtlas(atlas);
-					if (atlasSpark.all) {
-						atlasSpark.all.$set(0,
-							atlasSpark.red[0] + atlasSpark.green[0] +
-							atlasSpark.blue[0]);
+					if (atlasSpark.hasOwnProperty('all')) {
+						atlasSpark.all =
+							atlasSpark.red + atlasSpark.green + atlasSpark.blue;
 						need.all = need.red + need.green + need.blue;
 					}
 				}
-			, findPath: function(node) {
-					var cy = this.$parent.atlas.cy;
+			, findPath: function(node, ev) {
+					var atlas = this.$parent.atlas;
+					var cy = atlas.cy;
 					var needPath, nodeData;
 
-					if (node.data.open || node.data.want) {
+					nodeData = node.data;
+					if (ev.altKey) {
+						nodeData = node.data;
+						if (!nodeData.hasOwnProperty('polish') ||
+							node.classes !== 'stat' || nodeData.give.majesty)
+						{
+							return;
+						}
+						nodeData.polish = getNewPolish(nodeData.polish, true);
+						return;
+					}
+					if (nodeData.want || nodeData.open) {
 						return;
 					}
 					cy.elements('[?want]').data('want', false);
@@ -761,4 +940,30 @@ function nodeImage(node) {
 		}
 	);
 	initCy(atlases);
+	$('#tooltip').qtip(
+		{ content:
+			{ title: ''
+			, text: ''
+			}
+		, show:
+			{ delay: 250
+			, effect: false
+			, target: false
+			}
+		, hide:
+			{ target: false
+			, effect: false
+			}
+		, position:
+			{ my: 'top left'
+			, at: 'bottom right'
+			, viewport: $(document)
+			, effect: false
+			}
+		, style:
+			{ classes: 'qtip qtip-dark qtip-round'
+			, tip: {corner: false}
+			}
+		});
+	$('#tooltip').qtip('api').hide();
 });

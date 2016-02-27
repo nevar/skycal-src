@@ -29826,22 +29826,31 @@ var atlas =
 	, edges: edgesData
 	, mX: 0, mY: 0
 	, scale: 1
-	, sparks:
-		{ red: [0, 0], green: [0, 0], blue: [0, 0], all: [0, 0]
-		, transformation: [0, 0], revelation: [0, 0], god: [0, 0]
-		}
-	, stat:
-		{ prestige: [0, 0]
-		, power: [0, 0], vit: [0, 0]
-		, str: [0, 0],  valor: [0, 0], luck: [0, 0], spirit: [0, 0]
-		, majesty: [0, 0], dex: [0, 0]
-		}
+	, sparks: {got: {}, total: {}}
+	, stat: {got: {}, total: {}}
 	, group: {skill: {}, stat: {}}
 	/* jshint bitwise: false */
 	, _polish: (nodesData.length >> 3) + 1
 	, _plainData: new Array(((nodesData.length >> 3) + 1) * 3)
 	/* jshint bitwise: true */
 	};
+	var i;
+	var sparks =
+		[ 'red', 'green', 'blue', 'all', 'transformation', 'revelation', 'god'
+		, 'bronze', 'silver', 'gold', 'core'
+		];
+	var stat =
+		[ 'prestige', 'power', 'vit', 'str', 'valor', 'luck', 'spirit'
+		, 'majesty', 'dex'];
+
+	for (i = 0; i < sparks.length; i++) {
+		atlas.sparks.got[sparks[i]] = 0;
+		atlas.sparks.total[sparks[i]] = 0;
+	}
+	for (i = 0; i < stat.length; i++) {
+		atlas.stat.got[stat[i]] = 0;
+		atlas.stat.total[stat[i]] = 0;
+	}
 	atlas._plainData[1] = 1;
 	atlas._plainData[3] = 1;
 	atlas._plainData[5] = 1;

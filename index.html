@@ -11,22 +11,78 @@
 				:src='"images/nodes/" + skill.nodeImage + ".png"'></img>
 		</script>
 		<script type='text/x-template' id='stat-template'>
-			<svg class='unselectable' width='112' height='28'>
-				<circle class='open' cx='14' :cy='14' r='12'
+			<svg class='unselectable' width='262' height='40'>
+				<circle cx='14' cy='18' r='12'
 					:fill='nodeImage(stat.node[0])'
-					@click='findStat(stat, true, false)'/>
-				<circle v-if='atlas.sparks.revelation'
-					class='open' cx='42' :cy='14' r='12'
-					fill='url(#revelation)'
-					@click='findStat(stat, true, true)'/>
-				<circle cx='70' :cy='14' r='12' :fill='nodeImage(stat.node[0])'
-					@click='findStat(stat, false, false)'/>
-				<circle v-if='atlas.sparks.revelation'
-					cx='98' :cy='14' r='12' fill='url(#revelation)'
-					@click='findStat(stat, false, true)'/>
+					@mouseout='hideTooltip()'
+					@click='findStat(stat, false, false, false)'/>
+				<template v-if='stat.image !== "majesty"'>
+					<circle class='open' cx='42' cy='18' r='12'
+						:fill='nodeImage(stat.node[0])'
+						@mouseout='hideTooltip()'
+						@click='findStat(stat, true, false, 0)'/>
+					<template v-if='atlas.polish'>
+						<circle class='polish_1'
+							cx='73' cy='20' r='17' fill='none'/>
+						<circle class='open' cx='73' cy='20' r='12'
+							:fill='nodeImage(stat.node[0])'
+							@mouseout='hideTooltip()'
+							@click='findStat(stat, true, false, 1)'/>
+						<circle class='polish_2'
+							cx='111' cy='20' r='17' fill='none'/>
+						<circle class='open' cx='111' cy='20' r='12'
+							:fill='nodeImage(stat.node[0])'
+							@mouseout='hideTooltip()'
+							@click='findStat(stat, true, false, 2)'/>
+					</template>
+					<template v-if='atlas.sparks.total.revelation'>
+						<template v-if='atlas.polish'>
+							<circle cx='144' cy='20' r='12'
+								fill='url(#revelation)'
+								@mouseout='hideTooltip()'
+								@click='findStat(stat, false, true, 0)'/>
+							<circle class='open' cx='172' cy='20' r='12'
+								fill='url(#revelation)'
+								@mouseout='hideTooltip()'
+								@click='findStat(stat, true, true, 0)'/>
+							<circle class='polish_1'
+								cx='205' cy='20' r='17' fill='none'/>
+							<circle class='open' cx='205' cy='20' r='12'
+								fill='url(#revelation)'
+								@mouseout='hideTooltip()'
+								@click='findStat(stat, true, true, 1)'/>
+							<circle class='polish_2'
+								cx='243' cy='20' r='17' fill='none'/>
+							<circle class='open'
+								cx='243' :cy='20' r='12' fill='url(#revelation)'
+								@mouseout='hideTooltip()'
+								@click='findStat(stat, true, true, 2)'/>
+						</template>
+						<template v-else>
+							<circle cx='70' cy='20' r='12'
+								fill='url(#revelation)'
+								@mouseout='hideTooltip()'
+								@click='findStat(stat, false, true, false)'/>
+							<circle class='open' cx='98' cy='20' r='12'
+								fill='url(#revelation)'
+								@mouseout='hideTooltip()'
+								@click='findStat(stat, true, true, false)'/>
+						</template>
+					</template>
+				</template>
 			</svg>
 		</script>
 		<script type='text/x-template' id='node-template'>
+			<circle v-if='node.data.polish'
+				class='want_polish_{{ Math.floor(node.data.polish / 10) }}'
+				:cx='node.position.x' :cy='node.position.y'
+				:r='radius(node)+5' fill='none'
+				/>
+			<circle v-if='node.data.polish'
+				class='polish_{{ node.data.polish % 10}}'
+				:cx='node.position.x' :cy='node.position.y'
+				:r='radius(node)+5' fill='none'
+				/>
 			<circle
 				:class='
 					{ "open": node.data.open
@@ -38,8 +94,8 @@
 				:r='radius(node)' :fill='nodeImage(node)'
 				@mouseover='hoverNode(node)'
 				@mouseout='unHoverNode(node)'
-				@click='getNode(node)'
-				@contextmenu.stop.prevent='findPath(node)'
+				@click='getNode(node, $event)'
+				@contextmenu.stop.prevent='findPath(node, $event)'
 				/>
 		</script>
 		<script type='text/x-template' id='edge-template'>
@@ -77,6 +133,7 @@
 		<link rel='stylesheet' type='text/css' href='stylesheets/svg.css' media='screen'>
 	</head>
 <body>
+	<div id='tooltip'></div>
 	<div id='container' @mousemove='atlasMove' @mouseup='mouseUp'>
 		<div id='left'>
 			<div id='select_atlas'>
@@ -133,17 +190,21 @@
 			<div id='need' v-cloak>
 				<div v-for='atlas in atlases' v-show='selected == $index'>
 					<div class='need_spark'
-						v-for='(name, spark) in atlas.sparks'>
+						v-for='(name, spark) in atlas.sparks.total'>
 						<img :src='"images/spark/" + name + ".png"'></img>
-						{{ need[name] }}/{{ spark[0] }}/{{ spark[1] }}
+						<div class='table'>
+							<span class='row'>{{ Math.ceil(need[name]) }}</span>
+							<span class='row'>{{ Math.ceil(atlas.sparks.got[name]) }}</span>
+							<span class='row'>{{ Math.ceil(spark) }}</span></div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id='right' v-cloak>
 				<div v-for='atlas in atlases' v-show='selected == $index'>
-					<div v-for='(name, stat) in atlas.stat'>
-						{{* statName[name] }}: <span>{{ recive[name] }}</span>/<span>{{ stat[0] }}</span>/<span>{{* stat[1] }}</span>
+					<div v-for='(name, stat) in atlas.stat.total'>
+						{{* statName[name] }}:
+						<span>{{ Math.ceil(recive[name]) }}</span>/<span>{{ Math.ceil(atlas.stat.got[name]) }}</span>/<span>{{* Math.ceil(stat) }}</span>
 						<br/>
 						<stat v-if='atlas.group.stat[name]'
 							:stat.once='atlas.group.stat[name]'

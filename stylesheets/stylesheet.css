@@ -37,6 +37,12 @@ html, body {
 	vertical-align: middle;
 }
 
+#tooltip {
+	position: fixed;
+	left: 39.5%;
+	top: 44.5%;
+}
+
 .stat span {
 	float: right;
 	margin-left: 10px;
@@ -135,5 +141,27 @@ table div {
 
 div.need_spark {
 	display: inline-block;
-	padding: 0 5px 0 0;
+	padding: 0 5px 0 5px;
+	border-left: 1px dashed #b5e853;
+}
+
+.polish_cell {
+	padding: 5px 5px 5px 5px;
+}
+
+.polish_cell img {
+	vertical-align: middle;
+}
+
+.polish_cell span {
+	float: right;
+	text-align: right;
+}
+
+.table {
+	display: table;
+}
+
+.row {
+	display: table-row;
 }

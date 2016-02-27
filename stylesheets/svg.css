@@ -17,7 +17,7 @@ circle.open.big {
 }
 
 circle.want {
-	stroke: #0066CC
+	stroke: #0066CC;
 }
 
 circle.hover {
@@ -64,4 +64,40 @@ path.open.hover, line.open.hover {
 	stroke: red;
 }
 
+circle.polish_0 {
+	stroke: none;
+}
 
+circle.polish_1 {
+	stroke: yellow;
+	stroke-dasharray: 0 4.45058 26.7035 1000;
+}
+
+circle.polish_2 {
+	stroke: yellow;
+	stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 1000;
+}
+
+circle.polish_3 {
+	stroke: yellow;
+	stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 8.9012 26.7035 1000;
+}
+
+circle.want_polish_0 {
+	stroke: none;
+}
+
+circle.want_polish_1 {
+	stroke: #0066CC;
+	stroke-dasharray: 0 4.45058 26.7035 1000;
+}
+
+circle.want_polish_2 {
+	stroke: #0066CC;
+	stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 1000;
+}
+
+circle.want_polish_3 {
+	stroke: #0066CC;
+	stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 8.9012 26.7035 1000;
+}
