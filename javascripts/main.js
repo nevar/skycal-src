@@ -414,31 +414,22 @@ function foundPath(cy, to, excludeNode, useNode) {
 
 function getUnopen(cy, nodeID) {
 	var node = cy.elements(nodeID),
-		curNode,
-		nextNode = cy.elements('[?start]').toArray(),
-		connectedEdges, edge, otherNode,
-		elements = cy.elements('[?start]'),
-		path;
+		connected, components,
+		startNode = cy.elements('[?start]'),
+		removed;
 
-	do {
-		curNode = nextNode.pop();
-        connectedEdges = curNode.connectedEdges('[?open]');
-        for (var j = 0, l = connectedEdges.length; j < l; j++) {
-			edge = connectedEdges[j];
-			otherNode = edge.connectedNodes().not(node).not(curNode);
-			if (otherNode.length === 0 || otherNode.same(node)) {
-				continue;
-			}
-			if (elements.anySame(otherNode)) {
-				elements = elements.union(edge);
-			} else {
-				elements = elements.union([otherNode[0], edge]);
-				nextNode.push(otherNode[0]);
-			}
+	connected = node.connectedEdges('[?open]');
+	connected = connected.add(node);
+	removed = connected.remove();
+	components = cy.elements('[?open]').components();
+	removed.restore();
+	for (var i = 0, l = components.length; i < l; i++) {
+		if (components[i].anySame(startNode)) {
+			continue;
 		}
-	} while (nextNode.length !== 0);
-	path = cy.elements('[?open]').difference(elements);
-	return {found: path.length !== 0, path: path};
+		connected = connected.union(components[i]);
+	}
+	return {found: true, path: connected};
 }
 
 function clearNeed() {
