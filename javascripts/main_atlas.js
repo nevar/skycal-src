@@ -23607,7 +23607,7 @@ var nodesData =
 			{ _id: 'n2285'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 650}
-			, _give: {prestige: 75, vit: 75, dex: -36}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3900,  y: -2140}
 		, _classes: 'stat'
@@ -23617,7 +23617,7 @@ var nodesData =
 			{ _id: 'n2286'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 490}
-			, _give: {prestige: 50, vit: 50, dex: -42}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3952, y: -2230}
 		, _classes: 'stat'
@@ -23637,7 +23637,7 @@ var nodesData =
 			{ _id: 'n2288'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 490}
-			, _give: {prestige: 50, vit: 50, dex: -42}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3805, y: -2260}
 		, _classes: 'stat'
@@ -23657,7 +23657,7 @@ var nodesData =
 			{ _id: 'n2290'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 490}
-			, _give: {prestige: 27, power: 27, dex: -42}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3995, y: -2140}
 		, _classes: 'stat'
@@ -23667,7 +23667,7 @@ var nodesData =
 			{ _id: 'n2291'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 650}
-			, _give: {prestige: 75, vit: 75, dex: -36}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3995, y: -2260}
 		, _classes: 'stat'
@@ -23687,7 +23687,7 @@ var nodesData =
 			{ _id: 'n2293'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 490}
-			, _give: {prestige: 27, power: 27, dex: -42}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3961, y: -2310}
 		, _classes: 'stat'
@@ -23697,7 +23697,7 @@ var nodesData =
 			{ _id: 'n2294'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 810}
-			, _give: {prestige: 53, power: 53, dex: -30}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 3839, y: -2090}
 		, _classes: 'stat'
@@ -23717,7 +23717,7 @@ var nodesData =
 			{ _id: 'n2296'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 810}
-			, _give: {prestige: 100, vit: 100, dex: -30}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3900, y: -2310}
 		, _classes: 'stat'
@@ -23758,7 +23758,7 @@ var nodesData =
 			{ _id: 'n2300'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 650}
-			, _give: {prestige: 75, vit: 75, dex: -36}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3500,  y: -2140}
 		, _classes: 'stat'
@@ -23768,7 +23768,7 @@ var nodesData =
 			{ _id: 'n2301'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 810}
-			, _give: {prestige: 53, power: 53, dex: -30}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 3552, y: -2230}
 		, _classes: 'stat'
@@ -23778,7 +23778,7 @@ var nodesData =
 			{ _id: 'n2302'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 650}
-			, _give: {prestige: 40, power: 40, dex: -36}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3448, y: -2230}
 		, _classes: 'stat'
@@ -23788,7 +23788,7 @@ var nodesData =
 			{ _id: 'n2303'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 650}
-			, _give: {prestige: 75, vit: 75, dex: -36}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: 3405, y: -2260}
 		, _classes: 'stat'
@@ -23808,7 +23808,7 @@ var nodesData =
 			{ _id: 'n2305'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 490}
-			, _give: {prestige: 50, vit: 50, dex: -42}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3595, y: -2140}
 		, _classes: 'stat'
@@ -23818,7 +23818,7 @@ var nodesData =
 			{ _id: 'n2306'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 650}
-			, _give: {prestige: 40, power: 40, dex: -36}
+			, _give: {prestige: 40, power: 40, dex: 24}
 			}
 		, _position: {x: 3595, y: -2260}
 		, _classes: 'stat'
@@ -23828,7 +23828,7 @@ var nodesData =
 			{ _id: 'n2307'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 490}
-			, _give: {prestige: 50, vit: 50, dex: -42}
+			, _give: {prestige: 50, vit: 50, dex: 18}
 			}
 		, _position: {x: 3500, y: -2310}
 		, _classes: 'stat'
@@ -23838,7 +23838,7 @@ var nodesData =
 			{ _id: 'n2308'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 490}
-			, _give: {prestige: 27, power: 27, dex: -42}
+			, _give: {prestige: 27, power: 27, dex: 18}
 			}
 		, _position: {x: 3500, y: -2090}
 		, _classes: 'stat'
@@ -23848,7 +23848,7 @@ var nodesData =
 			{ _id: 'n2309'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 810}
-			, _give: {prestige: 53, power: 53, dex: -30}
+			, _give: {prestige: 53, power: 53, dex: 30}
 			}
 		, _position: {x: 3500, y: -2357}
 		, _classes: 'stat'
@@ -23858,7 +23858,7 @@ var nodesData =
 			{ _id: 'n2310'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 810}
-			, _give: {prestige: 100, vit: 100, dex: -30}
+			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: 3500, y: -2043}
 		, _classes: 'stat'
