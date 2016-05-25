@@ -1,35 +1,35 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
-  color: #eaeaea;
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	margin: 0;
+	padding: 0;
+	background: #151515 url("../images/bkg.png") 0 0;
+	color: #eaeaea;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 /* General & 'Reset' Stuff */
 
 #container {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
 }
 
 table {
-  width: 100%;
-  margin: 0 0 0 0;
+	width: 100%;
+	margin: 0 0 0 0;
 }
 
 hr {
-  height: 0;
-  border: 0;
-  border-bottom: 1px dashed #b5e853;
-  color: #b5e853;
+	height: 0;
+	border: 0;
+	border-bottom: 1px dashed #b5e853;
+	color: #b5e853;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
 }
 
 .tooltip-title img,
@@ -164,4 +164,8 @@ div.need_spark {
 
 .row {
 	display: table-row;
+}
+
+label {
+	white-space:nowrap;
 }

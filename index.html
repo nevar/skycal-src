@@ -10,68 +10,6 @@
 			<img class='skill' @click='findSkill(skill)'
 				:src='"images/nodes/" + skill.nodeImage + ".png"'></img>
 		</script>
-		<script type='text/x-template' id='stat-template'>
-			<svg class='unselectable' width='262' height='40'>
-				<circle cx='14' cy='18' r='12'
-					:fill='nodeImage(stat.node[0])'
-					@mouseout='hideTooltip()'
-					@click='findStat(stat, false, false, false)'/>
-				<template v-if='stat.image !== "majesty"'>
-					<circle class='open' cx='42' cy='18' r='12'
-						:fill='nodeImage(stat.node[0])'
-						@mouseout='hideTooltip()'
-						@click='findStat(stat, true, false, 0)'/>
-					<template v-if='atlas.polish'>
-						<circle class='polish_1'
-							cx='73' cy='20' r='17' fill='none'/>
-						<circle class='open' cx='73' cy='20' r='12'
-							:fill='nodeImage(stat.node[0])'
-							@mouseout='hideTooltip()'
-							@click='findStat(stat, true, false, 1)'/>
-						<circle class='polish_2'
-							cx='111' cy='20' r='17' fill='none'/>
-						<circle class='open' cx='111' cy='20' r='12'
-							:fill='nodeImage(stat.node[0])'
-							@mouseout='hideTooltip()'
-							@click='findStat(stat, true, false, 2)'/>
-					</template>
-					<template v-if='atlas.sparks.total.revelation'>
-						<template v-if='atlas.polish'>
-							<circle cx='144' cy='20' r='12'
-								fill='url(#revelation)'
-								@mouseout='hideTooltip()'
-								@click='findStat(stat, false, true, 0)'/>
-							<circle class='open' cx='172' cy='20' r='12'
-								fill='url(#revelation)'
-								@mouseout='hideTooltip()'
-								@click='findStat(stat, true, true, 0)'/>
-							<circle class='polish_1'
-								cx='205' cy='20' r='17' fill='none'/>
-							<circle class='open' cx='205' cy='20' r='12'
-								fill='url(#revelation)'
-								@mouseout='hideTooltip()'
-								@click='findStat(stat, true, true, 1)'/>
-							<circle class='polish_2'
-								cx='243' cy='20' r='17' fill='none'/>
-							<circle class='open'
-								cx='243' :cy='20' r='12' fill='url(#revelation)'
-								@mouseout='hideTooltip()'
-								@click='findStat(stat, true, true, 2)'/>
-						</template>
-						<template v-else>
-							<circle cx='70' cy='20' r='12'
-								fill='url(#revelation)'
-								@mouseout='hideTooltip()'
-								@click='findStat(stat, false, true, false)'/>
-							<circle class='open' cx='98' cy='20' r='12'
-								fill='url(#revelation)'
-								@mouseout='hideTooltip()'
-								@click='findStat(stat, true, true, false)'/>
-						</template>
-					</template>
-				</template>
-			</svg>
-		</script>
 		<script type='text/x-template' id='node-template'>
 			<circle v-if='node.data.polish'
 				class='want_polish_{{ Math.floor(node.data.polish / 10) }}'
@@ -204,18 +142,65 @@
 				<div v-for='atlas in atlases' v-show='selected == $index'>
 					<div v-for='(name, stat) in atlas.stat.total'>
 						{{* statName[name] }}:
-						<span>{{ Math.ceil(recive[name]) }}</span>/<span>{{ Math.ceil(atlas.stat.got[name]) }}</span>/<span>{{* Math.ceil(stat) }}</span>
-						<br/>
-						<stat v-if='atlas.group.stat[name]'
-							:stat.once='atlas.group.stat[name]'
-							:atlas.once='atlas'>
-						</stat>
+						<span>{{ Math.ceil(recive[name]).toLocaleString() }}</span>/
+						<span>{{ Math.ceil(atlas.stat.got[name]).toLocaleString() }}</span>/
+						<span>{{* Math.ceil(stat).toLocaleString() }}</span>
 					</div>
 					<hr>
-					<span v-for='skill in atlas.group.skill | orderBy "title"'>
-						<skill :skill.once='skill' :atlas.once='atlas'></skill>
-					</span>
+					<details>
+						<summary>Поиск скиллов</summary>
+						<span v-for='skill in atlas.group.skill | orderBy "title"'>
+							<skill :skill.once='skill' :atlas.once='atlas'></skill>
+						</span>
+					</details>
 				</div>
+				<hr/>
+				<details>
+					<summary>Поиск вершины</summary>
+					<label>
+						Что даёт
+						<select v-model='statFind.statName'>
+							<template v-for='(name, stat) in atlases[selected].group.stat'>
+							<option value='{{ name }}'>
+									{{* statName[name] }}
+								</option>
+							</template>
+						</select>
+					</label>
+					<label>
+						Сколько даёт
+						<select v-model='statFind.value'>
+							<option v-bind:value='-1' selected>Не важно</option>
+							<template v-for='give in atlases[selected].group.stat[statFind.statName].give'>
+								<option v-bind:value='give'>{{ give }}</option>
+							</template>
+						</select>
+					</label>
+					<template v-if='atlases[selected].polish'>
+						<label>
+							Отполировано
+							<select v-model='statFind.polish'>
+								<option v-bind:value='-1' selected>Не важно</option>
+								<option v-bind:value='0'>ни разу</option>
+								<option v-bind:value='1'>1 раз</option>
+								<option v-bind:value='2'>2 раза</option>
+								<option v-bind:value='3'>3 раза</option>
+							</select>
+						</label>
+					</template>
+					<label>
+						Доступность
+						<select v-model='statFind.isOpen'>
+							<option v-bind:value='-1' selected>Не важно</option>
+							<option v-bind:value='false'>Не взята</option>
+							<option v-bind:value='true'>Взята</option>
+						</select>
+					</label>
+					<br/>
+					<input type='button' value='Искать'
+						@click='findNode' @mouseleave='hideTooltip'>
+					</input>
+				</details>
 		</div>
 	</div>
 	<script src='javascripts/vendor/jquery-1.11.3.min.js'></script>

@@ -149,7 +149,7 @@ function calcTotal(atlases) {
 }
 
 function groupSkill(atlases) {
-	var atlas, nodesData, node, nodeData, ID, skill, stat, pos;
+	var atlas, nodesData, node, nodeData, ID, skill, stat, pos, give;
 
 	for (var atlasID in atlases) {
 		atlas = atlases[atlasID];
@@ -176,24 +176,35 @@ function groupSkill(atlases) {
 			} else if(node._classes === 'stat') {
 				if (nodeData._give.vit) {
 					ID = 'vit';
+					give = nodeData._give.vit;
 				} else if (nodeData._give.power) {
 					ID = 'power';
+					give = nodeData._give.power;
 				} else if (nodeData._give.str) {
 					ID = 'str';
+					give = nodeData._give.str;
 				} else if (nodeData._give.valor) {
 					ID = 'valor';
+					give = nodeData._give.valor;
 				} else if (nodeData._give.spirit) {
 					ID = 'spirit';
+					give = nodeData._give.spirit;
 				} else if (nodeData._give.luck) {
 					ID = 'luck';
+					give = nodeData._give.luck;
 				} else if (nodeData._give.majesty) {
 					ID = 'majesty';
+					give = nodeData._give.majesty;
 				}
 				if (!pos[ID]) {
 					pos[ID] = [];
-					stat[ID] = {image: ID, pos: 0, node: pos[ID]};
+					stat[ID] =
+						{ image: ID, pos: 0, node: pos[ID]
+						, give: {}, cost: {}, show: false
+						};
 				}
 				pos[ID].push(node);
+				stat[ID].give[give] = give;
 			}
 		}
 		atlas.group.skill = skill;
@@ -537,46 +548,6 @@ function getNewPolish(polish, isWant) {
 				}
 			}
 		});
-	Vue.component('stat',
-		{ props: ['stat', 'atlas']
-		, template: '#stat-template'
-		, methods:
-			{ findStat: function(stat, isOpen, isRevelation, polish) {
-					var startPos = stat.pos, pos = stat.pos, node, nodeData;
-
-					do {
-						nodeData = stat.node[pos].data;
-						if (nodeData.open === isOpen &&
-							nodeData.need
-								.hasOwnProperty('revelation') === isRevelation)
-						{
-							if (polish !== false &&
-								nodeData.polish % 10 !== polish)
-							{
-								pos = (pos + 1) % stat.node.length;
-								continue;
-							}
-							node = stat.node[pos];
-							center(this.atlas, node.position);
-							$('#tooltip').qtip('api')
-								.toggle(true)
-								.set(
-								{ 'content.title': renderTitle(node)
-								, 'content.text': renderText(node, true)
-								, 'position.target': false
-								});
-							stat.pos = (pos + 1) % stat.node.length;
-							return;
-						}
-						pos = (pos + 1) % stat.node.length;
-					} while (startPos !== pos);
-				}
-			, hideTooltip: function() {
-					$('#tooltip').qtip('api').toggle(false);
-				}
-			, nodeImage: nodeImage
-			}
-		});
 	Vue.component('node',
 		{ props: ['node']
 		, template: '#node-template'
@@ -855,6 +826,7 @@ function getNewPolish(polish, isWant) {
 		{ el: '#container'
 		, data:
 			{ selected: 0
+			, statFind: {statName: 'vit', value: -1, polish: -1, isOpen: -1}
 			, statName: statName
 			, atlases: atlases
 			, need: need
@@ -890,6 +862,10 @@ function getNewPolish(polish, isWant) {
 		, watch:
 			{ selected: function() {
 					clearNeed();
+					this.statFind.statName = 'vit';
+					this.statFind.value = -1;
+					this.statFind.polish = -1;
+					this.statFind.isOpen = -1;
 				}
 			}
 		, methods:
@@ -926,6 +902,39 @@ function getNewPolish(polish, isWant) {
 					atlas.mX -= (atlas.mX - mouseX) * (1 - zoom);
 					atlas.mY -= (atlas.mY - mouseY) * (1 - zoom);
 					atlas.scale = newScale;
+				}
+			, findNode: function() {
+					var atlas = this.atlases[this.selected];
+					var statName = this.statFind.statName;
+					var stat = atlas.group.stat[statName];
+					var startPos = stat.pos, pos = stat.pos, node, nodeData;
+					var isOpen = this.statFind.isOpen;
+					var value = this.statFind.value;
+					var polish = this.statFind.polish;
+
+					do {
+						nodeData = stat.node[pos].data;
+						if ((isOpen === -1 || isOpen === nodeData.open) &&
+							(value === -1 || value === nodeData.give[statName]) &&
+							(polish === -1 || nodeData.polish % 10 === polish))
+						{
+							node = stat.node[pos];
+							center(this.atlases[this.selected], node.position);
+							$('#tooltip').qtip('api')
+								.toggle(true)
+								.set(
+								{ 'content.title': renderTitle(node)
+								, 'content.text': renderText(node, true)
+								, 'position.target': false
+								});
+							stat.pos = (pos + 1) % stat.node.length;
+							return;
+						}
+						pos = (pos + 1) % stat.node.length;
+					} while (startPos !== pos);
+				}
+			, hideTooltip: function() {
+					$('#tooltip').qtip('api').toggle(false);
 				}
 			}
 		}
