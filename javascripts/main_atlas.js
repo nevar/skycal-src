@@ -3849,7 +3849,7 @@ var nodesData =
 			{ _id: 'n370'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {blue: 325}
-			, _give: {prestige: 35, valor: 6}
+			, _give: {prestige: 35, valor: 35}
 			}
 		, _position: {x: 1840, y: -560}
 		, _classes: 'stat'
@@ -22126,7 +22126,7 @@ var nodesData =
 			{ _id: 'n2140'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {blue: 575}
-			, _give: {majesty: 30}
+			, _give: {majesty: 250}
 			}
 		, _position: {x: -2018, y: 1710}
 		, _classes: 'stat'
