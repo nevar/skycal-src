@@ -8044,7 +8044,7 @@ var nodesData =
 			{ _id: 'n773'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {blue: 650}
-			, _give: {prestige: 56, luck: 56}
+			, _give: {prestige: 56, valor: 56}
 			}
 		, _position: {x: -1785, y: 0}
 		, _classes: 'stat'
