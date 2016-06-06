@@ -18278,7 +18278,7 @@ var nodesData =
 		{ data:
 			{ _id: 'n1763'
 			, open: false, hover: false, want: false, polish: 0
-			, _need: {green: 865}
+			, _need: {green: 965}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
 		, _position: {x: -2969, y: -110}
