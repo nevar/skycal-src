@@ -15357,12 +15357,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n1480'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: 5330, y: 0}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -15518,12 +15521,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n1496'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 5190, y: 850}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -18831,12 +18836,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n1817'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: 1380, y: 2480}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -20151,12 +20159,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n1945'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: -2660, y: -650}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -20322,12 +20333,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n1962'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _nodeImage: 'majesty'
+			, _need: {blue: 4500}
+			, _give: {majesty: 2000}
 			}
 		, _position: {x: -2040, y: -1200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -20483,12 +20494,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n1978'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: -2500, y: -1200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -20634,12 +20647,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n1993'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: -1150, y: -1740}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -20648,7 +20664,7 @@ var nodesData =
 			, _need: {green: 810}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: -690,  y: -1680}
+		, _position: {x: -690, y: -1680}
 		, _classes: 'stat'
 		}
 	,
@@ -20814,7 +20830,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: -230,  y: -1680}
+		, _position: {x: -230, y: -1680}
 		, _classes: 'stat'
 		}
 	,
@@ -21128,12 +21144,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2041'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: -1610, y: -2280}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -21289,12 +21308,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2057'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: -1150, y: -2280}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -21303,7 +21324,7 @@ var nodesData =
 			, _need: {red: 965}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: -690,  y: -2220}
+		, _position: {x: -690, y: -2220}
 		, _classes: 'stat'
 		}
 	,
@@ -21450,12 +21471,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2073'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: -690, y: -2280}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -21464,7 +21488,7 @@ var nodesData =
 			, _need: {green: 775}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: -230,  y: -2220}
+		, _position: {x: -230, y: -2220}
 		, _classes: 'stat'
 		}
 	,
@@ -21611,12 +21635,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n2089'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _nodeImage: 'majesty'
+			, _need: {blue: 4500}
+			, _give: {majesty: 2000}
 			}
 		, _position: {x: -230, y: -2280}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -21772,12 +21796,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2105'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: -2660, y: 650}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -21933,12 +21960,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2121'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: -2500, y: 1200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -22104,12 +22133,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n2138'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _nodeImage: 'majesty'
+			, _need: {blue: 4500}
+			, _give: {majesty: 2000}
 			}
 		, _position: {x: -2040, y: 1200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -22265,12 +22294,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2154'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: -2070, y: 1740}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -22436,12 +22467,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2171'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: -1610, y: 2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -22597,12 +22631,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2187'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: -2070, y: 2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -22611,7 +22647,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: -500,  y: 2260}
+		, _position: {x: -500, y: 2260}
 		, _classes: 'stat'
 		}
 	,
@@ -22758,12 +22794,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2203'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: -500, y: 2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -22929,12 +22968,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n2220'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _nodeImage: 'majesty'
+			, _need: {blue: 4500}
+			, _give: {majesty: 2000}
 			}
 		, _position: {x: -40, y: 2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -22943,7 +22982,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18}
 			}
-		, _position: {x: 1060,  y: 940}
+		, _position: {x: 1060, y: 940}
 		, _classes: 'stat'
 		}
 	,
@@ -23110,7 +23149,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, valor: 15}
 			}
-		, _position: {x: 1060,  y: -820}
+		, _position: {x: 1060, y: -820}
 		, _classes: 'stat'
 		}
 	,
@@ -23277,7 +23316,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 2660,  y: 510}
+		, _position: {x: 2660, y: 510}
 		, _classes: 'stat'
 		}
 	,
@@ -23444,7 +23483,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 2660,  y: -390}
+		, _position: {x: 2660, y: -390}
 		, _classes: 'stat'
 		}
 	,
@@ -23609,7 +23648,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 3900,  y: -2140}
+		, _position: {x: 3900, y: -2140}
 		, _classes: 'stat'
 		}
 	,
@@ -23746,12 +23785,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2299'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: 3900, y: -2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -23760,7 +23802,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 3500,  y: -2140}
+		, _position: {x: 3500, y: -2140}
 		, _classes: 'stat'
 		}
 	,
@@ -23923,7 +23965,7 @@ var nodesData =
 			, _need: {green: 775}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 3040,  y: -2140}
+		, _position: {x: 3040, y: -2140}
 		, _classes: 'stat'
 		}
 	,
@@ -24070,12 +24112,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2331'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 3040, y: -2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -24084,7 +24128,7 @@ var nodesData =
 			, _need: {blue: 810}
 			, _give: {prestige: 75, str: 75}
 			}
-		, _position: {x: 4420,  y: -1680}
+		, _position: {x: 4420, y: -1680}
 		, _classes: 'stat'
 		}
 	,
@@ -24231,12 +24275,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2347'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 4420, y: -1740}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -24245,7 +24291,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, valor: 38}
 			}
-		, _position: {x: 4880,  y: -1680}
+		, _position: {x: 4880, y: -1680}
 		, _classes: 'stat'
 		}
 	,
@@ -24392,12 +24438,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n2363'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _nodeImage: 'majesty'
+			, _need: {blue: 4500}
+			, _give: {majesty: 2000}
 			}
 		, _position: {x: 4880, y: -1740}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -24563,12 +24609,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2380'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: 4880, y: -2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -24577,7 +24626,7 @@ var nodesData =
 			, _need: {blue: 650}
 			, _give: {prestige: 56, str: 56}
 			}
-		, _position: {x: 4420,  y: -2140}
+		, _position: {x: 4420, y: -2140}
 		, _classes: 'stat'
 		}
 	,
@@ -24724,12 +24773,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n2396'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _nodeImage: 'majesty'
+			, _need: {blue: 4500}
+			, _give: {majesty: 2000}
 			}
 		, _position: {x: 4420, y: -2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -24738,7 +24787,7 @@ var nodesData =
 			, _need: {green: 965}
 			, _give: {prestige: 100, vit: 100, dex: 30}
 			}
-		, _position: {x: 5340,  y: -1210}
+		, _position: {x: 5340, y: -1210}
 		, _classes: 'stat'
 		}
 	,
@@ -24875,12 +24924,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2411'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: 5340, y: -1270}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -24889,7 +24941,7 @@ var nodesData =
 			, _need: {blue: 585}
 			, _give: {prestige: 38, valor: 38}
 			}
-		, _position: {x: 5340,  y: -1680}
+		, _position: {x: 5340, y: -1680}
 		, _classes: 'stat'
 		}
 	,
@@ -25036,12 +25088,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2427'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 5340, y: -1740}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -25050,7 +25104,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 3500,  y: 2260}
+		, _position: {x: 3500, y: 2260}
 		, _classes: 'stat'
 		}
 	,
@@ -25197,12 +25251,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2443'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 3500, y: 2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -25211,7 +25267,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 3040,  y: 2260}
+		, _position: {x: 3040, y: 2260}
 		, _classes: 'stat'
 		}
 	,
@@ -25358,12 +25414,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2459'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 3040, y: 2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -25372,7 +25430,7 @@ var nodesData =
 			, _need: {green: 650}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 3500,  y: 2720}
+		, _position: {x: 3500, y: 2720}
 		, _classes: 'stat'
 		}
 	,
@@ -25519,12 +25577,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2475'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: 3500, y: 2660}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -25533,7 +25594,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, str: 38}
 			}
-		, _position: {x: 3960,  y: 1800}
+		, _position: {x: 3960, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -25670,12 +25731,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n2490'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _nodeImage: 'majesty'
+			, _need: {blue: 4500}
+			, _give: {majesty: 2000}
 			}
 		, _position: {x: 3960, y: 1740}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -25684,7 +25745,7 @@ var nodesData =
 			, _need: {blue: 490}
 			, _give: {prestige: 38, spirit: 38}
 			}
-		, _position: {x: 3960,  y: 2260}
+		, _position: {x: 3960, y: 2260}
 		, _classes: 'stat'
 		}
 	,
@@ -25831,12 +25892,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2506'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 3960, y: 2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -25845,7 +25908,7 @@ var nodesData =
 			, _need: {red: 650}
 			, _give: {prestige: 40, power: 40, dex: 24}
 			}
-		, _position: {x: 4420,  y: 1800}
+		, _position: {x: 4420, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -26008,7 +26071,7 @@ var nodesData =
 			, _need: {green: 775}
 			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
-		, _position: {x: 4420,  y: 2260}
+		, _position: {x: 4420, y: 2260}
 		, _classes: 'stat'
 		}
 	,
@@ -26155,12 +26218,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2538'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: 4420, y: 2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -26326,12 +26392,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2555'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: 4880, y: 1740}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -26340,7 +26409,7 @@ var nodesData =
 			, _need: {blue: 575}
 			, _give: {prestige: 30, majesty: 250}
 			}
-		, _position: {x: 4880,  y: 2260}
+		, _position: {x: 4880, y: 2260}
 		, _classes: 'stat'
 		}
 	,
@@ -26487,12 +26556,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2571'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 4880, y: 2200}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -26501,7 +26572,7 @@ var nodesData =
 			, _need: {red: 810}
 			, _give: {prestige: 53, power: 53, dex: 30}
 			}
-		, _position: {x: 4420,  y: 1330}
+		, _position: {x: 4420, y: 1330}
 		, _classes: 'stat'
 		}
 	,
@@ -26648,12 +26719,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2587'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 4420, y: 1270}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -26819,12 +26892,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n2604'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _nodeImage: 'majesty'
+			, _need: {blue: 4500}
+			, _give: {majesty: 2000}
 			}
 		, _position: {x: 4880, y: 1270}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -26833,7 +26906,7 @@ var nodesData =
 			, _need: {red: 585}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 5340,  y: 1330}
+		, _position: {x: 5340, y: 1330}
 		, _classes: 'stat'
 		}
 	,
@@ -26970,12 +27043,15 @@ var nodesData =
 		{ data:
 			{ _id: 'n2619'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+			, _description: ''
+			, _nodeImage: 'stat'
+			, _need: {blue: 4500}
+			, _give:
+				{prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
 			}
 		, _position: {x: 5340, y: 1270}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	,
 		{ data:
@@ -26984,7 +27060,7 @@ var nodesData =
 			, _need: {red: 585}
 			, _give: {prestige: 27, power: 27, dex: 18}
 			}
-		, _position: {x: 5340,  y: 1800}
+		, _position: {x: 5340, y: 1800}
 		, _classes: 'stat'
 		}
 	,
@@ -27131,12 +27207,14 @@ var nodesData =
 		{ data:
 			{ _id: 'n2635'
 			, open: false, hover: false, want: false, polish: 0
-			, _nodeImage: 'empty'
-			, _need: {}
-			, _give: {}
+			, _title: 'Бонус: Могущество, Выносливость'
+			, _description: ''
+			, _nodeImage: 'sphere'
+			, _need: {red: 4500, green: 4500}
+			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 5340, y: 1740}
-		, _classes: 'empty'
+		, _classes: 'stat'
 		}
 	];
 
@@ -28739,6 +28817,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1479', _target: 'n1476'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1476', _target: 'n1471'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1466', _target: 'n1471'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1466', _target: 'n1480'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1471', _target: 'n1472'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n1478', _target: 'n1428'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n1479', _target: 'n1492'}}
@@ -28751,6 +28830,7 @@ var edgesData =
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1482', _target: 'n1483'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1483', _target: 'n1481'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1481', _target: 'n1485'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1481', _target: 'n1496'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1485', _target: 'n1490'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1490', _target: 'n1493'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1485', _target: 'n1494'}}
@@ -29010,6 +29090,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1810', _target: 'n1802'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1803', _target: 'n1804'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1804', _target: 'n1802'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1804', _target: 'n1817'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1803', _target: 'n1814'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1814', _target: 'n1816'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1816', _target: 'n1813'}}
@@ -29143,6 +29224,7 @@ var edgesData =
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1932', _target: 'n1930'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1931', _target: 'n1932'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1932', _target: 'n1939'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1932', _target: 'n1945'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1939', _target: 'n1933'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1939', _target: 'n1943'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1943', _target: 'n1940'}}
@@ -29154,6 +29236,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1975', _target: 'n1967'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1967', _target: 'n1965'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1965', _target: 'n1966'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1965', _target: 'n1978'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1966', _target: 'n1974'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1967', _target: 'n1971'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1971', _target: 'n1973'}}
@@ -29175,6 +29258,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1951', _target: 'n1949'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1949', _target: 'n1959'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1949', _target: 'n1961'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1949', _target: 'n1962'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1962', _target: 'n1947'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1961', _target: 'n1958'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1958', _target: 'n1948'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1948', _target: 'n1953'}}
@@ -29191,6 +29276,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1986', _target: 'n1990'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1990', _target: 'n1980'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1980', _target: 'n1985'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1980', _target: 'n1993'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1985', _target: 'n1987'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n1987', _target: 'n1991'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1984', _target: 'n1985'}}
@@ -29241,6 +29327,7 @@ var edgesData =
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2027', _target: 'n2028'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2028', _target: 'n2026'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2028', _target: 'n2029'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2028', _target: 'n2041'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2029', _target: 'n2030'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2030', _target: 'n2039'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2027', _target: 'n2032'}}
@@ -29263,6 +29350,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2044', _target: 'n2045'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2045', _target: 'n2055'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2043', _target: 'n2047'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2043', _target: 'n2057'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n2001', _target: 'n2070'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2070', _target: 'n2067'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2067', _target: 'n2062'}}
@@ -29271,6 +29359,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2068', _target: 'n2063'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2063', _target: 'n2059'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2059', _target: 'n2064'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2059', _target: 'n2073'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2064', _target: 'n2072'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2063', _target: 'n2058'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2060', _target: 'n2058'}}
@@ -29287,6 +29376,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2077', _target: 'n2081'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2077', _target: 'n2076'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2075', _target: 'n2076'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2076', _target: 'n2089'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2086', _target: 'n2084'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2084', _target: 'n2079'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2079', _target: 'n2080'}}
@@ -29303,6 +29393,8 @@ var edgesData =
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2092', _target: 'n2090'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2090', _target: 'n2091'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2091', _target: 'n2102'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2091', _target: 'n2105'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2105', _target: 'n2092'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2102', _target: 'n2104'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2104', _target: 'n2101'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2090', _target: 'n2098'}}
@@ -29319,6 +29411,7 @@ var edgesData =
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2106', _target: 'n2107'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2110', _target: 'n2106'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2107', _target: 'n2112'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2107', _target: 'n2121'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2112', _target: 'n2120'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2106', _target: 'n2114'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2114', _target: 'n2116'}}
@@ -29339,6 +29432,8 @@ var edgesData =
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n2137', _target: 'n1839'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2137', _target: 'n2125'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2125', _target: 'n2135'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2125', _target: 'n2138'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2138', _target: 'n2123'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2135', _target: 'n2127'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2127', _target: 'n2130'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n1863', _target: 'n2153'}}
@@ -29352,11 +29447,14 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2152', _target: 'n2142'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2144', _target: 'n2140'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2140', _target: 'n2141'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2140', _target: 'n2154'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2141', _target: 'n2150'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2150', _target: 'n2146'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2150', _target: 'n2147'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2147', _target: 'n2145'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n1919', _target: 'n2170'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2170', _target: 'n2171'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2171', _target: 'n2169'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2170', _target: 'n2168'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2170', _target: 'n2157'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2157', _target: 'n2162'}}
@@ -29381,6 +29479,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2177', _target: 'n2173'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2172', _target: 'n2173'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2173', _target: 'n2174'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2174', _target: 'n2187'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2187', _target: 'n2172'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2174', _target: 'n2175'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2175', _target: 'n2179'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2179', _target: 'n2183'}}
@@ -29403,6 +29503,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2214', _target: 'n2208'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2208', _target: 'n2212'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2212', _target: 'n2209'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2212', _target: 'n2220'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2220', _target: 'n2213'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2209', _target: 'n2207'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n2218', _target: 'n2202'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2202', _target: 'n2193'}}
@@ -29412,6 +29514,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2196', _target: 'n2199'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2199', _target: 'n2195'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2194', _target: 'n2189'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2189', _target: 'n2203'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2188', _target: 'n2189'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2189', _target: 'n2190'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2190', _target: 'n2191'}}
@@ -29491,6 +29594,7 @@ var edgesData =
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2285', _target: 'n2286'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2286', _target: 'n2296'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2296', _target: 'n2287'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2287', _target: 'n2299'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2286', _target: 'n2291'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2291', _target: 'n2293'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2293', _target: 'n2297'}}
@@ -29524,6 +29628,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2320', _target: 'n2325'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2318', _target: 'n2316'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2316', _target: 'n2317'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2317', _target: 'n2331'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2331', _target: 'n2318'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2318', _target: 'n2319'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2319', _target: 'n2329'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2319', _target: 'n2323'}}
@@ -29534,6 +29640,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2343', _target: 'n2335'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2336', _target: 'n2332'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2332', _target: 'n2340'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2332', _target: 'n2347'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2340', _target: 'n2342'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2340', _target: 'n2337'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2337', _target: 'n2333'}}
@@ -29551,6 +29658,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2356', _target: 'n2348'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2350', _target: 'n2348'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2350', _target: 'n2357'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2350', _target: 'n2363'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2357', _target: 'n2361'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2357', _target: 'n2351'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2348', _target: 'n2349'}}
@@ -29573,6 +29681,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2374', _target: 'n2364'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2364', _target: 'n2378'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2378', _target: 'n2375'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2379', _target: 'n2380'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2380', _target: 'n2378'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2375', _target: 'n2365'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2365', _target: 'n2370'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n2378', _target: 'n2395'}}
@@ -29585,6 +29695,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2381', _target: 'n2389'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2389', _target: 'n2386'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2382', _target: 'n2383'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2382', _target: 'n2396'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2383', _target: 'n2390'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2390', _target: 'n2384'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2384', _target: 'n2388'}}
@@ -29602,6 +29713,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2405', _target: 'n2403'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2403', _target: 'n2398'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2397', _target: 'n2398'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2397', _target: 'n2411'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2398', _target: 'n2402'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2402', _target: 'n2407'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2407', _target: 'n2410'}}
@@ -29620,6 +29732,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2423', _target: 'n2419'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2414', _target: 'n2412'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2414', _target: 'n2415'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2414', _target: 'n2427'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2427', _target: 'n2413'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2415', _target: 'n2425'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n1571', _target: 'n2437'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2437', _target: 'n2435'}}
@@ -29633,6 +29747,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2433', _target: 'n2441'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2433', _target: 'n2428'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2428', _target: 'n2436'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2428', _target: 'n2443'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2436', _target: 'n2438'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2428', _target: 'n2432'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2432', _target: 'n2440'}}
@@ -29648,6 +29763,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2448', _target: 'n2453'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2445', _target: 'n2446'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2446', _target: 'n2447'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2446', _target: 'n2459'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2459', _target: 'n2444'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2447', _target: 'n2457'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2447', _target: 'n2451'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2451', _target: 'n2455'}}
@@ -29662,6 +29779,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2472', _target: 'n2460'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2460', _target: 'n2461'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2461', _target: 'n2471'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2461', _target: 'n2475'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2462', _target: 'n2460'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2462', _target: 'n2463'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2463', _target: 'n2467'}}
@@ -29678,6 +29796,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2487', _target: 'n2478'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2481', _target: 'n2476'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2476', _target: 'n2480'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2476', _target: 'n2490'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2480', _target: 'n2485'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n2480', _target: 'n2442'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2481', _target: 'n2486'}}
@@ -29695,6 +29814,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2495', _target: 'n2500'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2492', _target: 'n2496'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2496', _target: 'n2491'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2491', _target: 'n2506'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2496', _target: 'n2501'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2501', _target: 'n2503'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n2481', _target: 'n2520'}}
@@ -29725,11 +29845,14 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2527', _target: 'n2523'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2523', _target: 'n2524'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2524', _target: 'n2529'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2524', _target: 'n2538'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2529', _target: 'n2531'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2529', _target: 'n2537'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2537', _target: 'n2528'}}
 	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n2521', _target: 'n2553'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2553', _target: 'n2539'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2553', _target: 'n2555'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2555', _target: 'n2554'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2539', _target: 'n2549'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2549', _target: 'n2543'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2543', _target: 'n2547'}}
@@ -29756,6 +29879,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2561', _target: 'n2556'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2558', _target: 'n2556'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2558', _target: 'n2560'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2558', _target: 'n2571'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2561', _target: 'n2566'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2566', _target: 'n2568'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2568', _target: 'n2565'}}
@@ -29763,6 +29887,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2582', _target: 'n2580'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2580', _target: 'n2572'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2572', _target: 'n2576'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2572', _target: 'n2587'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2587', _target: 'n2574'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2576', _target: 'n2584'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2572', _target: 'n2573'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2573', _target: 'n2574'}}
@@ -29781,6 +29907,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2588', _target: 'n2592'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2592', _target: 'n2596'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2596', _target: 'n2593'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2596', _target: 'n2604'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2604', _target: 'n2597'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2593', _target: 'n2601'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2601', _target: 'n2591'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2591', _target: 'n2603'}}
@@ -29797,6 +29925,7 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2613', _target: 'n2611'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2608', _target: 'n2607'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2607', _target: 'n2616'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2607', _target: 'n2619'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2616', _target: 'n2606'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2607', _target: 'n2605'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2605', _target: 'n2609'}}
@@ -29814,6 +29943,8 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2631', _target: 'n2622'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2620', _target: 'n2621'}}
 	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2621', _target: 'n2622'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2622', _target: 'n2635'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2635', _target: 'n2620'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2621', _target: 'n2625'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2625', _target: 'n2630'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2620', _target: 'n2632'}}

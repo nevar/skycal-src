@@ -60,6 +60,7 @@ html, body {
 div.stat {
 	background-color: grey;
 	padding: 5px;
+	margin: 0 0 5px 0;
 }
 
 .qtip {
@@ -168,4 +169,8 @@ div.need_spark {
 
 label {
 	white-space:nowrap;
+}
+
+.qtip-content p {
+	margin: 0 0 0 0;
 }

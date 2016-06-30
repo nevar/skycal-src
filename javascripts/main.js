@@ -87,14 +87,21 @@ function calcTotal(atlases) {
 		isPolish = nodesData[0].data.hasOwnProperty('polish');
 		polishPrestige = 0;
 		polishNode = 0;
+		totalPolishCost = 0;
 		for (var i in nodesData) {
 			node = nodesData[i];
 			nodeData = node.data;
 			nodePos[nodeData._id] = node._position;
+			polishCost = 9999;
 			if (isPolish && node._classes === 'stat' && !nodeData._give.majesty)
 			{
 				polishNode++;
 				polishPrestige += nodeData._give.prestige;
+				for (stat in nodeData._give) {
+					if (stat === 'prestige' || stat === 'dex') {continue;}
+					polishCost = Math.min(polishCost, nodeData._give[stat]);
+				}
+				totalPolishCost += polishCost;
 			}
 			for (stat in nodeData._give) {
 				atlas.stat.total[stat] += nodeData._give[stat];
@@ -114,8 +121,7 @@ function calcTotal(atlases) {
 					atlas.sparks.got[spark] += nodeData._need[spark];
 					if (nodeData.polish > 0) {
 						for (var j = 1; j <= nodeData.polish; j++) {
-							atlas.sparks.got[cost[j]] +=
-								nodeData._give.prestige * 5 * j;
+							atlas.sparks.got[cost[j]] += polishCost * 5 * j;
 						}
 						atlas.sparks.got.core += nodeData.polish;
 					}
@@ -131,9 +137,9 @@ function calcTotal(atlases) {
 				atlas.stat.total[stat] *= 2.5;
 			}
 			atlas.stat.total.prestige += polishPrestige * 1.5;
-			atlas.sparks.total.bronze = polishPrestige * 5;
-			atlas.sparks.total.silver = polishPrestige * 10;
-			atlas.sparks.total.gold = polishPrestige * 15;
+			atlas.sparks.total.bronze = totalPolishCost * 5;
+			atlas.sparks.total.silver = totalPolishCost * 10;
+			atlas.sparks.total.gold = totalPolishCost * 15;
 			atlas.sparks.total.core = polishNode * 3;
 		}
 		if (atlas.sparks.total.hasOwnProperty('all')) {
@@ -155,7 +161,7 @@ function groupSkill(atlases) {
 		atlas = atlases[atlasID];
 		nodesData = atlases[atlasID].nodes;
 		skill = [];
-		stat = {};
+		statGroup = {};
 		pos = {};
 		for (var i in nodesData) {
 			node = nodesData[i];
@@ -174,41 +180,23 @@ function groupSkill(atlases) {
 				}
 				pos[ID].push(node._position);
 			} else if(node._classes === 'stat') {
-				if (nodeData._give.vit) {
-					ID = 'vit';
-					give = nodeData._give.vit;
-				} else if (nodeData._give.power) {
-					ID = 'power';
-					give = nodeData._give.power;
-				} else if (nodeData._give.str) {
-					ID = 'str';
-					give = nodeData._give.str;
-				} else if (nodeData._give.valor) {
-					ID = 'valor';
-					give = nodeData._give.valor;
-				} else if (nodeData._give.spirit) {
-					ID = 'spirit';
-					give = nodeData._give.spirit;
-				} else if (nodeData._give.luck) {
-					ID = 'luck';
-					give = nodeData._give.luck;
-				} else if (nodeData._give.majesty) {
-					ID = 'majesty';
-					give = nodeData._give.majesty;
+				for (stat in nodeData._give) {
+					if (stat === 'prestige' || stat === 'dex') { continue; }
+					if (!statGroup[stat]) {
+						statGroup[stat] =
+							{ image: ID, pos: 0, node: []
+							, give: {}, cost: {}, show: false
+							};
+					}
+					statGroup[stat].node.push(node);
+					statGroup[stat].give[nodeData._give[stat]] =
+						nodeData._give[stat];
+
 				}
-				if (!pos[ID]) {
-					pos[ID] = [];
-					stat[ID] =
-						{ image: ID, pos: 0, node: pos[ID]
-						, give: {}, cost: {}, show: false
-						};
-				}
-				pos[ID].push(node);
-				stat[ID].give[give] = give;
 			}
 		}
 		atlas.group.skill = skill;
-		atlas.group.stat = stat;
+		atlas.group.stat = statGroup;
 	}
 }
 
@@ -272,12 +260,18 @@ function initCy(atlases) {
 }
 
 function renderTitle(node) {
-	var title = 'Не сделано =(',
+	var title,
 		nodeData = node.data,
 		imageName;
 
 	imageName = nodeData.nodeImage;
 	title = nodeData.title;
+	if (imageName && imageName !== 'empty') {
+		return '<div class="tooltip-title">' +
+			'<img width="25" src="images/nodes/' + imageName + '.png"></img> ' +
+				title +
+			'</div>';
+	}
 	if (nodeData.give.vit) {
 		imageName = 'vit';
 		title = 'Бонус: Выносливость';
@@ -303,17 +297,12 @@ function renderTitle(node) {
 	if (nodeData.need.revelation) {
 		imageName = 'revelation';
 	}
-	if (imageName && imageName !== 'empty') {
-		return '<div class="tooltip-title">' +
-			'<img width="25" src="images/nodes/' + imageName + '.png"></img> ' +
-				title +
-			'</div>';
-	}
 	return '<div class="tooltip-title">' + title + '</div>';
 }
 
 function renderText(node, isNeedCost) {
 	var text = '',
+		statText = '',
 		nodeData = node.data,
 		give = nodeData.give,
 		need = nodeData.need,
@@ -327,57 +316,64 @@ function renderText(node, isNeedCost) {
 			'<div class="stat">' +
 				'<img width="25" src="images/prestige.png"></img> + ' +
 				Math.ceil(give.prestige * (coeff + 1)) +
-			'</div><br/>';
+			'</div>';
 	}
+
+	text += '<div class="stat">'
+	polishCost = 9999;
 	for (var stat in give) {
 		if (stat === 'prestige' || stat === 'dex') {
 			continue;
 		}
-		text += '<div class="stat">' + statName[stat] +
-			'<span>' + Math.ceil(give[stat] * (coeff + 1));
+		text += statName[stat] + '<span>' + Math.ceil(give[stat] * (coeff + 1));
 		if (coeff !== 0) {
 			text +=
 				' (' + give[stat]  + ' + ' + Math.ceil(give[stat] * coeff) +
 				')';
 		}
-		text += '</span></div>';
-		if ((stat === 'power' || stat === 'vit') && give.dex) {
-			text +=
-				'<br/>'+
-				'<div class="stat">Сноровка<span>' + give.dex +'</span></div>';
-		}
-		text += '<p>' + statDescription[stat] + '</p>';
+		text += '</span><br/>';
+		statText += '<p>' + statDescription[stat] + '</p>';
+		polishCost = Math.min(polishCost, give[stat]);
 	}
+	text += '</div>';
+
+	if ((give.power || give.vit) && give.dex) {
+		text += '<div class="stat">Сноровка<span>' + give.dex +'</span></div>';
+	}
+	text += statText;
 	if (nodeData.description) {
 		text += '<p>' + nodeData.description + '</p>';
 	}
 	if (isNeedCost) {
+		text += '<br/><div class="cost">Стоймость';
 		for (var key in need) {
-			text += '<div class="cost">Стоймость<span>' +
+			text += '<span>' +
 				'<img width="20" src="images/spark/' + key + '.png"></img> ' +
-				need[key] + '</span></div>';
+				need[key] + '</span>';
 		}
+		text += '</div>';
 		if (node.classes === 'stat' && nodeData.hasOwnProperty('polish') &&
 			!nodeData.give.majesty)
 		{
-			text += '<div class="polish">Полировка:<br/>';
+			text += '<br/><div class="polish">Полировка:<br/>';
 			text += '<div class="polish_cell">+' +
 				Math.ceil(give.prestige / 2) +
 				'<span><img width="20" src="images/spark/core.png"></img>1</span>' +
-				'<span><img width="20" src="images/spark/bronze.png"></img>' + (5 * give.prestige) + '</span>'+
+				'<span><img width="20" src="images/spark/bronze.png"></img>' + (5 * polishCost) + '</span>'+
 			'</div>';
 			text += '<div class="polish_cell">+' + give.prestige +
 				'<span><img width="20" src="images/spark/core.png"></img>1</span>' +
-				'<span><img width="20" src="images/spark/silver.png"></img>' + (10 * give.prestige) + '</span>'+
+				'<span><img width="20" src="images/spark/silver.png"></img>' + (10 * polishCost) + '</span>'+
 			'</div>';
 			text += '<div class="polish_cell">+' +
 				Math.ceil(1.5 * give.prestige) +
 				'<span><img width="20" src="images/spark/core.png"></img>1</span>' +
-				'<span><img width="20" src="images/spark/gold.png"></img>' + (15 * give.prestige) + '</span>'+
+				'<span><img width="20" src="images/spark/gold.png"></img>' + (15 * polishCost) + '</span>'+
 			'</div>';
 			text += '</div><br/>';
 		}
 	}
+	text += nodeData.id  + '<br/>' + node.position.x + ' ' + node.position.y;
 	return text;
 }
 
@@ -461,6 +457,12 @@ function center(atlas, point) {
 }
 
 function nodeImage(node) {
+	if (node.data.nodeImage) {
+		if (node.data.nodeImage === 'empty') {
+			return 'none';
+		}
+		return 'url(#' + node.data.nodeImage + ')';
+	}
 	if (node.data.need.revelation) {
 		return 'url(#revelation)';
 	} else if (node.data.give.vit) {
@@ -477,11 +479,6 @@ function nodeImage(node) {
 		return 'url(#luck)';
 	} else if (node.data.give.majesty) {
 		return 'url(#majesty)';
-	} else {
-		if (node.data.nodeImage === 'empty') {
-			return 'none';
-		}
-		return 'url(#' + node.data.nodeImage + ')';
 	}
 	return '';
 }
@@ -559,7 +556,7 @@ function getNewPolish(polish, isWant) {
 					var atlasSpark = atlas.sparks.got;
 					var atlasStat = atlas.stat.got;
 					var nodeData = this.node.data;
-					var delta = nodeData.give.prestige * 0.5;
+					var polishCost = 9999;
 					var i, cost = ['', 'bronze', 'silver', 'gold'], stat;
 					var change;
 
@@ -567,50 +564,58 @@ function getNewPolish(polish, isWant) {
 					oldWantPolish = Math.floor(oldValue / 10);
 					newRealPolish = newValue % 10;
 					newWantPolish = Math.floor(newValue / 10);
+					for (stat in nodeData.give) {
+						if (stat === 'prestige' || stat === 'dex') {continue;}
+						polishCost = Math.min(polishCost, nodeData.give[stat]);
+					}
+					polishCost *= 5;
 					if (oldWantPolish !== 0 && newWantPolish === 0) {
 						for (i = oldWantPolish; i > oldRealPolish; i--) {
-							need[cost[i]] -= delta * 10 * i;
+							need[cost[i]] -= polishCost * i;
 						}
 						change = oldWantPolish - oldRealPolish;
 						need.core -= change;
 						for (stat in nodeData.give) {
 							if (stat === 'dex') { continue; }
-							recive[stat] -= delta * change;
+							recive[stat] -=
+								Math.ceil(nodeData.give[stat] / 2) * change;
 						}
 					}
 					if (newWantPolish > oldWantPolish) {
-						need[cost[newWantPolish]] +=
-							delta * 10 * newWantPolish;
+						need[cost[newWantPolish]] += polishCost * newWantPolish;
 						need.core++;
 						for (stat in nodeData.give) {
 							if (stat === 'dex') { continue; }
-							recive[stat] += delta;
+							recive[stat] += Math.ceil(nodeData.give[stat] / 2);
 						}
 					}
 					if (oldRealPolish === 3 && newRealPolish === 0) {
 						for (i = 3; i > 0; i--) {
-							atlasSpark[cost[i]] -= delta * 10 * i;
+							atlasSpark[cost[i]] -= polishCost * i;
 						}
 						for (stat in nodeData.give) {
 							if (stat === 'dex') { continue; }
-							atlasStat[stat] -= delta * 3;
+							atlasStat[stat] -=
+								Math.ceil(nodeData.give[stat] / 2) * 3;
 						}
 						atlasSpark.core -= 3;
 					}
 					if (newRealPolish - oldRealPolish === 1) {
 						if (newWantPolish !== 0) {
 							need[cost[newRealPolish]] -=
-								delta * 10 * newRealPolish;
+								polishCost * newRealPolish;
 							need.core--;
 						}
 						atlasSpark[cost[newRealPolish]] +=
-							delta * 10 * newRealPolish;
+							polishCost * newRealPolish;
 						for (stat in nodeData.give) {
 							if (stat === 'dex') { continue; }
 							if (newWantPolish !== 0) {
-								recive[stat] -= delta;
+								recive[stat] -=
+									Math.ceil(nodeData.give[stat] / 2);
 							}
-							atlasStat[stat] += delta;
+							atlasStat[stat] +=
+								Math.ceil(nodeData.give[stat] / 2);
 						}
 						atlasSpark.core++;
 					}
@@ -847,7 +852,7 @@ function getNewPolish(polish, isWant) {
 				, 'defend', 'hunter', 'knowledge', 'rule', 'wanderer', 'warrior'
 				, 'vit', 'power', 'str', 'valor', 'spirit', 'luck', 'majesty'
 				, 'revelation'
-				, 'sphere'
+				, 'sphere', 'stat'
 				// Фитониды
 				, 'cultivation', 'mutation', 'poison', 'regeneration', 'root'
 				// Механойды
