@@ -960,14 +960,14 @@ function getNewPolish(polish, isWant) {
 			, effect: false
 			}
 		, position:
-			{ my: 'top left'
-			, at: 'bottom right'
-			, viewport: $(document)
+			{ my: 'left top'
+			, at: 'top right'
+			, viewport: $(window)
 			, effect: false
 			}
 		, style:
 			{ classes: 'qtip qtip-dark qtip-round'
-			, tip: {corner: false}
+			, tip: {corner: true}
 			}
 		});
 	$('#tooltip').qtip('api').hide();
