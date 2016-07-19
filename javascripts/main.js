@@ -201,7 +201,7 @@ function groupSkill(atlases) {
 }
 
 function loadAtlas(atlas) {
-	var dataString, val, index, nodeCount, l, len, _plainData;
+	var dataString, val, index, nodeCount, l, len, _plainData, size, polishSize;
 
 	/* jshint bitwise: false */
 	nodeCount = atlas.nodes.length;
@@ -210,9 +210,18 @@ function loadAtlas(atlas) {
 	dataString = localStorage['atlas_' + atlas.name] || '';
 	_plainData = base64js.toByteArray(dataString);
 	if (_plainData.length !== atlas._plainData.length) {
-		return;
+		size = atlas._polish ? _plainData.length / 3 : _plainData.length;
+		for (var i = 0; i < size; i++) {
+			atlas._plainData[i] = _plainData[i];
+		}
+		polishSize = atlas._polish ? 2 * _plainData.length / 3 : 0;
+		for (var i = 0; i < polishSize; i++) {
+			atlas._plainData[l + i] = _plainData[size + i];
+		}
+		_plainData = atlas._plainData;
+	} else {
+		atlas._plainData = _plainData;
 	}
-	atlas._plainData = _plainData;
 	for (var i = 0; i < l; i++) {
 		val = _plainData[i];
 		index = i * 8 + 7;
@@ -260,44 +269,45 @@ function initCy(atlases) {
 }
 
 function renderTitle(node) {
-	var title,
-		nodeData = node.data,
-		imageName;
+	var nodeData = node.data,
+		title = nodeData.title,
+		imageName = nodeData.nodeImage;
 
-	imageName = nodeData.nodeImage;
-	title = nodeData.title;
-	if (imageName && imageName !== 'empty') {
+	if (imageName && title) {
 		return '<div class="tooltip-title">' +
 			'<img width="25" src="images/nodes/' + imageName + '.png"></img> ' +
-				title +
-			'</div>';
+				title + '</div>';
+	} else {
+		if (nodeData.give.vit) {
+			imageName = 'vit';
+			title = 'Бонус: Выносливость';
+		} else if (nodeData.give.power) {
+			imageName = 'power';
+			title = 'Бонус: Могущество';
+		} else if (nodeData.give.spirit) {
+			imageName = 'spirit';
+			title = 'Бонус: Дух';
+		} else if (nodeData.give.str) {
+			imageName = 'str';
+			title = 'Бонус: Сила';
+		} else if (nodeData.give.luck) {
+			imageName = 'luck';
+			title = 'Бонус: Удача';
+		} else if (nodeData.give.valor) {
+			imageName = 'valor';
+			title = 'Бонус: Отвага';
+		} else if (nodeData.give.majesty) {
+			imageName = 'majesty';
+			title = 'Бонус: Величие';
+		}
+		if (nodeData.need.revelation) {
+			imageName = 'revelation';
+		}
 	}
-	if (nodeData.give.vit) {
-		imageName = 'vit';
-		title = 'Бонус: Выносливость';
-	} else if (nodeData.give.power) {
-		imageName = 'power';
-		title = 'Бонус: Могущество';
-	} else if (nodeData.give.spirit) {
-		imageName = 'spirit';
-		title = 'Бонус: Дух';
-	} else if (nodeData.give.str) {
-		imageName = 'str';
-		title = 'Бонус: Сила';
-	} else if (nodeData.give.luck) {
-		imageName = 'luck';
-		title = 'Бонус: Удача';
-	} else if (nodeData.give.valor) {
-		imageName = 'valor';
-		title = 'Бонус: Отвага';
-	} else if (nodeData.give.majesty) {
-		imageName = 'majesty';
-		title = 'Бонус: Величие';
-	}
-	if (nodeData.need.revelation) {
-		imageName = 'revelation';
-	}
-	return '<div class="tooltip-title">' + title + '</div>';
+	return '<div class="tooltip-title">' +
+		'<img width="25" src="images/nodes/' + imageName + '.png"></img> ' +
+			title +
+		'</div>';
 }
 
 function renderText(node, isNeedCost) {
@@ -318,25 +328,25 @@ function renderText(node, isNeedCost) {
 				Math.ceil(give.prestige * (coeff + 1)) +
 			'</div>';
 	}
-
-	text += '<div class="stat">'
-	polishCost = 9999;
-	for (var stat in give) {
-		if (stat === 'prestige' || stat === 'dex') {
-			continue;
-		}
-		text += statName[stat] + '<span>' + Math.ceil(give[stat] * (coeff + 1));
-		if (coeff !== 0) {
+	if (node.classes === 'stat') {
+		text += '<div class="stat">';
+		polishCost = 9999;
+		for (var stat in give) {
+			if (stat === 'prestige' || stat === 'dex') {
+				continue;
+			}
 			text +=
-				' (' + give[stat]  + ' + ' + Math.ceil(give[stat] * coeff) +
-				')';
+				statName[stat] + '<span>' + Math.ceil(give[stat] * (coeff + 1));
+			if (coeff !== 0) {
+				text += ' (' + give[stat]  + ' + ' +
+					Math.ceil(give[stat] * coeff) + ')';
+			}
+			text += '</span><br/>';
+			statText += '<p>' + statDescription[stat] + '</p>';
+			polishCost = Math.min(polishCost, give[stat]);
 		}
-		text += '</span><br/>';
-		statText += '<p>' + statDescription[stat] + '</p>';
-		polishCost = Math.min(polishCost, give[stat]);
+		text += '</div>';
 	}
-	text += '</div>';
-
 	if ((give.power || give.vit) && give.dex) {
 		text += '<div class="stat">Сноровка<span>' + give.dex +'</span></div>';
 	}
@@ -373,7 +383,6 @@ function renderText(node, isNeedCost) {
 			text += '</div><br/>';
 		}
 	}
-	text += nodeData.id  + '<br/>' + node.position.x + ' ' + node.position.y;
 	return text;
 }
 
@@ -847,7 +856,7 @@ function getNewPolish(polish, isWant) {
 				, 'double', 'equilibrium', 'injury', 'laceration', 'life'
 				, 'okulat', 'reflex', 'resistance', 'ruthlessness', 'slow'
 				, 'spasm', 'timeout', 'triumph', 'wave', 'guardianship'
-				, 'medicines'
+				, 'medicines', 'unity', 'pv'
 				, 'god', 'secretKnowledge'
 				, 'defend', 'hunter', 'knowledge', 'rule', 'wanderer', 'warrior'
 				, 'vit', 'power', 'str', 'valor', 'spirit', 'luck', 'majesty'

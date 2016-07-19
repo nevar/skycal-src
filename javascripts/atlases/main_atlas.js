@@ -2590,7 +2590,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18, dex: 8}
 			}
-		, _position: {x: 1380, y: -540}
+		, _position: {x: 1380, y: -690}
 		, _classes: 'stat'
 		}
 	,
@@ -2600,7 +2600,7 @@ var nodesData =
 			, _need: {red: 115}
 			, _give: {prestige: 8, power: 8, dex: 5}
 			}
-		, _position: {x: 1432, y: -630}
+		, _position: {x: 1432, y: -780}
 		, _classes: 'stat'
 		}
 	,
@@ -2610,7 +2610,7 @@ var nodesData =
 			, _need: {red: 150}
 			, _give: {prestige: 12, power: 12, dex: 6}
 			}
-		, _position: {x: 1328, y: -630}
+		, _position: {x: 1328, y: -780}
 		, _classes: 'stat'
 		}
 	,
@@ -2620,7 +2620,7 @@ var nodesData =
 			, _need: {red: 115}
 			, _give: {prestige: 8, power: 8, dex: 5}
 			}
-		, _position: {x: 1285, y: -660}
+		, _position: {x: 1285, y: -810}
 		, _classes: 'stat'
 		}
 	,
@@ -2630,7 +2630,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 1285, y: -540}
+		, _position: {x: 1285, y: -690}
 		, _classes: 'stat'
 		}
 	,
@@ -2640,7 +2640,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
-		, _position: {x: 1475, y: -540}
+		, _position: {x: 1475, y: -690}
 		, _classes: 'stat'
 		}
 	,
@@ -2650,7 +2650,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, valor: 15}
 			}
-		, _position: {x: 1475, y: -660}
+		, _position: {x: 1475, y: -810}
 		, _classes: 'stat'
 		}
 	,
@@ -2660,7 +2660,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
-		, _position: {x: 1380, y: -710}
+		, _position: {x: 1380, y: -860}
 		, _classes: 'stat'
 		}
 	,
@@ -2670,7 +2670,7 @@ var nodesData =
 			, _need: {green: 115}
 			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
-		, _position: {x: 1380, y: -490}
+		, _position: {x: 1380, y: -640}
 		, _classes: 'stat'
 		}
 	,
@@ -2680,7 +2680,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 1380, y: -757}
+		, _position: {x: 1380, y: -907}
 		, _classes: 'stat'
 		}
 	,
@@ -2690,7 +2690,7 @@ var nodesData =
 			, _need: {red: 185}
 			, _give: {prestige: 16, power: 16, dex: 7}
 			}
-		, _position: {x: 1380, y: -443}
+		, _position: {x: 1380, y: -593}
 		, _classes: 'stat'
 		}
 	,
@@ -2700,7 +2700,7 @@ var nodesData =
 			, _need: {blue: 185}
 			, _give: {prestige: 20, str: 20}
 			}
-		, _position: {x: 1247, y: -684}
+		, _position: {x: 1247, y: -834}
 		, _classes: 'stat'
 		}
 	,
@@ -2710,7 +2710,7 @@ var nodesData =
 			, _need: {red: 115}
 			, _give: {prestige: 8, power: 8, dex: 5}
 			}
-		, _position: {x: 1247, y: -516}
+		, _position: {x: 1247, y: -666}
 		, _classes: 'stat'
 		}
 	,
@@ -2720,7 +2720,7 @@ var nodesData =
 			, _need: {blue: 185}
 			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
-		, _position: {x: 1513, y: -516}
+		, _position: {x: 1513, y: -666}
 		, _classes: 'stat'
 		}
 	,
@@ -2730,7 +2730,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, luck: 15}
 			}
-		, _position: {x: 1513, y: -684}
+		, _position: {x: 1513, y: -834}
 		, _classes: 'stat'
 		}
 	,
@@ -2743,7 +2743,7 @@ var nodesData =
 			, _need: {}
 			, _give: {}
 			}
-		, _position: {x: 1380, y: -600}
+		, _position: {x: 1380, y: -750}
 		, _classes: 'skill'
 		}
 	,
@@ -4043,11 +4043,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n389'
 			, open: false, hover: false, want: false, polish: 0
-			, _title: 'Талант: Призыв окулата'
+			, _title: 'Талант: Компаньон: особый боевой режим'
 			, _description:
 				'Применение атакующих умений в бою с некоторой вероятностью '+
-				'призовет окулата, который будет сражаться на стороне '+
-				'персонажа в течение 18/25 секунд.'
+				'позволит компаньону начать самостоятельно атаковать '+
+				'противника персонажа в течение 18/25 секунд и отвлекать ' +
+				'огонь противников на себя.'
 			, _nodeImage: 'okulat'
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
@@ -4234,7 +4235,7 @@ var nodesData =
 			, _need: {red: 115}
 			, _give: {prestige: 8, power: 8, dex: 5}
 			}
-		, _position: {x: 1380, y: 660}
+		, _position: {x: 1380, y: 810}
 		, _classes: 'stat'
 		}
 	,
@@ -4244,7 +4245,7 @@ var nodesData =
 			, _need: {green: 185}
 			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
-		, _position: {x: 1432, y: 570}
+		, _position: {x: 1432, y: 720}
 		, _classes: 'stat'
 		}
 	,
@@ -4254,7 +4255,7 @@ var nodesData =
 			, _need: {green: 125}
 			, _give: {prestige: 12, vit: 12, dex: 5}
 			}
-		, _position: {x: 1328, y: 570}
+		, _position: {x: 1328, y: 720}
 		, _classes: 'stat'
 		}
 	,
@@ -4264,7 +4265,7 @@ var nodesData =
 			, _need: {red: 150}
 			, _give: {prestige: 12, power: 12, dex: 6}
 			}
-		, _position: {x: 1319, y: 490}
+		, _position: {x: 1319, y: 640}
 		, _classes: 'stat'
 		}
 	,
@@ -4274,7 +4275,7 @@ var nodesData =
 			, _need: {red: 150}
 			, _give: {prestige: 12, power: 12, dex: 6}
 			}
-		, _position: {x: 1441, y: 490}
+		, _position: {x: 1441, y: 640}
 		, _classes: 'stat'
 		}
 	,
@@ -4284,7 +4285,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
-		, _position: {x: 1319, y: 710}
+		, _position: {x: 1319, y: 860}
 		, _classes: 'stat'
 		}
 	,
@@ -4294,7 +4295,7 @@ var nodesData =
 			, _need: {red: 115}
 			, _give: {prestige: 8, power: 8, dex: 5}
 			}
-		, _position: {x: 1441, y: 710}
+		, _position: {x: 1441, y: 860}
 		, _classes: 'stat'
 		}
 	,
@@ -4304,7 +4305,7 @@ var nodesData =
 			, _need: {green: 185}
 			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
-		, _position: {x: 1380, y: 443}
+		, _position: {x: 1380, y: 593}
 		, _classes: 'stat'
 		}
 	,
@@ -4314,7 +4315,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 1380, y: 757}
+		, _position: {x: 1380, y: 907}
 		, _classes: 'stat'
 		}
 	,
@@ -4324,7 +4325,7 @@ var nodesData =
 			, _need: {red: 155}
 			, _give: {prestige: 12, power: 12, dex: 6}
 			}
-		, _position: {x: 1247, y: 516}
+		, _position: {x: 1247, y: 666}
 		, _classes: 'stat'
 		}
 	,
@@ -4334,7 +4335,7 @@ var nodesData =
 			, _need: {red: 185}
 			, _give: {prestige: 16, power: 16, dex: 7}
 			}
-		, _position: {x: 1247, y: 684}
+		, _position: {x: 1247, y: 834}
 		, _classes: 'stat'
 		}
 	,
@@ -4344,7 +4345,7 @@ var nodesData =
 			, _need: {red: 115}
 			, _give: {prestige: 8, power: 8, dex: 5}
 			}
-		, _position: {x: 1513, y: 684}
+		, _position: {x: 1513, y: 834}
 		, _classes: 'stat'
 		}
 	,
@@ -4354,7 +4355,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18, dex: 6}
 			}
-		, _position: {x: 1513, y: 516}
+		, _position: {x: 1513, y: 666}
 		, _classes: 'stat'
 		}
 	,
@@ -4364,7 +4365,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 30, majesty: 200}
 			}
-		, _position: {x: 1245, y: 600}
+		, _position: {x: 1245, y: 750}
 		, _classes: 'stat'
 		}
 	,
@@ -4374,7 +4375,7 @@ var nodesData =
 			, _need: {green: 185}
 			, _give: {prestige: 24, vit: 24, dex: 7}
 			}
-		, _position: {x: 1515, y: 600}
+		, _position: {x: 1515, y: 750}
 		, _classes: 'stat'
 		}
 	,
@@ -4387,7 +4388,7 @@ var nodesData =
 			, _need: {}
 			, _give: {}
 			}
-		, _position: {x: 1380, y: 600}
+		, _position: {x: 1380, y: 750}
 		, _classes: 'skill'
 		}
 	,
@@ -5207,9 +5208,11 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Талант: Компрессионная травма'
 			, _description:
-				'При нанесении сокрущающего удара на противника накладывается '+
-				'эффект, наносящий периодический урон.</p>'+
-				'<p>Суммарный урон равен 140% от показателя силы персонажа.'
+				'При нанесении сокрушающего удара следующая атака компаньона '+
+				'нанесёт дополнительный урон в размере 140% от показателя '+
+				'силы персонажа</p>'+
+				'<p>Эффект символа не работает, если умение компаньона '+
+				'"Базовая атака" выключено.'
 			, _nodeImage: 'injury'
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
@@ -8401,9 +8404,11 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Талант: Болезненные спазмы'
 			, _description:
-				'Импульсный урон накладывает на противника эффект, наносящий '+
-				'периодический урон.</p>'+
-				'<p>Суммарный урон равен 200% от показателя духа персонажа.'
+				'При нанесении импульсного урона следующая атака компаньона '+
+				'нанесёт дополнительный урон в размере 200% от показателя '+
+				'духа персонажа</p>'+
+				'<p>Эффект символа не работает, если умение компаньона '+
+				'"Базовая атака" выключено.'
 			, _nodeImage: 'spasm'
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
@@ -10398,9 +10403,11 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Талант: Рваная рана'
 			, _description:
-				'Критический урон накладывает на противника эффект, наносящий '+
-				'периодический урон.</p>'+
-				'<p>Суммарный урон равен 100% от показателя удачи персонажа.'
+				'При нанесении критического урона следующая атака компаньона '+
+				'нанесёт дополнительный урон в размере 100% от показателя '+
+				'удачи персонажа</p>'+
+				'<p>Эффект символа не работает, если умение компаньона '+
+				'"Базовая атака" выключено.'
 			, _nodeImage: 'laceration'
 			, _need: {blue: 275}
 			, _give: {prestige: 40}
@@ -11889,7 +11896,7 @@ var nodesData =
 			{ _id: 'n1143'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 1150, y: -2720}
 		, _classes: 'stat'
@@ -11899,7 +11906,7 @@ var nodesData =
 			{ _id: 'n1144'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 1202, y: -2810}
 		, _classes: 'stat'
@@ -11919,7 +11926,7 @@ var nodesData =
 			{ _id: 'n1146'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 1089, y: -2890}
 		, _classes: 'stat'
@@ -11949,7 +11956,7 @@ var nodesData =
 			{ _id: 'n1149'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 1211, y: -2670}
 		, _classes: 'stat'
@@ -11959,7 +11966,7 @@ var nodesData =
 			{ _id: 'n1150'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 1150, y: -2937}
 		, _classes: 'stat'
@@ -11989,7 +11996,7 @@ var nodesData =
 			{ _id: 'n1153'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 1017, y: -2696}
 		, _classes: 'stat'
@@ -12085,7 +12092,7 @@ var nodesData =
 			{ _id: 'n1162'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 1515, y: -2840}
 		, _classes: 'stat'
@@ -12095,7 +12102,7 @@ var nodesData =
 			{ _id: 'n1163'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 1515, y: -2720}
 		, _classes: 'stat'
@@ -12105,7 +12112,7 @@ var nodesData =
 			{ _id: 'n1164'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 1705, y: -2720}
 		, _classes: 'stat'
@@ -12115,7 +12122,7 @@ var nodesData =
 			{ _id: 'n1165'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 1705, y: -2840}
 		, _classes: 'stat'
@@ -12165,7 +12172,7 @@ var nodesData =
 			{ _id: 'n1170'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 1610, y: -2890}
 		, _classes: 'stat'
@@ -12175,7 +12182,7 @@ var nodesData =
 			{ _id: 'n1171'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 1610, y: -2670}
 		, _classes: 'stat'
@@ -13220,9 +13227,11 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Талант: Глубокое рассечение'
 			, _description:
-				'При нанесении максимального дополнительного урона на противника '+
-				'накладывается эффект, наносящий периодический урон.</p>'+
-				'<p>Суммарный урон равен 100% от показателя отваги персонажа.'
+				'При нанесении максимального дополнительного урона следующая ' +
+				'атака компаньона нанесёт дополнительный урон в размере 100% '+
+				'от показателя отваги персонажа</p>'+
+				'<p>Эффект символа не работает, если умение компаньона '+
+				'"Базовая атака" выключено.'
 			, _nodeImage: 'dissection'
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
@@ -15523,7 +15532,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -16652,7 +16661,7 @@ var nodesData =
 			{ _id: 'n1605'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 650}
-			, _give: {prestige: 75, vit: 75, dex:24}
+			, _give: {prestige: 75, vit: 75, dex: 24}
 			}
 		, _position: {x: -1371, y: -540}
 		, _classes: 'stat'
@@ -17526,11 +17535,12 @@ var nodesData =
 		{ data:
 			{ _id: 'n1690'
 			, open: false, hover: false, want: false, polish: 0
-			, _title: 'Талант: Призыв окулата'
+			, _title: 'Талант: Компаньон: особый боевой режим'
 			, _description:
 				'Применение атакующих умений в бою с некоторой вероятностью '+
-				'призовет окулата, который будет сражаться на стороне '+
-				'персонажа в течение 18/25 секунд.'
+				'позволит компаньону начать самостоятельно атаковать '+
+				'противника персонажа в течение 18/25 секунд и отвлекать ' +
+				'огонь противников на себя.'
 			, _nodeImage: 'okulat'
 			, _need: {blue: 350}
 			, _give: {prestige: 40}
@@ -18204,7 +18214,7 @@ var nodesData =
 			{ _id: 'n1755'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -3030, y: 60}
 		, _classes: 'stat'
@@ -18304,7 +18314,7 @@ var nodesData =
 			{ _id: 'n1765'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -2969, y: 110}
 		, _classes: 'stat'
@@ -18324,7 +18334,7 @@ var nodesData =
 			{ _id: 'n1767'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -3030, y: -157}
 		, _classes: 'stat'
@@ -20010,7 +20020,7 @@ var nodesData =
 			{ _id: 'n1930'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -2660,  y: -590}
 		, _classes: 'stat'
@@ -20110,7 +20120,7 @@ var nodesData =
 			{ _id: 'n1940'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -2793, y: -566}
 		, _classes: 'stat'
@@ -20120,7 +20130,7 @@ var nodesData =
 			{ _id: 'n1941'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -2527, y: -566}
 		, _classes: 'stat'
@@ -20150,7 +20160,7 @@ var nodesData =
 			{ _id: 'n1944'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -2525, y: -650}
 		, _classes: 'stat'
@@ -20496,7 +20506,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -21015,7 +21025,7 @@ var nodesData =
 			{ _id: 'n2028'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -1662, y: -2310}
 		, _classes: 'stat'
@@ -21055,7 +21065,7 @@ var nodesData =
 			{ _id: 'n2032'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1515, y: -2340}
 		, _classes: 'stat'
@@ -21065,7 +21075,7 @@ var nodesData =
 			{ _id: 'n2033'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1671, y: -2390}
 		, _classes: 'stat'
@@ -21095,7 +21105,7 @@ var nodesData =
 			{ _id: 'n2036'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1549, y: -2170}
 		, _classes: 'stat'
@@ -21159,7 +21169,7 @@ var nodesData =
 			{ _id: 'n2042'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -1150,  y: -2220}
 		, _classes: 'stat'
@@ -21169,7 +21179,7 @@ var nodesData =
 			{ _id: 'n2043'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -1098, y: -2310}
 		, _classes: 'stat'
@@ -21189,7 +21199,7 @@ var nodesData =
 			{ _id: 'n2045'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1245, y: -2340}
 		, _classes: 'stat'
@@ -21199,7 +21209,7 @@ var nodesData =
 			{ _id: 'n2046'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1245, y: -2220}
 		, _classes: 'stat'
@@ -21259,7 +21269,7 @@ var nodesData =
 			{ _id: 'n2052'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -1089, y: -2170}
 		, _classes: 'stat'
@@ -21310,7 +21320,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -21332,7 +21342,7 @@ var nodesData =
 			{ _id: 'n2059'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -638, y: -2310}
 		, _classes: 'stat'
@@ -21352,7 +21362,7 @@ var nodesData =
 			{ _id: 'n2061'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -785, y: -2340}
 		, _classes: 'stat'
@@ -21382,7 +21392,7 @@ var nodesData =
 			{ _id: 'n2064'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -595, y: -2340}
 		, _classes: 'stat'
@@ -21422,7 +21432,7 @@ var nodesData =
 			{ _id: 'n2068'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -629, y: -2170}
 		, _classes: 'stat'
@@ -21432,7 +21442,7 @@ var nodesData =
 			{ _id: 'n2069'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -690, y: -2390}
 		, _classes: 'stat'
@@ -21452,7 +21462,7 @@ var nodesData =
 			{ _id: 'n2071'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -825, y: -2280}
 		, _classes: 'stat'
@@ -21486,7 +21496,7 @@ var nodesData =
 			{ _id: 'n2074'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -230, y: -2220}
 		, _classes: 'stat'
@@ -21496,7 +21506,7 @@ var nodesData =
 			{ _id: 'n2075'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -178, y: -2310}
 		, _classes: 'stat'
@@ -21516,7 +21526,7 @@ var nodesData =
 			{ _id: 'n2077'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -325, y: -2340}
 		, _classes: 'stat'
@@ -21546,7 +21556,7 @@ var nodesData =
 			{ _id: 'n2080'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -135, y: -2340}
 		, _classes: 'stat'
@@ -21556,7 +21566,7 @@ var nodesData =
 			{ _id: 'n2081'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -291, y: -2390}
 		, _classes: 'stat'
@@ -21616,7 +21626,7 @@ var nodesData =
 			{ _id: 'n2087'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -365, y: -2280}
 		, _classes: 'stat'
@@ -21657,7 +21667,7 @@ var nodesData =
 			{ _id: 'n2091'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -2608, y: 620}
 		, _classes: 'stat'
@@ -21697,7 +21707,7 @@ var nodesData =
 			{ _id: 'n2095'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -2721, y: 760}
 		, _classes: 'stat'
@@ -21757,7 +21767,7 @@ var nodesData =
 			{ _id: 'n2101'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -2527, y: 734}
 		, _classes: 'stat'
@@ -21777,7 +21787,7 @@ var nodesData =
 			{ _id: 'n2103'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -2795, y: 650}
 		, _classes: 'stat'
@@ -21787,7 +21797,7 @@ var nodesData =
 			{ _id: 'n2104'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -2525, y: 650}
 		, _classes: 'stat'
@@ -21962,7 +21972,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -22165,7 +22175,7 @@ var nodesData =
 			{ _id: 'n2141'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -2122, y: 1710}
 		, _classes: 'stat'
@@ -22205,7 +22215,7 @@ var nodesData =
 			{ _id: 'n2145'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1975, y: 1680}
 		, _classes: 'stat'
@@ -22235,7 +22245,7 @@ var nodesData =
 			{ _id: 'n2148'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -2131, y: 1850}
 		, _classes: 'stat'
@@ -22245,7 +22255,7 @@ var nodesData =
 			{ _id: 'n2149'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -2009, y: 1850}
 		, _classes: 'stat'
@@ -22296,7 +22306,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -22308,7 +22318,7 @@ var nodesData =
 			{ _id: 'n2155'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -1705, y: 2140}
 		, _classes: 'stat'
@@ -22348,7 +22358,7 @@ var nodesData =
 			{ _id: 'n2159'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1671, y: 2090}
 		, _classes: 'stat'
@@ -22378,7 +22388,7 @@ var nodesData =
 			{ _id: 'n2162'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -1549, y: 2310}
 		, _classes: 'stat'
@@ -22388,7 +22398,7 @@ var nodesData =
 			{ _id: 'n2163'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -1610, y: 2090}
 		, _classes: 'stat'
@@ -22398,7 +22408,7 @@ var nodesData =
 			{ _id: 'n2164'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1610, y: 2310}
 		, _classes: 'stat'
@@ -22408,7 +22418,7 @@ var nodesData =
 			{ _id: 'n2165'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1743, y: 2116}
 		, _classes: 'stat'
@@ -22522,7 +22532,7 @@ var nodesData =
 			{ _id: 'n2176'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -2165, y: 2260}
 		, _classes: 'stat'
@@ -22532,7 +22542,7 @@ var nodesData =
 			{ _id: 'n2177'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: -1975, y: 2260}
 		, _classes: 'stat'
@@ -22542,7 +22552,7 @@ var nodesData =
 			{ _id: 'n2178'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -1975, y: 2140}
 		, _classes: 'stat'
@@ -22582,7 +22592,7 @@ var nodesData =
 			{ _id: 'n2182'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: -2009, y: 2310}
 		, _classes: 'stat'
@@ -22633,7 +22643,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -22982,7 +22992,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18}
 			}
-		, _position: {x: 1060, y: 940}
+		, _position: {x: 1060, y: 1040}
 		, _classes: 'stat'
 		}
 	,
@@ -22992,7 +23002,7 @@ var nodesData =
 			, _need: {green: 185}
 			, _give: {prestige: 24, vit: 24}
 			}
-		, _position: {x: 1112, y: 850}
+		, _position: {x: 1112, y: 950}
 		, _classes: 'stat'
 		}
 	,
@@ -23002,7 +23012,7 @@ var nodesData =
 			, _need: {green: 185}
 			, _give: {prestige: 24, vit: 24}
 			}
-		, _position: {x: 1008, y: 850}
+		, _position: {x: 1008, y: 950}
 		, _classes: 'stat'
 		}
 	,
@@ -23012,7 +23022,7 @@ var nodesData =
 			, _need: {red: 150}
 			, _give: {prestige: 12, power: 12}
 			}
-		, _position: {x: 999, y: 770}
+		, _position: {x: 999, y: 870}
 		, _classes: 'stat'
 		}
 	,
@@ -23022,7 +23032,7 @@ var nodesData =
 			, _need: {blue: 185}
 			, _give: {prestige: 20, spirit: 20}
 			}
-		, _position: {x: 1121, y: 770}
+		, _position: {x: 1121, y: 870}
 		, _classes: 'stat'
 		}
 	,
@@ -23032,7 +23042,7 @@ var nodesData =
 			, _need: {blue: 185}
 			, _give: {prestige: 20, str: 20}
 			}
-		, _position: {x: 999, y: 990}
+		, _position: {x: 999, y: 1090}
 		, _classes: 'stat'
 		}
 	,
@@ -23042,7 +23052,7 @@ var nodesData =
 			, _need: {blue: 185}
 			, _give: {prestige: 20, luck: 20}
 			}
-		, _position: {x: 1121, y: 990}
+		, _position: {x: 1121, y: 1090}
 		, _classes: 'stat'
 		}
 	,
@@ -23052,7 +23062,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, spirit: 15}
 			}
-		, _position: {x: 1060, y: 723}
+		, _position: {x: 1060, y: 823}
 		, _classes: 'stat'
 		}
 	,
@@ -23062,7 +23072,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, luck: 15}
 			}
-		, _position: {x: 1060, y: 1037}
+		, _position: {x: 1060, y: 1137}
 		, _classes: 'stat'
 		}
 	,
@@ -23072,7 +23082,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18}
 			}
-		, _position: {x: 927, y: 796}
+		, _position: {x: 927, y: 896}
 		, _classes: 'stat'
 		}
 	,
@@ -23082,7 +23092,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, str: 15}
 			}
-		, _position: {x: 927, y: 964}
+		, _position: {x: 927, y: 1064}
 		, _classes: 'stat'
 		}
 	,
@@ -23092,7 +23102,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, valor: 15}
 			}
-		, _position: {x: 1193, y: 964}
+		, _position: {x: 1193, y: 1064}
 		, _classes: 'stat'
 		}
 	,
@@ -23102,7 +23112,7 @@ var nodesData =
 			, _need: {red: 150}
 			, _give: {prestige: 12, power: 12}
 			}
-		, _position: {x: 1193, y: 796}
+		, _position: {x: 1193, y: 896}
 		, _classes: 'stat'
 		}
 	,
@@ -23112,7 +23122,7 @@ var nodesData =
 			, _need: {red: 150}
 			, _give: {prestige: 12, power: 12}
 			}
-		, _position: {x: 925, y: 880}
+		, _position: {x: 925, y: 980}
 		, _classes: 'stat'
 		}
 	,
@@ -23122,7 +23132,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, valor: 15}
 			}
-		, _position: {x: 1195, y: 880}
+		, _position: {x: 1195, y: 980}
 		, _classes: 'stat'
 		}
 	,
@@ -23139,7 +23149,7 @@ var nodesData =
 			, _need: {blue: 200}
 			, _give: {}
 			}
-		, _position: {x: 1060, y: 880}
+		, _position: {x: 1060, y: 980}
 		, _classes: 'skill'
 		}
 	,
@@ -23149,7 +23159,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, valor: 15}
 			}
-		, _position: {x: 1060, y: -820}
+		, _position: {x: 1060, y: -920}
 		, _classes: 'stat'
 		}
 	,
@@ -23159,7 +23169,7 @@ var nodesData =
 			, _need: {green: 185}
 			, _give: {prestige: 24, vit: 24}
 			}
-		, _position: {x: 1112, y: -910}
+		, _position: {x: 1112, y: -1010}
 		, _classes: 'stat'
 		}
 	,
@@ -23169,7 +23179,7 @@ var nodesData =
 			, _need: {green: 185}
 			, _give: {prestige: 24, vit: 24}
 			}
-		, _position: {x: 1008, y: -910}
+		, _position: {x: 1008, y: -1010}
 		, _classes: 'stat'
 		}
 	,
@@ -23179,7 +23189,7 @@ var nodesData =
 			, _need: {red: 150}
 			, _give: {prestige: 12, power: 12}
 			}
-		, _position: {x: 999, y: -990}
+		, _position: {x: 999, y: -1090}
 		, _classes: 'stat'
 		}
 	,
@@ -23189,7 +23199,7 @@ var nodesData =
 			, _need: {blue: 185}
 			, _give: {prestige: 20, spirit: 20}
 			}
-		, _position: {x: 1121, y: -990}
+		, _position: {x: 1121, y: -1090}
 		, _classes: 'stat'
 		}
 	,
@@ -23199,7 +23209,7 @@ var nodesData =
 			, _need: {blue: 185}
 			, _give: {prestige: 20, str: 20}
 			}
-		, _position: {x: 999, y: -770}
+		, _position: {x: 999, y: -870}
 		, _classes: 'stat'
 		}
 	,
@@ -23209,7 +23219,7 @@ var nodesData =
 			, _need: {red: 150}
 			, _give: {prestige: 12, power: 12}
 			}
-		, _position: {x: 1121, y: -770}
+		, _position: {x: 1121, y: -870}
 		, _classes: 'stat'
 		}
 	,
@@ -23219,7 +23229,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, spirit: 15}
 			}
-		, _position: {x: 1060, y: -1037}
+		, _position: {x: 1060, y: -1137}
 		, _classes: 'stat'
 		}
 	,
@@ -23229,7 +23239,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, valor: 15}
 			}
-		, _position: {x: 1060, y: -723}
+		, _position: {x: 1060, y: -823}
 		, _classes: 'stat'
 		}
 	,
@@ -23239,7 +23249,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18}
 			}
-		, _position: {x: 927, y: -964}
+		, _position: {x: 927, y: -1064}
 		, _classes: 'stat'
 		}
 	,
@@ -23249,7 +23259,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, str: 15}
 			}
-		, _position: {x: 927, y: -796}
+		, _position: {x: 927, y: -896}
 		, _classes: 'stat'
 		}
 	,
@@ -23259,7 +23269,7 @@ var nodesData =
 			, _need: {green: 150}
 			, _give: {prestige: 18, vit: 18}
 			}
-		, _position: {x: 1193, y: -796}
+		, _position: {x: 1193, y: -896}
 		, _classes: 'stat'
 		}
 	,
@@ -23269,7 +23279,7 @@ var nodesData =
 			, _need: {blue: 185}
 			, _give: {prestige: 20, luck: 20}
 			}
-		, _position: {x: 1193, y: -964}
+		, _position: {x: 1193, y: -1064}
 		, _classes: 'stat'
 		}
 	,
@@ -23279,7 +23289,7 @@ var nodesData =
 			, _need: {red: 150}
 			, _give: {prestige: 12, power: 12}
 			}
-		, _position: {x: 925, y: -880}
+		, _position: {x: 925, y: -980}
 		, _classes: 'stat'
 		}
 	,
@@ -23289,7 +23299,7 @@ var nodesData =
 			, _need: {blue: 150}
 			, _give: {prestige: 15, luck: 15}
 			}
-		, _position: {x: 1195, y: -880}
+		, _position: {x: 1195, y: -980}
 		, _classes: 'stat'
 		}
 	,
@@ -23306,7 +23316,7 @@ var nodesData =
 			, _need: {blue: 200}
 			, _give: {}
 			}
-		, _position: {x: 1060, y: -880}
+		, _position: {x: 1060, y: -980}
 		, _classes: 'skill'
 		}
 	,
@@ -23963,7 +23973,7 @@ var nodesData =
 			{ _id: 'n2316'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 3040, y: -2140}
 		, _classes: 'stat'
@@ -23993,7 +24003,7 @@ var nodesData =
 			{ _id: 'n2319'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 2945, y: -2260}
 		, _classes: 'stat'
@@ -24033,7 +24043,7 @@ var nodesData =
 			{ _id: 'n2323'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 2979, y: -2310}
 		, _classes: 'stat'
@@ -24043,7 +24053,7 @@ var nodesData =
 			{ _id: 'n2324'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 3101, y: -2310}
 		, _classes: 'stat'
@@ -24073,7 +24083,7 @@ var nodesData =
 			{ _id: 'n2327'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 3040, y: -2310}
 		, _classes: 'stat'
@@ -24114,7 +24124,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -24277,7 +24287,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -24450,7 +24460,7 @@ var nodesData =
 			{ _id: 'n2364'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 4785, y: -2260}
 		, _classes: 'stat'
@@ -24520,7 +24530,7 @@ var nodesData =
 			{ _id: 'n2371'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 4941, y: -2090}
 		, _classes: 'stat'
@@ -24530,7 +24540,7 @@ var nodesData =
 			{ _id: 'n2372'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 4880, y: -2310}
 		, _classes: 'stat'
@@ -24580,7 +24590,7 @@ var nodesData =
 			{ _id: 'n2377'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5013, y: -2284}
 		, _classes: 'stat'
@@ -24600,7 +24610,7 @@ var nodesData =
 			{ _id: 'n2379'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 5015, y: -2200}
 		, _classes: 'stat'
@@ -24835,7 +24845,7 @@ var nodesData =
 			{ _id: 'n2402'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5435, y: -1210}
 		, _classes: 'stat'
@@ -24845,7 +24855,7 @@ var nodesData =
 			{ _id: 'n2403'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5435, y: -1330}
 		, _classes: 'stat'
@@ -24905,7 +24915,7 @@ var nodesData =
 			{ _id: 'n2409'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5340, y: -1427}
 		, _classes: 'stat'
@@ -24949,7 +24959,7 @@ var nodesData =
 			{ _id: 'n2413'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5392, y: -1770}
 		, _classes: 'stat'
@@ -24959,7 +24969,7 @@ var nodesData =
 			{ _id: 'n2414'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 5288, y: -1770}
 		, _classes: 'stat'
@@ -25009,7 +25019,7 @@ var nodesData =
 			{ _id: 'n2419'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5279, y: -1850}
 		, _classes: 'stat'
@@ -25019,7 +25029,7 @@ var nodesData =
 			{ _id: 'n2420'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5401, y: -1850}
 		, _classes: 'stat'
@@ -25039,7 +25049,7 @@ var nodesData =
 			{ _id: 'n2422'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5401, y: -1630}
 		, _classes: 'stat'
@@ -25090,7 +25100,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -25253,7 +25263,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -25416,7 +25426,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -25894,7 +25904,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -26069,7 +26079,7 @@ var nodesData =
 			{ _id: 'n2523'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 4420, y: 2260}
 		, _classes: 'stat'
@@ -26079,7 +26089,7 @@ var nodesData =
 			{ _id: 'n2524'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 4472, y: 2170}
 		, _classes: 'stat'
@@ -26129,7 +26139,7 @@ var nodesData =
 			{ _id: 'n2529'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 4515, y: 2140}
 		, _classes: 'stat'
@@ -26139,7 +26149,7 @@ var nodesData =
 			{ _id: 'n2530'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 4359, y: 2090}
 		, _classes: 'stat'
@@ -26159,7 +26169,7 @@ var nodesData =
 			{ _id: 'n2532'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 4359, y: 2310}
 		, _classes: 'stat'
@@ -26189,7 +26199,7 @@ var nodesData =
 			{ _id: 'n2535'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 4420, y: 2310}
 		, _classes: 'stat'
@@ -26417,7 +26427,7 @@ var nodesData =
 			{ _id: 'n2557'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 4932, y: 2170}
 		, _classes: 'stat'
@@ -26447,7 +26457,7 @@ var nodesData =
 			{ _id: 'n2560'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 4785, y: 2260}
 		, _classes: 'stat'
@@ -26467,7 +26477,7 @@ var nodesData =
 			{ _id: 'n2562'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 4975, y: 2140}
 		, _classes: 'stat'
@@ -26507,7 +26517,7 @@ var nodesData =
 			{ _id: 'n2566'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 4941, y: 2310}
 		, _classes: 'stat'
@@ -26547,7 +26557,7 @@ var nodesData =
 			{ _id: 'n2570'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 5015, y: 2200}
 		, _classes: 'stat'
@@ -26558,7 +26568,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -26721,7 +26731,7 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
@@ -26974,7 +26984,7 @@ var nodesData =
 			{ _id: 'n2612'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 5279, y: 1160}
 		, _classes: 'stat'
@@ -27004,7 +27014,7 @@ var nodesData =
 			{ _id: 'n2615'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 5401, y: 1380}
 		, _classes: 'stat'
@@ -27024,7 +27034,7 @@ var nodesData =
 			{ _id: 'n2617'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5340, y: 1113}
 		, _classes: 'stat'
@@ -27068,7 +27078,7 @@ var nodesData =
 			{ _id: 'n2621'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {green: 775}
-			, _give: {prestige: 75, vit: 75, dex: 24}
+			, _give: {prestige: 90, vit: 90, dex: 29}
 			}
 		, _position: {x: 5392, y: 1710}
 		, _classes: 'stat'
@@ -27108,7 +27118,7 @@ var nodesData =
 			{ _id: 'n2625'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5435, y: 1800}
 		, _classes: 'stat'
@@ -27168,7 +27178,7 @@ var nodesData =
 			{ _id: 'n2631'
 			, open: false, hover: false, want: false, polish: 0
 			, _need: {red: 775}
-			, _give: {prestige: 40, power: 40, dex: 24}
+			, _give: {prestige: 48, power: 48, dex: 29}
 			}
 		, _position: {x: 5340, y: 1630}
 		, _classes: 'stat'
@@ -27209,12 +27219,178 @@ var nodesData =
 			, open: false, hover: false, want: false, polish: 0
 			, _title: 'Бонус: Могущество, Выносливость'
 			, _description: ''
-			, _nodeImage: 'sphere'
+			, _nodeImage: 'pv'
 			, _need: {red: 4500, green: 4500}
 			, _give: {prestige: 750, power: 250, vit: 500, dex: 300}
 			}
 		, _position: {x: 5340, y: 1740}
 		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2636'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1380,	y: -330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2637'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1432, y: -420}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2638'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1328, y: -420}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2639'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1285, y: -450}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2640'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1285, y: -330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2641'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1475, y: -330}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2642'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1475, y: -450}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2643'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1380, y: -500}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2644'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1380, y: -280}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2645'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, spirit: 56}
+			}
+		, _position: {x: 1380, y: -547}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2646'
+			, open: false, hover: false, want: false
+			, _need: {red: 650}
+			, _give: {prestige: 40, power: 40, dex: 24}
+			}
+		, _position: {x: 1380, y: -233}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2647'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, valor: 56}
+			}
+		, _position: {x: 1247, y: -474}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2648'
+			, open: false, hover: false, want: false
+			, _need: {green: 650}
+			, _give: {prestige: 75, vit: 75, dex: 24}
+			}
+		, _position: {x: 1247, y: -306}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2649'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, luck: 56}
+			}
+		, _position: {x: 1513, y: -306}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2650'
+			, open: false, hover: false, want: false
+			, _need: {blue: 650}
+			, _give: {prestige: 56, str: 56}
+			}
+		, _position: {x: 1513, y: -474}
+		, _classes: 'stat'
+		}
+	,
+		{ data:
+			{ _id: 'n2651'
+			, open: false, hover: false, want: false, polish: 0
+			, _title: 'Талант: Сила единства'
+			, _description:
+				'При игре за класс роли "Атака" могущество увеличивается на ' +
+				'25% за каждого союзника другого класса этой роли, ' +
+				'находящегося в радиусе 40 метров.'
+			, _nodeImage: 'unity'
+			, _need: {blue: 350}
+			, _give: {prestige: 40}
+			}
+		, _position: {x: 1380, y: -390}
+		, _classes: 'skill'
 		}
 	];
 
@@ -29950,6 +30126,22 @@ var edgesData =
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2620', _target: 'n2632'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2632', _target: 'n2629'}}
 	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2629', _target: 'n2624'}}
+	, {_classes: 'between', data: {open: false, hover: false, want: false, _source: 'n124', _target: 'n2646'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2646', _target: 'n2644'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2641', _target: 'n2642'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2642', _target: 'n2643'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2643', _target: 'n2639'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2639', _target: 'n2640'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2640', _target: 'n2644'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2640', _target: 'n2648'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2639', _target: 'n2647'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2643', _target: 'n2645'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2642', _target: 'n2650'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2641', _target: 'n2649'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2641', _target: 'n2636'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2637', _target: 'n2638'}}
+	, {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n2638', _target: 'n2636'}}
+	, {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2637', _target: 'n2651'}}
 	];
 
 var atlas =
