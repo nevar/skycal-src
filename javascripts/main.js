@@ -645,12 +645,12 @@ function getNewPolish(polish, isWant) {
 
 					if (node.data.nodeImage !== 'empty') {
 						$('#tooltip').qtip('api')
-							.toggle(true)
 							.set(
-							{ 'content.title': renderTitle(node)
-							, 'content.text': renderText(node, true)
-							, 'position.target': $(this.$el.nextElementSibling)
-							});
+								{ 'content.title': renderTitle(node)
+								, 'content.text': renderText(node, true)
+								, 'position.target': $(this.$el.nextElementSibling)
+								})
+							.toggle(true);
 					}
 					if (node.data.start || node.data.want || atlasMove) {
 						return;
@@ -935,12 +935,12 @@ function getNewPolish(polish, isWant) {
 							node = stat.node[pos];
 							center(this.atlases[this.selected], node.position);
 							$('#tooltip').qtip('api')
-								.toggle(true)
 								.set(
-								{ 'content.title': renderTitle(node)
-								, 'content.text': renderText(node, true)
-								, 'position.target': false
-								});
+									{ 'content.title': renderTitle(node)
+									, 'content.text': renderText(node, true)
+									, 'position.target': false
+									})
+								.toggle(true);
 							stat.pos = (pos + 1) % stat.node.length;
 							return;
 						}
@@ -955,29 +955,14 @@ function getNewPolish(polish, isWant) {
 	);
 	initCy(atlases);
 	$('#tooltip').qtip(
-		{ content:
-			{ title: ''
-			, text: ''
-			}
-		, show:
-			{ delay: 250
-			, effect: false
-			, target: false
-			}
-		, hide:
-			{ target: false
-			, effect: false
-			}
+		{ content: {title: '', text: ''}
+		, show: {delay: 250, effect: false, target: false}
+		, hide: {target: false, effect: false}
 		, position:
-			{ my: 'left top'
-			, at: 'top right'
-			, viewport: $(window)
+			{ my: 'left top', at: 'top right', viewport: $(window)
 			, effect: false
 			}
-		, style:
-			{ classes: 'qtip qtip-dark qtip-round'
-			, tip: {corner: true}
-			}
+		, style: {classes: 'qtip qtip-dark qtip-round', tip: {corner: true}}
 		});
 	$('#tooltip').qtip('api').hide();
 });
