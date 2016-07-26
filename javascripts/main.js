@@ -820,8 +820,28 @@ function getNewPolish(polish, isWant) {
 			}
 		});
 	Vue.component('edge',
-		{ props: ['edge', 'nodePos']
+		{ props: ['edge', 'source', 'target']
 		, template: '#edge-template'
+		, computed:
+			{ path: function() {
+					var source = this.source, target = this.target;
+
+					if (this.edge.classes == 'curve120') {
+						return "M " + source.x + " " + source.y +
+							" Q " + ((target.x + source.x) / 2 - (target.y - source.y) / 2) +
+							" " + ((target.y + source.y) / 2 + (target.x - source.x) / 2) +
+							" " + target.x + " " + target.y;
+					} else if (this.edge.classes == 'curve60' || this.edge.classes == 'curve') {
+						return "M " + source.x + " " + source.y +
+							" Q " + ((target.x + source.x) / 2 - (target.y - source.y) / 4) +
+							" " + ((target.y + source.y) / 2 + (target.x - source.x) / 4) +
+							" " + target.x + " " + target.y;
+					} else {
+						return "M " + source.x + " " + source.y +
+							" " + target.x + " " + target.y;
+					}
+				}
+			}
 		});
 	Vue.component('atlas',
 		{ props: ['atlas']

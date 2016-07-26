@@ -16,7 +16,6 @@
 					{ "open": node.data.open
 					, "hover": node.data.hover
 					, "want": node.data.want
-					, "big": $parent.isBig
 					}'
 				:cx='node.position.x' :cy='node.position.y'
 				:r='radius(node)' :fill='nodeImage(node)'
@@ -37,31 +36,20 @@
 				/>
 		</script>
 		<script type='text/x-template' id='edge-template'>
-			<path v-if='edge.classes == "curve"'
-				:class='
+			<path
+				:class='[edge.classes,
 					{ "open": edge.data.open
 					, "hover": edge.data.hover
 					, "want": edge.data.want
-					}'
-				:d='"M " + nodePos[edge.data.source].x + " " + nodePos[edge.data.source].y +
-					"Q " + ((nodePos[edge.data.target].x + nodePos[edge.data.source].x) / 2 - (nodePos[edge.data.target].y - nodePos[edge.data.source].y) / 3) +
-					" " + ((nodePos[edge.data.target].y + nodePos[edge.data.source].y) / 2 + (nodePos[edge.data.target].x - nodePos[edge.data.source].x) / 3) +
-					" " + nodePos[edge.data.target].x + " " + nodePos[edge.data.target].y'
-				/>
-			<line v-else
-				:class='
-					{ "open": edge.data.open
-					, "hover": edge.data.hover
-					, "want": edge.data.want
-					, "between": edge.classes == "between" && $parent.isBig
-					}'
-				:x1='nodePos[edge.data.source].x' :y1='nodePos[edge.data.source].y'
-				:x2='nodePos[edge.data.target].x' :y2='nodePos[edge.data.target].y'
-				/>
+					}]'
+				:d.once="path"/>
 		</script>
 		<script type='text/x-template' id='atlas-template'>
-			<g :transform='"translate(" + atlas.mX + "," + atlas.mY + ") scale(" + atlas.scale + ")"'>
-				<edge v-for='edge in atlas.edges' :edge.once='edge' :node-pos.once='atlas.nodePos'></edge>
+			<g :class='{big: isBig}'
+				:transform='"translate(" + atlas.mX + "," + atlas.mY + ") scale(" + atlas.scale + ")"'>
+				<edge v-for='edge in atlas.edges' :edge.once='edge'
+					:source.once='atlas.nodePos[edge.data.source]'
+					:target.once='atlas.nodePos[edge.data.target]'></edge>
 				<node v-for='node in atlas.nodes' :node.once='node'></node>
 			</g>
 		</script>

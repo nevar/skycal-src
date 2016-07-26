@@ -8,11 +8,11 @@ circle.open {
 	stroke-width: 3;
 }
 
-circle.big {
+.big circle {
 	stroke-width: 10;
 }
 
-circle.open.big {
+.big circle.open {
 	stroke-width: 12;
 }
 
@@ -25,7 +25,7 @@ circle.hover {
 	stroke-dasharray: 10, 5
 }
 
-circle.big.hover {
+.big circle.hover {
 	stroke-dasharray: 50, 30
 }
 
@@ -33,34 +33,34 @@ circle.open.hover {
 	stroke: red;
 }
 
-line, path {
+path {
 	stroke: grey;
 	stroke-width: 2;
 	fill: none
 }
 
-path.open, line.open {
+path.open {
 	stroke: yellow;
 }
 
-line.between {
+.big path.between {
 	stroke-width: 10;
 }
 
-path.want, line.want {
+path.want {
 	stroke: #0066CC;
 }
 
-path.hover, line.hover {
+path.hover {
 	stroke: yellow;
 	stroke-dasharray: 10, 5
 }
 
-line.hover.between {
+.big path.hover.between {
 	stroke-dasharray: 50, 30
 }
 
-path.open.hover, line.open.hover {
+path.open.hover {
 	stroke: red;
 }
 
