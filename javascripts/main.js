@@ -656,6 +656,9 @@ function getNewPolish(polish, isWant) {
 			, hoverNode: function(node) {
 					var cy = this.$parent.atlas.cy;
 
+					if (atlasMove) {
+						return;
+					}
 					if (node.data.nodeImage !== 'empty') {
 						$('#tooltip').qtip('api')
 							.set(
@@ -665,7 +668,7 @@ function getNewPolish(polish, isWant) {
 								})
 							.toggle(true);
 					}
-					if (node.data.start || node.data.want || atlasMove) {
+					if (node.data.start || node.data.want) {
 						return;
 					}
 					if (node.data.open) {
