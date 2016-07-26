@@ -77,14 +77,13 @@ function addNode(atlas, id, polish) {
 
 function calcTotal(atlases) {
 	var atlas, nodesData, node, nodeData, nodePos;
-	var cost = ['', 'bronze', 'silver', 'gold'];
-	var stat, polishPrestige, polishNode, isPolish;
+	var polishPrestige, polishNode, isPolish;
 
 	for (var atlasID in atlases) {
 		atlas = atlases[atlasID];
 		nodesData = atlases[atlasID].nodes;
 		nodePos = {};
-		isPolish = nodesData[0].data.hasOwnProperty('polish');
+		isPolish = atlas._polish;
 		polishPrestige = 0;
 		polishNode = 0;
 		totalPolishCost = 0;
@@ -92,48 +91,32 @@ function calcTotal(atlases) {
 			node = nodesData[i];
 			nodeData = node.data;
 			nodePos[nodeData._id] = node._position;
-			polishCost = 9999;
 			if (isPolish && node._classes === 'stat' && !nodeData._give.majesty)
 			{
 				polishNode++;
 				polishPrestige += nodeData._give.prestige;
-				for (stat in nodeData._give) {
-					if (stat === 'prestige' || stat === 'dex') {continue;}
+				polishCost = 9999;
+				for (var stat in nodeData._give) {
+					if (stat === 'dex') { continue; }
 					polishCost = Math.min(polishCost, nodeData._give[stat]);
 				}
 				totalPolishCost += polishCost;
 			}
-			for (stat in nodeData._give) {
-				atlas.stat.total[stat] += nodeData._give[stat];
-				if (nodeData.open) {
-					atlas.stat.got[stat] += nodeData._give[stat];
-					if (nodeData.polish > 0 && stat !== 'majesty' &&
-						stat !== 'dex')
-					{
-						atlas.stat.got[stat] +=
-							nodeData._give[stat] * 0.5 * nodeData.polish;
-					}
-				}
+			for (var stat in nodeData._give) {
+				atlas.stat.total[stat] =
+					(atlas.stat.total[stat] ? atlas.stat.total[stat] : 0) +
+					nodeData._give[stat];
 			}
 			for (var spark in nodeData._need) {
-				atlas.sparks.total[spark] += nodeData._need[spark];
-				if (nodeData.open) {
-					atlas.sparks.got[spark] += nodeData._need[spark];
-					if (nodeData.polish > 0) {
-						for (var j = 1; j <= nodeData.polish; j++) {
-							atlas.sparks.got[cost[j]] += polishCost * 5 * j;
-						}
-						atlas.sparks.got.core += nodeData.polish;
-					}
-				}
+				atlas.sparks.total[spark] =
+					(atlas.sparks.total[spark] ? atlas.sparks.total[spark] : 0) +
+					nodeData._need[spark];
 			}
 		}
 		if (isPolish) {
-			for (stat in atlas.stat.total) {
+			for (var stat in atlas.stat.total) {
 				if (stat === 'dex' || stat === 'majesty' || stat === 'prestige')
-				{
-					continue;
-				}
+				{ continue; }
 				atlas.stat.total[stat] *= 2.5;
 			}
 			atlas.stat.total.prestige += polishPrestige * 1.5;
@@ -142,13 +125,16 @@ function calcTotal(atlases) {
 			atlas.sparks.total.gold = totalPolishCost * 15;
 			atlas.sparks.total.core = polishNode * 3;
 		}
-		if (atlas.sparks.total.hasOwnProperty('all')) {
+		if (atlas.sparks.red) {
 			atlas.sparks.total.all =
 				atlas.sparks.total.red + atlas.sparks.total.green +
 				atlas.sparks.total.blue;
-			atlas.sparks.got.all =
-				atlas.sparks.got.red + atlas.sparks.got.green +
-				atlas.sparks.got.blue;
+		}
+		for (var stat in atlas.stat.total) {
+			atlas.stat.got[stat] = 0;
+		}
+		for (var spark in atlas.sparks.total) {
+			atlas.sparks.got[spark] = 0;
 		}
 		atlas._nodePos = nodePos;
 	}
@@ -202,6 +188,9 @@ function groupSkill(atlases) {
 
 function loadAtlas(atlas) {
 	var dataString, val, index, nodeCount, l, len, _plainData, size, polishSize;
+	var nodeData;
+	var cost = ['', 'bronze', 'silver', 'gold'];
+	var polishCost;
 
 	/* jshint bitwise: false */
 	nodeCount = atlas.nodes.length;
@@ -226,8 +215,15 @@ function loadAtlas(atlas) {
 		val = _plainData[i];
 		index = i * 8 + 7;
 		while (val > 0) {
-			if (index < nodeCount) {
-				atlas.nodes[index].data.open = !!(val & 1);
+			if (index < nodeCount && (val & 1)) {
+				nodeData = atlas.nodes[index].data
+				nodeData.open = !!(val & 1);
+				for (stat in nodeData._give) {
+					atlas.stat.got[stat] += nodeData._give[stat];
+				}
+				for (var spark in nodeData._need) {
+					atlas.sparks.got[spark] += nodeData._need[spark];
+				}
 			}
 			index--;
 			val = val >> 1;
@@ -238,13 +234,30 @@ function loadAtlas(atlas) {
 		index = (i - l) * 4 + 3;
 		while (val > 0) {
 			if (index < nodeCount) {
-				atlas.nodes[index].data.polish = val & 3;
+				nodeData = atlas.nodes[index].data;
+				nodeData.polish = val & 3;
+				polishCost = 9999;
+				for (stat in nodeData._give) {
+					if (stat === 'dex') { continue; }
+					atlas.stat.got[stat] +=
+						nodeData._give[stat] * 0.5 * nodeData.polish;
+					polishCost = Math.min(polishCost, nodeData._give[stat]);
+				}
+				for (var j = 1; j <= nodeData.polish; j++) {
+					atlas.sparks.got[cost[j]] += polishCost * 5 * j;
+				}
+				atlas.sparks.got.core += nodeData.polish;
 			}
 			index--;
 			val = val >> 2;
 		}
 	}
 	/* jshint bitwise: true */
+	if (atlas.stat.got.red) {
+		atlas.sparks.got.all =
+			atlas.sparks.got.red + atlas.sparks.got.green +
+				atlas.sparks.got.blue;
+	}
 }
 
 function saveAtlas(atlas) {
@@ -519,12 +532,12 @@ function getNewPolish(polish, isWant) {
 			[ mainAtlas(), godAtlas()
 			];
 
+	calcTotal(atlases);
 	for (var atlasID in atlases) {
 		center(atlases[atlasID], {x: 0, y: 0});
 		loadAtlas(atlases[atlasID]);
 	}
 	groupSkill(atlases);
-	calcTotal(atlases);
 	Vue.config.debug = true;
 	Vue.component('skill',
 		{ props: ['skill', 'atlas']
@@ -574,7 +587,7 @@ function getNewPolish(polish, isWant) {
 					newRealPolish = newValue % 10;
 					newWantPolish = Math.floor(newValue / 10);
 					for (stat in nodeData.give) {
-						if (stat === 'prestige' || stat === 'dex') {continue;}
+						if (stat === 'prestige' || stat === 'dex') { continue; }
 						polishCost = Math.min(polishCost, nodeData.give[stat]);
 					}
 					polishCost *= 5;

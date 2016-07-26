@@ -4372,22 +4372,7 @@ var atlas =
 	, _plainData: new Array((nodesData.length >> 3) + 1)
 	/* jshint bitwise: true */
 	};
-	var i;
-	var sparks =
-		[ 'red', 'green', 'blue', 'all', 'god', 'book', 'secretKnowledge'
-		];
-	var stat =
-		[ 'prestige', 'power', 'vit', 'str', 'valor', 'luck', 'spirit', 'dex'
-		];
 
-	for (i = 0; i < sparks.length; i++) {
-		atlas.sparks.got[sparks[i]] = 0;
-		atlas.sparks.total[sparks[i]] = 0;
-	}
-	for (i = 0; i < stat.length; i++) {
-		atlas.stat.got[stat[i]] = 0;
-		atlas.stat.total[stat[i]] = 0;
-	}
 	atlas._plainData[0] = 128;
 	return atlas;
 }
