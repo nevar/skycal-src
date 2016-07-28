@@ -1,214 +1,214 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset='utf-8'>
-		<meta http-equiv='X-UA-Compatible' content='chrome=1'>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='chrome=1'>
 
-		<title>Skycal by nevar</title>
+        <title>Skycal by nevar</title>
 
-		<script type='text/x-template' id='skill-template'>
-			<img class='skill' @click='findSkill(skill)'
-				:src='"images/nodes/" + skill.nodeImage + ".png"'></img>
-		</script>
-		<script type='text/x-template' id='node-template'>
-			<circle
-				:class='
-					{ "open": node.data.open
-					, "hover": node.data.hover
-					, "want": node.data.want
-					, "node": !!node.data.nodeImage
-					}'
-				:cx.once='node.position.x' :cy.once='node.position.y'
-				:r='radius(node)' :fill.once='nodeImage(node)'
-				@mouseover='hoverNode(node)'
-				@mouseout='unHoverNode(node)'
-				@click='getNode(node, $event)'
-				@contextmenu.stop.prevent='findPath(node, $event)'
-				/>
-			<circle v-if='node.data.polish'
-				class='want polish_{{ Math.floor(node.data.polish / 10) }}'
-				:cx.once='node.position.x' :cy.once='node.position.y'
-				r='17' fill='none'
-				/>
-			<circle v-if='node.data.polish'
-				class='open polish_{{ node.data.polish % 10}}'
-				:cx.once='node.position.x' :cy.once='node.position.y'
-				r='17' fill='none'
-				/>
-		</script>
-		<script type='text/x-template' id='edge-template'>
-			<path
-				:class='[edge.classes,
-					{ "open": edge.data.open
-					, "hover": edge.data.hover
-					, "want": edge.data.want
-					}]'
-				:d.once="path"/>
-		</script>
-		<script type='text/x-template' id='atlas-template'>
-			<g :class='{big: isBig}'
-				:transform='"translate(" + atlas.mX + "," + atlas.mY + ") scale(" + atlas.scale + ")"'>
-				<edge v-for='edge in atlas.edges' :edge.once='edge'
-					:source.once='atlas.nodePos[edge.data.source]'
-					:target.once='atlas.nodePos[edge.data.target]'></edge>
-				<node v-for='node in atlas.nodes' :node.once='node'></node>
-			</g>
-		</script>
+        <script type='text/x-template' id='skill-template'>
+            <img class='skill' @click='findSkill(skill)'
+                :src='"images/nodes/" + skill.nodeImage + ".png"'></img>
+        </script>
+        <script type='text/x-template' id='node-template'>
+            <circle
+                :class='
+                    { "open": node.data.open
+                    , "hover": node.data.hover
+                    , "want": node.data.want
+                    , "node": !!node.data.nodeImage
+                    }'
+                :cx.once='node.position.x' :cy.once='node.position.y'
+                :r='radius(node)' :fill.once='nodeImage(node)'
+                @mouseover='hoverNode(node)'
+                @mouseout='unHoverNode(node)'
+                @click='getNode(node, $event)'
+                @contextmenu.stop.prevent='findPath(node, $event)'
+                />
+            <circle v-if='node.data.polish'
+                class='want polish_{{ Math.floor(node.data.polish / 10) }}'
+                :cx.once='node.position.x' :cy.once='node.position.y'
+                r='17' fill='none'
+                />
+            <circle v-if='node.data.polish'
+                class='open polish_{{ node.data.polish % 10}}'
+                :cx.once='node.position.x' :cy.once='node.position.y'
+                r='17' fill='none'
+                />
+        </script>
+        <script type='text/x-template' id='edge-template'>
+            <path
+                :class='[edge.classes,
+                    { "open": edge.data.open
+                    , "hover": edge.data.hover
+                    , "want": edge.data.want
+                    }]'
+                :d.once="path"/>
+        </script>
+        <script type='text/x-template' id='atlas-template'>
+            <g :class='{big: isBig}'
+                :transform='"translate(" + atlas.mX + "," + atlas.mY + ") scale(" + atlas.scale + ")"'>
+                <edge v-for='edge in atlas.edges' :edge.once='edge'
+                    :source.once='atlas.nodePos[edge.data.source]'
+                    :target.once='atlas.nodePos[edge.data.target]'></edge>
+                <node v-for='node in atlas.nodes' :node.once='node'></node>
+            </g>
+        </script>
 
-		<link rel='stylesheet' type='text/css' href='stylesheets/vendor/jquery.qtip.min.css' media='screen'>
-		<link rel='stylesheet' type='text/css' href='stylesheets/stylesheet.css' media='screen'>
-		<link rel='stylesheet' type='text/css' href='stylesheets/svg.css' media='screen'>
-	</head>
+        <link rel='stylesheet' type='text/css' href='stylesheets/vendor/jquery.qtip.min.css' media='screen'>
+        <link rel='stylesheet' type='text/css' href='stylesheets/stylesheet.css' media='screen'>
+        <link rel='stylesheet' type='text/css' href='stylesheets/svg.css' media='screen'>
+    </head>
 <body>
-	<div id='tooltip'></div>
-	<div id='container' @mousemove='atlasMove' @mouseup='mouseUp'>
-		<div id='left'>
-			<div id='select_atlas'>
-				<select v-model='selected'>
-					<option selected value='0'>Атлас Развития</option>
-					<option value='1'>Божественный атлас</option>
-					<!--
-					<optgroup label='Специализации'>
-						<option value='2'>Бог власти</option>
-						<option value='3'>Бог войны</option>
-						<option value='4'>Бог знаний</option>
-						<option value='5'>Бог обороны</option>
-						<option value='6'>Бог охоты</option>
-						<option value='7'>Бог странствий</option>
-					</optgroup>
-					<optgroup label='Вторжения'>
-						<option value='8'>Фитониды</option>
-						<option value='9'>Механоиды</option>
-						<option value='10'>Горгониды</option>
-						<option value='11'>Жнецы смерти</option>
-						<option value='12'>Океаниды</option>
-						<option value='13'>Демоны</option>
-					</optgroup>
-					--!>
-				</select>
-			</div>
-			<div id='atlas'>
-				<svg
-					@mousedown.stop.prevent='mouseDown'
-					@wheel.stop.prevent='atlasScale'>
-					<defs>
-						<pattern v-for='image in images'
-							id='{{* image }}'
-							x='5%' y='5%' height='90%' width='90%'
-							viewBox='0 0 50 50'>
-							<image x='0%' y='0%' width='50' height='50'
-								v-bind='{"xlink:href": "images/nodes/" + image + ".png"}'>
-							</image>
-						</pattern>
-						<pattern v-for='spark in sparks'
-							id='{{* spark }}'
-							x='5%' y='5%' height='90%' width='90%'
-							viewBox='0 0 50 50'>
-							<image x='0%' y='0%' width='50' height='50'
-								v-bind='{"xlink:href": "images/spark/" + spark + ".png"}'>
-							</image>
-						</pattern>
-					</defs>
-					<atlas
-						v-for='atlas in atlases' v-show='selected == $index'
-						:atlas='atlas'>
-					</atlas>
-				</svg>
-			</div>
-			<div id='box'></div>
-			<div id='need' v-cloak>
-				<div v-for='atlas in atlases' v-show='selected == $index'>
-					<div class='need_spark'
-						v-for='(name, spark) in atlas.sparks.total'>
-						<img :src='"images/spark/" + name + ".png"'></img>
-						<div class='table'>
-							<span class='row'>{{ Math.ceil(need[name]).toLocaleString() }}</span>
-							<span class='row'>{{ Math.ceil(atlas.sparks.got[name]).toLocaleString() }}</span>
-							<span class='row'>{{ Math.ceil(spark).toLocaleString() }}</span></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id='right' v-cloak>
-				<div v-for='atlas in atlases' v-show='selected == $index'>
-					<div v-for='(name, stat) in atlas.stat.total'>
-						{{* statName[name] }}:
-						<span>{{ Math.ceil(recive[name]).toLocaleString() }}</span>/
-						<span>{{ Math.ceil(atlas.stat.got[name]).toLocaleString() }}</span>/
-						<span>{{* Math.ceil(stat).toLocaleString() }}</span>
-					</div>
-					<hr>
-					<details>
-						<summary>Поиск скиллов</summary>
-						<span v-for='skill in atlas.group.skill | orderBy "title"'>
-							<skill :skill.once='skill' :atlas.once='atlas'></skill>
-						</span>
-					</details>
-				</div>
-				<hr/>
-				<details v-if='atlases[selected]'>
-					<summary>Поиск вершины</summary>
-					<label>
-						Что даёт
-						<select v-model='statFind.statName'>
-							<template v-for='(name, stat) in atlases[selected].group.stat'>
-							<option value='{{ name }}'>
-									{{* statName[name] }}
-								</option>
-							</template>
-						</select>
-					</label>
-					<br/>
-					<label>
-						Сколько даёт
-						<select v-model='statFind.value'>
-							<option v-bind:value='-1' selected>Не важно</option>
-							<template v-for='give in atlases[selected].group.stat[statFind.statName].give'>
-								<option v-bind:value='give'>{{ give }}</option>
-							</template>
-						</select>
-					</label>
-					<br/>
-					<template v-if='atlases[selected].polish'>
-						<label>
-							Отполировано
-							<select v-model='statFind.polish'>
-								<option v-bind:value='-1' selected>Не важно</option>
-								<option v-bind:value='0'>ни разу</option>
-								<option v-bind:value='1'>1 раз</option>
-								<option v-bind:value='2'>2 раза</option>
-								<option v-bind:value='3'>3 раза</option>
-							</select>
-						</label>
-						<br/> 
-					</template>
-					<label>
-						Доступность
-						<select v-model='statFind.isOpen'>
-							<option v-bind:value='-1' selected>Не важно</option>
-							<option v-bind:value='false'>Не взята</option>
-							<option v-bind:value='true'>Взята</option>
-						</select>
-					</label>
-					<br/>
-					<input type='button' value='Искать'
-						@click='findNode' @mouseleave='hideTooltip'>
-					</input>
-				</details>
-		</div>
-	</div>
-	<script src='javascripts/vendor/jquery-1.11.3.min.js'></script>
-	<script src='javascripts/vendor/jquery.qtip.min.js'></script>
-	<script src='javascripts/vendor/b64.js'></script>
-	<script src='javascripts/vue.js'></script>
-	<script src='javascripts/vendor/cytoscape.min.js'></script>
-	<script src='javascripts/atlases/main_atlas.js'></script>
-	<script src='javascripts/atlases/god_atlas.js'></script>
-	<!-- <script src='javascripts/fitonidy_atlas.js'></script>
-	<script src='javascripts/mehanoydy_atlas.js'></script>
-	<script src='javascripts/gorgonidy_atlas.js'></script>
-	<script src='javascripts/atlases/rule_god_atlas.js'></script>
-	<script src='javascripts/hunter_god_atlas.js'></script> --!>
-	<script src='javascripts/main.js'></script>
+    <div id='tooltip'></div>
+    <div id='container' @mousemove='atlasMove' @mouseup='mouseUp'>
+        <div id='left'>
+            <div id='select_atlas'>
+                <select v-model='selected'>
+                    <option selected value='0'>Атлас Развития</option>
+                    <option value='1'>Божественный атлас</option>
+                    <!--
+                    <optgroup label='Специализации'>
+                        <option value='2'>Бог власти</option>
+                        <option value='3'>Бог войны</option>
+                        <option value='4'>Бог знаний</option>
+                        <option value='5'>Бог обороны</option>
+                        <option value='6'>Бог охоты</option>
+                        <option value='7'>Бог странствий</option>
+                    </optgroup>
+                    <optgroup label='Вторжения'>
+                        <option value='8'>Фитониды</option>
+                        <option value='9'>Механоиды</option>
+                        <option value='10'>Горгониды</option>
+                        <option value='11'>Жнецы смерти</option>
+                        <option value='12'>Океаниды</option>
+                        <option value='13'>Демоны</option>
+                    </optgroup>
+                    --!>
+                </select>
+            </div>
+            <div id='atlas'>
+                <svg
+                    @mousedown.stop.prevent='mouseDown'
+                    @wheel.stop.prevent='atlasScale'>
+                    <defs>
+                        <pattern v-for='image in images'
+                            id='{{* image }}'
+                            x='5%' y='5%' height='90%' width='90%'
+                            viewBox='0 0 50 50'>
+                            <image x='0%' y='0%' width='50' height='50'
+                                v-bind='{"xlink:href": "images/nodes/" + image + ".png"}'>
+                            </image>
+                        </pattern>
+                        <pattern v-for='spark in sparks'
+                            id='{{* spark }}'
+                            x='5%' y='5%' height='90%' width='90%'
+                            viewBox='0 0 50 50'>
+                            <image x='0%' y='0%' width='50' height='50'
+                                v-bind='{"xlink:href": "images/spark/" + spark + ".png"}'>
+                            </image>
+                        </pattern>
+                    </defs>
+                    <atlas
+                        v-for='atlas in atlases' v-show='selected == $index'
+                        :atlas='atlas'>
+                    </atlas>
+                </svg>
+            </div>
+            <div id='box'></div>
+            <div id='need' v-cloak>
+                <div v-for='atlas in atlases' v-show='selected == $index'>
+                    <div class='need_spark'
+                        v-for='(name, spark) in atlas.sparks.total'>
+                        <img :src='"images/spark/" + name + ".png"'></img>
+                        <div class='table'>
+                            <span class='row'>{{ Math.ceil(need[name]).toLocaleString() }}</span>
+                            <span class='row'>{{ Math.ceil(atlas.sparks.got[name]).toLocaleString() }}</span>
+                            <span class='row'>{{ Math.ceil(spark).toLocaleString() }}</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='right' v-cloak>
+                <div v-for='atlas in atlases' v-show='selected == $index'>
+                    <div v-for='(name, stat) in atlas.stat.total'>
+                        {{* statName[name] }}:
+                        <span>{{ Math.ceil(recive[name]).toLocaleString() }}</span>/
+                        <span>{{ Math.ceil(atlas.stat.got[name]).toLocaleString() }}</span>/
+                        <span>{{* Math.ceil(stat).toLocaleString() }}</span>
+                    </div>
+                    <hr>
+                    <details>
+                        <summary>Поиск скиллов</summary>
+                        <span v-for='skill in atlas.group.skill | orderBy "title"'>
+                            <skill :skill.once='skill' :atlas.once='atlas'></skill>
+                        </span>
+                    </details>
+                </div>
+                <hr/>
+                <details v-if='atlases[selected]'>
+                    <summary>Поиск вершины</summary>
+                    <label>
+                        Что даёт
+                        <select v-model='statFind.statName'>
+                            <template v-for='(name, stat) in atlases[selected].group.stat'>
+                            <option value='{{ name }}'>
+                                    {{* statName[name] }}
+                                </option>
+                            </template>
+                        </select>
+                    </label>
+                    <br/>
+                    <label>
+                        Сколько даёт
+                        <select v-model='statFind.value'>
+                            <option v-bind:value='-1' selected>Не важно</option>
+                            <template v-for='give in atlases[selected].group.stat[statFind.statName].give'>
+                                <option v-bind:value='give'>{{ give }}</option>
+                            </template>
+                        </select>
+                    </label>
+                    <br/>
+                    <template v-if='atlases[selected].polish'>
+                        <label>
+                            Отполировано
+                            <select v-model='statFind.polish'>
+                                <option v-bind:value='-1' selected>Не важно</option>
+                                <option v-bind:value='0'>ни разу</option>
+                                <option v-bind:value='1'>1 раз</option>
+                                <option v-bind:value='2'>2 раза</option>
+                                <option v-bind:value='3'>3 раза</option>
+                            </select>
+                        </label>
+                        <br/>
+                    </template>
+                    <label>
+                        Доступность
+                        <select v-model='statFind.isOpen'>
+                            <option v-bind:value='-1' selected>Не важно</option>
+                            <option v-bind:value='false'>Не взята</option>
+                            <option v-bind:value='true'>Взята</option>
+                        </select>
+                    </label>
+                    <br/>
+                    <input type='button' value='Искать'
+                        @click='findNode' @mouseleave='hideTooltip'>
+                    </input>
+                </details>
+        </div>
+    </div>
+    <script src='javascripts/vendor/jquery-1.11.3.min.js'></script>
+    <script src='javascripts/vendor/jquery.qtip.min.js'></script>
+    <script src='javascripts/vendor/b64.js'></script>
+    <script src='javascripts/vue.js'></script>
+    <script src='javascripts/vendor/cytoscape.min.js'></script>
+    <script src='javascripts/atlases/main_atlas.js'></script>
+    <script src='javascripts/atlases/god_atlas.js'></script>
+    <!-- <script src='javascripts/fitonidy_atlas.js'></script>
+    <script src='javascripts/mehanoydy_atlas.js'></script>
+    <script src='javascripts/gorgonidy_atlas.js'></script>
+    <script src='javascripts/atlases/rule_god_atlas.js'></script>
+    <script src='javascripts/hunter_god_atlas.js'></script> --!>
+    <script src='javascripts/main.js'></script>
 </body>
 </html>
