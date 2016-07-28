@@ -876,7 +876,7 @@ function getNewPolish(polish, isWant) {
 			{ selected: 0
 			, statFind: {statName: 'vit', value: -1, polish: -1, isOpen: -1}
 			, statName: statName
-			, atlases: atlases
+			, atlases: [atlases[0]]
 			, need: need
 			, recive: recive
 			, images:
@@ -914,7 +914,10 @@ function getNewPolish(polish, isWant) {
 					this.statFind.value = -1;
 					this.statFind.polish = -1;
 					this.statFind.isOpen = -1;
-				}
+					if (!this.atlases[this.selected]) {
+						this.atlases.$set(this.selected, atlases[this.selected]);
+						initCy([atlases[this.selected]]);
+					}
 			}
 		, methods:
 			{ mouseDown: function(evt) {
@@ -987,7 +990,7 @@ function getNewPolish(polish, isWant) {
 			}
 		}
 	);
-	initCy(atlases);
+	initCy([atlases[0]]);
 	$('#tooltip').qtip(
 		{ content: {title: '', text: ''}
 		, show: {delay: 250, effect: false, target: false}
