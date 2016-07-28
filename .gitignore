@@ -1,0 +1,6 @@
+_build/
+images/
+/index.html
+javascripts/main.*.js
+node_modules/
+stylesheets/main.css

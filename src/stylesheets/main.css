@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #151515 url("../images/bkg.png") 0 0;
+    background: #151515 url('./images/bkg.png') 0 0;
     color: #eaeaea;
     font-size: 16px;
     line-height: 1.5;
@@ -32,11 +32,6 @@ html, body {
     height: 100%;
 }
 
-.tooltip-title img,
-.stat img {
-    vertical-align: middle;
-}
-
 #tooltip {
     position: fixed;
     left: 39.5%;
@@ -46,10 +41,6 @@ html, body {
 .stat span {
     float: right;
     margin-left: 10px;
-}
-
-.cost img {
-    vertical-align: middle;
 }
 
 .cost span {
@@ -106,25 +97,8 @@ div.stat {
     overflow: auto;
 }
 
-#right .stat {
-    height: 1.2em;
-    width: 1.2em;
-}
-
-#right .skill {
-    height: 2.0em;
-    width: 2.0em;
-}
-
 table div {
     display: inline-block;
-}
-
-#need img {
-    display: inline-block;
-    vertical-align: middle;
-    width: 32px;
-    height: 32px;
 }
 
 [v-cloak] {
@@ -150,10 +124,6 @@ div.need_spark {
     padding: 5px 5px 5px 5px;
 }
 
-.polish_cell img {
-    vertical-align: middle;
-}
-
 .polish_cell span {
     float: right;
     text-align: right;
@@ -174,3 +144,30 @@ label {
 .qtip-content p {
     margin: 0 0 0 0;
 }
+
+.skill {
+    display: inline-block;
+    padding: 5px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
+
+.icon-20 {
+    zoom: 0.31;
+}
+
+.icon-25 {
+    zoom: 0.39;
+}
+
+.icon-32 {
+    zoom: 0.5;
+}
+
+@import url('svg.css');
+@import url('../../_build/nodes.css');
+@import url('../../_build/sparks.css');

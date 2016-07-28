@@ -1,10 +1,8 @@
-function godAtlas() {
-var nodesData =
+const nodesData =
     [
         { data:
             { _id: 'n0'
-            , open: true, hover: false, want: false
-            , start: true
+            , open: true, hover: false, want: false, start: true
             , _title: 'Божественный атлас'
             , _description:
                 'В божественной форме бессмертный приобретает дополнительные '+
@@ -19,7 +17,7 @@ var nodesData =
             , _give: {}
             }
         , _position: {x: 0, y: 10}
-        , _classes: ''
+        , _classes: 'start'
         }
     ,
         { data:
@@ -367,7 +365,7 @@ var nodesData =
             , _need: {green: 810}
             , _give: {prestige: 100, vit: 100, dex: 30}
             }
-        , _position: {x: -400,  y: -790}
+        , _position: {x: -400, y: -790}
         , _classes: 'stat'
         }
     ,
@@ -1207,7 +1205,7 @@ var nodesData =
             , _need: {green: 650}
             , _give: {prestige: 75, vit: 75, dex: 24}
             }
-        , _position: {x: 1380,  y: -240}
+        , _position: {x: 1380, y: -240}
         , _classes: 'stat'
         }
     ,
@@ -1371,7 +1369,7 @@ var nodesData =
             , _need: {blue: 490}
             , _give: {prestige: 38, valor: 38}
             }
-        , _position: {x: 1840,  y: -240}
+        , _position: {x: 1840, y: -240}
         , _classes: 'stat'
         }
     ,
@@ -1734,7 +1732,7 @@ var nodesData =
             , _need: {green: 490}
             , _give: {prestige: 50, vit: 50, dex: 18}
             }
-        , _position: {x: -920,  y: -240}
+        , _position: {x: -920, y: -240}
         , _classes: 'stat'
         }
     ,
@@ -2581,7 +2579,7 @@ var nodesData =
             , _need: {red: 650}
             , _give: {prestige: 40, power: 40, dex: 24}
             }
-        , _position: {x: 1380,  y: 210}
+        , _position: {x: 1380, y: 210}
         , _classes: 'stat'
         }
     ,
@@ -2768,7 +2766,7 @@ var nodesData =
             , _need: {red: 810}
             , _give: {prestige: 53, power: 53, dex: 30}
             }
-        , _position: {x: -460,  y: 210}
+        , _position: {x: -460, y: 210}
         , _classes: 'stat'
         }
     ,
@@ -2933,7 +2931,7 @@ var nodesData =
             , _need: {blue: 650}
             , _give: {prestige: 56, spirit: 56}
             }
-        , _position: {x: -920,  y: 210}
+        , _position: {x: -920, y: 210}
         , _classes: 'stat'
         }
     ,
@@ -3811,7 +3809,7 @@ var nodesData =
             , _need: {blue: 810}
             , _give: {prestige: 75, spirit: 75}
             }
-        , _position: {x: 1380,  y: -690}
+        , _position: {x: 1380, y: -690}
         , _classes: 'stat'
         }
     ,
@@ -3972,7 +3970,7 @@ var nodesData =
         }
     ];
 
-var edgesData =
+const edgesData =
     [ {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n11'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n11', _target: 'n9'}}
     , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n9', _target: 'n6'}}
@@ -4358,7 +4356,7 @@ var edgesData =
     , {_classes: '', data: {open: false, hover: false, want: false, _source: 'n362', _target: 'n373'}}
     ];
 
-var atlas =
+const atlas =
     { name: 'god'
     , nodes: nodesData
     , edges: edgesData
@@ -4367,12 +4365,9 @@ var atlas =
     , sparks: {got: {}, total: {}}
     , stat: {got: {}, total: {}}
     , group: {skill: {}, stat: {}}
-    /* jshint bitwise: false */
     , _polish: 0
     , _plainData: new Array((nodesData.length >> 3) + 1)
-    /* jshint bitwise: true */
     };
 
-    atlas._plainData[0] = 128;
-    return atlas;
-}
+atlas._plainData[0] = 128;
+module.exports = atlas;

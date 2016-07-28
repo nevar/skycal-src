@@ -1,5 +1,4 @@
-function mainAtlas() {
-var nodesData =
+const nodesData =
     [
         { data:
             { _id: 'n0'
@@ -27410,7 +27409,7 @@ var nodesData =
         }
     ];
 
-var edgesData =
+const edgesData =
     [ {_classes: '', data: {open: false, hover: false, want: false, _source: 'n15', _target: 'n0'}}
     , {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n0', _target: 'n1'}}
     , {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n1', _target: 'n2'}}
@@ -30160,7 +30159,7 @@ var edgesData =
     , {_classes: '', data: {open: false, hover: false, want: false, _source: 'n2637', _target: 'n2651'}}
     ];
 
-var atlas =
+const atlas =
     { name: 'main'
     , nodes: nodesData
     , edges: edgesData
@@ -30169,14 +30168,11 @@ var atlas =
     , sparks: {got: {}, total: {}}
     , stat: {got: {}, total: {}}
     , group: {skill: {}, stat: {}}
-    /* jshint bitwise: false */
     , _polish: (nodesData.length >> 3) + 1
     , _plainData: new Array(((nodesData.length >> 3) + 1) * 3)
-    /* jshint bitwise: true */
     };
 
-    atlas._plainData[1] = 1;
-    atlas._plainData[3] = 1;
-    atlas._plainData[5] = 1;
-    return atlas;
-}
+atlas._plainData[1] = 1;
+atlas._plainData[3] = 1;
+atlas._plainData[5] = 1;
+module.exports = atlas;

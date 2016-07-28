@@ -7,8 +7,11 @@
         <title>Skycal by nevar</title>
 
         <script type='text/x-template' id='skill-template'>
-            <img class='skill' @click='findSkill(skill)'
-                :src='"images/nodes/" + skill.nodeImage + ".png"'></img>
+            <div class='skill'>
+                <span class='icon icon-32 icon-node-{{skill.nodeImage}}'
+                    @click='findSkill(skill)'>
+                </span>
+            </div>
         </script>
         <script type='text/x-template' id='node-template'>
             <circle
@@ -22,8 +25,8 @@
                 :r='radius(node)' :fill.once='nodeImage(node)'
                 @mouseover='hoverNode(node)'
                 @mouseout='unHoverNode(node)'
-                @click='getNode(node, $event)'
-                @contextmenu.stop.prevent='findPath(node, $event)'
+                @click='getNode(node,$event)'
+                @contextmenu.stop.prevent='findPath(node,$event)'
                 />
             <circle v-if='node.data.polish'
                 class='want polish_{{ Math.floor(node.data.polish / 10) }}'
@@ -56,8 +59,6 @@
         </script>
 
         <link rel='stylesheet' type='text/css' href='stylesheets/vendor/jquery.qtip.min.css' media='screen'>
-        <link rel='stylesheet' type='text/css' href='stylesheets/stylesheet.css' media='screen'>
-        <link rel='stylesheet' type='text/css' href='stylesheets/svg.css' media='screen'>
     </head>
 <body>
     <div id='tooltip'></div>
@@ -84,31 +85,14 @@
                         <option value='12'>Океаниды</option>
                         <option value='13'>Демоны</option>
                     </optgroup>
-                    --!>
+                    -->
                 </select>
             </div>
             <div id='atlas'>
                 <svg
                     @mousedown.stop.prevent='mouseDown'
                     @wheel.stop.prevent='atlasScale'>
-                    <defs>
-                        <pattern v-for='image in images'
-                            id='{{* image }}'
-                            x='5%' y='5%' height='90%' width='90%'
-                            viewBox='0 0 50 50'>
-                            <image x='0%' y='0%' width='50' height='50'
-                                v-bind='{"xlink:href": "images/nodes/" + image + ".png"}'>
-                            </image>
-                        </pattern>
-                        <pattern v-for='spark in sparks'
-                            id='{{* spark }}'
-                            x='5%' y='5%' height='90%' width='90%'
-                            viewBox='0 0 50 50'>
-                            <image x='0%' y='0%' width='50' height='50'
-                                v-bind='{"xlink:href": "images/spark/" + spark + ".png"}'>
-                            </image>
-                        </pattern>
-                    </defs>
+                    <defs><%= require('../_build/nodes.html') %></defs>
                     <atlas
                         v-for='atlas in atlases' v-show='selected == $index'
                         :atlas='atlas'>
@@ -120,7 +104,7 @@
                 <div v-for='atlas in atlases' v-show='selected == $index'>
                     <div class='need_spark'
                         v-for='(name, spark) in atlas.sparks.total'>
-                        <img :src='"images/spark/" + name + ".png"'></img>
+                        <div class='icon icon-32 icon-spark-{{name}}'></div>
                         <div class='table'>
                             <span class='row'>{{ Math.ceil(need[name]).toLocaleString() }}</span>
                             <span class='row'>{{ Math.ceil(atlas.sparks.got[name]).toLocaleString() }}</span>
@@ -140,9 +124,9 @@
                     <hr>
                     <details>
                         <summary>Поиск скиллов</summary>
-                        <span v-for='skill in atlas.group.skill | orderBy "title"'>
-                            <skill :skill.once='skill' :atlas.once='atlas'></skill>
-                        </span>
+                        <skill v-for='skill in atlas.group.skill | orderBy "title"'
+                            :skill.once='skill' :atlas.once='atlas'>
+                        </skill>
                     </details>
                 </div>
                 <hr/>
@@ -202,13 +186,5 @@
     <script src='javascripts/vendor/b64.js'></script>
     <script src='javascripts/vue.js'></script>
     <script src='javascripts/vendor/cytoscape.min.js'></script>
-    <script src='javascripts/atlases/main_atlas.js'></script>
-    <script src='javascripts/atlases/god_atlas.js'></script>
-    <!-- <script src='javascripts/fitonidy_atlas.js'></script>
-    <script src='javascripts/mehanoydy_atlas.js'></script>
-    <script src='javascripts/gorgonidy_atlas.js'></script>
-    <script src='javascripts/atlases/rule_god_atlas.js'></script>
-    <script src='javascripts/hunter_god_atlas.js'></script> --!>
-    <script src='javascripts/main.js'></script>
 </body>
 </html>
