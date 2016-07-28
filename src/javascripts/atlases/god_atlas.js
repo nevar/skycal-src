@@ -24,7 +24,7 @@ const nodesData =
             { _id: 'n1'
             , open: false, hover: false, want: false
             , _need: {green: 810}
-            , _give: {prestige: 100, vit: 100, dex: 100}
+            , _give: {prestige: 100, vit: 100, dex: 30}
             }
         , _position: {x: 0,  y: -240}
         , _classes: 'stat'
@@ -3973,7 +3973,7 @@ const nodesData =
 const edgesData =
     [ {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n11'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n11', _target: 'n9'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n9', _target: 'n6'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n9', _target: 'n6'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n6', _target: 'n14'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n6', _target: 'n1'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n1', _target: 'n16'}}
@@ -3982,7 +3982,7 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n7', _target: 'n15'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n16', _target: 'n3'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n3', _target: 'n4'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n4', _target: 'n5'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n4', _target: 'n5'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n5', _target: 'n13'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n4', _target: 'n12'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n3', _target: 'n8'}}
@@ -4022,7 +4022,7 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n42', _target: 'n40'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n32', _target: 'n62'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n54', _target: 'n62'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n54', _target: 'n58'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n54', _target: 'n58'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n58', _target: 'n60'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n54', _target: 'n50'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n50', _target: 'n65'}}
@@ -4031,17 +4031,17 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n55', _target: 'n63'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n51', _target: 'n56'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n56', _target: 'n64'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n56', _target: 'n57'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n57', _target: 'n53'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n56', _target: 'n57'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n57', _target: 'n53'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n53', _target: 'n52'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n53', _target: 'n61'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n57', _target: 'n59'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n42', _target: 'n70'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n70', _target: 'n75'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n70', _target: 'n66'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n66', _target: 'n67'}}
+    , {_classes: 'curve120', data: {open: false, want: false, hover: false, _source: 'n66', _target: 'n67'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n67', _target: 'n72'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n71', _target: 'n72'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n71', _target: 'n72'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n71', _target: 'n76'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n76', _target: 'n79'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n71', _target: 'n61'}}
@@ -4056,17 +4056,17 @@ const edgesData =
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n14', _target: 'n94'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n94', _target: 'n86'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n97', _target: 'n83'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n83', _target: 'n84'}}
+    , {_classes: 'curve120', data: {open: false, want: false, hover: false, _source: 'n83', _target: 'n84'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n84', _target: 'n86'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n83', _target: 'n89'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n89', _target: 'n85'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n89', _target: 'n85'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n85', _target: 'n93'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n89', _target: 'n91'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n97', _target: 'n82'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n82', _target: 'n90'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n90', _target: 'n92'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n90', _target: 'n87'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n87', _target: 'n88'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n90', _target: 'n87'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n87', _target: 'n88'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n88', _target: 'n96'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n87', _target: 'n95'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n95', _target: 'n111'}}
@@ -4082,22 +4082,22 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n110', _target: 'n107'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n107', _target: 'n102'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n103', _target: 'n98'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n98', _target: 'n99'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n99', _target: 'n100'}}
+    , {_classes: 'curve120', data: {open: false, want: false, hover: false, _source: 'n98', _target: 'n99'}}
+    , {_classes: 'curve120', data: {open: false, want: false, hover: false, _source: 'n99', _target: 'n100'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n100', _target: 'n113'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n112', _target: 'n125'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n125', _target: 'n117'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n117', _target: 'n116'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n116', _target: 'n129'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n129', _target: 'n115'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n119', _target: 'n120'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n120', _target: 'n121'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n119', _target: 'n120'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n120', _target: 'n121'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n121', _target: 'n123'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n120', _target: 'n128'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n119', _target: 'n127'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n129', _target: 'n114'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n126', _target: 'n118'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n118', _target: 'n122'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n118', _target: 'n122'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n122', _target: 'n114'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n122', _target: 'n124'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n120', _target: 'n115'}}
@@ -4105,8 +4105,8 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n134', _target: 'n142'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n141', _target: 'n133'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n133', _target: 'n132'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n133', _target: 'n134'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n134', _target: 'n138'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n133', _target: 'n134'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n134', _target: 'n138'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n138', _target: 'n140'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n134', _target: 'n130'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n130', _target: 'n145'}}
@@ -4115,7 +4115,7 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n137', _target: 'n139'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n131', _target: 'n135'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n135', _target: 'n143'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n135', _target: 'n136'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n135', _target: 'n136'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n136', _target: 'n144'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n143', _target: 'n146'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n12', _target: 'n160'}}
@@ -4154,19 +4154,19 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n173', _target: 'n177'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n186', _target: 'n173'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n186', _target: 'n188'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n185', _target: 'n186'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n185', _target: 'n186'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n185', _target: 'n190'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n190', _target: 'n193'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n193', _target: 'n189'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n185', _target: 'n180'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n180', _target: 'n181'}}
+    , {_classes: 'curve120', data: {open: false, want: false, hover: false, _source: 'n180', _target: 'n181'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n180', _target: 'n194'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n194', _target: 'n182'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n182', _target: 'n191'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n182', _target: 'n183'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n183', _target: 'n187'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n187', _target: 'n192'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n183', _target: 'n184'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n183', _target: 'n184'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n184', _target: 'n207'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n207', _target: 'n210'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n210', _target: 'n198'}}
@@ -4187,18 +4187,18 @@ const edgesData =
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n206', _target: 'n212'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n0', _target: 'n224'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n224', _target: 'n216'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n216', _target: 'n217'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n216', _target: 'n217'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n217', _target: 'n225'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n217', _target: 'n215'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n215', _target: 'n228'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n228', _target: 'n214'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n221', _target: 'n218'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n219'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n221', _target: 'n218'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n219'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n213'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n221', _target: 'n223'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n226'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n219', _target: 'n227'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n219', _target: 'n220'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n219', _target: 'n220'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n220', _target: 'n222'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n218', _target: 'n214'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n226', _target: 'n233'}}
@@ -4218,10 +4218,10 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n237', _target: 'n235'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n235', _target: 'n243'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n243', _target: 'n257'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n252', _target: 'n248'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n248', _target: 'n249'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n253', _target: 'n250'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n250', _target: 'n251'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n252', _target: 'n248'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n248', _target: 'n249'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n253', _target: 'n250'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n250', _target: 'n251'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n252', _target: 'n254'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n248', _target: 'n256'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n249', _target: 'n257'}}
@@ -4238,7 +4238,7 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n274', _target: 'n263'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n274', _target: 'n276'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n274', _target: 'n266'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n263', _target: 'n264'}}
+    , {_classes: 'curve120', data: {open: false, want: false, hover: false, _source: 'n263', _target: 'n264'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n264', _target: 'n271'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n271', _target: 'n275'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n271', _target: 'n265'}}
@@ -4251,9 +4251,9 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n270', _target: 'n267'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n267', _target: 'n272'}}
     , {_classes: 'between', data: {open: false, want: false, hover: false, _source: 'n272', _target: 'n291'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n282', _target: 'n286'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n286', _target: 'n283'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n278', _target: 'n279'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n282', _target: 'n286'}}
+    , {_classes: 'curve60', data: {open: false, want: false, hover: false, _source: 'n286', _target: 'n283'}}
+    , {_classes: 'curve120', data: {open: false, want: false, hover: false, _source: 'n278', _target: 'n279'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n282', _target: 'n290'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n286', _target: 'n288'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n283', _target: 'n291'}}
@@ -4274,7 +4274,7 @@ const edgesData =
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n304', _target: 'n306'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n306', _target: 'n303'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n299', _target: 'n294'}}
-    , {_classes: 'curve', data: {open: false, want: false, hover: false, _source: 'n294', _target: 'n295'}}
+    , {_classes: 'curve120', data: {open: false, want: false, hover: false, _source: 'n294', _target: 'n295'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n295', _target: 'n309'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n309', _target: 'n296'}}
     , {_classes: '', data: {open: false, want: false, hover: false, _source: 'n296', _target: 'n298'}}
@@ -4348,8 +4348,8 @@ const edgesData =
     , {_classes: '', data: {open: false, hover: false, want: false, _source: 'n374', _target: 'n371'}}
     , {_classes: '', data: {open: false, hover: false, want: false, _source: 'n371', _target: 'n366'}}
     , {_classes: '', data: {open: false, hover: false, want: false, _source: 'n369', _target: 'n361'}}
-    , {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n361', _target: 'n362'}}
-    , {_classes: 'curve', data: {open: false, hover: false, want: false, _source: 'n363', _target: 'n361'}}
+    , {_classes: 'curve120', data: {open: false, hover: false, want: false, _source: 'n361', _target: 'n362'}}
+    , {_classes: 'curve120', data: {open: false, hover: false, want: false, _source: 'n363', _target: 'n361'}}
     , {_classes: '', data: {open: false, hover: false, want: false, _source: 'n370', _target: 'n363'}}
     , {_classes: '', data: {open: false, hover: false, want: false, _source: 'n363', _target: 'n376'}}
     , {_classes: '', data: {open: false, hover: false, want: false, _source: 'n376', _target: 'n362'}}
