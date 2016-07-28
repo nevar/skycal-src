@@ -1,103 +1,51 @@
-circle {
-	stroke: grey;
-	stroke-width: 2;
+g {
+    stroke: grey;
+    stroke-width: 2;
+    fill: none;
 }
 
-circle.open {
-	stroke: yellow;
-	stroke-width: 3;
+.open {
+    stroke: yellow;
 }
 
-.big circle {
-	stroke-width: 10;
+.want {
+    stroke: #0066CC;
 }
 
-.big circle.open {
-	stroke-width: 12;
+.open.hover {
+    stroke: red;
 }
 
-circle.want {
-	stroke: #0066CC;
+.hover {
+    stroke: yellow;
+    stroke-dasharray: 10, 5;
 }
 
-circle.hover {
-	stroke: yellow;
-	stroke-dasharray: 10, 5
+.big .hover {
+    stroke-dasharray: 50, 30;
 }
 
-.big circle.hover {
-	stroke-dasharray: 50, 30
+.big * {
+    stroke-width: 10;
+    display: none;
 }
 
-circle.open.hover {
-	stroke: red;
+.big .node, .big .between {
+    display: inline;
 }
 
-path {
-	stroke: grey;
-	stroke-width: 2;
-	fill: none
+.polish_0 {
+    stroke: none;
 }
 
-path.open {
-	stroke: yellow;
+.polish_1 {
+    stroke-dasharray: 0 4.45058 26.7035 1000;
 }
 
-.big path.between {
-	stroke-width: 10;
+.polish_2 {
+    stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 1000;
 }
 
-path.want {
-	stroke: #0066CC;
-}
-
-path.hover {
-	stroke: yellow;
-	stroke-dasharray: 10, 5
-}
-
-.big path.hover.between {
-	stroke-dasharray: 50, 30
-}
-
-path.open.hover {
-	stroke: red;
-}
-
-circle.polish_0 {
-	stroke: none;
-}
-
-circle.polish_1 {
-	stroke: yellow;
-	stroke-dasharray: 0 4.45058 26.7035 1000;
-}
-
-circle.polish_2 {
-	stroke: yellow;
-	stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 1000;
-}
-
-circle.polish_3 {
-	stroke: yellow;
-	stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 8.9012 26.7035 1000;
-}
-
-circle.want_polish_0 {
-	stroke: none;
-}
-
-circle.want_polish_1 {
-	stroke: #0066CC;
-	stroke-dasharray: 0 4.45058 26.7035 1000;
-}
-
-circle.want_polish_2 {
-	stroke: #0066CC;
-	stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 1000;
-}
-
-circle.want_polish_3 {
-	stroke: #0066CC;
-	stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 8.9012 26.7035 1000;
+.polish_3 {
+    stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 8.9012 26.7035 1000;
 }

@@ -650,7 +650,7 @@ function getNewPolish(polish, isWant) {
 					if (node.data.nodeImage) {
 						return this.$parent.nodeSize.big;
 					}
-					return this.$parent.nodeSize.small;
+					return 12;
 				}
 			, nodeImage: nodeImage
 			, hoverNode: function(node) {
@@ -849,7 +849,7 @@ function getNewPolish(polish, isWant) {
 	Vue.component('atlas',
 		{ props: ['atlas']
 		, data: function() {
-				return {isBig: false, nodeSize: {big: 20, small: 12}};
+				return {isBig: false, nodeSize: {big: 20}};
 			}
 		, template: '#atlas-template'
 		, computed:
@@ -864,10 +864,8 @@ function getNewPolish(polish, isWant) {
 					}
 					if (newValue) {
 						this.nodeSize.big = 150;
-						this.nodeSize.small = 0;
 					} else {
 						this.nodeSize.big = 20;
-						this.nodeSize.small = 12;
 					}
 				}
 			}
