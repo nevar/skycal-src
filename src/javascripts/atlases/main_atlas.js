@@ -15366,7 +15366,7 @@ var nodesData =
         { data:
             { _id: 'n1480'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -15374,7 +15374,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: 5330, y: 0}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -15537,7 +15537,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 5190, y: 850}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -18846,7 +18846,7 @@ var nodesData =
         { data:
             { _id: 'n1817'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -18854,7 +18854,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: 1380, y: 2480}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -20169,7 +20169,7 @@ var nodesData =
         { data:
             { _id: 'n1945'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -20177,7 +20177,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: -2660, y: -650}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -20343,12 +20343,14 @@ var nodesData =
         { data:
             { _id: 'n1962'
             , open: false, hover: false, want: false, polish: 0
+            , _title: 'Бонус: Величие'
+            , _description: ''
             , _nodeImage: 'majesty'
             , _need: {blue: 4500}
             , _give: {majesty: 2000}
             }
         , _position: {x: -2040, y: -1200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -20511,7 +20513,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: -2500, y: -1200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -20657,7 +20659,7 @@ var nodesData =
         { data:
             { _id: 'n1993'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -20665,7 +20667,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: -1150, y: -1740}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -21154,7 +21156,7 @@ var nodesData =
         { data:
             { _id: 'n2041'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -21162,7 +21164,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: -1610, y: -2280}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -21325,7 +21327,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: -1150, y: -2280}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -21481,7 +21483,7 @@ var nodesData =
         { data:
             { _id: 'n2073'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -21489,7 +21491,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: -690, y: -2280}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -21645,12 +21647,14 @@ var nodesData =
         { data:
             { _id: 'n2089'
             , open: false, hover: false, want: false, polish: 0
+            , _title: 'Бонус: Величие'
+            , _description: ''
             , _nodeImage: 'majesty'
             , _need: {blue: 4500}
             , _give: {majesty: 2000}
             }
         , _position: {x: -230, y: -2280}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -21806,7 +21810,7 @@ var nodesData =
         { data:
             { _id: 'n2105'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -21814,7 +21818,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: -2660, y: 650}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -21977,7 +21981,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: -2500, y: 1200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -22143,12 +22147,14 @@ var nodesData =
         { data:
             { _id: 'n2138'
             , open: false, hover: false, want: false, polish: 0
+            , _title: 'Бонус: Величие'
+            , _description: ''
             , _nodeImage: 'majesty'
             , _need: {blue: 4500}
             , _give: {majesty: 2000}
             }
         , _position: {x: -2040, y: 1200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -22311,7 +22317,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: -2070, y: 1740}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -22477,7 +22483,7 @@ var nodesData =
         { data:
             { _id: 'n2171'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -22485,7 +22491,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: -1610, y: 2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -22648,7 +22654,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: -2070, y: 2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -22804,7 +22810,7 @@ var nodesData =
         { data:
             { _id: 'n2203'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -22812,7 +22818,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: -500, y: 2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -22978,12 +22984,14 @@ var nodesData =
         { data:
             { _id: 'n2220'
             , open: false, hover: false, want: false, polish: 0
+            , _title: 'Бонус: Величие'
+            , _description: ''
             , _nodeImage: 'majesty'
             , _need: {blue: 4500}
             , _give: {majesty: 2000}
             }
         , _position: {x: -40, y: 2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -23795,7 +23803,7 @@ var nodesData =
         { data:
             { _id: 'n2299'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -23803,7 +23811,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: 3900, y: -2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -24129,7 +24137,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 3040, y: -2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -24292,7 +24300,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 4420, y: -1740}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -24448,12 +24456,14 @@ var nodesData =
         { data:
             { _id: 'n2363'
             , open: false, hover: false, want: false, polish: 0
+            , _title: 'Бонус: Величие'
+            , _description: ''
             , _nodeImage: 'majesty'
             , _need: {blue: 4500}
             , _give: {majesty: 2000}
             }
         , _position: {x: 4880, y: -1740}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -24619,7 +24629,7 @@ var nodesData =
         { data:
             { _id: 'n2380'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -24627,7 +24637,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: 4880, y: -2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -24783,12 +24793,14 @@ var nodesData =
         { data:
             { _id: 'n2396'
             , open: false, hover: false, want: false, polish: 0
+            , _title: 'Бонус: Величие'
+            , _description: ''
             , _nodeImage: 'majesty'
             , _need: {blue: 4500}
             , _give: {majesty: 2000}
             }
         , _position: {x: 4420, y: -2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -24934,7 +24946,7 @@ var nodesData =
         { data:
             { _id: 'n2411'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -24942,7 +24954,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: 5340, y: -1270}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -25105,7 +25117,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 5340, y: -1740}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -25268,7 +25280,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 3500, y: 2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -25431,7 +25443,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 3040, y: 2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -25587,7 +25599,7 @@ var nodesData =
         { data:
             { _id: 'n2475'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -25595,7 +25607,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: 3500, y: 2660}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -25741,12 +25753,14 @@ var nodesData =
         { data:
             { _id: 'n2490'
             , open: false, hover: false, want: false, polish: 0
+            , _title: 'Бонус: Величие'
+            , _description: ''
             , _nodeImage: 'majesty'
             , _need: {blue: 4500}
             , _give: {majesty: 2000}
             }
         , _position: {x: 3960, y: 1740}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -25909,7 +25923,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 3960, y: 2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -26228,7 +26242,7 @@ var nodesData =
         { data:
             { _id: 'n2538'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -26236,7 +26250,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: 4420, y: 2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -26402,7 +26416,7 @@ var nodesData =
         { data:
             { _id: 'n2555'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -26410,7 +26424,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: 4880, y: 1740}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -26573,7 +26587,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 4880, y: 2200}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -26736,7 +26750,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 4420, y: 1270}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -26902,12 +26916,14 @@ var nodesData =
         { data:
             { _id: 'n2604'
             , open: false, hover: false, want: false, polish: 0
+            , _title: 'Бонус: Величие'
+            , _description: ''
             , _nodeImage: 'majesty'
             , _need: {blue: 4500}
             , _give: {majesty: 2000}
             }
         , _position: {x: 4880, y: 1270}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -27053,7 +27069,7 @@ var nodesData =
         { data:
             { _id: 'n2619'
             , open: false, hover: false, want: false, polish: 0
-            , _title: 'Бонус: Сила, Отвага, Удача, Дуч'
+            , _title: 'Бонус: Сила, Отвага, Удача, Дух'
             , _description: ''
             , _nodeImage: 'stat'
             , _need: {blue: 4500}
@@ -27061,7 +27077,7 @@ var nodesData =
                 {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100}
             }
         , _position: {x: 5340, y: 1270}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:
@@ -27224,7 +27240,7 @@ var nodesData =
             , _give: {prestige: 750, power: 250, vit: 500, dex: 300}
             }
         , _position: {x: 5340, y: 1740}
-        , _classes: 'stat'
+        , _classes: 'bigStat'
         }
     ,
         { data:

@@ -152,7 +152,9 @@ function groupSkill(atlases) {
         for (var i in nodesData) {
             node = nodesData[i];
             nodeData = node.data;
-            if (node._classes === 'skill' || node._classes === 'class') {
+            if (node._classes === 'skill' || node._classes === 'class' ||
+                node._classes === 'bigStat')
+            {
                 ID = nodeData._title;
                 if (!pos[ID]) {
                     pos[ID] = [];
@@ -341,7 +343,7 @@ function renderText(node, isNeedCost) {
                 Math.ceil(give.prestige * (coeff + 1)) +
             '</div>';
     }
-    if (node.classes === 'stat') {
+    if (node.classes === 'stat' || node.classes === 'bigStat') {
         text += '<div class="stat">';
         polishCost = 9999;
         for (var stat in give) {
@@ -375,8 +377,8 @@ function renderText(node, isNeedCost) {
                 need[key] + '</span>';
         }
         text += '</div>';
-        if (node.classes === 'stat' && nodeData.hasOwnProperty('polish') &&
-            !nodeData.give.majesty)
+        if ((node.classes === 'stat' || node.classes === 'bigStat') &&
+            nodeData.hasOwnProperty('polish') && !nodeData.give.majesty)
         {
             text += '<br/><div class="polish">Полировка:<br/>';
             text += '<div class="polish_cell">+' +
@@ -702,7 +704,8 @@ function getNewPolish(polish, isWant) {
                         nodeData = node.data;
                         if (!nodeData.open ||
                             !nodeData.hasOwnProperty('polish') ||
-                            node.classes !== 'stat' || nodeData.give.majesty)
+                            node.classes !== 'stat' || node.classes !== 'bigStat' ||
+                            nodeData.give.majesty)
                         {
                             return;
                         }
@@ -784,7 +787,8 @@ function getNewPolish(polish, isWant) {
                     if (ev.altKey) {
                         nodeData = node.data;
                         if (!nodeData.hasOwnProperty('polish') ||
-                            node.classes !== 'stat' || nodeData.give.majesty)
+                            node.classes !== 'stat' || node.classes !== 'bigStat' ||
+                            nodeData.give.majesty)
                         {
                             return;
                         }
