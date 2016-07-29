@@ -157,7 +157,8 @@ let groupSkill = (atlases) => {
                         });
                 }
                 pos[ID].push(node._position);
-            } else if(node._classes === 'stat') {
+            }
+            if(node._classes === 'stat' || node._classes === 'bigStat') {
                 for (let stat in nodeData._give) {
                     if (stat === 'prestige' || stat === 'dex') { continue; }
                     if (!statGroup[stat]) {
