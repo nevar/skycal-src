@@ -4,6 +4,7 @@ import cytoscape from 'cytoscape';
 import Vue from 'vue';
 import $ from 'jquery';
 import 'qtip2';
+import {notObserve} from './util/notObserve.js';
 
 let tempPath = {found: false},
     need =
@@ -75,34 +76,34 @@ let calcTotal = (atlases) => {
         let atlas = atlases[atlasID];
         let nodesData = atlases[atlasID].nodes;
         let nodePos = {};
-        let isPolish = atlas._polish;
+        let isPolish = atlas.polish;
         let polishPrestige = 0;
         let polishNode = 0;
         let totalPolishCost = 0;
         for (let i in nodesData) {
             let node = nodesData[i];
             let nodeData = node.data;
-            nodePos[nodeData._id] = node._position;
-            if (isPolish && node._classes === 'stat' && !nodeData._give.majesty)
+            nodePos[nodeData.id] = node.position;
+            if (isPolish && node.classes === 'stat' && !nodeData.give.majesty)
             {
                 polishNode++;
-                polishPrestige += nodeData._give.prestige;
+                polishPrestige += nodeData.give.prestige;
                 let polishCost = 9999;
-                for (let stat in nodeData._give) {
+                for (let stat in nodeData.give) {
                     if (stat === 'dex') { continue; }
-                    polishCost = Math.min(polishCost, nodeData._give[stat]);
+                    polishCost = Math.min(polishCost, nodeData.give[stat]);
                 }
                 totalPolishCost += polishCost;
             }
-            for (let stat in nodeData._give) {
+            for (let stat in nodeData.give) {
                 atlas.stat.total[stat] =
                     (atlas.stat.total[stat] ? atlas.stat.total[stat] : 0) +
-                    nodeData._give[stat];
+                    nodeData.give[stat];
             }
-            for (let spark in nodeData._need) {
+            for (let spark in nodeData.need) {
                 atlas.sparks.total[spark] =
                     (atlas.sparks.total[spark] ? atlas.sparks.total[spark] : 0) +
-                    nodeData._need[spark];
+                    nodeData.need[spark];
             }
         }
         if (isPolish) {
@@ -128,7 +129,7 @@ let calcTotal = (atlases) => {
         for (let spark in atlas.sparks.total) {
             atlas.sparks.got[spark] = 0;
         }
-        atlas._nodePos = nodePos;
+        notObserve(atlas, 'nodePos', nodePos);
     }
 };
 
@@ -142,32 +143,32 @@ let groupSkill = (atlases) => {
         for (let i in nodesData) {
             let node = nodesData[i];
             let nodeData = node.data;
-            if (node._classes === 'skill' || node._classes === 'class' ||
-                node._classes === 'bigStat')
+            if (node.classes === 'skill' || node.classes === 'class' ||
+                node.classes === 'bigStat')
             {
-                let ID = nodeData._title;
+                let ID = nodeData.title;
                 if (!pos[ID]) {
                     pos[ID] = [];
                     skill.push(
-                        { title: nodeData._title
-                        , description: nodeData._description
-                        , nodeImage: nodeData._nodeImage
+                        { title: nodeData.title
+                        , description: nodeData.description
+                        , nodeImage: nodeData.nodeImage
                         , pos: 0
                         , position: pos[ID]
                         });
                 }
-                pos[ID].push(node._position);
+                pos[ID].push(node.position);
             }
-            if(node._classes === 'stat' || node._classes === 'bigStat') {
-                for (let stat in nodeData._give) {
+            if(node.classes === 'stat' || node.classes === 'bigStat') {
+                for (let stat in nodeData.give) {
                     if (stat === 'prestige' || stat === 'dex') { continue; }
                     if (!statGroup[stat]) {
                         statGroup[stat] =
                             {pos: 0, node: [], give: {}, cost: {}, show: false};
                     }
                     statGroup[stat].node.push(node);
-                    statGroup[stat].give[nodeData._give[stat]] =
-                        nodeData._give[stat];
+                    statGroup[stat].give[nodeData.give[stat]] =
+                        nodeData.give[stat];
                 }
             }
         }
@@ -180,21 +181,21 @@ let loadAtlas = (atlas) => {
     let nodeCount = atlas.nodes.length;
     let l = (nodeCount >> 3) + 1;
     let len = l;
-    len += atlas._polish * 2;
+    len += atlas.polish * 2;
     let dataString = localStorage['atlas_' + atlas.name] || '';
     let _plainData = base64js.toByteArray(dataString);
-    if (_plainData.length !== atlas._plainData.length) {
-        let size = atlas._polish ? _plainData.length / 3 : _plainData.length;
+    if (_plainData.length !== atlas.plainData.length) {
+        let size = atlas.polish ? _plainData.length / 3 : _plainData.length;
         for (let i = 0; i < size; i++) {
             atlas._plainData[i] = _plainData[i];
         }
-        let polishSize = atlas._polish ? 2 * _plainData.length / 3 : 0;
+        let polishSize = atlas.polish ? 2 * _plainData.length / 3 : 0;
         for (let i = 0; i < polishSize; i++) {
-            atlas._plainData[l + i] = _plainData[size + i];
+            atlas.plainData[l + i] = _plainData[size + i];
         }
-        _plainData = atlas._plainData;
+        _plainData = atlas.plainData;
     } else {
-        atlas._plainData = _plainData;
+        atlas.plainData = _plainData;
     }
     for (let i = 0; i < l; i++) {
         let val = _plainData[i];
@@ -203,11 +204,11 @@ let loadAtlas = (atlas) => {
             if (index < nodeCount && (val & 1)) {
                 let nodeData = atlas.nodes[index].data;
                 nodeData.open = !!(val & 1);
-                for (let stat in nodeData._give) {
-                    atlas.stat.got[stat] += nodeData._give[stat];
+                for (let stat in nodeData.give) {
+                    atlas.stat.got[stat] += nodeData.give[stat];
                 }
-                for (let spark in nodeData._need) {
-                    atlas.sparks.got[spark] += nodeData._need[spark];
+                for (let spark in nodeData.need) {
+                    atlas.sparks.got[spark] += nodeData.need[spark];
                 }
             }
             index--;
@@ -223,11 +224,11 @@ let loadAtlas = (atlas) => {
                 let nodeData = atlas.nodes[index].data;
                 nodeData.polish = val & 3;
                 let polishCost = 9999;
-                for (let stat in nodeData._give) {
+                for (let stat in nodeData.give) {
                     if (stat === 'dex') { continue; }
                     atlas.stat.got[stat] +=
-                        nodeData._give[stat] * 0.5 * nodeData.polish;
-                    polishCost = Math.min(polishCost, nodeData._give[stat]);
+                        nodeData.give[stat] * 0.5 * nodeData.polish;
+                    polishCost = Math.min(polishCost, nodeData.give[stat]);
                 }
                 for (let j = 1; j <= nodeData.polish; j++) {
                     atlas.sparks.got[cost[j]] += polishCost * 5 * j;
