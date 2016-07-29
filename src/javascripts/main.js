@@ -638,7 +638,7 @@ Vue.component('node',
                     let nodeData = node.data;
                     if (!nodeData.open ||
                         !nodeData.hasOwnProperty('polish') ||
-                        node.classes !== 'stat' || node.classes !== 'bigStat' ||
+                        (node.classes !== 'stat' && node.classes !== 'bigStat') ||
                         nodeData.give.majesty)
                     {
                         return;
@@ -713,7 +713,7 @@ Vue.component('node',
                 let nodeData = node.data;
                 if (ev.altKey) {
                     if (!nodeData.hasOwnProperty('polish') ||
-                        node.classes !== 'stat' || node.classes !== 'bigStat' ||
+                        (node.classes !== 'stat' && node.classes !== 'bigStat') ||
                         nodeData.give.majesty)
                     {
                         return;

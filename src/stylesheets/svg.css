@@ -49,3 +49,30 @@ g {
 .polish_3 {
     stroke-dasharray: 0 4.45058 26.7035 8.9012 26.7035 8.9012 26.7035 1000;
 }
+
+.node.polish_1 {
+    stroke-dasharray: 0 6.545 39.27 1000;
+}
+
+.node.polish_2 {
+    stroke-dasharray: 0 6.545 39.27 13.09 39.27 1000;
+}
+
+.node.polish_3 {
+    stroke-dasharray: 0 6.545 39.27 13.09 39.27 13.09 39.27 1000;
+}
+
+.big .node.polish_1 {
+    stroke-width: 25;
+    stroke-dasharray: 0 40.579 243.47 1000;
+}
+
+.big .node.polish_2 {
+    stroke-width: 25;
+    stroke-dasharray: 0 40.579 243.47 81.158 243.47 1000;
+}
+
+.big .node.polish_3 {
+    stroke-width: 25;
+    stroke-dasharray: 0 40.579 243.47 81.158 243.47 81.158 243.47 1000;
+}

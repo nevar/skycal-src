@@ -29,14 +29,16 @@
                 @contextmenu.stop.prevent='findPath(node,$event)'
                 />
             <circle v-if='node.data.polish'
-                class='want polish_{{ Math.floor(node.data.polish / 10) }}'
+                class='want polish_{{ Math.floor(node.data.polish / 10) }}
+                    {{ !!node.data.nodeImage ? "node" : "" }}'
                 :cx.once='node.position.x' :cy.once='node.position.y'
-                r='17' fill='none'
+                :r='radius(node)+5' fill='none'
                 />
             <circle v-if='node.data.polish'
-                class='open polish_{{ node.data.polish % 10}}'
+                class='open polish_{{ node.data.polish % 10}}
+                    {{ !!node.data.nodeImage ? "node" : "" }}'
                 :cx.once='node.position.x' :cy.once='node.position.y'
-                r='17' fill='none'
+                :r='radius(node)+5' fill='none'
                 />
         </script>
         <script type='text/x-template' id='edge-template'>
