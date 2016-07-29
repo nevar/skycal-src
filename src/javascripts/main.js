@@ -8,7 +8,7 @@ import {notObserve} from './util/notObserve.js';
 
 let tempPath = {found: false},
     need =
-        { red: 0, green: 0, blue: 0, all: 0
+        { red: 0, green: 0, blue: 0, all: 0, yellow: 0
         , transformation: 0, revelation: 0
         , god: 0, book: 0, secretKnowledge: 0
         , bronze: 0, silver: 0, gold: 0, core: 0
@@ -481,7 +481,7 @@ let atlasMove = false;
 let atlases =
     [ require('./atlases/main_atlas.js')
     , require('./atlases/god_atlas.js')
-    //, require('./atlases/rule_god_atlas.js')
+    , require('./atlases/rule_god_atlas.js')
     ];
 
 calcTotal(atlases);
