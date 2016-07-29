@@ -349,7 +349,7 @@ const nodesData =
     , node('n252', {yellow: 75}, {prestige: 14, vit: 14}, 1414, -1610, 'stat')
     , node('n253', {yellow: 75}, {prestige: 11, valor: 11}, 1536, -1610, 'stat')
     , node('n254', {yellow: 75}, {prestige: 9, power: 9}, 1414, -1390, 'stat')
-    , node('n255', {yellow: 75}, {prestige: 11, vit: 11}, 1536, -1390, 'stat')
+    , node('n255', {yellow: 75}, {prestige: 14, vit: 14}, 1536, -1390, 'stat')
     , node('n256', {yellow: 75}, {prestige: 9, power: 9}, 1475, -1610, 'stat')
     , node('n257', {yellow: 75}, {prestige: 14, vit: 14}, 1475, -1390, 'stat')
     , node('n258', {yellow: 75}, {prestige: 11, spirit: 11}, 1342, -1584, 'stat')
