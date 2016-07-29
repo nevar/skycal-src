@@ -1,4 +1,5 @@
 let path = require('path');
+let webpack = require('webpack');
 let SpritesmithPlugin = require('webpack-spritesmith');
 let ExtractTextPlugin = require('extract-text-webpack-plugin');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -20,7 +21,8 @@ var svgTemplate = function (data) {
 
 module.exports =
     { entry: './src/javascripts/main.js'
-    , output: {filename: 'javascripts/[name].[hash].js'}
+    , output:
+        { path: '_build', filename: 'javascripts/[name].[hash].js'}
     , module:
         { preLoaders:
             [ {test: /\.js$/, loader: 'eslint-loader', exclude: /node_modules/}
@@ -43,16 +45,16 @@ module.exports =
         [ new SpritesmithPlugin(
             { src: {cwd: './src/images/nodes', glob: '*.png'}
             , target:
-                { image: './_build/nodes.png'
+                { image: './_tmp/nodes.png'
                 , css:
                     [
-                        [ './_build/nodes.css'
+                        [ './_tmp/nodes.css'
                         ,
                             { formatOpts:
                                 {cssSelector: (i) => '.icon-node-' + i.name}
                             }
                         ]
-                    , ['./_build/nodes.html', {format: 'svg_template'}]
+                    , ['./_tmp/nodes.html', {format: 'svg_template'}]
                     ]
                 }
             , apiOptions: {cssImageRef: 'nodes.png'}
@@ -62,10 +64,10 @@ module.exports =
         , new SpritesmithPlugin(
             { src: {cwd: './src/images/sparks', glob: '*.png'}
             , target:
-                { image: './_build/sparks.png'
+                { image: './_tmp/sparks.png'
                 , css:
                     [
-                        ['./_build/sparks.css'
+                        ['./_tmp/sparks.css'
                         ,
                             { formatOpts:
                                 {cssSelector: (i) => '.icon-spark-' + i.name}
@@ -91,5 +93,7 @@ module.exports =
                 }
             })
         , new ExtractTextPlugin('./stylesheets/main.css')
+        , new webpack.DefinePlugin(
+            {'process.env': {'NODE_ENV': JSON.stringify(process.env.NODE_ENV)}})
         ]
 };

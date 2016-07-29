@@ -57,8 +57,6 @@
                 <node v-for='node in atlas.nodes' :node.once='node'></node>
             </g>
         </script>
-
-        <link rel='stylesheet' type='text/css' href='stylesheets/vendor/jquery.qtip.min.css' media='screen'>
     </head>
 <body>
     <div id='tooltip'></div>
@@ -92,7 +90,7 @@
                 <svg
                     @mousedown.stop.prevent='mouseDown'
                     @wheel.stop.prevent='atlasScale'>
-                    <defs><%= require('../_build/nodes.html') %></defs>
+                    <defs><%= require('../_tmp/nodes.html') %></defs>
                     <atlas
                         v-for='atlas in atlases' v-show='selected == $index'
                         :atlas='atlas'>
@@ -181,10 +179,5 @@
                 </details>
         </div>
     </div>
-    <script src='javascripts/vendor/jquery-1.11.3.min.js'></script>
-    <script src='javascripts/vendor/jquery.qtip.min.js'></script>
-    <script src='javascripts/vendor/b64.js'></script>
-    <script src='javascripts/vue.js'></script>
-    <script src='javascripts/vendor/cytoscape.min.js'></script>
 </body>
 </html>

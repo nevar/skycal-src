@@ -1,4 +1,9 @@
 import '../stylesheets/main.css';
+import base64js from 'base64-js';
+import cytoscape from 'cytoscape';
+import Vue from 'vue';
+import $ from 'jquery';
+import 'qtip2';
 
 let tempPath = {found: false},
     need =
@@ -483,7 +488,6 @@ for (let atlasID in atlases) {
     loadAtlas(atlases[atlasID]);
 }
 groupSkill(atlases);
-Vue.config.debug = true;
 Vue.component('skill',
     { props: ['skill', 'atlas']
     , template: '#skill-template'

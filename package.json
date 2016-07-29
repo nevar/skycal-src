@@ -3,7 +3,7 @@
 , "description": "Atlas calculator for Skyforge"
 , "main": "index.html"
 , "scripts":
-    { "build": "webpack"
+    { "build": "NODE_ENV=production webpack -p --optimize-dedupe"
     }
 , "repository":
     { "type": "git"
@@ -13,6 +13,13 @@
 , "license": "ISC"
 , "bugs": {"url": "https://github.com/nevar/skycal/issues"}
 , "homepage": "http://nevar.github.io/skycal/"
+, "dependencies":
+    { "cytoscape": "^2.7.6"
+    , "base64-js": "^1.1.2"
+    , "jquery": "1.x.x"
+    , "vue": "^1.0.26"
+    , "qtip2": "^3.0.3"
+    }
 , "devDependencies":
     { "babel-core": "^6.11.4"
     , "babel-loader": "^6.2.4"
