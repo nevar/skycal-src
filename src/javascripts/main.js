@@ -84,7 +84,9 @@ let calcTotal = (atlases) => {
             let node = nodesData[i];
             let nodeData = node.data;
             nodePos[nodeData.id] = node.position;
-            if (isPolish && node.classes === 'stat' && !nodeData.give.majesty)
+            if (isPolish &&
+                (node.classes === 'stat' || node.classes === 'bigStat') &&
+                !nodeData.give.majesty)
             {
                 polishNode++;
                 polishPrestige += nodeData.give.prestige;
