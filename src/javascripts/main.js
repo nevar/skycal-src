@@ -368,6 +368,9 @@ let renderText = (node, isNeedCost) => {
                 </div><br/>`;
         }
     }
+    if (process.env.NODE_ENV != 'production') {
+        text += `${nodeData.id}<br/>${node.position.x} ${node.position.y}`;
+    }
     return text;
 };
 
