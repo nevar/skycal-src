@@ -95,15 +95,15 @@
                     @mousedown.stop.prevent='mouseDown'
                     @wheel.stop.prevent='atlasScale'>
                     <defs><%= require('../_tmp/nodes.html') %></defs>
-                    <atlas
-                        v-for='atlas in atlases' v-show='selected == $index'
-                        :atlas='atlas'>
+                    <atlas v-for='atlas in atlases' v-if='atlas'
+                        v-show='selected == $index' :atlas='atlas'>
                     </atlas>
                 </svg>
             </div>
             <div id='box'></div>
             <div id='need' v-cloak>
-                <div v-for='atlas in atlases' v-show='selected == $index'>
+                <div v-for='atlas in atlases' v-if='atlas'
+                    v-show='selected == $index'>
                     <div class='need_spark'
                         v-for='(name, spark) in atlas.sparks.total'>
                         <div class='icon icon-32 icon-spark-{{name}}'></div>
@@ -116,7 +116,8 @@
             </div>
         </div>
         <div id='right' v-cloak>
-                <div v-for='atlas in atlases' v-show='selected == $index'>
+                <div v-for='atlas in atlases' v-if='atlas'
+                    v-show='selected == $index'>
                     <div v-for='(name, stat) in atlas.stat.total'>
                         {{* statName[name] }}:
                         <span>{{ Math.ceil(recive[name]).toLocaleString() }}</span>/
