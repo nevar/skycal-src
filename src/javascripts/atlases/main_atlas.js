@@ -1,38 +1,23 @@
-import {pNode, edge} from '../util/graph.js';
+import {S__, _S_, SS_, S_P, SSP, pNode, edge} from '../util/graph.js';
 import {notObserve} from '../util/notObserve.js';
 
 const nodesData =
-    [ pNode('n0',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 230, -320, 'stat')
-    , pNode('n1',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 282, -410, 'stat')
-    , pNode('n2',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, 178, -410, 'stat')
-    , pNode('n3',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 133, -440, 'stat')
-    , pNode('n4',
-        {red: 95}, {prestige: 6, power: 6, dex: 4}, 169, -490, 'stat')
-    , pNode('n5',
-        {blue: 95}, {prestige: 7, spirit: 7}, 229, -490, 'stat')
-    , pNode('n6',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 289, -490, 'stat')
-    , pNode('n7',
-        {red: 95}, {prestige: 6, power: 6, dex: 4}, 95, -380, 'stat')
-    , pNode('n8',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 133, -320, 'stat')
-    , pNode('n9',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 169, -270, 'stat')
-    , pNode('n10',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, 229, -270, 'stat')
-    , pNode('n11',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 289, -270, 'stat')
-    , pNode('n12',
-        {blue: 95}, {prestige: 7, str: 7}, 325, -440, 'stat')
-    , pNode('n13',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, 363, -380, 'stat')
-    , pNode('n14',
-        {blue: 125}, {prestige: 10, luck: 10}, 325, -320, 'stat')
-    , pNode('n15', {}, {}, 230, -380, 'class', 'Класс: криомант',
+    [ pNode('n0', 230, -320, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n1', 282, -410, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n2', 178, -410, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n3', 133, -440, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n4', 169, -490, S_P, {red: 95}, {prestige: 6, power: 6, dex: 4})
+    , pNode('n5', 229, -490, S_P, {blue: 95}, {prestige: 7, spirit: 7})
+    , pNode('n6', 289, -490, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n7', 95, -380, S_P, {red: 95}, {prestige: 6, power: 6, dex: 4})
+    , pNode('n8', 133, -320, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n9', 169, -270, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n10', 229, -270, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n11', 289, -270, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n12', 325, -440, S_P, {blue: 95}, {prestige: 7, str: 7})
+    , pNode('n13', 363, -380, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n14', 325, -320, S_P, {blue: 125}, {prestige: 10, luck: 10})
+    , pNode('n15', 230, -380, _S_, {}, {}, 'Класс: криомант',
         'Повелитель льдов, он способен играючи остудить пыл наседающих '+
         'врагов, направив против них стихию холода. В бою он предпочитает '+
         'сохранять дистанцию, замедляя противников или вовсе заключая их в '+
@@ -40,37 +25,22 @@ const nodesData =
         'всё же не посчастливилось подобраться поближе, ждёт холодный приём: '+
         'ледяной щит надежно защищает своего носителя от атак.',
         'krio')
-    , pNode('n16',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 0, 60, 'stat')
-    , pNode('n17',
-        {blue: 125}, {prestige: 10, valor: 10}, 52, -30, 'stat')
-    , pNode('n18',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, -52, -30, 'stat')
-    , pNode('n19',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, -95, -60, 'stat')
-    , pNode('n20',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, -60, -110, 'stat')
-    , pNode('n21',
-        {blue: 125}, {prestige: 10, luck: 10}, 0, -110, 'stat')
-    , pNode('n22',
-        {blue: 95}, {prestige: 7, str: 7}, 60, -110, 'stat')
-    , pNode('n23',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, -135, 0, 'stat')
-    , pNode('n24',
-        {red: 155}, {prestige: 12, power: 12, dex: 6}, -96, 60, 'stat')
-    , pNode('n25',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, -60, 110, 'stat')
-    , pNode('n26',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 0, 110, 'stat')
-    , pNode('n27',
-        {red: 155}, {prestige: 12, power: 12, dex: 6}, 60, 110, 'stat')
-    , pNode('n28',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 95, -60, 'stat')
-    , pNode('n29',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 134, 0, 'stat')
-    , pNode('n30',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 95, 60, 'stat')
-    , pNode('n31', {}, {}, 0, 0, 'class', 'Класс: Паладин',
+    , pNode('n16', 0, 60, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n17', 52, -30, S_P, {blue: 125}, {prestige: 10, valor: 10})
+    , pNode('n18', -52, -30, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n19', -95, -60, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n20', -60, -110, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n21', 0, -110, S_P, {blue: 125}, {prestige: 10, luck: 10})
+    , pNode('n22', 60, -110, S_P, {blue: 95}, {prestige: 7, str: 7})
+    , pNode('n23', -135, 0, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n24', -96, 60, S_P, {red: 155}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n25', -60, 110, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n26', 0, 110, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n27', 60, 110, S_P, {red: 155}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n28', 95, -60, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n29', 134, 0, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n30', 95, 60, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n31', 0, 0, _S_, {}, {}, 'Класс: Паладин',
         'Бесстрашный защитник, обладающий универсальным набором способностей, '+
         'всегда находится в гуще сражения, принимая на себя основную атаку '+
         'неприяятеля. Сокрушительные удары его меча способны нанести ощутимый '+
@@ -78,219 +48,124 @@ const nodesData =
         'подвластная паладину, позволит не только даровать защиту союзникам, '+
         'но и дать отпор врагу на довольно большой дистанции.',
         'paladin')
-    , pNode('n32',
-        {blue: 95}, {prestige: 7, str: 7}, 230, 440, 'stat')
-    , pNode('n33',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 282, 350, 'stat')
-    , pNode('n34',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, 178, 350, 'stat')
-    , pNode('n35',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 133, 320, 'stat')
-    , pNode('n36',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 169, 270, 'stat')
-    , pNode('n37',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 229, 270, 'stat')
-    , pNode('n38',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 289, 270, 'stat')
-    , pNode('n39',
-        {blue: 95}, {prestige: 7, spirit: 7}, 95, 380, 'stat')
-    , pNode('n40',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 133, 440, 'stat')
-    , pNode('n41',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, 169, 490, 'stat')
-    , pNode('n42',
-        {red: 155}, {prestige: 12, power: 12, dex: 6}, 229, 490, 'stat')
-    , pNode('n43',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 289, 490, 'stat')
-    , pNode('n44',
-        {blue: 125}, {prestige: 10, valor: 10}, 325, 320, 'stat')
-    , pNode('n45',
-        {red: 95}, {prestige: 6, power: 6, dex: 4}, 363, 380, 'stat')
-    , pNode('n46',
-        {red: 95}, {prestige: 6, power: 6, dex: 4}, 325, 440, 'stat')
-    , pNode('n47', {}, {}, 230, 380, 'class', 'Класс: Хранитель света',
+    , pNode('n32', 230, 440, S_P, {blue: 95}, {prestige: 7, str: 7})
+    , pNode('n33', 282, 350, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n34', 178, 350, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n35', 133, 320, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n36', 169, 270, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n37', 229, 270, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n38', 289, 270, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n39', 95, 380, S_P, {blue: 95}, {prestige: 7, spirit: 7})
+    , pNode('n40', 133, 440, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n41', 169, 490, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n42', 229, 490, S_P, {red: 155}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n43', 289, 490, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n44', 325, 320, S_P, {blue: 125}, {prestige: 10, valor: 10})
+    , pNode('n45', 363, 380, S_P, {red: 95}, {prestige: 6, power: 6, dex: 4})
+    , pNode('n46', 325, 440, S_P, {red: 95}, {prestige: 6, power: 6, dex: 4})
+    , pNode('n47', 230, 380, _S_, {}, {}, 'Класс: Хранитель света',
         'Милосердный хранитель всегда готов прийти на помощь нуждающимся. '+
         'Управляя силой света, хранитель оберегает своих союзников и укрывает '+
         'от атак неприятеля. Но его доброта не безгранична. Обратив свой гнев '+
         'на врага, он может нанести значительный урон, находясь на безопасном '+
         'расстоянии.',
         'LK')
-    , pNode('n48',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, 365, -60, 'stat')
-    , pNode('n49',
-        {blue: 125}, {prestige: 10, luck: 10}, 400, -110, 'stat')
-    , pNode('n50',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 460, -110, 'stat')
-    , pNode('n51',
-        {red: 95}, {prestige: 6, power: 6, dex: 4}, 520, -110, 'stat')
-    , pNode('n52',
-        {blue: 95}, {prestige: 7, str: 7}, 325, 0, 'stat')
-    , pNode('n53',
-        {green: 95}, {prestige: 8, vit: 8, dex: 4}, 364, 60, 'stat')
-    , pNode('n54',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 400, 110, 'stat')
-    , pNode('n55',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 460, 110, 'stat')
-    , pNode('n56',
-        {blue: 125}, {prestige: 10, luck: 10}, 520, 110, 'stat')
-    , pNode('n57',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 555, -60, 'stat')
-    , pNode('n58',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 594, 0, 'stat')
-    , pNode('n59',
-        {green: 95}, {prestige: 8, vit: 8, dex: 4}, 555, 60, 'stat')
-    , pNode('n60',
-        {blue: 125}, {prestige: 10, str: 10}, 327, -84, 'stat')
-    , pNode('n61',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 327, 84, 'stat')
-    , pNode('n62',
-        {blue: 155}, {prestige: 13, spirit: 13}, 593, 84, 'stat')
-    , pNode('n63',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 593, -84, 'stat')
-    , pNode('n64', {blue: 200} , {prestige: 40}, 460, 0, 'skill',
+    , pNode('n48', 365, -60, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n49', 400, -110, S_P, {blue: 125}, {prestige: 10, luck: 10})
+    , pNode('n50', 460, -110, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n51', 520, -110, S_P, {red: 95}, {prestige: 6, power: 6, dex: 4})
+    , pNode('n52', 325, 0, S_P, {blue: 95}, {prestige: 7, str: 7})
+    , pNode('n53', 364, 60, S_P, {green: 95}, {prestige: 8, vit: 8, dex: 4})
+    , pNode('n54', 400, 110, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n55', 460, 110, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n56', 520, 110, S_P, {blue: 125}, {prestige: 10, luck: 10})
+    , pNode('n57', 555, -60, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n58', 594, 0, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n59', 555, 60, S_P, {green: 95}, {prestige: 8, vit: 8, dex: 4})
+    , pNode('n60', 327, -84, S_P, {blue: 125}, {prestige: 10, str: 10})
+    , pNode('n61', 327, 84, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n62', 593, 84, S_P, {blue: 155}, {prestige: 13, spirit: 13})
+    , pNode('n63', 593, -84, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n64', 460, 0, _S_, {blue: 200}, {prestige: 40},
         'Талант: Искусный маневр',
         'Применение рывка создаёт защитный барьер, который поглощает урон, '+
         'равный 4/6% максимального здоровья персонажа в течение 3 секунд.',
         'maneuver')
-    , pNode('n65',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 920, 60, 'stat')
-    , pNode('n66',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, 972, -30, 'stat')
-    , pNode('n67',
-        {blue: 150}, {prestige: 30, majesty: 200}, 868, -30, 'stat')
-    , pNode('n68',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 860, -110, 'stat')
-    , pNode('n69',
-        {blue: 125}, {prestige: 10, luck: 10}, 980, -110, 'stat')
-    , pNode('n70',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 785, 0, 'stat')
-    , pNode('n71',
-        {green: 95}, {prestige: 8, vit: 8, dex: 4}, 860, 110, 'stat')
-    , pNode('n72',
-        {blue: 95}, {prestige: 7, valor: 7}, 980, 110, 'stat')
-    , pNode('n73',
-        {red: 155}, {prestige: 12, power: 12, dex: 6}, 1054, 0, 'stat')
-    , pNode('n74',
-        {red: 125}, {prestige: 9, power: 9, dex: 5}, 787, -84, 'stat')
-    , pNode('n75',
-        {red: 95}, {prestige: 6, power: 6, dex: 4}, 787, 84, 'stat')
-    , pNode('n76',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, 1053, 84, 'stat')
-    , pNode('n77',
-        {blue: 150}, {prestige: 30, majesty: 200}, 1053, -84, 'stat')
-    , pNode('n78',
-        {blue: 125}, {prestige: 10, valor: 10}, 920, 157, 'stat')
-    , pNode('n79',
-        {green: 155}, {prestige: 16, vit: 16, dex: 6}, 920, -157, 'stat')
-    , pNode('n80', {}, {}, 920, 0, 'skill', 'Вершина равновесия',
+    , pNode('n65', 920, 60, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n66', 972, -30, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n67', 868, -30, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n68', 860, -110, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n69', 980, -110, S_P, {blue: 125}, {prestige: 10, luck: 10})
+    , pNode('n70', 785, 0, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n71', 860, 110, S_P, {green: 95}, {prestige: 8, vit: 8, dex: 4})
+    , pNode('n72', 980, 110, S_P, {blue: 95}, {prestige: 7, valor: 7})
+    , pNode('n73', 1054, 0, S_P, {red: 155}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n74', 787, -84, S_P, {red: 125}, {prestige: 9, power: 9, dex: 5})
+    , pNode('n75', 787, 84, S_P, {red: 95}, {prestige: 6, power: 6, dex: 4})
+    , pNode('n76', 1053, 84, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n77', 1053, -84, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n78', 920, 157, S_P, {blue: 125}, {prestige: 10, valor: 10})
+    , pNode('n79', 920, -157, S_P, {green: 155}, {prestige: 16, vit: 16, dex: 6})
+    , pNode('n80', 920, 0, _S_, {}, {}, 'Вершина равновесия',
         'Может быть усилена с помощью эфирных ядер.', 'balance')
-    , pNode('n81',
-        {blue: 185}, {prestige: 20, spirit: 20}, 920, 510, 'stat')
-    , pNode('n82',
-        {blue: 150}, {prestige: 15, spirit: 15}, 972, 420, 'stat')
-    , pNode('n83',
-        {blue: 150}, {prestige: 30, majesty: 200}, 868, 420, 'stat')
-    , pNode('n84',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 823, 390, 'stat')
-    , pNode('n85',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 859, 340, 'stat')
-    , pNode('n86',
-        {blue: 185}, {prestige: 20, spirit: 20}, 919, 340, 'stat')
-    , pNode('n87',
-        {red: 115}, {prestige: 10, power: 10, dex: 5}, 979, 340, 'stat')
-    , pNode('n88',
-        {red: 185}, {prestige: 16, power: 16, dex: 7}, 823, 510, 'stat')
-    , pNode('n89',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 859, 560, 'stat')
-    , pNode('n90',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 979, 560, 'stat')
-    , pNode('n91',
-        {blue: 185}, {prestige: 20, spirit: 20}, 1015, 390, 'stat')
-    , pNode('n92',
-        {blue: 150}, {prestige: 15, spirit: 15}, 1015, 510, 'stat')
-    , pNode('n93',
-        {green: 150}, {prestige: 18, vit: 18, dex: 8}, 920, 607, 'stat')
-    , pNode('n94',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 920, 293, 'stat')
-    , pNode('n95', {blue: 200}, {prestige: 40}, 920, 450, 'skill',
+    , pNode('n81', 920, 510, S_P, {blue: 185}, {prestige: 20, spirit: 20})
+    , pNode('n82', 972, 420, S_P, {blue: 150}, {prestige: 15, spirit: 15})
+    , pNode('n83', 868, 420, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n84', 823, 390, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n85', 859, 340, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n86', 919, 340, S_P, {blue: 185}, {prestige: 20, spirit: 20})
+    , pNode('n87', 979, 340, S_P, {red: 115}, {prestige: 10, power: 10, dex: 5})
+    , pNode('n88', 823, 510, S_P, {red: 185}, {prestige: 16, power: 16, dex: 7})
+    , pNode('n89', 859, 560, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n90', 979, 560, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n91', 1015, 390, S_P, {blue: 185}, {prestige: 20, spirit: 20})
+    , pNode('n92', 1015, 510, S_P, {blue: 150}, {prestige: 15, spirit: 15})
+    , pNode('n93', 920, 607, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 8})
+    , pNode('n94', 920, 293, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n95', 920, 450, _S_, {blue: 200}, {prestige: 40},
         'Талант: Интенсивность импульса',
         'Импульсный урон увеличен на 10% за каждый уровень этого символа.',
         'spirit')
-    , pNode('n96',
-        {blue: 185}, {prestige: 20, luck: 20}, 920, -390, 'stat')
-    , pNode('n97',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 972, -480, 'stat')
-    , pNode('n98',
-        {blue: 185}, {prestige: 20, luck: 20}, 868, -480, 'stat')
-    , pNode('n99',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 823, -510, 'stat')
-    , pNode('n100',
-        {blue: 150}, {prestige: 30, majesty: 200}, 859, -560, 'stat')
-    , pNode('n101',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 919, -560, 'stat')
-    , pNode('n102',
-        {blue: 115}, {prestige: 10, luck: 10}, 979, -560, 'stat')
-    , pNode('n103',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 823, -390, 'stat')
-    , pNode('n104',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 859, -340, 'stat')
-    , pNode('n105',
-        {blue: 185}, {prestige: 20, luck: 20}, 979, -340, 'stat')
-    , pNode('n106',
-        {blue: 115}, {prestige: 10, luck: 10}, 1015, -510, 'stat')
-    , pNode('n107',
-        {blue: 115}, {prestige: 10, luck: 10}, 1015, -390, 'stat')
-    , pNode('n108',
-        {blue: 150}, {prestige: 30, majesty: 200}, 920, -293, 'stat')
-    , pNode('n109',
-        {red: 185}, {prestige: 16, power: 16, dex: 7}, 920, -607, 'stat')
-    , pNode('n110', {blue: 200} , {prestige: 40}, 920, -450, 'skill',
+    , pNode('n96', 920, -390, S_P, {blue: 185}, {prestige: 20, luck: 20})
+    , pNode('n97', 972, -480, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n98', 868, -480, S_P, {blue: 185}, {prestige: 20, luck: 20})
+    , pNode('n99', 823, -510, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n100', 859, -560, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n101', 919, -560, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n102', 979, -560, S_P, {blue: 115}, {prestige: 10, luck: 10})
+    , pNode('n103', 823, -390, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n104', 859, -340, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n105', 979, -340, S_P, {blue: 185}, {prestige: 20, luck: 20})
+    , pNode('n106', 1015, -510, S_P, {blue: 115}, {prestige: 10, luck: 10})
+    , pNode('n107', 1015, -390, S_P, {blue: 115}, {prestige: 10, luck: 10})
+    , pNode('n108', 920, -293, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n109', 920, -607, S_P, {red: 185}, {prestige: 16, power: 16, dex: 7})
+    , pNode('n110', 920, -450, _S_, {blue: 200}, {prestige: 40},
         'Талант: Максимальная отдача',
         'Критический урон увеличен на 10% за каждый уровень этого символа.',
         'luck')
-    , pNode('n111',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1380, 60, 'stat')
-    , pNode('n112',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1432, -30, 'stat')
-    , pNode('n113',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1328, -30, 'stat')
-    , pNode('n114',
-        {blue: 650}, {prestige: 56, valor: 56}, 1285, -60, 'stat')
-    , pNode('n115',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1285, 60, 'stat')
-    , pNode('n116',
-        {blue: 325}, {prestige: 35, spirit: 35}, 1475, 60, 'stat')
-    , pNode('n117',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1475, -60, 'stat')
-    , pNode('n118',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1319, -110, 'stat')
-    , pNode('n119',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1441, -110, 'stat')
-    , pNode('n120',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1319, 110, 'stat')
-    , pNode('n121',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1441, 110, 'stat')
-    , pNode('n122',
-        {blue: 650}, {prestige: 56, spirit: 56}, 1380, -110, 'stat')
-    , pNode('n123',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 1380, 110, 'stat')
-    , pNode('n124',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1380, -157, 'stat')
-    , pNode('n125',
-        {blue: 650}, {prestige: 56, str: 56}, 1380, 157, 'stat')
-    , pNode('n126',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1247, -84, 'stat')
-    , pNode('n127',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1247, 84, 'stat')
-    , pNode('n128',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1513, 84, 'stat')
-    , pNode('n129',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1513, -84, 'stat')
-    , pNode('n130',
-        {blue: 650}, {prestige: 40, power: 40, dex: 24}, 1245, 0, 'stat')
-    , pNode('n131',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1515, 0, 'stat')
-    , pNode('n132', {god: 1}, {}, 1380, 0, 'skill', 'Форма бога',
+    , pNode('n111', 1380, 60, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n112', 1432, -30, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n113', 1328, -30, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n114', 1285, -60, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n115', 1285, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n116', 1475, 60, S_P, {blue: 325}, {prestige: 35, spirit: 35})
+    , pNode('n117', 1475, -60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n118', 1319, -110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n119', 1441, -110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n120', 1319, 110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n121', 1441, 110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n122', 1380, -110, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n123', 1380, 110, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n124', 1380, -157, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n125', 1380, 157, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n126', 1247, -84, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n127', 1247, 84, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n128', 1513, 84, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n129', 1513, -84, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n130', 1245, 0, S_P, {blue: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n131', 1515, 0, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n132', 1380, 0, _S_, {god: 1}, {}, 'Форма бога',
         'В божественной форме бессмертный приобретает дополнительные '+
         'способности и становится гараздо больше. Меняеться его восприятие '+
         'окружающего мира и самого себя. И даже когда он выходит из этого '+
@@ -301,215 +176,123 @@ const nodesData =
         '<p>Для открытия необходимо завершить сюжетное задание "Новый бог" '+
         '(для этого необходимо по меньшей мере 30500 престижа).',
         'god')
-    , pNode('n133',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 690, -700, 'stat')
-    , pNode('n134',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 742, -790, 'stat')
-    , pNode('n135',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 638, -790, 'stat')
-    , pNode('n136',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 629, -870, 'stat')
-    , pNode('n137',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 751, -870, 'stat')
-    , pNode('n138',
-        {green: 185}, {prestige: 20, valor: 20}, 629, -650, 'stat')
-    , pNode('n139',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 751, -650, 'stat')
-    , pNode('n140',
-        {green: 185}, {prestige: 24, vit: 24, dex: 27}, 690, -917, 'stat')
-    , pNode('n141',
-        {blue: 150}, {prestige: 15, valor: 15}, 690, -603, 'stat')
-    , pNode('n142',
-        {blue: 150}, {prestige: 15, spirit: 15}, 557, -844, 'stat')
-    , pNode('n143',
-        {blue: 150}, {prestige: 15, luck: 15}, 557, -676, 'stat')
-    , pNode('n144',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 823, -676, 'stat')
-    , pNode('n145',
-        {blue: 150}, {prestige: 30, majesty: 200}, 823, -844, 'stat')
-    , pNode('n146',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 555, -760, 'stat')
-    , pNode('n147',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 825, -760, 'stat')
-    , pNode('n148', {blue: 200}, {prestige: 40}, 690, -760, 'skill',
+    , pNode('n133', 690, -700, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n134', 742, -790, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n135', 638, -790, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n136', 629, -870, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n137', 751, -870, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n138', 629, -650, S_P, {green: 185}, {prestige: 20, valor: 20})
+    , pNode('n139', 751, -650, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n140', 690, -917, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 27})
+    , pNode('n141', 690, -603, S_P, {blue: 150}, {prestige: 15, valor: 15})
+    , pNode('n142', 557, -844, S_P, {blue: 150}, {prestige: 15, spirit: 15})
+    , pNode('n143', 557, -676, S_P, {blue: 150}, {prestige: 15, luck: 15})
+    , pNode('n144', 823, -676, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n145', 823, -844, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n146', 555, -760, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n147', 825, -760, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n148', 690, -760, _S_, {blue: 200}, {prestige: 40},
         'Талант: Элемент неожиданности',
         'В течение первых 8 секунд боя исходящий урон увеличен на 12% за '+
         'каждый уровень этого символа.',
         'surprise')
-    , pNode('n149',
-        {blue: 185}, {prestige: 20, valor: 20}, 230, -700, 'stat')
-    , pNode('n150',
-        {blue: 150}, {prestige: 30, majesty: 200}, 282, -790, 'stat')
-    , pNode('n151',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 178, -790, 'stat')
-    , pNode('n152',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 135, -820, 'stat')
-    , pNode('n153',
-        {blue: 150}, {prestige: 30, majesty: 200}, 135, -700, 'stat')
-    , pNode('n154',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 325, -700, 'stat')
-    , pNode('n155',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 325, -820, 'stat')
-    , pNode('n156',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 230, -870, 'stat')
-    , pNode('n157',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 230, -650, 'stat')
-    , pNode('n158',
-        {blue: 185}, {prestige: 20, valor: 20}, 230, -917, 'stat')
-    , pNode('n159',
-        {red: 185}, {prestige: 16, power: 16, dex: 7}, 230, -603, 'stat')
-    , pNode('n160',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 97, -844, 'stat')
-    , pNode('n161',
-        {blue: 150}, {prestige: 15, valor: 15}, 97, -676, 'stat')
-    , pNode('n162',
-        {blue: 150}, {prestige: 15, str: 15}, 363, -676, 'stat')
-    , pNode('n163',
-        {red: 185}, {prestige: 16, power: 16, dex: 7}, 363, -844, 'stat')
-    , pNode('n164', {blue: 200}, {prestige: 40}, 230, -760, 'skill',
+    , pNode('n149', 230, -700, S_P, {blue: 185}, {prestige: 20, valor: 20})
+    , pNode('n150', 282, -790, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n151', 178, -790, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n152', 135, -820, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n153', 135, -700, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n154', 325, -700, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n155', 325, -820, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n156', 230, -870, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n157', 230, -650, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n158', 230, -917, S_P, {blue: 185}, {prestige: 20, valor: 20})
+    , pNode('n159', 230, -603, S_P, {red: 185}, {prestige: 16, power: 16, dex: 7})
+    , pNode('n160', 97, -844, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n161', 97, -676, S_P, {blue: 150}, {prestige: 15, valor: 15})
+    , pNode('n162', 363, -676, S_P, {blue: 150}, {prestige: 15, str: 15})
+    , pNode('n163', 363, -844, S_P, {red: 185}, {prestige: 16, power: 16, dex: 7})
+    , pNode('n164', 230, -760, _S_, {blue: 200}, {prestige: 40},
         'Талант: Стремительная атака',
         'В тесение 3 секунд после применения рывка наносимый урон увеличен на '+
         '6% за каждый уровень этого символа.',
         'rush')
-    , pNode('n165',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 690, 820, 'stat')
-    , pNode('n166',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 742, 730, 'stat')
-    , pNode('n167',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 638, 730, 'stat')
-    , pNode('n168',
-        {red: 185}, {prestige: 16, power: 16, dex: 7}, 595, 700, 'stat')
-    , pNode('n169',
-        {blue: 150}, {prestige: 30, majesty: 200}, 595, 820, 'stat')
-    , pNode('n170',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 785, 820, 'stat')
-    , pNode('n171',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 785, 700, 'stat')
-    , pNode('n172',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 690, 650, 'stat')
-    , pNode('n173',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 690, 870, 'stat')
-    , pNode('n174',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 690, 603, 'stat')
-    , pNode('n175',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 690, 917, 'stat')
-    , pNode('n176',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 557, 676, 'stat')
-    , pNode('n177',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 557, 844, 'stat')
-    , pNode('n178',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 823, 844, 'stat')
-    , pNode('n179',
-        {blue: 150}, {prestige: 30, majesty: 200}, 823, 676, 'stat')
-    , pNode('n180', {blue: 200}, {prestige: 40}, 690, 760, 'skill',
+    , pNode('n165', 690, 820, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n166', 742, 730, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n167', 638, 730, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n168', 595, 700, S_P, {red: 185}, {prestige: 16, power: 16, dex: 7})
+    , pNode('n169', 595, 820, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n170', 785, 820, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n171', 785, 700, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n172', 690, 650, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n173', 690, 870, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n174', 690, 603, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n175', 690, 917, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n176', 557, 676, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n177', 557, 844, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n178', 823, 844, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n179', 823, 676, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n180', 690, 760, _S_, {blue: 200}, {prestige: 40},
         'Талант: Инерция',
         'В течение 3 секунд после применения рывка скорость передвижения '+
         'увеличена на 12% за каждый уровень этого символа.',
         'inertia')
-    , pNode('n181',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 135, 700, 'stat')
-    , pNode('n182',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 135, 820, 'stat')
-    , pNode('n183',
-        {blue: 150}, {prestige: 30, majesty: 200}, 325, 820, 'stat')
-    , pNode('n184',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 325, 700, 'stat')
-    , pNode('n185',
-        {blue: 185}, {prestige: 20, str: 20}, 169, 650, 'stat')
-    , pNode('n186',
-        {blue: 150}, {prestige: 15, str: 15}, 291, 650, 'stat')
-    , pNode('n187',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 169, 870, 'stat')
-    , pNode('n188',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 291, 870, 'stat')
-    , pNode('n189',
-        {red: 185}, {prestige: 16, power: 16, dex: 7}, 230, 650, 'stat')
-    , pNode('n190',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 230, 870, 'stat')
-    , pNode('n191',
-        {blue: 150}, {prestige: 15, luck: 15}, 97, 676, 'stat')
-    , pNode('n192',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 97, 844, 'stat')
-    , pNode('n193',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 363, 844, 'stat')
-    , pNode('n194',
-        {blue: 150}, {prestige: 30, majesty: 200}, 363, 676, 'stat')
-    , pNode('n195',
-        {red: 185}, {prestige: 16, power: 16, dex: 7}, 95, 760, 'stat')
-    , pNode('n196',
-        {blue: 150}, {prestige: 15, spirit: 15}, 365, 760, 'stat')
-    , pNode('n197', {blue: 200}, {prestige: 40}, 230, 760, 'skill',
+    , pNode('n181', 135, 700, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n182', 135, 820, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n183', 325, 820, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n184', 325, 700, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n185', 169, 650, S_P, {blue: 185}, {prestige: 20, str: 20})
+    , pNode('n186', 291, 650, S_P, {blue: 150}, {prestige: 15, str: 15})
+    , pNode('n187', 169, 870, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n188', 291, 870, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n189', 230, 650, S_P, {red: 185}, {prestige: 16, power: 16, dex: 7})
+    , pNode('n190', 230, 870, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n191', 97, 676, S_P, {blue: 150}, {prestige: 15, luck: 15})
+    , pNode('n192', 97, 844, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n193', 363, 844, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n194', 363, 676, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n195', 95, 760, S_P, {red: 185}, {prestige: 16, power: 16, dex: 7})
+    , pNode('n196', 365, 760, S_P, {blue: 150}, {prestige: 15, spirit: 15})
+    , pNode('n197', 230, 760, _S_, {blue: 200}, {prestige: 40},
         'Талант: Удачное попадание',
         'Раз в 2 секунды вероятность критической атаки увеличивается на 1% за '+
         'каждый уровень этого символа.</p>'+
         '<p>При нанесении критической атаки эффект сбрасываеться и начинает '+
         'накапливаться заново.',
         'luck_hit')
-    , pNode('n198',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -325, -820, 'stat')
-    , pNode('n199',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -325, -700, 'stat')
-    , pNode('n200',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, -135, -700, 'stat')
-    , pNode('n201',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, -135, -820, 'stat')
-    , pNode('n202',
-        {blue: 325}, {prestige: 35, str: 35}, -291, -870, 'stat')
-    , pNode('n203',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -169, -870, 'stat')
-    , pNode('n204',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, -291, -650, 'stat')
-    , pNode('n205',
-        {blue: 400}, {prestige: 47, valor: 47}, -169, -650, 'stat')
-    , pNode('n206',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, -230, -870, 'stat')
-    , pNode('n207',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, -230, -650, 'stat')
-    , pNode('n208',
-        {blue: 325}, {prestige: 30, majesty: 200}, -363, -844, 'stat')
-    , pNode('n209',
-        {blue: 325}, {prestige: 35, luck: 35}, -363, -676, 'stat')
-    , pNode('n210',
-        {blue: 325}, {prestige: 30, majesty: 200}, -97, -676, 'stat')
-    , pNode('n211',
-        {blue: 400}, {prestige: 47, luck: 47}, -97, -844, 'stat')
-    , pNode('n212',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, -365, -760, 'stat')
-    , pNode('n213',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, -95, -760, 'stat')
-    , pNode('n214', {}, {}, -230, -760, 'skill', 'Вершина разрушения',
+    , pNode('n198', -325, -820, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n199', -325, -700, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n200', -135, -700, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n201', -135, -820, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n202', -291, -870, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n203', -169, -870, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n204', -291, -650, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n205', -169, -650, S_P, {blue: 400}, {prestige: 47, valor: 47})
+    , pNode('n206', -230, -870, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n207', -230, -650, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n208', -363, -844, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n209', -363, -676, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n210', -97, -676, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n211', -97, -844, S_P, {blue: 400}, {prestige: 47, luck: 47})
+    , pNode('n212', -365, -760, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n213', -95, -760, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n214', -230, -760, _S_, {}, {}, 'Вершина разрушения',
         'Может быть усилена с помощью эфирных ядер.', 'destroy')
-    , pNode('n215',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -230, -1140, 'stat')
-    , pNode('n216',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -178, -1230, 'stat')
-    , pNode('n217',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -282, -1230, 'stat')
-    , pNode('n218',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -325, -1260, 'stat')
-    , pNode('n219',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -325, -1140, 'stat')
-    , pNode('n220',
-        {blue: 490}, {prestige: 38, spirit: 38}, -135, -1140, 'stat')
-    , pNode('n221',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -135, -1260, 'stat')
-    , pNode('n222',
-        {blue: 575}, {prestige: 30, majesty: 250}, -230, -1310, 'stat')
-    , pNode('n223',
-        {blue: 575}, {prestige: 30, majesty: 250}, -230, -1090, 'stat')
-    , pNode('n224',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -230, -1357, 'stat')
-    , pNode('n225',
-        {revelation: 300}, {prestige: 80, valor: 80}, -230, -1043, 'stat')
-    , pNode('n226',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -363, -1284, 'stat')
-    , pNode('n227',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -363, -1116, 'stat')
-    , pNode('n228',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -97, -1116, 'stat')
-    , pNode('n229',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -97, -1284, 'stat')
-    , pNode('n230', {blue: 350}, {prestige: 40}, -230, -1200, 'skill',
+    , pNode('n215', -230, -1140, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n216', -178, -1230, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n217', -282, -1230, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n218', -325, -1260, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n219', -325, -1140, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n220', -135, -1140, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n221', -135, -1260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n222', -230, -1310, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n223', -230, -1090, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n224', -230, -1357, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n225', -230, -1043, S_P, {revelation: 300}, {prestige: 80, valor: 80})
+    , pNode('n226', -363, -1284, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n227', -363, -1116, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n228', -97, -1116, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n229', -97, -1284, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n230', -230, -1200, _S_, {blue: 350}, {prestige: 40},
         'Талант: Парализующий шок',
         'Использование атакующих способностей позволяет применить умение '+
         '"Шок".</p>'+
@@ -518,143 +301,81 @@ const nodesData =
         '<p>При совместном использовании с символом "Болевой шок" оба эффекта '+
         'наступают одновременно, а перезарядка ускорена на 5 секунд.',
         'shock')
-    , pNode('n231',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 255, -1320, 'stat')
-    , pNode('n232',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 255, -1200, 'stat')
-    , pNode('n233',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 445, -1200, 'stat')
-    , pNode('n234',
-        {blue: 650}, {prestige: 56, str: 56}, 445, -1320, 'stat')
-    , pNode('n235',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 289, -1370, 'stat')
-    , pNode('n236',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 411, -1370, 'stat')
-    , pNode('n237',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 289, -1150, 'stat')
-    , pNode('n238',
-        {blue: 650}, {prestige: 56, str: 56}, 411, -1150, 'stat')
-    , pNode('n239',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 350, -1370, 'stat')
-    , pNode('n240',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 350, -1150, 'stat')
-    , pNode('n241',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 217, -1344, 'stat')
-    , pNode('n242',
-        {red:810}, {prestige: 53, power: 53, dex: 30}, 217, -1176, 'stat')
-    , pNode('n243',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 483, -1176, 'stat')
-    , pNode('n244',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 483, -1344, 'stat')
-    , pNode('n245',
-        {blue: 650}, {prestige: 56, spirit: 56}, 215, -1260, 'stat')
-    , pNode('n246',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 485, -1260, 'stat')
-    , pNode('n247', {blue: 275}, {prestige: 40}, 350, -1260, 'skill',
+    , pNode('n231', 255, -1320, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n232', 255, -1200, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n233', 445, -1200, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n234', 445, -1320, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n235', 289, -1370, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n236', 411, -1370, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n237', 289, -1150, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n238', 411, -1150, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n239', 350, -1370, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n240', 350, -1150, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n241', 217, -1344, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n242', 217, -1176, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n243', 483, -1176, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n244', 483, -1344, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n245', 215, -1260, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n246', 485, -1260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n247', 350, -1260, _S_, {blue: 275}, {prestige: 40},
         'Талант: Блистательный триумф',
         'Применение добивающего удара увеличивает исходящий урон на 15% и '+
         'уменьшает входящий урон на 15%. Длительность эффекта - 8 секунд за '+
         'каждый уровень этого символа.',
         'triumph')
-    , pNode('n248',
-        {green: 150}, {prestige: 18, vit: 18, dex: 8}, 1380, -690, 'stat')
-    , pNode('n249',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 1432, -780, 'stat')
-    , pNode('n250',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 1328, -780, 'stat')
-    , pNode('n251',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 1285, -810, 'stat')
-    , pNode('n252',
-        {blue: 150}, {prestige: 30, majesty: 200}, 1285, -690, 'stat')
-    , pNode('n253',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 1475, -690, 'stat')
-    , pNode('n254',
-        {blue: 150}, {prestige: 15, valor: 15}, 1475, -810, 'stat')
-    , pNode('n255',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 1380, -860, 'stat')
-    , pNode('n256',
-        {green: 115}, {prestige: 12, vit: 12, dex: 5}, 1380, -640, 'stat')
-    , pNode('n257',
-        {blue: 150}, {prestige: 30, majesty: 200}, 1380, -907, 'stat')
-    , pNode('n258',
-        {red: 185}, {prestige: 16, power: 16, dex: 7}, 1380, -593, 'stat')
-    , pNode('n259',
-        {blue: 185}, {prestige: 20, str: 20}, 1247, -834, 'stat')
-    , pNode('n260',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 1247, -666, 'stat')
-    , pNode('n261',
-        {blue: 185}, {prestige: 24, vit: 24, dex: 7}, 1513, -666, 'stat')
-    , pNode('n262',
-        {blue: 150}, {prestige: 15, luck: 15}, 1513, -834, 'stat')
-    , pNode('n263', {}, {}, 1380, -750, 'skill', 'Вершина разрушения',
+    , pNode('n248', 1380, -690, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 8})
+    , pNode('n249', 1432, -780, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n250', 1328, -780, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n251', 1285, -810, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n252', 1285, -690, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n253', 1475, -690, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n254', 1475, -810, S_P, {blue: 150}, {prestige: 15, valor: 15})
+    , pNode('n255', 1380, -860, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n256', 1380, -640, S_P, {green: 115}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n257', 1380, -907, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n258', 1380, -593, S_P, {red: 185}, {prestige: 16, power: 16, dex: 7})
+    , pNode('n259', 1247, -834, S_P, {blue: 185}, {prestige: 20, str: 20})
+    , pNode('n260', 1247, -666, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n261', 1513, -666, S_P, {blue: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n262', 1513, -834, S_P, {blue: 150}, {prestige: 15, luck: 15})
+    , pNode('n263', 1380, -750, _S_, {}, {}, 'Вершина разрушения',
         'Может быть усилена с помощью эфирных ядер.', 'destroy')
-    , pNode('n264',
-        {blue: 325}, {prestige: 35, luck: 35}, 1285, -1420, 'stat')
-    , pNode('n265',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1285, -1300, 'stat')
-    , pNode('n266',
-        {blue: 240}, {prestige: 23, luck: 23}, 1475, -1300, 'stat')
-    , pNode('n267',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1475, -1420, 'stat')
-    , pNode('n268',
-        {blue: 400}, {prestige: 47, luck: 47}, 1319, -1470, 'stat')
-    , pNode('n269',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1441, -1470, 'stat')
-    , pNode('n270',
-        {blue: 325}, {prestige: 35, luck: 35}, 1319, -1250, 'stat')
-    , pNode('n271',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1441, -1250, 'stat')
-    , pNode('n272',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1380, -1470, 'stat')
-    , pNode('n273',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1380, -1250, 'stat')
-    , pNode('n274',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1247, -1444, 'stat')
-    , pNode('n275',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1247, -1276, 'stat')
-    , pNode('n276',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1513, -1276, 'stat')
-    , pNode('n277',
-        {blue: 325}, {prestige: 35, luck: 35}, 1513, -1444, 'stat')
-    , pNode('n278',
-        {blue: 400}, {prestige: 47, luck: 47}, 1245, -1360, 'stat')
-    , pNode('n279',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1515, -1360, 'stat')
-    , pNode('n280', {blue: 275}, {prestige: 40}, 1380, -1360, 'skill',
+    , pNode('n264', 1285, -1420, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n265', 1285, -1300, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n266', 1475, -1300, S_P, {blue: 240}, {prestige: 23, luck: 23})
+    , pNode('n267', 1475, -1420, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n268', 1319, -1470, S_P, {blue: 400}, {prestige: 47, luck: 47})
+    , pNode('n269', 1441, -1470, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n270', 1319, -1250, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n271', 1441, -1250, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n272', 1380, -1470, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n273', 1380, -1250, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n274', 1247, -1444, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n275', 1247, -1276, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n276', 1513, -1276, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n277', 1513, -1444, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n278', 1245, -1360, S_P, {blue: 400}, {prestige: 47, luck: 47})
+    , pNode('n279', 1515, -1360, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n280', 1380, -1360, _S_, {blue: 275}, {prestige: 40},
         'Талант: Максимальная отдача',
         'Критический урон увеличен на 10% за каждый уровень этого символа.',
         'luck')
-    , pNode('n281',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1380, -1680, 'stat')
-    , pNode('n282',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1432, -1770, 'stat')
-    , pNode('n283',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1328, -1770, 'stat')
-    , pNode('n284',
-        {blue: 240}, {prestige: 23, valor: 23}, 1285, -1800, 'stat')
-    , pNode('n285',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1285, -1680, 'stat')
-    , pNode('n286',
-        {blue: 325}, {prestige: 35, valor: 35}, 1475, -1680, 'stat')
-    , pNode('n287',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1475, -1800, 'stat')
-    , pNode('n288',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1319, -1850, 'stat')
-    , pNode('n289',
-        {blue: 400}, {prestige: 47, valor: 47}, 1441, -1850, 'stat')
-    , pNode('n290',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1319, -1630, 'stat')
-    , pNode('n291',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1441, -1630, 'stat')
-    , pNode('n292',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1380, -1850, 'stat')
-    , pNode('n293',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1380, -1630, 'stat')
-    , pNode('n294',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1245, -1740, 'stat')
-    , pNode('n295',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1515, -1740, 'stat')
-    , pNode('n296', {transformation: 300}, {}, 1380, -1740, 'class',
+    , pNode('n281', 1380, -1680, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n282', 1432, -1770, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n283', 1328, -1770, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n284', 1285, -1800, S_P, {blue: 240}, {prestige: 23, valor: 23})
+    , pNode('n285', 1285, -1680, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n286', 1475, -1680, S_P, {blue: 325}, {prestige: 35, valor: 35})
+    , pNode('n287', 1475, -1800, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n288', 1319, -1850, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n289', 1441, -1850, S_P, {blue: 400}, {prestige: 47, valor: 47})
+    , pNode('n290', 1319, -1630, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n291', 1441, -1630, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n292', 1380, -1850, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n293', 1380, -1630, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n294', 1245, -1740, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n295', 1515, -1740, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n296', 1380, -1740, _S_, {transformation: 300}, {},
         'Класс: Кинетик',
         'Кинетик, оперируя особым типом энергии, способен навести настоящий '+
         'хаос в стройных рядах противника. Он может не только вырывать из '+
@@ -664,37 +385,22 @@ const nodesData =
         'также способен защитить своих союзников, укрыв их энергетическим '+
         'полем.',
         'kinetic')
-    , pNode('n297',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 960, -1300, 'stat')
-    , pNode('n298',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1012, -1390, 'stat')
-    , pNode('n299',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 908, -1390, 'stat')
-    , pNode('n300',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 865, -1420, 'stat')
-    , pNode('n301',
-        {red: 325}, {prestige: 22, power: 22, dex: 12}, 865, -1300, 'stat')
-    , pNode('n302',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1055, -1300, 'stat')
-    , pNode('n303',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1055, -1420, 'stat')
-    , pNode('n304',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 899, -1470, 'stat')
-    , pNode('n305',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1021, -1470, 'stat')
-    , pNode('n306',
-        {blue: 325}, {prestige: 30, majesty: 200}, 899, -1250, 'stat')
-    , pNode('n307',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1021, -1250, 'stat')
-    , pNode('n308',
-        {blue: 325}, {prestige: 30, majesty: 200}, 960, -1470, 'stat')
-    , pNode('n309',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 960, -1250, 'stat')
-    , pNode('n310',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 825, -1360, 'stat')
-    , pNode('n311',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1095, -1360, 'stat')
-    , pNode('n312', {blue: 275}, {prestige: 40}, 960, -1360, 'skill',
+    , pNode('n297', 960, -1300, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n298', 1012, -1390, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n299', 908, -1390, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n300', 865, -1420, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n301', 865, -1300, S_P, {red: 325}, {prestige: 22, power: 22, dex: 12})
+    , pNode('n302', 1055, -1300, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n303', 1055, -1420, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n304', 899, -1470, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n305', 1021, -1470, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n306', 899, -1250, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n307', 1021, -1250, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n308', 960, -1470, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n309', 960, -1250, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n310', 825, -1360, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n311', 1095, -1360, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n312', 960, -1360, _S_, {blue: 275}, {prestige: 40},
         'Талант: Защитный рефлекс',
         'Персонаж получает на 10% меньше урона за каждый уровень этого '+
         'символа, если находится под эффектос оглушения, страха, ослепления '+
@@ -702,205 +408,118 @@ const nodesData =
         'Персонаж получает на 3% меньше урона за каждый уровень этого '+
         'символа, если находится под эффектом замедления.',
         'reflex')
-    , pNode('n313',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 820, -1680, 'stat')
-    , pNode('n314',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 872, -1770, 'stat')
-    , pNode('n315',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 768, -1770, 'stat')
-    , pNode('n316',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 725, -1800, 'stat')
-    , pNode('n317',
-        {blue: 490}, {prestige: 38, str: 38}, 725, -1680, 'stat')
-    , pNode('n318',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 915, -1680, 'stat')
-    , pNode('n319',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 915, -1800, 'stat')
-    , pNode('n320',
-        {blue: 575}, {prestige: 30, majesty: 250}, 759, -1850, 'stat')
-    , pNode('n321',
-        {blue: 650}, {prestige: 56, spirit: 56}, 881, -1850, 'stat')
-    , pNode('n322',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 759, -1630, 'stat')
-    , pNode('n323',
-        {blue: 575}, {prestige: 30, majesty: 250}, 881, -1630, 'stat')
-    , pNode('n324',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 820, -1850, 'stat')
-    , pNode('n325',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 820, -1897, 'stat')
-    , pNode('n326',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 820, -1583, 'stat')
-    , pNode('n327', {}, {}, 820, -1740, 'skill', 'Вершина созидания',
+    , pNode('n313', 820, -1680, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n314', 872, -1770, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n315', 768, -1770, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n316', 725, -1800, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n317', 725, -1680, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n318', 915, -1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n319', 915, -1800, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n320', 759, -1850, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n321', 881, -1850, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n322', 759, -1630, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n323', 881, -1630, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n324', 820, -1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n325', 820, -1897, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n326', 820, -1583, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n327', 820, -1740, _S_, {}, {}, 'Вершина созидания',
         'Может быть усилена с помощью эфирных ядер.', 'create')
-    , pNode('n328',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1800, -1300, 'stat')
-    , pNode('n329',
-        {red: 325}, {prestige: 25, power: 25, dex: 112}, 1852, -1390, 'stat')
-    , pNode('n330',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1748, -1390, 'stat')
-    , pNode('n331',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1739, -1470, 'stat')
-    , pNode('n332',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1861, -1470, 'stat')
-    , pNode('n333',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1739, -1250, 'stat')
-    , pNode('n334',
-        {green: 240}, {prestige: 27, vit: 27, dex:9}, 1861, -1250, 'stat')
-    , pNode('n335',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1800, -1517, 'stat')
-    , pNode('n336',
-        {blue: 400}, {prestige: 47, valor: 47}, 1800, -1203, 'stat')
-    , pNode('n337',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1667, -1444, 'stat')
-    , pNode('n338',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1667, -1276, 'stat')
-    , pNode('n339',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1933, -1276, 'stat')
-    , pNode('n340',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1933, -1444, 'stat')
-    , pNode('n341',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1665, -1360, 'stat')
-    , pNode('n342',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1935, -1360, 'stat')
-    , pNode('n343', {blue: 275}, {prestige: 40}, 1800, -1360, 'skill',
+    , pNode('n328', 1800, -1300, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n329', 1852, -1390, S_P, {red: 325}, {prestige: 25, power: 25, dex: 112})
+    , pNode('n330', 1748, -1390, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n331', 1739, -1470, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n332', 1861, -1470, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n333', 1739, -1250, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n334', 1861, -1250, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n335', 1800, -1517, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n336', 1800, -1203, S_P, {blue: 400}, {prestige: 47, valor: 47})
+    , pNode('n337', 1667, -1444, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n338', 1667, -1276, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n339', 1933, -1276, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n340', 1933, -1444, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n341', 1665, -1360, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n342', 1935, -1360, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n343', 1800, -1360, _S_, {blue: 275}, {prestige: 40},
         'Талант: Отчаянное сопротивление',
         'Получаемые эффекты замедления ослаблены на 15% за каждый уровень '+
         'этого символа.',
         'resistance')
-    , pNode('n344',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 1940, -1680, 'stat')
-    , pNode('n345',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1992, -1770, 'stat')
-    , pNode('n346',
-        {blue: 650}, {prestige: 56, valor: 56}, 1888, -1770, 'stat')
-    , pNode('n347',
-        {blue: 650}, {prestige: 56, str: 56}, 1845, -1800, 'stat')
-    , pNode('n348',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1845, -1680, 'stat')
-    , pNode('n349',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2035, -1680, 'stat')
-    , pNode('n350',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2035, -1800, 'stat')
-    , pNode('n351',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1879, -1850, 'stat')
-    , pNode('n352',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2001, -1850, 'stat')
-    , pNode('n353',
-        {blue: 650}, {prestige: 56, str: 56}, 1879, -1630, 'stat')
-    , pNode('n354',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2001, -1630, 'stat')
-    , pNode('n355',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1940, -1850, 'stat')
-    , pNode('n356',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 1940, -1897, 'stat')
-    , pNode('n357',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1940, -1583, 'stat')
-    , pNode('n358', {blue: 350}, {prestige: 40}, 1940, -1740, 'skill',
+    , pNode('n344', 1940, -1680, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n345', 1992, -1770, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n346', 1888, -1770, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n347', 1845, -1800, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n348', 1845, -1680, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n349', 2035, -1680, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n350', 2035, -1800, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n351', 1879, -1850, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n352', 2001, -1850, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n353', 1879, -1630, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n354', 2001, -1630, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n355', 1940, -1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n356', 1940, -1897, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n357', 1940, -1583, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n358', 1940, -1740, _S_, {blue: 350}, {prestige: 40},
         'Талант: Тактическая защита',
         'Защита в ближнем бою увеличена на 5% за каждый уровень этого '+
         'символа.</p>'+
         '<p>Защита в дальнем бою увеличена на 5% за каждый уровень этого '+
         'символа.',
         'defence')
-    , pNode('n359',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1840, -390, 'stat')
-    , pNode('n360',
-        {blue: 325}, {prestige: 35, valor: 35}, 1892, -480, 'stat')
-    , pNode('n361',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1788, -480, 'stat')
-    , pNode('n362',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1745, -510, 'stat')
-    , pNode('n363',
-        {blue: 240}, {prestige: 23, valor: 23}, 1745, -390, 'stat')
-    , pNode('n364',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1935, -390, 'stat')
-    , pNode('n365',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1935, -510, 'stat')
-    , pNode('n366',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1779, -560, 'stat')
-    , pNode('n367',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1901, -560, 'stat')
-    , pNode('n368',
-        {blue: 400}, {prestige: 47, valor: 47}, 1779, -340, 'stat')
-    , pNode('n369',
-        {blue: 400}, {prestige: 47, valor: 47}, 1901, -340, 'stat')
-    , pNode('n370',
-        {blue: 325}, {prestige: 35, valor: 35}, 1840, -560, 'stat')
-    , pNode('n371',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1840, -340, 'stat')
-    , pNode('n372',
-        {blue: 325}, {prestige: 35, valor: 35}, 1705, -450, 'stat')
-    , pNode('n373',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1975, -450, 'stat')
-    , pNode('n374', {blue: 200}, {prestige: 40}, 1840, -450, 'skill',
+    , pNode('n359', 1840, -390, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n360', 1892, -480, S_P, {blue: 325}, {prestige: 35, valor: 35})
+    , pNode('n361', 1788, -480, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n362', 1745, -510, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n363', 1745, -390, S_P, {blue: 240}, {prestige: 23, valor: 23})
+    , pNode('n364', 1935, -390, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n365', 1935, -510, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n366', 1779, -560, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n367', 1901, -560, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n368', 1779, -340, S_P, {blue: 400}, {prestige: 47, valor: 47})
+    , pNode('n369', 1901, -340, S_P, {blue: 400}, {prestige: 47, valor: 47})
+    , pNode('n370', 1840, -560, S_P, {blue: 325}, {prestige: 35, valor: 35})
+    , pNode('n371', 1840, -340, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n372', 1705, -450, S_P, {blue: 325}, {prestige: 35, valor: 35})
+    , pNode('n373', 1975, -450, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n374', 1840, -450, _S_, {blue: 200}, {prestige: 40},
         'Талант: Мобилизация',
         'Дополнительный урон увеличен на 10% за каждый уровень этого символа.',
         'valor')
-    , pNode('n375',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1840, 60, 'stat')
-    , pNode('n376',
-        {blue: 240}, {prestige: 23, valor: 23}, 1892, -30, 'stat')
-    , pNode('n377',
-        {blue: 240}, {prestige: 23, spirit: 23}, 1788, -30, 'stat')
-    , pNode('n378',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1745, -60, 'stat')
-    , pNode('n379',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1745, 60, 'stat')
-    , pNode('n380',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1935, 60, 'stat')
-    , pNode('n381',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1935, -60, 'stat')
-    , pNode('n382',
-        {blue: 325}, {prestige: 35, valor: 35}, 1779, -110, 'stat')
-    , pNode('n383',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1901, -110, 'stat')
-    , pNode('n384',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1779, 110, 'stat')
-    , pNode('n385',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1901, 110, 'stat')
-    , pNode('n386',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1840, -110, 'stat')
-    , pNode('n387',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1840, -157, 'stat')
-    , pNode('n388',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1840, 157, 'stat')
-    , pNode('n389', {blue: 350}, {prestige: 40}, 1840, 0, 'skill',
+    , pNode('n375', 1840, 60, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n376', 1892, -30, S_P, {blue: 240}, {prestige: 23, valor: 23})
+    , pNode('n377', 1788, -30, S_P, {blue: 240}, {prestige: 23, spirit: 23})
+    , pNode('n378', 1745, -60, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n379', 1745, 60, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n380', 1935, 60, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n381', 1935, -60, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n382', 1779, -110, S_P, {blue: 325}, {prestige: 35, valor: 35})
+    , pNode('n383', 1901, -110, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n384', 1779, 110, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n385', 1901, 110, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n386', 1840, -110, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n387', 1840, -157, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n388', 1840, 157, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n389', 1840, 0, _S_, {blue: 350}, {prestige: 40},
         'Талант: Компаньон: особый боевой режим',
         'Применение атакующих умений в бою с некоторой вероятностью позволит '+
         'компаньону начать самостоятельно атаковать противника персонажа в '+
         'течение 18/25 секунд и отвлекать огонь противников на себя.',
         'okulat')
-    , pNode('n390',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2070, -700, 'stat')
-    , pNode('n391',
-        {blue: 240}, {prestige: 23, str: 23}, 2122, -790, 'stat')
-    , pNode('n392',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2018, -790, 'stat')
-    , pNode('n393',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1975, -820, 'stat')
-    , pNode('n394',
-        {blue: 240}, {prestige: 23, luck: 23}, 1975, -700, 'stat')
-    , pNode('n395',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2165, -700, 'stat')
-    , pNode('n396',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 2165, -820, 'stat')
-    , pNode('n397',
-        {blue: 400}, {prestige: 47, spirit: 47}, 2009, -870, 'stat')
-    , pNode('n398',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2131, -870, 'stat')
-    , pNode('n399',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2009, -650, 'stat')
-    , pNode('n400',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2131, -650, 'stat')
-    , pNode('n401',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 2070, -870, 'stat')
-    , pNode('n402',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2070, -650, 'stat')
-    , pNode('n403',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1935, -760, 'stat')
-    , pNode('n404',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2205, -760, 'stat')
-    , pNode('n405', {transformation: 300}, {}, 2070, -760, 'class',
+    , pNode('n390', 2070, -700, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n391', 2122, -790, S_P, {blue: 240}, {prestige: 23, str: 23})
+    , pNode('n392', 2018, -790, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n393', 1975, -820, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n394', 1975, -700, S_P, {blue: 240}, {prestige: 23, luck: 23})
+    , pNode('n395', 2165, -700, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n396', 2165, -820, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n397', 2009, -870, S_P, {blue: 400}, {prestige: 47, spirit: 47})
+    , pNode('n398', 2131, -870, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n399', 2009, -650, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n400', 2131, -650, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n401', 2070, -870, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n402', 2070, -650, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n403', 1935, -760, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n404', 2205, -760, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n405', 2070, -760, _S_, {transformation: 300}, {},
         'Класс: Мастер теней',
         'Этот коварный убийца, появляясь из ниоткуда и исчезая в никуда, '+
         'способен в два счета разделаться с ничего не подозревающей жертвой. '+
@@ -911,283 +530,162 @@ const nodesData =
         'козырей, которые помогут уничтожить противника или благоразумно '+
         'ретироваться, если бой станет слишком жарким.',
         'rouge')
-    , pNode('n406',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 1380, 810, 'stat')
-    , pNode('n407',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 1432, 720, 'stat')
-    , pNode('n408',
-        {green: 125}, {prestige: 12, vit: 12, dex: 5}, 1328, 720, 'stat')
-    , pNode('n409',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 1319, 640, 'stat')
-    , pNode('n410',
-        {red: 150}, {prestige: 12, power: 12, dex: 6}, 1441, 640, 'stat')
-    , pNode('n411',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 1319, 860, 'stat')
-    , pNode('n412',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 1441, 860, 'stat')
-    , pNode('n413',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 1380, 593, 'stat')
-    , pNode('n414',
-        {blue: 150}, {prestige: 30, majesty: 200}, 1380, 907, 'stat')
-    , pNode('n415',
-        {red: 155}, {prestige: 12, power: 12, dex: 6}, 1247, 666, 'stat')
-    , pNode('n416',
-        {red: 185}, {prestige: 16, power: 16, dex: 7}, 1247, 834, 'stat')
-    , pNode('n417',
-        {red: 115}, {prestige: 8, power: 8, dex: 5}, 1513, 834, 'stat')
-    , pNode('n418',
-        {green: 150}, {prestige: 18, vit: 18, dex: 6}, 1513, 666, 'stat')
-    , pNode('n419',
-        {blue: 150}, {prestige: 30, majesty: 200}, 1245, 750, 'stat')
-    , pNode('n420',
-        {green: 185}, {prestige: 24, vit: 24, dex: 7}, 1515, 750, 'stat')
-    , pNode('n421', {}, {}, 1380, 750, 'skill', 'Вершина созидания',
+    , pNode('n406', 1380, 810, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n407', 1432, 720, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n408', 1328, 720, S_P, {green: 125}, {prestige: 12, vit: 12, dex: 5})
+    , pNode('n409', 1319, 640, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n410', 1441, 640, S_P, {red: 150}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n411', 1319, 860, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n412', 1441, 860, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n413', 1380, 593, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n414', 1380, 907, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n415', 1247, 666, S_P, {red: 155}, {prestige: 12, power: 12, dex: 6})
+    , pNode('n416', 1247, 834, S_P, {red: 185}, {prestige: 16, power: 16, dex: 7})
+    , pNode('n417', 1513, 834, S_P, {red: 115}, {prestige: 8, power: 8, dex: 5})
+    , pNode('n418', 1513, 666, S_P, {green: 150}, {prestige: 18, vit: 18, dex: 6})
+    , pNode('n419', 1245, 750, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n420', 1515, 750, S_P, {green: 185}, {prestige: 24, vit: 24, dex: 7})
+    , pNode('n421', 1380, 750, _S_, {}, {}, 'Вершина созидания',
         'Может быть усилена с помощью эфирных ядер.', 'create')
-    , pNode('n422',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1380, 1420, 'stat')
-    , pNode('n423',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1432, 1330, 'stat')
-    , pNode('n424',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1328, 1330, 'stat')
-    , pNode('n425',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1285, 1300, 'stat')
-    , pNode('n426',
-        {blue: 240}, {prestige: 23, str: 23}, 1285, 1420, 'stat')
-    , pNode('n427',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1475, 1420, 'stat')
-    , pNode('n428',
-        {blue: 240}, {prestige: 23, str: 23}, 1475, 1300, 'stat')
-    , pNode('n429',
-        {blue: 240}, {prestige: 23, str: 23}, 1380, 1250, 'stat')
-    , pNode('n430',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1380, 1470, 'stat')
-    , pNode('n431',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1380, 1203, 'stat')
-    , pNode('n432',
-        {blue: 325}, {prestige: 35, str: 35}, 1380, 1517, 'stat')
-    , pNode('n433',
-        {blue: 400}, {prestige: 47, str: 47}, 1247, 1276, 'stat')
-    , pNode('n434',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1247, 1444, 'stat')
-    , pNode('n435',
-        {blue: 400}, {prestige: 47, str: 47}, 1513, 1444, 'stat')
-    , pNode('n436',
-        {blue: 400}, {prestige: 47, str: 47}, 1513, 1276, 'stat')
-    , pNode('n437', {blue: 275}, {prestige: 40}, 1380, 1360, 'skill',
+    , pNode('n422', 1380, 1420, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n423', 1432, 1330, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n424', 1328, 1330, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n425', 1285, 1300, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n426', 1285, 1420, S_P, {blue: 240}, {prestige: 23, str: 23})
+    , pNode('n427', 1475, 1420, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n428', 1475, 1300, S_P, {blue: 240}, {prestige: 23, str: 23})
+    , pNode('n429', 1380, 1250, S_P, {blue: 240}, {prestige: 23, str: 23})
+    , pNode('n430', 1380, 1470, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n431', 1380, 1203, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n432', 1380, 1517, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n433', 1247, 1276, S_P, {blue: 400}, {prestige: 47, str: 47})
+    , pNode('n434', 1247, 1444, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n435', 1513, 1444, S_P, {blue: 400}, {prestige: 47, str: 47})
+    , pNode('n436', 1513, 1276, S_P, {blue: 400}, {prestige: 47, str: 47})
+    , pNode('n437', 1380, 1360, _S_, {blue: 275}, {prestige: 40},
         'Талант: Предельная сила',
         'Влияние показателя силы на базовый урон увеличено на 10% за каждый '+
         'уровень этого символа.',
         'str')
-    , pNode('n438',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 960, 1420, 'stat')
-    , pNode('n439',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1012, 1330, 'stat')
-    , pNode('n440',
-        {blue: 325}, {prestige: 30, majesty: 200}, 908, 1330, 'stat')
-    , pNode('n441',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 865, 1300, 'stat')
-    , pNode('n442',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 865, 1420, 'stat')
-    , pNode('n443',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1055, 1420, 'stat')
-    , pNode('n444',
-        {blue: 240}, {prestige: 23, spirit: 23}, 1055, 1300, 'stat')
-    , pNode('n445',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 899, 1250, 'stat')
-    , pNode('n446',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1021, 1250, 'stat')
-    , pNode('n447',
-        {blue: 325}, {prestige: 30, majesty: 200}, 899, 1470, 'stat')
-    , pNode('n448',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1021, 1470, 'stat')
-    , pNode('n449',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 960, 1250, 'stat')
-    , pNode('n450',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 960, 1470, 'stat')
-    , pNode('n451',
-        {blue: 325}, {prestige: 35, luck: 35}, 825, 1360, 'stat')
-    , pNode('n452',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1095, 1360, 'stat')
-    , pNode('n453', {blue: 275}, {prestige: 40}, 960, 1360, 'skill',
+    , pNode('n438', 960, 1420, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n439', 1012, 1330, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n440', 908, 1330, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n441', 865, 1300, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n442', 865, 1420, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n443', 1055, 1420, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n444', 1055, 1300, S_P, {blue: 240}, {prestige: 23, spirit: 23})
+    , pNode('n445', 899, 1250, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n446', 1021, 1250, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n447', 899, 1470, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n448', 1021, 1470, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n449', 960, 1250, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n450', 960, 1470, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n451', 825, 1360, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n452', 1095, 1360, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n453', 960, 1360, _S_, {blue: 275}, {prestige: 40},
         'Талант: Тактическая защита',
         'Защита в ближнем бою увеличена на 5% за каждый уровень этого '+
         'символа.</p>'+
         '<p>Защита в дальнем бою увеличена на 5% за каждый уровень этого '+
         'символа.',
         'defence')
-    , pNode('n454',
-        {blue: 650}, {prestige: 56, spirit: 56}, 820, 1800, 'stat')
-    , pNode('n455',
-        {blue: 575}, {prestige: 30, majesty: 250}, 872, 1710, 'stat')
-    , pNode('n456',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 768, 1710, 'stat')
-    , pNode('n457',
-        {blue: 650}, {prestige: 56, spirit: 56}, 725, 1680, 'stat')
-    , pNode('n458',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 725, 1800, 'stat')
-    , pNode('n459',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 915, 1800, 'stat')
-    , pNode('n460',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 915, 1680, 'stat')
-    , pNode('n461',
-        {blue: 650}, {prestige: 56, luck: 56}, 759, 1630, 'stat')
-    , pNode('n462',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 881, 1630, 'stat')
-    , pNode('n463',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 759, 1850, 'stat')
-    , pNode('n464',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 881, 1850, 'stat')
-    , pNode('n465',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 820, 1630, 'stat')
-    , pNode('n466',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 820, 1583, 'stat')
-    , pNode('n467',
-        {blue: 575}, {prestige: 30, majesty: 250}, 820, 1897, 'stat')
-    , pNode('n468', {}, {}, 820, 1740, 'skill', 'Вершина разрушения',
+    , pNode('n454', 820, 1800, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n455', 872, 1710, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n456', 768, 1710, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n457', 725, 1680, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n458', 725, 1800, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n459', 915, 1800, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n460', 915, 1680, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n461', 759, 1630, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n462', 881, 1630, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n463', 759, 1850, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n464', 881, 1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n465', 820, 1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n466', 820, 1583, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n467', 820, 1897, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n468', 820, 1740, _S_, {}, {}, 'Вершина разрушения',
         'Может быть усилена с помощью эфирных ядер.', 'destroy')
-    , pNode('n469',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1055, 2060, 'stat')
-    , pNode('n470',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1055, 2180, 'stat')
-    , pNode('n471',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1245, 2180, 'stat')
-    , pNode('n472',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1245, 2060, 'stat')
-    , pNode('n473',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1089, 2010, 'stat')
-    , pNode('n474',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1211, 2010, 'stat')
-    , pNode('n475',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1089, 2230, 'stat')
-    , pNode('n476',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1211, 2230, 'stat')
-    , pNode('n477',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1150, 2010, 'stat')
-    , pNode('n478',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1150, 2230, 'stat')
-    , pNode('n479',
-        {revelation: 300}, {prestige: 120, vit: 120}, 1017, 2036, 'stat')
-    , pNode('n480',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1017, 2204, 'stat')
-    , pNode('n481',
-        {blue: 650}, {prestige: 56, spirit: 56}, 1283, 2204, 'stat')
-    , pNode('n482',
-        {blue: 810}, {prestige: 75, str: 75}, 1283, 2036, 'stat')
-    , pNode('n483',
-        {blue: 810}, {prestige: 75, luck: 75}, 1015, 2120, 'stat')
-    , pNode('n484',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 1285, 2120, 'stat')
-    , pNode('n485', {blue: 350}, {prestige: 40}, 1150, 2120, 'skill',
+    , pNode('n469', 1055, 2060, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n470', 1055, 2180, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n471', 1245, 2180, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n472', 1245, 2060, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n473', 1089, 2010, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n474', 1211, 2010, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n475', 1089, 2230, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n476', 1211, 2230, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n477', 1150, 2010, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n478', 1150, 2230, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n479', 1017, 2036, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n480', 1017, 2204, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n481', 1283, 2204, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n482', 1283, 2036, S_P, {blue: 810}, {prestige: 75, str: 75})
+    , pNode('n483', 1015, 2120, S_P, {blue: 810}, {prestige: 75, luck: 75})
+    , pNode('n484', 1285, 2120, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n485', 1150, 2120, _S_, {blue: 350}, {prestige: 40},
         'Талант: Замедляющие атаки',
         'Наносимые удары периодически снижают скорость передвижения '+
         'противников на 10% за каждый уровень этого символа. Эффект длится 3 '+
         'секунды.',
         'slow')
-    , pNode('n486',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 690, 2180, 'stat')
-    , pNode('n487',
-        {blue: 575}, {prestige: 30, majesty: 250}, 742, 2090, 'stat')
-    , pNode('n488',
-        {blue: 650}, {prestige: 56, str: 56}, 638, 2090, 'stat')
-    , pNode('n489',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 595, 2060, 'stat')
-    , pNode('n490',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 595, 2180, 'stat')
-    , pNode('n491',
-        {blue: 490}, {prestige: 38, valor: 38}, 785, 2180, 'stat')
-    , pNode('n492',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 785, 2060, 'stat')
-    , pNode('n493',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 690, 2010, 'stat')
-    , pNode('n494',
-        {blue: 650}, {prestige: 56, luck: 56}, 690, 2230, 'stat')
-    , pNode('n495',
-        {blue: 575}, {prestige: 30, majesty: 250}, 690, 1963, 'stat')
-    , pNode('n496',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 690, 2277, 'stat')
-    , pNode('n497',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 557, 2036, 'stat')
-    , pNode('n498',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 557, 2204, 'stat')
-    , pNode('n499',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 823, 2204, 'stat')
-    , pNode('n500',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 823, 2036, 'stat')
-    , pNode('n501', {blue: 350}, {prestige: 40}, 690, 2120, 'skill',
+    , pNode('n486', 690, 2180, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n487', 742, 2090, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n488', 638, 2090, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n489', 595, 2060, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n490', 595, 2180, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n491', 785, 2180, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n492', 785, 2060, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n493', 690, 2010, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n494', 690, 2230, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n495', 690, 1963, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n496', 690, 2277, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n497', 557, 2036, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n498', 557, 2204, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n499', 823, 2204, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n500', 823, 2036, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n501', 690, 2120, _S_, {blue: 350}, {prestige: 40},
         'Талант: Компрессионная травма',
         'При нанесении сокрушающего удара следующая атака компаньона нанесёт '+
         'дополнительный урон в размере 140% от показателя силы персонажа</p>'+
         '<p>Эффект символа не работает, если умение компаньона '+
         '"Базовая атака" выключено.',
         'injury')
-    , pNode('n502',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1745, 390, 'stat')
-    , pNode('n503',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1745, 510, 'stat')
-    , pNode('n504',
-        {blue: 325}, {prestige: 35, str: 35}, 1935, 510, 'stat')
-    , pNode('n505',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 1935, 390, 'stat')
-    , pNode('n506',
-        {blue: 325}, {prestige: 35, str: 35}, 1779, 340, 'stat')
-    , pNode('n507',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1901, 340, 'stat')
-    , pNode('n508',
-        {blue: 325}, {prestige: 35, str: 35}, 1779, 560, 'stat')
-    , pNode('n509',
-        {blue: 240}, {prestige: 23, str: 23}, 1901, 560, 'stat')
-    , pNode('n510',
-        {blue: 325}, {prestige: 35, str: 35}, 1840, 340, 'stat')
-    , pNode('n511',
-        {blue: 400}, {prestige: 47, str: 47}, 1840, 560, 'stat')
-    , pNode('n512',
-        {blue: 400}, {prestige: 47, str: 47}, 1707, 366, 'stat')
-    , pNode('n513',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1707, 534, 'stat')
-    , pNode('n514',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1973, 534, 'stat')
-    , pNode('n515',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1973, 366, 'stat')
-    , pNode('n516',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1705, 450, 'stat')
-    , pNode('n517',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1975, 450, 'stat')
-    , pNode('n518', {blue: 350}, {prestige: 40}, 1840, 450, 'skill',
+    , pNode('n502', 1745, 390, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n503', 1745, 510, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n504', 1935, 510, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n505', 1935, 390, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n506', 1779, 340, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n507', 1901, 340, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n508', 1779, 560, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n509', 1901, 560, S_P, {blue: 240}, {prestige: 23, str: 23})
+    , pNode('n510', 1840, 340, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n511', 1840, 560, S_P, {blue: 400}, {prestige: 47, str: 47})
+    , pNode('n512', 1707, 366, S_P, {blue: 400}, {prestige: 47, str: 47})
+    , pNode('n513', 1707, 534, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n514', 1973, 534, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n515', 1973, 366, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n516', 1705, 450, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n517', 1975, 450, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n518', 1840, 450, _S_, {blue: 350}, {prestige: 40},
         'Талант: Предельная сила',
         'Влияние показателя силы на базовый урон увеличено на 10% за каждый '+
         'уровень этого символа.',
         'str')
-    , pNode('n519',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2070, 820, 'stat')
-    , pNode('n520',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2122, 730, 'stat')
-    , pNode('n521',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2018, 730, 'stat')
-    , pNode('n522',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1975, 700, 'stat')
-    , pNode('n523',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1975, 820, 'stat')
-    , pNode('n524',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2165, 820, 'stat')
-    , pNode('n525',
-        {blue: 400}, {prestige: 47, luck: 47}, 2165, 700, 'stat')
-    , pNode('n526',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2009, 650, 'stat')
-    , pNode('n527',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2131, 650, 'stat')
-    , pNode('n528',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2009, 870, 'stat')
-    , pNode('n529',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 2131, 870, 'stat')
-    , pNode('n530',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2070, 650, 'stat')
-    , pNode('n531',
-        {blue: 325}, {prestige: 35, str: 35}, 2070, 870, 'stat')
-    , pNode('n532',
-        {blue: 400}, {prestige: 47, str: 47}, 1935, 760, 'stat')
-    , pNode('n533',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2205, 760, 'stat')
-    , pNode('n534', {transformation: 300}, {}, 2070, 760, 'class',
+    , pNode('n519', 2070, 820, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n520', 2122, 730, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n521', 2018, 730, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n522', 1975, 700, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n523', 1975, 820, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n524', 2165, 820, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n525', 2165, 700, S_P, {blue: 400}, {prestige: 47, luck: 47})
+    , pNode('n526', 2009, 650, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n527', 2131, 650, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n528', 2009, 870, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n529', 2131, 870, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n530', 2070, 650, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n531', 2070, 870, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n532', 1935, 760, S_P, {blue: 400}, {prestige: 47, str: 47})
+    , pNode('n533', 2205, 760, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n534', 2070, 760, _S_, {transformation: 300}, {},
         'Класс: Лучница/Лучник',
         'Меткая лучница может поразить цели на огромной дистанции. В её '+
         'колчане, кроме обычных, припрятаны особые снаряды. Замедляющие '+
@@ -1196,37 +694,22 @@ const nodesData =
         'неприятеля градом стрел и без труда разорвать дистанцию, виртуозно '+
         'уходя от ударов порядком измотанного врага.',
         'archer')
-    , pNode('n535',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1380, 1800, 'stat')
-    , pNode('n536',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1432, 1710, 'stat')
-    , pNode('n537',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1328, 1710, 'stat')
-    , pNode('n538',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1285, 1680, 'stat')
-    , pNode('n539',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1285, 1800, 'stat')
-    , pNode('n540',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1475, 1800, 'stat')
-    , pNode('n541',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1475, 1680, 'stat')
-    , pNode('n542',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1319, 1630, 'stat')
-    , pNode('n543',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1441, 1630, 'stat')
-    , pNode('n544',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1319, 1850, 'stat')
-    , pNode('n545',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1441, 1850, 'stat')
-    , pNode('n546',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1380, 1630, 'stat')
-    , pNode('n547',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1380, 1850, 'stat')
-    , pNode('n548',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1245, 1740, 'stat')
-    , pNode('n549',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1515, 1740, 'stat')
-    , pNode('n550', {transformation: 300}, {}, 1380, 1740, 'class',
+    , pNode('n535', 1380, 1800, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n536', 1432, 1710, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n537', 1328, 1710, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n538', 1285, 1680, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n539', 1285, 1800, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n540', 1475, 1800, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n541', 1475, 1680, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n542', 1319, 1630, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n543', 1441, 1630, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n544', 1319, 1850, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n545', 1441, 1850, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n546', 1380, 1630, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n547', 1380, 1850, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n548', 1245, 1740, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n549', 1515, 1740, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n550', 1380, 1740, _S_, {transformation: 300}, {},
         'Класс: Некромант',
         'Колдун, которому подвластна сама смерть. Своими зловещими '+
         'заклинаиями он может не только причинить существенный вред '+
@@ -1235,142 +718,81 @@ const nodesData =
         'вместо него. А обренувшись личем, некромант открывает особые '+
         'способности, недоступные в человеческом облике.',
         'necromancer')
-    , pNode('n551',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1055, -2180, 'stat')
-    , pNode('n552',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1055, -2060, 'stat')
-    , pNode('n553',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1245, -2060, 'stat')
-    , pNode('n554',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1245, -2180, 'stat')
-    , pNode('n555',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1089, -2230, 'stat')
-    , pNode('n556',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1211, -2230, 'stat')
-    , pNode('n557',
-        {blue: 810}, {prestige: 75, str: 75}, 1089, -2010, 'stat')
-    , pNode('n558',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1211, -2010, 'stat')
-    , pNode('n559',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1150, -2230, 'stat')
-    , pNode('n560',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1150, -2010, 'stat')
-    , pNode('n561',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1017, -2204, 'stat')
-    , pNode('n562',
-        {revelation: 300}, {prestige: 120, vit: 120}, 1017, -2036, 'stat')
-    , pNode('n563',
-        {blue: 650}, {prestige: 56, luck: 56}, 1283, -2036, 'stat')
-    , pNode('n564',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 1283, -2204, 'stat')
-    , pNode('n565',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1015, -2120, 'stat')
-    , pNode('n566',
-        {blue: 650}, {prestige: 56, str: 56}, 1285, -2120, 'stat')
-    , pNode('n567', {blue: 350}, {prestige: 40}, 1150, -2120, 'skill',
+    , pNode('n551', 1055, -2180, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n552', 1055, -2060, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n553', 1245, -2060, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n554', 1245, -2180, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n555', 1089, -2230, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n556', 1211, -2230, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n557', 1089, -2010, S_P, {blue: 810}, {prestige: 75, str: 75})
+    , pNode('n558', 1211, -2010, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n559', 1150, -2230, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n560', 1150, -2010, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n561', 1017, -2204, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n562', 1017, -2036, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n563', 1283, -2036, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n564', 1283, -2204, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n565', 1015, -2120, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n566', 1285, -2120, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n567', 1150, -2120, _S_, {blue: 350}, {prestige: 40},
         'Талант: Вынужденная передышка',
         'При получении замедляющего эффекта с вероятностью 20% восстановится '+
         'один заряд рывка.',
         'timeout')
-    , pNode('n568',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1610, -2060, 'stat')
-    , pNode('n569',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1662, -2150, 'stat')
-    , pNode('n570',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 1558, -2150, 'stat')
-    , pNode('n571',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1515, -2180, 'stat')
-    , pNode('n572',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1515, -2060, 'stat')
-    , pNode('n573',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1705, -2060, 'stat')
-    , pNode('n574',
-        {blue: 650}, {prestige: 56, spirit: 56}, 1705, -2180, 'stat')
-    , pNode('n575',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1610, -2230, 'stat')
-    , pNode('n576',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1610, -2010, 'stat')
-    , pNode('n577',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1610, -2277, 'stat')
-    , pNode('n578',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 1610, -1963, 'stat')
-    , pNode('n579',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1477, -2204, 'stat')
-    , pNode('n580',
-        {blue: 650}, {prestige: 56, valor: 56}, 1477, -2036, 'stat')
-    , pNode('n581',
-        {revelation: 300}, {prestige: 80, power: 80}, 1743, -2036, 'stat')
-    , pNode('n582',
-        {blue: 810}, {prestige: 75, valor: 75}, 1743, -2204, 'stat')
-    , pNode('n583', {blue: 350}, {prestige: 40}, 1610, -2120, 'skill',
+    , pNode('n568', 1610, -2060, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n569', 1662, -2150, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n570', 1558, -2150, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n571', 1515, -2180, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n572', 1515, -2060, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n573', 1705, -2060, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n574', 1705, -2180, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n575', 1610, -2230, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n576', 1610, -2010, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n577', 1610, -2277, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n578', 1610, -1963, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n579', 1477, -2204, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n580', 1477, -2036, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n581', 1743, -2036, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n582', 1743, -2204, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n583', 1610, -2120, _S_, {blue: 350}, {prestige: 40},
         'Талант: Замедляющие атаки',
         'Наносимые удары периодически снижают скорость передвижения '+
         'противников на 10% за каждый уровень этого символа. Эффект длится 3 '+
         'секунды.',
         'slow')
-    , pNode('n584',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, -230, 820, 'stat')
-    , pNode('n585',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, -178, 730, 'stat')
-    , pNode('n586',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, -282, 730, 'stat')
-    , pNode('n587',
-        {blue: 240}, {prestige: 23, luck: 23}, -325, 700, 'stat')
-    , pNode('n588',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -325, 820, 'stat')
-    , pNode('n589',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, -135, 820, 'stat')
-    , pNode('n590',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, -135, 700, 'stat')
-    , pNode('n591',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, -230, 650, 'stat')
-    , pNode('n592',
-        {blue: 325}, {prestige: 35, luck: 35}, -230, 870, 'stat')
-    , pNode('n593',
-        {blue: 325}, {prestige: 35, spirit: 35}, -230, 603, 'stat')
-    , pNode('n594',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, -230, 917, 'stat')
-    , pNode('n595',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, -363, 676, 'stat')
-    , pNode('n596',
-        {blue: 325}, {prestige: 30, majesty: 200}, -363, 844, 'stat')
-    , pNode('n597',
-        {blue: 325}, {prestige: 30, majesty: 200}, -97, 844, 'stat')
-    , pNode('n598',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -97, 676, 'stat')
-    , pNode('n599', {}, {}, -230, 760, 'skill', 'Вершина равновесия',
+    , pNode('n584', -230, 820, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n585', -178, 730, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n586', -282, 730, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n587', -325, 700, S_P, {blue: 240}, {prestige: 23, luck: 23})
+    , pNode('n588', -325, 820, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n589', -135, 820, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n590', -135, 700, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n591', -230, 650, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n592', -230, 870, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n593', -230, 603, S_P, {blue: 325}, {prestige: 35, spirit: 35})
+    , pNode('n594', -230, 917, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n595', -363, 676, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n596', -363, 844, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n597', -97, 844, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n598', -97, 676, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n599', -230, 760, _S_, {}, {}, 'Вершина равновесия',
         'Может быть усилена с помощью эфирных ядер.', 'balance')
-    , pNode('n600',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, -360, 380, 'stat')
-    , pNode('n601',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, -308, 290, 'stat')
-    , pNode('n602',
-        {blue: 325}, {prestige: 35, valor: 35}, -412, 290, 'stat')
-    , pNode('n603',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, -455, 260, 'stat')
-    , pNode('n604',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, -455, 380, 'stat')
-    , pNode('n605',
-        {blue: 325}, {prestige: 35, luck: 35}, -265, 380, 'stat')
-    , pNode('n606',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, -265, 260, 'stat')
-    , pNode('n607',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, -421, 210, 'stat')
-    , pNode('n608',
-        {blue: 325}, {prestige: 30, majesty: 200}, -299, 210, 'stat')
-    , pNode('n609',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -421, 430, 'stat')
-    , pNode('n610',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, -299, 430, 'stat')
-    , pNode('n611',
-        {blue: 240}, {prestige: 23, valor: 23}, -360, 210, 'stat')
-    , pNode('n612',
-        {blue: 400}, {prestige: 47, spirit: 47}, -360, 430, 'stat')
-    , pNode('n613',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, -495, 320, 'stat')
-    , pNode('n614',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -225, 320, 'stat')
-    , pNode('n615', {blue: 275}, {prestige: 40}, -360, 320, 'skill',
+    , pNode('n600', -360, 380, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n601', -308, 290, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n602', -412, 290, S_P, {blue: 325}, {prestige: 35, valor: 35})
+    , pNode('n603', -455, 260, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n604', -455, 380, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n605', -265, 380, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n606', -265, 260, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n607', -421, 210, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n608', -299, 210, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n609', -421, 430, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n610', -299, 430, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n611', -360, 210, S_P, {blue: 240}, {prestige: 23, valor: 23})
+    , pNode('n612', -360, 430, S_P, {blue: 400}, {prestige: 47, spirit: 47})
+    , pNode('n613', -495, 320, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n614', -225, 320, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n615', -360, 320, _S_, {blue: 275}, {prestige: 40},
         'Талант: Беспощадность',
         'Противники под эффектом оглущения, обездвиживания, страха или '+
         'ослепления получают от персонажа на 7% больше урона за каждый '+
@@ -1378,37 +800,22 @@ const nodesData =
         '<p>Противники под эффектом замедления получают на 2% больше урона за '+
         'каждый уровень этого символа.',
         'ruthlessness')
-    , pNode('n616',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, -360, -260, 'stat')
-    , pNode('n617',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, -308, -350, 'stat')
-    , pNode('n618',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, -412, -350, 'stat')
-    , pNode('n619',
-        {blue: 400}, {prestige: 47, str: 47}, -455, -380, 'stat')
-    , pNode('n620',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, -455, -260, 'stat')
-    , pNode('n621',
-        {blue: 325}, {prestige: 30, majesty: 200}, -265, -260, 'stat')
-    , pNode('n622',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, -265, -380, 'stat')
-    , pNode('n623',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -421, -430, 'stat')
-    , pNode('n624',
-        {blue: 240}, {prestige: 23, luck: 23}, -299, -430, 'stat')
-    , pNode('n625',
-        {blue: 325}, {prestige: 30, majesty: 200}, -421, -210, 'stat')
-    , pNode('n626',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -299, -210, 'stat')
-    , pNode('n627',
-        {blue: 325}, {prestige: 35, str: 35}, -360, -430, 'stat')
-    , pNode('n628',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, -360, -210, 'stat')
-    , pNode('n629',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -495, -320, 'stat')
-    , pNode('n630',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, -225, -320, 'stat')
-    , pNode('n631', {blue: 275}, {prestige: 40}, -360, -320, 'skill',
+    , pNode('n616', -360, -260, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n617', -308, -350, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n618', -412, -350, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n619', -455, -380, S_P, {blue: 400}, {prestige: 47, str: 47})
+    , pNode('n620', -455, -260, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n621', -265, -260, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n622', -265, -380, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n623', -421, -430, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n624', -299, -430, S_P, {blue: 240}, {prestige: 23, luck: 23})
+    , pNode('n625', -421, -210, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n626', -299, -210, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n627', -360, -430, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n628', -360, -210, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n629', -495, -320, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n630', -225, -320, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n631', -360, -320, _S_, {blue: 275}, {prestige: 40},
         'Талант: Прилив адренална',
         'При получении урона скорость перемещения может увеличиться на 15% за '+
         'каждый уровень этого символа. Длительность эффекта - 5 секунд, а '+
@@ -1417,37 +824,22 @@ const nodesData =
         '<p>Эффект ускорения работает постоянно, если уровень здоровья падает '+
         'ниже 20%.',
         'adrenaline')
-    , pNode('n632',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 350, 1260, 'stat')
-    , pNode('n633',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 402, 1170, 'stat')
-    , pNode('n634',
-        {blue: 240}, {prestige: 23, spirit: 23}, 298, 1170, 'stat')
-    , pNode('n635',
-        {blue: 400}, {prestige: 47, spirit: 47}, 289, 1090, 'stat')
-    , pNode('n636',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 411, 1090, 'stat')
-    , pNode('n637',
-        {blue: 325}, {prestige: 35, luck: 35}, 289, 1310, 'stat')
-    , pNode('n638',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 411, 1310, 'stat')
-    , pNode('n639',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 350, 1043, 'stat')
-    , pNode('n640',
-        {blue: 325}, {prestige: 30, majesty: 200}, 350, 1357, 'stat')
-    , pNode('n641',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 217, 1116, 'stat')
-    , pNode('n642',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 217, 1284, 'stat')
-    , pNode('n643',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 483, 1284, 'stat')
-    , pNode('n644',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 483, 1116, 'stat')
-    , pNode('n645',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 215, 1200, 'stat')
-    , pNode('n646',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 485, 1200, 'stat')
-    , pNode('n647', {blue: 275}, {prestige: 40}, 350, 1200, 'skill',
+    , pNode('n632', 350, 1260, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n633', 402, 1170, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n634', 298, 1170, S_P, {blue: 240}, {prestige: 23, spirit: 23})
+    , pNode('n635', 289, 1090, S_P, {blue: 400}, {prestige: 47, spirit: 47})
+    , pNode('n636', 411, 1090, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n637', 289, 1310, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n638', 411, 1310, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n639', 350, 1043, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n640', 350, 1357, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n641', 217, 1116, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n642', 217, 1284, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n643', 483, 1284, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n644', 483, 1116, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n645', 215, 1200, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n646', 485, 1200, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n647', 350, 1200, _S_, {blue: 275}, {prestige: 40},
         'Талант: Защитный рефлекс',
         'Персонаж получает на 10% меньше урона за каждый уровень этого '+
         'символа, если находится под эффектос оглушения, страха, ослепления '+
@@ -1455,35 +847,21 @@ const nodesData =
         'Персонаж получает на 3% меньше урона за каждый уровень этого '+
         'символа, если находится под эффектом замедления.',
         'reflex')
-    , pNode('n648',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -230, 1260, 'stat')
-    , pNode('n649',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -178, 1170, 'stat')
-    , pNode('n650',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -282, 1170, 'stat')
-    , pNode('n651',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -325, 1140, 'stat')
-    , pNode('n652',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -325, 1260, 'stat')
-    , pNode('n653',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -135, 1260, 'stat')
-    , pNode('n654',
-        {blue: 575}, {prestige: 30, majesty: 250}, -135, 1140, 'stat')
-    , pNode('n655',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -291, 1090, 'stat')
-    , pNode('n656',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -169, 1090, 'stat')
-    , pNode('n657',
-        {blue: 810}, {prestige: 75, spirit: 75}, -291, 1310, 'stat')
-    , pNode('n658',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -169, 1310, 'stat')
-    , pNode('n659',
-        {blue: 490}, {prestige: 38, spirit: 38}, -230, 1090, 'stat')
-    , pNode('n660',
-        {revelation: 300}, {prestige: 80, luck: 80}, -230, 1043, 'stat')
-    , pNode('n661',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -230, 1357, 'stat')
-    , pNode('n662', {blue: 350}, {prestige: 40}, -230, 1200, 'skill',
+    , pNode('n648', -230, 1260, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n649', -178, 1170, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n650', -282, 1170, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n651', -325, 1140, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n652', -325, 1260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n653', -135, 1260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n654', -135, 1140, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n655', -291, 1090, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n656', -169, 1090, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n657', -291, 1310, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n658', -169, 1310, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n659', -230, 1090, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n660', -230, 1043, S_P, {revelation: 300}, {prestige: 80, luck: 80})
+    , pNode('n661', -230, 1357, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n662', -230, 1200, _S_, {blue: 350}, {prestige: 40},
         'Талант: Волна: замедление',
         'Использование атакующих способностей позволяет применить умение '+
         '"Волна".</p>'+
@@ -1492,74 +870,43 @@ const nodesData =
         '<p>При совместном использовании с символом "Волна: урон" оба эффекта '+
         'наступают одновременно, а время перезарядкм уменьшено на 5 секунд.',
         'wave')
-    , pNode('n663',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -785, 1140, 'stat')
-    , pNode('n664',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -785, 1260, 'stat')
-    , pNode('n665',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -595, 1260, 'stat')
-    , pNode('n666',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -595, 1140, 'stat')
-    , pNode('n667',
-        {blue: 575}, {prestige: 30, majesty: 250}, -751, 1090, 'stat')
-    , pNode('n668',
-        {blue: 650}, {prestige: 56, str: 56}, -629, 1090, 'stat')
-    , pNode('n669',
-        {blue: 650}, {prestige: 56, valor: 56}, -751, 1310, 'stat')
-    , pNode('n670',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -629, 1310, 'stat')
-    , pNode('n671',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -690, 1090, 'stat')
-    , pNode('n672',
-        {blue: 650}, {prestige: 56, spirit: 56}, -690, 1310, 'stat')
-    , pNode('n673',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -823, 1116, 'stat')
-    , pNode('n674',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -823, 1284, 'stat')
-    , pNode('n675',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -557, 1284, 'stat')
-    , pNode('n676',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -557, 1116, 'stat')
-    , pNode('n677',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -825, 1200, 'stat')
-    , pNode('n678',
-        {blue: 575}, {prestige: 30, majesty: 250}, -555, 1200, 'stat')
-    , pNode('n679', {blue: 350}, {prestige: 40}, -690, 1200, 'skill',
+    , pNode('n663', -785, 1140, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n664', -785, 1260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n665', -595, 1260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n666', -595, 1140, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n667', -751, 1090, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n668', -629, 1090, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n669', -751, 1310, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n670', -629, 1310, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n671', -690, 1090, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n672', -690, 1310, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n673', -823, 1116, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n674', -823, 1284, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n675', -557, 1284, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n676', -557, 1116, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n677', -825, 1200, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n678', -555, 1200, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n679', -690, 1200, _S_, {blue: 350}, {prestige: 40},
         'Талант: Равновесие',
         'Персонаж получает на 6% меньше урона за каждый уровень этого '+
         'символа, если он находиться в бою с тремя или более противниками.',
         'equilibrium')
-    , pNode('n680',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1120, 1260, 'stat')
-    , pNode('n681',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1068, 1170, 'stat')
-    , pNode('n682',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1172, 1170, 'stat')
-    , pNode('n683',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1215, 1140, 'stat')
-    , pNode('n684',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1215, 1260, 'stat')
-    , pNode('n685',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1025, 1260, 'stat')
-    , pNode('n686',
-        {blue: 490}, {prestige: 38, str: 38}, -1025, 1140, 'stat')
-    , pNode('n687',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1181, 1090, 'stat')
-    , pNode('n688',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1059, 1090, 'stat')
-    , pNode('n689',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1181, 1310, 'stat')
-    , pNode('n690',
-        {blue: 650}, {prestige: 56, str: 56}, -1059, 1310, 'stat')
-    , pNode('n691',
-        {blue: 650}, {prestige: 56, luck: 56}, -1120, 1090, 'stat')
-    , pNode('n692',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1120, 1310, 'stat')
-    , pNode('n693',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1255, 1200, 'stat')
-    , pNode('n694',
-        {blue: 650}, {prestige: 56, valor: 56}, -985, 1200, 'stat')
-    , pNode('n695', {transformation: 600}, {}, -1120, 1200, 'class',
+    , pNode('n680', -1120, 1260, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n681', -1068, 1170, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n682', -1172, 1170, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n683', -1215, 1140, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n684', -1215, 1260, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n685', -1025, 1260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n686', -1025, 1140, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n687', -1181, 1090, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n688', -1059, 1090, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n689', -1181, 1310, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n690', -1059, 1310, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n691', -1120, 1090, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n692', -1120, 1310, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n693', -1255, 1200, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n694', -985, 1200, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n695', -1120, 1200, _S_, {transformation: 600}, {},
         'Класс: Монах',
         'Монах боевого ордена, он в совершенстве постиг дисциплину духа и '+
         'тела и отточил мастерство владения посохом. используя особые стойки, '+
@@ -1567,71 +914,41 @@ const nodesData =
         'противника, виртуозно раскручивать посох, нанося урон обступившим '+
         'врагам, и даже совершать головокружительные акробатические трюки.',
         'monk')
-    , pNode('n696',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -690, -1140, 'stat')
-    , pNode('n697',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -638, -1230, 'stat')
-    , pNode('n698',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -742, -1230, 'stat')
-    , pNode('n699',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -751, -1310, 'stat')
-    , pNode('n700',
-        {blue: 490}, {prestige: 38, str: 38}, -629, -1310, 'stat')
-    , pNode('n701',
-        {blue: 810}, {prestige: 75, spirit: 75}, -751, -1090, 'stat')
-    , pNode('n702',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -629, -1090, 'stat')
-    , pNode('n703',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -690, -1357, 'stat')
-    , pNode('n704',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -690, -1043, 'stat')
-    , pNode('n705',
-        {blue: 575}, {prestige: 30, majesty: 250}, -823, -1284, 'stat')
-    , pNode('n706',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -823, -1116, 'stat')
-    , pNode('n707',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -557, -1116, 'stat')
-    , pNode('n708',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -557, -1284, 'stat')
-    , pNode('n709',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -825, -1200, 'stat')
-    , pNode('n710',
-        {blue: 575}, {prestige: 30, majesty: 250}, -555, -1200, 'stat')
-    , pNode('n711', {blue: 350}, {prestige: 40}, -690, -1200, 'skill',
+    , pNode('n696', -690, -1140, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n697', -638, -1230, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n698', -742, -1230, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n699', -751, -1310, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n700', -629, -1310, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n701', -751, -1090, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n702', -629, -1090, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n703', -690, -1357, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n704', -690, -1043, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n705', -823, -1284, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n706', -823, -1116, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n707', -557, -1116, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n708', -557, -1284, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n709', -825, -1200, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n710', -555, -1200, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n711', -690, -1200, _S_, {blue: 350}, {prestige: 40},
         'Талант: Повышенная боеготовность',
         'Боевые расходники восстанавливаются на 15/30% быстрее.',
         'alert')
-    , pNode('n712',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1120, -1140, 'stat')
-    , pNode('n713',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1068, -1230, 'stat')
-    , pNode('n714',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1172, -1230, 'stat')
-    , pNode('n715',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1215, -1260, 'stat')
-    , pNode('n716',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1215, -1140, 'stat')
-    , pNode('n717',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1025, -1140, 'stat')
-    , pNode('n718',
-        {blue: 490}, {prestige: 38, str: 38}, -1025, -1260, 'stat')
-    , pNode('n719',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1181, -1310, 'stat')
-    , pNode('n720',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1059, -1310, 'stat')
-    , pNode('n721',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1181, -1090, 'stat')
-    , pNode('n722',
-        {revelation: 300}, {prestige: 80, spirit: 80}, -1059, -1090, 'stat')
-    , pNode('n723',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1120, -1310, 'stat')
-    , pNode('n724',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1120, -1090, 'stat')
-    , pNode('n725',
-        {blue: 650}, {prestige: 56, luck: 56}, -1255, -1200, 'stat')
-    , pNode('n726',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -985, -1200, 'stat')
-    , pNode('n727', {transformation: 600}, {}, -1120, -1200, 'class',
+    , pNode('n712', -1120, -1140, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n713', -1068, -1230, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n714', -1172, -1230, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n715', -1215, -1260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n716', -1215, -1140, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n717', -1025, -1140, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n718', -1025, -1260, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n719', -1181, -1310, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n720', -1059, -1310, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n721', -1181, -1090, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n722', -1059, -1090, S_P, {revelation: 300}, {prestige: 80, spirit: 80})
+    , pNode('n723', -1120, -1310, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n724', -1120, -1090, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n725', -1255, -1200, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n726', -985, -1200, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n727', -1120, -1200, _S_, {transformation: 600}, {},
         'Класс: Алхимик',
         'Этот неутомимый гений многим может показаться странным, а его '+
         'поступки - лишёнными здравого смысла. Ученый-экспериментатор, '+
@@ -1642,104 +959,59 @@ const nodesData =
         'врагов едкой кислотой или огнём, а могут и нанести ощутимый урон '+
         'установленным на концах лезвиями.',
         'alchemist')
-    , pNode('n728',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -790, 60, 'stat')
-    , pNode('n729',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -738, -30, 'stat')
-    , pNode('n730',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -842, -30, 'stat')
-    , pNode('n731',
-        {blue: 575}, {prestige: 30, majesty: 250}, -885, -60, 'stat')
-    , pNode('n732',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -885, 60, 'stat')
-    , pNode('n733',
-        {blue: 490}, {prestige: 38, str: 38}, -695, 60, 'stat')
-    , pNode('n734',
-        {blue: 650}, {prestige: 56, str: 56}, -695, -60, 'stat')
-    , pNode('n735',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -851, -110, 'stat')
-    , pNode('n736',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -729, -110, 'stat')
-    , pNode('n737',
-        {blue: 810}, {prestige: 75, valor: 75}, -851, 110, 'stat')
-    , pNode('n738',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -729, 110, 'stat')
-    , pNode('n739',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -790, -110, 'stat')
-    , pNode('n740',
-        {blue: 575}, {prestige: 30, majesty: 250}, -790, -157, 'stat')
-    , pNode('n741',
-        {blue: 490}, {prestige: 38, luck: 38}, -790, 157, 'stat')
-    , pNode('n742', {}, {}, -790, 0, 'skill', 'Вершина равновесия',
+    , pNode('n728', -790, 60, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n729', -738, -30, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n730', -842, -30, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n731', -885, -60, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n732', -885, 60, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n733', -695, 60, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n734', -695, -60, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n735', -851, -110, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n736', -729, -110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n737', -851, 110, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n738', -729, 110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n739', -790, -110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n740', -790, -157, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n741', -790, 157, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n742', -790, 0, _S_, {}, {}, 'Вершина равновесия',
         'Может быть усилена с помощью эфирных ядер.', 'balance')
-    , pNode('n743',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1315, -60, 'stat')
-    , pNode('n744',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1315, 60, 'stat')
-    , pNode('n745',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1125, 60, 'stat')
-    , pNode('n746',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1125, -60, 'stat')
-    , pNode('n747',
-        {blue: 490}, {prestige: 38, str: 38}, -1281, -110, 'stat')
-    , pNode('n748',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1159, -110, 'stat')
-    , pNode('n749',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1281, 110, 'stat')
-    , pNode('n750',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1159, 110, 'stat')
-    , pNode('n751',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1220, -110, 'stat')
-    , pNode('n752',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1220, 110, 'stat')
-    , pNode('n753',
-        {blue: 490}, {prestige: 38, spirit: 38}, -1353, -84, 'stat')
-    , pNode('n754',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1353, 84, 'stat')
-    , pNode('n755',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1087, 84, 'stat')
-    , pNode('n756',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1087, -84, 'stat')
-    , pNode('n757',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1355, 0, 'stat')
-    , pNode('n758',
-        {blue: 810}, {prestige: 75, luck: 75}, -1085, 0, 'stat')
-    , pNode('n759', {blue: 350}, {prestige: 40}, -1220, 0, 'skill',
+    , pNode('n743', -1315, -60, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n744', -1315, 60, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n745', -1125, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n746', -1125, -60, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n747', -1281, -110, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n748', -1159, -110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n749', -1281, 110, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n750', -1159, 110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n751', -1220, -110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n752', -1220, 110, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n753', -1353, -84, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n754', -1353, 84, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n755', -1087, 84, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n756', -1087, -84, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n757', -1355, 0, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n758', -1085, 0, S_P, {blue: 810}, {prestige: 75, luck: 75})
+    , pNode('n759', -1220, 0, _S_, {blue: 350}, {prestige: 40},
         'Талант: Элемент неожиданности',
         'В течение первых 8 секунд боя исходящий урон увеличен на 12% за '+
         'каждый уровень этого символа.',
         'surprise')
-    , pNode('n760',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1650, 60, 'stat')
-    , pNode('n761',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1598, -30, 'stat')
-    , pNode('n762',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1702, -30, 'stat')
-    , pNode('n763',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1745, -60, 'stat')
-    , pNode('n764',
-        {blue: 150}, {prestige: 30, majesty: 200}, -1745, 60, 'stat')
-    , pNode('n765',
-        {blue: 650}, {prestige: 56, str: 56}, -1555, 60, 'stat')
-    , pNode('n766',
-        {revelation: 300}, {prestige: 80, power: 80}, -1555, -60, 'stat')
-    , pNode('n767',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1711, -110, 'stat')
-    , pNode('n768',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1589, -110, 'stat')
-    , pNode('n769',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1711, 110, 'stat')
-    , pNode('n770',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1589, 110, 'stat')
-    , pNode('n771',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1650, -110, 'stat')
-    , pNode('n772',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1650, 110, 'stat')
-    , pNode('n773',
-        {blue: 650}, {prestige: 56, valor: 56}, -1785, 0, 'stat')
-    , pNode('n774',
-        {blue: 490}, {prestige: 38, luck: 38}, -1515, 0, 'stat')
-    , pNode('n775', {transformation: 600}, {}, -1650, 0, 'class',
+    , pNode('n760', -1650, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n761', -1598, -30, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n762', -1702, -30, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n763', -1745, -60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n764', -1745, 60, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n765', -1555, 60, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n766', -1555, -60, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n767', -1711, -110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n768', -1589, -110, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n769', -1711, 110, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n770', -1589, 110, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n771', -1650, -110, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n772', -1650, 110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n773', -1785, 0, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n774', -1515, 0, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n775', -1650, 0, _S_, {transformation: 600}, {},
         'Класс: Штурмовик',
         'Штурмовик, боец дальней дистанции, доверяет только одному боевому '+
         'товарищу - своей пушке-трансформеру. Его не интересует добро и зло, '+
@@ -1748,181 +1020,105 @@ const nodesData =
         'боевое снаряжение и без лишних угрызений совести испытывает его в '+
         'деле.',
         'hedgehopper')
-    , pNode('n776',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -850, -590, 'stat')
-    , pNode('n777',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -798, -680, 'stat')
-    , pNode('n778',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -902, -680, 'stat')
-    , pNode('n779',
-        {blue: 650}, {prestige: 56, valor: 56}, -945, -710, 'stat')
-    , pNode('n780',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -945, -590, 'stat')
-    , pNode('n781',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -755, -590, 'stat')
-    , pNode('n782',
-        {blue: 575}, {prestige: 30, majesty: 250}, -755, -710, 'stat')
-    , pNode('n783',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -850, -760, 'stat')
-    , pNode('n784',
-        {blue: 650}, {prestige: 56, spirit: 56}, -850, -540, 'stat')
-    , pNode('n785',
-        {blue: 810}, {prestige: 75, spirit: 75}, -850, -807, 'stat')
-    , pNode('n786',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -850, -493, 'stat')
-    , pNode('n787',
-        {revelation: 300}, {prestige: 120, vit: 120}, -983, -734, 'stat')
-    , pNode('n788',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -983, -566, 'stat')
-    , pNode('n789',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -717, -566, 'stat')
-    , pNode('n790',
-        {red: 490}, {prestige: 37, power: 27, dex: 18}, -717, -734, 'stat')
-    , pNode('n791', {blue: 350}, {prestige: 40}, -850, -650, 'skill',
+    , pNode('n776', -850, -590, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n777', -798, -680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n778', -902, -680, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n779', -945, -710, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n780', -945, -590, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n781', -755, -590, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n782', -755, -710, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n783', -850, -760, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n784', -850, -540, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n785', -850, -807, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n786', -850, -493, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n787', -983, -734, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n788', -983, -566, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n789', -717, -566, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n790', -717, -734, S_P, {red: 490}, {prestige: 37, power: 27, dex: 18})
+    , pNode('n791', -850, -650, _S_, {blue: 350}, {prestige: 40},
         'Талант: Импульсный барьер',
         'При активации импульсного разряда персонаж на 3 секунды получает '+
         'щит, который поглощает входящий урон.</p>'+
         '<p>Каждый уровень этого символа увеличивает количество поглощаемого '+
         'урона на 3% от максимального здоровья персонажа.',
         'barrier')
-    , pNode('n792',
-        {blue: 575}, {prestige: 30, majesty: 250}, -850, 710, 'stat')
-    , pNode('n793',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -798, 620, 'stat')
-    , pNode('n794',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -902, 620, 'stat')
-    , pNode('n795',
-        {blue: 810}, {prestige: 75, luck: 75}, -911, 540, 'stat')
-    , pNode('n796',
-        {blue: 490}, {prestige: 38, valor: 38}, -789, 540, 'stat')
-    , pNode('n797',
-        {blue: 490}, {prestige: 38, luck: 38}, -911, 760, 'stat')
-    , pNode('n798',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -789, 760, 'stat')
-    , pNode('n799',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -850, 493, 'stat')
-    , pNode('n800',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -850, 807, 'stat')
-    , pNode('n801',
-        {revelation: 300}, {prestige: 80, power: 80}, -983, 566, 'stat')
-    , pNode('n802',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -983, 734, 'stat')
-    , pNode('n803',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -717, 734, 'stat')
-    , pNode('n804',
-        {blue: 575}, {prestige: 30, majesty: 250}, -717, 566, 'stat')
-    , pNode('n805',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -985, 650, 'stat')
-    , pNode('n806',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -715, 650, 'stat')
-    , pNode('n807', {blue: 350}, {prestige: 40}, -850, 650, 'skill',
+    , pNode('n792', -850, 710, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n793', -798, 620, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n794', -902, 620, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n795', -911, 540, S_P, {blue: 810}, {prestige: 75, luck: 75})
+    , pNode('n796', -789, 540, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n797', -911, 760, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n798', -789, 760, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n799', -850, 493, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n800', -850, 807, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n801', -983, 566, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n802', -983, 734, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n803', -717, 734, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n804', -717, 566, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n805', -985, 650, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n806', -715, 650, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n807', -850, 650, _S_, {blue: 350}, {prestige: 40},
         'Талант: Болезненные спазмы',
         'При нанесении импульсного урона следующая атака компаньона нанесёт '+
         'дополнительный урон в размере 200% от показателя духа персонажа</p>'+
         '<p>Эффект символа не работает, если умение компаньона '+
         '"Базовая атака" выключено.',
         'spasm')
-    , pNode('n808',
-        {revelation: 300}, {prestige: 80, power: 80}, 2410, -1200, 'stat')
-    , pNode('n809',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2462, -1290, 'stat')
-    , pNode('n810',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2358, -1290, 'stat')
-    , pNode('n811',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2349, -1370, 'stat')
-    , pNode('n812',
-        {blue: 810}, {prestige: 75, spirit: 75}, 2471, -1370, 'stat')
-    , pNode('n813',
-        {blue: 650}, {prestige: 56, str: 56}, 2349, -1150, 'stat')
-    , pNode('n814',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 2471, -1150, 'stat')
-    , pNode('n815',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2410, -1417, 'stat')
-    , pNode('n816',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2410, -1103, 'stat')
-    , pNode('n817',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2277, -1344, 'stat')
-    , pNode('n818',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2277, -1176, 'stat')
-    , pNode('n819',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2543, -1176, 'stat')
-    , pNode('n820',
-        {blue: 490}, {prestige: 38, str: 38}, 2543, -1344, 'stat')
-    , pNode('n821',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2275, -1260, 'stat')
-    , pNode('n822',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2545, -1260, 'stat')
-    , pNode('n823', {blue: 275}, {prestige: 40}, 2410, -1260, 'skill',
+    , pNode('n808', 2410, -1200, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n809', 2462, -1290, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n810', 2358, -1290, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n811', 2349, -1370, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n812', 2471, -1370, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n813', 2349, -1150, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n814', 2471, -1150, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n815', 2410, -1417, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n816', 2410, -1103, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n817', 2277, -1344, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n818', 2277, -1176, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n819', 2543, -1176, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n820', 2543, -1344, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n821', 2275, -1260, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n822', 2545, -1260, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n823', 2410, -1260, _S_, {blue: 275}, {prestige: 40},
         'Талант: Сотрясение',
         'Критические попадания оглушают противников на 2 секунды. Один и тот '+
         'же противник может подвергнуться этому эффекту не чаще одного раза в '+
         '12 секунд.',
         'concussion')
-    , pNode('n824',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2775, -1420, 'stat')
-    , pNode('n825',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2775, -1300, 'stat')
-    , pNode('n826',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2965, -1300, 'stat')
-    , pNode('n827',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 2965, -1420, 'stat')
-    , pNode('n828',
-        {blue: 325}, {prestige: 35, luck: 35}, 2809, -1470, 'stat')
-    , pNode('n829',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2931, -1470, 'stat')
-    , pNode('n830',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2809, -1250, 'stat')
-    , pNode('n831',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 2931, -1250, 'stat')
-    , pNode('n832',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2870, -1470, 'stat')
-    , pNode('n833',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2870, -1250, 'stat')
-    , pNode('n834',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2737, -1444, 'stat')
-    , pNode('n835',
-        {blue: 325}, {prestige: 35, str: 35}, 2737, -1276, 'stat')
-    , pNode('n836',
-        {blue: 325}, {prestige: 30, majesty: 200}, 3003, -1276, 'stat')
-    , pNode('n837',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3003, -1444, 'stat')
-    , pNode('n838',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2735, -1360, 'stat')
-    , pNode('n839',
-        {blue: 325}, {prestige: 35, spirit: 35}, 3005, -1360, 'stat')
-    , pNode('n840', {}, {}, 2870, -1360, 'skill', 'Вершина созидания',
+    , pNode('n824', 2775, -1420, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n825', 2775, -1300, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n826', 2965, -1300, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n827', 2965, -1420, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n828', 2809, -1470, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n829', 2931, -1470, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n830', 2809, -1250, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n831', 2931, -1250, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n832', 2870, -1470, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n833', 2870, -1250, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n834', 2737, -1444, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n835', 2737, -1276, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n836', 3003, -1276, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n837', 3003, -1444, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n838', 2735, -1360, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n839', 3005, -1360, S_P, {blue: 325}, {prestige: 35, spirit: 35})
+    , pNode('n840', 2870, -1360, _S_, {}, {}, 'Вершина созидания',
         'Может быть усилена с помощью эфирных ядер.', 'create')
-    , pNode('n841',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2870, -920, 'stat')
-    , pNode('n842',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2922, -1010, 'stat')
-    , pNode('n843',
-        {blue: 400}, {prestige: 47, spirit: 47}, 2818, -1010, 'stat')
-    , pNode('n844',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2809, -1090, 'stat')
-    , pNode('n845',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2931, -1090, 'stat')
-    , pNode('n846',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2809, -870, 'stat')
-    , pNode('n847',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2931, -870, 'stat')
-    , pNode('n848',
-        {revelation: 300}, {prestige: 80, str: 80}, 2870, -1137, 'stat')
-    , pNode('n849',
-        {blue: 240}, {prestige: 23, str: 23}, 2870, -823, 'stat')
-    , pNode('n850',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2737, -1064, 'stat')
-    , pNode('n851',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2737, -896, 'stat')
-    , pNode('n852',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 3003, -896, 'stat')
-    , pNode('n853',
-        {blue: 325}, {prestige: 30, majesty: 200}, 3003, -1064, 'stat')
-    , pNode('n854',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2735, -980, 'stat')
-    , pNode('n855',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 3005, -980, 'stat')
-    , pNode('n856', {blue: 275}, {prestige: 40}, 2870, -980, 'skill',
+    , pNode('n841', 2870, -920, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n842', 2922, -1010, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n843', 2818, -1010, S_P, {blue: 400}, {prestige: 47, spirit: 47})
+    , pNode('n844', 2809, -1090, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n845', 2931, -1090, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n846', 2809, -870, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n847', 2931, -870, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n848', 2870, -1137, S_P, {revelation: 300}, {prestige: 80, str: 80})
+    , pNode('n849', 2870, -823, S_P, {blue: 240}, {prestige: 23, str: 23})
+    , pNode('n850', 2737, -1064, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n851', 2737, -896, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n852', 3003, -896, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n853', 3003, -1064, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n854', 2735, -980, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n855', 3005, -980, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n856', 2870, -980, _S_, {blue: 275}, {prestige: 40},
         'Талант: Волна: урон',
         'Использование атакующих способностей позволяет применить умение '+
         '"Волна".</p>'+
@@ -1932,173 +1128,97 @@ const nodesData =
         'эффекта наступают одновременно, а время перезарядкм уменьшено на 5 '+
         'секунд.',
         'wave')
-    , pNode('n857',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2200, 60, 'stat')
-    , pNode('n858',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2252, -30, 'stat')
-    , pNode('n859',
-        {blue: 240}, {prestige: 23, valor: 23}, 2148, -30, 'stat')
-    , pNode('n860',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2139, -110, 'stat')
-    , pNode('n861',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2261, -110, 'stat')
-    , pNode('n862',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2139, 110, 'stat')
-    , pNode('n863',
-        {blue: 325}, {prestige: 35, str: 35}, 2261, 110, 'stat')
-    , pNode('n864',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2200, -157, 'stat')
-    , pNode('n865',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2200, 157, 'stat')
-    , pNode('n866',
-        {blue: 325}, {prestige: 35, luck: 35}, 2067, -84, 'stat')
-    , pNode('n867',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2067, 84, 'stat')
-    , pNode('n868',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 2333, 84, 'stat')
-    , pNode('n869',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2333, -84, 'stat')
-    , pNode('n870',
-        {blue: 240}, {prestige: 23, luck: 23}, 2065, 0, 'stat')
-    , pNode('n871',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2335, 0, 'stat')
-    , pNode('n872', {blue: 350}, {prestige: 40}, 2200, 0, 'skill',
+    , pNode('n857', 2200, 60, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n858', 2252, -30, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n859', 2148, -30, S_P, {blue: 240}, {prestige: 23, valor: 23})
+    , pNode('n860', 2139, -110, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n861', 2261, -110, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n862', 2139, 110, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n863', 2261, 110, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n864', 2200, -157, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n865', 2200, 157, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n866', 2067, -84, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n867', 2067, 84, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n868', 2333, 84, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n869', 2333, -84, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n870', 2065, 0, S_P, {blue: 240}, {prestige: 23, luck: 23})
+    , pNode('n871', 2335, 0, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n872', 2200, 0, _S_, {blue: 350}, {prestige: 40},
         'Талант: Двойной разряд',
         '"Импульсный разряд" может быть активирован два раза подряд после '+
         'своего восстановления. Шанс увеличивается на 12% за каждый уровень '+
         'этого символа.',
         'double')
-    , pNode('n873',
-        {blue: 240}, {prestige: 23, spirit: 23}, 2565, -60, 'stat')
-    , pNode('n874',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2565, 60, 'stat')
-    , pNode('n875',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2755, 60, 'stat')
-    , pNode('n876',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2755, -60, 'stat')
-    , pNode('n877',
-        {blue: 400}, {prestige: 47, valor: 47}, 2599, -110, 'stat')
-    , pNode('n878',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2721, -110, 'stat')
-    , pNode('n879',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2599, 110, 'stat')
-    , pNode('n880',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2721, 110, 'stat')
-    , pNode('n881',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2660, -110, 'stat')
-    , pNode('n882',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2660, 110, 'stat')
-    , pNode('n883',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2527, -84, 'stat')
-    , pNode('n884',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2527, 84, 'stat')
-    , pNode('n885',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2793, 84, 'stat')
-    , pNode('n886',
-        {blue: 240}, {prestige: 23, luck: 23}, 2793, -84, 'stat')
-    , pNode('n887',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 2525, 0, 'stat')
-    , pNode('n888',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2795, 0, 'stat')
-    , pNode('n889', {}, {}, 2660, 0, 'skill', 'Вершина разрушения',
+    , pNode('n873', 2565, -60, S_P, {blue: 240}, {prestige: 23, spirit: 23})
+    , pNode('n874', 2565, 60, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n875', 2755, 60, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n876', 2755, -60, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n877', 2599, -110, S_P, {blue: 400}, {prestige: 47, valor: 47})
+    , pNode('n878', 2721, -110, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n879', 2599, 110, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n880', 2721, 110, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n881', 2660, -110, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n882', 2660, 110, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n883', 2527, -84, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n884', 2527, 84, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n885', 2793, 84, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n886', 2793, -84, S_P, {blue: 240}, {prestige: 23, luck: 23})
+    , pNode('n887', 2525, 0, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n888', 2795, 0, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n889', 2660, 0, _S_, {}, {}, 'Вершина разрушения',
         'Может быть усилена с помощью эфирных ядер.', 'destroy')
-    , pNode('n890',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 3120, 60, 'stat')
-    , pNode('n891',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 3172, -30, 'stat')
-    , pNode('n892',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3068, -30, 'stat')
-    , pNode('n893',
-        {blue: 240}, {prestige: 23, luck: 23}, 3025, -60, 'stat')
-    , pNode('n894',
-        {blue: 325}, {prestige: 30, majesty: 200}, 3025, 60, 'stat')
-    , pNode('n895',
-        {blue: 325}, {prestige: 35, spirit: 35}, 3215, 60, 'stat')
-    , pNode('n896',
-        {blue: 325}, {prestige: 30, majesty: 200}, 3215, -60, 'stat')
-    , pNode('n897',
-        {blue: 325}, {prestige: 35, spirit: 35}, 3120, -110, 'stat')
-    , pNode('n898',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3120, 110, 'stat')
-    , pNode('n899',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 3120, -157, 'stat')
-    , pNode('n900',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3120, 157, 'stat')
-    , pNode('n901',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2987, -84, 'stat')
-    , pNode('n902',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2987, 84, 'stat')
-    , pNode('n903',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 3253, 84, 'stat')
-    , pNode('n904',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 3253, -84, 'stat')
-    , pNode('n905', {}, {}, 3120, 0, 'skill', 'Вершина равновесия',
+    , pNode('n890', 3120, 60, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n891', 3172, -30, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n892', 3068, -30, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n893', 3025, -60, S_P, {blue: 240}, {prestige: 23, luck: 23})
+    , pNode('n894', 3025, 60, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n895', 3215, 60, S_P, {blue: 325}, {prestige: 35, spirit: 35})
+    , pNode('n896', 3215, -60, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n897', 3120, -110, S_P, {blue: 325}, {prestige: 35, spirit: 35})
+    , pNode('n898', 3120, 110, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n899', 3120, -157, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n900', 3120, 157, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n901', 2987, -84, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n902', 2987, 84, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n903', 3253, 84, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n904', 3253, -84, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n905', 3120, 0, _S_, {}, {}, 'Вершина равновесия',
         'Может быть усилена с помощью эфирных ядер.', 'balance')
-    , pNode('n906',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3330, -1300, 'stat')
-    , pNode('n907',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3382, -1390, 'stat')
-    , pNode('n908',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3278, -1390, 'stat')
-    , pNode('n909',
-        {green: 575}, {prestige: 30, majesty: 250}, 3235, -1420, 'stat')
-    , pNode('n910',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3235, -1300, 'stat')
-    , pNode('n911',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3425, -1300, 'stat')
-    , pNode('n912',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3425, -1420, 'stat')
-    , pNode('n913',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3330, -1470, 'stat')
-    , pNode('n914',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3330, -1250, 'stat')
-    , pNode('n915',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3330, -1517, 'stat')
-    , pNode('n916',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3330, -1203, 'stat')
-    , pNode('n917',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3197, -1444, 'stat')
-    , pNode('n918',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3197, -1276, 'stat')
-    , pNode('n919',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3463, -1276, 'stat')
-    , pNode('n920',
-        {revelation: 300}, {prestige: 80, power: 80}, 3463, -1444, 'stat')
-    , pNode('n921', {blue: 200}, {prestige: 40}, 3330, -1360, 'skill',
+    , pNode('n906', 3330, -1300, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n907', 3382, -1390, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n908', 3278, -1390, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n909', 3235, -1420, S__, {green: 575}, {prestige: 30, majesty: 250})
+    , pNode('n910', 3235, -1300, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n911', 3425, -1300, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n912', 3425, -1420, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n913', 3330, -1470, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n914', 3330, -1250, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n915', 3330, -1517, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n916', 3330, -1203, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n917', 3197, -1444, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n918', 3197, -1276, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n919', 3463, -1276, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n920', 3463, -1444, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n921', 3330, -1360, _S_, {blue: 200}, {prestige: 40},
         'Талант: Интенсивность импульса',
         'Импульсный урон увеличен на 10% за каждый уровень этого символа.',
         'spirit')
-    , pNode('n922',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3470, -920, 'stat')
-    , pNode('n923',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3522, -1010, 'stat')
-    , pNode('n924',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3418, -1010, 'stat')
-    , pNode('n925',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3375, -1040, 'stat')
-    , pNode('n926',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3375, -920, 'stat')
-    , pNode('n927',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3565, -920, 'stat')
-    , pNode('n928',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3565, -1040, 'stat')
-    , pNode('n929',
-        {blue: 650}, {prestige: 56, luck: 56}, 3409, -1090, 'stat')
-    , pNode('n930',
-        {revelation: 300}, {prestige: 80, power: 80}, 3531, -1090, 'stat')
-    , pNode('n931',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3409, -870, 'stat')
-    , pNode('n932',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3531, -870, 'stat')
-    , pNode('n933',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3470, -1090, 'stat')
-    , pNode('n934',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3470, -870, 'stat')
-    , pNode('n935',
-        {blue: 810}, {prestige: 75, valor: 75}, 3335, -980, 'stat')
-    , pNode('n936',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3605, -980, 'stat')
-    , pNode('n937', {transformation: 600}, {}, 3470, -980, 'class',
+    , pNode('n922', 3470, -920, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n923', 3522, -1010, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n924', 3418, -1010, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n925', 3375, -1040, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n926', 3375, -920, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n927', 3565, -920, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n928', 3565, -1040, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n929', 3409, -1090, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n930', 3531, -1090, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n931', 3409, -870, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n932', 3531, -870, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n933', 3470, -1090, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n934', 3470, -870, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n935', 3335, -980, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n936', 3605, -980, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n937', 3470, -980, _S_, {transformation: 600}, {},
         'Класс: Богатырь/Воительница',
         'Эта могучая воительница находится в гуще сражения, а верный сокол по '+
         'команду готов стремительно атоковать врагов. Воительница способна '+
@@ -2107,245 +1227,141 @@ const nodesData =
         'она может не только умело блокировать атаки, но и наносить '+
         'сокрушительные удары.',
         'hero')
-    , pNode('n938',
-        {blue: 325}, {prestige: 30, majesty: 200}, 3120, -390, 'stat')
-    , pNode('n939',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3172, -480, 'stat')
-    , pNode('n940',
-        {blue: 400}, {prestige: 47, str: 47}, 3068, -480, 'stat')
-    , pNode('n941',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3025, -510, 'stat')
-    , pNode('n942',
-        {blue: 325}, {prestige: 35, str: 35}, 3025, -390, 'stat')
-    , pNode('n943',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 3215, -390, 'stat')
-    , pNode('n944',
-        {blue: 240}, {prestige: 23, spirit: 23}, 3215, -510, 'stat')
-    , pNode('n945',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 3059, -560, 'stat')
-    , pNode('n946',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 3181, -560, 'stat')
-    , pNode('n947',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 3059, -340, 'stat')
-    , pNode('n948',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 3181, -340, 'stat')
-    , pNode('n949',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 3120, -560, 'stat')
-    , pNode('n950',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 3120, -607, 'stat')
-    , pNode('n951',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3120, -293, 'stat')
-    , pNode('n952', {blue: 275}, {prestige: 40}, 3120, -450, 'skill',
+    , pNode('n938', 3120, -390, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n939', 3172, -480, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n940', 3068, -480, S_P, {blue: 400}, {prestige: 47, str: 47})
+    , pNode('n941', 3025, -510, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n942', 3025, -390, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n943', 3215, -390, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n944', 3215, -510, S_P, {blue: 240}, {prestige: 23, spirit: 23})
+    , pNode('n945', 3059, -560, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n946', 3181, -560, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n947', 3059, -340, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n948', 3181, -340, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n949', 3120, -560, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n950', 3120, -607, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n951', 3120, -293, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n952', 3120, -450, _S_, {blue: 275}, {prestige: 40},
         'Талант: Кредо защитника',
         'Входящие урон уменьшен на 5% за каждый ранг этого символа.</p>'+
         '<p>Исходящий урон уменьшен на 5%.',
         'credo_defend')
-    , pNode('n953',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1705, 1300, 'stat')
-    , pNode('n954',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1705, 1420, 'stat')
-    , pNode('n955',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1895, 1420, 'stat')
-    , pNode('n956',
-        {green: 240}, {prestige: 27, vit: 27, dex: 0}, 1895, 1300, 'stat')
-    , pNode('n957',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1739, 1250, 'stat')
-    , pNode('n958',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 1861, 1250, 'stat')
-    , pNode('n959',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 1739, 1470, 'stat')
-    , pNode('n960',
-        {blue: 240}, {prestige: 23, valor: 23}, 1861, 1470, 'stat')
-    , pNode('n961',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1800, 1250, 'stat')
-    , pNode('n962',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1800, 1470, 'stat')
-    , pNode('n963',
-        {blue: 325}, {prestige: 35, valor: 35}, 1667, 1276, 'stat')
-    , pNode('n964',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 1667, 1444, 'stat')
-    , pNode('n965',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 1933, 1444, 'stat')
-    , pNode('n966',
-        {blue: 325}, {prestige: 35, valor: 35}, 1933, 1276, 'stat')
-    , pNode('n967',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 1665, 1360, 'stat')
-    , pNode('n968',
-        {blue: 325}, {prestige: 30, majesty: 200}, 1935, 1360, 'stat')
-    , pNode('n969', {blue: 275}, {prestige: 40}, 1800, 1360, 'skill',
+    , pNode('n953', 1705, 1300, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n954', 1705, 1420, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n955', 1895, 1420, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n956', 1895, 1300, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 0})
+    , pNode('n957', 1739, 1250, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n958', 1861, 1250, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n959', 1739, 1470, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n960', 1861, 1470, S_P, {blue: 240}, {prestige: 23, valor: 23})
+    , pNode('n961', 1800, 1250, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n962', 1800, 1470, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n963', 1667, 1276, S_P, {blue: 325}, {prestige: 35, valor: 35})
+    , pNode('n964', 1667, 1444, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n965', 1933, 1444, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n966', 1933, 1276, S_P, {blue: 325}, {prestige: 35, valor: 35})
+    , pNode('n967', 1665, 1360, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n968', 1935, 1360, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n969', 1800, 1360, _S_, {blue: 275}, {prestige: 40},
         'Талант: Импульсный барьер',
         'При активации импульсного разряда персонаж на 3 секунды получает '+
         'щит, который поглощает входящий урон.</p>'+
         '<p>Каждый уровень этого символа увеличивает количество поглощаемого '+
         'урона на 3% от максимального здоровья персонажа.',
         'barrier')
-    , pNode('n970',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1940, 1800, 'stat')
-    , pNode('n971',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 1992, 1710, 'stat')
-    , pNode('n972',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1888, 1710, 'stat')
-    , pNode('n973',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 1845, 1680, 'stat')
-    , pNode('n974',
-        {blue: 490}, {prestige: 38, str: 38}, 1845, 1800, 'stat')
-    , pNode('n975',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2035, 1800, 'stat')
-    , pNode('n976',
-        {blue: 650}, {prestige: 56, spirit: 56}, 2035, 1680, 'stat')
-    , pNode('n977',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1879, 1630, 'stat')
-    , pNode('n978',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2001, 1630, 'stat')
-    , pNode('n979',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1879, 1850, 'stat')
-    , pNode('n980',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2001, 1850, 'stat')
-    , pNode('n981',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1940, 1630, 'stat')
-    , pNode('n982',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1940, 1583, 'stat')
-    , pNode('n983',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1940, 1897, 'stat')
-    , pNode('n984', {blue: 350}, {prestige: 40}, 1940, 1740, 'skill',
+    , pNode('n970', 1940, 1800, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n971', 1992, 1710, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n972', 1888, 1710, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n973', 1845, 1680, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n974', 1845, 1800, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n975', 2035, 1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n976', 2035, 1680, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n977', 1879, 1630, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n978', 2001, 1630, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n979', 1879, 1850, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n980', 2001, 1850, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n981', 1940, 1630, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n982', 1940, 1583, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n983', 1940, 1897, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n984', 1940, 1740, _S_, {blue: 350}, {prestige: 40},
         'Талант: Отчаянное сопротивление',
         'Получаемые эффекты замедления ослаблены на 15% за каждый уровень '+
         'этого символа.',
         'resistance')
-    , pNode('n985',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2410, 1320, 'stat')
-    , pNode('n986',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2462, 1230, 'stat')
-    , pNode('n987',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2358, 1230, 'stat')
-    , pNode('n988',
-        {blue: 325}, {prestige: 35, spirit: 35}, 2315, 1200, 'stat')
-    , pNode('n989',
-        {red: 240}, {prestige: 17, power: 17, dex: 6}, 2315, 1320, 'stat')
-    , pNode('n990',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2505, 1320, 'stat')
-    , pNode('n991',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2505, 1200, 'stat')
-    , pNode('n992',
-        {blue: 325}, {prestige: 35, luck: 35}, 2410, 1150, 'stat')
-    , pNode('n993',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 2410, 1370, 'stat')
-    , pNode('n994',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2410, 1103, 'stat')
-    , pNode('n995',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2410, 1417, 'stat')
-    , pNode('n996',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2277, 1176, 'stat')
-    , pNode('n997',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 2277, 1344, 'stat')
-    , pNode('n998',
-        {blue: 400}, {prestige: 47, spirit: 47}, 2543, 1344, 'stat')
-    , pNode('n999',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2543, 1176, 'stat')
-    , pNode('n1000', {blue: 275}, {prestige: 40}, 2410, 1260, 'skill',
+    , pNode('n985', 2410, 1320, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n986', 2462, 1230, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n987', 2358, 1230, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n988', 2315, 1200, S_P, {blue: 325}, {prestige: 35, spirit: 35})
+    , pNode('n989', 2315, 1320, S_P, {red: 240}, {prestige: 17, power: 17, dex: 6})
+    , pNode('n990', 2505, 1320, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n991', 2505, 1200, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n992', 2410, 1150, S_P, {blue: 325}, {prestige: 35, luck: 35})
+    , pNode('n993', 2410, 1370, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n994', 2410, 1103, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n995', 2410, 1417, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n996', 2277, 1176, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n997', 2277, 1344, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n998', 2543, 1344, S_P, {blue: 400}, {prestige: 47, spirit: 47})
+    , pNode('n999', 2543, 1176, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n1000', 2410, 1260, _S_, {blue: 275}, {prestige: 40},
         'Талант: Рваная рана',
         'При нанесении критического урона следующая атака компаньона нанесёт '+
         'дополнительный урон в размере 100% от показателя удачи персонажа</p>'+
         '<p>Эффект символа не работает, если умение компаньона '+
         '"Базовая атака" выключено.',
         'laceration')
-    , pNode('n1001',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2870, 1420, 'stat')
-    , pNode('n1002',
-        {blue: 325}, {prestige: 35, str: 35}, 2922, 1330, 'stat')
-    , pNode('n1003',
-        {blue: 400}, {prestige: 47, str: 47}, 2818, 1330, 'stat')
-    , pNode('n1004',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2809, 1250, 'stat')
-    , pNode('n1005',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2931, 1250, 'stat')
-    , pNode('n1006',
-        {blue: 325}, {prestige: 35, spirit: 35}, 2809, 1470, 'stat')
-    , pNode('n1007',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 2931, 1470, 'stat')
-    , pNode('n1008',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2870, 1203, 'stat')
-    , pNode('n1009',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2870, 1517, 'stat')
-    , pNode('n1010',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2737, 1276, 'stat')
-    , pNode('n1011',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2737, 1444, 'stat')
-    , pNode('n1012',
-        {blue: 325}, {prestige: 30, majesty: 200}, 3003, 1444, 'stat')
-    , pNode('n1013',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3003, 1276, 'stat')
-    , pNode('n1014',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2735, 1360, 'stat')
-    , pNode('n1015',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 3005, 1360, 'stat')
-    , pNode('n1016', {}, {}, 2870, 1360, 'skill', 'Вершина созидания',
+    , pNode('n1001', 2870, 1420, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n1002', 2922, 1330, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n1003', 2818, 1330, S_P, {blue: 400}, {prestige: 47, str: 47})
+    , pNode('n1004', 2809, 1250, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n1005', 2931, 1250, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n1006', 2809, 1470, S_P, {blue: 325}, {prestige: 35, spirit: 35})
+    , pNode('n1007', 2931, 1470, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n1008', 2870, 1203, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n1009', 2870, 1517, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n1010', 2737, 1276, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n1011', 2737, 1444, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n1012', 3003, 1444, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n1013', 3003, 1276, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n1014', 2735, 1360, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n1015', 3005, 1360, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n1016', 2870, 1360, _S_, {}, {}, 'Вершина созидания',
         'Может быть усилена с помощью эфирных ядер.', 'create')
-    , pNode('n1017',
-        {blue: 490}, {prestige: 38, valor: 38}, 3330, 1420, 'stat')
-    , pNode('n1018',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3382, 1330, 'stat')
-    , pNode('n1019',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3278, 1330, 'stat')
-    , pNode('n1020',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3235, 1300, 'stat')
-    , pNode('n1021',
-        {blue: 650}, {prestige: 56, valor: 56}, 3235, 1420, 'stat')
-    , pNode('n1022',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3425, 1420, 'stat')
-    , pNode('n1023',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3425, 1300, 'stat')
-    , pNode('n1024',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3330, 1250, 'stat')
-    , pNode('n1025',
-        {blue: 650}, {prestige: 56, valor: 56}, 3330, 1470, 'stat')
-    , pNode('n1026',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3330, 1203, 'stat')
-    , pNode('n1027',
-        {blue: 490}, {prestige: 38, valor: 38}, 3330, 1517, 'stat')
-    , pNode('n1028',
-        {blue: 650}, {prestige: 56, valor: 56}, 3197, 1276, 'stat')
-    , pNode('n1029',
-        {blue: 650}, {prestige: 56, valor: 56}, 3197, 1444, 'stat')
-    , pNode('n1030',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3463, 1444, 'stat')
-    , pNode('n1031',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3463, 1276, 'stat')
-    , pNode('n1032', {blue: 350}, {prestige: 40}, 3330, 1360, 'skill',
+    , pNode('n1017', 3330, 1420, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1018', 3382, 1330, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1019', 3278, 1330, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1020', 3235, 1300, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1021', 3235, 1420, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1022', 3425, 1420, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1023', 3425, 1300, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1024', 3330, 1250, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1025', 3330, 1470, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1026', 3330, 1203, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1027', 3330, 1517, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1028', 3197, 1276, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1029', 3197, 1444, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1030', 3463, 1444, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1031', 3463, 1276, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1032', 3330, 1360, _S_, {blue: 350}, {prestige: 40},
         'Талант: Мобилизация',
         'Дополнительный урон увеличен на 10% за каждый уровень этого символа.',
         'valor')
-    , pNode('n1033',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3470, 1040, 'stat')
-    , pNode('n1034',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3522, 950, 'stat')
-    , pNode('n1035',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3418, 950, 'stat')
-    , pNode('n1036',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3375, 920, 'stat')
-    , pNode('n1037',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3375, 1040, 'stat')
-    , pNode('n1038',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3565, 1040, 'stat')
-    , pNode('n1039',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3565, 920, 'stat')
-    , pNode('n1040',
-        {revelation: 300}, {prestige: 80, power: 80}, 3409, 870, 'stat')
-    , pNode('n1041',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3531, 870, 'stat')
-    , pNode('n1042',
-        {blue: 810}, {prestige: 75, spirit: 75}, 3409, 1090, 'stat')
-    , pNode('n1043',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3531, 1090, 'stat')
-    , pNode('n1044',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3470, 870, 'stat')
-    , pNode('n1045',
-        {blue: 650}, {prestige: 56, luck: 56}, 3470, 1090, 'stat')
-    , pNode('n1046',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3335, 980, 'stat')
-    , pNode('n1047',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3605, 980, 'stat')
-    , pNode('n1048', {transformation: 600}, {}, 3470, 980, 'class',
+    , pNode('n1033', 3470, 1040, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1034', 3522, 950, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1035', 3418, 950, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1036', 3375, 920, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1037', 3375, 1040, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1038', 3565, 1040, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1039', 3565, 920, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1040', 3409, 870, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1041', 3531, 870, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1042', 3409, 1090, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n1043', 3531, 1090, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1044', 3470, 870, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1045', 3470, 1090, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1046', 3335, 980, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1047', 3605, 980, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1048', 3470, 980, _S_, {transformation: 600}, {},
         'Класс: Колдун/Ведьма',
         'В распоряжении ведьмы весь арсенал темных сил: страшные заклятья, '+
         'таинственные зелья и, конечно же, верная спутница - метла, которая '+
@@ -2354,39 +1370,23 @@ const nodesData =
         'С уверенностью можно сказать лишь одно: она всегда действует '+
         'исключительно в своих интересах.',
         'witch')
-    , pNode('n1049',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 2775, 920, 'stat')
-    , pNode('n1050',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2775, 1040, 'stat')
-    , pNode('n1051',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2965, 1040, 'stat')
-    , pNode('n1052',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2965, 920, 'stat')
-    , pNode('n1053',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 2809, 870, 'stat')
-    , pNode('n1054',
-        {blue: 325}, {prestige: 30, majesty: 200}, 2931, 870, 'stat')
-    , pNode('n1055',
-        {blue: 325}, {prestige: 35, str: 35}, 2809, 1090, 'stat')
-    , pNode('n1056',
-        {blue: 325}, {prestige: 35, spirit: 35}, 2931, 1090, 'stat')
-    , pNode('n1057',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2870, 870, 'stat')
-    , pNode('n1058',
-        {revelation: 300}, {prestige: 80, power: 80}, 2870, 1090, 'stat')
-    , pNode('n1059',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 2737, 896, 'stat')
-    , pNode('n1060',
-        {blue: 400}, {prestige: 47, luck: 47}, 2737, 1064, 'stat')
-    , pNode('n1061',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 3003, 1064, 'stat')
-    , pNode('n1062',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 3003, 896, 'stat')
-    , pNode('n1063',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 2735, 980, 'stat')
-    , pNode('n1064',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3005, 980, 'stat')
-    , pNode('n1065', {blue: 275}, {prestige: 40}, 2870, 980, 'skill',
+    , pNode('n1049', 2775, 920, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n1050', 2775, 1040, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n1051', 2965, 1040, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n1052', 2965, 920, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n1053', 2809, 870, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n1054', 2931, 870, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n1055', 2809, 1090, S_P, {blue: 325}, {prestige: 35, str: 35})
+    , pNode('n1056', 2931, 1090, S_P, {blue: 325}, {prestige: 35, spirit: 35})
+    , pNode('n1057', 2870, 870, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n1058', 2870, 1090, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1059', 2737, 896, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n1060', 2737, 1064, S_P, {blue: 400}, {prestige: 47, luck: 47})
+    , pNode('n1061', 3003, 1064, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n1062', 3003, 896, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n1063', 2735, 980, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n1064', 3005, 980, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n1065', 2870, 980, _S_, {blue: 275}, {prestige: 40},
         'Талант: Болевой шок',
         'Использование атакующих способностей позволяет применить умение '+
         '"Шок".</p>'+
@@ -2396,103 +1396,60 @@ const nodesData =
         'эффекта наступают одновременно, а время перезарядкм уменьшено на 5 '+
         'секунд.',
         'shock')
-    , pNode('n1066',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 3120, 510, 'stat')
-    , pNode('n1067',
-        {blue: 325}, {prestige: 35, spirit: 35}, 3172, 420, 'stat')
-    , pNode('n1068',
-        {green: 240}, {prestige: 27, vit: 27, dex: 9}, 3068, 420, 'stat')
-    , pNode('n1069',
-        {blue: 325}, {prestige: 30, majesty: 200}, 3025, 390, 'stat')
-    , pNode('n1070',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 3025, 510, 'stat')
-    , pNode('n1071',
-        {blue: 325}, {prestige: 30, majesty: 200}, 3215, 510, 'stat')
-    , pNode('n1072',
-        {red: 240}, {prestige: 17, power: 17, dex: 9}, 3215, 390, 'stat')
-    , pNode('n1073',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 3059, 340, 'stat')
-    , pNode('n1074',
-        {green: 400}, {prestige: 53, vit: 53, dex: 15}, 3181, 340, 'stat')
-    , pNode('n1075',
-        {blue: 240}, {prestige: 23, luck: 23}, 3059, 560, 'stat')
-    , pNode('n1076',
-        {green: 325}, {prestige: 40, vit: 40, dex: 12}, 3181, 560, 'stat')
-    , pNode('n1077',
-        {red: 400}, {prestige: 33, power: 33, dex: 15}, 3120, 340, 'stat')
-    , pNode('n1078',
-        {blue: 325}, {prestige: 35, valor: 35}, 3120, 293, 'stat')
-    , pNode('n1079',
-        {red: 325}, {prestige: 25, power: 25, dex: 12}, 3120, 607, 'stat')
-    , pNode('n1080', {blue: 275}, {prestige: 40}, 3120, 450, 'skill',
+    , pNode('n1066', 3120, 510, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n1067', 3172, 420, S_P, {blue: 325}, {prestige: 35, spirit: 35})
+    , pNode('n1068', 3068, 420, S_P, {green: 240}, {prestige: 27, vit: 27, dex: 9})
+    , pNode('n1069', 3025, 390, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n1070', 3025, 510, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n1071', 3215, 510, S__, {blue: 325}, {prestige: 30, majesty: 200})
+    , pNode('n1072', 3215, 390, S_P, {red: 240}, {prestige: 17, power: 17, dex: 9})
+    , pNode('n1073', 3059, 340, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n1074', 3181, 340, S_P, {green: 400}, {prestige: 53, vit: 53, dex: 15})
+    , pNode('n1075', 3059, 560, S_P, {blue: 240}, {prestige: 23, luck: 23})
+    , pNode('n1076', 3181, 560, S_P, {green: 325}, {prestige: 40, vit: 40, dex: 12})
+    , pNode('n1077', 3120, 340, S_P, {red: 400}, {prestige: 33, power: 33, dex: 15})
+    , pNode('n1078', 3120, 293, S_P, {blue: 325}, {prestige: 35, valor: 35})
+    , pNode('n1079', 3120, 607, S_P, {red: 325}, {prestige: 25, power: 25, dex: 12})
+    , pNode('n1080', 3120, 450, _S_, {blue: 275}, {prestige: 40},
         'Талант: Кредо война',
         'Исходящий урон увеличен на 5% за каждый ранг этого символа.</p>'+
         '<p>Входящий урон увеличен на 5%.',
         'credo_warrior')
-    , pNode('n1081',
-        {blue: 150}, {prestige: 30, majesty: 200}, 3530, 60, 'stat')
-    , pNode('n1082',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3582, -30, 'stat')
-    , pNode('n1083',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3478, -30, 'stat')
-    , pNode('n1084',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3435, -60, 'stat')
-    , pNode('n1085',
-        {blue: 650}, {prestige: 56, valor: 56}, 3435, 60, 'stat')
-    , pNode('n1086',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3625, 60, 'stat')
-    , pNode('n1087',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3625, -60, 'stat')
-    , pNode('n1088',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3469, -110, 'stat')
-    , pNode('n1089',
-        {blue: 150}, {prestige: 30, majesty: 200}, 3591, -110, 'stat')
-    , pNode('n1090',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3469, 110, 'stat')
-    , pNode('n1091',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3591, 110, 'stat')
-    , pNode('n1092',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3530, -110, 'stat')
-    , pNode('n1093',
-        {revelation: 300}, {prestige: 80, power: 80}, 3530, -157, 'stat')
-    , pNode('n1094',
-        {revelation: 300}, {prestige: 80, valor: 80}, 3530, 157, 'stat')
-    , pNode('n1095', {blue: 275}, {prestige: 40}, 3530, 0, 'class',
+    , pNode('n1081', 3530, 60, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n1082', 3582, -30, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1083', 3478, -30, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1084', 3435, -60, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1085', 3435, 60, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1086', 3625, 60, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1087', 3625, -60, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1088', 3469, -110, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1089', 3591, -110, S__, {blue: 150}, {prestige: 30, majesty: 200})
+    , pNode('n1090', 3469, 110, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1091', 3591, 110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1092', 3530, -110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1093', 3530, -157, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1094', 3530, 157, S_P, {revelation: 300}, {prestige: 80, valor: 80})
+    , pNode('n1095', 3530, 0, _S_, {blue: 275}, {prestige: 40},
         'Талант: Элемент неожиданности',
         'В течение первых 8 секунд боя исходящий урон увеличен на 12% за '+
         'каждый уровень этого символа.',
         'surprise')
-    , pNode('n1096',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3990, 60, 'stat')
-    , pNode('n1097',
-        {blue: 650}, {prestige: 56, spirit: 56}, 4042, -30, 'stat')
-    , pNode('n1098',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3938, -30, 'stat')
-    , pNode('n1099',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3895, -60, 'stat')
-    , pNode('n1100',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3895, 60, 'stat')
-    , pNode('n1101',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4085, 60, 'stat')
-    , pNode('n1102',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4085, -60, 'stat')
-    , pNode('n1103',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3929, -110, 'stat')
-    , pNode('n1104',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4051, -110, 'stat')
-    , pNode('n1105',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3929, 110, 'stat')
-    , pNode('n1106',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4051, 110, 'stat')
-    , pNode('n1107',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3990, -110, 'stat')
-    , pNode('n1108',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3990, 110, 'stat')
-    , pNode('n1109',
-        {blue: 650}, {prestige: 56, str: 56}, 3855, 0, 'stat')
-    , pNode('n1110',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4125, 0, 'stat')
-    , pNode('n1111', {transformation: 300}, {prestige: 40}, 3990, 0, 'class',
+    , pNode('n1096', 3990, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1097', 4042, -30, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1098', 3938, -30, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1099', 3895, -60, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1100', 3895, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1101', 4085, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1102', 4085, -60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1103', 3929, -110, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1104', 4051, -110, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1105', 3929, 110, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1106', 4051, 110, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1107', 3990, -110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1108', 3990, 110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1109', 3855, 0, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1110', 4125, 0, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1111', 3990, 0, _S_, {transformation: 300}, {},
         'Класс: Берсерк',
         'Безжалостный дикарь, он не мыслит ни дня без хорошей драки. Ему не '+
         'знаком страх. Охваченный безумной яростью, берсерк может смести на '+
@@ -2500,356 +1457,206 @@ const nodesData =
         'его раны затягиваются сами собой. Боевой клич берсерка способен '+
         'вселить ужас в сердца неприятелей и воодушевить союзников.',
         'berserker')
-    , pNode('n1112',
-        {blue: 490}, {prestige: 38, str: 38}, 690, -2060, 'stat')
-    , pNode('n1113',
-        {blue: 490}, {prestige: 38, spirit: 38}, 742, -2150, 'stat')
-    , pNode('n1114',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 638, -2150, 'stat')
-    , pNode('n1115',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 595, -2180, 'stat')
-    , pNode('n1116',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 595, -2060, 'stat')
-    , pNode('n1117',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 785, -2060, 'stat')
-    , pNode('n1118',
-        {blue: 575}, {prestige: 30, majesty: 250}, 785, -2180, 'stat')
-    , pNode('n1119',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 690, -2230, 'stat')
-    , pNode('n1120',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 690, -2010, 'stat')
-    , pNode('n1121',
-        {blue: 810}, {prestige: 75, spirit: 75}, 690, -2277, 'stat')
-    , pNode('n1122',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 690, -1963, 'stat')
-    , pNode('n1123',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 557, -2204, 'stat')
-    , pNode('n1124',
-        {revelation: 300}, {prestige: 80, power: 80}, 557, -2036, 'stat')
-    , pNode('n1125',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 823, -2036, 'stat')
-    , pNode('n1126',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 823, -2204, 'stat')
-    , pNode('n1127', {blue: 350}, {prestige: 40}, 690, -2120, 'skill',
+    , pNode('n1112', 690, -2060, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n1113', 742, -2150, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1114', 638, -2150, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1115', 595, -2180, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1116', 595, -2060, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1117', 785, -2060, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1118', 785, -2180, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1119', 690, -2230, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1120', 690, -2010, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1121', 690, -2277, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n1122', 690, -1963, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1123', 557, -2204, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1124', 557, -2036, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1125', 823, -2036, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1126', 823, -2204, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1127', 690, -2120, _S_, {blue: 350}, {prestige: 40},
         'Талант: Мобилизация',
         'Дополнительный урон увеличен на 10% за каждый уровень этого символа.',
         'valor')
-    , pNode('n1128',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 780, -2520, 'stat')
-    , pNode('n1129',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 832, -2610, 'stat')
-    , pNode('n1130',
-        {blue: 650}, {prestige: 56, str: 56}, 728, -2610, 'stat')
-    , pNode('n1131',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 685, -2640, 'stat')
-    , pNode('n1132',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 685, -2520, 'stat')
-    , pNode('n1133',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 875, -2520, 'stat')
-    , pNode('n1134',
-        {blue: 650}, {prestige: 56, str: 56}, 875, -2640, 'stat')
-    , pNode('n1135',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 719, -2690, 'stat')
-    , pNode('n1136',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 841, -2690, 'stat')
-    , pNode('n1137',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 719, -2470, 'stat')
-    , pNode('n1138',
-        {blue: 575}, {prestige: 30, majesty: 250}, 841, -2470, 'stat')
-    , pNode('n1139',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 780, -2690, 'stat')
-    , pNode('n1140',
-        {blue: 490}, {prestige: 38, luck: 38}, 780, -2737, 'stat')
-    , pNode('n1141',
-        {revelation: 300}, {prestige: 120, vit: 120}, 780, -2423, 'stat')
-    , pNode('n1142', {blue: 350}, {prestige: 40}, 780, -2580, 'skill',
+    , pNode('n1128', 780, -2520, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1129', 832, -2610, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1130', 728, -2610, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1131', 685, -2640, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1132', 685, -2520, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1133', 875, -2520, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1134', 875, -2640, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1135', 719, -2690, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1136', 841, -2690, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1137', 719, -2470, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1138', 841, -2470, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1139', 780, -2690, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1140', 780, -2737, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1141', 780, -2423, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1142', 780, -2580, _S_, {blue: 350}, {prestige: 40},
         'Талант: Кредо защитника',
         'Входящие урон уменьшен на 5% за каждый ранг этого символа.</p>'+
         '<p>Исходящий урон уменьшен на 5%.',
         'credo_defend')
-    , pNode('n1143',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 1150, -2720, 'stat')
-    , pNode('n1144',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 1202, -2810, 'stat')
-    , pNode('n1145',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 1098, -2810, 'stat')
-    , pNode('n1146',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 1089, -2890, 'stat')
-    , pNode('n1147',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1211, -2890, 'stat')
-    , pNode('n1148',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 1089, -2670, 'stat')
-    , pNode('n1149',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 1211, -2670, 'stat')
-    , pNode('n1150',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 1150, -2937, 'stat')
-    , pNode('n1151',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 1150, -2623, 'stat')
-    , pNode('n1152',
-        {revelation: 300}, {prestige: 120, vit: 120}, 1017, -2864, 'stat')
-    , pNode('n1153',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 1017, -2696, 'stat')
-    , pNode('n1154',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 1283, -2696, 'stat')
-    , pNode('n1155',
-        {blue: 775}, {prestige: 56, str: 56}, 1283, -2864, 'stat')
-    , pNode('n1156',
-        {blue: 585}, {prestige: 38, str: 38}, 1015, -2780, 'stat')
-    , pNode('n1157',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 1285, -2780, 'stat')
-    , pNode('n1158', {blue: 350}, {prestige: 40}, 1150, -2780, 'skill',
+    , pNode('n1143', 1150, -2720, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n1144', 1202, -2810, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1145', 1098, -2810, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1146', 1089, -2890, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1147', 1211, -2890, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1148', 1089, -2670, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1149', 1211, -2670, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n1150', 1150, -2937, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n1151', 1150, -2623, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1152', 1017, -2864, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1153', 1017, -2696, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n1154', 1283, -2696, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1155', 1283, -2864, S_P, {blue: 775}, {prestige: 56, str: 56})
+    , pNode('n1156', 1015, -2780, S_P, {blue: 585}, {prestige: 38, str: 38})
+    , pNode('n1157', 1285, -2780, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1158', 1150, -2780, _S_, {blue: 350}, {prestige: 40},
         'Талант: Прорыв',
         'Применение рывка оглушает противников вокруг конечной позиции на 1,5 '+
         'секунды.</p>'+
         '<p>Эффект накладывается не чаще одного раза в 21/14 секунд.',
         'break')
-    , pNode('n1159',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1610, -2720, 'stat')
-    , pNode('n1160',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 1662, -2810, 'stat')
-    , pNode('n1161',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 1558, -2810, 'stat')
-    , pNode('n1162',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 1515, -2840, 'stat')
-    , pNode('n1163',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 1515, -2720, 'stat')
-    , pNode('n1164',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 1705, -2720, 'stat')
-    , pNode('n1165',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 1705, -2840, 'stat')
-    , pNode('n1166',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 1549, -2890, 'stat')
-    , pNode('n1167',
-        {blue: 965}, {prestige: 75, str: 75}, 1671, -2890, 'stat')
-    , pNode('n1168',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 1549, -2670, 'stat')
-    , pNode('n1169',
-        {blue: 775}, {prestige: 56, luck: 56}, 1671, -2670, 'stat')
-    , pNode('n1170',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 1610, -2890, 'stat')
-    , pNode('n1171',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 1610, -2670, 'stat')
-    , pNode('n1172',
-        {blue: 775}, {prestige: 56, valor: 56}, 1475, -2780, 'stat')
-    , pNode('n1173',
-        {revelation: 300}, {prestige: 120, vit: 120}, 1745, -2780, 'stat')
-    , pNode('n1174', {blue: 350}, {prestige: 40}, 1610, -2780, 'skill',
+    , pNode('n1159', 1610, -2720, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1160', 1662, -2810, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1161', 1558, -2810, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1162', 1515, -2840, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1163', 1515, -2720, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1164', 1705, -2720, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n1165', 1705, -2840, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1166', 1549, -2890, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1167', 1671, -2890, S_P, {blue: 965}, {prestige: 75, str: 75})
+    , pNode('n1168', 1549, -2670, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1169', 1671, -2670, S_P, {blue: 775}, {prestige: 56, luck: 56})
+    , pNode('n1170', 1610, -2890, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1171', 1610, -2670, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n1172', 1475, -2780, S_P, {blue: 775}, {prestige: 56, valor: 56})
+    , pNode('n1173', 1745, -2780, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1174', 1610, -2780, _S_, {blue: 350}, {prestige: 40},
         'Талант: Предельная сила',
         'Влияние показателя силы на базовый урон увеличено на 10% за '+
         'каждый уровень этого символа.',
         'str')
-    , pNode('n1175',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1980, -2520, 'stat')
-    , pNode('n1176',
-        {blue: 650}, {prestige: 56, spirit: 56}, 2032, -2610, 'stat')
-    , pNode('n1177',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1928, -2610, 'stat')
-    , pNode('n1178',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1885, -2640, 'stat')
-    , pNode('n1179',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1885, -2520, 'stat')
-    , pNode('n1180',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2075, -2520, 'stat')
-    , pNode('n1181',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2075, -2640, 'stat')
-    , pNode('n1182',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 1919, -2690, 'stat')
-    , pNode('n1183',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2041, -2690, 'stat')
-    , pNode('n1184',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1919, -2470, 'stat')
-    , pNode('n1185',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2041, -2470, 'stat')
-    , pNode('n1186',
-        {blue: 490}, {prestige: 38, spirit: 38}, 1980, -2690, 'stat')
-    , pNode('n1187',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1980, -2737, 'stat')
-    , pNode('n1188',
-        {revelation: 300}, {prestige: 120, vit: 120}, 1980, -2423, 'stat')
-    , pNode('n1189', {blue: 350}, {prestige: 40}, 1980, -2580, 'skill',
+    , pNode('n1175', 1980, -2520, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1176', 2032, -2610, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1177', 1928, -2610, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1178', 1885, -2640, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1179', 1885, -2520, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1180', 2075, -2520, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1181', 2075, -2640, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1182', 1919, -2690, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1183', 2041, -2690, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1184', 1919, -2470, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1185', 2041, -2470, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1186', 1980, -2690, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1187', 1980, -2737, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1188', 1980, -2423, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1189', 1980, -2580, _S_, {blue: 350}, {prestige: 40},
         'Талант: Кредо война',
         'Исходящий урон увеличен на 5% за каждый ранг этого символа.</p>'+
         '<p>Входящий урон увеличен на 5%.',
         'credo_warrior')
-    , pNode('n1190',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2070, -2060, 'stat')
-    , pNode('n1191',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2122, -2150, 'stat')
-    , pNode('n1192',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2018, -2150, 'stat')
-    , pNode('n1193',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1975, -2180, 'stat')
-    , pNode('n1194',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1975, -2060, 'stat')
-    , pNode('n1195',
-        {revelation: 300}, {prestige: 80, power: 80}, 2165, -2060, 'stat')
-    , pNode('n1196',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2165, -2180, 'stat')
-    , pNode('n1197',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2009, -2230, 'stat')
-    , pNode('n1198',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2131, -2230, 'stat')
-    , pNode('n1199',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2009, -2010, 'stat')
-    , pNode('n1200',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2131, -2010, 'stat')
-    , pNode('n1201',
-        {blue: 810}, {prestige: 75, spirit: 75}, 2070, -2230, 'stat')
-    , pNode('n1202',
-        {blue: 490}, {prestige: 38, valor: 38}, 2070, -2010, 'stat')
-    , pNode('n1203',
-        {blue: 650}, {prestige: 56, spirit: 56}, 1935, -2120, 'stat')
-    , pNode('n1204',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2205, -2120, 'stat')
-    , pNode('n1205', {blue: 350}, {prestige: 40}, 2070, -2120, 'skill',
+    , pNode('n1190', 2070, -2060, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1191', 2122, -2150, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1192', 2018, -2150, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1193', 1975, -2180, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1194', 1975, -2060, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1195', 2165, -2060, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1196', 2165, -2180, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1197', 2009, -2230, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1198', 2131, -2230, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1199', 2009, -2010, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1200', 2131, -2010, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1201', 2070, -2230, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n1202', 2070, -2010, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1203', 1935, -2120, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1204', 2205, -2120, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1205', 2070, -2120, _S_, {blue: 350}, {prestige: 40},
         'Талант: Интенсивность импульса',
         'Импульсный урон увеличен на 10% за каждый уровень этого символа.',
         'spirit')
-    , pNode('n1206',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2775, -1800, 'stat')
-    , pNode('n1207',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2775, -1680, 'stat')
-    , pNode('n1208',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2965, -1680, 'stat')
-    , pNode('n1209',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2965, -1800, 'stat')
-    , pNode('n1210',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2809, -1850, 'stat')
-    , pNode('n1211',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2931, -1850, 'stat')
-    , pNode('n1212',
-        {blue: 490}, {prestige: 38, str: 38}, 2809, -1630, 'stat')
-    , pNode('n1213',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2931, -1630, 'stat')
-    , pNode('n1214',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2870, -1850, 'stat')
-    , pNode('n1215',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 2870, -1630, 'stat')
-    , pNode('n1216',
-        {blue: 490}, {prestige: 38, valor: 38}, 2737, -1824, 'stat')
-    , pNode('n1217',
-        {blue: 650}, {prestige: 56, str: 56}, 2737, -1656, 'stat')
-    , pNode('n1218',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3003, -1656, 'stat')
-    , pNode('n1219',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3003, -1824, 'stat')
-    , pNode('n1220',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2735, -1740, 'stat')
-    , pNode('n1221',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3005, -1740, 'stat')
-    , pNode('n1222', {blue: 350}, {prestige: 40}, 2870, -1740, 'skill',
+    , pNode('n1206', 2775, -1800, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1207', 2775, -1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1208', 2965, -1680, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1209', 2965, -1800, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1210', 2809, -1850, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1211', 2931, -1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1212', 2809, -1630, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n1213', 2931, -1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1214', 2870, -1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1215', 2870, -1630, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1216', 2737, -1824, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1217', 2737, -1656, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1218', 3003, -1656, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1219', 3003, -1824, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1220', 2735, -1740, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1221', 3005, -1740, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1222', 2870, -1740, _S_, {blue: 350}, {prestige: 40},
         'Талант: Удачное попадание',
         'Раз в 2 секунды вероятность критической атаки увеличивается на 1% за '+
         'каждый уровень этого символа.</p>'+
         '<p>При нанесении критической атаки эффект сбрасываеться и начинает '+
         'накапливаться заново.',
         'luck_hit')
-    , pNode('n1223',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3405, -1800, 'stat')
-    , pNode('n1224',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3405, -1680, 'stat')
-    , pNode('n1225',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3595, -1680, 'stat')
-    , pNode('n1226',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3595, -1800, 'stat')
-    , pNode('n1227',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3439, -1850, 'stat')
-    , pNode('n1228',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3561, -1850, 'stat')
-    , pNode('n1229',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3439, -1630, 'stat')
-    , pNode('n1230',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3561, -1630, 'stat')
-    , pNode('n1231',
-        {blue: 810}, {prestige: 75, luck: 75}, 3500, -1850, 'stat')
-    , pNode('n1232',
-        {blue: 490}, {prestige: 38, spirit: 38}, 3500, -1630, 'stat')
-    , pNode('n1233',
-        {revelation: 300}, {prestige: 80, power: 80}, 3367, -1824, 'stat')
-    , pNode('n1234',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3367, -1656, 'stat')
-    , pNode('n1235',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3633, -1656, 'stat')
-    , pNode('n1236',
-        {blue: 810}, {prestige: 75, valor: 75}, 3633, -1824, 'stat')
-    , pNode('n1237',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3365, -1740, 'stat')
-    , pNode('n1238',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3635, -1740, 'stat')
-    , pNode('n1239', {blue: 350}, {prestige: 40}, 3500, -1740, 'skill',
+    , pNode('n1223', 3405, -1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1224', 3405, -1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1225', 3595, -1680, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1226', 3595, -1800, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1227', 3439, -1850, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1228', 3561, -1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1229', 3439, -1630, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1230', 3561, -1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1231', 3500, -1850, S_P, {blue: 810}, {prestige: 75, luck: 75})
+    , pNode('n1232', 3500, -1630, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1233', 3367, -1824, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1234', 3367, -1656, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1235', 3633, -1656, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1236', 3633, -1824, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n1237', 3365, -1740, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1238', 3635, -1740, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1239', 3500, -1740, _S_, {blue: 350}, {prestige: 40},
         'Талант: Метка смерти',
         'Наносимые атаки могут оставить на противнике метку смерти. Метка '+
         'существует 6 секунд, по истечении которых нанесёт противнику '+
         '15/22/30% урона, полученного от создателя за это время.',
         'death')
-    , pNode('n1240',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3865, -1800, 'stat')
-    , pNode('n1241',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3865, -1680, 'stat')
-    , pNode('n1242',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4055, -1680, 'stat')
-    , pNode('n1243',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4055, -1800, 'stat')
-    , pNode('n1244',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3899, -1850, 'stat')
-    , pNode('n1245',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4021, -1850, 'stat')
-    , pNode('n1246',
-        {revelation: 300}, {prestige: 80, valor: 80}, 3899, -1630, 'stat')
-    , pNode('n1247',
-        {blue: 490}, {prestige: 38, luck: 38}, 4021, -1630, 'stat')
-    , pNode('n1248',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3960, -1850, 'stat')
-    , pNode('n1249',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3960, -1630, 'stat')
-    , pNode('n1250',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3827, -1824, 'stat')
-    , pNode('n1251',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3827, -1656, 'stat')
-    , pNode('n1252',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4093, -1656, 'stat')
-    , pNode('n1253',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4093, -1824, 'stat')
-    , pNode('n1254',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3825, -1740, 'stat')
-    , pNode('n1255',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4095, -1740, 'stat')
-    , pNode('n1256', {blue: 350}, {}, 3960, -1740, 'skill', 'Талант: Опека',
+    , pNode('n1240', 3865, -1800, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1241', 3865, -1680, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1242', 4055, -1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1243', 4055, -1800, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1244', 3899, -1850, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1245', 4021, -1850, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1246', 3899, -1630, S_P, {revelation: 300}, {prestige: 80, valor: 80})
+    , pNode('n1247', 4021, -1630, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1248', 3960, -1850, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1249', 3960, -1630, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1250', 3827, -1824, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1251', 3827, -1656, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1252', 4093, -1656, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1253', 4093, -1824, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1254', 3825, -1740, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1255', 4095, -1740, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1256', 3960, -1740, _S_, {blue: 350}, {},
+        'Талант: Опека',
         'Длительность накладываемых на союзников щтов увеличена на 25%/50% от '+
         'вашей характеристики "Эффективность щитов".</p>'+
         '<p>Этот эффект не действует на щиты накладываемые на себя.',
         'guardianship')
-    , pNode('n1257',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3960, -1210, 'stat')
-    , pNode('n1258',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4012, -1300, 'stat')
-    , pNode('n1259',
-        {blue: 650}, {prestige: 56, valor: 56}, 3908, -1300, 'stat')
-    , pNode('n1260',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3899, -1380, 'stat')
-    , pNode('n1261',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4021, -1380, 'stat')
-    , pNode('n1262',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3899, -1160, 'stat')
-    , pNode('n1263',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4021, -1160, 'stat')
-    , pNode('n1264',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3960, -1427, 'stat')
-    , pNode('n1265',
-        {revelation: 300}, {prestige: 120, vit: 120}, 3960, -1113, 'stat')
-    , pNode('n1266',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3827, -1354, 'stat')
-    , pNode('n1267',
-        {blue: 490}, {prestige: 38, valor: 38}, 3827, -1186, 'stat')
-    , pNode('n1268',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4093, -1186, 'stat')
-    , pNode('n1269',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4093, -1354, 'stat')
-    , pNode('n1270',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3825, -1270, 'stat')
-    , pNode('n1271',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4095, -1270, 'stat')
-    , pNode('n1272', {blue: 350}, {prestige: 40}, 3960, -1270, 'skill',
+    , pNode('n1257', 3960, -1210, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1258', 4012, -1300, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1259', 3908, -1300, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1260', 3899, -1380, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1261', 4021, -1380, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1262', 3899, -1160, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1263', 4021, -1160, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1264', 3960, -1427, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1265', 3960, -1113, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1266', 3827, -1354, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1267', 3827, -1186, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1268', 4093, -1186, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1269', 4093, -1354, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1270', 3825, -1270, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1271', 4095, -1270, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1272', 3960, -1270, _S_, {blue: 350}, {prestige: 40},
         'Талант: Глубокое рассечение',
         'При нанесении максимального дополнительного урона следующая атака '+
         'компаньона нанесёт дополнительный урон в размере 100% от показателя '+
@@ -2857,692 +1664,388 @@ const nodesData =
         '<p>Эффект символа не работает, если умение компаньона '+
         '"Базовая атака" выключено.',
         'dissection')
-    , pNode('n1273',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3805, -510, 'stat')
-    , pNode('n1274',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3805, -390, 'stat')
-    , pNode('n1275',
-        {blue: 490}, {prestige: 38, luck: 38}, 3995, -390, 'stat')
-    , pNode('n1276',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3995, -510, 'stat')
-    , pNode('n1277',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3839, -560, 'stat')
-    , pNode('n1278',
-        {blue: 490}, {prestige: 38, luck: 38}, 3961, -560, 'stat')
-    , pNode('n1279',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3839, -340, 'stat')
-    , pNode('n1280',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3961, -340, 'stat')
-    , pNode('n1281',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3900, -560, 'stat')
-    , pNode('n1282',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3900, -340, 'stat')
-    , pNode('n1283',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3767, -534, 'stat')
-    , pNode('n1284',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3767, -366, 'stat')
-    , pNode('n1285',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4033, -366, 'stat')
-    , pNode('n1286',
-        {blue: 650}, {prestige: 56, spirit: 56}, 4033, -534, 'stat')
-    , pNode('n1287',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3765, -450, 'stat')
-    , pNode('n1288',
-        {red: 650}, {prestige: 40, power: 40, dex: 244}, 4035, -450, 'stat')
-    , pNode('n1289', {blue: 350}, {prestige: 40}, 3900, -450, 'skill',
+    , pNode('n1273', 3805, -510, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1274', 3805, -390, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1275', 3995, -390, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1276', 3995, -510, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1277', 3839, -560, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1278', 3961, -560, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1279', 3839, -340, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1280', 3961, -340, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1281', 3900, -560, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1282', 3900, -340, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1283', 3767, -534, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1284', 3767, -366, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1285', 4033, -366, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1286', 4033, -534, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1287', 3765, -450, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1288', 4035, -450, S_P, {red: 650}, {prestige: 40, power: 40, dex: 244})
+    , pNode('n1289', 3900, -450, _S_, {blue: 350}, {prestige: 40},
         'Талант: Предельная сила',
         'Влияние показателя силы на базовый урон увеличено на 10% за '+
         'каждый уровень этого символа.',
         'str')
-    , pNode('n1290',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4270, -790, 'stat')
-    , pNode('n1291',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4322, -880, 'stat')
-    , pNode('n1292',
-        {blue: 490}, {prestige: 38, valor: 38}, 4218, -880, 'stat')
-    , pNode('n1293',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4175, -910, 'stat')
-    , pNode('n1294',
-        {blue: 650}, {prestige: 56, str: 56}, 4175, -790, 'stat')
-    , pNode('n1295',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4365, -790, 'stat')
-    , pNode('n1296',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4365, -910, 'stat')
-    , pNode('n1297',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4270, -960, 'stat')
-    , pNode('n1298',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4270, -740, 'stat')
-    , pNode('n1299',
-        {blue: 490}, {prestige: 38, str: 38}, 4270, -1007, 'stat')
-    , pNode('n1300',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4270, -693, 'stat')
-    , pNode('n1301',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4137, -934, 'stat')
-    , pNode('n1302',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4137, -766, 'stat')
-    , pNode('n1303',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4403, -766, 'stat')
-    , pNode('n1304',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4403, -934, 'stat')
-    , pNode('n1305', {}, {}, 4270, -850, 'skill', 'Вершина созидания',
+    , pNode('n1290', 4270, -790, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1291', 4322, -880, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1292', 4218, -880, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1293', 4175, -910, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1294', 4175, -790, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1295', 4365, -790, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1296', 4365, -910, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1297', 4270, -960, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1298', 4270, -740, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1299', 4270, -1007, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n1300', 4270, -693, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1301', 4137, -934, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1302', 4137, -766, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1303', 4403, -766, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1304', 4403, -934, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1305', 4270, -850, _S_, {}, {}, 'Вершина созидания',
         'Может быть усилена с помощью эфирных ядер.', 'create')
-    , pNode('n1306',
-        {blue: 650}, {prestige: 56, valor: 56}, 4325, -1330, 'stat')
-    , pNode('n1307',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4325, -1210, 'stat')
-    , pNode('n1308',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4515, -1210, 'stat')
-    , pNode('n1309',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4515, -1330, 'stat')
-    , pNode('n1310',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4359, -1380, 'stat')
-    , pNode('n1311',
-        {blue: 650}, {prestige: 56, luck: 56}, 4481, -1380, 'stat')
-    , pNode('n1312',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4359, -1160, 'stat')
-    , pNode('n1313',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4481, -1160, 'stat')
-    , pNode('n1314',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4420, -1380, 'stat')
-    , pNode('n1315',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4420, -1160, 'stat')
-    , pNode('n1316',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4287, -1354, 'stat')
-    , pNode('n1317',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4287, -1186, 'stat')
-    , pNode('n1318',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4553, -1186, 'stat')
-    , pNode('n1319',
-        {blue: 650}, {prestige: 56, str: 56}, 4553, -1354, 'stat')
-    , pNode('n1320',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4285, -1270, 'stat')
-    , pNode('n1321',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4555, -1270, 'stat')
-    , pNode('n1322', {blue: 350}, {prestige: 40}, 4420, -1270, 'skill',
+    , pNode('n1306', 4325, -1330, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1307', 4325, -1210, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1308', 4515, -1210, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1309', 4515, -1330, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1310', 4359, -1380, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1311', 4481, -1380, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1312', 4359, -1160, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1313', 4481, -1160, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1314', 4420, -1380, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1315', 4420, -1160, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1316', 4287, -1354, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1317', 4287, -1186, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1318', 4553, -1186, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1319', 4553, -1354, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1320', 4285, -1270, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1321', 4555, -1270, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1322', 4420, -1270, _S_, {blue: 350}, {prestige: 40},
         'Талант: Максимальная отдача',
         'Критический урон увеличен на 10% за каждый уровень этого символа.',
         'luck')
-    , pNode('n1323',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4880, -1210, 'stat')
-    , pNode('n1324',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4932, -1300, 'stat')
-    , pNode('n1325',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4828, -1300, 'stat')
-    , pNode('n1326',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4785, -1330, 'stat')
-    , pNode('n1327',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4785, -1210, 'stat')
-    , pNode('n1328',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4975, -1210, 'stat')
-    , pNode('n1329',
-        {blue: 650}, {prestige: 56, valor: 56}, 4975, -1330, 'stat')
-    , pNode('n1330',
-        {blue: 490}, {prestige: 38, spirit: 38}, 4880, -1380, 'stat')
-    , pNode('n1331',
-        {blue: 650}, {prestige: 56, str: 56}, 4880, -1160, 'stat')
-    , pNode('n1332',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4880, -1427, 'stat')
-    , pNode('n1333',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4880, -1113, 'stat')
-    , pNode('n1334',
-        {revelation: 300}, {prestige: 80, power: 80}, 4747, -1354, 'stat')
-    , pNode('n1335',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4747, -1186, 'stat')
-    , pNode('n1336',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5013, -1186, 'stat')
-    , pNode('n1337',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 5013, -1354, 'stat')
-    , pNode('n1338', {}, {}, 4880, -1270, 'skill', 'Вершина разрушения',
+    , pNode('n1323', 4880, -1210, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1324', 4932, -1300, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1325', 4828, -1300, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1326', 4785, -1330, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1327', 4785, -1210, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1328', 4975, -1210, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1329', 4975, -1330, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1330', 4880, -1380, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1331', 4880, -1160, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1332', 4880, -1427, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1333', 4880, -1113, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1334', 4747, -1354, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1335', 4747, -1186, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1336', 5013, -1186, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1337', 5013, -1354, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1338', 4880, -1270, _S_, {}, {}, 'Вершина разрушения',
         'Может быть усилена с помощью эфирных ядер.', 'destroy')
-    , pNode('n1339',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3805, 390, 'stat')
-    , pNode('n1340',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3805, 510, 'stat')
-    , pNode('n1341',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3995, 510, 'stat')
-    , pNode('n1342',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3995, 390, 'stat')
-    , pNode('n1343',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3839, 340, 'stat')
-    , pNode('n1344',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3961, 340, 'stat')
-    , pNode('n1345',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3839, 560, 'stat')
-    , pNode('n1346',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3961, 560, 'stat')
-    , pNode('n1347',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3900, 340, 'stat')
-    , pNode('n1348',
-        {blue: 810}, {prestige: 75, valor: 75}, 3900, 560, 'stat')
-    , pNode('n1349',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3767, 366, 'stat')
-    , pNode('n1350',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3767, 534, 'stat')
-    , pNode('n1351',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4033, 534, 'stat')
-    , pNode('n1352',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4033, 366, 'stat')
-    , pNode('n1353',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3765, 450, 'stat')
-    , pNode('n1354',
-        {blue: 490}, {prestige: 38, luck: 38}, 4035, 450, 'stat')
-    , pNode('n1355', {blue: 350}, {prestige: 40}, 3900, 450, 'skill',
+    , pNode('n1339', 3805, 390, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1340', 3805, 510, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1341', 3995, 510, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1342', 3995, 390, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1343', 3839, 340, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1344', 3961, 340, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1345', 3839, 560, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1346', 3961, 560, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1347', 3900, 340, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1348', 3900, 560, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n1349', 3767, 366, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1350', 3767, 534, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1351', 4033, 534, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1352', 4033, 366, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1353', 3765, 450, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1354', 4035, 450, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1355', 3900, 450, _S_, {blue: 350}, {prestige: 40},
         'Талант: Максимальная отдача',
         'Критический урон увеличен на 10% за каждый уровень этого символа.',
         'luck')
-    , pNode('n1356',
-        {blue: 490}, {prestige: 38, valor: 38}, 4270, 910, 'stat')
-    , pNode('n1357',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4322, 820, 'stat')
-    , pNode('n1358',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4218, 820, 'stat')
-    , pNode('n1359',
-        {blue: 650}, {prestige: 56, luck: 56}, 4175, 790, 'stat')
-    , pNode('n1360',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4175, 910, 'stat')
-    , pNode('n1361',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4365, 910, 'stat')
-    , pNode('n1362',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4365, 790, 'stat')
-    , pNode('n1363',
-        {blue: 650}, {prestige: 56, valor: 56}, 4270, 740, 'stat')
-    , pNode('n1364',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4270, 960, 'stat')
-    , pNode('n1365',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4270, 693, 'stat')
-    , pNode('n1366',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4270, 1007, 'stat')
-    , pNode('n1367',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4137, 766, 'stat')
-    , pNode('n1368',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4137, 934, 'stat')
-    , pNode('n1369',
-        {revelation: 300}, {prestige: 120, vit: 120}, 4403, 934, 'stat')
-    , pNode('n1370',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4403, 766, 'stat')
-    , pNode('n1371', {}, {}, 4270, 850, 'skill', 'Вершина равновесия',
+    , pNode('n1356', 4270, 910, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1357', 4322, 820, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1358', 4218, 820, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1359', 4175, 790, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1360', 4175, 910, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1361', 4365, 910, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1362', 4365, 790, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1363', 4270, 740, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1364', 4270, 960, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1365', 4270, 693, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1366', 4270, 1007, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1367', 4137, 766, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1368', 4137, 934, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1369', 4403, 934, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1370', 4403, 766, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1371', 4270, 850, _S_, {}, {}, 'Вершина равновесия',
         'Может быть усилена с помощью эфирных ядер.', 'balance')
-    , pNode('n1372',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4420, -390, 'stat')
-    , pNode('n1373',
-        {blue: 810}, {prestige: 75, spirit: 75}, 4472, -480, 'stat')
-    , pNode('n1374',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4368, -480, 'stat')
-    , pNode('n1375',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4325, -510, 'stat')
-    , pNode('n1376',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4325, -390, 'stat')
-    , pNode('n1377',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4515, -390, 'stat')
-    , pNode('n1378',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4515, -510, 'stat')
-    , pNode('n1379',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4359, -560, 'stat')
-    , pNode('n1380',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4481, -560, 'stat')
-    , pNode('n1381',
-        {blue: 650}, {prestige: 56, valor: 56}, 4359, -340, 'stat')
-    , pNode('n1382',
-        {blue: 490}, {prestige: 38, str: 38}, 4481, -340, 'stat')
-    , pNode('n1383',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4420, -560, 'stat')
-    , pNode('n1384',
-        {revelation: 300}, {prestige: 120, vit: 120}, 4420, -607, 'stat')
-    , pNode('n1385',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4420, -293, 'stat')
-    , pNode('n1386', {blue: 350}, {prestige: 40}, 4420, -450, 'skill',
+    , pNode('n1372', 4420, -390, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1373', 4472, -480, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n1374', 4368, -480, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1375', 4325, -510, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1376', 4325, -390, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1377', 4515, -390, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1378', 4515, -510, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1379', 4359, -560, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1380', 4481, -560, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1381', 4359, -340, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1382', 4481, -340, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n1383', 4420, -560, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1384', 4420, -607, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1385', 4420, -293, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1386', 4420, -450, _S_, {blue: 350}, {prestige: 40},
         'Талант: Интенсивность импульса',
         'Импульсный урон увеличен на 10% за каждый уровень этого символа.',
         'spirit')
-    , pNode('n1387',
-        {blue: 490}, {prestige: 38, spirit: 38}, 4420, 510, 'stat')
-    , pNode('n1388',
-        {blue: 650}, {prestige: 56, spirit: 56}, 4472, 420, 'stat')
-    , pNode('n1389',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4368, 420, 'stat')
-    , pNode('n1390',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4325, 390, 'stat')
-    , pNode('n1391',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4325, 510, 'stat')
-    , pNode('n1392',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4515, 510, 'stat')
-    , pNode('n1393',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4515, 390, 'stat')
-    , pNode('n1394',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4359, 340, 'stat')
-    , pNode('n1395',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4481, 340, 'stat')
-    , pNode('n1396',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4359, 560, 'stat')
-    , pNode('n1397',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4481, 560, 'stat')
-    , pNode('n1398',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4420, 340, 'stat')
-    , pNode('n1399',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4420, 293, 'stat')
-    , pNode('n1400',
-        {revelation: 300}, {prestige: 120, vit: 120}, 4420, 607, 'stat')
-    , pNode('n1401', {blue: 350}, {prestige: 40}, 4420, 450, 'skill',
+    , pNode('n1387', 4420, 510, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1388', 4472, 420, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1389', 4368, 420, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1390', 4325, 390, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1391', 4325, 510, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1392', 4515, 510, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1393', 4515, 390, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1394', 4359, 340, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1395', 4481, 340, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1396', 4359, 560, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1397', 4481, 560, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1398', 4420, 340, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1399', 4420, 293, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1400', 4420, 607, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1401', 4420, 450, _S_, {blue: 350}, {prestige: 40},
         'Талант: Мобилизация',
         'Дополнительный урон увеличен на 10% за каждый уровень этого символа.',
         'valor')
-    , pNode('n1402',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4730, -790, 'stat')
-    , pNode('n1403',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4782, -880, 'stat')
-    , pNode('n1404',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4678, -880, 'stat')
-    , pNode('n1405',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4669, -960, 'stat')
-    , pNode('n1406',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4791, -960, 'stat')
-    , pNode('n1407',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4669, -740, 'stat')
-    , pNode('n1408',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4791, -740, 'stat')
-    , pNode('n1409',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4730, -1007, 'stat')
-    , pNode('n1410',
-        {blue: 810}, {prestige: 75, spirit: 75}, 4730, -693, 'stat')
-    , pNode('n1411',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4597, -934, 'stat')
-    , pNode('n1412',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4597, -766, 'stat')
-    , pNode('n1413',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4863, -766, 'stat')
-    , pNode('n1414',
-        {blue: 650}, {prestige: 56, spirit: 56}, 4863, -934, 'stat')
-    , pNode('n1415',
-        {blue: 490}, {prestige: 38, luck: 38}, 4595, -850, 'stat')
-    , pNode('n1416',
-        {revelation: 300}, {prestige: 80, power: 80}, 4865, -850, 'stat')
-    , pNode('n1417', {blue: 350}, {prestige: 40}, 4730, -850, 'skill',
+    , pNode('n1402', 4730, -790, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1403', 4782, -880, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1404', 4678, -880, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1405', 4669, -960, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1406', 4791, -960, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1407', 4669, -740, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1408', 4791, -740, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1409', 4730, -1007, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1410', 4730, -693, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n1411', 4597, -934, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1412', 4597, -766, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1413', 4863, -766, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1414', 4863, -934, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1415', 4595, -850, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1416', 4865, -850, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1417', 4730, -850, _S_, {blue: 350}, {prestige: 40},
         'Талант: Стремительная атака',
         'В тесение 3 секунд после применения рывка наносимый урон увеличен на '+
         '6% за каждый уровень этого символа.',
         'rush')
-    , pNode('n1418',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 5190, -790, 'stat')
-    , pNode('n1419',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 5242, -880, 'stat')
-    , pNode('n1420',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 5138, -880, 'stat')
-    , pNode('n1421',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 5095, -910, 'stat')
-    , pNode('n1422',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 5095, -790, 'stat')
-    , pNode('n1423',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 5285, -790, 'stat')
-    , pNode('n1424',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 5285, -910, 'stat')
-    , pNode('n1425',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 5190, -960, 'stat')
-    , pNode('n1426',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 5190, -740, 'stat')
-    , pNode('n1427',
-        {blue: 650}, {prestige: 56, spirit: 56}, 5190, -1007, 'stat')
-    , pNode('n1428',
-        {revelation: 300}, {prestige: 120, vit: 120}, 5190, -693, 'stat')
-    , pNode('n1429',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5057, -934, 'stat')
-    , pNode('n1430',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 5057, -766, 'stat')
-    , pNode('n1431',
-        {blue: 810}, {prestige: 75, valor: 75}, 5323, -766, 'stat')
-    , pNode('n1432',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 5323, -934, 'stat')
-    , pNode('n1433', {blue: 350}, {prestige: 40}, 5190, -850, 'skill',
+    , pNode('n1418', 5190, -790, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1419', 5242, -880, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1420', 5138, -880, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1421', 5095, -910, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1422', 5095, -790, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1423', 5285, -790, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1424', 5285, -910, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1425', 5190, -960, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1426', 5190, -740, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1427', 5190, -1007, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1428', 5190, -693, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1429', 5057, -934, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1430', 5057, -766, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1431', 5323, -766, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n1432', 5323, -934, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1433', 5190, -850, _S_, {blue: 350}, {prestige: 40},
         'Талант: Повышенная боеготовность',
         'Боевые расходники восстанавливаются на 15/30% быстрее.',
         'alert')
-    , pNode('n1434',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4870, 60, 'stat')
-    , pNode('n1435',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4922, -30, 'stat')
-    , pNode('n1436',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4818, -30, 'stat')
-    , pNode('n1437',
-        {blue: 650}, {prestige: 56, spirit: 56}, 4775, -60, 'stat')
-    , pNode('n1438',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4775, 60, 'stat')
-    , pNode('n1439',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4965, 60, 'stat')
-    , pNode('n1440',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4965, -60, 'stat')
-    , pNode('n1441',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4809, -110, 'stat')
-    , pNode('n1442',
-        {blue: 810}, {prestige: 75, spirit: 75}, 4931, -110, 'stat')
-    , pNode('n1443',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4809, 110, 'stat')
-    , pNode('n1444',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4931, 110, 'stat')
-    , pNode('n1445',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4870, -110, 'stat')
-    , pNode('n1446',
-        {revelation: 300}, {prestige: 80, power: 80}, 4870, 110, 'stat')
-    , pNode('n1447',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4735, 0, 'stat')
-    , pNode('n1448',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 5005, 0, 'stat')
-    , pNode('n1449', {blue: 350}, {prestige: 40}, 4870, 0, 'skill',
+    , pNode('n1434', 4870, 60, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1435', 4922, -30, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1436', 4818, -30, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1437', 4775, -60, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1438', 4775, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1439', 4965, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1440', 4965, -60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1441', 4809, -110, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1442', 4931, -110, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n1443', 4809, 110, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1444', 4931, 110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1445', 4870, -110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1446', 4870, 110, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1447', 4735, 0, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1448', 5005, 0, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1449', 4870, 0, _S_, {blue: 350}, {prestige: 40},
         'Талант: Замедляющие атаки',
         'Наносимые удары периодически снижают скорость передвижения '+
         'противников на 10% за каждый уровень этого символа. Эффект длится 3 '+
         'секунды.',
         'slow')
-    , pNode('n1450',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4730, 910, 'stat')
-    , pNode('n1451',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4782, 820, 'stat')
-    , pNode('n1452',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4678, 820, 'stat')
-    , pNode('n1453',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4669, 740, 'stat')
-    , pNode('n1454',
-        {blue: 490}, {prestige: 38, spirit: 38}, 4791, 740, 'stat')
-    , pNode('n1455',
-        {blue: 650}, {prestige: 56, spirit: 56}, 4669, 960, 'stat')
-    , pNode('n1456',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4791, 960, 'stat')
-    , pNode('n1457',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4730, 693, 'stat')
-    , pNode('n1458',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4730, 1007, 'stat')
-    , pNode('n1459',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4597, 766, 'stat')
-    , pNode('n1460',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4597, 934, 'stat')
-    , pNode('n1461',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4863, 934, 'stat')
-    , pNode('n1462',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4863, 766, 'stat')
-    , pNode('n1463',
-        {blue: 810}, {prestige: 75, str: 75}, 4595, 850, 'stat')
-    , pNode('n1464',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4865, 850, 'stat')
-    , pNode('n1465', {blue: 350}, {prestige: 40}, 4730, 850, 'skill',
+    , pNode('n1450', 4730, 910, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1451', 4782, 820, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1452', 4678, 820, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1453', 4669, 740, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1454', 4791, 740, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1455', 4669, 960, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1456', 4791, 960, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1457', 4730, 693, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1458', 4730, 1007, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1459', 4597, 766, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1460', 4597, 934, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1461', 4863, 934, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1462', 4863, 766, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1463', 4595, 850, S_P, {blue: 810}, {prestige: 75, str: 75})
+    , pNode('n1464', 4865, 850, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1465', 4730, 850, _S_, {blue: 350}, {prestige: 40},
         'Талант: Инерция',
         'В течение 3 секунд после применения рывка скорость передвижения '+
         'увеличена на 12% за каждый уровень этого символа.',
         'inertia')
-    , pNode('n1466',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 5330, 60, 'stat')
-    , pNode('n1467',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 5382, -30, 'stat')
-    , pNode('n1468',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 5278, -30, 'stat')
-    , pNode('n1469',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 5235, -60, 'stat')
-    , pNode('n1470',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 5235, 60, 'stat')
-    , pNode('n1471',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 5425, 60, 'stat')
-    , pNode('n1472',
-        {blue: 650}, {prestige: 56, luck: 56}, 5425, -60, 'stat')
-    , pNode('n1473',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 5269, -110, 'stat')
-    , pNode('n1474',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 5391, -110, 'stat')
-    , pNode('n1475',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 5269, 110, 'stat')
-    , pNode('n1476',
-        {blue: 490}, {prestige: 38, spirit: 38}, 5391, 110, 'stat')
-    , pNode('n1477',
-        {blue: 650}, {prestige: 56, luck: 56}, 5330, -110, 'stat')
-    , pNode('n1478',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5330, -157, 'stat')
-    , pNode('n1479',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 5330, 157, 'stat')
-    , pNode('n1480', {blue: 4500},
+    , pNode('n1466', 5330, 60, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1467', 5382, -30, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1468', 5278, -30, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1469', 5235, -60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1470', 5235, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1471', 5425, 60, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1472', 5425, -60, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1473', 5269, -110, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1474', 5391, -110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1475', 5269, 110, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1476', 5391, 110, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1477', 5330, -110, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1478', 5330, -157, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1479', 5330, 157, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1480', 5330, 0, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        5330, 0,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n1481',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5190, 910, 'stat')
-    , pNode('n1482',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 5242, 820, 'stat')
-    , pNode('n1483',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 5138, 820, 'stat')
-    , pNode('n1484',
-        {blue: 650}, {prestige: 56, valor: 56}, 5095, 790, 'stat')
-    , pNode('n1485',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 5095, 910, 'stat')
-    , pNode('n1486',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 5285, 910, 'stat')
-    , pNode('n1487',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 5285, 790, 'stat')
-    , pNode('n1488',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 5129, 740, 'stat')
-    , pNode('n1489',
-        {blue: 490}, {prestige: 38, valor: 38}, 5251, 740, 'stat')
-    , pNode('n1490',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 5129, 960, 'stat')
-    , pNode('n1491',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 5251, 960, 'stat')
-    , pNode('n1492',
-        {revelation: 300}, {prestige: 120, vit: 120}, 5190, 740, 'stat')
-    , pNode('n1493',
-        {blue: 810}, {prestige: 75, valor: 75}, 5190, 960, 'stat')
-    , pNode('n1494',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 5055, 850, 'stat')
-    , pNode('n1495',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 5325, 850, 'stat')
-    , pNode('n1496', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 5190, 850,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n1497',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3960, 1330, 'stat')
-    , pNode('n1498',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4012, 1240, 'stat')
-    , pNode('n1499',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3908, 1240, 'stat')
-    , pNode('n1500',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3899, 1160, 'stat')
-    , pNode('n1501',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4021, 1160, 'stat')
-    , pNode('n1502',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3899, 1380, 'stat')
-    , pNode('n1503',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4021, 1380, 'stat')
-    , pNode('n1504',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3960, 1113, 'stat')
-    , pNode('n1505',
-        {blue: 490}, {prestige: 38, str: 38}, 3960, 1427, 'stat')
-    , pNode('n1506',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3827, 1186, 'stat')
-    , pNode('n1507',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3827, 1354, 'stat')
-    , pNode('n1508',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4093, 1354, 'stat')
-    , pNode('n1509',
-        {revelation: 300}, {prestige: 120, vit: 120}, 4093, 1186, 'stat')
-    , pNode('n1510',
-        {blue: 810}, {prestige: 75, luck: 75}, 3825, 1270, 'stat')
-    , pNode('n1511',
-        {blue: 650}, {prestige: 56, valor: 56}, 4095, 1270, 'stat')
-    , pNode('n1512', {blue: 350}, {prestige: 40}, 3960, 1270, 'skill',
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n1481', 5190, 910, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1482', 5242, 820, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1483', 5138, 820, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1484', 5095, 790, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1485', 5095, 910, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1486', 5285, 910, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1487', 5285, 790, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1488', 5129, 740, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1489', 5251, 740, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1490', 5129, 960, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1491', 5251, 960, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1492', 5190, 740, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1493', 5190, 960, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n1494', 5055, 850, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1495', 5325, 850, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1496', 5190, 850, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n1497', 3960, 1330, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1498', 4012, 1240, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1499', 3908, 1240, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1500', 3899, 1160, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1501', 4021, 1160, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1502', 3899, 1380, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1503', 4021, 1380, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1504', 3960, 1113, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1505', 3960, 1427, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n1506', 3827, 1186, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1507', 3827, 1354, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1508', 4093, 1354, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1509', 4093, 1186, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1510', 3825, 1270, S_P, {blue: 810}, {prestige: 75, luck: 75})
+    , pNode('n1511', 4095, 1270, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1512', 3960, 1270, _S_, {blue: 350}, {prestige: 40},
         'Талант: Жизненная энергия',
         'Использование сфер здоровья увеличивает скорость передвижения на 30% '+
         'и уменьшает входящий урон на 40%. Длительность эффекта - 3 секунды '+
         'за каждый уровень этого символа.',
         'life')
-    , pNode('n1513',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1610, 2180, 'stat')
-    , pNode('n1514',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1662, 2090, 'stat')
-    , pNode('n1515',
-        {blue: 650}, {prestige: 56, valor: 56}, 1558, 2090, 'stat')
-    , pNode('n1516',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1549, 2010, 'stat')
-    , pNode('n1517',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1671, 2010, 'stat')
-    , pNode('n1518',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1549, 2230, 'stat')
-    , pNode('n1519',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 1671, 2230, 'stat')
-    , pNode('n1520',
-        {blue: 650}, {prestige: 56, luck: 56}, 1610, 1963, 'stat')
-    , pNode('n1521',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1610, 2277, 'stat')
-    , pNode('n1522',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 1477, 2036, 'stat')
-    , pNode('n1523',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1477, 2204, 'stat')
-    , pNode('n1524',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1743, 2204, 'stat')
-    , pNode('n1525',
-        {revelation: 300}, {prestige: 80, str: 80}, 1743, 2036, 'stat')
-    , pNode('n1526',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1475, 2120, 'stat')
-    , pNode('n1527',
-        {blue: 490}, {prestige: 38, luck: 38}, 1745, 2120, 'stat')
-    , pNode('n1528', {blue: 350}, {prestige: 40}, 1610, 2120, 'skill',
+    , pNode('n1513', 1610, 2180, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1514', 1662, 2090, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1515', 1558, 2090, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1516', 1549, 2010, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1517', 1671, 2010, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1518', 1549, 2230, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1519', 1671, 2230, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1520', 1610, 1963, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1521', 1610, 2277, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1522', 1477, 2036, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1523', 1477, 2204, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1524', 1743, 2204, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1525', 1743, 2036, S_P, {revelation: 300}, {prestige: 80, str: 80})
+    , pNode('n1526', 1475, 2120, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1527', 1745, 2120, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1528', 1610, 2120, _S_, {blue: 350}, {prestige: 40},
         'Талант: Мобилизация',
         'Дополнительный урон увеличен на 10% за каждый уровень этого символа.',
         'valor')
-    , pNode('n1529',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2070, 2180, 'stat')
-    , pNode('n1530',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2122, 2090, 'stat')
-    , pNode('n1531',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2018, 2090, 'stat')
-    , pNode('n1532',
-        {blue: 650}, {prestige: 56, valor: 56}, 1975, 2060, 'stat')
-    , pNode('n1533',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1975, 2180, 'stat')
-    , pNode('n1534',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2165, 2180, 'stat')
-    , pNode('n1535',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2165, 2060, 'stat')
-    , pNode('n1536',
-        {blue: 650}, {prestige: 56, spirit: 56}, 2070, 2010, 'stat')
-    , pNode('n1537',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2070, 2230, 'stat')
-    , pNode('n1538',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2070, 1963, 'stat')
-    , pNode('n1539',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2070, 2277, 'stat')
-    , pNode('n1540',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 1937, 2036, 'stat')
-    , pNode('n1541',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1937, 2204, 'stat')
-    , pNode('n1542',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2203, 2204, 'stat')
-    , pNode('n1543',
-        {blue: 650}, {prestige: 56, spirit: 56}, 2203, 2036, 'stat')
-    , pNode('n1544', {blue: 350}, {prestige: 40}, 2070, 2120, 'skill',
+    , pNode('n1529', 2070, 2180, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1530', 2122, 2090, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1531', 2018, 2090, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1532', 1975, 2060, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1533', 1975, 2180, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1534', 2165, 2180, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1535', 2165, 2060, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1536', 2070, 2010, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1537', 2070, 2230, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1538', 2070, 1963, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1539', 2070, 2277, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1540', 1937, 2036, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1541', 1937, 2204, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1542', 2203, 2204, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1543', 2203, 2036, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1544', 2070, 2120, _S_, {blue: 350}, {prestige: 40},
         'Талант: Максимальная отдача',
         'Критический урон увеличен на 10% за каждый уровень этого символа.',
         'luck')
-    , pNode('n1545',
-        {blue: 650}, {prestige: 56, valor: 56}, 2775, 1680, 'stat')
-    , pNode('n1546',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2775, 1800, 'stat')
-    , pNode('n1547',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2965, 1800, 'stat')
-    , pNode('n1548',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2965, 1680, 'stat')
-    , pNode('n1549',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2809, 1630, 'stat')
-    , pNode('n1550',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2931, 1630, 'stat')
-    , pNode('n1551',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2809, 1850, 'stat')
-    , pNode('n1552',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2931, 1850, 'stat')
-    , pNode('n1553',
-        {blue: 490}, {prestige: 38, spirit: 38}, 2870, 1630, 'stat')
-    , pNode('n1554',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2870, 1850, 'stat')
-    , pNode('n1555',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2737, 1656, 'stat')
-    , pNode('n1556',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2737, 1824, 'stat')
-    , pNode('n1557',
-        {blue: 490}, {prestige: 38, luck: 38}, 3003, 1824, 'stat')
-    , pNode('n1558',
-        {revelation: 300}, {prestige: 80, power: 80}, 3003, 1656, 'stat')
-    , pNode('n1559',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2735, 1740, 'stat')
-    , pNode('n1560',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3005, 1740, 'stat')
-    , pNode('n1561', {blue: 350}, {prestige: 40}, 2870, 1740, 'skill',
+    , pNode('n1545', 2775, 1680, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1546', 2775, 1800, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1547', 2965, 1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1548', 2965, 1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1549', 2809, 1630, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1550', 2931, 1630, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1551', 2809, 1850, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1552', 2931, 1850, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1553', 2870, 1630, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1554', 2870, 1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1555', 2737, 1656, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1556', 2737, 1824, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1557', 3003, 1824, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1558', 3003, 1656, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1559', 2735, 1740, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1560', 3005, 1740, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1561', 2870, 1740, _S_, {blue: 350}, {prestige: 40},
         'Талант: Равновесие',
         'Персонаж получает на 6% меньше урона за каждый уровень этого '+
         'символа, если он находиться в бою с тремя или более противниками.',
         'equilibrium')
-    , pNode('n1562',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3405, 1680, 'stat')
-    , pNode('n1563',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3405, 1800, 'stat')
-    , pNode('n1564',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3595, 1800, 'stat')
-    , pNode('n1565',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3595, 1680, 'stat')
-    , pNode('n1566',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3439, 1630, 'stat')
-    , pNode('n1567',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3561, 1630, 'stat')
-    , pNode('n1568',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3439, 1850, 'stat')
-    , pNode('n1569',
-        {blue: 650}, {prestige: 56, spirit: 56}, 3561, 1850, 'stat')
-    , pNode('n1570',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3500, 1630, 'stat')
-    , pNode('n1571',
-        {green: 165}, {prestige: 32, vit: 32}, 3500, 1850, 'stat')
-    , pNode('n1572',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3367, 1656, 'stat')
-    , pNode('n1573',
-        {blue: 650}, {prestige: 56, valor: 56}, 3367, 1824, 'stat')
-    , pNode('n1574',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3633, 1824, 'stat')
-    , pNode('n1575',
-        {revelation: 300}, {prestige: 120, vit: 120}, 3633, 1656, 'stat')
-    , pNode('n1576',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3365, 1740, 'stat')
-    , pNode('n1577',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3635, 1740, 'stat')
-    , pNode('n1578', {blue: 350}, {prestige: 40}, 3500, 1740, 'skill',
+    , pNode('n1562', 3405, 1680, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1563', 3405, 1800, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1564', 3595, 1800, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1565', 3595, 1680, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1566', 3439, 1630, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1567', 3561, 1630, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1568', 3439, 1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1569', 3561, 1850, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1570', 3500, 1630, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1571', 3500, 1850, S_P, {green: 165}, {prestige: 32, vit: 32})
+    , pNode('n1572', 3367, 1656, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1573', 3367, 1824, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1574', 3633, 1824, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1575', 3633, 1656, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1576', 3365, 1740, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1577', 3635, 1740, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1578', 3500, 1740, _S_, {blue: 350}, {prestige: 40},
         'Талант: Метка смерти',
         'Наносимые атаки могут оставить на противнике метку смерти. Метка '+
         'существует 6 секунд, по истечении которых нанесёт противнику '+
         '15/22/30% урона, полученного от создателя за это время.',
         'death')
-    , pNode('n1579',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 135, -1800, 'stat')
-    , pNode('n1580',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 135, -1680, 'stat')
-    , pNode('n1581',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 325, -1680, 'stat')
-    , pNode('n1582',
-        {blue: 575}, {prestige: 30, majesty: 250}, 325, -1800, 'stat')
-    , pNode('n1583',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 169, -1850, 'stat')
-    , pNode('n1584',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 291, -1850, 'stat')
-    , pNode('n1585',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 169, -1630, 'stat')
-    , pNode('n1586',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 291, -1630, 'stat')
-    , pNode('n1587',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 230, -1850, 'stat')
-    , pNode('n1588',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 230, -1630, 'stat')
-    , pNode('n1589',
-        {revelation: 300}, {prestige: 80, power: 80}, 97, -1824, 'stat')
-    , pNode('n1590',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 97, -1656, 'stat')
-    , pNode('n1591',
-        {blue: 810}, {prestige: 75, str: 75}, 363, -1656, 'stat')
-    , pNode('n1592',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 363, -1824, 'stat')
-    , pNode('n1593',
-        {blue: 650}, {prestige: 56, luck: 56}, 95, -1740, 'stat')
-    , pNode('n1594',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 365, -1740, 'stat')
-    , pNode('n1595', {blue: 275}, {prestige: 40}, 230, -1740, 'skill',
+    , pNode('n1579', 135, -1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1580', 135, -1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1581', 325, -1680, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1582', 325, -1800, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1583', 169, -1850, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1584', 291, -1850, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1585', 169, -1630, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1586', 291, -1630, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1587', 230, -1850, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1588', 230, -1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1589', 97, -1824, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1590', 97, -1656, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1591', 363, -1656, S_P, {blue: 810}, {prestige: 75, str: 75})
+    , pNode('n1592', 363, -1824, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1593', 95, -1740, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1594', 365, -1740, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1595', 230, -1740, _S_, {blue: 275}, {prestige: 40},
         'Талант: Прилив адренална',
         'При получении урона скорость перемещения может увеличиться на 15% за '+
         'каждый уровень этого символа. Длительность эффекта - 5 секунд, а '+
@@ -3551,310 +2054,177 @@ const nodesData =
         '<p>Эффект ускорения работает постоянно, если уровень здоровья падает '+
         'ниже 20%.',
         'adrenaline')
-    , pNode('n1596',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1310, -590, 'stat')
-    , pNode('n1597',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1258, -680, 'stat')
-    , pNode('n1598',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1362, -680, 'stat')
-    , pNode('n1599',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1405, -710, 'stat')
-    , pNode('n1600',
-        {blue: 490}, {prestige: 38, luck: 38}, -1405, -590, 'stat')
-    , pNode('n1601',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1215, -590, 'stat')
-    , pNode('n1602',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1215, -710, 'stat')
-    , pNode('n1603',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1371, -760, 'stat')
-    , pNode('n1604',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1249, -760, 'stat')
-    , pNode('n1605',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1371, -540, 'stat')
-    , pNode('n1606',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1249, -540, 'stat')
-    , pNode('n1607',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1310, -760, 'stat')
-    , pNode('n1608',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1310, -540, 'stat')
-    , pNode('n1609',
-        {blue: 810}, {prestige: 75, str: 75}, -1445, -650, 'stat')
-    , pNode('n1610',
-        {blue: 650}, {prestige: 56, valor: 56}, -1175, -650, 'stat')
-    , pNode('n1611', {blue: 350}, {prestige: 40}, -1310, -650, 'skill',
+    , pNode('n1596', -1310, -590, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1597', -1258, -680, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1598', -1362, -680, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1599', -1405, -710, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1600', -1405, -590, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1601', -1215, -590, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1602', -1215, -710, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1603', -1371, -760, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1604', -1249, -760, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1605', -1371, -540, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1606', -1249, -540, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1607', -1310, -760, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1608', -1310, -540, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1609', -1445, -650, S_P, {blue: 810}, {prestige: 75, str: 75})
+    , pNode('n1610', -1175, -650, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1611', -1310, -650, _S_, {blue: 350}, {prestige: 40},
         'Талант: Максимальная отдача',
         'Критический урон увеличен на 10% за каждый уровень этого символа.',
         'luck')
-    , pNode('n1612',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1740, -590, 'stat')
-    , pNode('n1613',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1688, -680, 'stat')
-    , pNode('n1614',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1792, -680, 'stat')
-    , pNode('n1615',
-        {blue: 490}, {prestige: 38, str: 38}, -1835, -710, 'stat')
-    , pNode('n1616',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1835, -590, 'stat')
-    , pNode('n1617',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1645, -590, 'stat')
-    , pNode('n1618',
-        {revelation: 300}, {prestige: 80, power: 80}, -1645, -710, 'stat')
-    , pNode('n1619',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1801, -760, 'stat')
-    , pNode('n1620',
-        {blue: 650}, {prestige: 56, spirit: 56}, -1679, -760, 'stat')
-    , pNode('n1621',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1801, -540, 'stat')
-    , pNode('n1622',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1679, -540, 'stat')
-    , pNode('n1623',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1740, -760, 'stat')
-    , pNode('n1624',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1740, -807, 'stat')
-    , pNode('n1625',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1740, -493, 'stat')
-    , pNode('n1626', {blue: 350}, {prestige: 40}, -1740, -650, 'skill',
+    , pNode('n1612', -1740, -590, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1613', -1688, -680, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1614', -1792, -680, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1615', -1835, -710, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n1616', -1835, -590, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1617', -1645, -590, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1618', -1645, -710, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1619', -1801, -760, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1620', -1679, -760, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1621', -1801, -540, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1622', -1679, -540, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1623', -1740, -760, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1624', -1740, -807, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1625', -1740, -493, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1626', -1740, -650, _S_, {blue: 350}, {prestige: 40},
         'Талант: Интенсивность импульса',
         'Импульсный урон увеличен на 10% за каждый уровень этого символа.',
         'spirit')
-    , pNode('n1627',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2110, 60, 'stat')
-    , pNode('n1628',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2058, -30, 'stat')
-    , pNode('n1629',
-        {blue: 810}, {prestige: 75, str: 75}, -2162, -30, 'stat')
-    , pNode('n1630',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -2171, -110, 'stat')
-    , pNode('n1631',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2049, -110, 'stat')
-    , pNode('n1632',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2171, 110, 'stat')
-    , pNode('n1633',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2049, 110, 'stat')
-    , pNode('n1634',
-        {blue: 810}, {prestige: 75, luck: 75}, -2110, -157, 'stat')
-    , pNode('n1635',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2110, 157, 'stat')
-    , pNode('n1636',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2243, -84, 'stat')
-    , pNode('n1637',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -2243, 84, 'stat')
-    , pNode('n1638',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1977, 84, 'stat')
-    , pNode('n1639',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1977, -84, 'stat')
-    , pNode('n1640',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2245, 0, 'stat')
-    , pNode('n1641',
-        {blue: 490}, {prestige: 38, str: 38}, -1975, 0, 'stat')
-    , pNode('n1642', {}, {}, -2110, 0, 'skill', 'Вершина разрушения',
+    , pNode('n1627', -2110, 60, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1628', -2058, -30, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1629', -2162, -30, S_P, {blue: 810}, {prestige: 75, str: 75})
+    , pNode('n1630', -2171, -110, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1631', -2049, -110, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1632', -2171, 110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1633', -2049, 110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1634', -2110, -157, S_P, {blue: 810}, {prestige: 75, luck: 75})
+    , pNode('n1635', -2110, 157, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1636', -2243, -84, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1637', -2243, 84, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1638', -1977, 84, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1639', -1977, -84, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1640', -2245, 0, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1641', -1975, 0, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n1642', -2110, 0, _S_, {}, {}, 'Вершина разрушения',
         'Может быть усилена с помощью эфирных ядер.', 'destroy')
-    , pNode('n1643',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2570, 60, 'stat')
-    , pNode('n1644',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -2518, -30, 'stat')
-    , pNode('n1645',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2622, -30, 'stat')
-    , pNode('n1646',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2665, -60, 'stat')
-    , pNode('n1647',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2665, 60, 'stat')
-    , pNode('n1648',
-        {blue: 650}, {prestige: 56, str: 56}, -2475, 60, 'stat')
-    , pNode('n1649',
-        {blue: 490}, {prestige: 38, spirit: 38}, -2475, -60, 'stat')
-    , pNode('n1650',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2570, -110, 'stat')
-    , pNode('n1651',
-        {blue: 490}, {prestige: 38, spirit: 38}, -2570, 110, 'stat')
-    , pNode('n1652',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2570, -157, 'stat')
-    , pNode('n1653',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2570, 157, 'stat')
-    , pNode('n1654',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2703, -84, 'stat')
-    , pNode('n1655',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -2703, 84, 'stat')
-    , pNode('n1656',
-        {revelation: 300}, {prestige: 120, vit: 120}, -2437, 84, 'stat')
-    , pNode('n1657',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -2437, -84, 'stat')
-    , pNode('n1658', {blue: 350}, {prestige: 40}, -2570, 0, 'skill',
+    , pNode('n1643', -2570, 60, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1644', -2518, -30, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1645', -2622, -30, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1646', -2665, -60, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1647', -2665, 60, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1648', -2475, 60, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1649', -2475, -60, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1650', -2570, -110, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1651', -2570, 110, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1652', -2570, -157, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1653', -2570, 157, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1654', -2703, -84, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1655', -2703, 84, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1656', -2437, 84, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1657', -2437, -84, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1658', -2570, 0, _S_, {blue: 350}, {prestige: 40},
         'Талант: Метка смерти',
         'Наносимые атаки могут оставить на противнике метку смерти. Метка '+
         'существует 6 секунд, по истечении которых нанесёт противнику '+
         '15/22/30% урона, полученного от создателя за это время.',
         'death')
-    , pNode('n1659',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2200, -590, 'stat')
-    , pNode('n1660',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2148, -680, 'stat')
-    , pNode('n1661',
-        {blue: 650}, {prestige: 56, luck: 56}, -2252, -680, 'stat')
-    , pNode('n1662',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2295, -710, 'stat')
-    , pNode('n1663',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2295, -590, 'stat')
-    , pNode('n1664',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2105, -590, 'stat')
-    , pNode('n1665',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -2105, -710, 'stat')
-    , pNode('n1666',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2261, -760, 'stat')
-    , pNode('n1667',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2139, -760, 'stat')
-    , pNode('n1668',
-        {revelation: 300}, {prestige: 120, vit: 120}, -2261, -540, 'stat')
-    , pNode('n1669',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -2139, -540, 'stat')
-    , pNode('n1670',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2200, -760, 'stat')
-    , pNode('n1671',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -2200, -540, 'stat')
-    , pNode('n1672',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -2335, -650, 'stat')
-    , pNode('n1673',
-        {blue: 810}, {prestige: 75, luck: 75}, -2065, -650, 'stat')
-    , pNode('n1674', {blue: 350}, {prestige: 40}, -2200, -650, 'skill',
+    , pNode('n1659', -2200, -590, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1660', -2148, -680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1661', -2252, -680, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1662', -2295, -710, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1663', -2295, -590, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1664', -2105, -590, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1665', -2105, -710, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1666', -2261, -760, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1667', -2139, -760, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1668', -2261, -540, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1669', -2139, -540, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1670', -2200, -760, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1671', -2200, -540, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1672', -2335, -650, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1673', -2065, -650, S_P, {blue: 810}, {prestige: 75, luck: 75})
+    , pNode('n1674', -2200, -650, _S_, {blue: 350}, {prestige: 40},
         'Талант: Двойной разряд',
         '"Импульсный разряд" может быть активирован два раза подряд после '+
         'своего восстановления. Шанс увеличивается на 12% за каждый уровень '+
         'этого символа.',
         'double')
-    , pNode('n1675',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2200, 710, 'stat')
-    , pNode('n1676',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2148, 620, 'stat')
-    , pNode('n1677',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2252, 620, 'stat')
-    , pNode('n1678',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2295, 590, 'stat')
-    , pNode('n1679',
-        {blue: 650}, {prestige: 56, valor: 56}, -2295, 710, 'stat')
-    , pNode('n1680',
-        {blue: 810}, {prestige: 75, valor: 75}, -2105, 710, 'stat')
-    , pNode('n1681',
-        {blue: 490}, {prestige: 38, valor: 38}, -2105, 590, 'stat')
-    , pNode('n1682',
-        {revelation: 300}, {prestige: 120, vit: 120}, -2261, 540, 'stat')
-    , pNode('n1683',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2139, 540, 'stat')
-    , pNode('n1684',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2261, 760, 'stat')
-    , pNode('n1685',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2139, 760, 'stat')
-    , pNode('n1686',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -2200, 540, 'stat')
-    , pNode('n1687',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2200, 760, 'stat')
-    , pNode('n1688',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -2335, 650, 'stat')
-    , pNode('n1689',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2065, 650, 'stat')
-    , pNode('n1690', {blue: 350}, {prestige: 40}, -2200, 650, 'skill',
+    , pNode('n1675', -2200, 710, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1676', -2148, 620, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1677', -2252, 620, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1678', -2295, 590, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1679', -2295, 710, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1680', -2105, 710, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n1681', -2105, 590, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1682', -2261, 540, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1683', -2139, 540, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1684', -2261, 760, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1685', -2139, 760, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1686', -2200, 540, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1687', -2200, 760, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1688', -2335, 650, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1689', -2065, 650, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1690', -2200, 650, _S_, {blue: 350}, {prestige: 40},
         'Талант: Компаньон: особый боевой режим',
         'Применение атакующих умений в бою с некоторой вероятностью позволит '+
         'компаньону начать самостоятельно атаковать противника персонажа в '+
         'течение 18/25 секунд и отвлекать огонь противников на себя.',
         'okulat')
-    , pNode('n1691',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1740, 710, 'stat')
-    , pNode('n1692',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1688, 620, 'stat')
-    , pNode('n1693',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1792, 620, 'stat')
-    , pNode('n1694',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1835, 590, 'stat')
-    , pNode('n1695',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1835, 710, 'stat')
-    , pNode('n1696',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1645, 710, 'stat')
-    , pNode('n1697',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1645, 590, 'stat')
-    , pNode('n1698',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1801, 540, 'stat')
-    , pNode('n1699',
-        {blue: 490}, {prestige: 38, spirit: 38}, -1679, 540, 'stat')
-    , pNode('n1700',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1801, 760, 'stat')
-    , pNode('n1701',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1679, 760, 'stat')
-    , pNode('n1702',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1740, 540, 'stat')
-    , pNode('n1703',
-        {blue: 810}, {prestige: 75, spirit: 75}, -1740, 493, 'stat')
-    , pNode('n1704',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1740, 807, 'stat')
-    , pNode('n1705', {blue: 350}, {prestige: 40}, -1740, 650, 'skill',
+    , pNode('n1691', -1740, 710, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1692', -1688, 620, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1693', -1792, 620, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1694', -1835, 590, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1695', -1835, 710, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1696', -1645, 710, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1697', -1645, 590, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1698', -1801, 540, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1699', -1679, 540, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1700', -1801, 760, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1701', -1679, 760, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1702', -1740, 540, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1703', -1740, 493, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n1704', -1740, 807, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1705', -1740, 650, _S_, {blue: 350}, {prestige: 40},
         'Талант: Мобилизация',
         'Дополнительный урон увеличен на 10% за каждый уровень этого символа.',
         'valor')
-    , pNode('n1706',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1310, 710, 'stat')
-    , pNode('n1707',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1258, 620, 'stat')
-    , pNode('n1708',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1362, 620, 'stat')
-    , pNode('n1709',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1405, 590, 'stat')
-    , pNode('n1710',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1405, 710, 'stat')
-    , pNode('n1711',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1215, 710, 'stat')
-    , pNode('n1712',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1215, 590, 'stat')
-    , pNode('n1713',
-        {blue: 650}, {prestige: 56, spirit: 56}, -1310, 540, 'stat')
-    , pNode('n1714',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1310, 760, 'stat')
-    , pNode('n1715',
-        {blue: 650}, {prestige: 56, luck: 56}, -1310, 493, 'stat')
-    , pNode('n1716',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1310, 807, 'stat')
-    , pNode('n1717',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1443, 566, 'stat')
-    , pNode('n1718',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1443, 734, 'stat')
-    , pNode('n1719',
-        {blue: 650}, {prestige: 56, valor: 56}, -1177, 734, 'stat')
-    , pNode('n1720',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1177, 566, 'stat')
-    , pNode('n1721', {blue: 350}, {prestige: 40}, -1310, 650, 'skill',
+    , pNode('n1706', -1310, 710, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1707', -1258, 620, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1708', -1362, 620, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1709', -1405, 590, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1710', -1405, 710, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1711', -1215, 710, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1712', -1215, 590, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1713', -1310, 540, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1714', -1310, 760, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1715', -1310, 493, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1716', -1310, 807, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1717', -1443, 566, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1718', -1443, 734, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1719', -1177, 734, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1720', -1177, 566, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1721', -1310, 650, _S_, {blue: 350}, {prestige: 40},
         'Талант: Предельная сила',
         'Влияние показателя силы на базовый урон увеличено на 10% за '+
         'каждый уровень этого символа.',
         'str')
-    , pNode('n1722',
-        {blue: 650}, {prestige: 56, valor: 56}, -1580, -1140, 'stat')
-    , pNode('n1723',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1528, -1230, 'stat')
-    , pNode('n1724',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1632, -1230, 'stat')
-    , pNode('n1725',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1641, -1310, 'stat')
-    , pNode('n1726',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1519, -1310, 'stat')
-    , pNode('n1727',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1641, -1090, 'stat')
-    , pNode('n1728',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1519, -1090, 'stat')
-    , pNode('n1729',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1580, -1357, 'stat')
-    , pNode('n1730',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1580, -1043, 'stat')
-    , pNode('n1731',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1713, -1284, 'stat')
-    , pNode('n1732',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1713, -1116, 'stat')
-    , pNode('n1733',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1447, -1116, 'stat')
-    , pNode('n1734',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1447, -1284, 'stat')
-    , pNode('n1735',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1715, -1200, 'stat')
-    , pNode('n1736',
-        {blue: 650}, {prestige: 56, str: 56}, -1445, -1200, 'stat')
-    , pNode('n1737', {blue: 350}, {prestige: 40}, -1580, -1200, 'skill',
+    , pNode('n1722', -1580, -1140, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1723', -1528, -1230, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1724', -1632, -1230, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1725', -1641, -1310, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1726', -1519, -1310, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1727', -1641, -1090, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1728', -1519, -1090, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1729', -1580, -1357, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1730', -1580, -1043, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1731', -1713, -1284, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1732', -1713, -1116, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1733', -1447, -1116, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1734', -1447, -1284, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1735', -1715, -1200, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1736', -1445, -1200, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1737', -1580, -1200, _S_, {blue: 350}, {prestige: 40},
         'Талант: Беспощадность',
         'Противники под эффектом оглущения, обездвиживания, страха или '+
         'ослепления получают от персонажа на 7% больше урона за каждый '+
@@ -3862,345 +2232,193 @@ const nodesData =
         '<p>Противники под эффектом замедления получают на 2% больше урона за '+
         'каждый уровень этого символа.',
         'ruthlessness')
-    , pNode('n1738',
-        {blue: 650}, {prestige: 56, luck: 56}, -1705, -1800, 'stat')
-    , pNode('n1739',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1705, -1680, 'stat')
-    , pNode('n1740',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1515, -1680, 'stat')
-    , pNode('n1741',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1515, -1800, 'stat')
-    , pNode('n1742',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1671, -1850, 'stat')
-    , pNode('n1743',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1549, -1850, 'stat')
-    , pNode('n1744',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1671, -1630, 'stat')
-    , pNode('n1745',
-        {blue: 650}, {prestige: 56, luck: 56}, -1549, -1630, 'stat')
-    , pNode('n1746',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1610, -1850, 'stat')
-    , pNode('n1747',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1610, -1630, 'stat')
-    , pNode('n1748',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1743, -1824, 'stat')
-    , pNode('n1749',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1743, -1656, 'stat')
-    , pNode('n1750',
-        {blue: 650}, {prestige: 56, valor: 56}, -1477, -1656, 'stat')
-    , pNode('n1751',
-        {green: 650}, {prestige: 175, vit: 75, dex: 24}, -1477, -1824, 'stat')
-    , pNode('n1752',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1745, -1740, 'stat')
-    , pNode('n1753',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1475, -1740, 'stat')
-    , pNode('n1754', {}, {}, -1610, -1740, 'skill', 'Вершина разрушения',
+    , pNode('n1738', -1705, -1800, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1739', -1705, -1680, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1740', -1515, -1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1741', -1515, -1800, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1742', -1671, -1850, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1743', -1549, -1850, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1744', -1671, -1630, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1745', -1549, -1630, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1746', -1610, -1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1747', -1610, -1630, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1748', -1743, -1824, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1749', -1743, -1656, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1750', -1477, -1656, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1751', -1477, -1824, S_P, {green: 650}, {prestige: 175, vit: 75, dex: 24})
+    , pNode('n1752', -1745, -1740, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1753', -1475, -1740, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1754', -1610, -1740, _S_, {}, {}, 'Вершина разрушения',
         'Может быть усилена с помощью эфирных ядер.', 'destroy')
-    , pNode('n1755',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -3030, 60, 'stat')
-    , pNode('n1756',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -2978, -30, 'stat')
-    , pNode('n1757',
-        {blue: 775}, {prestige: 56, str: 56}, -3082, -30, 'stat')
-    , pNode('n1758',
-        {blue: 775}, {prestige: 56, valor: 56}, -3125, -60, 'stat')
-    , pNode('n1759',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -3125, 60, 'stat')
-    , pNode('n1760',
-        {revelation: 300}, {prestige: 80, power: 80}, -2935, 60, 'stat')
-    , pNode('n1761',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2935, -60, 'stat')
-    , pNode('n1762',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -3091, -110, 'stat')
-    , pNode('n1763',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -2969, -110, 'stat')
-    , pNode('n1764',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -3091, 110, 'stat')
-    , pNode('n1765',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -2969, 110, 'stat')
-    , pNode('n1766',
-        {blue: 585}, {prestige: 38, valor: 38}, -3030, -110, 'stat')
-    , pNode('n1767',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -3030, -157, 'stat')
-    , pNode('n1768',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -3030, 157, 'stat')
-    , pNode('n1769', {}, {}, -3030, 0, 'skill', 'Вершина равновесия',
+    , pNode('n1755', -3030, 60, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n1756', -2978, -30, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1757', -3082, -30, S_P, {blue: 775}, {prestige: 56, str: 56})
+    , pNode('n1758', -3125, -60, S_P, {blue: 775}, {prestige: 56, valor: 56})
+    , pNode('n1759', -3125, 60, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1760', -2935, 60, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1761', -2935, -60, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1762', -3091, -110, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1763', -2969, -110, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1764', -3091, 110, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1765', -2969, 110, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1766', -3030, -110, S_P, {blue: 585}, {prestige: 38, valor: 38})
+    , pNode('n1767', -3030, -157, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1768', -3030, 157, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1769', -3030, 0, _S_, {}, {}, 'Вершина равновесия',
         'Может быть усилена с помощью эфирных ядер.', 'balance')
-    , pNode('n1770',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 780, 2640, 'stat')
-    , pNode('n1771',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 832, 2550, 'stat')
-    , pNode('n1772',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 728, 2550, 'stat')
-    , pNode('n1773',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 685, 2520, 'stat')
-    , pNode('n1774',
-        {blue: 650}, {prestige: 56, spirit: 56}, 685, 2640, 'stat')
-    , pNode('n1775',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 875, 2640, 'stat')
-    , pNode('n1776',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 875, 2520, 'stat')
-    , pNode('n1777',
-        {blue: 490}, {prestige: 38, valor: 38}, 719, 2470, 'stat')
-    , pNode('n1778',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 841, 2470, 'stat')
-    , pNode('n1779',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 719, 2690, 'stat')
-    , pNode('n1780',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 841, 2690, 'stat')
-    , pNode('n1781',
-        {revelation: 300}, {prestige: 120, vit: 120}, 780, 2470, 'stat')
-    , pNode('n1782',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 780, 2690, 'stat')
-    , pNode('n1783',
-        {blue: 575}, {prestige: 50, majesty: 250}, 645, 2580, 'stat')
-    , pNode('n1784',
-        {blue: 490}, {prestige: 38, spirit: 38}, 915, 2580, 'stat')
-    , pNode('n1785', {blue: 350}, {prestige: 40}, 780, 2580, 'skill',
+    , pNode('n1770', 780, 2640, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1771', 832, 2550, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1772', 728, 2550, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1773', 685, 2520, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1774', 685, 2640, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1775', 875, 2640, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1776', 875, 2520, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1777', 719, 2470, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1778', 841, 2470, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1779', 719, 2690, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1780', 841, 2690, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1781', 780, 2470, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1782', 780, 2690, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1783', 645, 2580, S__, {blue: 575}, {prestige: 50, majesty: 250})
+    , pNode('n1784', 915, 2580, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1785', 780, 2580, _S_, {blue: 350}, {prestige: 40},
         'Талант: Интенсивность импульса',
         'Импульсный урон увеличен на 10% за каждый уровень этого символа.',
         'spirit')
-    , pNode('n1786',
-        {blue: 490}, {prestige: 38, str: 38}, 1980, 2640, 'stat')
-    , pNode('n1787',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 2032, 2550, 'stat')
-    , pNode('n1788',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 1928, 2550, 'stat')
-    , pNode('n1789',
-        {blue: 650}, {prestige: 56, str: 56}, 1885, 2520, 'stat')
-    , pNode('n1790',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1885, 2640, 'stat')
-    , pNode('n1791',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2075, 2640, 'stat')
-    , pNode('n1792',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2075, 2520, 'stat')
-    , pNode('n1793',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1919, 2470, 'stat')
-    , pNode('n1794',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2041, 2470, 'stat')
-    , pNode('n1795',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1919, 2690, 'stat')
-    , pNode('n1796',
-        {blue: 810}, {prestige: 75, str: 75}, 2041, 2690, 'stat')
-    , pNode('n1797',
-        {revelation: 300}, {prestige: 120, vit: 120}, 1980, 2470, 'stat')
-    , pNode('n1798',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1980, 2690, 'stat')
-    , pNode('n1799',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1845, 2580, 'stat')
-    , pNode('n1800',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2115, 2580, 'stat')
-    , pNode('n1801', {blue: 350}, {prestige: 40}, 1980, 2580, 'skill',
+    , pNode('n1786', 1980, 2640, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n1787', 2032, 2550, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1788', 1928, 2550, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1789', 1885, 2520, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1790', 1885, 2640, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1791', 2075, 2640, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1792', 2075, 2520, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1793', 1919, 2470, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1794', 2041, 2470, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1795', 1919, 2690, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1796', 2041, 2690, S_P, {blue: 810}, {prestige: 75, str: 75})
+    , pNode('n1797', 1980, 2470, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1798', 1980, 2690, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1799', 1845, 2580, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1800', 2115, 2580, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1801', 1980, 2580, _S_, {blue: 350}, {prestige: 40},
         'Талант: Прорыв',
         'Применение рывка оглушает противников вокруг конечной позиции на 1,5 '+
         'секунды.</p>'+
         '<p>Эффект накладывается не чаще одного раза в 21/14 секунд.',
         'break')
-    , pNode('n1802',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1380, 2540, 'stat')
-    , pNode('n1803',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1432, 2450, 'stat')
-    , pNode('n1804',
-        {blue: 650}, {prestige: 56, spirit: 56}, 1328, 2450, 'stat')
-    , pNode('n1805',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 1319, 2370, 'stat')
-    , pNode('n1806',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1441, 2370, 'stat')
-    , pNode('n1807',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1319, 2590, 'stat')
-    , pNode('n1808',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1441, 2590, 'stat')
-    , pNode('n1809',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1380, 2323, 'stat')
-    , pNode('n1810',
-        {revelation: 300}, {prestige: 80, power: 80}, 1380, 2637, 'stat')
-    , pNode('n1811',
-        {blue: 125}, {prestige: 30, majesty: 250}, 1247, 2396, 'stat')
-    , pNode('n1812',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1247, 2564, 'stat')
-    , pNode('n1813',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1513, 2564, 'stat')
-    , pNode('n1814',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 1513, 2396, 'stat')
-    , pNode('n1815',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1245, 2480, 'stat')
-    , pNode('n1816',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1515, 2480, 'stat')
-    , pNode('n1817', {blue: 4500},
+    , pNode('n1802', 1380, 2540, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1803', 1432, 2450, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1804', 1328, 2450, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1805', 1319, 2370, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1806', 1441, 2370, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1807', 1319, 2590, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1808', 1441, 2590, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1809', 1380, 2323, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1810', 1380, 2637, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1811', 1247, 2396, S__, {blue: 125}, {prestige: 30, majesty: 250})
+    , pNode('n1812', 1247, 2564, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1813', 1513, 2564, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1814', 1513, 2396, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1815', 1245, 2480, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1816', 1515, 2480, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1817', 1380, 2480, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        1380, 2480,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n1818',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1285, 2870, 'stat')
-    , pNode('n1819',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1285, 2990, 'stat')
-    , pNode('n1820',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1475, 2990, 'stat')
-    , pNode('n1821',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1475, 2870, 'stat')
-    , pNode('n1822',
-        {blue: 575}, {prestige: 30, majesty: 250}, 1319, 2820, 'stat')
-    , pNode('n1823',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 1441, 2820, 'stat')
-    , pNode('n1824',
-        {blue: 490}, {prestige: 38, luck: 38}, 1319, 3040, 'stat')
-    , pNode('n1825',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 1441, 3040, 'stat')
-    , pNode('n1826',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1380, 2820, 'stat')
-    , pNode('n1827',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 1380, 3040, 'stat')
-    , pNode('n1828',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1247, 2846, 'stat')
-    , pNode('n1829',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1247, 3014, 'stat')
-    , pNode('n1830',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1513, 3014, 'stat')
-    , pNode('n1831',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 1513, 2846, 'stat')
-    , pNode('n1832',
-        {blue: 810}, {prestige: 75, spirit: 75}, 1245, 2930, 'stat')
-    , pNode('n1833',
-        {blue: 650}, {prestige: 56, str: 56}, 1515, 2930, 'stat')
-    , pNode('n1834', {blue: 350}, {prestige: 40}, 1380, 2930, 'skill',
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n1818', 1285, 2870, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1819', 1285, 2990, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1820', 1475, 2990, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1821', 1475, 2870, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1822', 1319, 2820, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1823', 1441, 2820, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1824', 1319, 3040, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1825', 1441, 3040, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1826', 1380, 2820, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1827', 1380, 3040, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1828', 1247, 2846, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1829', 1247, 3014, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1830', 1513, 3014, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1831', 1513, 2846, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1832', 1245, 2930, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n1833', 1515, 2930, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1834', 1380, 2930, _S_, {blue: 350}, {prestige: 40},
         'Талант: Блистательный триумф',
         'Применение добивающего удара увеличивает исходящий урон на 15% и '+
         'уменьшает входящий урон на 15%. Длительность эффекта - 8 секунд за '+
         'каждый уровень этого символа.',
         'triumph')
-    , pNode('n1835',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1580, 1260, 'stat')
-    , pNode('n1836',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1528, 1170, 'stat')
-    , pNode('n1837',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1632, 1170, 'stat')
-    , pNode('n1838',
-        {blue: 650}, {prestige: 56, valor: 56}, -1675, 1140, 'stat')
-    , pNode('n1839',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1675, 1260, 'stat')
-    , pNode('n1840',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1485, 1260, 'stat')
-    , pNode('n1841',
-        {blue: 650}, {prestige: 56, valor: 56}, -1485, 1140, 'stat')
-    , pNode('n1842',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1641, 1090, 'stat')
-    , pNode('n1843',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1519, 1090, 'stat')
-    , pNode('n1844',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1641, 1310, 'stat')
-    , pNode('n1845',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1519, 1310, 'stat')
-    , pNode('n1846',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1580, 1090, 'stat')
-    , pNode('n1847',
-        {blue: 650}, {prestige: 56, spirit: 56}, -1580, 1043, 'stat')
-    , pNode('n1848',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1580, 1357, 'stat')
-    , pNode('n1849', {blue: 350}, {prestige: 40}, -1580, 1200, 'skill',
+    , pNode('n1835', -1580, 1260, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1836', -1528, 1170, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1837', -1632, 1170, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1838', -1675, 1140, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1839', -1675, 1260, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1840', -1485, 1260, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1841', -1485, 1140, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1842', -1641, 1090, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1843', -1519, 1090, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1844', -1641, 1310, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1845', -1519, 1310, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1846', -1580, 1090, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1847', -1580, 1043, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1848', -1580, 1357, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1849', -1580, 1200, _S_, {blue: 350}, {prestige: 40},
         'Талант: Дополнительный рывок',
         'Количество зарядов рывка увеличено на 1 за каждый уровень этого '+
         'символа.',
         'dash')
-    , pNode('n1850',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1610, 1800, 'stat')
-    , pNode('n1851',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1558, 1710, 'stat')
-    , pNode('n1852',
-        {blue: 650}, {prestige: 56, spirit: 56}, -1662, 1710, 'stat')
-    , pNode('n1853',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1671, 1630, 'stat')
-    , pNode('n1854',
-        {blue: 490}, {prestige: 38, luck: 38}, -1549, 1630, 'stat')
-    , pNode('n1855',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1671, 1850, 'stat')
-    , pNode('n1856',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1549, 1850, 'stat')
-    , pNode('n1857',
-        {revelation: 300}, {prestige: 80, power: 80}, -1610, 1583, 'stat')
-    , pNode('n1858',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1610, 1897, 'stat')
-    , pNode('n1859',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1743, 1656, 'stat')
-    , pNode('n1860',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1743, 1824, 'stat')
-    , pNode('n1861',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1477, 1824, 'stat')
-    , pNode('n1862',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1477, 1656, 'stat')
-    , pNode('n1863',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1745, 1740, 'stat')
-    , pNode('n1864',
-        {blue: 650}, {prestige: 56, spirit: 56}, -1475, 1740, 'stat')
-    , pNode('n1865', {blue: 350}, {prestige: 40}, -1610, 1740, 'skill',
+    , pNode('n1850', -1610, 1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1851', -1558, 1710, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1852', -1662, 1710, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1853', -1671, 1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1854', -1549, 1630, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1855', -1671, 1850, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1856', -1549, 1850, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1857', -1610, 1583, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1858', -1610, 1897, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1859', -1743, 1656, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1860', -1743, 1824, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1861', -1477, 1824, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1862', -1477, 1656, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1863', -1745, 1740, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1864', -1475, 1740, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1865', -1610, 1740, _S_, {blue: 350}, {prestige: 40},
         'Талант: Предельная сила',
         'Влияние показателя силы на базовый урон увеличено на 10% за '+
         'каждый уровень этого символа.',
         'str')
-    , pNode('n1866',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1145, 1680, 'stat')
-    , pNode('n1867',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1145, 1800, 'stat')
-    , pNode('n1868',
-        {blue: 490}, {prestige: 38, valor: 38}, -955, 1800, 'stat')
-    , pNode('n1869',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -955, 1680, 'stat')
-    , pNode('n1870',
-        {blue: 650}, {prestige: 56, valor: 56}, -1111, 1630, 'stat')
-    , pNode('n1871',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -989, 1630, 'stat')
-    , pNode('n1872',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1111, 1850, 'stat')
-    , pNode('n1873',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -989, 1850, 'stat')
-    , pNode('n1874',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1050, 1630, 'stat')
-    , pNode('n1875',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1050, 1850, 'stat')
-    , pNode('n1876',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1183, 1656, 'stat')
-    , pNode('n1877',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1183, 1824, 'stat')
-    , pNode('n1878',
-        {revelation: 300}, {prestige: 120, vit: 120}, -917, 1824, 'stat')
-    , pNode('n1879',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -917, 1656, 'stat')
-    , pNode('n1880',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1185, 1740, 'stat')
-    , pNode('n1881',
-        {blue: 490}, {prestige: 38, spirit: 38}, -915, 1740, 'stat')
-    , pNode('n1882', {}, {}, -1050, 1740, 'skill', 'Вершина созидания',
+    , pNode('n1866', -1145, 1680, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1867', -1145, 1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1868', -955, 1800, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n1869', -955, 1680, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1870', -1111, 1630, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1871', -989, 1630, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1872', -1111, 1850, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1873', -989, 1850, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1874', -1050, 1630, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1875', -1050, 1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1876', -1183, 1656, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1877', -1183, 1824, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1878', -917, 1824, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1879', -917, 1656, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1880', -1185, 1740, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1881', -915, 1740, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1882', -1050, 1740, _S_, {}, {}, 'Вершина созидания',
         'Может быть усилена с помощью эфирных ядер.', 'create')
-    , pNode('n1883',
-        {blue: 650}, {prestige: 56, valor: 56}, -500, 1800, 'stat')
-    , pNode('n1884',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -448, 1710, 'stat')
-    , pNode('n1885',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -552, 1710, 'stat')
-    , pNode('n1886',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -595, 1680, 'stat')
-    , pNode('n1887',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -595, 1800, 'stat')
-    , pNode('n1888',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -405, 1800, 'stat')
-    , pNode('n1889',
-        {blue: 490}, {prestige: 38, spirit: 38}, -405, 1680, 'stat')
-    , pNode('n1890',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -500, 1630, 'stat')
-    , pNode('n1891',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -500, 1850, 'stat')
-    , pNode('n1892',
-        {blue: 575}, {prestige: 30, majesty: 250}, -500, 1583, 'stat')
-    , pNode('n1893',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -500, 1897, 'stat')
-    , pNode('n1894',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -633, 1656, 'stat')
-    , pNode('n1895',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -633, 1824, 'stat')
-    , pNode('n1896',
-        {revelation: 300}, {prestige: 120, vit: 120}, -367, 1824, 'stat')
-    , pNode('n1897',
-        {blue: 575}, {prestige: 30, majesty: 250}, -367, 1656, 'stat')
-    , pNode('n1898', {blue: 350}, {prestige: 40}, -500, 1740, 'skill',
+    , pNode('n1883', -500, 1800, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1884', -448, 1710, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1885', -552, 1710, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1886', -595, 1680, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1887', -595, 1800, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1888', -405, 1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1889', -405, 1680, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1890', -500, 1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1891', -500, 1850, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1892', -500, 1583, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1893', -500, 1897, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1894', -633, 1656, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1895', -633, 1824, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1896', -367, 1824, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1897', -367, 1656, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1898', -500, 1740, _S_, {blue: 350}, {prestige: 40},
         'Талант: Беспощадность',
         'Противники под эффектом оглущения, обездвиживания, страха или '+
         'ослепления получают от персонажа на 7% больше урона за каждый '+
@@ -4208,1584 +2426,857 @@ const nodesData =
         '<p>Противники под эффектом замедления получают на 2% больше урона за '+
         'каждый уровень этого символа.',
         'ruthlessness')
-    , pNode('n1899',
-        {blue: 650}, {prestige: 56, spirit: 56}, 230, 1800, 'stat')
-    , pNode('n1900',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 282, 1710, 'stat')
-    , pNode('n1901',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 178, 1710, 'stat')
-    , pNode('n1902',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 169, 1630, 'stat')
-    , pNode('n1903',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 291, 1630, 'stat')
-    , pNode('n1904',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 169, 1850, 'stat')
-    , pNode('n1905',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 291, 1850, 'stat')
-    , pNode('n1906',
-        {blue: 650}, {prestige: 56, str: 56}, 230, 1583, 'stat')
-    , pNode('n1907',
-        {blue: 575}, {prestige: 30, majesty: 250}, 230, 1897, 'stat')
-    , pNode('n1908',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 97, 1656, 'stat')
-    , pNode('n1909',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 97, 1824, 'stat')
-    , pNode('n1910',
-        {blue: 650}, {prestige: 56, luck: 56}, 363, 1824, 'stat')
-    , pNode('n1911',
-        {revelation: 300}, {prestige: 80, power: 80}, 363, 1656, 'stat')
-    , pNode('n1912',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 95, 1740, 'stat')
-    , pNode('n1913',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 365, 1740, 'stat')
-    , pNode('n1914', {blue: 350}, {prestige: 40}, 230, 1740, 'skill',
+    , pNode('n1899', 230, 1800, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1900', 282, 1710, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1901', 178, 1710, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1902', 169, 1630, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1903', 291, 1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1904', 169, 1850, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1905', 291, 1850, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1906', 230, 1583, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1907', 230, 1897, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1908', 97, 1656, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1909', 97, 1824, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1910', 363, 1824, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n1911', 363, 1656, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1912', 95, 1740, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1913', 365, 1740, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1914', 230, 1740, _S_, {blue: 350}, {prestige: 40},
         'Талант: Жизненная энергия',
         'Использование сфер здоровья увеличивает скорость передвижения на 30% '+
         'и уменьшает входящий урон на 40%. Длительность эффекта - 3 секунды '+
         'за каждый уровень этого символа.',
         'life')
-    , pNode('n1915',
-        {blue: 650}, {prestige: 56, spirit: 56}, -1050, 2260, 'stat')
-    , pNode('n1916',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -998, 2170, 'stat')
-    , pNode('n1917',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1102, 2170, 'stat')
-    , pNode('n1918',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1145, 2140, 'stat')
-    , pNode('n1919',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1145, 2260, 'stat')
-    , pNode('n1920',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -955, 2260, 'stat')
-    , pNode('n1921',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -955, 2140, 'stat')
-    , pNode('n1922',
-        {blue: 650}, {prestige: 56, str: 56}, -1111, 2090, 'stat')
-    , pNode('n1923',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -989, 2090, 'stat')
-    , pNode('n1924',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1111, 2310, 'stat')
-    , pNode('n1925',
-        {blue: 650}, {prestige: 56, spirit: 56}, -989, 2310, 'stat')
-    , pNode('n1926',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1050, 2090, 'stat')
-    , pNode('n1927',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1050, 2043, 'stat')
-    , pNode('n1928',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1050, 2357, 'stat')
-    , pNode('n1929', {blue: 350}, {prestige: 40}, -1050, 2200, 'skill',
+    , pNode('n1915', -1050, 2260, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1916', -998, 2170, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1917', -1102, 2170, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1918', -1145, 2140, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1919', -1145, 2260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1920', -955, 2260, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1921', -955, 2140, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1922', -1111, 2090, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1923', -989, 2090, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1924', -1111, 2310, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1925', -989, 2310, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n1926', -1050, 2090, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1927', -1050, 2043, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1928', -1050, 2357, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1929', -1050, 2200, _S_, {blue: 350}, {prestige: 40},
         'Талант: Искусный маневр',
         'Применение рывка создаёт защитный барьер, который поглощает урон, '+
         'равный 4/6% максимального здоровья персонажа в течение 3 секунд.',
         'maneuver')
-    , pNode('n1930',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -2660, -590, 'stat')
-    , pNode('n1931',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -2608, -680, 'stat')
-    , pNode('n1932',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2712, -680, 'stat')
-    , pNode('n1933',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -2721, -760, 'stat')
-    , pNode('n1934',
-        {blue: 775}, {prestige: 56, str: 56}, -2599, -760, 'stat')
-    , pNode('n1935',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -2721, -540, 'stat')
-    , pNode('n1936',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -2599, -540, 'stat')
-    , pNode('n1937',
-        {revelation: 300}, {prestige: 120, vit: 120}, -2660, -807, 'stat')
-    , pNode('n1938',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2660, -493, 'stat')
-    , pNode('n1939',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -2793, -734, 'stat')
-    , pNode('n1940',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -2793, -566, 'stat')
-    , pNode('n1941',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -2527, -566, 'stat')
-    , pNode('n1942',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -2527, -734, 'stat')
-    , pNode('n1943',
-        {blue: 775}, {prestige: 56, valor: 56}, -2795, -650, 'stat')
-    , pNode('n1944',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -2525, -650, 'stat')
-    , pNode('n1945', {blue: 4500},
+    , pNode('n1930', -2660, -590, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1931', -2608, -680, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1932', -2712, -680, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1933', -2721, -760, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1934', -2599, -760, S_P, {blue: 775}, {prestige: 56, str: 56})
+    , pNode('n1935', -2721, -540, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1936', -2599, -540, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1937', -2660, -807, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1938', -2660, -493, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1939', -2793, -734, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1940', -2793, -566, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n1941', -2527, -566, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n1942', -2527, -734, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1943', -2795, -650, S_P, {blue: 775}, {prestige: 56, valor: 56})
+    , pNode('n1944', -2525, -650, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n1945', -2660, -650, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        -2660, -650,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n1946',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2135, -1260, 'stat')
-    , pNode('n1947',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2135, -1140, 'stat')
-    , pNode('n1948',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1945, -1140, 'stat')
-    , pNode('n1949',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1945, -1260, 'stat')
-    , pNode('n1950',
-        {blue: 490}, {prestige: 38, luck: 38}, -2101, -1310, 'stat')
-    , pNode('n1951',
-        {blue: 650}, {prestige: 56, str: 56}, -1979, -1310, 'stat')
-    , pNode('n1952',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2101, -1090, 'stat')
-    , pNode('n1953',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1979, -1090, 'stat')
-    , pNode('n1954',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2040, -1310, 'stat')
-    , pNode('n1955',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -2040, -1090, 'stat')
-    , pNode('n1956',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2173, -1284, 'stat')
-    , pNode('n1957',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -2173, -1116, 'stat')
-    , pNode('n1958',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1907, -1116, 'stat')
-    , pNode('n1959',
-        {revelation: 300}, {prestige: 80, luck: 80}, -1907, -1284, 'stat')
-    , pNode('n1960',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2175, -1200, 'stat')
-    , pNode('n1961',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1905, -1200, 'stat')
-    , pNode('n1962', {blue: 4500}, {majesty: 2000}, -2040, -1200, 'bigStat',
-        'Бонус: Величие', '', 'majesty')
-    , pNode('n1963',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2500, -1140, 'stat')
-    , pNode('n1964',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2448, -1230, 'stat')
-    , pNode('n1965',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2552, -1230, 'stat')
-    , pNode('n1966',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2595, -1260, 'stat')
-    , pNode('n1967',
-        {blue: 585}, {prestige: 38, valor: 38}, -2595, -1140, 'stat')
-    , pNode('n1968',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -2405, -1140, 'stat')
-    , pNode('n1969',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2405, -1260, 'stat')
-    , pNode('n1970',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -2500, -1310, 'stat')
-    , pNode('n1971',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -2500, -1090, 'stat')
-    , pNode('n1972',
-        {blue: 810}, {prestige: 75, luck: 75}, -2500, -1357, 'stat')
-    , pNode('n1973',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2500, -1043, 'stat')
-    , pNode('n1974',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -2633, -1284, 'stat')
-    , pNode('n1975',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2633, -1116, 'stat')
-    , pNode('n1976',
-        {revelation: 300}, {prestige: 80, power: 80}, -2367, -1116, 'stat')
-    , pNode('n1977',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2367, -1284, 'stat')
-    , pNode('n1978', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, -2500, -1200,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n1979',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1150, -1680, 'stat')
-    , pNode('n1980',
-        {blue: 490}, {prestige: 38, spirit: 38}, -1098, -1770, 'stat')
-    , pNode('n1981',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1202, -1770, 'stat')
-    , pNode('n1982',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1245, -1800, 'stat')
-    , pNode('n1983',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -1245, -1680, 'stat')
-    , pNode('n1984',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1055, -1680, 'stat')
-    , pNode('n1985',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1055, -1800, 'stat')
-    , pNode('n1986',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1211, -1850, 'stat')
-    , pNode('n1987',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -1089, -1850, 'stat')
-    , pNode('n1988',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -1211, -1630, 'stat')
-    , pNode('n1989',
-        {blue: 490}, {prestige: 38, luck: 38}, -1089, -1630, 'stat')
-    , pNode('n1990',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1150, -1850, 'stat')
-    , pNode('n1991',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1150, -1897, 'stat')
-    , pNode('n1992',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1150, -1583, 'stat')
-    , pNode('n1993', {blue: 4500},
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n1946', -2135, -1260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1947', -2135, -1140, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1948', -1945, -1140, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1949', -1945, -1260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1950', -2101, -1310, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1951', -1979, -1310, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n1952', -2101, -1090, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1953', -1979, -1090, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1954', -2040, -1310, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1955', -2040, -1090, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1956', -2173, -1284, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1957', -2173, -1116, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1958', -1907, -1116, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1959', -1907, -1284, S_P, {revelation: 300}, {prestige: 80, luck: 80})
+    , pNode('n1960', -2175, -1200, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1961', -1905, -1200, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1962', -2040, -1200, SS_, {blue: 4500}, {majesty: 2000}, 'Бонус: Величие', '', 'majesty')
+    , pNode('n1963', -2500, -1140, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1964', -2448, -1230, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1965', -2552, -1230, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1966', -2595, -1260, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1967', -2595, -1140, S_P, {blue: 585}, {prestige: 38, valor: 38})
+    , pNode('n1968', -2405, -1140, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1969', -2405, -1260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1970', -2500, -1310, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1971', -2500, -1090, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n1972', -2500, -1357, S_P, {blue: 810}, {prestige: 75, luck: 75})
+    , pNode('n1973', -2500, -1043, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1974', -2633, -1284, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1975', -2633, -1116, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1976', -2367, -1116, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n1977', -2367, -1284, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1978', -2500, -1200, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n1979', -1150, -1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1980', -1098, -1770, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n1981', -1202, -1770, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1982', -1245, -1800, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1983', -1245, -1680, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1984', -1055, -1680, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n1985', -1055, -1800, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1986', -1211, -1850, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1987', -1089, -1850, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n1988', -1211, -1630, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1989', -1089, -1630, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n1990', -1150, -1850, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n1991', -1150, -1897, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n1992', -1150, -1583, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1993', -1150, -1740, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        -1150, -1740,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n1994',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -690, -1680, 'stat')
-    , pNode('n1995',
-        {blue: 650}, {prestige: 56, valor: 56}, -638, -1770, 'stat')
-    , pNode('n1996',
-        {blue: 490}, {prestige: 38, str: 38}, -742, -1770, 'stat')
-    , pNode('n1997',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -751, -1850, 'stat')
-    , pNode('n1998',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -629, -1850, 'stat')
-    , pNode('n1999',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -751, -1630, 'stat')
-    , pNode('n2000',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -629, -1630, 'stat')
-    , pNode('n2001',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -690, -1897, 'stat')
-    , pNode('n2002',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -690, -1583, 'stat')
-    , pNode('n2003',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -823, -1824, 'stat')
-    , pNode('n2004',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -823, -1656, 'stat')
-    , pNode('n2005',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -557, -1656, 'stat')
-    , pNode('n2006',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -557, -1824, 'stat')
-    , pNode('n2007',
-        {blue: 575}, {prestige: 30, majesty: 250}, -825, -1740, 'stat')
-    , pNode('n2008',
-        {revelation: 300}, {prestige: 80, luck: 80}, -555, -1740, 'stat')
-    , pNode('n2009', {blue: 350}, {}, -690, -1740, 'skill', 'Талант: Опека',
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n1994', -690, -1680, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n1995', -638, -1770, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n1996', -742, -1770, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n1997', -751, -1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n1998', -629, -1850, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n1999', -751, -1630, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2000', -629, -1630, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2001', -690, -1897, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2002', -690, -1583, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2003', -823, -1824, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2004', -823, -1656, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2005', -557, -1656, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2006', -557, -1824, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2007', -825, -1740, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2008', -555, -1740, S_P, {revelation: 300}, {prestige: 80, luck: 80})
+    , pNode('n2009', -690, -1740, _S_, {blue: 350}, {},
+        'Талант: Опека',
         'Длительность накладываемых на союзников щтов увеличена на 25%/50% от '+
         'вашей характеристики "Эффективность щитов".</p>'+
         '<p>Этот эффект не действует на щиты накладываемые на себя.',
         'guardianship')
-    , pNode('n2010',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -230, -1680, 'stat')
-    , pNode('n2011',
-        {blue: 575}, {prestige: 30, majesty: 250}, -178, -1770, 'stat')
-    , pNode('n2012',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -282, -1770, 'stat')
-    , pNode('n2013',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -325, -1800, 'stat')
-    , pNode('n2014',
-        {blue: 490}, {prestige: 38, valor: 38}, -325, -1680, 'stat')
-    , pNode('n2015',
-        {blue: 490}, {prestige: 38, str: 38}, -135, -1680, 'stat')
-    , pNode('n2016',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -135, -1800, 'stat')
-    , pNode('n2017',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -230, -1850, 'stat')
-    , pNode('n2018',
-        {blue: 490}, {prestige: 38, valor: 38}, -230, -1630, 'stat')
-    , pNode('n2019',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -230, -1897, 'stat')
-    , pNode('n2020',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -230, -1583, 'stat')
-    , pNode('n2021',
-        {blue: 575}, {prestige: 30, majesty: 250}, -363, -1824, 'stat')
-    , pNode('n2022',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -363, -1656, 'stat')
-    , pNode('n2023',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -97, -1656, 'stat')
-    , pNode('n2024',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -97, -1824, 'stat')
-    , pNode('n2025', {blue: 350}, {}, -230, -1740, 'skill',
+    , pNode('n2010', -230, -1680, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2011', -178, -1770, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2012', -282, -1770, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2013', -325, -1800, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2014', -325, -1680, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n2015', -135, -1680, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n2016', -135, -1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2017', -230, -1850, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2018', -230, -1630, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n2019', -230, -1897, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2020', -230, -1583, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2021', -363, -1824, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2022', -363, -1656, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2023', -97, -1656, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2024', -97, -1824, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2025', -230, -1740, _S_, {blue: 350}, {},
         'Талант: Эффективные препараты',
         'Длительность положтьельных эффектов от расходников, количество '+
         'восстанавливаемого ими здоровья, а также наносимый расходниками урон '+
         'увеличиваются на 12% за каждый уровень этого символа.',
         'medicines')
-    , pNode('n2026',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -1610, -2220, 'stat')
-    , pNode('n2027',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -1558, -2310, 'stat')
-    , pNode('n2028',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -1662, -2310, 'stat')
-    , pNode('n2029',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1705, -2340, 'stat')
-    , pNode('n2030',
-        {blue: 585}, {prestige: 38, str: 38}, -1705, -2220, 'stat')
-    , pNode('n2031',
-        {blue: 775}, {prestige: 56, spirit: 56}, -1515, -2220, 'stat')
-    , pNode('n2032',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1515, -2340, 'stat')
-    , pNode('n2033',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1671, -2390, 'stat')
-    , pNode('n2034',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1549, -2390, 'stat')
-    , pNode('n2035',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -1671, -2170, 'stat')
-    , pNode('n2036',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1549, -2170, 'stat')
-    , pNode('n2037',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -1610, -2390, 'stat')
-    , pNode('n2038',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1610, -2170, 'stat')
-    , pNode('n2039',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -1745, -2280, 'stat')
-    , pNode('n2040',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -1475, -2280, 'stat')
-    , pNode('n2041', {blue: 4500},
+    , pNode('n2026', -1610, -2220, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2027', -1558, -2310, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2028', -1662, -2310, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2029', -1705, -2340, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2030', -1705, -2220, S_P, {blue: 585}, {prestige: 38, str: 38})
+    , pNode('n2031', -1515, -2220, S_P, {blue: 775}, {prestige: 56, spirit: 56})
+    , pNode('n2032', -1515, -2340, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2033', -1671, -2390, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2034', -1549, -2390, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2035', -1671, -2170, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2036', -1549, -2170, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2037', -1610, -2390, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2038', -1610, -2170, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2039', -1745, -2280, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2040', -1475, -2280, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2041', -1610, -2280, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        -1610, -2280,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2042',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -1150, -2220, 'stat')
-    , pNode('n2043',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -1098, -2310, 'stat')
-    , pNode('n2044',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -1202, -2310, 'stat')
-    , pNode('n2045',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1245, -2340, 'stat')
-    , pNode('n2046',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1245, -2220, 'stat')
-    , pNode('n2047',
-        {blue: 775}, {prestige: 56, spirit: 56}, -1055, -2220, 'stat')
-    , pNode('n2048',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -1055, -2340, 'stat')
-    , pNode('n2049',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1211, -2390, 'stat')
-    , pNode('n2050',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -1089, -2390, 'stat')
-    , pNode('n2051',
-        {blue: 585}, {prestige: 38, luck: 38}, -1211, -2170, 'stat')
-    , pNode('n2052',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -1089, -2170, 'stat')
-    , pNode('n2053',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -1150, -2390, 'stat')
-    , pNode('n2054',
-        {revelation: 300}, {prestige: 80, power: 80}, -1150, -2170, 'stat')
-    , pNode('n2055',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -1285, -2280, 'stat')
-    , pNode('n2056',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -1015, -2280, 'stat')
-    , pNode('n2057', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, -1150, -2280,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2058',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -690, -2220, 'stat')
-    , pNode('n2059',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -638, -2310, 'stat')
-    , pNode('n2060',
-        {blue: 585}, {prestige: 38, valor: 38}, -742, -2310, 'stat')
-    , pNode('n2061',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -785, -2340, 'stat')
-    , pNode('n2062',
-        {blue: 585}, {prestige: 38, luck: 38}, -785, -2220, 'stat')
-    , pNode('n2063',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -595, -2220, 'stat')
-    , pNode('n2064',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -595, -2340, 'stat')
-    , pNode('n2065',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -751, -2390, 'stat')
-    , pNode('n2066',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -629, -2390, 'stat')
-    , pNode('n2067',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -751, -2170, 'stat')
-    , pNode('n2068',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -629, -2170, 'stat')
-    , pNode('n2069',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -690, -2390, 'stat')
-    , pNode('n2070',
-        {revelation: 300}, {prestige: 80, luck: 80}, -690, -2170, 'stat')
-    , pNode('n2071',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -825, -2280, 'stat')
-    , pNode('n2072',
-        {blue: 575}, {prestige: 30, majesty: 250}, -555, -2280, 'stat')
-    , pNode('n2073', {blue: 4500},
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2042', -1150, -2220, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2043', -1098, -2310, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2044', -1202, -2310, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2045', -1245, -2340, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2046', -1245, -2220, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2047', -1055, -2220, S_P, {blue: 775}, {prestige: 56, spirit: 56})
+    , pNode('n2048', -1055, -2340, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2049', -1211, -2390, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2050', -1089, -2390, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2051', -1211, -2170, S_P, {blue: 585}, {prestige: 38, luck: 38})
+    , pNode('n2052', -1089, -2170, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2053', -1150, -2390, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2054', -1150, -2170, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2055', -1285, -2280, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2056', -1015, -2280, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2057', -1150, -2280, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2058', -690, -2220, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2059', -638, -2310, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2060', -742, -2310, S_P, {blue: 585}, {prestige: 38, valor: 38})
+    , pNode('n2061', -785, -2340, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2062', -785, -2220, S_P, {blue: 585}, {prestige: 38, luck: 38})
+    , pNode('n2063', -595, -2220, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2064', -595, -2340, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2065', -751, -2390, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2066', -629, -2390, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2067', -751, -2170, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2068', -629, -2170, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2069', -690, -2390, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2070', -690, -2170, S_P, {revelation: 300}, {prestige: 80, luck: 80})
+    , pNode('n2071', -825, -2280, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2072', -555, -2280, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2073', -690, -2280, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        -690, -2280,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2074',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -230, -2220, 'stat')
-    , pNode('n2075',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -178, -2310, 'stat')
-    , pNode('n2076',
-        {blue: 585}, {prestige: 38, valor: 38}, -282, -2310, 'stat')
-    , pNode('n2077',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -325, -2340, 'stat')
-    , pNode('n2078',
-        {blue: 585}, {prestige: 38, str: 38}, -325, -2220, 'stat')
-    , pNode('n2079',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -135, -2220, 'stat')
-    , pNode('n2080',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -135, -2340, 'stat')
-    , pNode('n2081',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -291, -2390, 'stat')
-    , pNode('n2082',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -169, -2390, 'stat')
-    , pNode('n2083',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -291, -2170, 'stat')
-    , pNode('n2084',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -169, -2170, 'stat')
-    , pNode('n2085',
-        {blue: 775}, {prestige: 56, spirit: 56}, -230, -2390, 'stat')
-    , pNode('n2086',
-        {revelation: 300}, {prestige: 80, power: 80}, -230, -2170, 'stat')
-    , pNode('n2087',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -365, -2280, 'stat')
-    , pNode('n2088',
-        {blue: 575}, {prestige: 30, majesty: 250}, -95, -2280, 'stat')
-    , pNode('n2089', {blue: 4500}, {majesty: 2000}, -230, -2280, 'bigStat',
-        'Бонус: Величие', '', 'majesty')
-    , pNode('n2090',
-        {blue: 775}, {prestige: 56, str: 56}, -2660, 710, 'stat')
-    , pNode('n2091',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -2608, 620, 'stat')
-    , pNode('n2092',
-        {blue: 575}, {majesty: 250}, -2712, 620, 'stat')
-    , pNode('n2093',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -2721, 540, 'stat')
-    , pNode('n2094',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -2599, 540, 'stat')
-    , pNode('n2095',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -2721, 760, 'stat')
-    , pNode('n2096',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -2599, 760, 'stat')
-    , pNode('n2097',
-        {blue: 775}, {prestige: 56, spirit: 56}, -2660, 493, 'stat')
-    , pNode('n2098',
-        {revelation: 300}, {prestige: 80, power: 80}, -2660, 807, 'stat')
-    , pNode('n2099',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -2793, 566, 'stat')
-    , pNode('n2100',
-        {blue: 965}, {prestige: 75, spirit: 75}, -2793, 734, 'stat')
-    , pNode('n2101',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -2527, 734, 'stat')
-    , pNode('n2102',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -2527, 566, 'stat')
-    , pNode('n2103',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -2795, 650, 'stat')
-    , pNode('n2104',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -2525, 650, 'stat')
-    , pNode('n2105', {blue: 4500},
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2074', -230, -2220, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2075', -178, -2310, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2076', -282, -2310, S_P, {blue: 585}, {prestige: 38, valor: 38})
+    , pNode('n2077', -325, -2340, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2078', -325, -2220, S_P, {blue: 585}, {prestige: 38, str: 38})
+    , pNode('n2079', -135, -2220, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2080', -135, -2340, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2081', -291, -2390, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2082', -169, -2390, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2083', -291, -2170, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2084', -169, -2170, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2085', -230, -2390, S_P, {blue: 775}, {prestige: 56, spirit: 56})
+    , pNode('n2086', -230, -2170, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2087', -365, -2280, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2088', -95, -2280, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2089', -230, -2280, SS_, {blue: 4500}, {majesty: 2000}, 'Бонус: Величие', '', 'majesty')
+    , pNode('n2090', -2660, 710, S_P, {blue: 775}, {prestige: 56, str: 56})
+    , pNode('n2091', -2608, 620, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2092', -2712, 620, S__, {blue: 575}, {majesty: 250})
+    , pNode('n2093', -2721, 540, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2094', -2599, 540, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2095', -2721, 760, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2096', -2599, 760, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2097', -2660, 493, S_P, {blue: 775}, {prestige: 56, spirit: 56})
+    , pNode('n2098', -2660, 807, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2099', -2793, 566, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2100', -2793, 734, S_P, {blue: 965}, {prestige: 75, spirit: 75})
+    , pNode('n2101', -2527, 734, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2102', -2527, 566, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2103', -2795, 650, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2104', -2525, 650, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2105', -2660, 650, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        -2660, 650,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2106',
-        {blue: 650}, {prestige: 56, spirit: 56}, -2500, 1260, 'stat')
-    , pNode('n2107',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2448, 1170, 'stat')
-    , pNode('n2108',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2552, 1170, 'stat')
-    , pNode('n2109',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2595, 1140, 'stat')
-    , pNode('n2110',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2595, 1260, 'stat')
-    , pNode('n2111',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -2405, 1260, 'stat')
-    , pNode('n2112',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2405, 1140, 'stat')
-    , pNode('n2113',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2500, 1090, 'stat')
-    , pNode('n2114',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -2500, 1310, 'stat')
-    , pNode('n2115',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2500, 1043, 'stat')
-    , pNode('n2116',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -2500, 1357, 'stat')
-    , pNode('n2117',
-        {blue: 650}, {prestige: 56, str: 56}, -2633, 1116, 'stat')
-    , pNode('n2118',
-        {blue: 810}, {prestige: 75, spirit: 75}, -2633, 1284, 'stat')
-    , pNode('n2119',
-        {revelation: 300}, {prestige: 80, power: 80}, -2367, 1284, 'stat')
-    , pNode('n2120',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -2367, 1116, 'stat')
-    , pNode('n2121', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, -2500, 1200,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2122',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2135, 1140, 'stat')
-    , pNode('n2123',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2135, 1260, 'stat')
-    , pNode('n2124',
-        {blue: 650}, {prestige: 56, valor: 56}, -1945, 1260, 'stat')
-    , pNode('n2125',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -1945, 1140, 'stat')
-    , pNode('n2126',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2101, 1090, 'stat')
-    , pNode('n2127',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1979, 1090, 'stat')
-    , pNode('n2128',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -2101, 1310, 'stat')
-    , pNode('n2129',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1979, 1310, 'stat')
-    , pNode('n2130',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -2040, 1090, 'stat')
-    , pNode('n2131',
-        {blue: 810}, {prestige: 75, valor: 75}, -2040, 1310, 'stat')
-    , pNode('n2132',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -2173, 1116, 'stat')
-    , pNode('n2133',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -2173, 1284, 'stat')
-    , pNode('n2134',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -1907, 1284, 'stat')
-    , pNode('n2135',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -1907, 1116, 'stat')
-    , pNode('n2136',
-        {blue: 810}, {prestige: 75, valor: 75}, -2175, 1200, 'stat')
-    , pNode('n2137',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1905, 1200, 'stat')
-    , pNode('n2138', {blue: 4500}, {majesty: 2000}, -2040, 1200, 'bigStat',
-        'Бонус: Величие', '', 'majesty')
-    , pNode('n2139',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -2070, 1800, 'stat')
-    , pNode('n2140',
-        {blue: 575}, {majesty: 250}, -2018, 1710, 'stat')
-    , pNode('n2141',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -2122, 1710, 'stat')
-    , pNode('n2142',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2165, 1680, 'stat')
-    , pNode('n2143',
-        {blue: 775}, {prestige: 56, luck: 56}, -2165, 1800, 'stat')
-    , pNode('n2144',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -1975, 1800, 'stat')
-    , pNode('n2145',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1975, 1680, 'stat')
-    , pNode('n2146',
-        {blue: 965}, {prestige: 75, str: 75}, -2131, 1630, 'stat')
-    , pNode('n2147',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -2009, 1630, 'stat')
-    , pNode('n2148',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -2131, 1850, 'stat')
-    , pNode('n2149',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -2009, 1850, 'stat')
-    , pNode('n2150',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -2070, 1630, 'stat')
-    , pNode('n2151',
-        {blue: 775}, {prestige: 56, str: 56}, -2070, 1850, 'stat')
-    , pNode('n2152',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -2205, 1740, 'stat')
-    , pNode('n2153',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1935, 1740, 'stat')
-    , pNode('n2154', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, -2070, 1740,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2155',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -1705, 2140, 'stat')
-    , pNode('n2156',
-        {blue: 585}, {prestige: 38, luck: 38}, -1705, 2260, 'stat')
-    , pNode('n2157',
-        {blue: 775}, {prestige: 56, valor: 56}, -1515, 2260, 'stat')
-    , pNode('n2158',
-        {blue: 585}, {prestige: 38, luck: 38}, -1515, 2140, 'stat')
-    , pNode('n2159',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1671, 2090, 'stat')
-    , pNode('n2160',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -1549, 2090, 'stat')
-    , pNode('n2161',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, -1671, 2310, 'stat')
-    , pNode('n2162',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -1549, 2310, 'stat')
-    , pNode('n2163',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -1610, 2090, 'stat')
-    , pNode('n2164',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1610, 2310, 'stat')
-    , pNode('n2165',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1743, 2116, 'stat')
-    , pNode('n2166',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, -1743, 2284, 'stat')
-    , pNode('n2167',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -1477, 2284, 'stat')
-    , pNode('n2168',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1477, 2116, 'stat')
-    , pNode('n2169',
-        {blue: 575}, {prestige: 30, majesty: 250}, -1745, 2200, 'stat')
-    , pNode('n2170',
-        {revelation: 300}, {prestige: 80, spirit: 80}, -1475, 2200, 'stat')
-    , pNode('n2171', {blue: 4500},
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2106', -2500, 1260, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n2107', -2448, 1170, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2108', -2552, 1170, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2109', -2595, 1140, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2110', -2595, 1260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2111', -2405, 1260, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2112', -2405, 1140, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2113', -2500, 1090, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2114', -2500, 1310, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2115', -2500, 1043, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2116', -2500, 1357, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2117', -2633, 1116, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n2118', -2633, 1284, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n2119', -2367, 1284, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2120', -2367, 1116, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2121', -2500, 1200, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2122', -2135, 1140, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2123', -2135, 1260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2124', -1945, 1260, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n2125', -1945, 1140, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2126', -2101, 1090, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2127', -1979, 1090, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2128', -2101, 1310, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2129', -1979, 1310, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2130', -2040, 1090, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2131', -2040, 1310, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n2132', -2173, 1116, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2133', -2173, 1284, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2134', -1907, 1284, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2135', -1907, 1116, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2136', -2175, 1200, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n2137', -1905, 1200, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2138', -2040, 1200, SS_, {blue: 4500}, {majesty: 2000}, 'Бонус: Величие', '', 'majesty')
+    , pNode('n2139', -2070, 1800, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2140', -2018, 1710, S__, {blue: 575}, {majesty: 250})
+    , pNode('n2141', -2122, 1710, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2142', -2165, 1680, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2143', -2165, 1800, S_P, {blue: 775}, {prestige: 56, luck: 56})
+    , pNode('n2144', -1975, 1800, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2145', -1975, 1680, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2146', -2131, 1630, S_P, {blue: 965}, {prestige: 75, str: 75})
+    , pNode('n2147', -2009, 1630, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2148', -2131, 1850, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2149', -2009, 1850, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2150', -2070, 1630, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2151', -2070, 1850, S_P, {blue: 775}, {prestige: 56, str: 56})
+    , pNode('n2152', -2205, 1740, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2153', -1935, 1740, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2154', -2070, 1740, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2155', -1705, 2140, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2156', -1705, 2260, S_P, {blue: 585}, {prestige: 38, luck: 38})
+    , pNode('n2157', -1515, 2260, S_P, {blue: 775}, {prestige: 56, valor: 56})
+    , pNode('n2158', -1515, 2140, S_P, {blue: 585}, {prestige: 38, luck: 38})
+    , pNode('n2159', -1671, 2090, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2160', -1549, 2090, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2161', -1671, 2310, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2162', -1549, 2310, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2163', -1610, 2090, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2164', -1610, 2310, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2165', -1743, 2116, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2166', -1743, 2284, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2167', -1477, 2284, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2168', -1477, 2116, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2169', -1745, 2200, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2170', -1475, 2200, S_P, {revelation: 300}, {prestige: 80, spirit: 80})
+    , pNode('n2171', -1610, 2200, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        -1610, 2200,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2172',
-        {blue: 775}, {prestige: 56, luck: 56}, -2070, 2260, 'stat')
-    , pNode('n2173',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -2018, 2170, 'stat')
-    , pNode('n2174',
-        {blue: 585}, {prestige: 38, str: 38}, -2122, 2170, 'stat')
-    , pNode('n2175',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -2165, 2140, 'stat')
-    , pNode('n2176',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -2165, 2260, 'stat')
-    , pNode('n2177',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, -1975, 2260, 'stat')
-    , pNode('n2178',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -1975, 2140, 'stat')
-    , pNode('n2179',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, -2131, 2090, 'stat')
-    , pNode('n2180',
-        {blue: 775}, {prestige: 56, luck: 56}, -2009, 2090, 'stat')
-    , pNode('n2181',
-        {blue: 575}, {prestige: 30, majesty: 250}, -2131, 2310, 'stat')
-    , pNode('n2182',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, -2009, 2310, 'stat')
-    , pNode('n2183',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -2070, 2090, 'stat')
-    , pNode('n2184',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -2070, 2310, 'stat')
-    , pNode('n2185',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, -2205, 2200, 'stat')
-    , pNode('n2186',
-        {revelation: 300}, {prestige: 120, vit: 120}, -1935, 2200, 'stat')
-    , pNode('n2187', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, -2070, 2200,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2188',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -500, 2260, 'stat')
-    , pNode('n2189',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -448, 2170, 'stat')
-    , pNode('n2190',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -552, 2170, 'stat')
-    , pNode('n2191',
-        {blue: 810}, {prestige: 75, luck: 75}, -595, 2140, 'stat')
-    , pNode('n2192',
-        {blue: 490}, {prestige: 38, luck: 38}, -595, 2260, 'stat')
-    , pNode('n2193',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, -405, 2260, 'stat')
-    , pNode('n2194',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -405, 2140, 'stat')
-    , pNode('n2195',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -561, 2090, 'stat')
-    , pNode('n2196',
-        {blue: 650}, {prestige: 56, valor: 56}, -439, 2090, 'stat')
-    , pNode('n2197',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -561, 2310, 'stat')
-    , pNode('n2198',
-        {blue: 575}, {prestige: 30, majesty: 250}, -439, 2310, 'stat')
-    , pNode('n2199',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -500, 2090, 'stat')
-    , pNode('n2200',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -500, 2310, 'stat')
-    , pNode('n2201',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, -635, 2200, 'stat')
-    , pNode('n2202',
-        {revelation: 300}, {prestige: 80, power: 80}, -365, 2200, 'stat')
-    , pNode('n2203', {blue: 4500},
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2172', -2070, 2260, S_P, {blue: 775}, {prestige: 56, luck: 56})
+    , pNode('n2173', -2018, 2170, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2174', -2122, 2170, S_P, {blue: 585}, {prestige: 38, str: 38})
+    , pNode('n2175', -2165, 2140, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2176', -2165, 2260, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2177', -1975, 2260, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2178', -1975, 2140, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2179', -2131, 2090, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2180', -2009, 2090, S_P, {blue: 775}, {prestige: 56, luck: 56})
+    , pNode('n2181', -2131, 2310, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2182', -2009, 2310, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2183', -2070, 2090, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2184', -2070, 2310, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2185', -2205, 2200, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2186', -1935, 2200, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2187', -2070, 2200, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2188', -500, 2260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2189', -448, 2170, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2190', -552, 2170, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2191', -595, 2140, S_P, {blue: 810}, {prestige: 75, luck: 75})
+    , pNode('n2192', -595, 2260, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n2193', -405, 2260, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2194', -405, 2140, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2195', -561, 2090, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2196', -439, 2090, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n2197', -561, 2310, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2198', -439, 2310, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2199', -500, 2090, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2200', -500, 2310, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2201', -635, 2200, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2202', -365, 2200, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2203', -500, 2200, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        -500, 2200,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2204',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -135, 2140, 'stat')
-    , pNode('n2205',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -135, 2260, 'stat')
-    , pNode('n2206',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 55, 2260, 'stat')
-    , pNode('n2207',
-        {blue: 650}, {prestige: 56, valor: 56}, 55, 2140, 'stat')
-    , pNode('n2208',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, -101, 2090, 'stat')
-    , pNode('n2209',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 21, 2090, 'stat')
-    , pNode('n2210',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, -101, 2310, 'stat')
-    , pNode('n2211',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 21, 2310, 'stat')
-    , pNode('n2212',
-        {blue: 575}, {prestige: 30, majesty: 250}, -40, 2090, 'stat')
-    , pNode('n2213',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, -40, 2310, 'stat')
-    , pNode('n2214',
-        {blue: 650}, {prestige: 56, valor: 56}, -173, 2116, 'stat')
-    , pNode('n2215',
-        {blue: 650}, {prestige: 56, luck: 56}, -173, 2284, 'stat')
-    , pNode('n2216',
-        {blue: 575}, {prestige: 30, majesty: 250}, 93, 2284, 'stat')
-    , pNode('n2217',
-        {revelation: 300}, {prestige: 120, vit: 120}, 93, 2116, 'stat')
-    , pNode('n2218',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, -175, 2200, 'stat')
-    , pNode('n2219',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 95, 2200, 'stat')
-    , pNode('n2220', {blue: 4500}, {majesty: 2000}, -40, 2200, 'bigStat',
-        'Бонус: Величие', '', 'majesty')
-    , pNode('n2221',
-        {green: 150}, {prestige: 18, vit: 18}, 1060, 1040, 'stat')
-    , pNode('n2222',
-        {green: 185}, {prestige: 24, vit: 24}, 1112, 950, 'stat')
-    , pNode('n2223',
-        {green: 185}, {prestige: 24, vit: 24}, 1008, 950, 'stat')
-    , pNode('n2224',
-        {red: 150}, {prestige: 12, power: 12}, 999, 870, 'stat')
-    , pNode('n2225',
-        {blue: 185}, {prestige: 20, spirit: 20}, 1121, 870, 'stat')
-    , pNode('n2226',
-        {blue: 185}, {prestige: 20, str: 20}, 999, 1090, 'stat')
-    , pNode('n2227',
-        {blue: 185}, {prestige: 20, luck: 20}, 1121, 1090, 'stat')
-    , pNode('n2228',
-        {blue: 150}, {prestige: 15, spirit: 15}, 1060, 823, 'stat')
-    , pNode('n2229',
-        {blue: 150}, {prestige: 15, luck: 15}, 1060, 1137, 'stat')
-    , pNode('n2230',
-        {green: 150}, {prestige: 18, vit: 18}, 927, 896, 'stat')
-    , pNode('n2231',
-        {blue: 150}, {prestige: 15, str: 15}, 927, 1064, 'stat')
-    , pNode('n2232',
-        {blue: 150}, {prestige: 15, valor: 15}, 1193, 1064, 'stat')
-    , pNode('n2233',
-        {red: 150}, {prestige: 12, power: 12}, 1193, 896, 'stat')
-    , pNode('n2234',
-        {red: 150}, {prestige: 12, power: 12}, 925, 980, 'stat')
-    , pNode('n2235',
-        {blue: 150}, {prestige: 15, valor: 15}, 1195, 980, 'stat')
-    , pNode('n2236', {blue: 200}, {}, 1060, 980, 'skill',
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2204', -135, 2140, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2205', -135, 2260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2206', 55, 2260, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2207', 55, 2140, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n2208', -101, 2090, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2209', 21, 2090, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2210', -101, 2310, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2211', 21, 2310, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2212', -40, 2090, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2213', -40, 2310, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2214', -173, 2116, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n2215', -173, 2284, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2216', 93, 2284, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2217', 93, 2116, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2218', -175, 2200, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2219', 95, 2200, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2220', -40, 2200, SS_, {blue: 4500}, {majesty: 2000}, 'Бонус: Величие', '', 'majesty')
+    , pNode('n2221', 1060, 1040, S_P, {green: 150}, {prestige: 18, vit: 18})
+    , pNode('n2222', 1112, 950, S_P, {green: 185}, {prestige: 24, vit: 24})
+    , pNode('n2223', 1008, 950, S_P, {green: 185}, {prestige: 24, vit: 24})
+    , pNode('n2224', 999, 870, S_P, {red: 150}, {prestige: 12, power: 12})
+    , pNode('n2225', 1121, 870, S_P, {blue: 185}, {prestige: 20, spirit: 20})
+    , pNode('n2226', 999, 1090, S_P, {blue: 185}, {prestige: 20, str: 20})
+    , pNode('n2227', 1121, 1090, S_P, {blue: 185}, {prestige: 20, luck: 20})
+    , pNode('n2228', 1060, 823, S_P, {blue: 150}, {prestige: 15, spirit: 15})
+    , pNode('n2229', 1060, 1137, S_P, {blue: 150}, {prestige: 15, luck: 15})
+    , pNode('n2230', 927, 896, S_P, {green: 150}, {prestige: 18, vit: 18})
+    , pNode('n2231', 927, 1064, S_P, {blue: 150}, {prestige: 15, str: 15})
+    , pNode('n2232', 1193, 1064, S_P, {blue: 150}, {prestige: 15, valor: 15})
+    , pNode('n2233', 1193, 896, S_P, {red: 150}, {prestige: 12, power: 12})
+    , pNode('n2234', 925, 980, S_P, {red: 150}, {prestige: 12, power: 12})
+    , pNode('n2235', 1195, 980, S_P, {blue: 150}, {prestige: 15, valor: 15})
+    , pNode('n2236', 1060, 980, _S_, {blue: 200}, {},
         'Талант: Тактическая защита',
         'Защита в ближнем бою увеличена на 5% за каждый уровень этого '+
         'символа.</p>'+
         '<p>Защита в дальнем бою увеличена на 5% за каждый уровень этого '+
         'символа.',
         'defence')
-    , pNode('n2237',
-        {blue: 150}, {prestige: 15, valor: 15}, 1060, -920, 'stat')
-    , pNode('n2238',
-        {green: 185}, {prestige: 24, vit: 24}, 1112, -1010, 'stat')
-    , pNode('n2239',
-        {green: 185}, {prestige: 24, vit: 24}, 1008, -1010, 'stat')
-    , pNode('n2240',
-        {red: 150}, {prestige: 12, power: 12}, 999, -1090, 'stat')
-    , pNode('n2241',
-        {blue: 185}, {prestige: 20, spirit: 20}, 1121, -1090, 'stat')
-    , pNode('n2242',
-        {blue: 185}, {prestige: 20, str: 20}, 999, -870, 'stat')
-    , pNode('n2243',
-        {red: 150}, {prestige: 12, power: 12}, 1121, -870, 'stat')
-    , pNode('n2244',
-        {blue: 150}, {prestige: 15, spirit: 15}, 1060, -1137, 'stat')
-    , pNode('n2245',
-        {blue: 150}, {prestige: 15, valor: 15}, 1060, -823, 'stat')
-    , pNode('n2246',
-        {green: 150}, {prestige: 18, vit: 18}, 927, -1064, 'stat')
-    , pNode('n2247',
-        {blue: 150}, {prestige: 15, str: 15}, 927, -896, 'stat')
-    , pNode('n2248',
-        {green: 150}, {prestige: 18, vit: 18}, 1193, -896, 'stat')
-    , pNode('n2249',
-        {blue: 185}, {prestige: 20, luck: 20}, 1193, -1064, 'stat')
-    , pNode('n2250',
-        {red: 150}, {prestige: 12, power: 12}, 925, -980, 'stat')
-    , pNode('n2251',
-        {blue: 150}, {prestige: 15, luck: 15}, 1195, -980, 'stat')
-    , pNode('n2252', {blue: 200}, {}, 1060, -980, 'skill',
+    , pNode('n2237', 1060, -920, S_P, {blue: 150}, {prestige: 15, valor: 15})
+    , pNode('n2238', 1112, -1010, S_P, {green: 185}, {prestige: 24, vit: 24})
+    , pNode('n2239', 1008, -1010, S_P, {green: 185}, {prestige: 24, vit: 24})
+    , pNode('n2240', 999, -1090, S_P, {red: 150}, {prestige: 12, power: 12})
+    , pNode('n2241', 1121, -1090, S_P, {blue: 185}, {prestige: 20, spirit: 20})
+    , pNode('n2242', 999, -870, S_P, {blue: 185}, {prestige: 20, str: 20})
+    , pNode('n2243', 1121, -870, S_P, {red: 150}, {prestige: 12, power: 12})
+    , pNode('n2244', 1060, -1137, S_P, {blue: 150}, {prestige: 15, spirit: 15})
+    , pNode('n2245', 1060, -823, S_P, {blue: 150}, {prestige: 15, valor: 15})
+    , pNode('n2246', 927, -1064, S_P, {green: 150}, {prestige: 18, vit: 18})
+    , pNode('n2247', 927, -896, S_P, {blue: 150}, {prestige: 15, str: 15})
+    , pNode('n2248', 1193, -896, S_P, {green: 150}, {prestige: 18, vit: 18})
+    , pNode('n2249', 1193, -1064, S_P, {blue: 185}, {prestige: 20, luck: 20})
+    , pNode('n2250', 925, -980, S_P, {red: 150}, {prestige: 12, power: 12})
+    , pNode('n2251', 1195, -980, S_P, {blue: 150}, {prestige: 15, luck: 15})
+    , pNode('n2252', 1060, -980, _S_, {blue: 200}, {},
         'Талант: Тактическая защита',
         'Защита в ближнем бою увеличена на 5% за каждый уровень этого '+
         'символа.</p>'+
         '<p>Защита в дальнем бою увеличена на 5% за каждый уровень этого '+
         'символа.',
         'defence')
-    , pNode('n2253',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2660, 510, 'stat')
-    , pNode('n2254',
-        {blue: 490}, {prestige: 38, str: 38}, 2712, 420, 'stat')
-    , pNode('n2255',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2608, 420, 'stat')
-    , pNode('n2256',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2565, 390, 'stat')
-    , pNode('n2257',
-        {blue: 490}, {prestige: 38, spirit: 38}, 2565, 510, 'stat')
-    , pNode('n2258',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 2755, 510, 'stat')
-    , pNode('n2259',
-        {blue: 650}, {prestige: 56, spirit: 56}, 2755, 390, 'stat')
-    , pNode('n2260',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2599, 340, 'stat')
-    , pNode('n2261',
-        {revelation: 300}, {prestige: 120, vit: 120}, 2721, 340, 'stat')
-    , pNode('n2262',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2599, 560, 'stat')
-    , pNode('n2263',
-        {blue: 490}, {prestige: 38, luck: 38}, 2721, 560, 'stat')
-    , pNode('n2264',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2660, 340, 'stat')
-    , pNode('n2265',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 2660, 560, 'stat')
-    , pNode('n2266',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2525, 450, 'stat')
-    , pNode('n2267',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2795, 450, 'stat')
-    , pNode('n2268', {blue: 350}, {prestige: 40}, 2660, 450, 'skill',
+    , pNode('n2253', 2660, 510, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2254', 2712, 420, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n2255', 2608, 420, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2256', 2565, 390, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2257', 2565, 510, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n2258', 2755, 510, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2259', 2755, 390, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n2260', 2599, 340, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2261', 2721, 340, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2262', 2599, 560, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2263', 2721, 560, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n2264', 2660, 340, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2265', 2660, 560, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2266', 2525, 450, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2267', 2795, 450, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2268', 2660, 450, _S_, {blue: 350}, {prestige: 40},
         'Талант: Эффективные препараты',
         'Длительность положтьельных эффектов от расходников, количество '+
         'восстанавливаемого ими здоровья, а также наносимый расходниками урон '+
         'увеличиваются на 12% за каждый уровень этого символа.',
         'medicines')
-    , pNode('n2269',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2660, -390, 'stat')
-    , pNode('n2270',
-        {blue: 650}, {prestige: 56, luck: 56}, 2712, -480, 'stat')
-    , pNode('n2271',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2608, -480, 'stat')
-    , pNode('n2272',
-        {blue: 490}, {prestige: 38, valor: 38}, 2565, -510, 'stat')
-    , pNode('n2273',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2565, -390, 'stat')
-    , pNode('n2274',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2755, -390, 'stat')
-    , pNode('n2275',
-        {blue: 490}, {prestige: 38, spirit: 38}, 2755, -510, 'stat')
-    , pNode('n2276',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2599, -560, 'stat')
-    , pNode('n2277',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2721, -560, 'stat')
-    , pNode('n2278',
-        {revelation: 300}, {prestige: 80, power: 80}, 2599, -340, 'stat')
-    , pNode('n2279',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 2721, -340, 'stat')
-    , pNode('n2280',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 2660, -560, 'stat')
-    , pNode('n2281',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 2660, -340, 'stat')
-    , pNode('n2282',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2525, -450, 'stat')
-    , pNode('n2283',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 2795, -450, 'stat')
-    , pNode('n2284', {blue: 350}, {prestige: 40}, 2660, -450, 'skill',
+    , pNode('n2269', 2660, -390, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2270', 2712, -480, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2271', 2608, -480, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2272', 2565, -510, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n2273', 2565, -390, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2274', 2755, -390, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2275', 2755, -510, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n2276', 2599, -560, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2277', 2721, -560, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2278', 2599, -340, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2279', 2721, -340, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2280', 2660, -560, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2281', 2660, -340, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2282', 2525, -450, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2283', 2795, -450, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2284', 2660, -450, _S_, {blue: 350}, {prestige: 40},
         'Талант: Дополнительный рывок',
         'Количество зарядов рывка увеличено на 1 за каждый уровень этого '+
         'символа.',
         'dash')
-    , pNode('n2285',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3900, -2140, 'stat')
-    , pNode('n2286',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3952, -2230, 'stat')
-    , pNode('n2287',
-        {blue: 650}, {prestige: 56, luck: 56}, 3848, -2230, 'stat')
-    , pNode('n2288',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3805, -2260, 'stat')
-    , pNode('n2289',
-        {blue: 650}, {prestige: 56, str: 56}, 3805, -2140, 'stat')
-    , pNode('n2290',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3995, -2140, 'stat')
-    , pNode('n2291',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3995, -2260, 'stat')
-    , pNode('n2292',
-        {blue: 810}, {prestige: 75, valor: 75}, 3839, -2310, 'stat')
-    , pNode('n2293',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3961, -2310, 'stat')
-    , pNode('n2294',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3839, -2090, 'stat')
-    , pNode('n2295',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3961, -2090, 'stat')
-    , pNode('n2296',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3900, -2310, 'stat')
-    , pNode('n2297',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3900, -2357, 'stat')
-    , pNode('n2298',
-        {revelation: 300}, {prestige: 80, power: 80}, 3900, -2043, 'stat')
-    , pNode('n2299', {blue: 4500},
+    , pNode('n2285', 3900, -2140, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2286', 3952, -2230, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2287', 3848, -2230, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2288', 3805, -2260, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2289', 3805, -2140, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n2290', 3995, -2140, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2291', 3995, -2260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2292', 3839, -2310, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n2293', 3961, -2310, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2294', 3839, -2090, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2295', 3961, -2090, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2296', 3900, -2310, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2297', 3900, -2357, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2298', 3900, -2043, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2299', 3900, -2200, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        3900, -2200,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2300',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3500, -2140, 'stat')
-    , pNode('n2301',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3552, -2230, 'stat')
-    , pNode('n2302',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3448, -2230, 'stat')
-    , pNode('n2303',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3405, -2260, 'stat')
-    , pNode('n2304',
-        {blue: 490}, {prestige: 38, valor: 38}, 3405, -2140, 'stat')
-    , pNode('n2305',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3595, -2140, 'stat')
-    , pNode('n2306',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3595, -2260, 'stat')
-    , pNode('n2307',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3500, -2310, 'stat')
-    , pNode('n2308',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3500, -2090, 'stat')
-    , pNode('n2309',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3500, -2357, 'stat')
-    , pNode('n2310',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3500, -2043, 'stat')
-    , pNode('n2311',
-        {blue: 650}, {prestige: 56, str: 56}, 3367, -2284, 'stat')
-    , pNode('n2312',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3367, -2116, 'stat')
-    , pNode('n2313',
-        {revelation: 300}, {prestige: 80, power: 80}, 3633, -2116, 'stat')
-    , pNode('n2314',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3633, -2284, 'stat')
-    , pNode('n2315', {}, {}, 3500, -2200, 'skill', 'Вершина равновесия',
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2300', 3500, -2140, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2301', 3552, -2230, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2302', 3448, -2230, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2303', 3405, -2260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2304', 3405, -2140, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n2305', 3595, -2140, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2306', 3595, -2260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2307', 3500, -2310, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2308', 3500, -2090, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2309', 3500, -2357, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2310', 3500, -2043, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2311', 3367, -2284, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n2312', 3367, -2116, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2313', 3633, -2116, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2314', 3633, -2284, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2315', 3500, -2200, _S_, {}, {}, 'Вершина равновесия',
             'Может быть усилена с помощью эфирных ядер.', 'balance')
-    , pNode('n2316',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 3040, -2140, 'stat')
-    , pNode('n2317',
-        {blue: 965}, {prestige: 75, spirit: 75}, 3092, -2230, 'stat')
-    , pNode('n2318',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 2988, -2230, 'stat')
-    , pNode('n2319',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 2945, -2260, 'stat')
-    , pNode('n2320',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 2945, -2140, 'stat')
-    , pNode('n2321',
-        {blue: 585}, {prestige: 38, spirit: 38}, 3135, -2140, 'stat')
-    , pNode('n2322',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 3135, -2260, 'stat')
-    , pNode('n2323',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 2979, -2310, 'stat')
-    , pNode('n2324',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 3101, -2310, 'stat')
-    , pNode('n2325',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 2979, -2090, 'stat')
-    , pNode('n2326',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 3101, -2090, 'stat')
-    , pNode('n2327',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 3040, -2310, 'stat')
-    , pNode('n2328',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3040, -2090, 'stat')
-    , pNode('n2329',
-        {blue: 575}, {prestige: 30, majesty: 250}, 2905, -2200, 'stat')
-    , pNode('n2330',
-        {revelation: 300}, {prestige: 80, power: 80}, 3175, -2200, 'stat')
-    , pNode('n2331', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 3040, -2200,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2332',
-        {blue: 810}, {prestige: 75, str: 75}, 4420, -1680, 'stat')
-    , pNode('n2333',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4472, -1770, 'stat')
-    , pNode('n2334',
-        {blue: 650}, {prestige: 56, luck: 56}, 4368, -1770, 'stat')
-    , pNode('n2335',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4325, -1800, 'stat')
-    , pNode('n2336',
-        {blue: 490}, {prestige: 38, valor: 38}, 4325, -1680, 'stat')
-    , pNode('n2337',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4515, -1680, 'stat')
-    , pNode('n2338',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4515, -1800, 'stat')
-    , pNode('n2339',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4420, -1850, 'stat')
-    , pNode('n2340',
-        {green: 490}, {prestige: 50, vit: 50, dex: 10}, 4420, -1630, 'stat')
-    , pNode('n2341',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4420, -1897, 'stat')
-    , pNode('n2342',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4420, -1583, 'stat')
-    , pNode('n2343',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4287, -1824, 'stat')
-    , pNode('n2344',
-        {revelation: 300}, {prestige: 80, power: 80}, 4287, -1656, 'stat')
-    , pNode('n2345',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4553, -1656, 'stat')
-    , pNode('n2346',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4553, -1824, 'stat')
-    , pNode('n2347', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 4420, -1740,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2348',
-        {blue: 490}, {prestige: 38, valor: 38}, 4880, -1680, 'stat')
-    , pNode('n2349',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4932, -1770, 'stat')
-    , pNode('n2350',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4828, -1770, 'stat')
-    , pNode('n2351',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4819, -1850, 'stat')
-    , pNode('n2352',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4941, -1850, 'stat')
-    , pNode('n2353',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4819, -1630, 'stat')
-    , pNode('n2354',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4941, -1630, 'stat')
-    , pNode('n2355',
-        {red: 810}, {prestige: 50, power: 50, dex: 30}, 4880, -1897, 'stat')
-    , pNode('n2356',
-        {revelation: 300}, {prestige: 80, power: 80}, 4880, -1583, 'stat')
-    , pNode('n2357',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4747, -1824, 'stat')
-    , pNode('n2358',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4747, -1656, 'stat')
-    , pNode('n2359',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 5013, -1656, 'stat')
-    , pNode('n2360',
-        {blue: 650}, {prestige: 56, luck: 56}, 5013, -1824, 'stat')
-    , pNode('n2361',
-        {blue: 810}, {prestige: 75, spirit: 75}, 4745, -1740, 'stat')
-    , pNode('n2362',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5015, -1740, 'stat')
-    , pNode('n2363', {blue: 4500}, {majesty: 2000}, 4880, -1740, 'bigStat',
-        'Бонус: Величие', '', 'majesty')
-    , pNode('n2364',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 4785, -2260, 'stat')
-    , pNode('n2365',
-        {blue: 585}, {prestige: 38, str: 38}, 4785, -2140, 'stat')
-    , pNode('n2366',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 4975, -2140, 'stat')
-    , pNode('n2367',
-        {blue: 775}, {prestige: 56, valor: 56}, 4975, -2260, 'stat')
-    , pNode('n2368',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 4819, -2310, 'stat')
-    , pNode('n2369',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4941, -2310, 'stat')
-    , pNode('n2370',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 4819, -2090, 'stat')
-    , pNode('n2371',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 4941, -2090, 'stat')
-    , pNode('n2372',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 4880, -2310, 'stat')
-    , pNode('n2373',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 4880, -2090, 'stat')
-    , pNode('n2374',
-        {blue: 965}, {prestige: 75, valor: 75}, 4747, -2284, 'stat')
-    , pNode('n2375',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4747, -2116, 'stat')
-    , pNode('n2376',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 5013, -2116, 'stat')
-    , pNode('n2377',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5013, -2284, 'stat')
-    , pNode('n2378',
-        {revelation: 300}, {prestige: 80, power: 80}, 4745, -2200, 'stat')
-    , pNode('n2379',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 5015, -2200, 'stat')
-    , pNode('n2380', {blue: 4500},
+    , pNode('n2316', 3040, -2140, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2317', 3092, -2230, S_P, {blue: 965}, {prestige: 75, spirit: 75})
+    , pNode('n2318', 2988, -2230, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2319', 2945, -2260, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2320', 2945, -2140, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2321', 3135, -2140, S_P, {blue: 585}, {prestige: 38, spirit: 38})
+    , pNode('n2322', 3135, -2260, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2323', 2979, -2310, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2324', 3101, -2310, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2325', 2979, -2090, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2326', 3101, -2090, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2327', 3040, -2310, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2328', 3040, -2090, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2329', 2905, -2200, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2330', 3175, -2200, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2331', 3040, -2200, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2332', 4420, -1680, S_P, {blue: 810}, {prestige: 75, str: 75})
+    , pNode('n2333', 4472, -1770, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2334', 4368, -1770, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2335', 4325, -1800, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2336', 4325, -1680, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n2337', 4515, -1680, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2338', 4515, -1800, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2339', 4420, -1850, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2340', 4420, -1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 10})
+    , pNode('n2341', 4420, -1897, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2342', 4420, -1583, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2343', 4287, -1824, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2344', 4287, -1656, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2345', 4553, -1656, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2346', 4553, -1824, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2347', 4420, -1740, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2348', 4880, -1680, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n2349', 4932, -1770, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2350', 4828, -1770, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2351', 4819, -1850, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2352', 4941, -1850, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2353', 4819, -1630, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2354', 4941, -1630, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2355', 4880, -1897, S_P, {red: 810}, {prestige: 50, power: 50, dex: 30})
+    , pNode('n2356', 4880, -1583, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2357', 4747, -1824, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2358', 4747, -1656, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2359', 5013, -1656, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2360', 5013, -1824, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2361', 4745, -1740, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n2362', 5015, -1740, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2363', 4880, -1740, SS_, {blue: 4500}, {majesty: 2000}, 'Бонус: Величие', '', 'majesty')
+    , pNode('n2364', 4785, -2260, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2365', 4785, -2140, S_P, {blue: 585}, {prestige: 38, str: 38})
+    , pNode('n2366', 4975, -2140, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2367', 4975, -2260, S_P, {blue: 775}, {prestige: 56, valor: 56})
+    , pNode('n2368', 4819, -2310, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2369', 4941, -2310, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2370', 4819, -2090, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2371', 4941, -2090, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2372', 4880, -2310, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2373', 4880, -2090, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2374', 4747, -2284, S_P, {blue: 965}, {prestige: 75, valor: 75})
+    , pNode('n2375', 4747, -2116, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2376', 5013, -2116, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2377', 5013, -2284, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2378', 4745, -2200, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2379', 5015, -2200, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2380', 4880, -2200, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        4880, -2200,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2381',
-        {blue: 650}, {prestige: 56, str: 56}, 4420, -2140, 'stat')
-    , pNode('n2382',
-        {blue: 650}, {prestige: 56, luck: 56}, 4472, -2230, 'stat')
-    , pNode('n2383',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4368, -2230, 'stat')
-    , pNode('n2384',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4359, -2310, 'stat')
-    , pNode('n2385',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4481, -2310, 'stat')
-    , pNode('n2386',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4359, -2090, 'stat')
-    , pNode('n2387',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4481, -2090, 'stat')
-    , pNode('n2388',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4420, -2357, 'stat')
-    , pNode('n2389',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4420, -2043, 'stat')
-    , pNode('n2390',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4287, -2284, 'stat')
-    , pNode('n2391',
-        {revelation: 300}, {prestige: 80, power: 80}, 4287, -2116, 'stat')
-    , pNode('n2392',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4553, -2116, 'stat')
-    , pNode('n2393',
-        {blue: 650}, {prestige: 56, valor: 56}, 4553, -2284, 'stat')
-    , pNode('n2394',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4285, -2200, 'stat')
-    , pNode('n2395',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4555, -2200, 'stat')
-    , pNode('n2396', {blue: 4500}, {majesty: 2000}, 4420, -2200, 'bigStat',
-        'Бонус: Величие', '', 'majesty')
-    , pNode('n2397',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 5340, -1210, 'stat')
-    , pNode('n2398',
-        {blue: 775}, {prestige: 56, luck: 56}, 5392, -1300, 'stat')
-    , pNode('n2399',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 5288, -1300, 'stat')
-    , pNode('n2400',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 5245, -1330, 'stat')
-    , pNode('n2401',
-        {revelation: 300}, {prestige: 80, power: 80}, 5245, -1210, 'stat')
-    , pNode('n2402',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5435, -1210, 'stat')
-    , pNode('n2403',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5435, -1330, 'stat')
-    , pNode('n2404',
-        {blue: 585}, {prestige: 38, valor: 38}, 5279, -1380, 'stat')
-    , pNode('n2405',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 5401, -1380, 'stat')
-    , pNode('n2406',
-        {blue: 775}, {prestige: 56, luck: 56}, 5279, -1160, 'stat')
-    , pNode('n2407',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 5401, -1160, 'stat')
-    , pNode('n2408',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5340, -1380, 'stat')
-    , pNode('n2409',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5340, -1427, 'stat')
-    , pNode('n2410',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 5340, -1113, 'stat')
-    , pNode('n2411', {blue: 4500},
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2381', 4420, -2140, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n2382', 4472, -2230, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2383', 4368, -2230, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2384', 4359, -2310, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2385', 4481, -2310, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2386', 4359, -2090, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2387', 4481, -2090, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2388', 4420, -2357, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2389', 4420, -2043, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2390', 4287, -2284, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2391', 4287, -2116, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2392', 4553, -2116, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2393', 4553, -2284, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n2394', 4285, -2200, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2395', 4555, -2200, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2396', 4420, -2200, SS_, {blue: 4500}, {majesty: 2000}, 'Бонус: Величие', '', 'majesty')
+    , pNode('n2397', 5340, -1210, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2398', 5392, -1300, S_P, {blue: 775}, {prestige: 56, luck: 56})
+    , pNode('n2399', 5288, -1300, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2400', 5245, -1330, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2401', 5245, -1210, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2402', 5435, -1210, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2403', 5435, -1330, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2404', 5279, -1380, S_P, {blue: 585}, {prestige: 38, valor: 38})
+    , pNode('n2405', 5401, -1380, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2406', 5279, -1160, S_P, {blue: 775}, {prestige: 56, luck: 56})
+    , pNode('n2407', 5401, -1160, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2408', 5340, -1380, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2409', 5340, -1427, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2410', 5340, -1113, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2411', 5340, -1270, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        5340, -1270,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2412',
-        {blue: 585}, {prestige: 38, valor: 38}, 5340, -1680, 'stat')
-    , pNode('n2413',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5392, -1770, 'stat')
-    , pNode('n2414',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 5288, -1770, 'stat')
-    , pNode('n2415',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 5245, -1800, 'stat')
-    , pNode('n2416',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 5245, -1680, 'stat')
-    , pNode('n2417',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5435, -1680, 'stat')
-    , pNode('n2418',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 5435, -1800, 'stat')
-    , pNode('n2419',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5279, -1850, 'stat')
-    , pNode('n2420',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5401, -1850, 'stat')
-    , pNode('n2421',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 5279, -1630, 'stat')
-    , pNode('n2422',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5401, -1630, 'stat')
-    , pNode('n2423',
-        {blue: 775}, {prestige: 56, valor: 56}, 5340, -1850, 'stat')
-    , pNode('n2424',
-        {revelation: 300}, {prestige: 120, vit: 120}, 5340, -1630, 'stat')
-    , pNode('n2425',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5205, -1740, 'stat')
-    , pNode('n2426',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 5475, -1740, 'stat')
-    , pNode('n2427', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 5340, -1740,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2428',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3500, 2260, 'stat')
-    , pNode('n2429',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3552, 2170, 'stat')
-    , pNode('n2430',
-        {blue: 490}, {prestige: 38, spirit: 38}, 3448, 2170, 'stat')
-    , pNode('n2431',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3405, 2140, 'stat')
-    , pNode('n2432',
-        {blue: 490}, {prestige: 38, valor: 38}, 3405, 2260, 'stat')
-    , pNode('n2433',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3595, 2260, 'stat')
-    , pNode('n2434',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3595, 2140, 'stat')
-    , pNode('n2435',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3500, 2090, 'stat')
-    , pNode('n2436',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3500, 2310, 'stat')
-    , pNode('n2437',
-        {revelation: 300}, {prestige: 80, power: 80}, 3500, 2043, 'stat')
-    , pNode('n2438',
-        {blue: 650}, {prestige: 56, valor: 56}, 3500, 2357, 'stat')
-    , pNode('n2439',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3367, 2116, 'stat')
-    , pNode('n2440',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3367, 2284, 'stat')
-    , pNode('n2441',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3633, 2284, 'stat')
-    , pNode('n2442',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3633, 2116, 'stat')
-    , pNode('n2443', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 3500, 2200,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2444',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3040, 2260, 'stat')
-    , pNode('n2445',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3092, 2170, 'stat')
-    , pNode('n2446',
-        {blue: 650}, {prestige: 56, luck: 56}, 2988, 2170, 'stat')
-    , pNode('n2447',
-        {blue: 650}, {prestige: 56, valor: 56}, 2945, 2140, 'stat')
-    , pNode('n2448',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2945, 2260, 'stat')
-    , pNode('n2449',
-        {revelation: 300}, {prestige: 80, power: 80}, 3135, 2260, 'stat')
-    , pNode('n2450',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3135, 2140, 'stat')
-    , pNode('n2451',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 2979, 2090, 'stat')
-    , pNode('n2452',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3101, 2090, 'stat')
-    , pNode('n2453',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 2979, 2310, 'stat')
-    , pNode('n2454',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3101, 2310, 'stat')
-    , pNode('n2455',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3040, 2090, 'stat')
-    , pNode('n2456',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3040, 2310, 'stat')
-    , pNode('n2457',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 2905, 2200, 'stat')
-    , pNode('n2458',
-        {blue: 650}, {prestige: 56, luck: 56}, 3175, 2200, 'stat')
-    , pNode('n2459', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 3040, 2200,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2460',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3500, 2720, 'stat')
-    , pNode('n2461',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3552, 2630, 'stat')
-    , pNode('n2462',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3448, 2630, 'stat')
-    , pNode('n2463',
-        {blue: 650}, {prestige: 56, str: 56}, 3405, 2600, 'stat')
-    , pNode('n2464',
-        {blue: 810}, {prestige: 75, valor: 75}, 3405, 2720, 'stat')
-    , pNode('n2465',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3595, 2720, 'stat')
-    , pNode('n2466',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3595, 2600, 'stat')
-    , pNode('n2467',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3439, 2550, 'stat')
-    , pNode('n2468',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3561, 2550, 'stat')
-    , pNode('n2469',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3439, 2770, 'stat')
-    , pNode('n2470',
-        {blue: 650}, {prestige: 56, luck: 56}, 3561, 2770, 'stat')
-    , pNode('n2471',
-        {revelation: 300}, {prestige: 80, power: 80}, 3500, 2550, 'stat')
-    , pNode('n2472',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3500, 2770, 'stat')
-    , pNode('n2473',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3365, 2660, 'stat')
-    , pNode('n2474',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3635, 2660, 'stat')
-    , pNode('n2475', {blue: 4500},
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2412', 5340, -1680, S_P, {blue: 585}, {prestige: 38, valor: 38})
+    , pNode('n2413', 5392, -1770, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2414', 5288, -1770, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2415', 5245, -1800, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2416', 5245, -1680, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2417', 5435, -1680, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2418', 5435, -1800, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2419', 5279, -1850, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2420', 5401, -1850, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2421', 5279, -1630, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2422', 5401, -1630, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2423', 5340, -1850, S_P, {blue: 775}, {prestige: 56, valor: 56})
+    , pNode('n2424', 5340, -1630, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2425', 5205, -1740, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2426', 5475, -1740, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2427', 5340, -1740, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2428', 3500, 2260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2429', 3552, 2170, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2430', 3448, 2170, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n2431', 3405, 2140, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2432', 3405, 2260, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n2433', 3595, 2260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2434', 3595, 2140, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2435', 3500, 2090, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2436', 3500, 2310, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2437', 3500, 2043, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2438', 3500, 2357, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n2439', 3367, 2116, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2440', 3367, 2284, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2441', 3633, 2284, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2442', 3633, 2116, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2443', 3500, 2200, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2444', 3040, 2260, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2445', 3092, 2170, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2446', 2988, 2170, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2447', 2945, 2140, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n2448', 2945, 2260, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2449', 3135, 2260, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2450', 3135, 2140, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2451', 2979, 2090, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2452', 3101, 2090, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2453', 2979, 2310, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2454', 3101, 2310, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2455', 3040, 2090, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2456', 3040, 2310, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2457', 2905, 2200, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2458', 3175, 2200, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2459', 3040, 2200, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2460', 3500, 2720, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2461', 3552, 2630, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2462', 3448, 2630, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2463', 3405, 2600, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n2464', 3405, 2720, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n2465', 3595, 2720, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2466', 3595, 2600, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2467', 3439, 2550, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2468', 3561, 2550, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2469', 3439, 2770, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2470', 3561, 2770, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2471', 3500, 2550, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2472', 3500, 2770, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2473', 3365, 2660, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2474', 3635, 2660, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2475', 3500, 2660, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        3500, 2660,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2476',
-        {blue: 490}, {prestige: 38, str: 38}, 3960, 1800, 'stat')
-    , pNode('n2477',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4012, 1710, 'stat')
-    , pNode('n2478',
-        {blue: 650}, {prestige: 56, luck: 56}, 3908, 1710, 'stat')
-    , pNode('n2479',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 3865, 1680, 'stat')
-    , pNode('n2480',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 3865, 1800, 'stat')
-    , pNode('n2481',
-        {blue: 650}, {prestige: 56, spirit: 56}, 4055, 1800, 'stat')
-    , pNode('n2482',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4055, 1680, 'stat')
-    , pNode('n2483',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 3899, 1630, 'stat')
-    , pNode('n2484',
-        {revelation: 300}, {prestige: 80, power: 80, dex: 24}, 4021, 1630, 'stat')
-    , pNode('n2485',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3899, 1850, 'stat')
-    , pNode('n2486',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4021, 1850, 'stat')
-    , pNode('n2487',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3960, 1630, 'stat')
-    , pNode('n2488',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3960, 1583, 'stat')
-    , pNode('n2489',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3960, 1897, 'stat')
-    , pNode('n2490', {blue: 4500}, {majesty: 2000}, 3960, 1740, 'bigStat',
-        'Бонус: Величие', '', 'majesty')
-    , pNode('n2491',
-        {blue: 490}, {prestige: 38, spirit: 38}, 3960, 2260, 'stat')
-    , pNode('n2492',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4012, 2170, 'stat')
-    , pNode('n2493',
-        {blue: 490}, {prestige: 38, spirit: 38}, 3908, 2170, 'stat')
-    , pNode('n2494',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 3865, 2140, 'stat')
-    , pNode('n2495',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3865, 2260, 'stat')
-    , pNode('n2496',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4055, 2260, 'stat')
-    , pNode('n2497',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4055, 2140, 'stat')
-    , pNode('n2498',
-        {blue: 490}, {prestige: 38, luck: 38}, 3899, 2090, 'stat')
-    , pNode('n2499',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4021, 2090, 'stat')
-    , pNode('n2500',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 3899, 2310, 'stat')
-    , pNode('n2501',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4021, 2310, 'stat')
-    , pNode('n2502',
-        {revelation: 300}, {prestige: 120, vit: 120}, 3960, 2090, 'stat')
-    , pNode('n2503',
-        {blue: 575}, {prestige: 30, majesty: 250}, 3960, 2310, 'stat')
-    , pNode('n2504',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 3825, 2200, 'stat')
-    , pNode('n2505',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4095, 2200, 'stat')
-    , pNode('n2506', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 3960, 2200,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2507',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4420, 1800, 'stat')
-    , pNode('n2508',
-        {blue: 490}, {prestige: 38, valor: 38}, 4472, 1710, 'stat')
-    , pNode('n2509',
-        {blue: 810}, {prestige: 75, spirit: 75}, 4368, 1710, 'stat')
-    , pNode('n2510',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4359, 1630, 'stat')
-    , pNode('n2511',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4481, 1630, 'stat')
-    , pNode('n2512',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4359, 1850, 'stat')
-    , pNode('n2513',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4481, 1850, 'stat')
-    , pNode('n2514',
-        {blue: 650}, {prestige: 56, luck: 56}, 4420, 1583, 'stat')
-    , pNode('n2515',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4420, 1897, 'stat')
-    , pNode('n2516',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4287, 1656, 'stat')
-    , pNode('n2517',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4287, 1824, 'stat')
-    , pNode('n2518',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4553, 1824, 'stat')
-    , pNode('n2519',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4553, 1656, 'stat')
-    , pNode('n2520',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4285, 1740, 'stat')
-    , pNode('n2521',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4555, 1740, 'stat')
-    , pNode('n2522', {}, {}, 4420, 1740, 'skill', 'Вершина созидания',
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2476', 3960, 1800, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n2477', 4012, 1710, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2478', 3908, 1710, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2479', 3865, 1680, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2480', 3865, 1800, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2481', 4055, 1800, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n2482', 4055, 1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2483', 3899, 1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2484', 4021, 1630, S_P, {revelation: 300}, {prestige: 80, power: 80, dex: 24})
+    , pNode('n2485', 3899, 1850, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2486', 4021, 1850, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2487', 3960, 1630, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2488', 3960, 1583, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2489', 3960, 1897, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2490', 3960, 1740, SS_, {blue: 4500}, {majesty: 2000}, 'Бонус: Величие', '', 'majesty')
+    , pNode('n2491', 3960, 2260, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n2492', 4012, 2170, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2493', 3908, 2170, S_P, {blue: 490}, {prestige: 38, spirit: 38})
+    , pNode('n2494', 3865, 2140, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2495', 3865, 2260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2496', 4055, 2260, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2497', 4055, 2140, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2498', 3899, 2090, S_P, {blue: 490}, {prestige: 38, luck: 38})
+    , pNode('n2499', 4021, 2090, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2500', 3899, 2310, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2501', 4021, 2310, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2502', 3960, 2090, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2503', 3960, 2310, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2504', 3825, 2200, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2505', 4095, 2200, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2506', 3960, 2200, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2507', 4420, 1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2508', 4472, 1710, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n2509', 4368, 1710, S_P, {blue: 810}, {prestige: 75, spirit: 75})
+    , pNode('n2510', 4359, 1630, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2511', 4481, 1630, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2512', 4359, 1850, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2513', 4481, 1850, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2514', 4420, 1583, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2515', 4420, 1897, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2516', 4287, 1656, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2517', 4287, 1824, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2518', 4553, 1824, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2519', 4553, 1656, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2520', 4285, 1740, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2521', 4555, 1740, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2522', 4420, 1740, _S_, {}, {}, 'Вершина созидания',
             'Может быть усилена с помощью эфирных ядер.', 'create')
-    , pNode('n2523',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 4420, 2260, 'stat')
-    , pNode('n2524',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 4472, 2170, 'stat')
-    , pNode('n2525',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4368, 2170, 'stat')
-    , pNode('n2526',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 4325, 2140, 'stat')
-    , pNode('n2527',
-        {blue: 775}, {prestige: 56, spirit: 56}, 4325, 2260, 'stat')
-    , pNode('n2528',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 4515, 2260, 'stat')
-    , pNode('n2529',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 4515, 2140, 'stat')
-    , pNode('n2530',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 4359, 2090, 'stat')
-    , pNode('n2531',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 4481, 2090, 'stat')
-    , pNode('n2532',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 4359, 2310, 'stat')
-    , pNode('n2533',
-        {blue: 965}, {prestige: 75, spirit: 75}, 4481, 2310, 'stat')
-    , pNode('n2534',
-        {revelation: 300}, {prestige: 80, power: 80}, 4420, 2090, 'stat')
-    , pNode('n2535',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 4420, 2310, 'stat')
-    , pNode('n2536',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 4285, 2200, 'stat')
-    , pNode('n2537',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 4555, 2200, 'stat')
-    , pNode('n2538', {blue: 4500},
+    , pNode('n2523', 4420, 2260, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2524', 4472, 2170, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2525', 4368, 2170, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2526', 4325, 2140, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2527', 4325, 2260, S_P, {blue: 775}, {prestige: 56, spirit: 56})
+    , pNode('n2528', 4515, 2260, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2529', 4515, 2140, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2530', 4359, 2090, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2531', 4481, 2090, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2532', 4359, 2310, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2533', 4481, 2310, S_P, {blue: 965}, {prestige: 75, spirit: 75})
+    , pNode('n2534', 4420, 2090, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2535', 4420, 2310, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2536', 4285, 2200, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2537', 4555, 2200, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2538', 4420, 2200, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        4420, 2200,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2539',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4785, 1680, 'stat')
-    , pNode('n2540',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4785, 1800, 'stat')
-    , pNode('n2541',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4975, 1800, 'stat')
-    , pNode('n2542',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4975, 1680, 'stat')
-    , pNode('n2543',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4819, 1630, 'stat')
-    , pNode('n2544',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4941, 1630, 'stat')
-    , pNode('n2545',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4819, 1850, 'stat')
-    , pNode('n2546',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4941, 1850, 'stat')
-    , pNode('n2547',
-        {blue: 650}, {prestige: 56, spirit: 56}, 4880, 1630, 'stat')
-    , pNode('n2548',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4880, 1850, 'stat')
-    , pNode('n2549',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4747, 1656, 'stat')
-    , pNode('n2550',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4747, 1824, 'stat')
-    , pNode('n2551',
-        {blue: 650}, {prestige: 56, str: 56}, 5013, 1824, 'stat')
-    , pNode('n2552',
-        {blue: 810}, {prestige: 75, valor: 75}, 5013, 1656, 'stat')
-    , pNode('n2553',
-        {revelation: 300}, {prestige: 80, power: 80}, 4745, 1740, 'stat')
-    , pNode('n2554',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 5015, 1740, 'stat')
-    , pNode('n2555', {blue: 4500},
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2539', 4785, 1680, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2540', 4785, 1800, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2541', 4975, 1800, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2542', 4975, 1680, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2543', 4819, 1630, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2544', 4941, 1630, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2545', 4819, 1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2546', 4941, 1850, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2547', 4880, 1630, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n2548', 4880, 1850, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2549', 4747, 1656, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2550', 4747, 1824, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2551', 5013, 1824, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n2552', 5013, 1656, S_P, {blue: 810}, {prestige: 75, valor: 75})
+    , pNode('n2553', 4745, 1740, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2554', 5015, 1740, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2555', 4880, 1740, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        4880, 1740,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2556',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4880, 2260, 'stat')
-    , pNode('n2557',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 4932, 2170, 'stat')
-    , pNode('n2558',
-        {blue: 585}, {prestige: 38, luck: 38}, 4828, 2170, 'stat')
-    , pNode('n2559',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 4785, 2140, 'stat')
-    , pNode('n2560',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 4785, 2260, 'stat')
-    , pNode('n2561',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 4975, 2260, 'stat')
-    , pNode('n2562',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 4975, 2140, 'stat')
-    , pNode('n2563',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 4819, 2090, 'stat')
-    , pNode('n2564',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4941, 2090, 'stat')
-    , pNode('n2565',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 4819, 2310, 'stat')
-    , pNode('n2566',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 4941, 2310, 'stat')
-    , pNode('n2567',
-        {revelation: 300}, {prestige: 120, vit: 120}, 4880, 2090, 'stat')
-    , pNode('n2568',
-        {blue: 585}, {prestige: 38, valor: 38}, 4880, 2310, 'stat')
-    , pNode('n2569',
-        {blue: 965}, {prestige: 75, str: 75}, 4745, 2200, 'stat')
-    , pNode('n2570',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 5015, 2200, 'stat')
-    , pNode('n2571', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 4880, 2200,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2572',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4420, 1330, 'stat')
-    , pNode('n2573',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4472, 1240, 'stat')
-    , pNode('n2574',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4368, 1240, 'stat')
-    , pNode('n2575',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4325, 1210, 'stat')
-    , pNode('n2576',
-        {blue: 650}, {prestige: 56, str: 56}, 4325, 1330, 'stat')
-    , pNode('n2577',
-        {blue: 490}, {prestige: 38, valor: 38}, 4515, 1330, 'stat')
-    , pNode('n2578',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4515, 1210, 'stat')
-    , pNode('n2579',
-        {blue: 650}, {prestige: 56, valor: 56}, 4420, 1160, 'stat')
-    , pNode('n2580',
-        {green: 490}, {prestige: 50, vit: 50, dex: 18}, 4420, 1380, 'stat')
-    , pNode('n2581',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4420, 1113, 'stat')
-    , pNode('n2582',
-        {revelation: 300}, {prestige: 80, power: 80}, 4420, 1427, 'stat')
-    , pNode('n2583',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4287, 1186, 'stat')
-    , pNode('n2584',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4287, 1354, 'stat')
-    , pNode('n2585',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4553, 1354, 'stat')
-    , pNode('n2586',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4553, 1186, 'stat')
-    , pNode('n2587', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 4420, 1270,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2588',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 4785, 1210, 'stat')
-    , pNode('n2589',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4785, 1330, 'stat')
-    , pNode('n2590',
-        {blue: 490}, {prestige: 38, str: 38}, 4975, 1330, 'stat')
-    , pNode('n2591',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4975, 1210, 'stat')
-    , pNode('n2592',
-        {red: 810}, {prestige: 53, power: 53, dex: 30}, 4819, 1160, 'stat')
-    , pNode('n2593',
-        {blue: 650}, {prestige: 56, spirit: 56}, 4941, 1160, 'stat')
-    , pNode('n2594',
-        {blue: 650}, {prestige: 56, luck: 56}, 4819, 1380, 'stat')
-    , pNode('n2595',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4941, 1380, 'stat')
-    , pNode('n2596',
-        {green: 810}, {prestige: 100, vit: 100, dex: 30}, 4880, 1160, 'stat')
-    , pNode('n2597',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 4880, 1380, 'stat')
-    , pNode('n2598',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 4747, 1186, 'stat')
-    , pNode('n2599',
-        {blue: 575}, {prestige: 30, majesty: 250}, 4747, 1354, 'stat')
-    , pNode('n2600',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5013, 1354, 'stat')
-    , pNode('n2601',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 5013, 1186, 'stat')
-    , pNode('n2602',
-        {revelation: 300}, {prestige: 120, vit: 120}, 4745, 1270, 'stat')
-    , pNode('n2603',
-        {red: 490}, {prestige: 27, power: 27, dex: 18}, 5015, 1270, 'stat')
-    , pNode('n2604', {blue: 4500}, {majesty: 2000}, 4880, 1270, 'bigStat',
-        'Бонус: Величие', '', 'majesty')
-    , pNode('n2605',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 5340, 1330, 'stat')
-    , pNode('n2606',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 5392, 1240, 'stat')
-    , pNode('n2607',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 5288, 1240, 'stat')
-    , pNode('n2608',
-        {revelation: 300}, {prestige: 80, power: 80}, 5245, 1210, 'stat')
-    , pNode('n2609',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 5245, 1330, 'stat')
-    , pNode('n2610',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 5435, 1330, 'stat')
-    , pNode('n2611',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 5435, 1210, 'stat')
-    , pNode('n2612',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 5279, 1160, 'stat')
-    , pNode('n2613',
-        {blue: 775}, {prestige: 56, spirit: 56}, 5401, 1160, 'stat')
-    , pNode('n2614',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5279, 1380, 'stat')
-    , pNode('n2615',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 5401, 1380, 'stat')
-    , pNode('n2616',
-        {blue: 775}, {prestige: 56, str: 56}, 5340, 1160, 'stat')
-    , pNode('n2617',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5340, 1113, 'stat')
-    , pNode('n2618',
-        {blue: 775}, {prestige: 56, str: 56}, 5340, 1427, 'stat')
-    , pNode('n2619', {blue: 4500},
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2556', 4880, 2260, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2557', 4932, 2170, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2558', 4828, 2170, S_P, {blue: 585}, {prestige: 38, luck: 38})
+    , pNode('n2559', 4785, 2140, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2560', 4785, 2260, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2561', 4975, 2260, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2562', 4975, 2140, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2563', 4819, 2090, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2564', 4941, 2090, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2565', 4819, 2310, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2566', 4941, 2310, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2567', 4880, 2090, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2568', 4880, 2310, S_P, {blue: 585}, {prestige: 38, valor: 38})
+    , pNode('n2569', 4745, 2200, S_P, {blue: 965}, {prestige: 75, str: 75})
+    , pNode('n2570', 5015, 2200, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2571', 4880, 2200, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2572', 4420, 1330, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2573', 4472, 1240, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2574', 4368, 1240, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2575', 4325, 1210, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2576', 4325, 1330, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n2577', 4515, 1330, S_P, {blue: 490}, {prestige: 38, valor: 38})
+    , pNode('n2578', 4515, 1210, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2579', 4420, 1160, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n2580', 4420, 1380, S_P, {green: 490}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2581', 4420, 1113, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2582', 4420, 1427, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2583', 4287, 1186, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2584', 4287, 1354, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2585', 4553, 1354, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2586', 4553, 1186, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2587', 4420, 1270, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2588', 4785, 1210, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2589', 4785, 1330, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2590', 4975, 1330, S_P, {blue: 490}, {prestige: 38, str: 38})
+    , pNode('n2591', 4975, 1210, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2592', 4819, 1160, S_P, {red: 810}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2593', 4941, 1160, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n2594', 4819, 1380, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2595', 4941, 1380, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2596', 4880, 1160, S_P, {green: 810}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2597', 4880, 1380, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2598', 4747, 1186, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2599', 4747, 1354, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2600', 5013, 1354, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2601', 5013, 1186, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2602', 4745, 1270, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2603', 5015, 1270, S_P, {red: 490}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2604', 4880, 1270, SS_, {blue: 4500}, {majesty: 2000}, 'Бонус: Величие', '', 'majesty')
+    , pNode('n2605', 5340, 1330, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2606', 5392, 1240, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2607', 5288, 1240, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2608', 5245, 1210, S_P, {revelation: 300}, {prestige: 80, power: 80})
+    , pNode('n2609', 5245, 1330, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2610', 5435, 1330, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2611', 5435, 1210, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2612', 5279, 1160, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2613', 5401, 1160, S_P, {blue: 775}, {prestige: 56, spirit: 56})
+    , pNode('n2614', 5279, 1380, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2615', 5401, 1380, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2616', 5340, 1160, S_P, {blue: 775}, {prestige: 56, str: 56})
+    , pNode('n2617', 5340, 1113, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2618', 5340, 1427, S_P, {blue: 775}, {prestige: 56, str: 56})
+    , pNode('n2619', 5340, 1270, SSP, {blue: 4500},
         {prestige: 400, str: 100, valor: 100, luck: 100, spirit: 100},
-        5340, 1270,
-        'bigStat', 'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
-    , pNode('n2620',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 5340, 1800, 'stat')
-    , pNode('n2621',
-        {green: 775}, {prestige: 90, vit: 90, dex: 29}, 5392, 1710, 'stat')
-    , pNode('n2622',
-        {blue: 775}, {prestige: 56, str: 56}, 5288, 1710, 'stat')
-    , pNode('n2623',
-        {red: 585}, {prestige: 27, power: 27, dex: 18}, 5245, 1680, 'stat')
-    , pNode('n2624',
-        {red: 965}, {prestige: 53, power: 53, dex: 30}, 5245, 1800, 'stat')
-    , pNode('n2625',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5435, 1800, 'stat')
-    , pNode('n2626',
-        {blue: 585}, {prestige: 38, spirit: 38}, 5435, 1680, 'stat')
-    , pNode('n2627',
-        {blue: 775}, {prestige: 56, spirit: 56}, 5279, 1630, 'stat')
-    , pNode('n2628',
-        {revelation: 300}, {prestige: 120, vit: 120}, 5401, 1630, 'stat')
-    , pNode('n2629',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5279, 1850, 'stat')
-    , pNode('n2630',
-        {blue: 575}, {prestige: 30, majesty: 250}, 5401, 1850, 'stat')
-    , pNode('n2631',
-        {red: 775}, {prestige: 48, power: 48, dex: 29}, 5340, 1630, 'stat')
-    , pNode('n2632',
-        {green: 585}, {prestige: 50, vit: 50, dex: 18}, 5340, 1850, 'stat')
-    , pNode('n2633',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 5205, 1740, 'stat')
-    , pNode('n2634',
-        {green: 965}, {prestige: 100, vit: 100, dex: 30}, 5475, 1740, 'stat')
-    , pNode('n2635', {red: 4500, green: 4500},
-        {prestige: 750, power: 250, vit: 500, dex: 300}, 5340, 1740,
-        'bigStat', 'Бонус: Могущество, Выносливость', '', 'pv')
-    , pNode('n2636',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1380, -330, 'stat')
-    , pNode('n2637',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1432, -420, 'stat')
-    , pNode('n2638',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1328, -420, 'stat')
-    , pNode('n2639',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1285, -450, 'stat')
-    , pNode('n2640',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1285, -330, 'stat')
-    , pNode('n2641',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1475, -330, 'stat')
-    , pNode('n2642',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1475, -450, 'stat')
-    , pNode('n2643',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1380, -500, 'stat')
-    , pNode('n2644',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1380, -280, 'stat')
-    , pNode('n2645',
-        {blue: 650}, {prestige: 56, spirit: 56}, 1380, -547, 'stat')
-    , pNode('n2646',
-        {red: 650}, {prestige: 40, power: 40, dex: 24}, 1380, -233, 'stat')
-    , pNode('n2647',
-        {blue: 650}, {prestige: 56, valor: 56}, 1247, -474, 'stat')
-    , pNode('n2648',
-        {green: 650}, {prestige: 75, vit: 75, dex: 24}, 1247, -306, 'stat')
-    , pNode('n2649',
-        {blue: 650}, {prestige: 56, luck: 56}, 1513, -306, 'stat')
-    , pNode('n2650',
-        {blue: 650}, {prestige: 56, str: 56}, 1513, -474, 'stat')
-    , pNode('n2651', {blue: 350}, {prestige: 40}, 1380, -390, 'skill',
+        'Бонус: Сила, Отвага, Удача, Дух', '', 'stat')
+    , pNode('n2620', 5340, 1800, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2621', 5392, 1710, S_P, {green: 775}, {prestige: 90, vit: 90, dex: 29})
+    , pNode('n2622', 5288, 1710, S_P, {blue: 775}, {prestige: 56, str: 56})
+    , pNode('n2623', 5245, 1680, S_P, {red: 585}, {prestige: 27, power: 27, dex: 18})
+    , pNode('n2624', 5245, 1800, S_P, {red: 965}, {prestige: 53, power: 53, dex: 30})
+    , pNode('n2625', 5435, 1800, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2626', 5435, 1680, S_P, {blue: 585}, {prestige: 38, spirit: 38})
+    , pNode('n2627', 5279, 1630, S_P, {blue: 775}, {prestige: 56, spirit: 56})
+    , pNode('n2628', 5401, 1630, S_P, {revelation: 300}, {prestige: 120, vit: 120})
+    , pNode('n2629', 5279, 1850, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2630', 5401, 1850, S__, {blue: 575}, {prestige: 30, majesty: 250})
+    , pNode('n2631', 5340, 1630, S_P, {red: 775}, {prestige: 48, power: 48, dex: 29})
+    , pNode('n2632', 5340, 1850, S_P, {green: 585}, {prestige: 50, vit: 50, dex: 18})
+    , pNode('n2633', 5205, 1740, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2634', 5475, 1740, S_P, {green: 965}, {prestige: 100, vit: 100, dex: 30})
+    , pNode('n2635', 5340, 1740, SSP, {red: 4500, green: 4500},
+        {prestige: 750, power: 250, vit: 500, dex: 300},
+        'Бонус: Могущество, Выносливость', '', 'pv')
+    , pNode('n2636', 1380, -330, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2637', 1432, -420, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2638', 1328, -420, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2639', 1285, -450, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2640', 1285, -330, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2641', 1475, -330, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2642', 1475, -450, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2643', 1380, -500, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2644', 1380, -280, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2645', 1380, -547, S_P, {blue: 650}, {prestige: 56, spirit: 56})
+    , pNode('n2646', 1380, -233, S_P, {red: 650}, {prestige: 40, power: 40, dex: 24})
+    , pNode('n2647', 1247, -474, S_P, {blue: 650}, {prestige: 56, valor: 56})
+    , pNode('n2648', 1247, -306, S_P, {green: 650}, {prestige: 75, vit: 75, dex: 24})
+    , pNode('n2649', 1513, -306, S_P, {blue: 650}, {prestige: 56, luck: 56})
+    , pNode('n2650', 1513, -474, S_P, {blue: 650}, {prestige: 56, str: 56})
+    , pNode('n2651', 1380, -390, _S_, {blue: 350}, {prestige: 40},
         'Талант: Сила единства',
         'При игре за класс роли "Атака" могущество увеличивается на 25% '+
         'за каждого союзника другого класса этой роли, находящегося в '+

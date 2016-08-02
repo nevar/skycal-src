@@ -5,6 +5,7 @@ import Vue from 'vue';
 import $ from 'jquery';
 import 'qtip2';
 import {notObserve} from './util/notObserve.js';
+import {S__, _S_, __P, S_P} from './util/graph.js';
 
 let tempPath = {found: false},
     need =
@@ -84,10 +85,7 @@ let calcTotal = (atlases) => {
             let node = nodesData[i];
             let nodeData = node.data;
             nodePos[nodeData.id] = node.position;
-            if (isPolish &&
-                (node.classes === 'stat' || node.classes === 'bigStat') &&
-                !nodeData.give.majesty)
-            {
+            if ((nodeData.flags & __P) === __P) {
                 polishNode++;
                 polishPrestige += nodeData.give.prestige;
                 let polishCost = 9999;
@@ -145,9 +143,7 @@ let groupSkill = (atlases) => {
         for (let i in nodesData) {
             let node = nodesData[i];
             let nodeData = node.data;
-            if (node.classes === 'skill' || node.classes === 'class' ||
-                node.classes === 'bigStat')
-            {
+            if ((nodeData.flags & _S_) === _S_) {
                 let ID = nodeData.title;
                 if (!pos[ID]) {
                     pos[ID] = [];
@@ -161,7 +157,7 @@ let groupSkill = (atlases) => {
                 }
                 pos[ID].push(node.position);
             }
-            if(node.classes === 'stat' || node.classes === 'bigStat') {
+            if ((nodeData.flags & S__) === S__) {
                 for (let stat in nodeData.give) {
                     if (stat === 'prestige' || stat === 'dex') { continue; }
                     if (!statGroup[stat]) {
@@ -316,7 +312,7 @@ let renderText = (node, isNeedCost) => {
             ${Math.ceil(give.prestige * (coeff + 1))}</div>`;
     }
     let polishCost;
-    if (node.classes === 'stat' || node.classes === 'bigStat') {
+    if ((nodeData.flags & S__) === S__) {
         let statText = '';
         text += '<div class="stat">';
         polishCost = 9999;
@@ -348,9 +344,7 @@ let renderText = (node, isNeedCost) => {
                 ${need[key]}</span>`;
         }
         text += '</div>';
-        if ((node.classes === 'stat' || node.classes === 'bigStat') &&
-            nodeData.hasOwnProperty('polish') && !nodeData.give.majesty)
-        {
+        if ((nodeData.flags & S_P) === S_P) {
             text +=
                 `<br/><div class="polish">Полировка:<br/>
                 <div class='polish_cell'>+${Math.ceil(give.prestige / 2)}
@@ -643,11 +637,7 @@ Vue.component('node',
                 }
                 if (ev.altKey) {
                     let nodeData = node.data;
-                    if (!nodeData.open ||
-                        !nodeData.hasOwnProperty('polish') ||
-                        (node.classes !== 'stat' && node.classes !== 'bigStat') ||
-                        nodeData.give.majesty)
-                    {
+                    if (!nodeData.open || (nodeData.flags & S_P) !== S_P) {
                         return;
                     }
                     nodeData.polish = getNewPolish(nodeData.polish, false);
@@ -719,10 +709,7 @@ Vue.component('node',
                 let cy = atlas.cy;
                 let nodeData = node.data;
                 if (ev.altKey) {
-                    if (!nodeData.hasOwnProperty('polish') ||
-                        (node.classes !== 'stat' && node.classes !== 'bigStat') ||
-                        nodeData.give.majesty)
-                    {
+                    if ((nodeData.flags & S_P) !== S_P) {
                         return;
                     }
                     nodeData.polish = getNewPolish(nodeData.polish, true);
