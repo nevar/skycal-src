@@ -1,5 +1,5 @@
 { "name": "skycal"
-, "version": "1.0.2"
+, "version": "1.0.3"
 , "description": "Atlas calculator for Skyforge"
 , "main": "index.html"
 , "scripts":
