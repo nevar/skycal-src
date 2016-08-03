@@ -481,6 +481,7 @@ let atlases =
     [ require('./atlases/main_atlas.js')
     , require('./atlases/god_atlas.js')
     , require('./atlases/rule_god_atlas.js')
+    , require('./atlases/war_god.js')
     ];
 
 calcTotal(atlases);
