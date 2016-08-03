@@ -478,9 +478,9 @@ let getNewPolish = (polish, isWant) => {
 
 let atlasMove = false;
 let atlases =
-    [ require('./atlases/main_atlas.js')
-    , require('./atlases/god_atlas.js')
-    , require('./atlases/rule_god_atlas.js')
+    [ require('./atlases/main.js')
+    , require('./atlases/god.js')
+    , require('./atlases/rule_god.js')
     , require('./atlases/war_god.js')
     ];
 
